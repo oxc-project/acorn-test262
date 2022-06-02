@@ -1,0 +1,345 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 709,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 276,
+      "end": 328,
+      "id": {
+        "type": "Identifier",
+        "start": 282,
+        "end": 297,
+        "name": "CustomPlainDate"
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 306,
+        "end": 324,
+        "object": {
+          "type": "Identifier",
+          "start": 306,
+          "end": 314,
+          "name": "Temporal"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 315,
+          "end": 324,
+          "name": "PlainDate"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 325,
+        "end": 328,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 330,
+      "end": 379,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 336,
+          "end": 378,
+          "id": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 344,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 347,
+            "end": 378,
+            "callee": {
+              "type": "Identifier",
+              "start": 351,
+              "end": 366,
+              "name": "CustomPlainDate"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 367,
+                "end": 371,
+                "value": 2000
+              },
+              {
+                "type": "Literal",
+                "start": 373,
+                "end": 374,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 376,
+                "end": 377,
+                "value": 2
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 380,
+      "end": 441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 380,
+        "end": 440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 380,
+          "end": 411,
+          "object": {
+            "type": "Identifier",
+            "start": 380,
+            "end": 395,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 411,
+            "name": "assertPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 412,
+            "end": 420,
+            "name": "instance"
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 426,
+            "value": 2000
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 429,
+            "value": 5
+          },
+          {
+            "type": "Literal",
+            "start": 431,
+            "end": 436,
+            "value": "M05"
+          },
+          {
+            "type": "Literal",
+            "start": 438,
+            "end": 439,
+            "value": 2
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 442,
+      "end": 550,
+      "expression": {
+        "type": "CallExpression",
+        "start": 442,
+        "end": 549,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 442,
+          "end": 458,
+          "object": {
+            "type": "Identifier",
+            "start": 442,
+            "end": 448,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 449,
+            "end": 458,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 459,
+            "end": 490,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 459,
+              "end": 480,
+              "object": {
+                "type": "Identifier",
+                "start": 459,
+                "end": 465,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 466,
+                "end": 480,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 481,
+                "end": 489,
+                "name": "instance"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 492,
+            "end": 517,
+            "object": {
+              "type": "Identifier",
+              "start": 492,
+              "end": 507,
+              "name": "CustomPlainDate"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 508,
+              "end": 517,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 519,
+            "end": 548,
+            "value": "Instance of CustomPlainDate"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 551,
+      "end": 626,
+      "expression": {
+        "type": "CallExpression",
+        "start": 551,
+        "end": 625,
+        "callee": {
+          "type": "Identifier",
+          "start": 551,
+          "end": 557,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 558,
+            "end": 593,
+            "left": {
+              "type": "Identifier",
+              "start": 558,
+              "end": 566,
+              "name": "instance"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 578,
+              "end": 593,
+              "name": "CustomPlainDate"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 595,
+            "end": 624,
+            "value": "Instance of CustomPlainDate"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 627,
+      "end": 708,
+      "expression": {
+        "type": "CallExpression",
+        "start": 627,
+        "end": 707,
+        "callee": {
+          "type": "Identifier",
+          "start": 627,
+          "end": 633,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 634,
+            "end": 672,
+            "left": {
+              "type": "Identifier",
+              "start": 634,
+              "end": 642,
+              "name": "instance"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "start": 654,
+              "end": 672,
+              "object": {
+                "type": "Identifier",
+                "start": 654,
+                "end": 662,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 663,
+                "end": 672,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 674,
+            "end": 706,
+            "value": "Instance of Temporal.PlainDate"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

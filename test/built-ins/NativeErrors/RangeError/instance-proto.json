@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 504,
+  "end": 505,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 425,
-      "end": 503,
+      "start": 426,
+      "end": 504,
       "expression": {
         "type": "CallExpression",
-        "start": 425,
-        "end": 502,
+        "start": 426,
+        "end": 503,
         "callee": {
           "type": "MemberExpression",
-          "start": 425,
-          "end": 441,
+          "start": 426,
+          "end": 442,
           "object": {
             "type": "Identifier",
-            "start": 425,
-            "end": 431,
+            "start": 426,
+            "end": 432,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 432,
-            "end": 441,
+            "start": 433,
+            "end": 442,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 442,
-            "end": 479,
+            "start": 443,
+            "end": 480,
             "callee": {
               "type": "MemberExpression",
-              "start": 442,
-              "end": 463,
+              "start": 443,
+              "end": 464,
               "object": {
                 "type": "Identifier",
-                "start": 442,
-                "end": 448,
+                "start": 443,
+                "end": 449,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 449,
-                "end": 463,
+                "start": 450,
+                "end": 464,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -57,12 +57,12 @@
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 464,
-                "end": 478,
+                "start": 465,
+                "end": 479,
                 "callee": {
                   "type": "Identifier",
-                  "start": 468,
-                  "end": 478,
+                  "start": 469,
+                  "end": 479,
                   "name": "RangeError"
                 },
                 "arguments": []
@@ -72,18 +72,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 481,
-            "end": 501,
+            "start": 482,
+            "end": 502,
             "object": {
               "type": "Identifier",
-              "start": 481,
-              "end": 491,
+              "start": 482,
+              "end": 492,
               "name": "RangeError"
             },
             "property": {
               "type": "Identifier",
-              "start": 492,
-              "end": 501,
+              "start": 493,
+              "end": 502,
               "name": "prototype"
             },
             "computed": false,

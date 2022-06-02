@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 839,
+  "end": 840,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 679,
-      "end": 695,
+      "start": 680,
+      "end": 696,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 683,
-          "end": 694,
+          "start": 684,
+          "end": 695,
           "id": {
             "type": "Identifier",
-            "start": 683,
-            "end": 684,
+            "start": 684,
+            "end": 685,
             "name": "x"
           },
           "init": {
             "type": "Literal",
-            "start": 687,
-            "end": 694,
+            "start": 688,
+            "end": 695,
             "value": "outer"
           }
         }
@@ -30,12 +30,12 @@
     },
     {
       "type": "FunctionDeclaration",
-      "start": 697,
-      "end": 807,
+      "start": 698,
+      "end": 808,
       "id": {
         "type": "Identifier",
-        "start": 706,
-        "end": 731,
+        "start": 707,
+        "end": 732,
         "name": "evalInPropertyInitializer"
       },
       "expression": false,
@@ -44,47 +44,47 @@
       "params": [
         {
           "type": "ObjectPattern",
-          "start": 732,
-          "end": 770,
+          "start": 733,
+          "end": 771,
           "properties": [
             {
               "type": "Property",
-              "start": 733,
-              "end": 769,
+              "start": 734,
+              "end": 770,
               "method": false,
               "shorthand": false,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 733,
-                "end": 734,
+                "start": 734,
+                "end": 735,
                 "name": "a"
               },
               "value": {
                 "type": "AssignmentPattern",
-                "start": 736,
-                "end": 769,
+                "start": 737,
+                "end": 770,
                 "left": {
                   "type": "Identifier",
-                  "start": 736,
-                  "end": 743,
+                  "start": 737,
+                  "end": 744,
                   "name": "ignored"
                 },
                 "right": {
                   "type": "CallExpression",
-                  "start": 746,
-                  "end": 769,
+                  "start": 747,
+                  "end": 770,
                   "callee": {
                     "type": "Identifier",
-                    "start": 746,
-                    "end": 750,
+                    "start": 747,
+                    "end": 751,
                     "name": "eval"
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 751,
-                      "end": 768,
+                      "start": 752,
+                      "end": 769,
                       "value": "var x = 'inner'"
                     }
                   ],
@@ -98,31 +98,31 @@
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 772,
-        "end": 807,
+        "start": 773,
+        "end": 808,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 776,
-            "end": 805,
+            "start": 777,
+            "end": 806,
             "expression": {
               "type": "CallExpression",
-              "start": 776,
-              "end": 804,
+              "start": 777,
+              "end": 805,
               "callee": {
                 "type": "MemberExpression",
-                "start": 776,
-                "end": 792,
+                "start": 777,
+                "end": 793,
                 "object": {
                   "type": "Identifier",
-                  "start": 776,
-                  "end": 782,
+                  "start": 777,
+                  "end": 783,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 783,
-                  "end": 792,
+                  "start": 784,
+                  "end": 793,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -131,14 +131,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 793,
-                  "end": 794,
+                  "start": 794,
+                  "end": 795,
                   "name": "x"
                 },
                 {
                   "type": "Literal",
-                  "start": 796,
-                  "end": 803,
+                  "start": 797,
+                  "end": 804,
                   "value": "inner"
                 }
               ],
@@ -150,23 +150,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 808,
-      "end": 838,
+      "start": 809,
+      "end": 839,
       "expression": {
         "type": "CallExpression",
-        "start": 808,
-        "end": 837,
+        "start": 809,
+        "end": 838,
         "callee": {
           "type": "Identifier",
-          "start": 808,
-          "end": 833,
+          "start": 809,
+          "end": 834,
           "name": "evalInPropertyInitializer"
         },
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 834,
-            "end": 836,
+            "start": 835,
+            "end": 837,
             "properties": []
           }
         ],

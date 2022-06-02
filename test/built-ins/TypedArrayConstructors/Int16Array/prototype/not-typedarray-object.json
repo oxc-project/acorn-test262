@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 560,
+  "end": 561,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 487,
-      "end": 559,
+      "start": 488,
+      "end": 560,
       "expression": {
         "type": "CallExpression",
-        "start": 487,
-        "end": 558,
+        "start": 488,
+        "end": 559,
         "callee": {
           "type": "MemberExpression",
-          "start": 487,
-          "end": 500,
+          "start": 488,
+          "end": 501,
           "object": {
             "type": "Identifier",
-            "start": 487,
-            "end": 493,
+            "start": 488,
+            "end": 494,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 494,
-            "end": 500,
+            "start": 495,
+            "end": 501,
             "name": "throws"
           },
           "computed": false,
@@ -33,14 +33,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 501,
-            "end": 510,
+            "start": 502,
+            "end": 511,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 512,
-            "end": 557,
+            "start": 513,
+            "end": 558,
             "id": null,
             "expression": false,
             "generator": false,
@@ -48,31 +48,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 523,
-              "end": 557,
+              "start": 524,
+              "end": 558,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 527,
-                  "end": 555,
+                  "start": 528,
+                  "end": 556,
                   "expression": {
                     "type": "MemberExpression",
-                    "start": 527,
-                    "end": 554,
+                    "start": 528,
+                    "end": 555,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 527,
-                      "end": 547,
+                      "start": 528,
+                      "end": 548,
                       "object": {
                         "type": "Identifier",
-                        "start": 527,
-                        "end": 537,
+                        "start": 528,
+                        "end": 538,
                         "name": "Int16Array"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 538,
-                        "end": 547,
+                        "start": 539,
+                        "end": 548,
                         "name": "prototype"
                       },
                       "computed": false,
@@ -80,8 +80,8 @@
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 548,
-                      "end": 554,
+                      "start": 549,
+                      "end": 555,
                       "name": "buffer"
                     },
                     "computed": false,

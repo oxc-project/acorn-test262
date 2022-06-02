@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 346,
+  "end": 348,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 299,
-      "end": 345,
+      "start": 301,
+      "end": 347,
       "expression": {
         "type": "CallExpression",
-        "start": 299,
-        "end": 344,
+        "start": 301,
+        "end": 346,
         "callee": {
           "type": "MemberExpression",
-          "start": 299,
-          "end": 315,
+          "start": 301,
+          "end": 317,
           "object": {
             "type": "Identifier",
-            "start": 299,
-            "end": 305,
+            "start": 301,
+            "end": 307,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 306,
-            "end": 315,
+            "start": 308,
+            "end": 317,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,16 +33,16 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 316,
-            "end": 339,
+            "start": 318,
+            "end": 341,
             "callee": {
               "type": "MemberExpression",
-              "start": 316,
-              "end": 334,
+              "start": 318,
+              "end": 336,
               "object": {
                 "type": "Literal",
-                "start": 316,
-                "end": 319,
+                "start": 318,
+                "end": 321,
                 "value": {},
                 "regex": {
                   "pattern": "z",
@@ -51,18 +51,18 @@
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 320,
-                "end": 333,
+                "start": 322,
+                "end": 335,
                 "object": {
                   "type": "Identifier",
-                  "start": 320,
-                  "end": 326,
+                  "start": 322,
+                  "end": 328,
                   "name": "Symbol"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 327,
-                  "end": 333,
+                  "start": 329,
+                  "end": 335,
                   "name": "search"
                 },
                 "computed": false,
@@ -74,8 +74,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 335,
-                "end": 338,
+                "start": 337,
+                "end": 340,
                 "value": "a"
               }
             ],
@@ -83,14 +83,14 @@
           },
           {
             "type": "UnaryExpression",
-            "start": 341,
-            "end": 343,
+            "start": 343,
+            "end": 345,
             "operator": "-",
             "prefix": true,
             "argument": {
               "type": "Literal",
-              "start": 342,
-              "end": 343,
+              "start": 344,
+              "end": 345,
               "value": 1
             }
           }

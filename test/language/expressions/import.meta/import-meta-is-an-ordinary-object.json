@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2775,
+  "end": 2776,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 682,
-      "end": 780,
+      "start": 683,
+      "end": 781,
       "expression": {
         "type": "CallExpression",
-        "start": 682,
-        "end": 779,
+        "start": 683,
+        "end": 780,
         "callee": {
           "type": "MemberExpression",
-          "start": 682,
-          "end": 698,
+          "start": 683,
+          "end": 699,
           "object": {
             "type": "Identifier",
-            "start": 682,
-            "end": 688,
+            "start": 683,
+            "end": 689,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 689,
-            "end": 698,
+            "start": 690,
+            "end": 699,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,38 +33,38 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 699,
-            "end": 717,
+            "start": 700,
+            "end": 718,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "MetaProperty",
-              "start": 706,
-              "end": 717,
+              "start": 707,
+              "end": 718,
               "meta": {
                 "type": "Identifier",
-                "start": 706,
-                "end": 712,
+                "start": 707,
+                "end": 713,
                 "name": "import"
               },
               "property": {
                 "type": "Identifier",
-                "start": 713,
-                "end": 717,
+                "start": 714,
+                "end": 718,
                 "name": "meta"
               }
             }
           },
           {
             "type": "Literal",
-            "start": 719,
-            "end": 727,
+            "start": 720,
+            "end": 728,
             "value": "object"
           },
           {
             "type": "Literal",
-            "start": 746,
-            "end": 778,
+            "start": 747,
+            "end": 779,
             "value": "typeof import.meta is 'object'"
           }
         ],
@@ -73,26 +73,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 781,
-      "end": 904,
+      "start": 782,
+      "end": 905,
       "expression": {
         "type": "CallExpression",
-        "start": 781,
-        "end": 903,
+        "start": 782,
+        "end": 904,
         "callee": {
           "type": "MemberExpression",
-          "start": 781,
-          "end": 800,
+          "start": 782,
+          "end": 801,
           "object": {
             "type": "Identifier",
-            "start": 781,
-            "end": 787,
+            "start": 782,
+            "end": 788,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 788,
-            "end": 800,
+            "start": 789,
+            "end": 801,
             "name": "notSameValue"
           },
           "computed": false,
@@ -101,31 +101,31 @@
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 801,
-            "end": 812,
+            "start": 802,
+            "end": 813,
             "meta": {
               "type": "Identifier",
-              "start": 801,
-              "end": 807,
+              "start": 802,
+              "end": 808,
               "name": "import"
             },
             "property": {
               "type": "Identifier",
-              "start": 808,
-              "end": 812,
+              "start": 809,
+              "end": 813,
               "name": "meta"
             }
           },
           {
             "type": "Literal",
-            "start": 814,
-            "end": 818,
+            "start": 815,
+            "end": 819,
             "value": null
           },
           {
             "type": "Literal",
-            "start": 840,
-            "end": 902,
+            "start": 841,
+            "end": 903,
             "value": "typeof import.meta is 'object' and import.meta isn't |null|."
           }
         ],
@@ -134,26 +134,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 906,
-      "end": 997,
+      "start": 907,
+      "end": 998,
       "expression": {
         "type": "CallExpression",
-        "start": 906,
-        "end": 996,
+        "start": 907,
+        "end": 997,
         "callee": {
           "type": "MemberExpression",
-          "start": 906,
-          "end": 919,
+          "start": 907,
+          "end": 920,
           "object": {
             "type": "Identifier",
-            "start": 906,
-            "end": 912,
+            "start": 907,
+            "end": 913,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 913,
-            "end": 919,
+            "start": 914,
+            "end": 920,
             "name": "throws"
           },
           "computed": false,
@@ -162,14 +162,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 920,
-            "end": 929,
+            "start": 921,
+            "end": 930,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 931,
-            "end": 964,
+            "start": 932,
+            "end": 965,
             "id": null,
             "expression": false,
             "generator": false,
@@ -177,31 +177,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 942,
-              "end": 964,
+              "start": 943,
+              "end": 965,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 948,
-                  "end": 962,
+                  "start": 949,
+                  "end": 963,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 948,
-                    "end": 961,
+                    "start": 949,
+                    "end": 962,
                     "callee": {
                       "type": "MetaProperty",
-                      "start": 948,
-                      "end": 959,
+                      "start": 949,
+                      "end": 960,
                       "meta": {
                         "type": "Identifier",
-                        "start": 948,
-                        "end": 954,
+                        "start": 949,
+                        "end": 955,
                         "name": "import"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 955,
-                        "end": 959,
+                        "start": 956,
+                        "end": 960,
                         "name": "meta"
                       }
                     },
@@ -214,8 +214,8 @@
           },
           {
             "type": "Literal",
-            "start": 966,
-            "end": 995,
+            "start": 967,
+            "end": 996,
             "value": "import.meta is not callable"
           }
         ],
@@ -224,26 +224,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 999,
-      "end": 1099,
+      "start": 1000,
+      "end": 1100,
       "expression": {
         "type": "CallExpression",
-        "start": 999,
-        "end": 1098,
+        "start": 1000,
+        "end": 1099,
         "callee": {
           "type": "MemberExpression",
-          "start": 999,
-          "end": 1012,
+          "start": 1000,
+          "end": 1013,
           "object": {
             "type": "Identifier",
-            "start": 999,
-            "end": 1005,
+            "start": 1000,
+            "end": 1006,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1006,
-            "end": 1012,
+            "start": 1007,
+            "end": 1013,
             "name": "throws"
           },
           "computed": false,
@@ -252,14 +252,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1013,
-            "end": 1022,
+            "start": 1014,
+            "end": 1023,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 1024,
-            "end": 1061,
+            "start": 1025,
+            "end": 1062,
             "id": null,
             "expression": false,
             "generator": false,
@@ -267,31 +267,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1035,
-              "end": 1061,
+              "start": 1036,
+              "end": 1062,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1041,
-                  "end": 1059,
+                  "start": 1042,
+                  "end": 1060,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 1041,
-                    "end": 1058,
+                    "start": 1042,
+                    "end": 1059,
                     "callee": {
                       "type": "MetaProperty",
-                      "start": 1045,
-                      "end": 1056,
+                      "start": 1046,
+                      "end": 1057,
                       "meta": {
                         "type": "Identifier",
-                        "start": 1045,
-                        "end": 1051,
+                        "start": 1046,
+                        "end": 1052,
                         "name": "import"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1052,
-                        "end": 1056,
+                        "start": 1053,
+                        "end": 1057,
                         "name": "meta"
                       }
                     },
@@ -303,8 +303,8 @@
           },
           {
             "type": "Literal",
-            "start": 1063,
-            "end": 1097,
+            "start": 1064,
+            "end": 1098,
             "value": "import.meta is not a constructor"
           }
         ],
@@ -313,26 +313,26 @@
     },
     {
       "type": "IfStatement",
-      "start": 1404,
-      "end": 2278,
+      "start": 1405,
+      "end": 2279,
       "test": {
         "type": "CallExpression",
-        "start": 1408,
-        "end": 1440,
+        "start": 1409,
+        "end": 1441,
         "callee": {
           "type": "MemberExpression",
-          "start": 1408,
-          "end": 1427,
+          "start": 1409,
+          "end": 1428,
           "object": {
             "type": "Identifier",
-            "start": 1408,
-            "end": 1414,
+            "start": 1409,
+            "end": 1415,
             "name": "Object"
           },
           "property": {
             "type": "Identifier",
-            "start": 1415,
-            "end": 1427,
+            "start": 1416,
+            "end": 1428,
             "name": "isExtensible"
           },
           "computed": false,
@@ -341,18 +341,18 @@
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 1428,
-            "end": 1439,
+            "start": 1429,
+            "end": 1440,
             "meta": {
               "type": "Identifier",
-              "start": 1428,
-              "end": 1434,
+              "start": 1429,
+              "end": 1435,
               "name": "import"
             },
             "property": {
               "type": "Identifier",
-              "start": 1435,
-              "end": 1439,
+              "start": 1436,
+              "end": 1440,
               "name": "meta"
             }
           }
@@ -361,31 +361,31 @@
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1442,
-        "end": 2278,
+        "start": 1443,
+        "end": 2279,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1448,
-            "end": 1608,
+            "start": 1449,
+            "end": 1609,
             "expression": {
               "type": "CallExpression",
-              "start": 1448,
-              "end": 1607,
+              "start": 1449,
+              "end": 1608,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1448,
-                "end": 1464,
+                "start": 1449,
+                "end": 1465,
                 "object": {
                   "type": "Identifier",
-                  "start": 1448,
-                  "end": 1454,
+                  "start": 1449,
+                  "end": 1455,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1455,
-                  "end": 1464,
+                  "start": 1456,
+                  "end": 1465,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -394,22 +394,22 @@
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 1465,
-                  "end": 1524,
+                  "start": 1466,
+                  "end": 1525,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 1465,
-                    "end": 1496,
+                    "start": 1466,
+                    "end": 1497,
                     "object": {
                       "type": "Identifier",
-                      "start": 1465,
-                      "end": 1471,
+                      "start": 1466,
+                      "end": 1472,
                       "name": "Object"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1472,
-                      "end": 1496,
+                      "start": 1473,
+                      "end": 1497,
                       "name": "getOwnPropertyDescriptor"
                     },
                     "computed": false,
@@ -418,25 +418,25 @@
                   "arguments": [
                     {
                       "type": "MetaProperty",
-                      "start": 1497,
-                      "end": 1508,
+                      "start": 1498,
+                      "end": 1509,
                       "meta": {
                         "type": "Identifier",
-                        "start": 1497,
-                        "end": 1503,
+                        "start": 1498,
+                        "end": 1504,
                         "name": "import"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1504,
-                        "end": 1508,
+                        "start": 1505,
+                        "end": 1509,
                         "name": "meta"
                       }
                     },
                     {
                       "type": "Literal",
-                      "start": 1510,
-                      "end": 1523,
+                      "start": 1511,
+                      "end": 1524,
                       "value": "test262prop"
                     }
                   ],
@@ -444,14 +444,14 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 1526,
-                  "end": 1535,
+                  "start": 1527,
+                  "end": 1536,
                   "name": "undefined"
                 },
                 {
                   "type": "Literal",
-                  "start": 1558,
-                  "end": 1606,
+                  "start": 1559,
+                  "end": 1607,
                   "value": "test262 test property is not present initially"
                 }
               ],
@@ -460,38 +460,38 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1614,
-            "end": 1648,
+            "start": 1615,
+            "end": 1649,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1614,
-              "end": 1647,
+              "start": 1615,
+              "end": 1648,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 1614,
-                "end": 1637,
+                "start": 1615,
+                "end": 1638,
                 "object": {
                   "type": "MetaProperty",
-                  "start": 1614,
-                  "end": 1625,
+                  "start": 1615,
+                  "end": 1626,
                   "meta": {
                     "type": "Identifier",
-                    "start": 1614,
-                    "end": 1620,
+                    "start": 1615,
+                    "end": 1621,
                     "name": "import"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1621,
-                    "end": 1625,
+                    "start": 1622,
+                    "end": 1626,
                     "name": "meta"
                   }
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1626,
-                  "end": 1637,
+                  "start": 1627,
+                  "end": 1638,
                   "name": "test262prop"
                 },
                 "computed": false,
@@ -499,34 +499,34 @@
               },
               "right": {
                 "type": "Literal",
-                "start": 1640,
-                "end": 1647,
+                "start": 1641,
+                "end": 1648,
                 "value": "blubb"
               }
             }
           },
           {
             "type": "ExpressionStatement",
-            "start": 1654,
-            "end": 1784,
+            "start": 1655,
+            "end": 1785,
             "expression": {
               "type": "CallExpression",
-              "start": 1654,
-              "end": 1783,
+              "start": 1655,
+              "end": 1784,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1654,
-                "end": 1670,
+                "start": 1655,
+                "end": 1671,
                 "object": {
                   "type": "Identifier",
-                  "start": 1654,
-                  "end": 1660,
+                  "start": 1655,
+                  "end": 1661,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1661,
-                  "end": 1670,
+                  "start": 1662,
+                  "end": 1671,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -535,29 +535,29 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 1671,
-                  "end": 1694,
+                  "start": 1672,
+                  "end": 1695,
                   "object": {
                     "type": "MetaProperty",
-                    "start": 1671,
-                    "end": 1682,
+                    "start": 1672,
+                    "end": 1683,
                     "meta": {
                       "type": "Identifier",
-                      "start": 1671,
-                      "end": 1677,
+                      "start": 1672,
+                      "end": 1678,
                       "name": "import"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1678,
-                      "end": 1682,
+                      "start": 1679,
+                      "end": 1683,
                       "name": "meta"
                     }
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1683,
-                    "end": 1694,
+                    "start": 1684,
+                    "end": 1695,
                     "name": "test262prop"
                   },
                   "computed": false,
@@ -565,14 +565,14 @@
                 },
                 {
                   "type": "Literal",
-                  "start": 1696,
-                  "end": 1703,
+                  "start": 1697,
+                  "end": 1704,
                   "value": "blubb"
                 },
                 {
                   "type": "Literal",
-                  "start": 1726,
-                  "end": 1782,
+                  "start": 1727,
+                  "end": 1783,
                   "value": "Properties can be added and retrieved from import.meta"
                 }
               ],
@@ -581,26 +581,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1790,
-            "end": 1912,
+            "start": 1791,
+            "end": 1913,
             "expression": {
               "type": "CallExpression",
-              "start": 1790,
-              "end": 1911,
+              "start": 1791,
+              "end": 1912,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1790,
-                "end": 1806,
+                "start": 1791,
+                "end": 1807,
                 "object": {
                   "type": "Identifier",
-                  "start": 1790,
-                  "end": 1796,
+                  "start": 1791,
+                  "end": 1797,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1797,
-                  "end": 1806,
+                  "start": 1798,
+                  "end": 1807,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -609,35 +609,35 @@
               "arguments": [
                 {
                   "type": "UnaryExpression",
-                  "start": 1807,
-                  "end": 1837,
+                  "start": 1808,
+                  "end": 1838,
                   "operator": "delete",
                   "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 1814,
-                    "end": 1837,
+                    "start": 1815,
+                    "end": 1838,
                     "object": {
                       "type": "MetaProperty",
-                      "start": 1814,
-                      "end": 1825,
+                      "start": 1815,
+                      "end": 1826,
                       "meta": {
                         "type": "Identifier",
-                        "start": 1814,
-                        "end": 1820,
+                        "start": 1815,
+                        "end": 1821,
                         "name": "import"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1821,
-                        "end": 1825,
+                        "start": 1822,
+                        "end": 1826,
                         "name": "meta"
                       }
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1826,
-                      "end": 1837,
+                      "start": 1827,
+                      "end": 1838,
                       "name": "test262prop"
                     },
                     "computed": false,
@@ -646,14 +646,14 @@
                 },
                 {
                   "type": "Literal",
-                  "start": 1839,
-                  "end": 1843,
+                  "start": 1840,
+                  "end": 1844,
                   "value": true
                 },
                 {
                   "type": "Literal",
-                  "start": 1866,
-                  "end": 1910,
+                  "start": 1867,
+                  "end": 1911,
                   "value": "Properties can be removed from import.meta"
                 }
               ],
@@ -662,26 +662,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1918,
-            "end": 2074,
+            "start": 1919,
+            "end": 2075,
             "expression": {
               "type": "CallExpression",
-              "start": 1918,
-              "end": 2073,
+              "start": 1919,
+              "end": 2074,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1918,
-                "end": 1934,
+                "start": 1919,
+                "end": 1935,
                 "object": {
                   "type": "Identifier",
-                  "start": 1918,
-                  "end": 1924,
+                  "start": 1919,
+                  "end": 1925,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1925,
-                  "end": 1934,
+                  "start": 1926,
+                  "end": 1935,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -690,22 +690,22 @@
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 1935,
-                  "end": 1994,
+                  "start": 1936,
+                  "end": 1995,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 1935,
-                    "end": 1966,
+                    "start": 1936,
+                    "end": 1967,
                     "object": {
                       "type": "Identifier",
-                      "start": 1935,
-                      "end": 1941,
+                      "start": 1936,
+                      "end": 1942,
                       "name": "Object"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1942,
-                      "end": 1966,
+                      "start": 1943,
+                      "end": 1967,
                       "name": "getOwnPropertyDescriptor"
                     },
                     "computed": false,
@@ -714,25 +714,25 @@
                   "arguments": [
                     {
                       "type": "MetaProperty",
-                      "start": 1967,
-                      "end": 1978,
+                      "start": 1968,
+                      "end": 1979,
                       "meta": {
                         "type": "Identifier",
-                        "start": 1967,
-                        "end": 1973,
+                        "start": 1968,
+                        "end": 1974,
                         "name": "import"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1974,
-                        "end": 1978,
+                        "start": 1975,
+                        "end": 1979,
                         "name": "meta"
                       }
                     },
                     {
                       "type": "Literal",
-                      "start": 1980,
-                      "end": 1993,
+                      "start": 1981,
+                      "end": 1994,
                       "value": "test262prop"
                     }
                   ],
@@ -740,14 +740,14 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 1996,
-                  "end": 2005,
+                  "start": 1997,
+                  "end": 2006,
                   "name": "undefined"
                 },
                 {
                   "type": "Literal",
-                  "start": 2028,
-                  "end": 2072,
+                  "start": 2029,
+                  "end": 2073,
                   "value": "test262 test property is no longer present"
                 }
               ],
@@ -756,23 +756,23 @@
           },
           {
             "type": "VariableDeclaration",
-            "start": 2080,
-            "end": 2095,
+            "start": 2081,
+            "end": 2096,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 2084,
-                "end": 2094,
+                "start": 2085,
+                "end": 2095,
                 "id": {
                   "type": "Identifier",
-                  "start": 2084,
-                  "end": 2089,
+                  "start": 2085,
+                  "end": 2090,
                   "name": "proto"
                 },
                 "init": {
                   "type": "ObjectExpression",
-                  "start": 2092,
-                  "end": 2094,
+                  "start": 2093,
+                  "end": 2095,
                   "properties": []
                 }
               }
@@ -781,26 +781,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 2100,
-            "end": 2142,
+            "start": 2101,
+            "end": 2143,
             "expression": {
               "type": "CallExpression",
-              "start": 2100,
-              "end": 2141,
+              "start": 2101,
+              "end": 2142,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2100,
-                "end": 2121,
+                "start": 2101,
+                "end": 2122,
                 "object": {
                   "type": "Identifier",
-                  "start": 2100,
-                  "end": 2106,
+                  "start": 2101,
+                  "end": 2107,
                   "name": "Object"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 2107,
-                  "end": 2121,
+                  "start": 2108,
+                  "end": 2122,
                   "name": "setPrototypeOf"
                 },
                 "computed": false,
@@ -809,25 +809,25 @@
               "arguments": [
                 {
                   "type": "MetaProperty",
-                  "start": 2122,
-                  "end": 2133,
+                  "start": 2123,
+                  "end": 2134,
                   "meta": {
                     "type": "Identifier",
-                    "start": 2122,
-                    "end": 2128,
+                    "start": 2123,
+                    "end": 2129,
                     "name": "import"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 2129,
-                    "end": 2133,
+                    "start": 2130,
+                    "end": 2134,
                     "name": "meta"
                   }
                 },
                 {
                   "type": "Identifier",
-                  "start": 2135,
-                  "end": 2140,
+                  "start": 2136,
+                  "end": 2141,
                   "name": "proto"
                 }
               ],
@@ -836,26 +836,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 2148,
-            "end": 2276,
+            "start": 2149,
+            "end": 2277,
             "expression": {
               "type": "CallExpression",
-              "start": 2148,
-              "end": 2275,
+              "start": 2149,
+              "end": 2276,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2148,
-                "end": 2164,
+                "start": 2149,
+                "end": 2165,
                 "object": {
                   "type": "Identifier",
-                  "start": 2148,
-                  "end": 2154,
+                  "start": 2149,
+                  "end": 2155,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 2155,
-                  "end": 2164,
+                  "start": 2156,
+                  "end": 2165,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -864,22 +864,22 @@
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 2165,
-                  "end": 2199,
+                  "start": 2166,
+                  "end": 2200,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 2165,
-                    "end": 2186,
+                    "start": 2166,
+                    "end": 2187,
                     "object": {
                       "type": "Identifier",
-                      "start": 2165,
-                      "end": 2171,
+                      "start": 2166,
+                      "end": 2172,
                       "name": "Object"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 2172,
-                      "end": 2186,
+                      "start": 2173,
+                      "end": 2187,
                       "name": "getPrototypeOf"
                     },
                     "computed": false,
@@ -888,18 +888,18 @@
                   "arguments": [
                     {
                       "type": "MetaProperty",
-                      "start": 2187,
-                      "end": 2198,
+                      "start": 2188,
+                      "end": 2199,
                       "meta": {
                         "type": "Identifier",
-                        "start": 2187,
-                        "end": 2193,
+                        "start": 2188,
+                        "end": 2194,
                         "name": "import"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 2194,
-                        "end": 2198,
+                        "start": 2195,
+                        "end": 2199,
                         "name": "meta"
                       }
                     }
@@ -908,14 +908,14 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 2201,
-                  "end": 2206,
+                  "start": 2202,
+                  "end": 2207,
                   "name": "proto"
                 },
                 {
                   "type": "Literal",
-                  "start": 2229,
-                  "end": 2274,
+                  "start": 2230,
+                  "end": 2275,
                   "value": "[[Prototype]] of import.meta can be changed"
                 }
               ],
@@ -928,26 +928,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2280,
-      "end": 2318,
+      "start": 2281,
+      "end": 2319,
       "expression": {
         "type": "CallExpression",
-        "start": 2280,
-        "end": 2317,
+        "start": 2281,
+        "end": 2318,
         "callee": {
           "type": "MemberExpression",
-          "start": 2280,
-          "end": 2304,
+          "start": 2281,
+          "end": 2305,
           "object": {
             "type": "Identifier",
-            "start": 2280,
-            "end": 2286,
+            "start": 2281,
+            "end": 2287,
             "name": "Object"
           },
           "property": {
             "type": "Identifier",
-            "start": 2287,
-            "end": 2304,
+            "start": 2288,
+            "end": 2305,
             "name": "preventExtensions"
           },
           "computed": false,
@@ -956,18 +956,18 @@
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 2305,
-            "end": 2316,
+            "start": 2306,
+            "end": 2317,
             "meta": {
               "type": "Identifier",
-              "start": 2305,
-              "end": 2311,
+              "start": 2306,
+              "end": 2312,
               "name": "import"
             },
             "property": {
               "type": "Identifier",
-              "start": 2312,
-              "end": 2316,
+              "start": 2313,
+              "end": 2317,
               "name": "meta"
             }
           }
@@ -977,26 +977,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2319,
-      "end": 2468,
+      "start": 2320,
+      "end": 2469,
       "expression": {
         "type": "CallExpression",
-        "start": 2319,
-        "end": 2467,
+        "start": 2320,
+        "end": 2468,
         "callee": {
           "type": "MemberExpression",
-          "start": 2319,
-          "end": 2335,
+          "start": 2320,
+          "end": 2336,
           "object": {
             "type": "Identifier",
-            "start": 2319,
-            "end": 2325,
+            "start": 2320,
+            "end": 2326,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2326,
-            "end": 2335,
+            "start": 2327,
+            "end": 2336,
             "name": "sameValue"
           },
           "computed": false,
@@ -1005,22 +1005,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2336,
-            "end": 2368,
+            "start": 2337,
+            "end": 2369,
             "callee": {
               "type": "MemberExpression",
-              "start": 2336,
-              "end": 2355,
+              "start": 2337,
+              "end": 2356,
               "object": {
                 "type": "Identifier",
-                "start": 2336,
-                "end": 2342,
+                "start": 2337,
+                "end": 2343,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2343,
-                "end": 2355,
+                "start": 2344,
+                "end": 2356,
                 "name": "isExtensible"
               },
               "computed": false,
@@ -1029,18 +1029,18 @@
             "arguments": [
               {
                 "type": "MetaProperty",
-                "start": 2356,
-                "end": 2367,
+                "start": 2357,
+                "end": 2368,
                 "meta": {
                   "type": "Identifier",
-                  "start": 2356,
-                  "end": 2362,
+                  "start": 2357,
+                  "end": 2363,
                   "name": "import"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 2363,
-                  "end": 2367,
+                  "start": 2364,
+                  "end": 2368,
                   "name": "meta"
                 }
               }
@@ -1049,14 +1049,14 @@
           },
           {
             "type": "Literal",
-            "start": 2370,
-            "end": 2375,
+            "start": 2371,
+            "end": 2376,
             "value": false
           },
           {
             "type": "Literal",
-            "start": 2394,
-            "end": 2466,
+            "start": 2395,
+            "end": 2467,
             "value": "import.meta is non-extensible after calling |Object.preventExtensions|"
           }
         ],
@@ -1065,26 +1065,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2470,
-      "end": 2495,
+      "start": 2471,
+      "end": 2496,
       "expression": {
         "type": "CallExpression",
-        "start": 2470,
-        "end": 2494,
+        "start": 2471,
+        "end": 2495,
         "callee": {
           "type": "MemberExpression",
-          "start": 2470,
-          "end": 2481,
+          "start": 2471,
+          "end": 2482,
           "object": {
             "type": "Identifier",
-            "start": 2470,
-            "end": 2476,
+            "start": 2471,
+            "end": 2477,
             "name": "Object"
           },
           "property": {
             "type": "Identifier",
-            "start": 2477,
-            "end": 2481,
+            "start": 2478,
+            "end": 2482,
             "name": "seal"
           },
           "computed": false,
@@ -1093,18 +1093,18 @@
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 2482,
-            "end": 2493,
+            "start": 2483,
+            "end": 2494,
             "meta": {
               "type": "Identifier",
-              "start": 2482,
-              "end": 2488,
+              "start": 2483,
+              "end": 2489,
               "name": "import"
             },
             "property": {
               "type": "Identifier",
-              "start": 2489,
-              "end": 2493,
+              "start": 2490,
+              "end": 2494,
               "name": "meta"
             }
           }
@@ -1114,26 +1114,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2496,
-      "end": 2619,
+      "start": 2497,
+      "end": 2620,
       "expression": {
         "type": "CallExpression",
-        "start": 2496,
-        "end": 2618,
+        "start": 2497,
+        "end": 2619,
         "callee": {
           "type": "MemberExpression",
-          "start": 2496,
-          "end": 2512,
+          "start": 2497,
+          "end": 2513,
           "object": {
             "type": "Identifier",
-            "start": 2496,
-            "end": 2502,
+            "start": 2497,
+            "end": 2503,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2503,
-            "end": 2512,
+            "start": 2504,
+            "end": 2513,
             "name": "sameValue"
           },
           "computed": false,
@@ -1142,22 +1142,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2513,
-            "end": 2541,
+            "start": 2514,
+            "end": 2542,
             "callee": {
               "type": "MemberExpression",
-              "start": 2513,
-              "end": 2528,
+              "start": 2514,
+              "end": 2529,
               "object": {
                 "type": "Identifier",
-                "start": 2513,
-                "end": 2519,
+                "start": 2514,
+                "end": 2520,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2520,
-                "end": 2528,
+                "start": 2521,
+                "end": 2529,
                 "name": "isSealed"
               },
               "computed": false,
@@ -1166,18 +1166,18 @@
             "arguments": [
               {
                 "type": "MetaProperty",
-                "start": 2529,
-                "end": 2540,
+                "start": 2530,
+                "end": 2541,
                 "meta": {
                   "type": "Identifier",
-                  "start": 2529,
-                  "end": 2535,
+                  "start": 2530,
+                  "end": 2536,
                   "name": "import"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 2536,
-                  "end": 2540,
+                  "start": 2537,
+                  "end": 2541,
                   "name": "meta"
                 }
               }
@@ -1186,14 +1186,14 @@
           },
           {
             "type": "Literal",
-            "start": 2543,
-            "end": 2547,
+            "start": 2544,
+            "end": 2548,
             "value": true
           },
           {
             "type": "Literal",
-            "start": 2566,
-            "end": 2617,
+            "start": 2567,
+            "end": 2618,
             "value": "import.meta is sealed after calling |Object.seal|"
           }
         ],
@@ -1202,26 +1202,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2621,
-      "end": 2648,
+      "start": 2622,
+      "end": 2649,
       "expression": {
         "type": "CallExpression",
-        "start": 2621,
-        "end": 2647,
+        "start": 2622,
+        "end": 2648,
         "callee": {
           "type": "MemberExpression",
-          "start": 2621,
-          "end": 2634,
+          "start": 2622,
+          "end": 2635,
           "object": {
             "type": "Identifier",
-            "start": 2621,
-            "end": 2627,
+            "start": 2622,
+            "end": 2628,
             "name": "Object"
           },
           "property": {
             "type": "Identifier",
-            "start": 2628,
-            "end": 2634,
+            "start": 2629,
+            "end": 2635,
             "name": "freeze"
           },
           "computed": false,
@@ -1230,18 +1230,18 @@
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 2635,
-            "end": 2646,
+            "start": 2636,
+            "end": 2647,
             "meta": {
               "type": "Identifier",
-              "start": 2635,
-              "end": 2641,
+              "start": 2636,
+              "end": 2642,
               "name": "import"
             },
             "property": {
               "type": "Identifier",
-              "start": 2642,
-              "end": 2646,
+              "start": 2643,
+              "end": 2647,
               "name": "meta"
             }
           }
@@ -1251,26 +1251,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2649,
-      "end": 2774,
+      "start": 2650,
+      "end": 2775,
       "expression": {
         "type": "CallExpression",
-        "start": 2649,
-        "end": 2773,
+        "start": 2650,
+        "end": 2774,
         "callee": {
           "type": "MemberExpression",
-          "start": 2649,
-          "end": 2665,
+          "start": 2650,
+          "end": 2666,
           "object": {
             "type": "Identifier",
-            "start": 2649,
-            "end": 2655,
+            "start": 2650,
+            "end": 2656,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2656,
-            "end": 2665,
+            "start": 2657,
+            "end": 2666,
             "name": "sameValue"
           },
           "computed": false,
@@ -1279,22 +1279,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2666,
-            "end": 2694,
+            "start": 2667,
+            "end": 2695,
             "callee": {
               "type": "MemberExpression",
-              "start": 2666,
-              "end": 2681,
+              "start": 2667,
+              "end": 2682,
               "object": {
                 "type": "Identifier",
-                "start": 2666,
-                "end": 2672,
+                "start": 2667,
+                "end": 2673,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2673,
-                "end": 2681,
+                "start": 2674,
+                "end": 2682,
                 "name": "isFrozen"
               },
               "computed": false,
@@ -1303,18 +1303,18 @@
             "arguments": [
               {
                 "type": "MetaProperty",
-                "start": 2682,
-                "end": 2693,
+                "start": 2683,
+                "end": 2694,
                 "meta": {
                   "type": "Identifier",
-                  "start": 2682,
-                  "end": 2688,
+                  "start": 2683,
+                  "end": 2689,
                   "name": "import"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 2689,
-                  "end": 2693,
+                  "start": 2690,
+                  "end": 2694,
                   "name": "meta"
                 }
               }
@@ -1323,14 +1323,14 @@
           },
           {
             "type": "Literal",
-            "start": 2696,
-            "end": 2700,
+            "start": 2697,
+            "end": 2701,
             "value": true
           },
           {
             "type": "Literal",
-            "start": 2719,
-            "end": 2772,
+            "start": 2720,
+            "end": 2773,
             "value": "import.meta is frozen after calling |Object.freeze|"
           }
         ],

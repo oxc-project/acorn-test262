@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 989,
+  "end": 990,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 302,
-      "end": 314,
+      "start": 303,
+      "end": 315,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 306,
-          "end": 313,
+          "start": 307,
+          "end": 314,
           "id": {
             "type": "Identifier",
-            "start": 306,
-            "end": 307,
+            "start": 307,
+            "end": 308,
             "name": "x"
           },
           "init": {
             "type": "Literal",
-            "start": 310,
-            "end": 313,
+            "start": 311,
+            "end": 314,
             "value": "h"
           }
         }
@@ -30,51 +30,51 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 315,
-      "end": 413,
+      "start": 316,
+      "end": 414,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 319,
-          "end": 412,
+          "start": 320,
+          "end": 413,
           "id": {
             "type": "Identifier",
-            "start": 319,
-            "end": 320,
+            "start": 320,
+            "end": 321,
             "name": "f"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 323,
-            "end": 412,
+            "start": 324,
+            "end": 413,
             "object": {
               "type": "ClassExpression",
-              "start": 323,
-              "end": 410,
+              "start": 324,
+              "end": 411,
               "id": null,
               "superClass": null,
               "body": {
                 "type": "ClassBody",
-                "start": 329,
-                "end": 410,
+                "start": 330,
+                "end": 411,
                 "body": [
                   {
                     "type": "MethodDefinition",
-                    "start": 331,
-                    "end": 397,
+                    "start": 332,
+                    "end": 398,
                     "static": true,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 356,
-                      "end": 357,
+                      "start": 357,
+                      "end": 358,
                       "name": "f"
                     },
                     "kind": "method",
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 366,
-                      "end": 397,
+                      "start": 367,
+                      "end": 398,
                       "id": null,
                       "expression": false,
                       "generator": false,
@@ -82,8 +82,8 @@
                       "params": [],
                       "body": {
                         "type": "BlockStatement",
-                        "start": 386,
-                        "end": 397,
+                        "start": 387,
+                        "end": 398,
                         "body": []
                       }
                     }
@@ -93,8 +93,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 411,
-              "end": 412,
+              "start": 412,
+              "end": 413,
               "name": "f"
             },
             "computed": false,
@@ -106,51 +106,51 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 414,
-      "end": 542,
+      "start": 415,
+      "end": 543,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 418,
-          "end": 541,
+          "start": 419,
+          "end": 542,
           "id": {
             "type": "Identifier",
-            "start": 418,
-            "end": 419,
+            "start": 419,
+            "end": 420,
             "name": "g"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 422,
-            "end": 541,
+            "start": 423,
+            "end": 542,
             "object": {
               "type": "ClassExpression",
-              "start": 422,
-              "end": 539,
+              "start": 423,
+              "end": 540,
               "id": null,
               "superClass": null,
               "body": {
                 "type": "ClassBody",
-                "start": 428,
-                "end": 539,
+                "start": 429,
+                "end": 540,
                 "body": [
                   {
                     "type": "MethodDefinition",
-                    "start": 430,
-                    "end": 526,
+                    "start": 431,
+                    "end": 527,
                     "static": true,
                     "computed": true,
                     "key": {
                       "type": "Literal",
-                      "start": 473,
-                      "end": 476,
+                      "start": 474,
+                      "end": 477,
                       "value": "g"
                     },
                     "kind": "method",
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 495,
-                      "end": 526,
+                      "start": 496,
+                      "end": 527,
                       "id": null,
                       "expression": false,
                       "generator": false,
@@ -158,8 +158,8 @@
                       "params": [],
                       "body": {
                         "type": "BlockStatement",
-                        "start": 515,
-                        "end": 526,
+                        "start": 516,
+                        "end": 527,
                         "body": []
                       }
                     }
@@ -169,8 +169,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 540,
-              "end": 541,
+              "start": 541,
+              "end": 542,
               "name": "g"
             },
             "computed": false,
@@ -182,51 +182,51 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 543,
-      "end": 669,
+      "start": 544,
+      "end": 670,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 547,
-          "end": 668,
+          "start": 548,
+          "end": 669,
           "id": {
             "type": "Identifier",
-            "start": 547,
-            "end": 548,
+            "start": 548,
+            "end": 549,
             "name": "h"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 551,
-            "end": 668,
+            "start": 552,
+            "end": 669,
             "object": {
               "type": "ClassExpression",
-              "start": 551,
-              "end": 666,
+              "start": 552,
+              "end": 667,
               "id": null,
               "superClass": null,
               "body": {
                 "type": "ClassBody",
-                "start": 557,
-                "end": 666,
+                "start": 558,
+                "end": 667,
                 "body": [
                   {
                     "type": "MethodDefinition",
-                    "start": 559,
-                    "end": 653,
+                    "start": 560,
+                    "end": 654,
                     "static": true,
                     "computed": true,
                     "key": {
                       "type": "Identifier",
-                      "start": 602,
-                      "end": 603,
+                      "start": 603,
+                      "end": 604,
                       "name": "x"
                     },
                     "kind": "method",
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 622,
-                      "end": 653,
+                      "start": 623,
+                      "end": 654,
                       "id": null,
                       "expression": false,
                       "generator": false,
@@ -234,8 +234,8 @@
                       "params": [],
                       "body": {
                         "type": "BlockStatement",
-                        "start": 642,
-                        "end": 653,
+                        "start": 643,
+                        "end": 654,
                         "body": []
                       }
                     }
@@ -245,8 +245,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 667,
-              "end": 668,
+              "start": 668,
+              "end": 669,
               "name": "h"
             },
             "computed": false,
@@ -258,29 +258,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 671,
-      "end": 756,
+      "start": 672,
+      "end": 757,
       "expression": {
         "type": "CallExpression",
-        "start": 671,
-        "end": 755,
+        "start": 672,
+        "end": 756,
         "callee": {
           "type": "Identifier",
-          "start": 671,
-          "end": 701,
+          "start": 672,
+          "end": 702,
           "name": "assertToStringOrNativeFunction"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 702,
-            "end": 703,
+            "start": 703,
+            "end": 704,
             "name": "f"
           },
           {
             "type": "Literal",
-            "start": 705,
-            "end": 754,
+            "start": 706,
+            "end": 755,
             "value": "async f /* a */ ( /* b */ ) /* c */ { /* d */ }"
           }
         ],
@@ -289,29 +289,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 757,
-      "end": 874,
+      "start": 758,
+      "end": 875,
       "expression": {
         "type": "CallExpression",
-        "start": 757,
-        "end": 873,
+        "start": 758,
+        "end": 874,
         "callee": {
           "type": "Identifier",
-          "start": 757,
-          "end": 787,
+          "start": 758,
+          "end": 788,
           "name": "assertToStringOrNativeFunction"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 788,
-            "end": 789,
+            "start": 789,
+            "end": 790,
             "name": "g"
           },
           {
             "type": "Literal",
-            "start": 791,
-            "end": 872,
+            "start": 792,
+            "end": 873,
             "value": "async /* a */ [ /* b */ \"g\" /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }"
           }
         ],
@@ -320,29 +320,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 875,
-      "end": 988,
+      "start": 876,
+      "end": 989,
       "expression": {
         "type": "CallExpression",
-        "start": 875,
-        "end": 987,
+        "start": 876,
+        "end": 988,
         "callee": {
           "type": "Identifier",
-          "start": 875,
-          "end": 905,
+          "start": 876,
+          "end": 906,
           "name": "assertToStringOrNativeFunction"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 906,
-            "end": 907,
+            "start": 907,
+            "end": 908,
             "name": "h"
           },
           {
             "type": "Literal",
-            "start": 909,
-            "end": 986,
+            "start": 910,
+            "end": 987,
             "value": "async /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ ) /* f */ { /* g */ }"
           }
         ],

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 433,
+  "end": 441,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -30,65 +30,65 @@
     },
     {
       "type": "IfStatement",
-      "start": 317,
-      "end": 432,
+      "start": 321,
+      "end": 440,
       "test": {
         "type": "BinaryExpression",
-        "start": 321,
-        "end": 328,
+        "start": 325,
+        "end": 332,
         "left": {
           "type": "Identifier",
-          "start": 321,
-          "end": 322,
+          "start": 325,
+          "end": 326,
           "name": "x"
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 327,
-          "end": 328,
+          "start": 331,
+          "end": 332,
           "value": 0
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 330,
-        "end": 432,
+        "start": 334,
+        "end": 440,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 334,
-            "end": 430,
+            "start": 338,
+            "end": 438,
             "argument": {
               "type": "NewExpression",
-              "start": 340,
-              "end": 429,
+              "start": 344,
+              "end": 437,
               "callee": {
                 "type": "Identifier",
-                "start": 344,
-                "end": 356,
+                "start": 348,
+                "end": 360,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 357,
-                  "end": 428,
+                  "start": 361,
+                  "end": 436,
                   "left": {
                     "type": "Literal",
-                    "start": 357,
-                    "end": 422,
+                    "start": 361,
+                    "end": 430,
                     "value": "#1: var x = 0; /* multi line comment x = 1;*/ x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 425,
-                    "end": 428,
+                    "start": 433,
+                    "end": 436,
                     "expression": {
                       "type": "Identifier",
-                      "start": 426,
-                      "end": 427,
+                      "start": 434,
+                      "end": 435,
                       "name": "x"
                     }
                   }

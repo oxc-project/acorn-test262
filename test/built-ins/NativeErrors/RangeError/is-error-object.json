@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 504,
+  "end": 505,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 420,
-      "end": 503,
+      "start": 421,
+      "end": 504,
       "expression": {
         "type": "CallExpression",
-        "start": 420,
-        "end": 502,
+        "start": 421,
+        "end": 503,
         "callee": {
           "type": "MemberExpression",
-          "start": 420,
-          "end": 436,
+          "start": 421,
+          "end": 437,
           "object": {
             "type": "Identifier",
-            "start": 420,
-            "end": 426,
+            "start": 421,
+            "end": 427,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 427,
-            "end": 436,
+            "start": 428,
+            "end": 437,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,30 +33,30 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 437,
-            "end": 483,
+            "start": 438,
+            "end": 484,
             "callee": {
               "type": "MemberExpression",
-              "start": 437,
-              "end": 467,
+              "start": 438,
+              "end": 468,
               "object": {
                 "type": "MemberExpression",
-                "start": 437,
-                "end": 462,
+                "start": 438,
+                "end": 463,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 437,
-                  "end": 453,
+                  "start": 438,
+                  "end": 454,
                   "object": {
                     "type": "Identifier",
-                    "start": 437,
-                    "end": 443,
+                    "start": 438,
+                    "end": 444,
                     "name": "Object"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 444,
-                    "end": 453,
+                    "start": 445,
+                    "end": 454,
                     "name": "prototype"
                   },
                   "computed": false,
@@ -64,8 +64,8 @@
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 454,
-                  "end": 462,
+                  "start": 455,
+                  "end": 463,
                   "name": "toString"
                 },
                 "computed": false,
@@ -73,8 +73,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 463,
-                "end": 467,
+                "start": 464,
+                "end": 468,
                 "name": "call"
               },
               "computed": false,
@@ -83,12 +83,12 @@
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 468,
-                "end": 482,
+                "start": 469,
+                "end": 483,
                 "callee": {
                   "type": "Identifier",
-                  "start": 472,
-                  "end": 482,
+                  "start": 473,
+                  "end": 483,
                   "name": "RangeError"
                 },
                 "arguments": []
@@ -98,8 +98,8 @@
           },
           {
             "type": "Literal",
-            "start": 485,
-            "end": 501,
+            "start": 486,
+            "end": 502,
             "value": "[object Error]"
           }
         ],

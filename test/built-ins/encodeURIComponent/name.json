@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 935,
+  "end": 936,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 725,
-      "end": 789,
+      "start": 726,
+      "end": 790,
       "expression": {
         "type": "CallExpression",
-        "start": 725,
-        "end": 788,
+        "start": 726,
+        "end": 789,
         "callee": {
           "type": "MemberExpression",
-          "start": 725,
-          "end": 741,
+          "start": 726,
+          "end": 742,
           "object": {
             "type": "Identifier",
-            "start": 725,
-            "end": 731,
+            "start": 726,
+            "end": 732,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 732,
-            "end": 741,
+            "start": 733,
+            "end": 742,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,18 +33,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 742,
-            "end": 765,
+            "start": 743,
+            "end": 766,
             "object": {
               "type": "Identifier",
-              "start": 742,
-              "end": 760,
+              "start": 743,
+              "end": 761,
               "name": "encodeURIComponent"
             },
             "property": {
               "type": "Identifier",
-              "start": 761,
-              "end": 765,
+              "start": 762,
+              "end": 766,
               "name": "name"
             },
             "computed": false,
@@ -52,8 +52,8 @@
           },
           {
             "type": "Literal",
-            "start": 767,
-            "end": 787,
+            "start": 768,
+            "end": 788,
             "value": "encodeURIComponent"
           }
         ],
@@ -62,29 +62,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 791,
-      "end": 839,
+      "start": 792,
+      "end": 840,
       "expression": {
         "type": "CallExpression",
-        "start": 791,
-        "end": 838,
+        "start": 792,
+        "end": 839,
         "callee": {
           "type": "Identifier",
-          "start": 791,
-          "end": 810,
+          "start": 792,
+          "end": 811,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 811,
-            "end": 829,
+            "start": 812,
+            "end": 830,
             "name": "encodeURIComponent"
           },
           {
             "type": "Literal",
-            "start": 831,
-            "end": 837,
+            "start": 832,
+            "end": 838,
             "value": "name"
           }
         ],
@@ -93,29 +93,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 840,
-      "end": 886,
+      "start": 841,
+      "end": 887,
       "expression": {
         "type": "CallExpression",
-        "start": 840,
-        "end": 885,
+        "start": 841,
+        "end": 886,
         "callee": {
           "type": "Identifier",
-          "start": 840,
-          "end": 857,
+          "start": 841,
+          "end": 858,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 858,
-            "end": 876,
+            "start": 859,
+            "end": 877,
             "name": "encodeURIComponent"
           },
           {
             "type": "Literal",
-            "start": 878,
-            "end": 884,
+            "start": 879,
+            "end": 885,
             "value": "name"
           }
         ],
@@ -124,29 +124,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 887,
-      "end": 934,
+      "start": 888,
+      "end": 935,
       "expression": {
         "type": "CallExpression",
-        "start": 887,
-        "end": 933,
+        "start": 888,
+        "end": 934,
         "callee": {
           "type": "Identifier",
-          "start": 887,
-          "end": 905,
+          "start": 888,
+          "end": 906,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 906,
-            "end": 924,
+            "start": 907,
+            "end": 925,
             "name": "encodeURIComponent"
           },
           {
             "type": "Literal",
-            "start": 926,
-            "end": 932,
+            "start": 927,
+            "end": 933,
             "value": "name"
           }
         ],

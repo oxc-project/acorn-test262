@@ -1,26 +1,26 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1340,
+  "end": 1342,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1314,
-      "end": 1339,
+      "start": 1316,
+      "end": 1341,
       "expression": {
         "type": "UnaryExpression",
-        "start": 1314,
-        "end": 1338,
+        "start": 1316,
+        "end": 1340,
         "operator": "void",
         "prefix": true,
         "argument": {
           "type": "AwaitExpression",
-          "start": 1319,
-          "end": 1338,
+          "start": 1321,
+          "end": 1340,
           "argument": {
             "type": "FunctionExpression",
-            "start": 1325,
-            "end": 1338,
+            "start": 1327,
+            "end": 1340,
             "id": null,
             "expression": false,
             "generator": false,
@@ -28,8 +28,8 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1336,
-              "end": 1338,
+              "start": 1338,
+              "end": 1340,
               "body": []
             }
           }

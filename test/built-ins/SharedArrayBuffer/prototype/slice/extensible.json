@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 590,
+  "end": 591,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 526,
-      "end": 589,
+      "start": 527,
+      "end": 590,
       "expression": {
         "type": "CallExpression",
-        "start": 526,
-        "end": 588,
+        "start": 527,
+        "end": 589,
         "callee": {
           "type": "Identifier",
-          "start": 526,
-          "end": 532,
+          "start": 527,
+          "end": 533,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 533,
-            "end": 587,
+            "start": 534,
+            "end": 588,
             "callee": {
               "type": "MemberExpression",
-              "start": 533,
-              "end": 552,
+              "start": 534,
+              "end": 553,
               "object": {
                 "type": "Identifier",
-                "start": 533,
-                "end": 539,
+                "start": 534,
+                "end": 540,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 540,
-                "end": 552,
+                "start": 541,
+                "end": 553,
                 "name": "isExtensible"
               },
               "computed": false,
@@ -44,22 +44,22 @@
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 553,
-                "end": 586,
+                "start": 554,
+                "end": 587,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 553,
-                  "end": 580,
+                  "start": 554,
+                  "end": 581,
                   "object": {
                     "type": "Identifier",
-                    "start": 553,
-                    "end": 570,
+                    "start": 554,
+                    "end": 571,
                     "name": "SharedArrayBuffer"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 571,
-                    "end": 580,
+                    "start": 572,
+                    "end": 581,
                     "name": "prototype"
                   },
                   "computed": false,
@@ -67,8 +67,8 @@
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 581,
-                  "end": 586,
+                  "start": 582,
+                  "end": 587,
                   "name": "slice"
                 },
                 "computed": false,

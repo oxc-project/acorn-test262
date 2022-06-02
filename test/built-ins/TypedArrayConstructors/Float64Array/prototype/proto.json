@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 565,
+  "end": 566,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 478,
-      "end": 564,
+      "start": 479,
+      "end": 565,
       "expression": {
         "type": "CallExpression",
-        "start": 478,
-        "end": 563,
+        "start": 479,
+        "end": 564,
         "callee": {
           "type": "MemberExpression",
-          "start": 478,
-          "end": 494,
+          "start": 479,
+          "end": 495,
           "object": {
             "type": "Identifier",
-            "start": 478,
-            "end": 484,
+            "start": 479,
+            "end": 485,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 485,
-            "end": 494,
+            "start": 486,
+            "end": 495,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 495,
-            "end": 540,
+            "start": 496,
+            "end": 541,
             "callee": {
               "type": "MemberExpression",
-              "start": 495,
-              "end": 516,
+              "start": 496,
+              "end": 517,
               "object": {
                 "type": "Identifier",
-                "start": 495,
-                "end": 501,
+                "start": 496,
+                "end": 502,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 502,
-                "end": 516,
+                "start": 503,
+                "end": 517,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -57,18 +57,18 @@
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 517,
-                "end": 539,
+                "start": 518,
+                "end": 540,
                 "object": {
                   "type": "Identifier",
-                  "start": 517,
-                  "end": 529,
+                  "start": 518,
+                  "end": 530,
                   "name": "Float64Array"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 530,
-                  "end": 539,
+                  "start": 531,
+                  "end": 540,
                   "name": "prototype"
                 },
                 "computed": false,
@@ -79,18 +79,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 542,
-            "end": 562,
+            "start": 543,
+            "end": 563,
             "object": {
               "type": "Identifier",
-              "start": 542,
-              "end": 552,
+              "start": 543,
+              "end": 553,
               "name": "TypedArray"
             },
             "property": {
               "type": "Identifier",
-              "start": 553,
-              "end": 562,
+              "start": 554,
+              "end": 563,
               "name": "prototype"
             },
             "computed": false,

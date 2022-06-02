@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 974,
+  "end": 976,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 742,
-      "end": 767,
+      "start": 744,
+      "end": 769,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 746,
-          "end": 766,
+          "start": 748,
+          "end": 768,
           "id": {
             "type": "Identifier",
-            "start": 746,
-            "end": 761,
+            "start": 748,
+            "end": 763,
             "name": "targetPrototype"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 764,
-            "end": 766,
+            "start": 766,
+            "end": 768,
             "properties": []
           }
         }
@@ -30,58 +30,58 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 768,
-      "end": 871,
+      "start": 770,
+      "end": 873,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 772,
-          "end": 870,
+          "start": 774,
+          "end": 872,
           "id": {
             "type": "Identifier",
-            "start": 772,
-            "end": 778,
+            "start": 774,
+            "end": 780,
             "name": "target"
           },
           "init": {
             "type": "NewExpression",
-            "start": 781,
-            "end": 870,
+            "start": 783,
+            "end": 872,
             "callee": {
               "type": "Identifier",
-              "start": 785,
-              "end": 790,
+              "start": 787,
+              "end": 792,
               "name": "Proxy"
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 791,
-                "end": 793,
+                "start": 793,
+                "end": 795,
                 "properties": []
               },
               {
                 "type": "ObjectExpression",
-                "start": 795,
-                "end": 869,
+                "start": 797,
+                "end": 871,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 799,
-                    "end": 866,
+                    "start": 801,
+                    "end": 868,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 799,
-                      "end": 813,
+                      "start": 801,
+                      "end": 815,
                       "name": "getPrototypeOf"
                     },
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 815,
-                      "end": 866,
+                      "start": 817,
+                      "end": 868,
                       "id": null,
                       "expression": false,
                       "generator": false,
@@ -89,24 +89,24 @@
                       "params": [
                         {
                           "type": "Identifier",
-                          "start": 824,
-                          "end": 831,
+                          "start": 826,
+                          "end": 833,
                           "name": "_target"
                         }
                       ],
                       "body": {
                         "type": "BlockStatement",
-                        "start": 833,
-                        "end": 866,
+                        "start": 835,
+                        "end": 868,
                         "body": [
                           {
                             "type": "ReturnStatement",
-                            "start": 839,
-                            "end": 862,
+                            "start": 841,
+                            "end": 864,
                             "argument": {
                               "type": "Identifier",
-                              "start": 846,
-                              "end": 861,
+                              "start": 848,
+                              "end": 863,
                               "name": "targetPrototype"
                             }
                           }
@@ -125,40 +125,40 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 873,
-      "end": 907,
+      "start": 875,
+      "end": 909,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 877,
-          "end": 906,
+          "start": 879,
+          "end": 908,
           "id": {
             "type": "Identifier",
-            "start": 877,
-            "end": 882,
+            "start": 879,
+            "end": 884,
             "name": "proxy"
           },
           "init": {
             "type": "NewExpression",
-            "start": 885,
-            "end": 906,
+            "start": 887,
+            "end": 908,
             "callee": {
               "type": "Identifier",
-              "start": 889,
-              "end": 894,
+              "start": 891,
+              "end": 896,
               "name": "Proxy"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 895,
-                "end": 901,
+                "start": 897,
+                "end": 903,
                 "name": "target"
               },
               {
                 "type": "ObjectExpression",
-                "start": 903,
-                "end": 905,
+                "start": 905,
+                "end": 907,
                 "properties": []
               }
             ]
@@ -169,26 +169,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 909,
-      "end": 973,
+      "start": 911,
+      "end": 975,
       "expression": {
         "type": "CallExpression",
-        "start": 909,
-        "end": 972,
+        "start": 911,
+        "end": 974,
         "callee": {
           "type": "MemberExpression",
-          "start": 909,
-          "end": 925,
+          "start": 911,
+          "end": 927,
           "object": {
             "type": "Identifier",
-            "start": 909,
-            "end": 915,
+            "start": 911,
+            "end": 917,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 916,
-            "end": 925,
+            "start": 918,
+            "end": 927,
             "name": "sameValue"
           },
           "computed": false,
@@ -197,22 +197,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 926,
-            "end": 954,
+            "start": 928,
+            "end": 956,
             "callee": {
               "type": "MemberExpression",
-              "start": 926,
-              "end": 947,
+              "start": 928,
+              "end": 949,
               "object": {
                 "type": "Identifier",
-                "start": 926,
-                "end": 932,
+                "start": 928,
+                "end": 934,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 933,
-                "end": 947,
+                "start": 935,
+                "end": 949,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -221,8 +221,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 948,
-                "end": 953,
+                "start": 950,
+                "end": 955,
                 "name": "proxy"
               }
             ],
@@ -230,8 +230,8 @@
           },
           {
             "type": "Identifier",
-            "start": 956,
-            "end": 971,
+            "start": 958,
+            "end": 973,
             "name": "targetPrototype"
           }
         ],

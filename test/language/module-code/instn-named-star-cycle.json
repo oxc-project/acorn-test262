@@ -1,60 +1,60 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2275,
+  "end": 2279,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 2190,
-      "end": 2248,
+      "start": 2194,
+      "end": 2252,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 2199,
-          "end": 2200,
+          "start": 2203,
+          "end": 2204,
           "imported": {
             "type": "Identifier",
-            "start": 2199,
-            "end": 2200,
+            "start": 2207,
+            "end": 2208,
             "name": "x"
           },
           "local": {
             "type": "Identifier",
-            "start": 2199,
-            "end": 2200,
+            "start": 2207,
+            "end": 2208,
             "name": "x"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 2208,
-        "end": 2247,
+        "start": 2212,
+        "end": 2251,
         "value": "./instn-named-star-cycle-2_FIXTURE.js"
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 2250,
-      "end": 2274,
+      "start": 2254,
+      "end": 2278,
       "expression": {
         "type": "CallExpression",
-        "start": 2250,
-        "end": 2273,
+        "start": 2254,
+        "end": 2277,
         "callee": {
           "type": "MemberExpression",
-          "start": 2250,
-          "end": 2266,
+          "start": 2254,
+          "end": 2270,
           "object": {
             "type": "Identifier",
-            "start": 2250,
-            "end": 2256,
+            "start": 2254,
+            "end": 2260,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2257,
-            "end": 2266,
+            "start": 2261,
+            "end": 2270,
             "name": "sameValue"
           },
           "computed": false,
@@ -63,14 +63,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2267,
-            "end": 2268,
+            "start": 2271,
+            "end": 2272,
             "name": "x"
           },
           {
             "type": "Literal",
-            "start": 2270,
-            "end": 2272,
+            "start": 2274,
+            "end": 2276,
             "value": 45
           }
         ],

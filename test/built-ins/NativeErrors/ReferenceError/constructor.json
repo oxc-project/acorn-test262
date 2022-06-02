@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 310,
+  "end": 311,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 218,
-      "end": 309,
+      "start": 219,
+      "end": 310,
       "expression": {
         "type": "CallExpression",
-        "start": 218,
-        "end": 308,
+        "start": 219,
+        "end": 309,
         "callee": {
           "type": "MemberExpression",
-          "start": 218,
-          "end": 234,
+          "start": 219,
+          "end": 235,
           "object": {
             "type": "Identifier",
-            "start": 218,
-            "end": 224,
+            "start": 219,
+            "end": 225,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 225,
-            "end": 234,
+            "start": 226,
+            "end": 235,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,27 +33,27 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 235,
-            "end": 256,
+            "start": 236,
+            "end": 257,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "Identifier",
-              "start": 242,
-              "end": 256,
+              "start": 243,
+              "end": 257,
               "name": "ReferenceError"
             }
           },
           {
             "type": "Literal",
-            "start": 258,
-            "end": 268,
+            "start": 259,
+            "end": 269,
             "value": "function"
           },
           {
             "type": "Literal",
-            "start": 270,
-            "end": 307,
+            "start": 271,
+            "end": 308,
             "value": "typeof ReferenceError is \"function\""
           }
         ],

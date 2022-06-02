@@ -1,50 +1,50 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 869,
+  "end": 871,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 850,
-      "end": 860,
+      "start": 852,
+      "end": 862,
       "id": {
         "type": "Identifier",
-        "start": 856,
-        "end": 857,
+        "start": 858,
+        "end": 859,
         "name": "C"
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 858,
-        "end": 860,
+        "start": 860,
+        "end": 862,
         "body": []
       }
     },
     {
       "type": "BlockStatement",
-      "start": 860,
-      "end": 867,
+      "start": 862,
+      "end": 869,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 861,
-          "end": 866,
+          "start": 863,
+          "end": 868,
           "body": {
             "type": "ExpressionStatement",
-            "start": 864,
-            "end": 866,
+            "start": 866,
+            "end": 868,
             "expression": {
               "type": "Literal",
-              "start": 864,
-              "end": 866,
+              "start": 866,
+              "end": 868,
               "value": 42
             }
           },
           "label": {
             "type": "Identifier",
-            "start": 861,
-            "end": 862,
+            "start": 863,
+            "end": 864,
             "name": "x"
           }
         }
@@ -52,8 +52,8 @@
     },
     {
       "type": "EmptyStatement",
-      "start": 867,
-      "end": 868
+      "start": 869,
+      "end": 870
     }
   ],
   "sourceType": "script"

@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 818,
+  "end": 819,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 658,
-      "end": 699,
+      "start": 659,
+      "end": 700,
       "expression": {
         "type": "CallExpression",
-        "start": 658,
-        "end": 698,
+        "start": 659,
+        "end": 699,
         "callee": {
           "type": "MemberExpression",
-          "start": 658,
-          "end": 674,
+          "start": 659,
+          "end": 675,
           "object": {
             "type": "Identifier",
-            "start": 658,
-            "end": 664,
+            "start": 659,
+            "end": 665,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 665,
-            "end": 674,
+            "start": 666,
+            "end": 675,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 675,
-            "end": 689,
+            "start": 676,
+            "end": 690,
             "object": {
               "type": "MemberExpression",
-              "start": 675,
-              "end": 684,
+              "start": 676,
+              "end": 685,
               "object": {
                 "type": "Identifier",
-                "start": 675,
-                "end": 679,
+                "start": 676,
+                "end": 680,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 680,
-                "end": 684,
+                "start": 681,
+                "end": 685,
                 "name": "asin"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 685,
-              "end": 689,
+              "start": 686,
+              "end": 690,
               "name": "name"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Literal",
-            "start": 691,
-            "end": 697,
+            "start": 692,
+            "end": 698,
             "value": "asin"
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 701,
-      "end": 740,
+      "start": 702,
+      "end": 741,
       "expression": {
         "type": "CallExpression",
-        "start": 701,
-        "end": 739,
+        "start": 702,
+        "end": 740,
         "callee": {
           "type": "Identifier",
-          "start": 701,
-          "end": 720,
+          "start": 702,
+          "end": 721,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 721,
-            "end": 730,
+            "start": 722,
+            "end": 731,
             "object": {
               "type": "Identifier",
-              "start": 721,
-              "end": 725,
+              "start": 722,
+              "end": 726,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 726,
-              "end": 730,
+              "start": 727,
+              "end": 731,
               "name": "asin"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 732,
-            "end": 738,
+            "start": 733,
+            "end": 739,
             "value": "name"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 741,
-      "end": 778,
+      "start": 742,
+      "end": 779,
       "expression": {
         "type": "CallExpression",
-        "start": 741,
-        "end": 777,
+        "start": 742,
+        "end": 778,
         "callee": {
           "type": "Identifier",
-          "start": 741,
-          "end": 758,
+          "start": 742,
+          "end": 759,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 759,
-            "end": 768,
+            "start": 760,
+            "end": 769,
             "object": {
               "type": "Identifier",
-              "start": 759,
-              "end": 763,
+              "start": 760,
+              "end": 764,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 764,
-              "end": 768,
+              "start": 765,
+              "end": 769,
               "name": "asin"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 770,
-            "end": 776,
+            "start": 771,
+            "end": 777,
             "value": "name"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 779,
-      "end": 817,
+      "start": 780,
+      "end": 818,
       "expression": {
         "type": "CallExpression",
-        "start": 779,
-        "end": 816,
+        "start": 780,
+        "end": 817,
         "callee": {
           "type": "Identifier",
-          "start": 779,
-          "end": 797,
+          "start": 780,
+          "end": 798,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 798,
-            "end": 807,
+            "start": 799,
+            "end": 808,
             "object": {
               "type": "Identifier",
-              "start": 798,
-              "end": 802,
+              "start": 799,
+              "end": 803,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 803,
-              "end": 807,
+              "start": 804,
+              "end": 808,
               "name": "asin"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 809,
-            "end": 815,
+            "start": 810,
+            "end": 816,
             "value": "name"
           }
         ],

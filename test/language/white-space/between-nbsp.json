@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 333,
+  "end": 336,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 296,
-      "end": 307,
+      "start": 297,
+      "end": 310,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 300,
-          "end": 305,
+          "start": 301,
+          "end": 307,
           "id": {
             "type": "Identifier",
-            "start": 300,
-            "end": 301,
+            "start": 301,
+            "end": 302,
             "name": "x"
           },
           "init": {
             "type": "Literal",
-            "start": 304,
-            "end": 305,
+            "start": 306,
+            "end": 307,
             "value": 2
           }
         }
@@ -30,26 +30,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 309,
-      "end": 332,
+      "start": 312,
+      "end": 335,
       "expression": {
         "type": "CallExpression",
-        "start": 309,
-        "end": 331,
+        "start": 312,
+        "end": 334,
         "callee": {
           "type": "MemberExpression",
-          "start": 309,
-          "end": 325,
+          "start": 312,
+          "end": 328,
           "object": {
             "type": "Identifier",
-            "start": 309,
-            "end": 315,
+            "start": 312,
+            "end": 318,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 316,
-            "end": 325,
+            "start": 319,
+            "end": 328,
             "name": "sameValue"
           },
           "computed": false,
@@ -58,14 +58,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 326,
-            "end": 327,
+            "start": 329,
+            "end": 330,
             "name": "x"
           },
           {
             "type": "Literal",
-            "start": 329,
-            "end": 330,
+            "start": 332,
+            "end": 333,
             "value": 2
           }
         ],

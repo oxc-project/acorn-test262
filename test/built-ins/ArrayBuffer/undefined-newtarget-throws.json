@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 542,
+  "end": 543,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 421,
-      "end": 479,
+      "start": 422,
+      "end": 480,
       "expression": {
         "type": "CallExpression",
-        "start": 421,
-        "end": 478,
+        "start": 422,
+        "end": 479,
         "callee": {
           "type": "MemberExpression",
-          "start": 421,
-          "end": 434,
+          "start": 422,
+          "end": 435,
           "object": {
             "type": "Identifier",
-            "start": 421,
-            "end": 427,
+            "start": 422,
+            "end": 428,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 428,
-            "end": 434,
+            "start": 429,
+            "end": 435,
             "name": "throws"
           },
           "computed": false,
@@ -33,14 +33,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 435,
-            "end": 444,
+            "start": 436,
+            "end": 445,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 446,
-            "end": 477,
+            "start": 447,
+            "end": 478,
             "id": null,
             "expression": false,
             "generator": false,
@@ -48,21 +48,21 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 457,
-              "end": 477,
+              "start": 458,
+              "end": 478,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 461,
-                  "end": 475,
+                  "start": 462,
+                  "end": 476,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 461,
-                    "end": 474,
+                    "start": 462,
+                    "end": 475,
                     "callee": {
                       "type": "Identifier",
-                      "start": 461,
-                      "end": 472,
+                      "start": 462,
+                      "end": 473,
                       "name": "ArrayBuffer"
                     },
                     "arguments": [],
@@ -78,26 +78,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 481,
-      "end": 541,
+      "start": 482,
+      "end": 542,
       "expression": {
         "type": "CallExpression",
-        "start": 481,
-        "end": 540,
+        "start": 482,
+        "end": 541,
         "callee": {
           "type": "MemberExpression",
-          "start": 481,
-          "end": 494,
+          "start": 482,
+          "end": 495,
           "object": {
             "type": "Identifier",
-            "start": 481,
-            "end": 487,
+            "start": 482,
+            "end": 488,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 488,
-            "end": 494,
+            "start": 489,
+            "end": 495,
             "name": "throws"
           },
           "computed": false,
@@ -106,14 +106,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 495,
-            "end": 504,
+            "start": 496,
+            "end": 505,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 506,
-            "end": 539,
+            "start": 507,
+            "end": 540,
             "id": null,
             "expression": false,
             "generator": false,
@@ -121,28 +121,28 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 517,
-              "end": 539,
+              "start": 518,
+              "end": 540,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 521,
-                  "end": 537,
+                  "start": 522,
+                  "end": 538,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 521,
-                    "end": 536,
+                    "start": 522,
+                    "end": 537,
                     "callee": {
                       "type": "Identifier",
-                      "start": 521,
-                      "end": 532,
+                      "start": 522,
+                      "end": 533,
                       "name": "ArrayBuffer"
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 533,
-                        "end": 535,
+                        "start": 534,
+                        "end": 536,
                         "value": 10
                       }
                     ],

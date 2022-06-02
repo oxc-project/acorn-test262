@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 645,
+  "end": 646,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 329,
-      "end": 461,
+      "start": 330,
+      "end": 462,
       "id": {
         "type": "Identifier",
-        "start": 370,
-        "end": 371,
+        "start": 371,
+        "end": 372,
         "name": "f"
       },
       "expression": false,
@@ -19,60 +19,60 @@
       "params": [
         {
           "type": "Identifier",
-          "start": 390,
-          "end": 391,
+          "start": 391,
+          "end": 392,
           "name": "x"
         },
         {
           "type": "Identifier",
-          "start": 410,
-          "end": 411,
+          "start": 411,
+          "end": 412,
           "name": "y"
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 430,
-        "end": 461,
+        "start": 431,
+        "end": 462,
         "body": [
           {
             "type": "EmptyStatement",
-            "start": 440,
-            "end": 441
+            "start": 441,
+            "end": 442
           },
           {
             "type": "EmptyStatement",
-            "start": 450,
-            "end": 451
+            "start": 451,
+            "end": 452
           }
         ]
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 474,
-      "end": 644,
+      "start": 475,
+      "end": 645,
       "expression": {
         "type": "CallExpression",
-        "start": 474,
-        "end": 643,
+        "start": 475,
+        "end": 644,
         "callee": {
           "type": "Identifier",
-          "start": 474,
-          "end": 504,
+          "start": 475,
+          "end": 505,
           "name": "assertToStringOrNativeFunction"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 505,
-            "end": 506,
+            "start": 506,
+            "end": 507,
             "name": "f"
           },
           {
             "type": "Literal",
-            "start": 508,
-            "end": 642,
+            "start": 509,
+            "end": 643,
             "value": "async /* a */ function /* b */ * /* c */ f /* d */ ( /* e */ x /* f */ , /* g */ y /* h */ ) /* i */ { /* j */ ; /* k */ ; /* l */ }"
           }
         ],

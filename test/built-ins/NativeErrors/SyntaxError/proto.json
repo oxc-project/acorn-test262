@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 402,
+  "end": 403,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 341,
-      "end": 401,
+      "start": 342,
+      "end": 402,
       "expression": {
         "type": "CallExpression",
-        "start": 341,
-        "end": 400,
+        "start": 342,
+        "end": 401,
         "callee": {
           "type": "MemberExpression",
-          "start": 341,
-          "end": 357,
+          "start": 342,
+          "end": 358,
           "object": {
             "type": "Identifier",
-            "start": 341,
-            "end": 347,
+            "start": 342,
+            "end": 348,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 348,
-            "end": 357,
+            "start": 349,
+            "end": 358,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 358,
-            "end": 392,
+            "start": 359,
+            "end": 393,
             "callee": {
               "type": "MemberExpression",
-              "start": 358,
-              "end": 379,
+              "start": 359,
+              "end": 380,
               "object": {
                 "type": "Identifier",
-                "start": 358,
-                "end": 364,
+                "start": 359,
+                "end": 365,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 365,
-                "end": 379,
+                "start": 366,
+                "end": 380,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -57,8 +57,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 380,
-                "end": 391,
+                "start": 381,
+                "end": 392,
                 "name": "SyntaxError"
               }
             ],
@@ -66,8 +66,8 @@
           },
           {
             "type": "Identifier",
-            "start": 394,
-            "end": 399,
+            "start": 395,
+            "end": 400,
             "name": "Error"
           }
         ],

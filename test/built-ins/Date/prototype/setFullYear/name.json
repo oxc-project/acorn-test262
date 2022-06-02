@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 981,
+  "end": 982,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 746,
-      "end": 811,
+      "start": 747,
+      "end": 812,
       "expression": {
         "type": "CallExpression",
-        "start": 746,
-        "end": 810,
+        "start": 747,
+        "end": 811,
         "callee": {
           "type": "MemberExpression",
-          "start": 746,
-          "end": 762,
+          "start": 747,
+          "end": 763,
           "object": {
             "type": "Identifier",
-            "start": 746,
-            "end": 752,
+            "start": 747,
+            "end": 753,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 753,
-            "end": 762,
+            "start": 754,
+            "end": 763,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,26 +33,26 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 763,
-            "end": 794,
+            "start": 764,
+            "end": 795,
             "object": {
               "type": "MemberExpression",
-              "start": 763,
-              "end": 789,
+              "start": 764,
+              "end": 790,
               "object": {
                 "type": "MemberExpression",
-                "start": 763,
-                "end": 777,
+                "start": 764,
+                "end": 778,
                 "object": {
                   "type": "Identifier",
-                  "start": 763,
-                  "end": 767,
+                  "start": 764,
+                  "end": 768,
                   "name": "Date"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 768,
-                  "end": 777,
+                  "start": 769,
+                  "end": 778,
                   "name": "prototype"
                 },
                 "computed": false,
@@ -60,8 +60,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 778,
-                "end": 789,
+                "start": 779,
+                "end": 790,
                 "name": "setFullYear"
               },
               "computed": false,
@@ -69,8 +69,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 790,
-              "end": 794,
+              "start": 791,
+              "end": 795,
               "name": "name"
             },
             "computed": false,
@@ -78,8 +78,8 @@
           },
           {
             "type": "Literal",
-            "start": 796,
-            "end": 809,
+            "start": 797,
+            "end": 810,
             "value": "setFullYear"
           }
         ],
@@ -88,37 +88,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 813,
-      "end": 869,
+      "start": 814,
+      "end": 870,
       "expression": {
         "type": "CallExpression",
-        "start": 813,
-        "end": 868,
+        "start": 814,
+        "end": 869,
         "callee": {
           "type": "Identifier",
-          "start": 813,
-          "end": 832,
+          "start": 814,
+          "end": 833,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 833,
-            "end": 859,
+            "start": 834,
+            "end": 860,
             "object": {
               "type": "MemberExpression",
-              "start": 833,
-              "end": 847,
+              "start": 834,
+              "end": 848,
               "object": {
                 "type": "Identifier",
-                "start": 833,
-                "end": 837,
+                "start": 834,
+                "end": 838,
                 "name": "Date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 838,
-                "end": 847,
+                "start": 839,
+                "end": 848,
                 "name": "prototype"
               },
               "computed": false,
@@ -126,8 +126,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 848,
-              "end": 859,
+              "start": 849,
+              "end": 860,
               "name": "setFullYear"
             },
             "computed": false,
@@ -135,8 +135,8 @@
           },
           {
             "type": "Literal",
-            "start": 861,
-            "end": 867,
+            "start": 862,
+            "end": 868,
             "value": "name"
           }
         ],
@@ -145,37 +145,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 870,
-      "end": 924,
+      "start": 871,
+      "end": 925,
       "expression": {
         "type": "CallExpression",
-        "start": 870,
-        "end": 923,
+        "start": 871,
+        "end": 924,
         "callee": {
           "type": "Identifier",
-          "start": 870,
-          "end": 887,
+          "start": 871,
+          "end": 888,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 888,
-            "end": 914,
+            "start": 889,
+            "end": 915,
             "object": {
               "type": "MemberExpression",
-              "start": 888,
-              "end": 902,
+              "start": 889,
+              "end": 903,
               "object": {
                 "type": "Identifier",
-                "start": 888,
-                "end": 892,
+                "start": 889,
+                "end": 893,
                 "name": "Date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 893,
-                "end": 902,
+                "start": 894,
+                "end": 903,
                 "name": "prototype"
               },
               "computed": false,
@@ -183,8 +183,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 903,
-              "end": 914,
+              "start": 904,
+              "end": 915,
               "name": "setFullYear"
             },
             "computed": false,
@@ -192,8 +192,8 @@
           },
           {
             "type": "Literal",
-            "start": 916,
-            "end": 922,
+            "start": 917,
+            "end": 923,
             "value": "name"
           }
         ],
@@ -202,37 +202,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 925,
-      "end": 980,
+      "start": 926,
+      "end": 981,
       "expression": {
         "type": "CallExpression",
-        "start": 925,
-        "end": 979,
+        "start": 926,
+        "end": 980,
         "callee": {
           "type": "Identifier",
-          "start": 925,
-          "end": 943,
+          "start": 926,
+          "end": 944,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 944,
-            "end": 970,
+            "start": 945,
+            "end": 971,
             "object": {
               "type": "MemberExpression",
-              "start": 944,
-              "end": 958,
+              "start": 945,
+              "end": 959,
               "object": {
                 "type": "Identifier",
-                "start": 944,
-                "end": 948,
+                "start": 945,
+                "end": 949,
                 "name": "Date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 949,
-                "end": 958,
+                "start": 950,
+                "end": 959,
                 "name": "prototype"
               },
               "computed": false,
@@ -240,8 +240,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 959,
-              "end": 970,
+              "start": 960,
+              "end": 971,
               "name": "setFullYear"
             },
             "computed": false,
@@ -249,8 +249,8 @@
           },
           {
             "type": "Literal",
-            "start": 972,
-            "end": 978,
+            "start": 973,
+            "end": 979,
             "value": "name"
           }
         ],

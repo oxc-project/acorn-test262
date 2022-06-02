@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 939,
+  "end": 943,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 646,
-      "end": 725,
+      "start": 650,
+      "end": 729,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 652,
-          "end": 724,
+          "start": 656,
+          "end": 728,
           "id": {
             "type": "Identifier",
-            "start": 652,
-            "end": 660,
+            "start": 656,
+            "end": 664,
             "name": "datetime"
           },
           "init": {
             "type": "NewExpression",
-            "start": 663,
-            "end": 724,
+            "start": 667,
+            "end": 728,
             "callee": {
               "type": "MemberExpression",
-              "start": 667,
-              "end": 689,
+              "start": 671,
+              "end": 693,
               "object": {
                 "type": "Identifier",
-                "start": 667,
-                "end": 675,
+                "start": 671,
+                "end": 679,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 676,
-                "end": 689,
+                "start": 680,
+                "end": 693,
                 "name": "ZonedDateTime"
               },
               "computed": false,
@@ -44,14 +44,14 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 690,
-                "end": 716,
+                "start": 694,
+                "end": 720,
                 "value": "1000000000987654321n"
               },
               {
                 "type": "Literal",
-                "start": 718,
-                "end": 723,
+                "start": 722,
+                "end": 727,
                 "value": "UTC"
               }
             ]
@@ -62,37 +62,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 727,
-      "end": 791,
+      "start": 731,
+      "end": 795,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 733,
-          "end": 790,
+          "start": 737,
+          "end": 794,
           "id": {
             "type": "Identifier",
-            "start": 733,
-            "end": 741,
+            "start": 737,
+            "end": 745,
             "name": "explicit"
           },
           "init": {
             "type": "CallExpression",
-            "start": 744,
-            "end": 790,
+            "start": 748,
+            "end": 794,
             "callee": {
               "type": "MemberExpression",
-              "start": 744,
-              "end": 761,
+              "start": 748,
+              "end": 765,
               "object": {
                 "type": "Identifier",
-                "start": 744,
-                "end": 752,
+                "start": 748,
+                "end": 756,
                 "name": "datetime"
               },
               "property": {
                 "type": "Identifier",
-                "start": 753,
-                "end": 761,
+                "start": 757,
+                "end": 765,
                 "name": "toString"
               },
               "computed": false,
@@ -101,26 +101,26 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 762,
-                "end": 789,
+                "start": 766,
+                "end": 793,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 764,
-                    "end": 787,
+                    "start": 768,
+                    "end": 791,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 764,
-                      "end": 776,
+                      "start": 768,
+                      "end": 780,
                       "name": "timeZoneName"
                     },
                     "value": {
                       "type": "Identifier",
-                      "start": 778,
-                      "end": 787,
+                      "start": 782,
+                      "end": 791,
                       "name": "undefined"
                     },
                     "kind": "init"
@@ -136,26 +136,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 792,
-      "end": 902,
+      "start": 796,
+      "end": 906,
       "expression": {
         "type": "CallExpression",
-        "start": 792,
-        "end": 901,
+        "start": 796,
+        "end": 905,
         "callee": {
           "type": "MemberExpression",
-          "start": 792,
-          "end": 808,
+          "start": 796,
+          "end": 812,
           "object": {
             "type": "Identifier",
-            "start": 792,
-            "end": 798,
+            "start": 796,
+            "end": 802,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 799,
-            "end": 808,
+            "start": 803,
+            "end": 812,
             "name": "sameValue"
           },
           "computed": false,
@@ -164,20 +164,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 809,
-            "end": 817,
+            "start": 813,
+            "end": 821,
             "name": "explicit"
           },
           {
             "type": "Literal",
-            "start": 819,
-            "end": 861,
+            "start": 823,
+            "end": 865,
             "value": "2001-09-09T01:46:40.987654321+00:00[UTC]"
           },
           {
             "type": "Literal",
-            "start": 863,
-            "end": 900,
+            "start": 867,
+            "end": 904,
             "value": "default timeZoneName option is auto"
           }
         ],

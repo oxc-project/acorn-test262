@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 388,
+  "end": 393,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 335,
-      "end": 387,
+      "end": 392,
       "expression": {
         "type": "CallExpression",
         "start": 335,
-        "end": 386,
+        "end": 391,
         "callee": {
           "type": "MemberExpression",
           "start": 335,
@@ -40,7 +40,7 @@
           {
             "type": "ArrowFunctionExpression",
             "start": 360,
-            "end": 385,
+            "end": 390,
             "id": null,
             "expression": true,
             "generator": false,
@@ -49,7 +49,7 @@
             "body": {
               "type": "CallExpression",
               "start": 366,
-              "end": 385,
+              "end": 390,
               "callee": {
                 "type": "MemberExpression",
                 "start": 366,
@@ -69,7 +69,14 @@
                 "computed": false,
                 "optional": false
               },
-              "arguments": [],
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 384,
+                  "end": 389,
+                  "value": "UTC"
+                }
+              ],
               "optional": false
             }
           }

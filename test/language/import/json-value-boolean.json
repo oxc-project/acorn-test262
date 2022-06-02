@@ -1,46 +1,46 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 709,
+  "end": 711,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 598,
-      "end": 676,
+      "start": 600,
+      "end": 678,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 605,
-          "end": 610,
+          "start": 607,
+          "end": 612,
           "local": {
             "type": "Identifier",
-            "start": 605,
-            "end": 610,
+            "start": 607,
+            "end": 612,
             "name": "value"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 616,
-        "end": 651,
+        "start": 618,
+        "end": 653,
         "value": "./json-value-boolean_FIXTURE.json"
       },
       "assertions": [
         {
           "type": "ImportAttribute",
-          "start": 661,
-          "end": 673,
+          "start": 663,
+          "end": 675,
           "key": {
             "type": "Identifier",
-            "start": 661,
-            "end": 665,
+            "start": 663,
+            "end": 667,
             "name": "type"
           },
           "value": {
             "type": "Literal",
-            "start": 667,
-            "end": 673,
+            "start": 669,
+            "end": 675,
             "value": "json"
           }
         }
@@ -48,26 +48,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 678,
-      "end": 708,
+      "start": 680,
+      "end": 710,
       "expression": {
         "type": "CallExpression",
-        "start": 678,
-        "end": 707,
+        "start": 680,
+        "end": 709,
         "callee": {
           "type": "MemberExpression",
-          "start": 678,
-          "end": 694,
+          "start": 680,
+          "end": 696,
           "object": {
             "type": "Identifier",
-            "start": 678,
-            "end": 684,
+            "start": 680,
+            "end": 686,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 685,
-            "end": 694,
+            "start": 687,
+            "end": 696,
             "name": "sameValue"
           },
           "computed": false,
@@ -76,14 +76,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 695,
-            "end": 700,
+            "start": 697,
+            "end": 702,
             "name": "value"
           },
           {
             "type": "Literal",
-            "start": 702,
-            "end": 706,
+            "start": 704,
+            "end": 708,
             "value": true
           }
         ],

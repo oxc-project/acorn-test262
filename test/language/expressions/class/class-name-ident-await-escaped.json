@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 510,
+  "end": 511,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 481,
-      "end": 509,
+      "start": 482,
+      "end": 510,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 485,
-          "end": 508,
+          "start": 486,
+          "end": 509,
           "id": {
             "type": "Identifier",
-            "start": 485,
-            "end": 486,
+            "start": 486,
+            "end": 487,
             "name": "C"
           },
           "init": {
             "type": "ClassExpression",
-            "start": 489,
-            "end": 508,
+            "start": 490,
+            "end": 509,
             "id": {
               "type": "Identifier",
-              "start": 495,
-              "end": 505,
+              "start": 496,
+              "end": 506,
               "name": "await"
             },
             "superClass": null,
             "body": {
               "type": "ClassBody",
-              "start": 506,
-              "end": 508,
+              "start": 507,
+              "end": 509,
               "body": []
             }
           }

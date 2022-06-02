@@ -1,20 +1,20 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2066,
+  "end": 2068,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2039,
-      "end": 2065,
+      "start": 2041,
+      "end": 2067,
       "declaration": {
         "type": "AwaitExpression",
-        "start": 2054,
-        "end": 2064,
+        "start": 2056,
+        "end": 2066,
         "argument": {
           "type": "Literal",
-          "start": 2060,
-          "end": 2064,
+          "start": 2062,
+          "end": 2066,
           "value": null
         }
       }

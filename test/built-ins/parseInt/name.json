@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 891,
+  "end": 892,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 687,
-      "end": 775,
+      "start": 688,
+      "end": 776,
       "expression": {
         "type": "CallExpression",
-        "start": 687,
-        "end": 774,
+        "start": 688,
+        "end": 775,
         "callee": {
           "type": "MemberExpression",
-          "start": 687,
-          "end": 703,
+          "start": 688,
+          "end": 704,
           "object": {
             "type": "Identifier",
-            "start": 687,
-            "end": 693,
+            "start": 688,
+            "end": 694,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 694,
-            "end": 703,
+            "start": 695,
+            "end": 704,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,18 +33,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 704,
-            "end": 717,
+            "start": 705,
+            "end": 718,
             "object": {
               "type": "Identifier",
-              "start": 704,
-              "end": 712,
+              "start": 705,
+              "end": 713,
               "name": "parseInt"
             },
             "property": {
               "type": "Identifier",
-              "start": 713,
-              "end": 717,
+              "start": 714,
+              "end": 718,
               "name": "name"
             },
             "computed": false,
@@ -52,14 +52,14 @@
           },
           {
             "type": "Literal",
-            "start": 719,
-            "end": 729,
+            "start": 720,
+            "end": 730,
             "value": "parseInt"
           },
           {
             "type": "Literal",
-            "start": 731,
-            "end": 773,
+            "start": 732,
+            "end": 774,
             "value": "The value of parseInt.name is \"parseInt\""
           }
         ],
@@ -68,29 +68,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 777,
-      "end": 815,
+      "start": 778,
+      "end": 816,
       "expression": {
         "type": "CallExpression",
-        "start": 777,
-        "end": 814,
+        "start": 778,
+        "end": 815,
         "callee": {
           "type": "Identifier",
-          "start": 777,
-          "end": 796,
+          "start": 778,
+          "end": 797,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 797,
-            "end": 805,
+            "start": 798,
+            "end": 806,
             "name": "parseInt"
           },
           {
             "type": "Literal",
-            "start": 807,
-            "end": 813,
+            "start": 808,
+            "end": 814,
             "value": "name"
           }
         ],
@@ -99,29 +99,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 816,
-      "end": 852,
+      "start": 817,
+      "end": 853,
       "expression": {
         "type": "CallExpression",
-        "start": 816,
-        "end": 851,
+        "start": 817,
+        "end": 852,
         "callee": {
           "type": "Identifier",
-          "start": 816,
-          "end": 833,
+          "start": 817,
+          "end": 834,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 834,
-            "end": 842,
+            "start": 835,
+            "end": 843,
             "name": "parseInt"
           },
           {
             "type": "Literal",
-            "start": 844,
-            "end": 850,
+            "start": 845,
+            "end": 851,
             "value": "name"
           }
         ],
@@ -130,29 +130,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 853,
-      "end": 890,
+      "start": 854,
+      "end": 891,
       "expression": {
         "type": "CallExpression",
-        "start": 853,
-        "end": 889,
+        "start": 854,
+        "end": 890,
         "callee": {
           "type": "Identifier",
-          "start": 853,
-          "end": 871,
+          "start": 854,
+          "end": 872,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 872,
-            "end": 880,
+            "start": 873,
+            "end": 881,
             "name": "parseInt"
           },
           {
             "type": "Literal",
-            "start": 882,
-            "end": 888,
+            "start": 883,
+            "end": 889,
             "value": "name"
           }
         ],

@@ -1,71 +1,71 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 728,
+  "end": 729,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 312,
-      "end": 602,
+      "start": 313,
+      "end": 603,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 318,
-          "end": 601,
+          "start": 319,
+          "end": 602,
           "id": {
             "type": "Identifier",
-            "start": 318,
-            "end": 338,
+            "start": 319,
+            "end": 339,
             "name": "regularGrandfathered"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 341,
-            "end": 601,
+            "start": 342,
+            "end": 602,
             "elements": [
               {
                 "type": "ObjectExpression",
-                "start": 347,
-                "end": 407,
+                "start": 348,
+                "end": 408,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 357,
-                    "end": 374,
+                    "start": 358,
+                    "end": 375,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 357,
-                      "end": 360,
+                      "start": 358,
+                      "end": 361,
                       "name": "tag"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 362,
-                      "end": 374,
+                      "start": 363,
+                      "end": 375,
                       "value": "art-lojban"
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 384,
-                    "end": 400,
+                    "start": 385,
+                    "end": 401,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 384,
-                      "end": 393,
+                      "start": 385,
+                      "end": 394,
                       "name": "canonical"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 395,
-                      "end": 400,
+                      "start": 396,
+                      "end": 401,
                       "value": "jbo"
                     },
                     "kind": "init"
@@ -74,47 +74,47 @@
               },
               {
                 "type": "ObjectExpression",
-                "start": 413,
-                "end": 470,
+                "start": 414,
+                "end": 471,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 423,
-                    "end": 438,
+                    "start": 424,
+                    "end": 439,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 423,
-                      "end": 426,
+                      "start": 424,
+                      "end": 427,
                       "name": "tag"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 428,
-                      "end": 438,
+                      "start": 429,
+                      "end": 439,
                       "value": "zh-guoyu"
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 448,
-                    "end": 463,
+                    "start": 449,
+                    "end": 464,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 448,
-                      "end": 457,
+                      "start": 449,
+                      "end": 458,
                       "name": "canonical"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 459,
-                      "end": 463,
+                      "start": 460,
+                      "end": 464,
                       "value": "zh"
                     },
                     "kind": "init"
@@ -123,47 +123,47 @@
               },
               {
                 "type": "ObjectExpression",
-                "start": 476,
-                "end": 534,
+                "start": 477,
+                "end": 535,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 486,
-                    "end": 501,
+                    "start": 487,
+                    "end": 502,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 486,
-                      "end": 489,
+                      "start": 487,
+                      "end": 490,
                       "name": "tag"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 491,
-                      "end": 501,
+                      "start": 492,
+                      "end": 502,
                       "value": "zh-hakka"
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 511,
-                    "end": 527,
+                    "start": 512,
+                    "end": 528,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 511,
-                      "end": 520,
+                      "start": 512,
+                      "end": 521,
                       "name": "canonical"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 522,
-                      "end": 527,
+                      "start": 523,
+                      "end": 528,
                       "value": "hak"
                     },
                     "kind": "init"
@@ -172,47 +172,47 @@
               },
               {
                 "type": "ObjectExpression",
-                "start": 540,
-                "end": 598,
+                "start": 541,
+                "end": 599,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 550,
-                    "end": 565,
+                    "start": 551,
+                    "end": 566,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 550,
-                      "end": 553,
+                      "start": 551,
+                      "end": 554,
                       "name": "tag"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 555,
-                      "end": 565,
+                      "start": 556,
+                      "end": 566,
                       "value": "zh-xiang"
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 575,
-                    "end": 591,
+                    "start": 576,
+                    "end": 592,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 575,
-                      "end": 584,
+                      "start": 576,
+                      "end": 585,
                       "name": "canonical"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 586,
-                      "end": 591,
+                      "start": 587,
+                      "end": 592,
                       "value": "hsn"
                     },
                     "kind": "init"
@@ -227,62 +227,62 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 604,
-      "end": 727,
+      "start": 605,
+      "end": 728,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 609,
-        "end": 631,
+        "start": 610,
+        "end": 632,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 615,
-            "end": 631,
+            "start": 616,
+            "end": 632,
             "id": {
               "type": "ObjectPattern",
-              "start": 615,
-              "end": 631,
+              "start": 616,
+              "end": 632,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 616,
-                  "end": 619,
+                  "start": 617,
+                  "end": 620,
                   "method": false,
                   "shorthand": true,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 616,
-                    "end": 619,
+                    "start": 617,
+                    "end": 620,
                     "name": "tag"
                   },
                   "kind": "init",
                   "value": {
                     "type": "Identifier",
-                    "start": 616,
-                    "end": 619,
+                    "start": 617,
+                    "end": 620,
                     "name": "tag"
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 621,
-                  "end": 630,
+                  "start": 622,
+                  "end": 631,
                   "method": false,
                   "shorthand": true,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 621,
-                    "end": 630,
+                    "start": 622,
+                    "end": 631,
                     "name": "canonical"
                   },
                   "kind": "init",
                   "value": {
                     "type": "Identifier",
-                    "start": 621,
-                    "end": 630,
+                    "start": 622,
+                    "end": 631,
                     "name": "canonical"
                   }
                 }
@@ -295,37 +295,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 635,
-        "end": 655,
+        "start": 636,
+        "end": 656,
         "name": "regularGrandfathered"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 657,
-        "end": 727,
+        "start": 658,
+        "end": 728,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 663,
-            "end": 725,
+            "start": 664,
+            "end": 726,
             "expression": {
               "type": "CallExpression",
-              "start": 663,
-              "end": 724,
+              "start": 664,
+              "end": 725,
               "callee": {
                 "type": "MemberExpression",
-                "start": 663,
-                "end": 679,
+                "start": 664,
+                "end": 680,
                 "object": {
                   "type": "Identifier",
-                  "start": 663,
-                  "end": 669,
+                  "start": 664,
+                  "end": 670,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 670,
-                  "end": 679,
+                  "start": 671,
+                  "end": 680,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -334,26 +334,26 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 680,
-                  "end": 712,
+                  "start": 681,
+                  "end": 713,
                   "object": {
                     "type": "CallExpression",
-                    "start": 680,
-                    "end": 709,
+                    "start": 681,
+                    "end": 710,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 680,
-                      "end": 704,
+                      "start": 681,
+                      "end": 705,
                       "object": {
                         "type": "Identifier",
-                        "start": 680,
-                        "end": 684,
+                        "start": 681,
+                        "end": 685,
                         "name": "Intl"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 685,
-                        "end": 704,
+                        "start": 686,
+                        "end": 705,
                         "name": "getCanonicalLocales"
                       },
                       "computed": false,
@@ -362,8 +362,8 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 705,
-                        "end": 708,
+                        "start": 706,
+                        "end": 709,
                         "name": "tag"
                       }
                     ],
@@ -371,8 +371,8 @@
                   },
                   "property": {
                     "type": "Literal",
-                    "start": 710,
-                    "end": 711,
+                    "start": 711,
+                    "end": 712,
                     "value": 0
                   },
                   "computed": true,
@@ -380,8 +380,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 714,
-                  "end": 723,
+                  "start": 715,
+                  "end": 724,
                   "name": "canonical"
                 }
               ],

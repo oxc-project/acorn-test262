@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2344,
+  "end": 2345,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1147,
-      "end": 1291,
+      "start": 1148,
+      "end": 1292,
       "expression": {
         "type": "CallExpression",
-        "start": 1147,
-        "end": 1290,
+        "start": 1148,
+        "end": 1291,
         "callee": {
           "type": "MemberExpression",
-          "start": 1147,
-          "end": 1163,
+          "start": 1148,
+          "end": 1164,
           "object": {
             "type": "Identifier",
-            "start": 1147,
-            "end": 1153,
+            "start": 1148,
+            "end": 1154,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1154,
-            "end": 1163,
+            "start": 1155,
+            "end": 1164,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1167,
-            "end": 1196,
+            "start": 1168,
+            "end": 1197,
             "callee": {
               "type": "MemberExpression",
-              "start": 1167,
-              "end": 1194,
+              "start": 1168,
+              "end": 1195,
               "object": {
                 "type": "Literal",
-                "start": 1167,
-                "end": 1182,
+                "start": 1168,
+                "end": 1183,
                 "value": "A᠎Σ"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1183,
-                "end": 1194,
+                "start": 1184,
+                "end": 1195,
                 "name": "toLowerCase"
               },
               "computed": false,
@@ -59,14 +59,14 @@
           },
           {
             "type": "Literal",
-            "start": 1200,
-            "end": 1215,
+            "start": 1201,
+            "end": 1216,
             "value": "a᠎ς"
           },
           {
             "type": "Literal",
-            "start": 1219,
-            "end": 1288,
+            "start": 1220,
+            "end": 1289,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR"
           }
         ],
@@ -75,26 +75,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1292,
-      "end": 1474,
+      "start": 1293,
+      "end": 1475,
       "expression": {
         "type": "CallExpression",
-        "start": 1292,
-        "end": 1473,
+        "start": 1293,
+        "end": 1474,
         "callee": {
           "type": "MemberExpression",
-          "start": 1292,
-          "end": 1308,
+          "start": 1293,
+          "end": 1309,
           "object": {
             "type": "Identifier",
-            "start": 1292,
-            "end": 1298,
+            "start": 1293,
+            "end": 1299,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1299,
-            "end": 1308,
+            "start": 1300,
+            "end": 1309,
             "name": "sameValue"
           },
           "computed": false,
@@ -103,22 +103,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1312,
-            "end": 1342,
+            "start": 1313,
+            "end": 1343,
             "callee": {
               "type": "MemberExpression",
-              "start": 1312,
-              "end": 1340,
+              "start": 1313,
+              "end": 1341,
               "object": {
                 "type": "Literal",
-                "start": 1312,
-                "end": 1328,
+                "start": 1313,
+                "end": 1329,
                 "value": "A᠎ΣB"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1329,
-                "end": 1340,
+                "start": 1330,
+                "end": 1341,
                 "name": "toLowerCase"
               },
               "computed": false,
@@ -129,14 +129,14 @@
           },
           {
             "type": "Literal",
-            "start": 1346,
-            "end": 1362,
+            "start": 1347,
+            "end": 1363,
             "value": "a᠎σb"
           },
           {
             "type": "Literal",
-            "start": 1366,
-            "end": 1471,
+            "start": 1367,
+            "end": 1472,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by LATIN CAPITAL LETTER B"
           }
         ],
@@ -145,26 +145,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1524,
-      "end": 1680,
+      "start": 1525,
+      "end": 1681,
       "expression": {
         "type": "CallExpression",
-        "start": 1524,
-        "end": 1679,
+        "start": 1525,
+        "end": 1680,
         "callee": {
           "type": "MemberExpression",
-          "start": 1524,
-          "end": 1540,
+          "start": 1525,
+          "end": 1541,
           "object": {
             "type": "Identifier",
-            "start": 1524,
-            "end": 1530,
+            "start": 1525,
+            "end": 1531,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1531,
-            "end": 1540,
+            "start": 1532,
+            "end": 1541,
             "name": "sameValue"
           },
           "computed": false,
@@ -173,22 +173,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1544,
-            "end": 1573,
+            "start": 1545,
+            "end": 1574,
             "callee": {
               "type": "MemberExpression",
-              "start": 1544,
-              "end": 1571,
+              "start": 1545,
+              "end": 1572,
               "object": {
                 "type": "Literal",
-                "start": 1544,
-                "end": 1559,
+                "start": 1545,
+                "end": 1560,
                 "value": "AΣ᠎"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1560,
-                "end": 1571,
+                "start": 1561,
+                "end": 1572,
                 "name": "toLowerCase"
               },
               "computed": false,
@@ -199,14 +199,14 @@
           },
           {
             "type": "Literal",
-            "start": 1577,
-            "end": 1592,
+            "start": 1578,
+            "end": 1593,
             "value": "aς᠎"
           },
           {
             "type": "Literal",
-            "start": 1596,
-            "end": 1677,
+            "start": 1597,
+            "end": 1678,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR"
           }
         ],
@@ -215,26 +215,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1681,
-      "end": 1863,
+      "start": 1682,
+      "end": 1864,
       "expression": {
         "type": "CallExpression",
-        "start": 1681,
-        "end": 1862,
+        "start": 1682,
+        "end": 1863,
         "callee": {
           "type": "MemberExpression",
-          "start": 1681,
-          "end": 1697,
+          "start": 1682,
+          "end": 1698,
           "object": {
             "type": "Identifier",
-            "start": 1681,
-            "end": 1687,
+            "start": 1682,
+            "end": 1688,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1688,
-            "end": 1697,
+            "start": 1689,
+            "end": 1698,
             "name": "sameValue"
           },
           "computed": false,
@@ -243,22 +243,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1701,
-            "end": 1731,
+            "start": 1702,
+            "end": 1732,
             "callee": {
               "type": "MemberExpression",
-              "start": 1701,
-              "end": 1729,
+              "start": 1702,
+              "end": 1730,
               "object": {
                 "type": "Literal",
-                "start": 1701,
-                "end": 1717,
+                "start": 1702,
+                "end": 1718,
                 "value": "AΣ᠎B"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1718,
-                "end": 1729,
+                "start": 1719,
+                "end": 1730,
                 "name": "toLowerCase"
               },
               "computed": false,
@@ -269,14 +269,14 @@
           },
           {
             "type": "Literal",
-            "start": 1735,
-            "end": 1751,
+            "start": 1736,
+            "end": 1752,
             "value": "aσ᠎b"
           },
           {
             "type": "Literal",
-            "start": 1755,
-            "end": 1860,
+            "start": 1756,
+            "end": 1861,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B"
           }
         ],
@@ -285,26 +285,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1926,
-      "end": 2121,
+      "start": 1927,
+      "end": 2122,
       "expression": {
         "type": "CallExpression",
-        "start": 1926,
-        "end": 2120,
+        "start": 1927,
+        "end": 2121,
         "callee": {
           "type": "MemberExpression",
-          "start": 1926,
-          "end": 1942,
+          "start": 1927,
+          "end": 1943,
           "object": {
             "type": "Identifier",
-            "start": 1926,
-            "end": 1932,
+            "start": 1927,
+            "end": 1933,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1933,
-            "end": 1942,
+            "start": 1934,
+            "end": 1943,
             "name": "sameValue"
           },
           "computed": false,
@@ -313,22 +313,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1946,
-            "end": 1981,
+            "start": 1947,
+            "end": 1982,
             "callee": {
               "type": "MemberExpression",
-              "start": 1946,
-              "end": 1979,
+              "start": 1947,
+              "end": 1980,
               "object": {
                 "type": "Literal",
-                "start": 1946,
-                "end": 1967,
+                "start": 1947,
+                "end": 1968,
                 "value": "A᠎Σ᠎"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1968,
-                "end": 1979,
+                "start": 1969,
+                "end": 1980,
                 "name": "toLowerCase"
               },
               "computed": false,
@@ -339,14 +339,14 @@
           },
           {
             "type": "Literal",
-            "start": 1985,
-            "end": 2006,
+            "start": 1986,
+            "end": 2007,
             "value": "a᠎ς᠎"
           },
           {
             "type": "Literal",
-            "start": 2010,
-            "end": 2118,
+            "start": 2011,
+            "end": 2119,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR"
           }
         ],
@@ -355,26 +355,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2122,
-      "end": 2343,
+      "start": 2123,
+      "end": 2344,
       "expression": {
         "type": "CallExpression",
-        "start": 2122,
-        "end": 2342,
+        "start": 2123,
+        "end": 2343,
         "callee": {
           "type": "MemberExpression",
-          "start": 2122,
-          "end": 2138,
+          "start": 2123,
+          "end": 2139,
           "object": {
             "type": "Identifier",
-            "start": 2122,
-            "end": 2128,
+            "start": 2123,
+            "end": 2129,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2129,
-            "end": 2138,
+            "start": 2130,
+            "end": 2139,
             "name": "sameValue"
           },
           "computed": false,
@@ -383,22 +383,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2142,
-            "end": 2178,
+            "start": 2143,
+            "end": 2179,
             "callee": {
               "type": "MemberExpression",
-              "start": 2142,
-              "end": 2176,
+              "start": 2143,
+              "end": 2177,
               "object": {
                 "type": "Literal",
-                "start": 2142,
-                "end": 2164,
+                "start": 2143,
+                "end": 2165,
                 "value": "A᠎Σ᠎B"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2165,
-                "end": 2176,
+                "start": 2166,
+                "end": 2177,
                 "name": "toLowerCase"
               },
               "computed": false,
@@ -409,14 +409,14 @@
           },
           {
             "type": "Literal",
-            "start": 2182,
-            "end": 2204,
+            "start": 2183,
+            "end": 2205,
             "value": "a᠎σ᠎b"
           },
           {
             "type": "Literal",
-            "start": 2208,
-            "end": 2340,
+            "start": 2209,
+            "end": 2341,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B"
           }
         ],

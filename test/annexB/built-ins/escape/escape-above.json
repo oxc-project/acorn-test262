@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 952,
+  "end": 954,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 654,
-      "end": 752,
+      "start": 656,
+      "end": 754,
       "expression": {
         "type": "CallExpression",
-        "start": 654,
-        "end": 751,
+        "start": 656,
+        "end": 753,
         "callee": {
           "type": "MemberExpression",
-          "start": 654,
-          "end": 670,
+          "start": 656,
+          "end": 672,
           "object": {
             "type": "Identifier",
-            "start": 654,
-            "end": 660,
+            "start": 656,
+            "end": 662,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 661,
-            "end": 670,
+            "start": 663,
+            "end": 672,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,19 +33,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 674,
-            "end": 702,
+            "start": 676,
+            "end": 704,
             "callee": {
               "type": "Identifier",
-              "start": 674,
-              "end": 680,
+              "start": 676,
+              "end": 682,
               "name": "escape"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 681,
-                "end": 701,
+                "start": 683,
+                "end": 703,
                 "value": "ĀāĂ"
               }
             ],
@@ -53,14 +53,14 @@
           },
           {
             "type": "Literal",
-            "start": 704,
-            "end": 724,
+            "start": 706,
+            "end": 726,
             "value": "%u0100%u0101%u0102"
           },
           {
             "type": "Literal",
-            "start": 726,
-            "end": 749,
+            "start": 728,
+            "end": 751,
             "value": "\\u0100\\u0101\\u0102"
           }
         ],
@@ -69,26 +69,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 754,
-      "end": 852,
+      "start": 756,
+      "end": 854,
       "expression": {
         "type": "CallExpression",
-        "start": 754,
-        "end": 851,
+        "start": 756,
+        "end": 853,
         "callee": {
           "type": "MemberExpression",
-          "start": 754,
-          "end": 770,
+          "start": 756,
+          "end": 772,
           "object": {
             "type": "Identifier",
-            "start": 754,
-            "end": 760,
+            "start": 756,
+            "end": 762,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 761,
-            "end": 770,
+            "start": 763,
+            "end": 772,
             "name": "sameValue"
           },
           "computed": false,
@@ -97,19 +97,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 774,
-            "end": 802,
+            "start": 776,
+            "end": 804,
             "callee": {
               "type": "Identifier",
-              "start": 774,
-              "end": 780,
+              "start": 776,
+              "end": 782,
               "name": "escape"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 781,
-                "end": 801,
+                "start": 783,
+                "end": 803,
                 "value": "�￾￿"
               }
             ],
@@ -117,14 +117,14 @@
           },
           {
             "type": "Literal",
-            "start": 804,
-            "end": 824,
+            "start": 806,
+            "end": 826,
             "value": "%uFFFD%uFFFE%uFFFF"
           },
           {
             "type": "Literal",
-            "start": 826,
-            "end": 849,
+            "start": 828,
+            "end": 851,
             "value": "\\ufffd\\ufffd\\ufffd"
           }
         ],
@@ -133,26 +133,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 854,
-      "end": 951,
+      "start": 856,
+      "end": 953,
       "expression": {
         "type": "CallExpression",
-        "start": 854,
-        "end": 950,
+        "start": 856,
+        "end": 952,
         "callee": {
           "type": "MemberExpression",
-          "start": 854,
-          "end": 870,
+          "start": 856,
+          "end": 872,
           "object": {
             "type": "Identifier",
-            "start": 854,
-            "end": 860,
+            "start": 856,
+            "end": 862,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 861,
-            "end": 870,
+            "start": 863,
+            "end": 872,
             "name": "sameValue"
           },
           "computed": false,
@@ -161,19 +161,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 874,
-            "end": 896,
+            "start": 876,
+            "end": 898,
             "callee": {
               "type": "Identifier",
-              "start": 874,
-              "end": 880,
+              "start": 876,
+              "end": 882,
               "name": "escape"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 881,
-                "end": 895,
+                "start": 883,
+                "end": 897,
                 "value": "𝌆"
               }
             ],
@@ -181,14 +181,14 @@
           },
           {
             "type": "Literal",
-            "start": 898,
-            "end": 912,
+            "start": 900,
+            "end": 914,
             "value": "%uD834%uDF06"
           },
           {
             "type": "Literal",
-            "start": 914,
-            "end": 948,
+            "start": 916,
+            "end": 950,
             "value": "\\ud834\\udf06 (surrogate pairs)"
           }
         ],

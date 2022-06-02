@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 720,
+  "end": 721,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 701,
-      "end": 719,
+      "start": 702,
+      "end": 720,
       "expression": {
         "type": "CallExpression",
-        "start": 701,
-        "end": 718,
+        "start": 702,
+        "end": 719,
         "callee": {
           "type": "Identifier",
-          "start": 701,
-          "end": 709,
+          "start": 702,
+          "end": 710,
           "name": "Function"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 710,
-            "end": 717,
+            "start": 711,
+            "end": 718,
             "value": "\n-->"
           }
         ],

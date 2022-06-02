@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1054,
+  "end": 1059,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 895,
-      "end": 932,
+      "start": 900,
+      "end": 937,
       "expression": {
         "type": "CallExpression",
-        "start": 895,
-        "end": 931,
+        "start": 900,
+        "end": 936,
         "callee": {
           "type": "MemberExpression",
-          "start": 895,
-          "end": 911,
+          "start": 900,
+          "end": 916,
           "object": {
             "type": "Identifier",
-            "start": 895,
-            "end": 901,
+            "start": 900,
+            "end": 906,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 902,
-            "end": 911,
+            "start": 907,
+            "end": 916,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 912,
-            "end": 927,
+            "start": 917,
+            "end": 932,
             "object": {
               "type": "MemberExpression",
-              "start": 912,
-              "end": 920,
+              "start": 917,
+              "end": 925,
               "object": {
                 "type": "Identifier",
-                "start": 912,
-                "end": 916,
+                "start": 917,
+                "end": 921,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 917,
-                "end": 920,
+                "start": 922,
+                "end": 925,
                 "name": "log"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 921,
-              "end": 927,
+              "start": 926,
+              "end": 932,
               "name": "length"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Literal",
-            "start": 929,
-            "end": 930,
+            "start": 934,
+            "end": 935,
             "value": 1
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 934,
-      "end": 974,
+      "start": 939,
+      "end": 979,
       "expression": {
         "type": "CallExpression",
-        "start": 934,
-        "end": 973,
+        "start": 939,
+        "end": 978,
         "callee": {
           "type": "Identifier",
-          "start": 934,
-          "end": 953,
+          "start": 939,
+          "end": 958,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 954,
-            "end": 962,
+            "start": 959,
+            "end": 967,
             "object": {
               "type": "Identifier",
-              "start": 954,
-              "end": 958,
+              "start": 959,
+              "end": 963,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 959,
-              "end": 962,
+              "start": 964,
+              "end": 967,
               "name": "log"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 964,
-            "end": 972,
+            "start": 969,
+            "end": 977,
             "value": "length"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 975,
-      "end": 1013,
+      "start": 980,
+      "end": 1018,
       "expression": {
         "type": "CallExpression",
-        "start": 975,
-        "end": 1012,
+        "start": 980,
+        "end": 1017,
         "callee": {
           "type": "Identifier",
-          "start": 975,
-          "end": 992,
+          "start": 980,
+          "end": 997,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 993,
-            "end": 1001,
+            "start": 998,
+            "end": 1006,
             "object": {
               "type": "Identifier",
-              "start": 993,
-              "end": 997,
+              "start": 998,
+              "end": 1002,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 998,
-              "end": 1001,
+              "start": 1003,
+              "end": 1006,
               "name": "log"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 1003,
-            "end": 1011,
+            "start": 1008,
+            "end": 1016,
             "value": "length"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1014,
-      "end": 1053,
+      "start": 1019,
+      "end": 1058,
       "expression": {
         "type": "CallExpression",
-        "start": 1014,
-        "end": 1052,
+        "start": 1019,
+        "end": 1057,
         "callee": {
           "type": "Identifier",
-          "start": 1014,
-          "end": 1032,
+          "start": 1019,
+          "end": 1037,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1033,
-            "end": 1041,
+            "start": 1038,
+            "end": 1046,
             "object": {
               "type": "Identifier",
-              "start": 1033,
-              "end": 1037,
+              "start": 1038,
+              "end": 1042,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 1038,
-              "end": 1041,
+              "start": 1043,
+              "end": 1046,
               "name": "log"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 1043,
-            "end": 1051,
+            "start": 1048,
+            "end": 1056,
             "value": "length"
           }
         ],

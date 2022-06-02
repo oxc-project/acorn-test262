@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 572,
+  "end": 573,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 378,
-      "end": 421,
+      "start": 379,
+      "end": 422,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 382,
-          "end": 420,
+          "start": 383,
+          "end": 421,
           "id": {
             "type": "Identifier",
-            "start": 382,
-            "end": 393,
+            "start": 383,
+            "end": 394,
             "name": "arrayBuffer"
           },
           "init": {
             "type": "NewExpression",
-            "start": 396,
-            "end": 420,
+            "start": 397,
+            "end": 421,
             "callee": {
               "type": "Identifier",
-              "start": 400,
-              "end": 417,
+              "start": 401,
+              "end": 418,
               "name": "SharedArrayBuffer"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 418,
-                "end": 419,
+                "start": 419,
+                "end": 420,
                 "value": 8
               }
             ]
@@ -43,27 +43,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 422,
-      "end": 458,
+      "start": 423,
+      "end": 459,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 422,
-        "end": 457,
+        "start": 423,
+        "end": 458,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 422,
-          "end": 445,
+          "start": 423,
+          "end": 446,
           "object": {
             "type": "Identifier",
-            "start": 422,
-            "end": 433,
+            "start": 423,
+            "end": 434,
             "name": "arrayBuffer"
           },
           "property": {
             "type": "Identifier",
-            "start": 434,
-            "end": 445,
+            "start": 435,
+            "end": 446,
             "name": "constructor"
           },
           "computed": false,
@@ -71,45 +71,45 @@
         },
         "right": {
           "type": "Identifier",
-          "start": 448,
-          "end": 457,
+          "start": 449,
+          "end": 458,
           "name": "undefined"
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 460,
-      "end": 493,
+      "start": 461,
+      "end": 494,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 464,
-          "end": 492,
+          "start": 465,
+          "end": 493,
           "id": {
             "type": "Identifier",
-            "start": 464,
-            "end": 470,
+            "start": 465,
+            "end": 471,
             "name": "result"
           },
           "init": {
             "type": "CallExpression",
-            "start": 473,
-            "end": 492,
+            "start": 474,
+            "end": 493,
             "callee": {
               "type": "MemberExpression",
-              "start": 473,
-              "end": 490,
+              "start": 474,
+              "end": 491,
               "object": {
                 "type": "Identifier",
-                "start": 473,
-                "end": 484,
+                "start": 474,
+                "end": 485,
                 "name": "arrayBuffer"
               },
               "property": {
                 "type": "Identifier",
-                "start": 485,
-                "end": 490,
+                "start": 486,
+                "end": 491,
                 "name": "slice"
               },
               "computed": false,
@@ -124,26 +124,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 494,
-      "end": 571,
+      "start": 495,
+      "end": 572,
       "expression": {
         "type": "CallExpression",
-        "start": 494,
-        "end": 570,
+        "start": 495,
+        "end": 571,
         "callee": {
           "type": "MemberExpression",
-          "start": 494,
-          "end": 510,
+          "start": 495,
+          "end": 511,
           "object": {
             "type": "Identifier",
-            "start": 494,
-            "end": 500,
+            "start": 495,
+            "end": 501,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 501,
-            "end": 510,
+            "start": 502,
+            "end": 511,
             "name": "sameValue"
           },
           "computed": false,
@@ -152,22 +152,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 511,
-            "end": 540,
+            "start": 512,
+            "end": 541,
             "callee": {
               "type": "MemberExpression",
-              "start": 511,
-              "end": 532,
+              "start": 512,
+              "end": 533,
               "object": {
                 "type": "Identifier",
-                "start": 511,
-                "end": 517,
+                "start": 512,
+                "end": 518,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 518,
-                "end": 532,
+                "start": 519,
+                "end": 533,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -176,8 +176,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 533,
-                "end": 539,
+                "start": 534,
+                "end": 540,
                 "name": "result"
               }
             ],
@@ -185,18 +185,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 542,
-            "end": 569,
+            "start": 543,
+            "end": 570,
             "object": {
               "type": "Identifier",
-              "start": 542,
-              "end": 559,
+              "start": 543,
+              "end": 560,
               "name": "SharedArrayBuffer"
             },
             "property": {
               "type": "Identifier",
-              "start": 560,
-              "end": 569,
+              "start": 561,
+              "end": 570,
               "name": "prototype"
             },
             "computed": false,

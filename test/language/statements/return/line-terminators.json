@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 993,
+  "end": 997,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -176,11 +176,11 @@
     {
       "type": "ExpressionStatement",
       "start": 662,
-      "end": 826,
+      "end": 828,
       "expression": {
         "type": "CallExpression",
         "start": 662,
-        "end": 825,
+        "end": 827,
         "callee": {
           "type": "MemberExpression",
           "start": 662,
@@ -204,11 +204,11 @@
           {
             "type": "CallExpression",
             "start": 682,
-            "end": 707,
+            "end": 709,
             "callee": {
               "type": "FunctionExpression",
               "start": 682,
-              "end": 705,
+              "end": 707,
               "id": null,
               "expression": false,
               "generator": false,
@@ -217,7 +217,7 @@
               "body": {
                 "type": "BlockStatement",
                 "start": 692,
-                "end": 705,
+                "end": 707,
                 "body": [
                   {
                     "type": "ReturnStatement",
@@ -227,12 +227,12 @@
                   },
                   {
                     "type": "ExpressionStatement",
-                    "start": 701,
-                    "end": 703,
+                    "start": 703,
+                    "end": 705,
                     "expression": {
                       "type": "Literal",
-                      "start": 701,
-                      "end": 702,
+                      "start": 703,
+                      "end": 704,
                       "value": 1
                     }
                   }
@@ -244,14 +244,14 @@
           },
           {
             "type": "Identifier",
-            "start": 711,
-            "end": 720,
+            "start": 713,
+            "end": 722,
             "name": "undefined"
           },
           {
             "type": "Literal",
-            "start": 724,
-            "end": 823,
+            "start": 726,
+            "end": 825,
             "value": "#1: LineTerminator(U-2028) between return and Identifier_opt yields return without Identifier_opt"
           }
         ],
@@ -260,26 +260,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 828,
-      "end": 992,
+      "start": 830,
+      "end": 996,
       "expression": {
         "type": "CallExpression",
-        "start": 828,
-        "end": 991,
+        "start": 830,
+        "end": 995,
         "callee": {
           "type": "MemberExpression",
-          "start": 828,
-          "end": 844,
+          "start": 830,
+          "end": 846,
           "object": {
             "type": "Identifier",
-            "start": 828,
-            "end": 834,
+            "start": 830,
+            "end": 836,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 835,
-            "end": 844,
+            "start": 837,
+            "end": 846,
             "name": "sameValue"
           },
           "computed": false,
@@ -288,12 +288,12 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 848,
-            "end": 873,
+            "start": 850,
+            "end": 877,
             "callee": {
               "type": "FunctionExpression",
-              "start": 848,
-              "end": 871,
+              "start": 850,
+              "end": 875,
               "id": null,
               "expression": false,
               "generator": false,
@@ -301,23 +301,23 @@
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 858,
-                "end": 871,
+                "start": 860,
+                "end": 875,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 860,
-                    "end": 866,
+                    "start": 862,
+                    "end": 868,
                     "argument": null
                   },
                   {
                     "type": "ExpressionStatement",
-                    "start": 867,
-                    "end": 869,
+                    "start": 871,
+                    "end": 873,
                     "expression": {
                       "type": "Literal",
-                      "start": 867,
-                      "end": 868,
+                      "start": 871,
+                      "end": 872,
                       "value": 1
                     }
                   }
@@ -329,14 +329,14 @@
           },
           {
             "type": "Identifier",
-            "start": 877,
-            "end": 886,
+            "start": 881,
+            "end": 890,
             "name": "undefined"
           },
           {
             "type": "Literal",
-            "start": 890,
-            "end": 989,
+            "start": 894,
+            "end": 993,
             "value": "#1: LineTerminator(U-2029) between return and Identifier_opt yields return without Identifier_opt"
           }
         ],

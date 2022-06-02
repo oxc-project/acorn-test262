@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 986,
+  "end": 993,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 953,
-      "end": 985,
+      "start": 958,
+      "end": 992,
       "expression": {
         "type": "CallExpression",
-        "start": 953,
-        "end": 984,
+        "start": 958,
+        "end": 991,
         "callee": {
           "type": "MemberExpression",
-          "start": 953,
-          "end": 969,
+          "start": 958,
+          "end": 974,
           "object": {
             "type": "Identifier",
-            "start": 953,
-            "end": 959,
+            "start": 958,
+            "end": 964,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 960,
-            "end": 969,
+            "start": 965,
+            "end": 974,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,14 +33,14 @@
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 970,
-            "end": 973,
+            "start": 975,
+            "end": 980,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 971,
-                "end": 972,
+                "start": 976,
+                "end": 979,
                 "value": {
                   "raw": "᠎",
                   "cooked": "᠎"
@@ -51,8 +51,8 @@
           },
           {
             "type": "Literal",
-            "start": 975,
-            "end": 983,
+            "start": 982,
+            "end": 990,
             "value": "᠎"
           }
         ],

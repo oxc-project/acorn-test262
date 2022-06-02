@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 920,
+  "end": 921,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 705,
-      "end": 762,
+      "start": 706,
+      "end": 763,
       "expression": {
         "type": "CallExpression",
-        "start": 705,
-        "end": 761,
+        "start": 706,
+        "end": 762,
         "callee": {
           "type": "MemberExpression",
-          "start": 705,
-          "end": 721,
+          "start": 706,
+          "end": 722,
           "object": {
             "type": "Identifier",
-            "start": 705,
-            "end": 711,
+            "start": 706,
+            "end": 712,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 712,
-            "end": 721,
+            "start": 713,
+            "end": 722,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,26 +33,26 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 722,
-            "end": 749,
+            "start": 723,
+            "end": 750,
             "object": {
               "type": "MemberExpression",
-              "start": 722,
-              "end": 744,
+              "start": 723,
+              "end": 745,
               "object": {
                 "type": "MemberExpression",
-                "start": 722,
-                "end": 736,
+                "start": 723,
+                "end": 737,
                 "object": {
                   "type": "Identifier",
-                  "start": 722,
-                  "end": 726,
+                  "start": 723,
+                  "end": 727,
                   "name": "Date"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 727,
-                  "end": 736,
+                  "start": 728,
+                  "end": 737,
                   "name": "prototype"
                 },
                 "computed": false,
@@ -60,8 +60,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 737,
-                "end": 744,
+                "start": 738,
+                "end": 745,
                 "name": "getTime"
               },
               "computed": false,
@@ -69,8 +69,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 745,
-              "end": 749,
+              "start": 746,
+              "end": 750,
               "name": "name"
             },
             "computed": false,
@@ -78,8 +78,8 @@
           },
           {
             "type": "Literal",
-            "start": 751,
-            "end": 760,
+            "start": 752,
+            "end": 761,
             "value": "getTime"
           }
         ],
@@ -88,37 +88,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 764,
-      "end": 816,
+      "start": 765,
+      "end": 817,
       "expression": {
         "type": "CallExpression",
-        "start": 764,
-        "end": 815,
+        "start": 765,
+        "end": 816,
         "callee": {
           "type": "Identifier",
-          "start": 764,
-          "end": 783,
+          "start": 765,
+          "end": 784,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 784,
-            "end": 806,
+            "start": 785,
+            "end": 807,
             "object": {
               "type": "MemberExpression",
-              "start": 784,
-              "end": 798,
+              "start": 785,
+              "end": 799,
               "object": {
                 "type": "Identifier",
-                "start": 784,
-                "end": 788,
+                "start": 785,
+                "end": 789,
                 "name": "Date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 789,
-                "end": 798,
+                "start": 790,
+                "end": 799,
                 "name": "prototype"
               },
               "computed": false,
@@ -126,8 +126,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 799,
-              "end": 806,
+              "start": 800,
+              "end": 807,
               "name": "getTime"
             },
             "computed": false,
@@ -135,8 +135,8 @@
           },
           {
             "type": "Literal",
-            "start": 808,
-            "end": 814,
+            "start": 809,
+            "end": 815,
             "value": "name"
           }
         ],
@@ -145,37 +145,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 817,
-      "end": 867,
+      "start": 818,
+      "end": 868,
       "expression": {
         "type": "CallExpression",
-        "start": 817,
-        "end": 866,
+        "start": 818,
+        "end": 867,
         "callee": {
           "type": "Identifier",
-          "start": 817,
-          "end": 834,
+          "start": 818,
+          "end": 835,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 835,
-            "end": 857,
+            "start": 836,
+            "end": 858,
             "object": {
               "type": "MemberExpression",
-              "start": 835,
-              "end": 849,
+              "start": 836,
+              "end": 850,
               "object": {
                 "type": "Identifier",
-                "start": 835,
-                "end": 839,
+                "start": 836,
+                "end": 840,
                 "name": "Date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 840,
-                "end": 849,
+                "start": 841,
+                "end": 850,
                 "name": "prototype"
               },
               "computed": false,
@@ -183,8 +183,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 850,
-              "end": 857,
+              "start": 851,
+              "end": 858,
               "name": "getTime"
             },
             "computed": false,
@@ -192,8 +192,8 @@
           },
           {
             "type": "Literal",
-            "start": 859,
-            "end": 865,
+            "start": 860,
+            "end": 866,
             "value": "name"
           }
         ],
@@ -202,37 +202,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 868,
-      "end": 919,
+      "start": 869,
+      "end": 920,
       "expression": {
         "type": "CallExpression",
-        "start": 868,
-        "end": 918,
+        "start": 869,
+        "end": 919,
         "callee": {
           "type": "Identifier",
-          "start": 868,
-          "end": 886,
+          "start": 869,
+          "end": 887,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 887,
-            "end": 909,
+            "start": 888,
+            "end": 910,
             "object": {
               "type": "MemberExpression",
-              "start": 887,
-              "end": 901,
+              "start": 888,
+              "end": 902,
               "object": {
                 "type": "Identifier",
-                "start": 887,
-                "end": 891,
+                "start": 888,
+                "end": 892,
                 "name": "Date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 892,
-                "end": 901,
+                "start": 893,
+                "end": 902,
                 "name": "prototype"
               },
               "computed": false,
@@ -240,8 +240,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 902,
-              "end": 909,
+              "start": 903,
+              "end": 910,
               "name": "getTime"
             },
             "computed": false,
@@ -249,8 +249,8 @@
           },
           {
             "type": "Literal",
-            "start": 911,
-            "end": 917,
+            "start": 912,
+            "end": 918,
             "value": "name"
           }
         ],

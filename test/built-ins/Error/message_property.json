@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 716,
+  "end": 717,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 502,
-      "end": 529,
+      "start": 503,
+      "end": 530,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 506,
-          "end": 528,
+          "start": 507,
+          "end": 529,
           "id": {
             "type": "Identifier",
-            "start": 506,
-            "end": 513,
+            "start": 507,
+            "end": 514,
             "name": "message"
           },
           "init": {
             "type": "Literal",
-            "start": 516,
-            "end": 528,
+            "start": 517,
+            "end": 529,
             "value": "my-message"
           }
         }
@@ -30,34 +30,34 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 530,
-      "end": 561,
+      "start": 531,
+      "end": 562,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 534,
-          "end": 560,
+          "start": 535,
+          "end": 561,
           "id": {
             "type": "Identifier",
-            "start": 534,
-            "end": 539,
+            "start": 535,
+            "end": 540,
             "name": "error"
           },
           "init": {
             "type": "NewExpression",
-            "start": 542,
-            "end": 560,
+            "start": 543,
+            "end": 561,
             "callee": {
               "type": "Identifier",
-              "start": 546,
-              "end": 551,
+              "start": 547,
+              "end": 552,
               "name": "Error"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 552,
-                "end": 559,
+                "start": 553,
+                "end": 560,
                 "name": "message"
               }
             ]
@@ -68,35 +68,35 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 563,
-      "end": 604,
+      "start": 564,
+      "end": 605,
       "expression": {
         "type": "CallExpression",
-        "start": 563,
-        "end": 603,
+        "start": 564,
+        "end": 604,
         "callee": {
           "type": "Identifier",
-          "start": 563,
-          "end": 576,
+          "start": 564,
+          "end": 577,
           "name": "verifyEqualTo"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 577,
-            "end": 582,
+            "start": 578,
+            "end": 583,
             "name": "error"
           },
           {
             "type": "Literal",
-            "start": 584,
-            "end": 593,
+            "start": 585,
+            "end": 594,
             "value": "message"
           },
           {
             "type": "Identifier",
-            "start": 595,
-            "end": 602,
+            "start": 596,
+            "end": 603,
             "name": "message"
           }
         ],
@@ -105,29 +105,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 605,
-      "end": 643,
+      "start": 606,
+      "end": 644,
       "expression": {
         "type": "CallExpression",
-        "start": 605,
-        "end": 642,
+        "start": 606,
+        "end": 643,
         "callee": {
           "type": "Identifier",
-          "start": 605,
-          "end": 624,
+          "start": 606,
+          "end": 625,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 625,
-            "end": 630,
+            "start": 626,
+            "end": 631,
             "name": "error"
           },
           {
             "type": "Literal",
-            "start": 632,
-            "end": 641,
+            "start": 633,
+            "end": 642,
             "value": "message"
           }
         ],
@@ -136,29 +136,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 644,
-      "end": 677,
+      "start": 645,
+      "end": 678,
       "expression": {
         "type": "CallExpression",
-        "start": 644,
-        "end": 676,
+        "start": 645,
+        "end": 677,
         "callee": {
           "type": "Identifier",
-          "start": 644,
-          "end": 658,
+          "start": 645,
+          "end": 659,
           "name": "verifyWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 659,
-            "end": 664,
+            "start": 660,
+            "end": 665,
             "name": "error"
           },
           {
             "type": "Literal",
-            "start": 666,
-            "end": 675,
+            "start": 667,
+            "end": 676,
             "value": "message"
           }
         ],
@@ -167,29 +167,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 678,
-      "end": 715,
+      "start": 679,
+      "end": 716,
       "expression": {
         "type": "CallExpression",
-        "start": 678,
-        "end": 714,
+        "start": 679,
+        "end": 715,
         "callee": {
           "type": "Identifier",
-          "start": 678,
-          "end": 696,
+          "start": 679,
+          "end": 697,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 697,
-            "end": 702,
+            "start": 698,
+            "end": 703,
             "name": "error"
           },
           {
             "type": "Literal",
-            "start": 704,
-            "end": 713,
+            "start": 705,
+            "end": 714,
             "value": "message"
           }
         ],

@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1001,
+  "end": 1005,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 836,
-      "end": 915,
+      "start": 840,
+      "end": 919,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 842,
-          "end": 914,
+          "start": 846,
+          "end": 918,
           "id": {
             "type": "Identifier",
-            "start": 842,
-            "end": 850,
+            "start": 846,
+            "end": 854,
             "name": "datetime"
           },
           "init": {
             "type": "NewExpression",
-            "start": 853,
-            "end": 914,
+            "start": 857,
+            "end": 918,
             "callee": {
               "type": "MemberExpression",
-              "start": 857,
-              "end": 879,
+              "start": 861,
+              "end": 883,
               "object": {
                 "type": "Identifier",
-                "start": 857,
-                "end": 865,
+                "start": 861,
+                "end": 869,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 866,
-                "end": 879,
+                "start": 870,
+                "end": 883,
                 "name": "ZonedDateTime"
               },
               "computed": false,
@@ -44,14 +44,14 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 880,
-                "end": 906,
+                "start": 884,
+                "end": 910,
                 "value": "1000000000987650000n"
               },
               {
                 "type": "Literal",
-                "start": 908,
-                "end": 913,
+                "start": 912,
+                "end": 917,
                 "value": "UTC"
               }
             ]
@@ -62,26 +62,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 916,
-      "end": 1000,
+      "start": 920,
+      "end": 1004,
       "expression": {
         "type": "CallExpression",
-        "start": 916,
-        "end": 999,
+        "start": 920,
+        "end": 1003,
         "callee": {
           "type": "MemberExpression",
-          "start": 916,
-          "end": 929,
+          "start": 920,
+          "end": 933,
           "object": {
             "type": "Identifier",
-            "start": 916,
-            "end": 922,
+            "start": 920,
+            "end": 926,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 923,
-            "end": 929,
+            "start": 927,
+            "end": 933,
             "name": "throws"
           },
           "computed": false,
@@ -90,14 +90,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 930,
-            "end": 940,
+            "start": 934,
+            "end": 944,
             "name": "RangeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 942,
-            "end": 998,
+            "start": 946,
+            "end": 1002,
             "id": null,
             "expression": true,
             "generator": false,
@@ -105,22 +105,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 948,
-              "end": 998,
+              "start": 952,
+              "end": 1002,
               "callee": {
                 "type": "MemberExpression",
-                "start": 948,
-                "end": 965,
+                "start": 952,
+                "end": 969,
                 "object": {
                   "type": "Identifier",
-                  "start": 948,
-                  "end": 956,
+                  "start": 952,
+                  "end": 960,
                   "name": "datetime"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 957,
-                  "end": 965,
+                  "start": 961,
+                  "end": 969,
                   "name": "toString"
                 },
                 "computed": false,
@@ -129,26 +129,26 @@
               "arguments": [
                 {
                   "type": "ObjectExpression",
-                  "start": 966,
-                  "end": 997,
+                  "start": 970,
+                  "end": 1001,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 968,
-                      "end": 995,
+                      "start": 972,
+                      "end": 999,
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 968,
-                        "end": 990,
+                        "start": 972,
+                        "end": 994,
                         "name": "fractionalSecondDigits"
                       },
                       "value": {
                         "type": "Identifier",
-                        "start": 992,
-                        "end": 995,
+                        "start": 996,
+                        "end": 999,
                         "name": "NaN"
                       },
                       "kind": "init"

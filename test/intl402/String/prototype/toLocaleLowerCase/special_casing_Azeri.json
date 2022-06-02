@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2908,
+  "end": 2909,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 712,
-      "end": 817,
+      "start": 713,
+      "end": 818,
       "expression": {
         "type": "CallExpression",
-        "start": 712,
-        "end": 816,
+        "start": 713,
+        "end": 817,
         "callee": {
           "type": "MemberExpression",
-          "start": 712,
-          "end": 728,
+          "start": 713,
+          "end": 729,
           "object": {
             "type": "Identifier",
-            "start": 712,
-            "end": 718,
+            "start": 713,
+            "end": 719,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 719,
-            "end": 728,
+            "start": 720,
+            "end": 729,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 732,
-            "end": 764,
+            "start": 733,
+            "end": 765,
             "callee": {
               "type": "MemberExpression",
-              "start": 732,
-              "end": 758,
+              "start": 733,
+              "end": 759,
               "object": {
                 "type": "Literal",
-                "start": 732,
-                "end": 740,
+                "start": 733,
+                "end": 741,
                 "value": "İ"
               },
               "property": {
                 "type": "Identifier",
-                "start": 741,
-                "end": 758,
+                "start": 742,
+                "end": 759,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -57,8 +57,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 759,
-                "end": 763,
+                "start": 760,
+                "end": 764,
                 "value": "az"
               }
             ],
@@ -66,14 +66,14 @@
           },
           {
             "type": "Literal",
-            "start": 768,
-            "end": 771,
+            "start": 769,
+            "end": 772,
             "value": "i"
           },
           {
             "type": "Literal",
-            "start": 775,
-            "end": 814,
+            "start": 776,
+            "end": 815,
             "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE"
           }
         ],
@@ -82,26 +82,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1070,
-      "end": 1193,
+      "start": 1071,
+      "end": 1194,
       "expression": {
         "type": "CallExpression",
-        "start": 1070,
-        "end": 1192,
+        "start": 1071,
+        "end": 1193,
         "callee": {
           "type": "MemberExpression",
-          "start": 1070,
-          "end": 1086,
+          "start": 1071,
+          "end": 1087,
           "object": {
             "type": "Identifier",
-            "start": 1070,
-            "end": 1076,
+            "start": 1071,
+            "end": 1077,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1077,
-            "end": 1086,
+            "start": 1078,
+            "end": 1087,
             "name": "sameValue"
           },
           "computed": false,
@@ -110,22 +110,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1090,
-            "end": 1123,
+            "start": 1091,
+            "end": 1124,
             "callee": {
               "type": "MemberExpression",
-              "start": 1090,
-              "end": 1117,
+              "start": 1091,
+              "end": 1118,
               "object": {
                 "type": "Literal",
-                "start": 1090,
-                "end": 1099,
+                "start": 1091,
+                "end": 1100,
                 "value": "İ"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1100,
-                "end": 1117,
+                "start": 1101,
+                "end": 1118,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -134,8 +134,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1118,
-                "end": 1122,
+                "start": 1119,
+                "end": 1123,
                 "value": "az"
               }
             ],
@@ -143,14 +143,14 @@
           },
           {
             "type": "Literal",
-            "start": 1127,
-            "end": 1130,
+            "start": 1128,
+            "end": 1131,
             "value": "i"
           },
           {
             "type": "Literal",
-            "start": 1134,
-            "end": 1190,
+            "start": 1135,
+            "end": 1191,
             "value": "LATIN CAPITAL LETTER I followed by COMBINING DOT ABOVE"
           }
         ],
@@ -159,26 +159,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1194,
-      "end": 1350,
+      "start": 1195,
+      "end": 1351,
       "expression": {
         "type": "CallExpression",
-        "start": 1194,
-        "end": 1349,
+        "start": 1195,
+        "end": 1350,
         "callee": {
           "type": "MemberExpression",
-          "start": 1194,
-          "end": 1210,
+          "start": 1195,
+          "end": 1211,
           "object": {
             "type": "Identifier",
-            "start": 1194,
-            "end": 1200,
+            "start": 1195,
+            "end": 1201,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1201,
-            "end": 1210,
+            "start": 1202,
+            "end": 1211,
             "name": "sameValue"
           },
           "computed": false,
@@ -187,22 +187,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1214,
-            "end": 1253,
+            "start": 1215,
+            "end": 1254,
             "callee": {
               "type": "MemberExpression",
-              "start": 1214,
-              "end": 1247,
+              "start": 1215,
+              "end": 1248,
               "object": {
                 "type": "Literal",
-                "start": 1214,
-                "end": 1229,
+                "start": 1215,
+                "end": 1230,
                 "value": "Ị̇"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1230,
-                "end": 1247,
+                "start": 1231,
+                "end": 1248,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -211,8 +211,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1248,
-                "end": 1252,
+                "start": 1249,
+                "end": 1253,
                 "value": "az"
               }
             ],
@@ -220,14 +220,14 @@
           },
           {
             "type": "Literal",
-            "start": 1257,
-            "end": 1266,
+            "start": 1258,
+            "end": 1267,
             "value": "ị"
           },
           {
             "type": "Literal",
-            "start": 1270,
-            "end": 1347,
+            "start": 1271,
+            "end": 1348,
             "value": "LATIN CAPITAL LETTER I followed by COMBINING DOT BELOW, COMBINING DOT ABOVE"
           }
         ],
@@ -236,26 +236,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1351,
-      "end": 1543,
+      "start": 1352,
+      "end": 1544,
       "expression": {
         "type": "CallExpression",
-        "start": 1351,
-        "end": 1542,
+        "start": 1352,
+        "end": 1543,
         "callee": {
           "type": "MemberExpression",
-          "start": 1351,
-          "end": 1367,
+          "start": 1352,
+          "end": 1368,
           "object": {
             "type": "Identifier",
-            "start": 1351,
-            "end": 1357,
+            "start": 1352,
+            "end": 1358,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1358,
-            "end": 1367,
+            "start": 1359,
+            "end": 1368,
             "name": "sameValue"
           },
           "computed": false,
@@ -264,22 +264,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1371,
-            "end": 1416,
+            "start": 1372,
+            "end": 1417,
             "callee": {
               "type": "MemberExpression",
-              "start": 1371,
-              "end": 1410,
+              "start": 1372,
+              "end": 1411,
               "object": {
                 "type": "Literal",
-                "start": 1371,
-                "end": 1392,
+                "start": 1372,
+                "end": 1393,
                 "value": "İ𐇽"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1393,
-                "end": 1410,
+                "start": 1394,
+                "end": 1411,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -288,8 +288,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1411,
-                "end": 1415,
+                "start": 1412,
+                "end": 1416,
                 "value": "az"
               }
             ],
@@ -297,14 +297,14 @@
           },
           {
             "type": "Literal",
-            "start": 1420,
-            "end": 1435,
+            "start": 1421,
+            "end": 1436,
             "value": "i𐇽"
           },
           {
             "type": "Literal",
-            "start": 1439,
-            "end": 1540,
+            "start": 1440,
+            "end": 1541,
             "value": "LATIN CAPITAL LETTER I followed by PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE, COMBINING DOT ABOVE"
           }
         ],
@@ -313,26 +313,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1654,
-      "end": 1814,
+      "start": 1655,
+      "end": 1815,
       "expression": {
         "type": "CallExpression",
-        "start": 1654,
-        "end": 1813,
+        "start": 1655,
+        "end": 1814,
         "callee": {
           "type": "MemberExpression",
-          "start": 1654,
-          "end": 1670,
+          "start": 1655,
+          "end": 1671,
           "object": {
             "type": "Identifier",
-            "start": 1654,
-            "end": 1660,
+            "start": 1655,
+            "end": 1661,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1661,
-            "end": 1670,
+            "start": 1662,
+            "end": 1671,
             "name": "sameValue"
           },
           "computed": false,
@@ -341,22 +341,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1674,
-            "end": 1708,
+            "start": 1675,
+            "end": 1709,
             "callee": {
               "type": "MemberExpression",
-              "start": 1674,
-              "end": 1702,
+              "start": 1675,
+              "end": 1703,
               "object": {
                 "type": "Literal",
-                "start": 1674,
-                "end": 1684,
+                "start": 1675,
+                "end": 1685,
                 "value": "IȦ"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1685,
-                "end": 1702,
+                "start": 1686,
+                "end": 1703,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -365,8 +365,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1703,
-                "end": 1707,
+                "start": 1704,
+                "end": 1708,
                 "value": "az"
               }
             ],
@@ -374,14 +374,14 @@
           },
           {
             "type": "Literal",
-            "start": 1712,
-            "end": 1727,
+            "start": 1713,
+            "end": 1728,
             "value": "ıȧ"
           },
           {
             "type": "Literal",
-            "start": 1731,
-            "end": 1811,
+            "start": 1732,
+            "end": 1812,
             "value": "LATIN CAPITAL LETTER I followed by LATIN CAPITAL LETTER A, COMBINING DOT ABOVE"
           }
         ],
@@ -390,26 +390,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2078,
-      "end": 2248,
+      "start": 2079,
+      "end": 2249,
       "expression": {
         "type": "CallExpression",
-        "start": 2078,
-        "end": 2247,
+        "start": 2079,
+        "end": 2248,
         "callee": {
           "type": "MemberExpression",
-          "start": 2078,
-          "end": 2094,
+          "start": 2079,
+          "end": 2095,
           "object": {
             "type": "Identifier",
-            "start": 2078,
-            "end": 2084,
+            "start": 2079,
+            "end": 2085,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2085,
-            "end": 2094,
+            "start": 2086,
+            "end": 2095,
             "name": "sameValue"
           },
           "computed": false,
@@ -418,22 +418,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2098,
-            "end": 2137,
+            "start": 2099,
+            "end": 2138,
             "callee": {
               "type": "MemberExpression",
-              "start": 2098,
-              "end": 2131,
+              "start": 2099,
+              "end": 2132,
               "object": {
                 "type": "Literal",
-                "start": 2098,
-                "end": 2113,
+                "start": 2099,
+                "end": 2114,
                 "value": "Ì̇"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2114,
-                "end": 2131,
+                "start": 2115,
+                "end": 2132,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -442,8 +442,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2132,
-                "end": 2136,
+                "start": 2133,
+                "end": 2137,
                 "value": "az"
               }
             ],
@@ -451,14 +451,14 @@
           },
           {
             "type": "Literal",
-            "start": 2141,
-            "end": 2161,
+            "start": 2142,
+            "end": 2162,
             "value": "ı̀̇"
           },
           {
             "type": "Literal",
-            "start": 2165,
-            "end": 2245,
+            "start": 2166,
+            "end": 2246,
             "value": "LATIN CAPITAL LETTER I followed by COMBINING GRAVE ACCENT, COMBINING DOT ABOVE"
           }
         ],
@@ -467,26 +467,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2249,
-      "end": 2438,
+      "start": 2250,
+      "end": 2439,
       "expression": {
         "type": "CallExpression",
-        "start": 2249,
-        "end": 2437,
+        "start": 2250,
+        "end": 2438,
         "callee": {
           "type": "MemberExpression",
-          "start": 2249,
-          "end": 2265,
+          "start": 2250,
+          "end": 2266,
           "object": {
             "type": "Identifier",
-            "start": 2249,
-            "end": 2255,
+            "start": 2250,
+            "end": 2256,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2256,
-            "end": 2265,
+            "start": 2257,
+            "end": 2266,
             "name": "sameValue"
           },
           "computed": false,
@@ -495,22 +495,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2269,
-            "end": 2314,
+            "start": 2270,
+            "end": 2315,
             "callee": {
               "type": "MemberExpression",
-              "start": 2269,
-              "end": 2308,
+              "start": 2270,
+              "end": 2309,
               "object": {
                 "type": "Literal",
-                "start": 2269,
-                "end": 2290,
+                "start": 2270,
+                "end": 2291,
                 "value": "I𝆅̇"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2291,
-                "end": 2308,
+                "start": 2292,
+                "end": 2309,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -519,8 +519,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2309,
-                "end": 2313,
+                "start": 2310,
+                "end": 2314,
                 "value": "az"
               }
             ],
@@ -528,14 +528,14 @@
           },
           {
             "type": "Literal",
-            "start": 2318,
-            "end": 2344,
+            "start": 2319,
+            "end": 2345,
             "value": "ı𝆅̇"
           },
           {
             "type": "Literal",
-            "start": 2348,
-            "end": 2435,
+            "start": 2349,
+            "end": 2436,
             "value": "LATIN CAPITAL LETTER I followed by MUSICAL SYMBOL COMBINING DOIT, COMBINING DOT ABOVE"
           }
         ],
@@ -544,26 +544,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2534,
-      "end": 2624,
+      "start": 2535,
+      "end": 2625,
       "expression": {
         "type": "CallExpression",
-        "start": 2534,
-        "end": 2623,
+        "start": 2535,
+        "end": 2624,
         "callee": {
           "type": "MemberExpression",
-          "start": 2534,
-          "end": 2550,
+          "start": 2535,
+          "end": 2551,
           "object": {
             "type": "Identifier",
-            "start": 2534,
-            "end": 2540,
+            "start": 2535,
+            "end": 2541,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2541,
-            "end": 2550,
+            "start": 2542,
+            "end": 2551,
             "name": "sameValue"
           },
           "computed": false,
@@ -572,22 +572,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2554,
-            "end": 2581,
+            "start": 2555,
+            "end": 2582,
             "callee": {
               "type": "MemberExpression",
-              "start": 2554,
-              "end": 2575,
+              "start": 2555,
+              "end": 2576,
               "object": {
                 "type": "Literal",
-                "start": 2554,
-                "end": 2557,
+                "start": 2555,
+                "end": 2558,
                 "value": "I"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2558,
-                "end": 2575,
+                "start": 2559,
+                "end": 2576,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -596,8 +596,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2576,
-                "end": 2580,
+                "start": 2577,
+                "end": 2581,
                 "value": "az"
               }
             ],
@@ -605,14 +605,14 @@
           },
           {
             "type": "Literal",
-            "start": 2585,
-            "end": 2593,
+            "start": 2586,
+            "end": 2594,
             "value": "ı"
           },
           {
             "type": "Literal",
-            "start": 2597,
-            "end": 2621,
+            "start": 2598,
+            "end": 2622,
             "value": "LATIN CAPITAL LETTER I"
           }
         ],
@@ -621,26 +621,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2722,
-      "end": 2805,
+      "start": 2723,
+      "end": 2806,
       "expression": {
         "type": "CallExpression",
-        "start": 2722,
-        "end": 2804,
+        "start": 2723,
+        "end": 2805,
         "callee": {
           "type": "MemberExpression",
-          "start": 2722,
-          "end": 2738,
+          "start": 2723,
+          "end": 2739,
           "object": {
             "type": "Identifier",
-            "start": 2722,
-            "end": 2728,
+            "start": 2723,
+            "end": 2729,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2729,
-            "end": 2738,
+            "start": 2730,
+            "end": 2739,
             "name": "sameValue"
           },
           "computed": false,
@@ -649,22 +649,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2742,
-            "end": 2769,
+            "start": 2743,
+            "end": 2770,
             "callee": {
               "type": "MemberExpression",
-              "start": 2742,
-              "end": 2763,
+              "start": 2743,
+              "end": 2764,
               "object": {
                 "type": "Literal",
-                "start": 2742,
-                "end": 2745,
+                "start": 2743,
+                "end": 2746,
                 "value": "i"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2746,
-                "end": 2763,
+                "start": 2747,
+                "end": 2764,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -673,8 +673,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2764,
-                "end": 2768,
+                "start": 2765,
+                "end": 2769,
                 "value": "az"
               }
             ],
@@ -682,14 +682,14 @@
           },
           {
             "type": "Literal",
-            "start": 2773,
-            "end": 2776,
+            "start": 2774,
+            "end": 2777,
             "value": "i"
           },
           {
             "type": "Literal",
-            "start": 2780,
-            "end": 2802,
+            "start": 2781,
+            "end": 2803,
             "value": "LATIN SMALL LETTER I"
           }
         ],
@@ -698,26 +698,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2806,
-      "end": 2907,
+      "start": 2807,
+      "end": 2908,
       "expression": {
         "type": "CallExpression",
-        "start": 2806,
-        "end": 2906,
+        "start": 2807,
+        "end": 2907,
         "callee": {
           "type": "MemberExpression",
-          "start": 2806,
-          "end": 2822,
+          "start": 2807,
+          "end": 2823,
           "object": {
             "type": "Identifier",
-            "start": 2806,
-            "end": 2812,
+            "start": 2807,
+            "end": 2813,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2813,
-            "end": 2822,
+            "start": 2814,
+            "end": 2823,
             "name": "sameValue"
           },
           "computed": false,
@@ -726,22 +726,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2826,
-            "end": 2858,
+            "start": 2827,
+            "end": 2859,
             "callee": {
               "type": "MemberExpression",
-              "start": 2826,
-              "end": 2852,
+              "start": 2827,
+              "end": 2853,
               "object": {
                 "type": "Literal",
-                "start": 2826,
-                "end": 2834,
+                "start": 2827,
+                "end": 2835,
                 "value": "ı"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2835,
-                "end": 2852,
+                "start": 2836,
+                "end": 2853,
                 "name": "toLocaleLowerCase"
               },
               "computed": false,
@@ -750,8 +750,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2853,
-                "end": 2857,
+                "start": 2854,
+                "end": 2858,
                 "value": "az"
               }
             ],
@@ -759,14 +759,14 @@
           },
           {
             "type": "Literal",
-            "start": 2862,
-            "end": 2870,
+            "start": 2863,
+            "end": 2871,
             "value": "ı"
           },
           {
             "type": "Literal",
-            "start": 2874,
-            "end": 2904,
+            "start": 2875,
+            "end": 2905,
             "value": "LATIN SMALL LETTER DOTLESS I"
           }
         ],

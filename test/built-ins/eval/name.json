@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 787,
+  "end": 788,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 647,
-      "end": 683,
+      "start": 648,
+      "end": 684,
       "expression": {
         "type": "CallExpression",
-        "start": 647,
-        "end": 682,
+        "start": 648,
+        "end": 683,
         "callee": {
           "type": "MemberExpression",
-          "start": 647,
-          "end": 663,
+          "start": 648,
+          "end": 664,
           "object": {
             "type": "Identifier",
-            "start": 647,
-            "end": 653,
+            "start": 648,
+            "end": 654,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 654,
-            "end": 663,
+            "start": 655,
+            "end": 664,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,18 +33,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 664,
-            "end": 673,
+            "start": 665,
+            "end": 674,
             "object": {
               "type": "Identifier",
-              "start": 664,
-              "end": 668,
+              "start": 665,
+              "end": 669,
               "name": "eval"
             },
             "property": {
               "type": "Identifier",
-              "start": 669,
-              "end": 673,
+              "start": 670,
+              "end": 674,
               "name": "name"
             },
             "computed": false,
@@ -52,8 +52,8 @@
           },
           {
             "type": "Literal",
-            "start": 675,
-            "end": 681,
+            "start": 676,
+            "end": 682,
             "value": "eval"
           }
         ],
@@ -62,29 +62,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 685,
-      "end": 719,
+      "start": 686,
+      "end": 720,
       "expression": {
         "type": "CallExpression",
-        "start": 685,
-        "end": 718,
+        "start": 686,
+        "end": 719,
         "callee": {
           "type": "Identifier",
-          "start": 685,
-          "end": 704,
+          "start": 686,
+          "end": 705,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 705,
-            "end": 709,
+            "start": 706,
+            "end": 710,
             "name": "eval"
           },
           {
             "type": "Literal",
-            "start": 711,
-            "end": 717,
+            "start": 712,
+            "end": 718,
             "value": "name"
           }
         ],
@@ -93,29 +93,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 720,
-      "end": 752,
+      "start": 721,
+      "end": 753,
       "expression": {
         "type": "CallExpression",
-        "start": 720,
-        "end": 751,
+        "start": 721,
+        "end": 752,
         "callee": {
           "type": "Identifier",
-          "start": 720,
-          "end": 737,
+          "start": 721,
+          "end": 738,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 738,
-            "end": 742,
+            "start": 739,
+            "end": 743,
             "name": "eval"
           },
           {
             "type": "Literal",
-            "start": 744,
-            "end": 750,
+            "start": 745,
+            "end": 751,
             "value": "name"
           }
         ],
@@ -124,29 +124,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 753,
-      "end": 786,
+      "start": 754,
+      "end": 787,
       "expression": {
         "type": "CallExpression",
-        "start": 753,
-        "end": 785,
+        "start": 754,
+        "end": 786,
         "callee": {
           "type": "Identifier",
-          "start": 753,
-          "end": 771,
+          "start": 754,
+          "end": 772,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 772,
-            "end": 776,
+            "start": 773,
+            "end": 777,
             "name": "eval"
           },
           {
             "type": "Literal",
-            "start": 778,
-            "end": 784,
+            "start": 779,
+            "end": 785,
             "value": "name"
           }
         ],

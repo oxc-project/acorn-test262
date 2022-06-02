@@ -1,32 +1,32 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 989,
+  "end": 991,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 970,
-      "end": 984,
+      "start": 972,
+      "end": 986,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 971,
-          "end": 983,
+          "start": 973,
+          "end": 985,
           "body": {
             "type": "ExpressionStatement",
-            "start": 979,
-            "end": 983,
+            "start": 981,
+            "end": 985,
             "expression": {
               "type": "Literal",
-              "start": 979,
-              "end": 983,
+              "start": 981,
+              "end": 985,
               "value": 3000
             }
           },
           "label": {
             "type": "Identifier",
-            "start": 971,
-            "end": 977,
+            "start": 973,
+            "end": 979,
             "name": "length"
           }
         }
@@ -34,12 +34,12 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 984,
-      "end": 988,
+      "start": 986,
+      "end": 990,
       "expression": {
         "type": "Literal",
-        "start": 984,
-        "end": 987,
+        "start": 986,
+        "end": 989,
         "value": {},
         "regex": {
           "pattern": "1",

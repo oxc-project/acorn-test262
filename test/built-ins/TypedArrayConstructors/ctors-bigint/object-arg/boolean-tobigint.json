@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2303,
+  "end": 2306,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 2126,
-      "end": 2302,
+      "start": 2129,
+      "end": 2305,
       "expression": {
         "type": "CallExpression",
-        "start": 2126,
-        "end": 2301,
+        "start": 2129,
+        "end": 2304,
         "callee": {
           "type": "Identifier",
-          "start": 2126,
-          "end": 2162,
+          "start": 2129,
+          "end": 2165,
           "name": "testWithBigIntTypedArrayConstructors"
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 2163,
-            "end": 2300,
+            "start": 2166,
+            "end": 2303,
             "id": null,
             "expression": false,
             "generator": false,
@@ -29,57 +29,57 @@
             "params": [
               {
                 "type": "Identifier",
-                "start": 2172,
-                "end": 2174,
+                "start": 2175,
+                "end": 2177,
                 "name": "TA"
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 2176,
-              "end": 2300,
+              "start": 2179,
+              "end": 2303,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 2180,
-                  "end": 2219,
+                  "start": 2183,
+                  "end": 2222,
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 2184,
-                      "end": 2218,
+                      "start": 2187,
+                      "end": 2221,
                       "id": {
                         "type": "Identifier",
-                        "start": 2184,
-                        "end": 2194,
+                        "start": 2187,
+                        "end": 2197,
                         "name": "typedArray"
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 2197,
-                        "end": 2218,
+                        "start": 2200,
+                        "end": 2221,
                         "callee": {
                           "type": "Identifier",
-                          "start": 2201,
-                          "end": 2203,
+                          "start": 2204,
+                          "end": 2206,
                           "name": "TA"
                         },
                         "arguments": [
                           {
                             "type": "ArrayExpression",
-                            "start": 2204,
-                            "end": 2217,
+                            "start": 2207,
+                            "end": 2220,
                             "elements": [
                               {
                                 "type": "Literal",
-                                "start": 2205,
-                                "end": 2210,
+                                "start": 2208,
+                                "end": 2213,
                                 "value": false
                               },
                               {
                                 "type": "Literal",
-                                "start": 2212,
-                                "end": 2216,
+                                "start": 2215,
+                                "end": 2219,
                                 "value": true
                               }
                             ]
@@ -92,26 +92,26 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 2223,
-                  "end": 2259,
+                  "start": 2226,
+                  "end": 2262,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2223,
-                    "end": 2258,
+                    "start": 2226,
+                    "end": 2261,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 2223,
-                      "end": 2239,
+                      "start": 2226,
+                      "end": 2242,
                       "object": {
                         "type": "Identifier",
-                        "start": 2223,
-                        "end": 2229,
+                        "start": 2226,
+                        "end": 2232,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 2230,
-                        "end": 2239,
+                        "start": 2233,
+                        "end": 2242,
                         "name": "sameValue"
                       },
                       "computed": false,
@@ -120,18 +120,18 @@
                     "arguments": [
                       {
                         "type": "MemberExpression",
-                        "start": 2240,
-                        "end": 2253,
+                        "start": 2243,
+                        "end": 2256,
                         "object": {
                           "type": "Identifier",
-                          "start": 2240,
-                          "end": 2250,
+                          "start": 2243,
+                          "end": 2253,
                           "name": "typedArray"
                         },
                         "property": {
                           "type": "Literal",
-                          "start": 2251,
-                          "end": 2252,
+                          "start": 2254,
+                          "end": 2255,
                           "value": 0
                         },
                         "computed": true,
@@ -139,8 +139,8 @@
                       },
                       {
                         "type": "Literal",
-                        "start": 2255,
-                        "end": 2257,
+                        "start": 2258,
+                        "end": 2260,
                         "value": "0n"
                       }
                     ],
@@ -149,26 +149,26 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 2262,
-                  "end": 2298,
+                  "start": 2265,
+                  "end": 2301,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2262,
-                    "end": 2297,
+                    "start": 2265,
+                    "end": 2300,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 2262,
-                      "end": 2278,
+                      "start": 2265,
+                      "end": 2281,
                       "object": {
                         "type": "Identifier",
-                        "start": 2262,
-                        "end": 2268,
+                        "start": 2265,
+                        "end": 2271,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 2269,
-                        "end": 2278,
+                        "start": 2272,
+                        "end": 2281,
                         "name": "sameValue"
                       },
                       "computed": false,
@@ -177,18 +177,18 @@
                     "arguments": [
                       {
                         "type": "MemberExpression",
-                        "start": 2279,
-                        "end": 2292,
+                        "start": 2282,
+                        "end": 2295,
                         "object": {
                           "type": "Identifier",
-                          "start": 2279,
-                          "end": 2289,
+                          "start": 2282,
+                          "end": 2292,
                           "name": "typedArray"
                         },
                         "property": {
                           "type": "Literal",
-                          "start": 2290,
-                          "end": 2291,
+                          "start": 2293,
+                          "end": 2294,
                           "value": 1
                         },
                         "computed": true,
@@ -196,8 +196,8 @@
                       },
                       {
                         "type": "Literal",
-                        "start": 2294,
-                        "end": 2296,
+                        "start": 2297,
+                        "end": 2299,
                         "value": "1n"
                       }
                     ],

@@ -1,25 +1,25 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 494,
+  "end": 497,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 460,
-      "end": 483,
+      "start": 463,
+      "end": 486,
       "left": {
         "type": "VariableDeclaration",
-        "start": 465,
-        "end": 470,
+        "start": 468,
+        "end": 473,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 469,
-            "end": 470,
+            "start": 472,
+            "end": 473,
             "id": {
               "type": "Identifier",
-              "start": 469,
-              "end": 470,
+              "start": 472,
+              "end": 473,
               "name": "x"
             },
             "init": null
@@ -29,26 +29,26 @@
       },
       "right": {
         "type": "Literal",
-        "start": 474,
-        "end": 478,
+        "start": 477,
+        "end": 481,
         "value": null
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 480,
-        "end": 483,
+        "start": 483,
+        "end": 486,
         "expression": {
           "type": "Identifier",
-          "start": 480,
-          "end": 483,
+          "start": 483,
+          "end": 486,
           "name": "let"
         }
       }
     },
     {
       "type": "BlockStatement",
-      "start": 491,
-      "end": 493,
+      "start": 494,
+      "end": 496,
       "body": []
     }
   ],

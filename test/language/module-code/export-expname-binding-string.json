@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 576,
+  "end": 578,
   "body": [
     {
       "type": "ImportDeclaration",
@@ -100,11 +100,11 @@
     {
       "type": "ExpressionStatement",
       "start": 525,
-      "end": 575,
+      "end": 577,
       "expression": {
         "type": "CallExpression",
         "start": 525,
-        "end": 574,
+        "end": 576,
         "callee": {
           "type": "MemberExpression",
           "start": 525,
@@ -128,7 +128,7 @@
           {
             "type": "MemberExpression",
             "start": 542,
-            "end": 553,
+            "end": 555,
             "object": {
               "type": "Identifier",
               "start": 542,
@@ -138,7 +138,7 @@
             "property": {
               "type": "Literal",
               "start": 549,
-              "end": 552,
+              "end": 554,
               "value": "☿"
             },
             "computed": true,
@@ -146,18 +146,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 555,
-            "end": 573,
+            "start": 557,
+            "end": 575,
             "object": {
               "type": "Identifier",
-              "start": 555,
-              "end": 565,
+              "start": 557,
+              "end": 567,
               "name": "globalThis"
             },
             "property": {
               "type": "Identifier",
-              "start": 566,
-              "end": 573,
+              "start": 568,
+              "end": 575,
               "name": "Mercury"
             },
             "computed": false,

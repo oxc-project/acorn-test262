@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 954,
+  "end": 955,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 716,
-      "end": 781,
+      "start": 717,
+      "end": 782,
       "expression": {
         "type": "CallExpression",
-        "start": 716,
-        "end": 780,
+        "start": 717,
+        "end": 781,
         "callee": {
           "type": "MemberExpression",
-          "start": 716,
-          "end": 732,
+          "start": 717,
+          "end": 733,
           "object": {
             "type": "Identifier",
-            "start": 716,
-            "end": 722,
+            "start": 717,
+            "end": 723,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 723,
-            "end": 732,
+            "start": 724,
+            "end": 733,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 733,
-            "end": 766,
+            "start": 734,
+            "end": 767,
             "object": {
               "type": "MemberExpression",
-              "start": 733,
-              "end": 754,
+              "start": 734,
+              "end": 755,
               "object": {
                 "type": "Identifier",
-                "start": 733,
-                "end": 744,
+                "start": 734,
+                "end": 745,
                 "name": "SyntaxError"
               },
               "property": {
                 "type": "Identifier",
-                "start": 745,
-                "end": 754,
+                "start": 746,
+                "end": 755,
                 "name": "prototype"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 755,
-              "end": 766,
+              "start": 756,
+              "end": 767,
               "name": "constructor"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Identifier",
-            "start": 768,
-            "end": 779,
+            "start": 769,
+            "end": 780,
             "name": "SyntaxError"
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 783,
-      "end": 841,
+      "start": 784,
+      "end": 842,
       "expression": {
         "type": "CallExpression",
-        "start": 783,
-        "end": 840,
+        "start": 784,
+        "end": 841,
         "callee": {
           "type": "Identifier",
-          "start": 783,
-          "end": 802,
+          "start": 784,
+          "end": 803,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 803,
-            "end": 824,
+            "start": 804,
+            "end": 825,
             "object": {
               "type": "Identifier",
-              "start": 803,
-              "end": 814,
+              "start": 804,
+              "end": 815,
               "name": "SyntaxError"
             },
             "property": {
               "type": "Identifier",
-              "start": 815,
-              "end": 824,
+              "start": 816,
+              "end": 825,
               "name": "prototype"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 826,
-            "end": 839,
+            "start": 827,
+            "end": 840,
             "value": "constructor"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 842,
-      "end": 895,
+      "start": 843,
+      "end": 896,
       "expression": {
         "type": "CallExpression",
-        "start": 842,
-        "end": 894,
+        "start": 843,
+        "end": 895,
         "callee": {
           "type": "Identifier",
-          "start": 842,
-          "end": 856,
+          "start": 843,
+          "end": 857,
           "name": "verifyWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 857,
-            "end": 878,
+            "start": 858,
+            "end": 879,
             "object": {
               "type": "Identifier",
-              "start": 857,
-              "end": 868,
+              "start": 858,
+              "end": 869,
               "name": "SyntaxError"
             },
             "property": {
               "type": "Identifier",
-              "start": 869,
-              "end": 878,
+              "start": 870,
+              "end": 879,
               "name": "prototype"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 880,
-            "end": 893,
+            "start": 881,
+            "end": 894,
             "value": "constructor"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 896,
-      "end": 953,
+      "start": 897,
+      "end": 954,
       "expression": {
         "type": "CallExpression",
-        "start": 896,
-        "end": 952,
+        "start": 897,
+        "end": 953,
         "callee": {
           "type": "Identifier",
-          "start": 896,
-          "end": 914,
+          "start": 897,
+          "end": 915,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 915,
-            "end": 936,
+            "start": 916,
+            "end": 937,
             "object": {
               "type": "Identifier",
-              "start": 915,
-              "end": 926,
+              "start": 916,
+              "end": 927,
               "name": "SyntaxError"
             },
             "property": {
               "type": "Identifier",
-              "start": 927,
-              "end": 936,
+              "start": 928,
+              "end": 937,
               "name": "prototype"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 938,
-            "end": 951,
+            "start": 939,
+            "end": 952,
             "value": "constructor"
           }
         ],

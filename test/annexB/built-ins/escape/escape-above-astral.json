@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 830,
+  "end": 832,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 703,
-      "end": 829,
+      "start": 705,
+      "end": 831,
       "expression": {
         "type": "CallExpression",
-        "start": 703,
-        "end": 828,
+        "start": 705,
+        "end": 830,
         "callee": {
           "type": "MemberExpression",
-          "start": 703,
-          "end": 719,
+          "start": 705,
+          "end": 721,
           "object": {
             "type": "Identifier",
-            "start": 703,
-            "end": 709,
+            "start": 705,
+            "end": 711,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 710,
-            "end": 719,
+            "start": 712,
+            "end": 721,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,19 +33,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 723,
-            "end": 742,
+            "start": 725,
+            "end": 744,
             "callee": {
               "type": "Identifier",
-              "start": 723,
-              "end": 729,
+              "start": 725,
+              "end": 731,
               "name": "escape"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 730,
-                "end": 741,
+                "start": 732,
+                "end": 743,
                 "value": "𐐁"
               }
             ],
@@ -53,14 +53,14 @@
           },
           {
             "type": "Literal",
-            "start": 744,
-            "end": 758,
+            "start": 746,
+            "end": 760,
             "value": "%uD801%uDC01"
           },
           {
             "type": "Literal",
-            "start": 760,
-            "end": 826,
+            "start": 762,
+            "end": 828,
             "value": "\\u{10401} => \\uD801\\uDC01 (surrogate pairs encoded in string)"
           }
         ],

@@ -1,20 +1,20 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 851,
+  "end": 853,
   "body": [
     {
       "type": "ThrowStatement",
-      "start": 825,
-      "end": 850,
+      "start": 827,
+      "end": 852,
       "argument": {
         "type": "NewExpression",
-        "start": 831,
-        "end": 849,
+        "start": 833,
+        "end": 851,
         "callee": {
           "type": "Identifier",
-          "start": 835,
-          "end": 847,
+          "start": 837,
+          "end": 849,
           "name": "Test262Error"
         },
         "arguments": []

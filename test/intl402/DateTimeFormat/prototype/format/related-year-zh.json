@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 598,
+  "end": 610,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -187,12 +187,12 @@
     {
       "type": "VariableDeclaration",
       "start": 523,
-      "end": 559,
+      "end": 571,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 529,
-          "end": 558,
+          "end": 570,
           "id": {
             "type": "Identifier",
             "start": 529,
@@ -202,18 +202,18 @@
           "init": {
             "type": "ArrayExpression",
             "start": 540,
-            "end": 558,
+            "end": 570,
             "elements": [
               {
                 "type": "Literal",
                 "start": 541,
-                "end": 550,
+                "end": 556,
                 "value": "2019己亥年"
               },
               {
                 "type": "Literal",
-                "start": 552,
-                "end": 557,
+                "start": 558,
+                "end": 569,
                 "value": "己亥年"
               }
             ]
@@ -224,37 +224,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 560,
-      "end": 597,
+      "start": 572,
+      "end": 609,
       "expression": {
         "type": "CallExpression",
-        "start": 560,
-        "end": 596,
+        "start": 572,
+        "end": 608,
         "callee": {
           "type": "Identifier",
-          "start": 560,
-          "end": 566,
+          "start": 572,
+          "end": 578,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 567,
-            "end": 595,
+            "start": 579,
+            "end": 607,
             "callee": {
               "type": "MemberExpression",
-              "start": 567,
-              "end": 584,
+              "start": 579,
+              "end": 596,
               "object": {
                 "type": "Identifier",
-                "start": 567,
-                "end": 575,
+                "start": 579,
+                "end": 587,
                 "name": "expected"
               },
               "property": {
                 "type": "Identifier",
-                "start": 576,
-                "end": 584,
+                "start": 588,
+                "end": 596,
                 "name": "includes"
               },
               "computed": false,
@@ -263,8 +263,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 585,
-                "end": 594,
+                "start": 597,
+                "end": 606,
                 "name": "formatted"
               }
             ],

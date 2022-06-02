@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2134,
+  "end": 2136,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 2071,
-      "end": 2099,
+      "start": 2073,
+      "end": 2101,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 2078,
-        "end": 2099,
+        "start": 2080,
+        "end": 2101,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2082,
-            "end": 2098,
+            "start": 2084,
+            "end": 2100,
             "id": {
               "type": "Identifier",
-              "start": 2082,
-              "end": 2087,
+              "start": 2084,
+              "end": 2089,
               "name": "name1"
             },
             "init": {
               "type": "AwaitExpression",
-              "start": 2090,
-              "end": 2098,
+              "start": 2092,
+              "end": 2100,
               "argument": {
                 "type": "TemplateLiteral",
-                "start": 2096,
-                "end": 2098,
+                "start": 2098,
+                "end": 2100,
                 "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 2097,
-                    "end": 2097,
+                    "start": 2099,
+                    "end": 2099,
                     "value": {
                       "raw": "",
                       "cooked": ""
@@ -54,60 +54,60 @@
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2100,
-      "end": 2133,
+      "start": 2102,
+      "end": 2135,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 2107,
-        "end": 2133,
+        "start": 2109,
+        "end": 2135,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2111,
-            "end": 2132,
+            "start": 2113,
+            "end": 2134,
             "id": {
               "type": "ObjectPattern",
-              "start": 2111,
-              "end": 2127,
+              "start": 2113,
+              "end": 2129,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 2113,
-                  "end": 2125,
+                  "start": 2115,
+                  "end": 2127,
                   "method": false,
                   "shorthand": true,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 2113,
-                    "end": 2114,
+                    "start": 2115,
+                    "end": 2116,
                     "name": "x"
                   },
                   "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
-                    "start": 2113,
-                    "end": 2125,
+                    "start": 2115,
+                    "end": 2127,
                     "left": {
                       "type": "Identifier",
-                      "start": 2113,
-                      "end": 2114,
+                      "start": 2115,
+                      "end": 2116,
                       "name": "x"
                     },
                     "right": {
                       "type": "AwaitExpression",
-                      "start": 2117,
-                      "end": 2125,
+                      "start": 2119,
+                      "end": 2127,
                       "argument": {
                         "type": "TemplateLiteral",
-                        "start": 2123,
-                        "end": 2125,
+                        "start": 2125,
+                        "end": 2127,
                         "expressions": [],
                         "quasis": [
                           {
                             "type": "TemplateElement",
-                            "start": 2124,
-                            "end": 2124,
+                            "start": 2126,
+                            "end": 2126,
                             "value": {
                               "raw": "",
                               "cooked": ""
@@ -123,8 +123,8 @@
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 2130,
-              "end": 2132,
+              "start": 2132,
+              "end": 2134,
               "properties": []
             }
           }

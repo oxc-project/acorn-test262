@@ -1,86 +1,86 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1451,
+  "end": 1453,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 1034,
-      "end": 1110,
+      "start": 1036,
+      "end": 1112,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1041,
-          "end": 1051,
+          "start": 1043,
+          "end": 1053,
           "local": {
             "type": "Identifier",
-            "start": 1046,
-            "end": 1051,
+            "start": 1048,
+            "end": 1053,
             "name": "named"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1057,
-        "end": 1109,
+        "start": 1059,
+        "end": 1111,
         "value": "./instn-star-props-dflt-skip-star-named_FIXTURE.js"
       }
     },
     {
       "type": "ImportDeclaration",
-      "start": 1111,
-      "end": 1191,
+      "start": 1113,
+      "end": 1193,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1118,
-          "end": 1133,
+          "start": 1120,
+          "end": 1135,
           "local": {
             "type": "Identifier",
-            "start": 1123,
-            "end": 1133,
+            "start": 1125,
+            "end": 1135,
             "name": "production"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1139,
-        "end": 1190,
+        "start": 1141,
+        "end": 1192,
         "value": "./instn-star-props-dflt-skip-star-prod_FIXTURE.js"
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 1193,
-      "end": 1223,
+      "start": 1195,
+      "end": 1225,
       "expression": {
         "type": "CallExpression",
-        "start": 1193,
-        "end": 1222,
+        "start": 1195,
+        "end": 1224,
         "callee": {
           "type": "Identifier",
-          "start": 1193,
-          "end": 1199,
+          "start": 1195,
+          "end": 1201,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1200,
-            "end": 1221,
+            "start": 1202,
+            "end": 1223,
             "left": {
               "type": "Literal",
-              "start": 1200,
-              "end": 1212,
+              "start": 1202,
+              "end": 1214,
               "value": "namedOther"
             },
             "operator": "in",
             "right": {
               "type": "Identifier",
-              "start": 1216,
-              "end": 1221,
+              "start": 1218,
+              "end": 1223,
               "name": "named"
             }
           }
@@ -90,26 +90,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1224,
-      "end": 1308,
+      "start": 1226,
+      "end": 1310,
       "expression": {
         "type": "CallExpression",
-        "start": 1224,
-        "end": 1307,
+        "start": 1226,
+        "end": 1309,
         "callee": {
           "type": "MemberExpression",
-          "start": 1224,
-          "end": 1240,
+          "start": 1226,
+          "end": 1242,
           "object": {
             "type": "Identifier",
-            "start": 1224,
-            "end": 1230,
+            "start": 1226,
+            "end": 1232,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1231,
-            "end": 1240,
+            "start": 1233,
+            "end": 1242,
             "name": "sameValue"
           },
           "computed": false,
@@ -118,32 +118,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1244,
-            "end": 1262,
+            "start": 1246,
+            "end": 1264,
             "left": {
               "type": "Literal",
-              "start": 1244,
-              "end": 1253,
+              "start": 1246,
+              "end": 1255,
               "value": "default"
             },
             "operator": "in",
             "right": {
               "type": "Identifier",
-              "start": 1257,
-              "end": 1262,
+              "start": 1259,
+              "end": 1264,
               "name": "named"
             }
           },
           {
             "type": "Literal",
-            "start": 1264,
-            "end": 1269,
+            "start": 1266,
+            "end": 1271,
             "value": false
           },
           {
             "type": "Literal",
-            "start": 1271,
-            "end": 1305,
+            "start": 1273,
+            "end": 1307,
             "value": "default specified via identifier"
           }
         ],
@@ -152,34 +152,34 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1310,
-      "end": 1350,
+      "start": 1312,
+      "end": 1352,
       "expression": {
         "type": "CallExpression",
-        "start": 1310,
-        "end": 1349,
+        "start": 1312,
+        "end": 1351,
         "callee": {
           "type": "Identifier",
-          "start": 1310,
-          "end": 1316,
+          "start": 1312,
+          "end": 1318,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1317,
-            "end": 1348,
+            "start": 1319,
+            "end": 1350,
             "left": {
               "type": "Literal",
-              "start": 1317,
-              "end": 1334,
+              "start": 1319,
+              "end": 1336,
               "value": "productionOther"
             },
             "operator": "in",
             "right": {
               "type": "Identifier",
-              "start": 1338,
-              "end": 1348,
+              "start": 1340,
+              "end": 1350,
               "name": "production"
             }
           }
@@ -189,26 +189,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1351,
-      "end": 1450,
+      "start": 1353,
+      "end": 1452,
       "expression": {
         "type": "CallExpression",
-        "start": 1351,
-        "end": 1449,
+        "start": 1353,
+        "end": 1451,
         "callee": {
           "type": "MemberExpression",
-          "start": 1351,
-          "end": 1367,
+          "start": 1353,
+          "end": 1369,
           "object": {
             "type": "Identifier",
-            "start": 1351,
-            "end": 1357,
+            "start": 1353,
+            "end": 1359,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1358,
-            "end": 1367,
+            "start": 1360,
+            "end": 1369,
             "name": "sameValue"
           },
           "computed": false,
@@ -217,32 +217,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1371,
-            "end": 1394,
+            "start": 1373,
+            "end": 1396,
             "left": {
               "type": "Literal",
-              "start": 1371,
-              "end": 1380,
+              "start": 1373,
+              "end": 1382,
               "value": "default"
             },
             "operator": "in",
             "right": {
               "type": "Identifier",
-              "start": 1384,
-              "end": 1394,
+              "start": 1386,
+              "end": 1396,
               "name": "production"
             }
           },
           {
             "type": "Literal",
-            "start": 1396,
-            "end": 1401,
+            "start": 1398,
+            "end": 1403,
             "value": false
           },
           {
             "type": "Literal",
-            "start": 1403,
-            "end": 1447,
+            "start": 1405,
+            "end": 1449,
             "value": "default specified via dedicated production"
           }
         ],

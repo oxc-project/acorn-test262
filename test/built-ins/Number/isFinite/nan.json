@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 376,
+  "end": 380,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 329,
-      "end": 375,
+      "start": 333,
+      "end": 379,
       "expression": {
         "type": "CallExpression",
-        "start": 329,
-        "end": 374,
+        "start": 333,
+        "end": 378,
         "callee": {
           "type": "MemberExpression",
-          "start": 329,
-          "end": 345,
+          "start": 333,
+          "end": 349,
           "object": {
             "type": "Identifier",
-            "start": 329,
-            "end": 335,
+            "start": 333,
+            "end": 339,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 336,
-            "end": 345,
+            "start": 340,
+            "end": 349,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 346,
-            "end": 366,
+            "start": 350,
+            "end": 370,
             "callee": {
               "type": "MemberExpression",
-              "start": 346,
-              "end": 361,
+              "start": 350,
+              "end": 365,
               "object": {
                 "type": "Identifier",
-                "start": 346,
-                "end": 352,
+                "start": 350,
+                "end": 356,
                 "name": "Number"
               },
               "property": {
                 "type": "Identifier",
-                "start": 353,
-                "end": 361,
+                "start": 357,
+                "end": 365,
                 "name": "isFinite"
               },
               "computed": false,
@@ -57,8 +57,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 362,
-                "end": 365,
+                "start": 366,
+                "end": 369,
                 "name": "NaN"
               }
             ],
@@ -66,8 +66,8 @@
           },
           {
             "type": "Literal",
-            "start": 368,
-            "end": 373,
+            "start": 372,
+            "end": 377,
             "value": false
           }
         ],

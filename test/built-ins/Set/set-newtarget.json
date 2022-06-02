@@ -1,31 +1,31 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 725,
+  "end": 729,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 430,
-      "end": 449,
+      "start": 434,
+      "end": 453,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 434,
-          "end": 448,
+          "start": 438,
+          "end": 452,
           "id": {
             "type": "Identifier",
-            "start": 434,
-            "end": 436,
+            "start": 438,
+            "end": 440,
             "name": "s1"
           },
           "init": {
             "type": "NewExpression",
-            "start": 439,
-            "end": 448,
+            "start": 443,
+            "end": 452,
             "callee": {
               "type": "Identifier",
-              "start": 443,
-              "end": 446,
+              "start": 447,
+              "end": 450,
               "name": "Set"
             },
             "arguments": []
@@ -36,26 +36,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 451,
-      "end": 573,
+      "start": 455,
+      "end": 577,
       "expression": {
         "type": "CallExpression",
-        "start": 451,
-        "end": 572,
+        "start": 455,
+        "end": 576,
         "callee": {
           "type": "MemberExpression",
-          "start": 451,
-          "end": 467,
+          "start": 455,
+          "end": 471,
           "object": {
             "type": "Identifier",
-            "start": 451,
-            "end": 457,
+            "start": 455,
+            "end": 461,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 458,
-            "end": 467,
+            "start": 462,
+            "end": 471,
             "name": "sameValue"
           },
           "computed": false,
@@ -64,22 +64,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 471,
-            "end": 496,
+            "start": 475,
+            "end": 500,
             "callee": {
               "type": "MemberExpression",
-              "start": 471,
-              "end": 492,
+              "start": 475,
+              "end": 496,
               "object": {
                 "type": "Identifier",
-                "start": 471,
-                "end": 477,
+                "start": 475,
+                "end": 481,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 478,
-                "end": 492,
+                "start": 482,
+                "end": 496,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -88,8 +88,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 493,
-                "end": 495,
+                "start": 497,
+                "end": 499,
                 "name": "s1"
               }
             ],
@@ -97,18 +97,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 500,
-            "end": 513,
+            "start": 504,
+            "end": 517,
             "object": {
               "type": "Identifier",
-              "start": 500,
-              "end": 503,
+              "start": 504,
+              "end": 507,
               "name": "Set"
             },
             "property": {
               "type": "Identifier",
-              "start": 504,
-              "end": 513,
+              "start": 508,
+              "end": 517,
               "name": "prototype"
             },
             "computed": false,
@@ -116,8 +116,8 @@
           },
           {
             "type": "Literal",
-            "start": 517,
-            "end": 570,
+            "start": 521,
+            "end": 574,
             "value": "`Object.getPrototypeOf(s1)` returns `Set.prototype`"
           }
         ],
@@ -126,45 +126,45 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 575,
-      "end": 600,
+      "start": 579,
+      "end": 604,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 579,
-          "end": 599,
+          "start": 583,
+          "end": 603,
           "id": {
             "type": "Identifier",
-            "start": 579,
-            "end": 581,
+            "start": 583,
+            "end": 585,
             "name": "s2"
           },
           "init": {
             "type": "NewExpression",
-            "start": 584,
-            "end": 599,
+            "start": 588,
+            "end": 603,
             "callee": {
               "type": "Identifier",
-              "start": 588,
-              "end": 591,
+              "start": 592,
+              "end": 595,
               "name": "Set"
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 592,
-                "end": 598,
+                "start": 596,
+                "end": 602,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 593,
-                    "end": 594,
+                    "start": 597,
+                    "end": 598,
                     "value": 1
                   },
                   {
                     "type": "Literal",
-                    "start": 596,
-                    "end": 597,
+                    "start": 600,
+                    "end": 601,
                     "value": 2
                   }
                 ]
@@ -177,26 +177,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 602,
-      "end": 724,
+      "start": 606,
+      "end": 728,
       "expression": {
         "type": "CallExpression",
-        "start": 602,
-        "end": 723,
+        "start": 606,
+        "end": 727,
         "callee": {
           "type": "MemberExpression",
-          "start": 602,
-          "end": 618,
+          "start": 606,
+          "end": 622,
           "object": {
             "type": "Identifier",
-            "start": 602,
-            "end": 608,
+            "start": 606,
+            "end": 612,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 609,
-            "end": 618,
+            "start": 613,
+            "end": 622,
             "name": "sameValue"
           },
           "computed": false,
@@ -205,22 +205,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 622,
-            "end": 647,
+            "start": 626,
+            "end": 651,
             "callee": {
               "type": "MemberExpression",
-              "start": 622,
-              "end": 643,
+              "start": 626,
+              "end": 647,
               "object": {
                 "type": "Identifier",
-                "start": 622,
-                "end": 628,
+                "start": 626,
+                "end": 632,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 629,
-                "end": 643,
+                "start": 633,
+                "end": 647,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -229,8 +229,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 644,
-                "end": 646,
+                "start": 648,
+                "end": 650,
                 "name": "s2"
               }
             ],
@@ -238,18 +238,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 651,
-            "end": 664,
+            "start": 655,
+            "end": 668,
             "object": {
               "type": "Identifier",
-              "start": 651,
-              "end": 654,
+              "start": 655,
+              "end": 658,
               "name": "Set"
             },
             "property": {
               "type": "Identifier",
-              "start": 655,
-              "end": 664,
+              "start": 659,
+              "end": 668,
               "name": "prototype"
             },
             "computed": false,
@@ -257,8 +257,8 @@
           },
           {
             "type": "Literal",
-            "start": 668,
-            "end": 721,
+            "start": 672,
+            "end": 725,
             "value": "`Object.getPrototypeOf(s2)` returns `Set.prototype`"
           }
         ],

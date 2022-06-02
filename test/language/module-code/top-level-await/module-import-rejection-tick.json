@@ -1,51 +1,51 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2755,
+  "end": 2759,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 2639,
-      "end": 2699,
+      "start": 2643,
+      "end": 2703,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 2646,
-          "end": 2649,
+          "start": 2650,
+          "end": 2653,
           "local": {
             "type": "Identifier",
-            "start": 2646,
-            "end": 2649,
+            "start": 2650,
+            "end": 2653,
             "name": "foo"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 2655,
-        "end": 2698,
+        "start": 2659,
+        "end": 2702,
         "value": "./module-import-rejection-tick_FIXTURE.js"
       }
     },
     {
       "type": "ThrowStatement",
-      "start": 2701,
-      "end": 2754,
+      "start": 2705,
+      "end": 2758,
       "argument": {
         "type": "NewExpression",
-        "start": 2707,
-        "end": 2753,
+        "start": 2711,
+        "end": 2757,
         "callee": {
           "type": "Identifier",
-          "start": 2711,
-          "end": 2723,
+          "start": 2715,
+          "end": 2727,
           "name": "Test262Error"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2724,
-            "end": 2752,
+            "start": 2728,
+            "end": 2756,
             "value": "this should be unreachable"
           }
         ]

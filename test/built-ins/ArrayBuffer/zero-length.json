@@ -1,44 +1,44 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 654,
+  "end": 655,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 481,
-      "end": 520,
+      "start": 482,
+      "end": 521,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 485,
-          "end": 519,
+          "start": 486,
+          "end": 520,
           "id": {
             "type": "Identifier",
-            "start": 485,
-            "end": 497,
+            "start": 486,
+            "end": 498,
             "name": "positiveZero"
           },
           "init": {
             "type": "NewExpression",
-            "start": 500,
-            "end": 519,
+            "start": 501,
+            "end": 520,
             "callee": {
               "type": "Identifier",
-              "start": 504,
-              "end": 515,
+              "start": 505,
+              "end": 516,
               "name": "ArrayBuffer"
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 516,
-                "end": 518,
+                "start": 517,
+                "end": 519,
                 "operator": "+",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 517,
-                  "end": 518,
+                  "start": 518,
+                  "end": 519,
                   "value": 0
                 }
               }
@@ -50,26 +50,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 521,
-      "end": 566,
+      "start": 522,
+      "end": 567,
       "expression": {
         "type": "CallExpression",
-        "start": 521,
-        "end": 565,
+        "start": 522,
+        "end": 566,
         "callee": {
           "type": "MemberExpression",
-          "start": 521,
-          "end": 537,
+          "start": 522,
+          "end": 538,
           "object": {
             "type": "Identifier",
-            "start": 521,
-            "end": 527,
+            "start": 522,
+            "end": 528,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 528,
-            "end": 537,
+            "start": 529,
+            "end": 538,
             "name": "sameValue"
           },
           "computed": false,
@@ -78,18 +78,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 538,
-            "end": 561,
+            "start": 539,
+            "end": 562,
             "object": {
               "type": "Identifier",
-              "start": 538,
-              "end": 550,
+              "start": 539,
+              "end": 551,
               "name": "positiveZero"
             },
             "property": {
               "type": "Identifier",
-              "start": 551,
-              "end": 561,
+              "start": 552,
+              "end": 562,
               "name": "byteLength"
             },
             "computed": false,
@@ -97,8 +97,8 @@
           },
           {
             "type": "Literal",
-            "start": 563,
-            "end": 564,
+            "start": 564,
+            "end": 565,
             "value": 0
           }
         ],
@@ -107,40 +107,40 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 568,
-      "end": 607,
+      "start": 569,
+      "end": 608,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 572,
-          "end": 606,
+          "start": 573,
+          "end": 607,
           "id": {
             "type": "Identifier",
-            "start": 572,
-            "end": 584,
+            "start": 573,
+            "end": 585,
             "name": "negativeZero"
           },
           "init": {
             "type": "NewExpression",
-            "start": 587,
-            "end": 606,
+            "start": 588,
+            "end": 607,
             "callee": {
               "type": "Identifier",
-              "start": 591,
-              "end": 602,
+              "start": 592,
+              "end": 603,
               "name": "ArrayBuffer"
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 603,
-                "end": 605,
+                "start": 604,
+                "end": 606,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 604,
-                  "end": 605,
+                  "start": 605,
+                  "end": 606,
                   "value": 0
                 }
               }
@@ -152,26 +152,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 608,
-      "end": 653,
+      "start": 609,
+      "end": 654,
       "expression": {
         "type": "CallExpression",
-        "start": 608,
-        "end": 652,
+        "start": 609,
+        "end": 653,
         "callee": {
           "type": "MemberExpression",
-          "start": 608,
-          "end": 624,
+          "start": 609,
+          "end": 625,
           "object": {
             "type": "Identifier",
-            "start": 608,
-            "end": 614,
+            "start": 609,
+            "end": 615,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 615,
-            "end": 624,
+            "start": 616,
+            "end": 625,
             "name": "sameValue"
           },
           "computed": false,
@@ -180,18 +180,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 625,
-            "end": 648,
+            "start": 626,
+            "end": 649,
             "object": {
               "type": "Identifier",
-              "start": 625,
-              "end": 637,
+              "start": 626,
+              "end": 638,
               "name": "negativeZero"
             },
             "property": {
               "type": "Identifier",
-              "start": 638,
-              "end": 648,
+              "start": 639,
+              "end": 649,
               "name": "byteLength"
             },
             "computed": false,
@@ -199,8 +199,8 @@
           },
           {
             "type": "Literal",
-            "start": 650,
-            "end": 651,
+            "start": 651,
+            "end": 652,
             "value": 0
           }
         ],

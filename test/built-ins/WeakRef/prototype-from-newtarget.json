@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1137,
+  "end": 1139,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1047,
-      "end": 1072,
+      "start": 1049,
+      "end": 1074,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1051,
-          "end": 1071,
+          "start": 1053,
+          "end": 1073,
           "id": {
             "type": "Identifier",
-            "start": 1051,
-            "end": 1053,
+            "start": 1053,
+            "end": 1055,
             "name": "wr"
           },
           "init": {
             "type": "NewExpression",
-            "start": 1056,
-            "end": 1071,
+            "start": 1058,
+            "end": 1073,
             "callee": {
               "type": "Identifier",
-              "start": 1060,
-              "end": 1067,
+              "start": 1062,
+              "end": 1069,
               "name": "WeakRef"
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 1068,
-                "end": 1070,
+                "start": 1070,
+                "end": 1072,
                 "properties": []
               }
             ]
@@ -43,26 +43,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1073,
-      "end": 1136,
+      "start": 1075,
+      "end": 1138,
       "expression": {
         "type": "CallExpression",
-        "start": 1073,
-        "end": 1135,
+        "start": 1075,
+        "end": 1137,
         "callee": {
           "type": "MemberExpression",
-          "start": 1073,
-          "end": 1089,
+          "start": 1075,
+          "end": 1091,
           "object": {
             "type": "Identifier",
-            "start": 1073,
-            "end": 1079,
+            "start": 1075,
+            "end": 1081,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1080,
-            "end": 1089,
+            "start": 1082,
+            "end": 1091,
             "name": "sameValue"
           },
           "computed": false,
@@ -71,22 +71,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1090,
-            "end": 1115,
+            "start": 1092,
+            "end": 1117,
             "callee": {
               "type": "MemberExpression",
-              "start": 1090,
-              "end": 1111,
+              "start": 1092,
+              "end": 1113,
               "object": {
                 "type": "Identifier",
-                "start": 1090,
-                "end": 1096,
+                "start": 1092,
+                "end": 1098,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1097,
-                "end": 1111,
+                "start": 1099,
+                "end": 1113,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -95,8 +95,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1112,
-                "end": 1114,
+                "start": 1114,
+                "end": 1116,
                 "name": "wr"
               }
             ],
@@ -104,18 +104,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 1117,
-            "end": 1134,
+            "start": 1119,
+            "end": 1136,
             "object": {
               "type": "Identifier",
-              "start": 1117,
-              "end": 1124,
+              "start": 1119,
+              "end": 1126,
               "name": "WeakRef"
             },
             "property": {
               "type": "Identifier",
-              "start": 1125,
-              "end": 1134,
+              "start": 1127,
+              "end": 1136,
               "name": "prototype"
             },
             "computed": false,

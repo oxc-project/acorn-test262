@@ -1,45 +1,45 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 768,
+  "end": 769,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 631,
-      "end": 667,
+      "start": 632,
+      "end": 668,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 635,
-          "end": 666,
+          "start": 636,
+          "end": 667,
           "id": {
             "type": "Identifier",
-            "start": 635,
-            "end": 638,
+            "start": 636,
+            "end": 639,
             "name": "obj"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 641,
-            "end": 666,
+            "start": 642,
+            "end": 667,
             "properties": [
               {
                 "type": "Property",
-                "start": 645,
-                "end": 664,
+                "start": 646,
+                "end": 665,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 645,
-                  "end": 656,
+                  "start": 646,
+                  "end": 657,
                   "name": "constructor"
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 658,
-                  "end": 664,
+                  "start": 659,
+                  "end": 665,
                   "name": "RegExp"
                 },
                 "kind": "init"
@@ -52,37 +52,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 668,
-      "end": 693,
+      "start": 669,
+      "end": 694,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 668,
-        "end": 692,
+        "start": 669,
+        "end": 693,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 668,
-          "end": 685,
+          "start": 669,
+          "end": 686,
           "object": {
             "type": "Identifier",
-            "start": 668,
-            "end": 671,
+            "start": 669,
+            "end": 672,
             "name": "obj"
           },
           "property": {
             "type": "MemberExpression",
-            "start": 672,
-            "end": 684,
+            "start": 673,
+            "end": 685,
             "object": {
               "type": "Identifier",
-              "start": 672,
-              "end": 678,
+              "start": 673,
+              "end": 679,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 679,
-              "end": 684,
+              "start": 680,
+              "end": 685,
               "name": "match"
             },
             "computed": false,
@@ -93,34 +93,34 @@
         },
         "right": {
           "type": "Literal",
-          "start": 688,
-          "end": 692,
+          "start": 689,
+          "end": 693,
           "value": true
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 695,
-      "end": 767,
+      "start": 696,
+      "end": 768,
       "expression": {
         "type": "CallExpression",
-        "start": 695,
-        "end": 766,
+        "start": 696,
+        "end": 767,
         "callee": {
           "type": "MemberExpression",
-          "start": 695,
-          "end": 711,
+          "start": 696,
+          "end": 712,
           "object": {
             "type": "Identifier",
-            "start": 695,
-            "end": 701,
+            "start": 696,
+            "end": 702,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 702,
-            "end": 711,
+            "start": 703,
+            "end": 712,
             "name": "sameValue"
           },
           "computed": false,
@@ -129,19 +129,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 712,
-            "end": 723,
+            "start": 713,
+            "end": 724,
             "callee": {
               "type": "Identifier",
-              "start": 712,
-              "end": 718,
+              "start": 713,
+              "end": 719,
               "name": "RegExp"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 719,
-                "end": 722,
+                "start": 720,
+                "end": 723,
                 "name": "obj"
               }
             ],
@@ -149,14 +149,14 @@
           },
           {
             "type": "Identifier",
-            "start": 725,
-            "end": 728,
+            "start": 726,
+            "end": 729,
             "name": "obj"
           },
           {
             "type": "Literal",
-            "start": 730,
-            "end": 765,
+            "start": 731,
+            "end": 766,
             "value": "RegExp returns its input argument"
           }
         ],

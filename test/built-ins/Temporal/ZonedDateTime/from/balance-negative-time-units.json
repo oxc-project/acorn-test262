@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 3966,
+  "end": 3972,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2855,
-      "end": 2916,
+      "start": 2861,
+      "end": 2922,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2861,
-          "end": 2915,
+          "start": 2867,
+          "end": 2921,
           "id": {
             "type": "Identifier",
-            "start": 2861,
-            "end": 2873,
+            "start": 2867,
+            "end": 2879,
             "name": "shiftInstant"
           },
           "init": {
             "type": "NewExpression",
-            "start": 2876,
-            "end": 2915,
+            "start": 2882,
+            "end": 2921,
             "callee": {
               "type": "MemberExpression",
-              "start": 2880,
-              "end": 2896,
+              "start": 2886,
+              "end": 2902,
               "object": {
                 "type": "Identifier",
-                "start": 2880,
-                "end": 2888,
+                "start": 2886,
+                "end": 2894,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2889,
-                "end": 2896,
+                "start": 2895,
+                "end": 2902,
                 "name": "Instant"
               },
               "computed": false,
@@ -44,8 +44,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2897,
-                "end": 2914,
+                "start": 2903,
+                "end": 2920,
                 "value": "3661001001001n"
               }
             ]
@@ -56,37 +56,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2917,
-      "end": 2979,
+      "start": 2923,
+      "end": 2985,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2923,
-          "end": 2978,
+          "start": 2929,
+          "end": 2984,
           "id": {
             "type": "Identifier",
-            "start": 2923,
-            "end": 2926,
+            "start": 2929,
+            "end": 2932,
             "name": "tz1"
           },
           "init": {
             "type": "CallExpression",
-            "start": 2929,
-            "end": 2978,
+            "start": 2935,
+            "end": 2984,
             "callee": {
               "type": "MemberExpression",
-              "start": 2929,
-              "end": 2961,
+              "start": 2935,
+              "end": 2967,
               "object": {
                 "type": "Identifier",
-                "start": 2929,
-                "end": 2944,
+                "start": 2935,
+                "end": 2950,
                 "name": "TemporalHelpers"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2945,
-                "end": 2961,
+                "start": 2951,
+                "end": 2967,
                 "name": "oneShiftTimeZone"
               },
               "computed": false,
@@ -95,14 +95,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2962,
-                "end": 2974,
+                "start": 2968,
+                "end": 2980,
                 "name": "shiftInstant"
               },
               {
                 "type": "Literal",
-                "start": 2976,
-                "end": 2977,
+                "start": 2982,
+                "end": 2983,
                 "value": 2
               }
             ],
@@ -114,30 +114,30 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3121,
-      "end": 3346,
+      "start": 3127,
+      "end": 3352,
       "expression": {
         "type": "CallExpression",
-        "start": 3121,
-        "end": 3345,
+        "start": 3127,
+        "end": 3351,
         "callee": {
           "type": "MemberExpression",
-          "start": 3121,
-          "end": 3148,
+          "start": 3127,
+          "end": 3154,
           "object": {
             "type": "MemberExpression",
-            "start": 3121,
-            "end": 3143,
+            "start": 3127,
+            "end": 3149,
             "object": {
               "type": "Identifier",
-              "start": 3121,
-              "end": 3129,
+              "start": 3127,
+              "end": 3135,
               "name": "Temporal"
             },
             "property": {
               "type": "Identifier",
-              "start": 3130,
-              "end": 3143,
+              "start": 3136,
+              "end": 3149,
               "name": "ZonedDateTime"
             },
             "computed": false,
@@ -145,8 +145,8 @@
           },
           "property": {
             "type": "Identifier",
-            "start": 3144,
-            "end": 3148,
+            "start": 3150,
+            "end": 3154,
             "name": "from"
           },
           "computed": false,
@@ -155,215 +155,215 @@
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 3149,
-            "end": 3295,
+            "start": 3155,
+            "end": 3301,
             "properties": [
               {
                 "type": "Property",
-                "start": 3153,
-                "end": 3163,
+                "start": 3159,
+                "end": 3169,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3153,
-                  "end": 3157,
+                  "start": 3159,
+                  "end": 3163,
                   "name": "year"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3159,
-                  "end": 3163,
+                  "start": 3165,
+                  "end": 3169,
                   "value": 1970
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3167,
-                "end": 3175,
+                "start": 3173,
+                "end": 3181,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3167,
-                  "end": 3172,
+                  "start": 3173,
+                  "end": 3178,
                   "name": "month"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3174,
-                  "end": 3175,
+                  "start": 3180,
+                  "end": 3181,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3179,
-                "end": 3185,
+                "start": 3185,
+                "end": 3191,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3179,
-                  "end": 3182,
+                  "start": 3185,
+                  "end": 3188,
                   "name": "day"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3184,
-                  "end": 3185,
+                  "start": 3190,
+                  "end": 3191,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3189,
-                "end": 3196,
+                "start": 3195,
+                "end": 3202,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3189,
-                  "end": 3193,
+                  "start": 3195,
+                  "end": 3199,
                   "name": "hour"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3195,
-                  "end": 3196,
+                  "start": 3201,
+                  "end": 3202,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3200,
-                "end": 3209,
+                "start": 3206,
+                "end": 3215,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3200,
-                  "end": 3206,
+                  "start": 3206,
+                  "end": 3212,
                   "name": "minute"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3208,
-                  "end": 3209,
+                  "start": 3214,
+                  "end": 3215,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3213,
-                "end": 3222,
+                "start": 3219,
+                "end": 3228,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3213,
-                  "end": 3219,
+                  "start": 3219,
+                  "end": 3225,
                   "name": "second"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3221,
-                  "end": 3222,
+                  "start": 3227,
+                  "end": 3228,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3226,
-                "end": 3240,
+                "start": 3232,
+                "end": 3246,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3226,
-                  "end": 3237,
+                  "start": 3232,
+                  "end": 3243,
                   "name": "millisecond"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3239,
-                  "end": 3240,
+                  "start": 3245,
+                  "end": 3246,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3244,
-                "end": 3258,
+                "start": 3250,
+                "end": 3264,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3244,
-                  "end": 3255,
+                  "start": 3250,
+                  "end": 3261,
                   "name": "microsecond"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3257,
-                  "end": 3258,
+                  "start": 3263,
+                  "end": 3264,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3262,
-                "end": 3275,
+                "start": 3268,
+                "end": 3281,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3262,
-                  "end": 3272,
+                  "start": 3268,
+                  "end": 3278,
                   "name": "nanosecond"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3274,
-                  "end": 3275,
+                  "start": 3280,
+                  "end": 3281,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3279,
-                "end": 3292,
+                "start": 3285,
+                "end": 3298,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3279,
-                  "end": 3287,
+                  "start": 3285,
+                  "end": 3293,
                   "name": "timeZone"
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 3289,
-                  "end": 3292,
+                  "start": 3295,
+                  "end": 3298,
                   "name": "tz1"
                 },
                 "kind": "init"
@@ -372,47 +372,47 @@
           },
           {
             "type": "ObjectExpression",
-            "start": 3297,
-            "end": 3344,
+            "start": 3303,
+            "end": 3350,
             "properties": [
               {
                 "type": "Property",
-                "start": 3299,
-                "end": 3315,
+                "start": 3305,
+                "end": 3321,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3299,
-                  "end": 3305,
+                  "start": 3305,
+                  "end": 3311,
                   "name": "offset"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3307,
-                  "end": 3315,
+                  "start": 3313,
+                  "end": 3321,
                   "value": "ignore"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3317,
-                "end": 3342,
+                "start": 3323,
+                "end": 3348,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3317,
-                  "end": 3331,
+                  "start": 3323,
+                  "end": 3337,
                   "name": "disambiguation"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3333,
-                  "end": 3342,
+                  "start": 3339,
+                  "end": 3348,
                   "value": "earlier"
                 },
                 "kind": "init"
@@ -425,34 +425,34 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 3348,
-      "end": 3440,
+      "start": 3354,
+      "end": 3446,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 3354,
-          "end": 3439,
+          "start": 3360,
+          "end": 3445,
           "id": {
             "type": "Identifier",
-            "start": 3354,
-            "end": 3363,
+            "start": 3360,
+            "end": 3369,
             "name": "expected1"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 3366,
-            "end": 3439,
+            "start": 3372,
+            "end": 3445,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3370,
-                "end": 3401,
+                "start": 3376,
+                "end": 3407,
                 "value": "1970-01-01T01:01:01.001001001"
               },
               {
                 "type": "Literal",
-                "start": 3405,
-                "end": 3436,
+                "start": 3411,
+                "end": 3442,
                 "value": "1970-01-01T01:01:01.001000999"
               }
             ]
@@ -463,26 +463,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3441,
-      "end": 3510,
+      "start": 3447,
+      "end": 3516,
       "expression": {
         "type": "CallExpression",
-        "start": 3441,
-        "end": 3509,
+        "start": 3447,
+        "end": 3515,
         "callee": {
           "type": "MemberExpression",
-          "start": 3441,
-          "end": 3460,
+          "start": 3447,
+          "end": 3466,
           "object": {
             "type": "Identifier",
-            "start": 3441,
-            "end": 3447,
+            "start": 3447,
+            "end": 3453,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3448,
-            "end": 3460,
+            "start": 3454,
+            "end": 3466,
             "name": "compareArray"
           },
           "computed": false,
@@ -491,18 +491,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 3461,
-            "end": 3497,
+            "start": 3467,
+            "end": 3503,
             "object": {
               "type": "Identifier",
-              "start": 3461,
-              "end": 3464,
+              "start": 3467,
+              "end": 3470,
               "name": "tz1"
             },
             "property": {
               "type": "Identifier",
-              "start": 3465,
-              "end": 3497,
+              "start": 3471,
+              "end": 3503,
               "name": "getPossibleInstantsForCalledWith"
             },
             "computed": false,
@@ -510,8 +510,8 @@
           },
           {
             "type": "Identifier",
-            "start": 3499,
-            "end": 3508,
+            "start": 3505,
+            "end": 3514,
             "name": "expected1"
           }
         ],
@@ -520,37 +520,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 3512,
-      "end": 3574,
+      "start": 3518,
+      "end": 3580,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 3518,
-          "end": 3573,
+          "start": 3524,
+          "end": 3579,
           "id": {
             "type": "Identifier",
-            "start": 3518,
-            "end": 3521,
+            "start": 3524,
+            "end": 3527,
             "name": "tz2"
           },
           "init": {
             "type": "CallExpression",
-            "start": 3524,
-            "end": 3573,
+            "start": 3530,
+            "end": 3579,
             "callee": {
               "type": "MemberExpression",
-              "start": 3524,
-              "end": 3556,
+              "start": 3530,
+              "end": 3562,
               "object": {
                 "type": "Identifier",
-                "start": 3524,
-                "end": 3539,
+                "start": 3530,
+                "end": 3545,
                 "name": "TemporalHelpers"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3540,
-                "end": 3556,
+                "start": 3546,
+                "end": 3562,
                 "name": "oneShiftTimeZone"
               },
               "computed": false,
@@ -559,14 +559,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 3557,
-                "end": 3569,
+                "start": 3563,
+                "end": 3575,
                 "name": "shiftInstant"
               },
               {
                 "type": "Literal",
-                "start": 3571,
-                "end": 3572,
+                "start": 3577,
+                "end": 3578,
                 "value": 2
               }
             ],
@@ -578,30 +578,30 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3576,
-      "end": 3801,
+      "start": 3582,
+      "end": 3807,
       "expression": {
         "type": "CallExpression",
-        "start": 3576,
-        "end": 3800,
+        "start": 3582,
+        "end": 3806,
         "callee": {
           "type": "MemberExpression",
-          "start": 3576,
-          "end": 3603,
+          "start": 3582,
+          "end": 3609,
           "object": {
             "type": "MemberExpression",
-            "start": 3576,
-            "end": 3598,
+            "start": 3582,
+            "end": 3604,
             "object": {
               "type": "Identifier",
-              "start": 3576,
-              "end": 3584,
+              "start": 3582,
+              "end": 3590,
               "name": "Temporal"
             },
             "property": {
               "type": "Identifier",
-              "start": 3585,
-              "end": 3598,
+              "start": 3591,
+              "end": 3604,
               "name": "ZonedDateTime"
             },
             "computed": false,
@@ -609,8 +609,8 @@
           },
           "property": {
             "type": "Identifier",
-            "start": 3599,
-            "end": 3603,
+            "start": 3605,
+            "end": 3609,
             "name": "from"
           },
           "computed": false,
@@ -619,215 +619,215 @@
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 3604,
-            "end": 3750,
+            "start": 3610,
+            "end": 3756,
             "properties": [
               {
                 "type": "Property",
-                "start": 3608,
-                "end": 3618,
+                "start": 3614,
+                "end": 3624,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3608,
-                  "end": 3612,
+                  "start": 3614,
+                  "end": 3618,
                   "name": "year"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3614,
-                  "end": 3618,
+                  "start": 3620,
+                  "end": 3624,
                   "value": 1970
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3622,
-                "end": 3630,
+                "start": 3628,
+                "end": 3636,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3622,
-                  "end": 3627,
+                  "start": 3628,
+                  "end": 3633,
                   "name": "month"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3629,
-                  "end": 3630,
+                  "start": 3635,
+                  "end": 3636,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3634,
-                "end": 3640,
+                "start": 3640,
+                "end": 3646,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3634,
-                  "end": 3637,
+                  "start": 3640,
+                  "end": 3643,
                   "name": "day"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3639,
-                  "end": 3640,
+                  "start": 3645,
+                  "end": 3646,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3644,
-                "end": 3651,
+                "start": 3650,
+                "end": 3657,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3644,
-                  "end": 3648,
+                  "start": 3650,
+                  "end": 3654,
                   "name": "hour"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3650,
-                  "end": 3651,
+                  "start": 3656,
+                  "end": 3657,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3655,
-                "end": 3664,
+                "start": 3661,
+                "end": 3670,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3655,
-                  "end": 3661,
+                  "start": 3661,
+                  "end": 3667,
                   "name": "minute"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3663,
-                  "end": 3664,
+                  "start": 3669,
+                  "end": 3670,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3668,
-                "end": 3677,
+                "start": 3674,
+                "end": 3683,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3668,
-                  "end": 3674,
+                  "start": 3674,
+                  "end": 3680,
                   "name": "second"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3676,
-                  "end": 3677,
+                  "start": 3682,
+                  "end": 3683,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3681,
-                "end": 3695,
+                "start": 3687,
+                "end": 3701,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3681,
-                  "end": 3692,
+                  "start": 3687,
+                  "end": 3698,
                   "name": "millisecond"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3694,
-                  "end": 3695,
+                  "start": 3700,
+                  "end": 3701,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3699,
-                "end": 3713,
+                "start": 3705,
+                "end": 3719,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3699,
-                  "end": 3710,
+                  "start": 3705,
+                  "end": 3716,
                   "name": "microsecond"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3712,
-                  "end": 3713,
+                  "start": 3718,
+                  "end": 3719,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3717,
-                "end": 3730,
+                "start": 3723,
+                "end": 3736,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3717,
-                  "end": 3727,
+                  "start": 3723,
+                  "end": 3733,
                   "name": "nanosecond"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3729,
-                  "end": 3730,
+                  "start": 3735,
+                  "end": 3736,
                   "value": 1
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3734,
-                "end": 3747,
+                "start": 3740,
+                "end": 3753,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3734,
-                  "end": 3742,
+                  "start": 3740,
+                  "end": 3748,
                   "name": "timeZone"
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 3744,
-                  "end": 3747,
+                  "start": 3750,
+                  "end": 3753,
                   "name": "tz2"
                 },
                 "kind": "init"
@@ -836,47 +836,47 @@
           },
           {
             "type": "ObjectExpression",
-            "start": 3752,
-            "end": 3799,
+            "start": 3758,
+            "end": 3805,
             "properties": [
               {
                 "type": "Property",
-                "start": 3754,
-                "end": 3770,
+                "start": 3760,
+                "end": 3776,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3754,
-                  "end": 3760,
+                  "start": 3760,
+                  "end": 3766,
                   "name": "offset"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3762,
-                  "end": 3770,
+                  "start": 3768,
+                  "end": 3776,
                   "value": "prefer"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 3772,
-                "end": 3797,
+                "start": 3778,
+                "end": 3803,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 3772,
-                  "end": 3786,
+                  "start": 3778,
+                  "end": 3792,
                   "name": "disambiguation"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 3788,
-                  "end": 3797,
+                  "start": 3794,
+                  "end": 3803,
                   "value": "earlier"
                 },
                 "kind": "init"
@@ -889,34 +889,34 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 3803,
-      "end": 3895,
+      "start": 3809,
+      "end": 3901,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 3809,
-          "end": 3894,
+          "start": 3815,
+          "end": 3900,
           "id": {
             "type": "Identifier",
-            "start": 3809,
-            "end": 3818,
+            "start": 3815,
+            "end": 3824,
             "name": "expected2"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 3821,
-            "end": 3894,
+            "start": 3827,
+            "end": 3900,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3825,
-                "end": 3856,
+                "start": 3831,
+                "end": 3862,
                 "value": "1970-01-01T01:01:01.001001001"
               },
               {
                 "type": "Literal",
-                "start": 3860,
-                "end": 3891,
+                "start": 3866,
+                "end": 3897,
                 "value": "1970-01-01T01:01:01.001000999"
               }
             ]
@@ -927,26 +927,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3896,
-      "end": 3965,
+      "start": 3902,
+      "end": 3971,
       "expression": {
         "type": "CallExpression",
-        "start": 3896,
-        "end": 3964,
+        "start": 3902,
+        "end": 3970,
         "callee": {
           "type": "MemberExpression",
-          "start": 3896,
-          "end": 3915,
+          "start": 3902,
+          "end": 3921,
           "object": {
             "type": "Identifier",
-            "start": 3896,
-            "end": 3902,
+            "start": 3902,
+            "end": 3908,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3903,
-            "end": 3915,
+            "start": 3909,
+            "end": 3921,
             "name": "compareArray"
           },
           "computed": false,
@@ -955,18 +955,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 3916,
-            "end": 3952,
+            "start": 3922,
+            "end": 3958,
             "object": {
               "type": "Identifier",
-              "start": 3916,
-              "end": 3919,
+              "start": 3922,
+              "end": 3925,
               "name": "tz2"
             },
             "property": {
               "type": "Identifier",
-              "start": 3920,
-              "end": 3952,
+              "start": 3926,
+              "end": 3958,
               "name": "getPossibleInstantsForCalledWith"
             },
             "computed": false,
@@ -974,8 +974,8 @@
           },
           {
             "type": "Identifier",
-            "start": 3954,
-            "end": 3963,
+            "start": 3960,
+            "end": 3969,
             "name": "expected2"
           }
         ],

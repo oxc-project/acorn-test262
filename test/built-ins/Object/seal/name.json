@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 836,
+  "end": 837,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 668,
-      "end": 711,
+      "start": 669,
+      "end": 712,
       "expression": {
         "type": "CallExpression",
-        "start": 668,
-        "end": 710,
+        "start": 669,
+        "end": 711,
         "callee": {
           "type": "MemberExpression",
-          "start": 668,
-          "end": 684,
+          "start": 669,
+          "end": 685,
           "object": {
             "type": "Identifier",
-            "start": 668,
-            "end": 674,
+            "start": 669,
+            "end": 675,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 675,
-            "end": 684,
+            "start": 676,
+            "end": 685,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 685,
-            "end": 701,
+            "start": 686,
+            "end": 702,
             "object": {
               "type": "MemberExpression",
-              "start": 685,
-              "end": 696,
+              "start": 686,
+              "end": 697,
               "object": {
                 "type": "Identifier",
-                "start": 685,
-                "end": 691,
+                "start": 686,
+                "end": 692,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 692,
-                "end": 696,
+                "start": 693,
+                "end": 697,
                 "name": "seal"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 697,
-              "end": 701,
+              "start": 698,
+              "end": 702,
               "name": "name"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Literal",
-            "start": 703,
-            "end": 709,
+            "start": 704,
+            "end": 710,
             "value": "seal"
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 713,
-      "end": 754,
+      "start": 714,
+      "end": 755,
       "expression": {
         "type": "CallExpression",
-        "start": 713,
-        "end": 753,
+        "start": 714,
+        "end": 754,
         "callee": {
           "type": "Identifier",
-          "start": 713,
-          "end": 732,
+          "start": 714,
+          "end": 733,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 733,
-            "end": 744,
+            "start": 734,
+            "end": 745,
             "object": {
               "type": "Identifier",
-              "start": 733,
-              "end": 739,
+              "start": 734,
+              "end": 740,
               "name": "Object"
             },
             "property": {
               "type": "Identifier",
-              "start": 740,
-              "end": 744,
+              "start": 741,
+              "end": 745,
               "name": "seal"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 746,
-            "end": 752,
+            "start": 747,
+            "end": 753,
             "value": "name"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 755,
-      "end": 794,
+      "start": 756,
+      "end": 795,
       "expression": {
         "type": "CallExpression",
-        "start": 755,
-        "end": 793,
+        "start": 756,
+        "end": 794,
         "callee": {
           "type": "Identifier",
-          "start": 755,
-          "end": 772,
+          "start": 756,
+          "end": 773,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 773,
-            "end": 784,
+            "start": 774,
+            "end": 785,
             "object": {
               "type": "Identifier",
-              "start": 773,
-              "end": 779,
+              "start": 774,
+              "end": 780,
               "name": "Object"
             },
             "property": {
               "type": "Identifier",
-              "start": 780,
-              "end": 784,
+              "start": 781,
+              "end": 785,
               "name": "seal"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 786,
-            "end": 792,
+            "start": 787,
+            "end": 793,
             "value": "name"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 795,
-      "end": 835,
+      "start": 796,
+      "end": 836,
       "expression": {
         "type": "CallExpression",
-        "start": 795,
-        "end": 834,
+        "start": 796,
+        "end": 835,
         "callee": {
           "type": "Identifier",
-          "start": 795,
-          "end": 813,
+          "start": 796,
+          "end": 814,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 814,
-            "end": 825,
+            "start": 815,
+            "end": 826,
             "object": {
               "type": "Identifier",
-              "start": 814,
-              "end": 820,
+              "start": 815,
+              "end": 821,
               "name": "Object"
             },
             "property": {
               "type": "Identifier",
-              "start": 821,
-              "end": 825,
+              "start": 822,
+              "end": 826,
               "name": "seal"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 827,
-            "end": 833,
+            "start": 828,
+            "end": 834,
             "value": "name"
           }
         ],

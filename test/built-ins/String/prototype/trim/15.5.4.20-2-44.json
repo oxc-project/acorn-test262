@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 359,
+  "end": 367,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 291,
-      "end": 308,
+      "start": 295,
+      "end": 316,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 295,
-          "end": 307,
+          "start": 299,
+          "end": 315,
           "id": {
             "type": "Identifier",
-            "start": 295,
-            "end": 298,
+            "start": 299,
+            "end": 302,
             "name": "str"
           },
           "init": {
             "type": "Literal",
-            "start": 301,
-            "end": 307,
+            "start": 305,
+            "end": 315,
             "value": "SD咕噜"
           }
         }
@@ -30,26 +30,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 310,
-      "end": 358,
+      "start": 318,
+      "end": 366,
       "expression": {
         "type": "CallExpression",
-        "start": 310,
-        "end": 357,
+        "start": 318,
+        "end": 365,
         "callee": {
           "type": "MemberExpression",
-          "start": 310,
-          "end": 326,
+          "start": 318,
+          "end": 334,
           "object": {
             "type": "Identifier",
-            "start": 310,
-            "end": 316,
+            "start": 318,
+            "end": 324,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 317,
-            "end": 326,
+            "start": 325,
+            "end": 334,
             "name": "sameValue"
           },
           "computed": false,
@@ -58,22 +58,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 327,
-            "end": 337,
+            "start": 335,
+            "end": 345,
             "callee": {
               "type": "MemberExpression",
-              "start": 327,
-              "end": 335,
+              "start": 335,
+              "end": 343,
               "object": {
                 "type": "Identifier",
-                "start": 327,
-                "end": 330,
+                "start": 335,
+                "end": 338,
                 "name": "str"
               },
               "property": {
                 "type": "Identifier",
-                "start": 331,
-                "end": 335,
+                "start": 339,
+                "end": 343,
                 "name": "trim"
               },
               "computed": false,
@@ -84,14 +84,14 @@
           },
           {
             "type": "Identifier",
-            "start": 339,
-            "end": 342,
+            "start": 347,
+            "end": 350,
             "name": "str"
           },
           {
             "type": "Literal",
-            "start": 344,
-            "end": 356,
+            "start": 352,
+            "end": 364,
             "value": "str.trim()"
           }
         ],

@@ -1,20 +1,20 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2074,
+  "end": 2076,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2049,
-      "end": 2073,
+      "start": 2051,
+      "end": 2075,
       "declaration": {
         "type": "AwaitExpression",
-        "start": 2064,
-        "end": 2072,
+        "start": 2066,
+        "end": 2074,
         "argument": {
           "type": "ArrayExpression",
-          "start": 2070,
-          "end": 2072,
+          "start": 2072,
+          "end": 2074,
           "elements": []
         }
       }

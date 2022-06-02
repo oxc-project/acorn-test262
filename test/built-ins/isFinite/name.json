@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 833,
+  "end": 834,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 673,
-      "end": 717,
+      "start": 674,
+      "end": 718,
       "expression": {
         "type": "CallExpression",
-        "start": 673,
-        "end": 716,
+        "start": 674,
+        "end": 717,
         "callee": {
           "type": "MemberExpression",
-          "start": 673,
-          "end": 689,
+          "start": 674,
+          "end": 690,
           "object": {
             "type": "Identifier",
-            "start": 673,
-            "end": 679,
+            "start": 674,
+            "end": 680,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 680,
-            "end": 689,
+            "start": 681,
+            "end": 690,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,18 +33,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 690,
-            "end": 703,
+            "start": 691,
+            "end": 704,
             "object": {
               "type": "Identifier",
-              "start": 690,
-              "end": 698,
+              "start": 691,
+              "end": 699,
               "name": "isFinite"
             },
             "property": {
               "type": "Identifier",
-              "start": 699,
-              "end": 703,
+              "start": 700,
+              "end": 704,
               "name": "name"
             },
             "computed": false,
@@ -52,8 +52,8 @@
           },
           {
             "type": "Literal",
-            "start": 705,
-            "end": 715,
+            "start": 706,
+            "end": 716,
             "value": "isFinite"
           }
         ],
@@ -62,29 +62,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 719,
-      "end": 757,
+      "start": 720,
+      "end": 758,
       "expression": {
         "type": "CallExpression",
-        "start": 719,
-        "end": 756,
+        "start": 720,
+        "end": 757,
         "callee": {
           "type": "Identifier",
-          "start": 719,
-          "end": 738,
+          "start": 720,
+          "end": 739,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 739,
-            "end": 747,
+            "start": 740,
+            "end": 748,
             "name": "isFinite"
           },
           {
             "type": "Literal",
-            "start": 749,
-            "end": 755,
+            "start": 750,
+            "end": 756,
             "value": "name"
           }
         ],
@@ -93,29 +93,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 758,
-      "end": 794,
+      "start": 759,
+      "end": 795,
       "expression": {
         "type": "CallExpression",
-        "start": 758,
-        "end": 793,
+        "start": 759,
+        "end": 794,
         "callee": {
           "type": "Identifier",
-          "start": 758,
-          "end": 775,
+          "start": 759,
+          "end": 776,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 776,
-            "end": 784,
+            "start": 777,
+            "end": 785,
             "name": "isFinite"
           },
           {
             "type": "Literal",
-            "start": 786,
-            "end": 792,
+            "start": 787,
+            "end": 793,
             "value": "name"
           }
         ],
@@ -124,29 +124,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 795,
-      "end": 832,
+      "start": 796,
+      "end": 833,
       "expression": {
         "type": "CallExpression",
-        "start": 795,
-        "end": 831,
+        "start": 796,
+        "end": 832,
         "callee": {
           "type": "Identifier",
-          "start": 795,
-          "end": 813,
+          "start": 796,
+          "end": 814,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 814,
-            "end": 822,
+            "start": 815,
+            "end": 823,
             "name": "isFinite"
           },
           {
             "type": "Literal",
-            "start": 824,
-            "end": 830,
+            "start": 825,
+            "end": 831,
             "value": "name"
           }
         ],

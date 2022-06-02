@@ -1,17 +1,17 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1202,
+  "end": 1222,
   "body": [
     {
       "type": "VariableDeclaration",
       "start": 311,
-      "end": 844,
+      "end": 864,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 317,
-          "end": 843,
+          "end": 863,
           "id": {
             "type": "Identifier",
             "start": 317,
@@ -21,7 +21,7 @@
           "init": {
             "type": "ArrayExpression",
             "start": 325,
-            "end": 843,
+            "end": 863,
             "elements": [
               {
                 "type": "ArrayExpression",
@@ -226,7 +226,7 @@
               {
                 "type": "ArrayExpression",
                 "start": 719,
-                "end": 759,
+                "end": 763,
                 "elements": [
                   {
                     "type": "UnaryExpression",
@@ -244,63 +244,63 @@
                   {
                     "type": "Literal",
                     "start": 740,
-                    "end": 744,
+                    "end": 746,
                     "value": "-∞"
                   },
                   {
                     "type": "Literal",
-                    "start": 750,
-                    "end": 754,
+                    "start": 752,
+                    "end": 758,
                     "value": "-∞"
                   }
                 ]
               },
               {
                 "type": "ArrayExpression",
-                "start": 763,
-                "end": 800,
+                "start": 767,
+                "end": 808,
                 "elements": [
                   {
                     "type": "Identifier",
-                    "start": 769,
-                    "end": 777,
+                    "start": 773,
+                    "end": 781,
                     "name": "Infinity"
                   },
                   {
                     "type": "Literal",
-                    "start": 783,
-                    "end": 786,
+                    "start": 787,
+                    "end": 792,
                     "value": "∞"
                   },
                   {
                     "type": "Literal",
-                    "start": 792,
-                    "end": 795,
+                    "start": 798,
+                    "end": 803,
                     "value": "∞"
                   }
                 ]
               },
               {
                 "type": "ArrayExpression",
-                "start": 804,
-                "end": 840,
+                "start": 812,
+                "end": 860,
                 "elements": [
                   {
                     "type": "Identifier",
-                    "start": 810,
-                    "end": 813,
+                    "start": 818,
+                    "end": 821,
                     "name": "NaN"
                   },
                   {
                     "type": "Literal",
-                    "start": 819,
-                    "end": 824,
+                    "start": 827,
+                    "end": 838,
                     "value": "非數值"
                   },
                   {
                     "type": "Literal",
-                    "start": 830,
-                    "end": 835,
+                    "start": 844,
+                    "end": 855,
                     "value": "非數值"
                   }
                 ]
@@ -313,39 +313,39 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 846,
-      "end": 1200,
+      "start": 866,
+      "end": 1220,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 851,
-        "end": 890,
+        "start": 871,
+        "end": 910,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 857,
-            "end": 890,
+            "start": 877,
+            "end": 910,
             "id": {
               "type": "ArrayPattern",
-              "start": 857,
-              "end": 890,
+              "start": 877,
+              "end": 910,
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 858,
-                  "end": 864,
+                  "start": 878,
+                  "end": 884,
                   "name": "number"
                 },
                 {
                   "type": "Identifier",
-                  "start": 866,
-                  "end": 877,
+                  "start": 886,
+                  "end": 897,
                   "name": "engineering"
                 },
                 {
                   "type": "Identifier",
-                  "start": 879,
-                  "end": 889,
+                  "start": 899,
+                  "end": 909,
                   "name": "scientific"
                 }
               ]
@@ -357,52 +357,52 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 894,
-        "end": 899,
+        "start": 914,
+        "end": 919,
         "name": "tests"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 901,
-        "end": 1200,
+        "start": 921,
+        "end": 1220,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 905,
-            "end": 989,
+            "start": 925,
+            "end": 1009,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 911,
-                "end": 988,
+                "start": 931,
+                "end": 1008,
                 "id": {
                   "type": "Identifier",
-                  "start": 911,
-                  "end": 924,
+                  "start": 931,
+                  "end": 944,
                   "name": "nfEngineering"
                 },
                 "init": {
                   "type": "ParenthesizedExpression",
-                  "start": 927,
-                  "end": 988,
+                  "start": 947,
+                  "end": 1008,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 928,
-                    "end": 987,
+                    "start": 948,
+                    "end": 1007,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 932,
-                      "end": 949,
+                      "start": 952,
+                      "end": 969,
                       "object": {
                         "type": "Identifier",
-                        "start": 932,
-                        "end": 936,
+                        "start": 952,
+                        "end": 956,
                         "name": "Intl"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 937,
-                        "end": 949,
+                        "start": 957,
+                        "end": 969,
                         "name": "NumberFormat"
                       },
                       "computed": false,
@@ -411,32 +411,32 @@
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 950,
-                        "end": 957,
+                        "start": 970,
+                        "end": 977,
                         "value": "zh-TW"
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 959,
-                        "end": 986,
+                        "start": 979,
+                        "end": 1006,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 961,
-                            "end": 984,
+                            "start": 981,
+                            "end": 1004,
                             "method": false,
                             "shorthand": false,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 961,
-                              "end": 969,
+                              "start": 981,
+                              "end": 989,
                               "name": "notation"
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 971,
-                              "end": 984,
+                              "start": 991,
+                              "end": 1004,
                               "value": "engineering"
                             },
                             "kind": "init"
@@ -452,26 +452,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 992,
-            "end": 1052,
+            "start": 1012,
+            "end": 1072,
             "expression": {
               "type": "CallExpression",
-              "start": 992,
-              "end": 1051,
+              "start": 1012,
+              "end": 1071,
               "callee": {
                 "type": "MemberExpression",
-                "start": 992,
-                "end": 1008,
+                "start": 1012,
+                "end": 1028,
                 "object": {
                   "type": "Identifier",
-                  "start": 992,
-                  "end": 998,
+                  "start": 1012,
+                  "end": 1018,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 999,
-                  "end": 1008,
+                  "start": 1019,
+                  "end": 1028,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -480,22 +480,22 @@
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 1009,
-                  "end": 1037,
+                  "start": 1029,
+                  "end": 1057,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 1009,
-                    "end": 1029,
+                    "start": 1029,
+                    "end": 1049,
                     "object": {
                       "type": "Identifier",
-                      "start": 1009,
-                      "end": 1022,
+                      "start": 1029,
+                      "end": 1042,
                       "name": "nfEngineering"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1023,
-                      "end": 1029,
+                      "start": 1043,
+                      "end": 1049,
                       "name": "format"
                     },
                     "computed": false,
@@ -504,8 +504,8 @@
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 1030,
-                      "end": 1036,
+                      "start": 1050,
+                      "end": 1056,
                       "name": "number"
                     }
                   ],
@@ -513,8 +513,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 1039,
-                  "end": 1050,
+                  "start": 1059,
+                  "end": 1070,
                   "name": "engineering"
                 }
               ],
@@ -523,41 +523,41 @@
           },
           {
             "type": "VariableDeclaration",
-            "start": 1055,
-            "end": 1137,
+            "start": 1075,
+            "end": 1157,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1061,
-                "end": 1136,
+                "start": 1081,
+                "end": 1156,
                 "id": {
                   "type": "Identifier",
-                  "start": 1061,
-                  "end": 1073,
+                  "start": 1081,
+                  "end": 1093,
                   "name": "nfScientific"
                 },
                 "init": {
                   "type": "ParenthesizedExpression",
-                  "start": 1076,
-                  "end": 1136,
+                  "start": 1096,
+                  "end": 1156,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 1077,
-                    "end": 1135,
+                    "start": 1097,
+                    "end": 1155,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1081,
-                      "end": 1098,
+                      "start": 1101,
+                      "end": 1118,
                       "object": {
                         "type": "Identifier",
-                        "start": 1081,
-                        "end": 1085,
+                        "start": 1101,
+                        "end": 1105,
                         "name": "Intl"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1086,
-                        "end": 1098,
+                        "start": 1106,
+                        "end": 1118,
                         "name": "NumberFormat"
                       },
                       "computed": false,
@@ -566,32 +566,32 @@
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1099,
-                        "end": 1106,
+                        "start": 1119,
+                        "end": 1126,
                         "value": "zh-TW"
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 1108,
-                        "end": 1134,
+                        "start": 1128,
+                        "end": 1154,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 1110,
-                            "end": 1132,
+                            "start": 1130,
+                            "end": 1152,
                             "method": false,
                             "shorthand": false,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 1110,
-                              "end": 1118,
+                              "start": 1130,
+                              "end": 1138,
                               "name": "notation"
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 1120,
-                              "end": 1132,
+                              "start": 1140,
+                              "end": 1152,
                               "value": "scientific"
                             },
                             "kind": "init"
@@ -607,26 +607,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1140,
-            "end": 1198,
+            "start": 1160,
+            "end": 1218,
             "expression": {
               "type": "CallExpression",
-              "start": 1140,
-              "end": 1197,
+              "start": 1160,
+              "end": 1217,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1140,
-                "end": 1156,
+                "start": 1160,
+                "end": 1176,
                 "object": {
                   "type": "Identifier",
-                  "start": 1140,
-                  "end": 1146,
+                  "start": 1160,
+                  "end": 1166,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1147,
-                  "end": 1156,
+                  "start": 1167,
+                  "end": 1176,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -635,22 +635,22 @@
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 1157,
-                  "end": 1184,
+                  "start": 1177,
+                  "end": 1204,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 1157,
-                    "end": 1176,
+                    "start": 1177,
+                    "end": 1196,
                     "object": {
                       "type": "Identifier",
-                      "start": 1157,
-                      "end": 1169,
+                      "start": 1177,
+                      "end": 1189,
                       "name": "nfScientific"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1170,
-                      "end": 1176,
+                      "start": 1190,
+                      "end": 1196,
                       "name": "format"
                     },
                     "computed": false,
@@ -659,8 +659,8 @@
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 1177,
-                      "end": 1183,
+                      "start": 1197,
+                      "end": 1203,
                       "name": "number"
                     }
                   ],
@@ -668,8 +668,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 1186,
-                  "end": 1196,
+                  "start": 1206,
+                  "end": 1216,
                   "name": "scientific"
                 }
               ],

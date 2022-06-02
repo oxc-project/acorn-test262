@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1255,
+  "end": 1257,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1066,
-      "end": 1162,
+      "start": 1068,
+      "end": 1164,
       "expression": {
         "type": "CallExpression",
-        "start": 1066,
-        "end": 1161,
+        "start": 1068,
+        "end": 1163,
         "callee": {
           "type": "MemberExpression",
-          "start": 1066,
-          "end": 1082,
+          "start": 1068,
+          "end": 1084,
           "object": {
             "type": "Identifier",
-            "start": 1066,
-            "end": 1072,
+            "start": 1068,
+            "end": 1074,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1073,
-            "end": 1082,
+            "start": 1075,
+            "end": 1084,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,19 +33,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1086,
-            "end": 1148,
+            "start": 1088,
+            "end": 1150,
             "callee": {
               "type": "Identifier",
-              "start": 1086,
-              "end": 1090,
+              "start": 1088,
+              "end": 1092,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1091,
-                "end": 1147,
+                "start": 1093,
+                "end": 1149,
                 "value": "var runA; 1; for (runA = true; runA; runA = false) { }"
               }
             ],
@@ -53,8 +53,8 @@
           },
           {
             "type": "Identifier",
-            "start": 1150,
-            "end": 1159,
+            "start": 1152,
+            "end": 1161,
             "name": "undefined"
           }
         ],
@@ -63,26 +63,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1163,
-      "end": 1254,
+      "start": 1165,
+      "end": 1256,
       "expression": {
         "type": "CallExpression",
-        "start": 1163,
-        "end": 1253,
+        "start": 1165,
+        "end": 1255,
         "callee": {
           "type": "MemberExpression",
-          "start": 1163,
-          "end": 1179,
+          "start": 1165,
+          "end": 1181,
           "object": {
             "type": "Identifier",
-            "start": 1163,
-            "end": 1169,
+            "start": 1165,
+            "end": 1171,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1170,
-            "end": 1179,
+            "start": 1172,
+            "end": 1181,
             "name": "sameValue"
           },
           "computed": false,
@@ -91,19 +91,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1183,
-            "end": 1248,
+            "start": 1185,
+            "end": 1250,
             "callee": {
               "type": "Identifier",
-              "start": 1183,
-              "end": 1187,
+              "start": 1185,
+              "end": 1189,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1188,
-                "end": 1247,
+                "start": 1190,
+                "end": 1249,
                 "value": "var runB; 2; for (runB = true; runB; runB = false) { 3; }"
               }
             ],
@@ -111,8 +111,8 @@
           },
           {
             "type": "Literal",
-            "start": 1250,
-            "end": 1251,
+            "start": 1252,
+            "end": 1253,
             "value": 3
           }
         ],

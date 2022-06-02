@@ -1,76 +1,76 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2148,
+  "end": 2152,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2034,
-      "end": 2147,
+      "start": 2038,
+      "end": 2151,
       "declaration": {
         "type": "AwaitExpression",
-        "start": 2049,
-        "end": 2146,
+        "start": 2053,
+        "end": 2150,
         "argument": {
           "type": "AwaitExpression",
-          "start": 2055,
-          "end": 2146,
+          "start": 2059,
+          "end": 2150,
           "argument": {
             "type": "AwaitExpression",
-            "start": 2061,
-            "end": 2146,
+            "start": 2065,
+            "end": 2150,
             "argument": {
               "type": "AwaitExpression",
-              "start": 2067,
-              "end": 2146,
+              "start": 2071,
+              "end": 2150,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 2073,
-                "end": 2146,
+                "start": 2077,
+                "end": 2150,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 2079,
-                  "end": 2146,
+                  "start": 2083,
+                  "end": 2150,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 2085,
-                    "end": 2146,
+                    "start": 2089,
+                    "end": 2150,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 2091,
-                      "end": 2146,
+                      "start": 2095,
+                      "end": 2150,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 2097,
-                        "end": 2146,
+                        "start": 2101,
+                        "end": 2150,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 2103,
-                          "end": 2146,
+                          "start": 2107,
+                          "end": 2150,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 2109,
-                            "end": 2146,
+                            "start": 2113,
+                            "end": 2150,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 2115,
-                              "end": 2146,
+                              "start": 2119,
+                              "end": 2150,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 2121,
-                                "end": 2146,
+                                "start": 2125,
+                                "end": 2150,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 2127,
-                                  "end": 2146,
+                                  "start": 2131,
+                                  "end": 2150,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 2133,
-                                    "end": 2146,
+                                    "start": 2137,
+                                    "end": 2150,
                                     "argument": {
                                       "type": "Literal",
-                                      "start": 2139,
-                                      "end": 2146,
+                                      "start": 2143,
+                                      "end": 2150,
                                       "value": "await"
                                     }
                                   }

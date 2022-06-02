@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 670,
+  "end": 678,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 532,
-      "end": 591,
+      "start": 540,
+      "end": 599,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 536,
-          "end": 590,
+          "start": 544,
+          "end": 598,
           "id": {
             "type": "Identifier",
-            "start": 536,
-            "end": 545,
+            "start": 544,
+            "end": 553,
             "name": "predicate"
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 548,
-            "end": 590,
+            "start": 556,
+            "end": 598,
             "id": null,
             "expression": false,
             "generator": false,
@@ -29,21 +29,21 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 559,
-              "end": 590,
+              "start": 567,
+              "end": 598,
               "body": [
                 {
                   "type": "ThrowStatement",
-                  "start": 563,
-                  "end": 588,
+                  "start": 571,
+                  "end": 596,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 569,
-                    "end": 587,
+                    "start": 577,
+                    "end": 595,
                     "callee": {
                       "type": "Identifier",
-                      "start": 573,
-                      "end": 585,
+                      "start": 581,
+                      "end": 593,
                       "name": "Test262Error"
                     },
                     "arguments": []
@@ -58,26 +58,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 593,
-      "end": 669,
+      "start": 601,
+      "end": 677,
       "expression": {
         "type": "CallExpression",
-        "start": 593,
-        "end": 668,
+        "start": 601,
+        "end": 676,
         "callee": {
           "type": "MemberExpression",
-          "start": 593,
-          "end": 606,
+          "start": 601,
+          "end": 614,
           "object": {
             "type": "Identifier",
-            "start": 593,
-            "end": 599,
+            "start": 601,
+            "end": 607,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 600,
-            "end": 606,
+            "start": 608,
+            "end": 614,
             "name": "throws"
           },
           "computed": false,
@@ -86,14 +86,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 607,
-            "end": 619,
+            "start": 615,
+            "end": 627,
             "name": "Test262Error"
           },
           {
             "type": "FunctionExpression",
-            "start": 621,
-            "end": 667,
+            "start": 629,
+            "end": 675,
             "id": null,
             "expression": false,
             "generator": false,
@@ -101,38 +101,38 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 632,
-              "end": 667,
+              "start": 640,
+              "end": 675,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 636,
-                  "end": 665,
+                  "start": 644,
+                  "end": 673,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 636,
-                    "end": 664,
+                    "start": 644,
+                    "end": 672,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 636,
-                      "end": 653,
+                      "start": 644,
+                      "end": 661,
                       "object": {
                         "type": "ArrayExpression",
-                        "start": 636,
-                        "end": 639,
+                        "start": 644,
+                        "end": 647,
                         "elements": [
                           {
                             "type": "Literal",
-                            "start": 637,
-                            "end": 638,
+                            "start": 645,
+                            "end": 646,
                             "value": 1
                           }
                         ]
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 640,
-                        "end": 653,
+                        "start": 648,
+                        "end": 661,
                         "name": "findLastIndex"
                       },
                       "computed": false,
@@ -141,8 +141,8 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 654,
-                        "end": 663,
+                        "start": 662,
+                        "end": 671,
                         "name": "predicate"
                       }
                     ],

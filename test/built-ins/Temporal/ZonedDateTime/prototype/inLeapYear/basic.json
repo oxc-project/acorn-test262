@@ -1,0 +1,208 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 480,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 259,
+      "end": 366,
+      "expression": {
+        "type": "CallExpression",
+        "start": 259,
+        "end": 365,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 259,
+          "end": 275,
+          "object": {
+            "type": "Identifier",
+            "start": 259,
+            "end": 265,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 266,
+            "end": 275,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 276,
+            "end": 343,
+            "object": {
+              "type": "ParenthesizedExpression",
+              "start": 276,
+              "end": 332,
+              "expression": {
+                "type": "NewExpression",
+                "start": 277,
+                "end": 331,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 281,
+                  "end": 303,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 281,
+                    "end": 289,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 290,
+                    "end": 303,
+                    "name": "ZonedDateTime"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 304,
+                    "end": 323,
+                    "value": "217178610123456789n"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 325,
+                    "end": 330,
+                    "value": "UTC"
+                  }
+                ]
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 333,
+              "end": 343,
+              "name": "inLeapYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 347,
+            "end": 351,
+            "value": true
+          },
+          {
+            "type": "Literal",
+            "start": 353,
+            "end": 364,
+            "value": "leap year"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 367,
+      "end": 479,
+      "expression": {
+        "type": "CallExpression",
+        "start": 367,
+        "end": 478,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 367,
+          "end": 383,
+          "object": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 373,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 374,
+            "end": 383,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 384,
+            "end": 451,
+            "object": {
+              "type": "ParenthesizedExpression",
+              "start": 384,
+              "end": 440,
+              "expression": {
+                "type": "NewExpression",
+                "start": 385,
+                "end": 439,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 389,
+                  "end": 411,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 389,
+                    "end": 397,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 398,
+                    "end": 411,
+                    "name": "ZonedDateTime"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 412,
+                    "end": 431,
+                    "value": "248714610123456789n"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 433,
+                    "end": 438,
+                    "value": "UTC"
+                  }
+                ]
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 441,
+              "end": 451,
+              "name": "inLeapYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 455,
+            "end": 460,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 462,
+            "end": 477,
+            "value": "non-leap year"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1231,
+  "end": 1236,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 828,
-      "end": 897,
+      "start": 833,
+      "end": 902,
       "expression": {
         "type": "CallExpression",
-        "start": 828,
-        "end": 896,
+        "start": 833,
+        "end": 901,
         "callee": {
           "type": "MemberExpression",
-          "start": 828,
-          "end": 844,
+          "start": 833,
+          "end": 849,
           "object": {
             "type": "Identifier",
-            "start": 828,
-            "end": 834,
+            "start": 833,
+            "end": 839,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 835,
-            "end": 844,
+            "start": 840,
+            "end": 849,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,19 +33,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 845,
-            "end": 861,
+            "start": 850,
+            "end": 866,
             "callee": {
               "type": "Identifier",
-              "start": 845,
-              "end": 851,
+              "start": 850,
+              "end": 856,
               "name": "Number"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 852,
-                "end": 860,
+                "start": 857,
+                "end": 865,
                 "value": "᠎"
               }
             ],
@@ -53,14 +53,14 @@
           },
           {
             "type": "Identifier",
-            "start": 863,
-            "end": 866,
+            "start": 868,
+            "end": 871,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 868,
-            "end": 895,
+            "start": 873,
+            "end": 900,
             "value": "Number(\"\\u180E\") === NaN"
           }
         ],
@@ -69,26 +69,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 910,
-      "end": 1010,
+      "start": 915,
+      "end": 1015,
       "expression": {
         "type": "CallExpression",
-        "start": 910,
-        "end": 1009,
+        "start": 915,
+        "end": 1014,
         "callee": {
           "type": "MemberExpression",
-          "start": 910,
-          "end": 926,
+          "start": 915,
+          "end": 931,
           "object": {
             "type": "Identifier",
-            "start": 910,
-            "end": 916,
+            "start": 915,
+            "end": 921,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 917,
-            "end": 926,
+            "start": 922,
+            "end": 931,
             "name": "sameValue"
           },
           "computed": false,
@@ -97,19 +97,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 927,
-            "end": 959,
+            "start": 932,
+            "end": 964,
             "callee": {
               "type": "Identifier",
-              "start": 927,
-              "end": 933,
+              "start": 932,
+              "end": 938,
               "name": "Number"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 934,
-                "end": 958,
+                "start": 939,
+                "end": 963,
                 "value": "᠎1234567890᠎"
               }
             ],
@@ -117,14 +117,14 @@
           },
           {
             "type": "Identifier",
-            "start": 961,
-            "end": 964,
+            "start": 966,
+            "end": 969,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 966,
-            "end": 1008,
+            "start": 971,
+            "end": 1013,
             "value": "Number(\"᠎1234567890᠎\") === NaN"
           }
         ],
@@ -133,26 +133,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1023,
-      "end": 1119,
+      "start": 1028,
+      "end": 1124,
       "expression": {
         "type": "CallExpression",
-        "start": 1023,
-        "end": 1118,
+        "start": 1028,
+        "end": 1123,
         "callee": {
           "type": "MemberExpression",
-          "start": 1023,
-          "end": 1039,
+          "start": 1028,
+          "end": 1044,
           "object": {
             "type": "Identifier",
-            "start": 1023,
-            "end": 1029,
+            "start": 1028,
+            "end": 1034,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1030,
-            "end": 1039,
+            "start": 1035,
+            "end": 1044,
             "name": "sameValue"
           },
           "computed": false,
@@ -161,19 +161,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1040,
-            "end": 1070,
+            "start": 1045,
+            "end": 1075,
             "callee": {
               "type": "Identifier",
-              "start": 1040,
-              "end": 1046,
+              "start": 1045,
+              "end": 1051,
               "name": "Number"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1047,
-                "end": 1069,
+                "start": 1052,
+                "end": 1074,
                 "value": "᠎Infinity᠎"
               }
             ],
@@ -181,14 +181,14 @@
           },
           {
             "type": "Identifier",
-            "start": 1072,
-            "end": 1075,
+            "start": 1077,
+            "end": 1080,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 1077,
-            "end": 1117,
+            "start": 1082,
+            "end": 1122,
             "value": "Number(\"᠎Infinity᠎\") === NaN"
           }
         ],
@@ -197,26 +197,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1132,
-      "end": 1230,
+      "start": 1137,
+      "end": 1235,
       "expression": {
         "type": "CallExpression",
-        "start": 1132,
-        "end": 1229,
+        "start": 1137,
+        "end": 1234,
         "callee": {
           "type": "MemberExpression",
-          "start": 1132,
-          "end": 1148,
+          "start": 1137,
+          "end": 1153,
           "object": {
             "type": "Identifier",
-            "start": 1132,
-            "end": 1138,
+            "start": 1137,
+            "end": 1143,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1139,
-            "end": 1148,
+            "start": 1144,
+            "end": 1153,
             "name": "sameValue"
           },
           "computed": false,
@@ -225,19 +225,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1149,
-            "end": 1180,
+            "start": 1154,
+            "end": 1185,
             "callee": {
               "type": "Identifier",
-              "start": 1149,
-              "end": 1155,
+              "start": 1154,
+              "end": 1160,
               "name": "Number"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1156,
-                "end": 1179,
+                "start": 1161,
+                "end": 1184,
                 "value": "᠎-Infinity᠎"
               }
             ],
@@ -245,14 +245,14 @@
           },
           {
             "type": "Identifier",
-            "start": 1182,
-            "end": 1185,
+            "start": 1187,
+            "end": 1190,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 1187,
-            "end": 1228,
+            "start": 1192,
+            "end": 1233,
             "value": "Number(\"᠎-Infinity᠎\") === NaN"
           }
         ],

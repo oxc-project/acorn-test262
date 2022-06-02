@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 764,
+  "end": 766,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 606,
-      "end": 763,
+      "start": 608,
+      "end": 765,
       "expression": {
         "type": "CallExpression",
-        "start": 606,
-        "end": 762,
+        "start": 608,
+        "end": 764,
         "callee": {
           "type": "Identifier",
-          "start": 606,
-          "end": 642,
+          "start": 608,
+          "end": 644,
           "name": "testWithBigIntTypedArrayConstructors"
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 643,
-            "end": 761,
+            "start": 645,
+            "end": 763,
             "id": null,
             "expression": false,
             "generator": false,
@@ -29,35 +29,35 @@
             "params": [
               {
                 "type": "Identifier",
-                "start": 652,
-                "end": 654,
+                "start": 654,
+                "end": 656,
                 "name": "TA"
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 656,
-              "end": 761,
+              "start": 658,
+              "end": 763,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 660,
-                  "end": 685,
+                  "start": 662,
+                  "end": 687,
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 664,
-                      "end": 684,
+                      "start": 666,
+                      "end": 686,
                       "id": {
                         "type": "Identifier",
-                        "start": 664,
-                        "end": 668,
+                        "start": 666,
+                        "end": 670,
                         "name": "ctor"
                       },
                       "init": {
                         "type": "FunctionExpression",
-                        "start": 671,
-                        "end": 684,
+                        "start": 673,
+                        "end": 686,
                         "id": null,
                         "expression": false,
                         "generator": false,
@@ -65,8 +65,8 @@
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 682,
-                          "end": 684,
+                          "start": 684,
+                          "end": 686,
                           "body": []
                         }
                       }
@@ -76,26 +76,26 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 689,
-                  "end": 759,
+                  "start": 691,
+                  "end": 761,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 689,
-                    "end": 758,
+                    "start": 691,
+                    "end": 760,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 689,
-                      "end": 702,
+                      "start": 691,
+                      "end": 704,
                       "object": {
                         "type": "Identifier",
-                        "start": 689,
-                        "end": 695,
+                        "start": 691,
+                        "end": 697,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 696,
-                        "end": 702,
+                        "start": 698,
+                        "end": 704,
                         "name": "throws"
                       },
                       "computed": false,
@@ -104,14 +104,14 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 703,
-                        "end": 712,
+                        "start": 705,
+                        "end": 714,
                         "name": "TypeError"
                       },
                       {
                         "type": "FunctionExpression",
-                        "start": 714,
-                        "end": 757,
+                        "start": 716,
+                        "end": 759,
                         "id": null,
                         "expression": false,
                         "generator": false,
@@ -119,35 +119,35 @@
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 725,
-                          "end": 757,
+                          "start": 727,
+                          "end": 759,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 731,
-                              "end": 753,
+                              "start": 733,
+                              "end": 755,
                               "expression": {
                                 "type": "CallExpression",
-                                "start": 731,
-                                "end": 752,
+                                "start": 733,
+                                "end": 754,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 731,
-                                  "end": 741,
+                                  "start": 733,
+                                  "end": 743,
                                   "object": {
                                     "type": "MemberExpression",
-                                    "start": 731,
-                                    "end": 736,
+                                    "start": 733,
+                                    "end": 738,
                                     "object": {
                                       "type": "Identifier",
-                                      "start": 731,
-                                      "end": 733,
+                                      "start": 733,
+                                      "end": 735,
                                       "name": "TA"
                                     },
                                     "property": {
                                       "type": "Identifier",
-                                      "start": 734,
-                                      "end": 736,
+                                      "start": 736,
+                                      "end": 738,
                                       "name": "of"
                                     },
                                     "computed": false,
@@ -155,8 +155,8 @@
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 737,
-                                    "end": 741,
+                                    "start": 739,
+                                    "end": 743,
                                     "name": "call"
                                   },
                                   "computed": false,
@@ -165,14 +165,14 @@
                                 "arguments": [
                                   {
                                     "type": "Identifier",
-                                    "start": 742,
-                                    "end": 746,
+                                    "start": 744,
+                                    "end": 748,
                                     "name": "ctor"
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 748,
-                                    "end": 751,
+                                    "start": 750,
+                                    "end": 753,
                                     "value": "42n"
                                   }
                                 ],

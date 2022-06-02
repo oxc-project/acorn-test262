@@ -1,12 +1,12 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 602,
+  "end": 753,
   "body": [
     {
       "type": "ClassDeclaration",
       "start": 436,
-      "end": 600,
+      "end": 751,
       "id": {
         "type": "Identifier",
         "start": 442,
@@ -17,18 +17,18 @@
       "body": {
         "type": "ClassBody",
         "start": 444,
-        "end": 600,
+        "end": 751,
         "body": [
           {
             "type": "PropertyDefinition",
             "start": 448,
-            "end": 598,
+            "end": 749,
             "static": false,
             "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 448,
-              "end": 597,
+              "end": 748,
               "name": "_߽࣓৾ఄꣿ𐴤𐴥𐴦𐴧𐴰𐴱𐴲𐴳𐴴𐴵𐴶𐴷𐴸𐴹𐽆𐽇𐽋𐽍𐽎𐽏𐽐𐽈𐽉𐽊𐽌𑅅𑅆𑇉𑌻𑑞𑠬𑠭𑠮𑠯𑠰𑠱𑠲𑠳𑠴𑠵𑠶𑠷𑠸𑠺𑠹𑶊𑶋𑶌𑶍𑶎𑶐𑶑𑶓𑶔𑶕𑶖𑶗𑶠𑶡𑶢𑶣𑶤𑶥𑶦𑶧𑶨𑶩𑻳𑻴𑻵𑻶"
             },
             "value": null
@@ -38,8 +38,8 @@
     },
     {
       "type": "EmptyStatement",
-      "start": 600,
-      "end": 601
+      "start": 751,
+      "end": 752
     }
   ],
   "sourceType": "script"

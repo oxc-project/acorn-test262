@@ -1,45 +1,45 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2460,
+  "end": 2462,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1039,
-      "end": 1114,
+      "start": 1041,
+      "end": 1116,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1043,
-          "end": 1113,
+          "start": 1045,
+          "end": 1115,
           "id": {
             "type": "Identifier",
-            "start": 1043,
-            "end": 1056,
+            "start": 1045,
+            "end": 1058,
             "name": "AsyncFunction"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1059,
-            "end": 1113,
+            "start": 1061,
+            "end": 1115,
             "object": {
               "type": "CallExpression",
-              "start": 1059,
-              "end": 1101,
+              "start": 1061,
+              "end": 1103,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1059,
-                "end": 1080,
+                "start": 1061,
+                "end": 1082,
                 "object": {
                   "type": "Identifier",
-                  "start": 1059,
-                  "end": 1065,
+                  "start": 1061,
+                  "end": 1067,
                   "name": "Object"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1066,
-                  "end": 1080,
+                  "start": 1068,
+                  "end": 1082,
                   "name": "getPrototypeOf"
                 },
                 "computed": false,
@@ -48,8 +48,8 @@
               "arguments": [
                 {
                   "type": "FunctionExpression",
-                  "start": 1081,
-                  "end": 1100,
+                  "start": 1083,
+                  "end": 1102,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -57,8 +57,8 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1098,
-                    "end": 1100,
+                    "start": 1100,
+                    "end": 1102,
                     "body": []
                   }
                 }
@@ -67,8 +67,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 1102,
-              "end": 1113,
+              "start": 1104,
+              "end": 1115,
               "name": "constructor"
             },
             "computed": false,
@@ -80,41 +80,41 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1115,
-      "end": 1153,
+      "start": 1117,
+      "end": 1155,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1119,
-          "end": 1152,
+          "start": 1121,
+          "end": 1154,
           "id": {
             "type": "Identifier",
-            "start": 1119,
-            "end": 1124,
+            "start": 1121,
+            "end": 1126,
             "name": "other"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1127,
-            "end": 1152,
+            "start": 1129,
+            "end": 1154,
             "object": {
               "type": "CallExpression",
-              "start": 1127,
-              "end": 1145,
+              "start": 1129,
+              "end": 1147,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1127,
-                "end": 1143,
+                "start": 1129,
+                "end": 1145,
                 "object": {
                   "type": "Identifier",
-                  "start": 1127,
-                  "end": 1131,
+                  "start": 1129,
+                  "end": 1133,
                   "name": "$262"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1132,
-                  "end": 1143,
+                  "start": 1134,
+                  "end": 1145,
                   "name": "createRealm"
                 },
                 "computed": false,
@@ -125,8 +125,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 1146,
-              "end": 1152,
+              "start": 1148,
+              "end": 1154,
               "name": "global"
             },
             "computed": false,
@@ -138,41 +138,41 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1154,
-      "end": 1253,
+      "start": 1156,
+      "end": 1255,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1158,
-          "end": 1252,
+          "start": 1160,
+          "end": 1254,
           "id": {
             "type": "Identifier",
-            "start": 1158,
-            "end": 1176,
+            "start": 1160,
+            "end": 1178,
             "name": "OtherAsyncFunction"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1179,
-            "end": 1252,
+            "start": 1181,
+            "end": 1254,
             "object": {
               "type": "CallExpression",
-              "start": 1179,
-              "end": 1240,
+              "start": 1181,
+              "end": 1242,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1179,
-                "end": 1200,
+                "start": 1181,
+                "end": 1202,
                 "object": {
                   "type": "Identifier",
-                  "start": 1179,
-                  "end": 1185,
+                  "start": 1181,
+                  "end": 1187,
                   "name": "Object"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1186,
-                  "end": 1200,
+                  "start": 1188,
+                  "end": 1202,
                   "name": "getPrototypeOf"
                 },
                 "computed": false,
@@ -181,22 +181,22 @@
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 1201,
-                  "end": 1239,
+                  "start": 1203,
+                  "end": 1241,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 1201,
-                    "end": 1211,
+                    "start": 1203,
+                    "end": 1213,
                     "object": {
                       "type": "Identifier",
-                      "start": 1201,
-                      "end": 1206,
+                      "start": 1203,
+                      "end": 1208,
                       "name": "other"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1207,
-                      "end": 1211,
+                      "start": 1209,
+                      "end": 1213,
                       "name": "eval"
                     },
                     "computed": false,
@@ -205,8 +205,8 @@
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 1212,
-                      "end": 1238,
+                      "start": 1214,
+                      "end": 1240,
                       "value": "(0, async function() {})"
                     }
                   ],
@@ -217,8 +217,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 1241,
-              "end": 1252,
+              "start": 1243,
+              "end": 1254,
               "name": "constructor"
             },
             "computed": false,
@@ -230,37 +230,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1254,
-      "end": 1291,
+      "start": 1256,
+      "end": 1293,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1258,
-          "end": 1290,
+          "start": 1260,
+          "end": 1292,
           "id": {
             "type": "Identifier",
-            "start": 1258,
-            "end": 1267,
+            "start": 1260,
+            "end": 1269,
             "name": "newTarget"
           },
           "init": {
             "type": "NewExpression",
-            "start": 1270,
-            "end": 1290,
+            "start": 1272,
+            "end": 1292,
             "callee": {
               "type": "MemberExpression",
-              "start": 1274,
-              "end": 1288,
+              "start": 1276,
+              "end": 1290,
               "object": {
                 "type": "Identifier",
-                "start": 1274,
-                "end": 1279,
+                "start": 1276,
+                "end": 1281,
                 "name": "other"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1280,
-                "end": 1288,
+                "start": 1282,
+                "end": 1290,
                 "name": "Function"
               },
               "computed": false,
@@ -274,17 +274,17 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1292,
-      "end": 1299,
+      "start": 1294,
+      "end": 1301,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1296,
-          "end": 1298,
+          "start": 1298,
+          "end": 1300,
           "id": {
             "type": "Identifier",
-            "start": 1296,
-            "end": 1298,
+            "start": 1298,
+            "end": 1300,
             "name": "fn"
           },
           "init": null
@@ -294,27 +294,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1301,
-      "end": 1333,
+      "start": 1303,
+      "end": 1335,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1301,
-        "end": 1332,
+        "start": 1303,
+        "end": 1334,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 1301,
-          "end": 1320,
+          "start": 1303,
+          "end": 1322,
           "object": {
             "type": "Identifier",
-            "start": 1301,
-            "end": 1310,
+            "start": 1303,
+            "end": 1312,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 1311,
-            "end": 1320,
+            "start": 1313,
+            "end": 1322,
             "name": "prototype"
           },
           "computed": false,
@@ -322,45 +322,45 @@
         },
         "right": {
           "type": "Identifier",
-          "start": 1323,
-          "end": 1332,
+          "start": 1325,
+          "end": 1334,
           "name": "undefined"
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 1334,
-      "end": 1387,
+      "start": 1336,
+      "end": 1389,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1334,
-        "end": 1386,
+        "start": 1336,
+        "end": 1388,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1334,
-          "end": 1336,
+          "start": 1336,
+          "end": 1338,
           "name": "fn"
         },
         "right": {
           "type": "CallExpression",
-          "start": 1339,
-          "end": 1386,
+          "start": 1341,
+          "end": 1388,
           "callee": {
             "type": "MemberExpression",
-            "start": 1339,
-            "end": 1356,
+            "start": 1341,
+            "end": 1358,
             "object": {
               "type": "Identifier",
-              "start": 1339,
-              "end": 1346,
+              "start": 1341,
+              "end": 1348,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 1347,
-              "end": 1356,
+              "start": 1349,
+              "end": 1358,
               "name": "construct"
             },
             "computed": false,
@@ -369,20 +369,20 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1357,
-              "end": 1370,
+              "start": 1359,
+              "end": 1372,
               "name": "AsyncFunction"
             },
             {
               "type": "ArrayExpression",
-              "start": 1372,
-              "end": 1374,
+              "start": 1374,
+              "end": 1376,
               "elements": []
             },
             {
               "type": "Identifier",
-              "start": 1376,
-              "end": 1385,
+              "start": 1378,
+              "end": 1387,
               "name": "newTarget"
             }
           ],
@@ -392,26 +392,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1388,
-      "end": 1498,
+      "start": 1390,
+      "end": 1500,
       "expression": {
         "type": "CallExpression",
-        "start": 1388,
-        "end": 1497,
+        "start": 1390,
+        "end": 1499,
         "callee": {
           "type": "MemberExpression",
-          "start": 1388,
-          "end": 1404,
+          "start": 1390,
+          "end": 1406,
           "object": {
             "type": "Identifier",
-            "start": 1388,
-            "end": 1394,
+            "start": 1390,
+            "end": 1396,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1395,
-            "end": 1404,
+            "start": 1397,
+            "end": 1406,
             "name": "sameValue"
           },
           "computed": false,
@@ -420,22 +420,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1405,
-            "end": 1430,
+            "start": 1407,
+            "end": 1432,
             "callee": {
               "type": "MemberExpression",
-              "start": 1405,
-              "end": 1426,
+              "start": 1407,
+              "end": 1428,
               "object": {
                 "type": "Identifier",
-                "start": 1405,
-                "end": 1411,
+                "start": 1407,
+                "end": 1413,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1412,
-                "end": 1426,
+                "start": 1414,
+                "end": 1428,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -444,8 +444,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1427,
-                "end": 1429,
+                "start": 1429,
+                "end": 1431,
                 "name": "fn"
               }
             ],
@@ -453,18 +453,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 1432,
-            "end": 1460,
+            "start": 1434,
+            "end": 1462,
             "object": {
               "type": "Identifier",
-              "start": 1432,
-              "end": 1450,
+              "start": 1434,
+              "end": 1452,
               "name": "OtherAsyncFunction"
             },
             "property": {
               "type": "Identifier",
-              "start": 1451,
-              "end": 1460,
+              "start": 1453,
+              "end": 1462,
               "name": "prototype"
             },
             "computed": false,
@@ -472,8 +472,8 @@
           },
           {
             "type": "Literal",
-            "start": 1462,
-            "end": 1496,
+            "start": 1464,
+            "end": 1498,
             "value": "newTarget.prototype is undefined"
           }
         ],
@@ -482,27 +482,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1500,
-      "end": 1527,
+      "start": 1502,
+      "end": 1529,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1500,
-        "end": 1526,
+        "start": 1502,
+        "end": 1528,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 1500,
-          "end": 1519,
+          "start": 1502,
+          "end": 1521,
           "object": {
             "type": "Identifier",
-            "start": 1500,
-            "end": 1509,
+            "start": 1502,
+            "end": 1511,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 1510,
-            "end": 1519,
+            "start": 1512,
+            "end": 1521,
             "name": "prototype"
           },
           "computed": false,
@@ -510,45 +510,45 @@
         },
         "right": {
           "type": "Literal",
-          "start": 1522,
-          "end": 1526,
+          "start": 1524,
+          "end": 1528,
           "value": null
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 1528,
-      "end": 1581,
+      "start": 1530,
+      "end": 1583,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1528,
-        "end": 1580,
+        "start": 1530,
+        "end": 1582,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1528,
-          "end": 1530,
+          "start": 1530,
+          "end": 1532,
           "name": "fn"
         },
         "right": {
           "type": "CallExpression",
-          "start": 1533,
-          "end": 1580,
+          "start": 1535,
+          "end": 1582,
           "callee": {
             "type": "MemberExpression",
-            "start": 1533,
-            "end": 1550,
+            "start": 1535,
+            "end": 1552,
             "object": {
               "type": "Identifier",
-              "start": 1533,
-              "end": 1540,
+              "start": 1535,
+              "end": 1542,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 1541,
-              "end": 1550,
+              "start": 1543,
+              "end": 1552,
               "name": "construct"
             },
             "computed": false,
@@ -557,20 +557,20 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1551,
-              "end": 1564,
+              "start": 1553,
+              "end": 1566,
               "name": "AsyncFunction"
             },
             {
               "type": "ArrayExpression",
-              "start": 1566,
-              "end": 1568,
+              "start": 1568,
+              "end": 1570,
               "elements": []
             },
             {
               "type": "Identifier",
-              "start": 1570,
-              "end": 1579,
+              "start": 1572,
+              "end": 1581,
               "name": "newTarget"
             }
           ],
@@ -580,26 +580,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1582,
-      "end": 1687,
+      "start": 1584,
+      "end": 1689,
       "expression": {
         "type": "CallExpression",
-        "start": 1582,
-        "end": 1686,
+        "start": 1584,
+        "end": 1688,
         "callee": {
           "type": "MemberExpression",
-          "start": 1582,
-          "end": 1598,
+          "start": 1584,
+          "end": 1600,
           "object": {
             "type": "Identifier",
-            "start": 1582,
-            "end": 1588,
+            "start": 1584,
+            "end": 1590,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1589,
-            "end": 1598,
+            "start": 1591,
+            "end": 1600,
             "name": "sameValue"
           },
           "computed": false,
@@ -608,22 +608,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1599,
-            "end": 1624,
+            "start": 1601,
+            "end": 1626,
             "callee": {
               "type": "MemberExpression",
-              "start": 1599,
-              "end": 1620,
+              "start": 1601,
+              "end": 1622,
               "object": {
                 "type": "Identifier",
-                "start": 1599,
-                "end": 1605,
+                "start": 1601,
+                "end": 1607,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1606,
-                "end": 1620,
+                "start": 1608,
+                "end": 1622,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -632,8 +632,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1621,
-                "end": 1623,
+                "start": 1623,
+                "end": 1625,
                 "name": "fn"
               }
             ],
@@ -641,18 +641,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 1626,
-            "end": 1654,
+            "start": 1628,
+            "end": 1656,
             "object": {
               "type": "Identifier",
-              "start": 1626,
-              "end": 1644,
+              "start": 1628,
+              "end": 1646,
               "name": "OtherAsyncFunction"
             },
             "property": {
               "type": "Identifier",
-              "start": 1645,
-              "end": 1654,
+              "start": 1647,
+              "end": 1656,
               "name": "prototype"
             },
             "computed": false,
@@ -660,8 +660,8 @@
           },
           {
             "type": "Literal",
-            "start": 1656,
-            "end": 1685,
+            "start": 1658,
+            "end": 1687,
             "value": "newTarget.prototype is null"
           }
         ],
@@ -670,27 +670,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1689,
-      "end": 1716,
+      "start": 1691,
+      "end": 1718,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1689,
-        "end": 1715,
+        "start": 1691,
+        "end": 1717,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 1689,
-          "end": 1708,
+          "start": 1691,
+          "end": 1710,
           "object": {
             "type": "Identifier",
-            "start": 1689,
-            "end": 1698,
+            "start": 1691,
+            "end": 1700,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 1699,
-            "end": 1708,
+            "start": 1701,
+            "end": 1710,
             "name": "prototype"
           },
           "computed": false,
@@ -698,45 +698,45 @@
         },
         "right": {
           "type": "Literal",
-          "start": 1711,
-          "end": 1715,
+          "start": 1713,
+          "end": 1717,
           "value": true
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 1717,
-      "end": 1770,
+      "start": 1719,
+      "end": 1772,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1717,
-        "end": 1769,
+        "start": 1719,
+        "end": 1771,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1717,
-          "end": 1719,
+          "start": 1719,
+          "end": 1721,
           "name": "fn"
         },
         "right": {
           "type": "CallExpression",
-          "start": 1722,
-          "end": 1769,
+          "start": 1724,
+          "end": 1771,
           "callee": {
             "type": "MemberExpression",
-            "start": 1722,
-            "end": 1739,
+            "start": 1724,
+            "end": 1741,
             "object": {
               "type": "Identifier",
-              "start": 1722,
-              "end": 1729,
+              "start": 1724,
+              "end": 1731,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 1730,
-              "end": 1739,
+              "start": 1732,
+              "end": 1741,
               "name": "construct"
             },
             "computed": false,
@@ -745,20 +745,20 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1740,
-              "end": 1753,
+              "start": 1742,
+              "end": 1755,
               "name": "AsyncFunction"
             },
             {
               "type": "ArrayExpression",
-              "start": 1755,
-              "end": 1757,
+              "start": 1757,
+              "end": 1759,
               "elements": []
             },
             {
               "type": "Identifier",
-              "start": 1759,
-              "end": 1768,
+              "start": 1761,
+              "end": 1770,
               "name": "newTarget"
             }
           ],
@@ -768,26 +768,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1771,
-      "end": 1881,
+      "start": 1773,
+      "end": 1883,
       "expression": {
         "type": "CallExpression",
-        "start": 1771,
-        "end": 1880,
+        "start": 1773,
+        "end": 1882,
         "callee": {
           "type": "MemberExpression",
-          "start": 1771,
-          "end": 1787,
+          "start": 1773,
+          "end": 1789,
           "object": {
             "type": "Identifier",
-            "start": 1771,
-            "end": 1777,
+            "start": 1773,
+            "end": 1779,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1778,
-            "end": 1787,
+            "start": 1780,
+            "end": 1789,
             "name": "sameValue"
           },
           "computed": false,
@@ -796,22 +796,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1788,
-            "end": 1813,
+            "start": 1790,
+            "end": 1815,
             "callee": {
               "type": "MemberExpression",
-              "start": 1788,
-              "end": 1809,
+              "start": 1790,
+              "end": 1811,
               "object": {
                 "type": "Identifier",
-                "start": 1788,
-                "end": 1794,
+                "start": 1790,
+                "end": 1796,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1795,
-                "end": 1809,
+                "start": 1797,
+                "end": 1811,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -820,8 +820,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1810,
-                "end": 1812,
+                "start": 1812,
+                "end": 1814,
                 "name": "fn"
               }
             ],
@@ -829,18 +829,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 1815,
-            "end": 1843,
+            "start": 1817,
+            "end": 1845,
             "object": {
               "type": "Identifier",
-              "start": 1815,
-              "end": 1833,
+              "start": 1817,
+              "end": 1835,
               "name": "OtherAsyncFunction"
             },
             "property": {
               "type": "Identifier",
-              "start": 1834,
-              "end": 1843,
+              "start": 1836,
+              "end": 1845,
               "name": "prototype"
             },
             "computed": false,
@@ -848,8 +848,8 @@
           },
           {
             "type": "Literal",
-            "start": 1845,
-            "end": 1879,
+            "start": 1847,
+            "end": 1881,
             "value": "newTarget.prototype is a Boolean"
           }
         ],
@@ -858,27 +858,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1883,
-      "end": 1908,
+      "start": 1885,
+      "end": 1910,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1883,
-        "end": 1907,
+        "start": 1885,
+        "end": 1909,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 1883,
-          "end": 1902,
+          "start": 1885,
+          "end": 1904,
           "object": {
             "type": "Identifier",
-            "start": 1883,
-            "end": 1892,
+            "start": 1885,
+            "end": 1894,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 1893,
-            "end": 1902,
+            "start": 1895,
+            "end": 1904,
             "name": "prototype"
           },
           "computed": false,
@@ -886,45 +886,45 @@
         },
         "right": {
           "type": "Literal",
-          "start": 1905,
-          "end": 1907,
+          "start": 1907,
+          "end": 1909,
           "value": ""
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 1909,
-      "end": 1962,
+      "start": 1911,
+      "end": 1964,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1909,
-        "end": 1961,
+        "start": 1911,
+        "end": 1963,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1909,
-          "end": 1911,
+          "start": 1911,
+          "end": 1913,
           "name": "fn"
         },
         "right": {
           "type": "CallExpression",
-          "start": 1914,
-          "end": 1961,
+          "start": 1916,
+          "end": 1963,
           "callee": {
             "type": "MemberExpression",
-            "start": 1914,
-            "end": 1931,
+            "start": 1916,
+            "end": 1933,
             "object": {
               "type": "Identifier",
-              "start": 1914,
-              "end": 1921,
+              "start": 1916,
+              "end": 1923,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 1922,
-              "end": 1931,
+              "start": 1924,
+              "end": 1933,
               "name": "construct"
             },
             "computed": false,
@@ -933,20 +933,20 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1932,
-              "end": 1945,
+              "start": 1934,
+              "end": 1947,
               "name": "AsyncFunction"
             },
             {
               "type": "ArrayExpression",
-              "start": 1947,
-              "end": 1949,
+              "start": 1949,
+              "end": 1951,
               "elements": []
             },
             {
               "type": "Identifier",
-              "start": 1951,
-              "end": 1960,
+              "start": 1953,
+              "end": 1962,
               "name": "newTarget"
             }
           ],
@@ -956,26 +956,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1963,
-      "end": 2072,
+      "start": 1965,
+      "end": 2074,
       "expression": {
         "type": "CallExpression",
-        "start": 1963,
-        "end": 2071,
+        "start": 1965,
+        "end": 2073,
         "callee": {
           "type": "MemberExpression",
-          "start": 1963,
-          "end": 1979,
+          "start": 1965,
+          "end": 1981,
           "object": {
             "type": "Identifier",
-            "start": 1963,
-            "end": 1969,
+            "start": 1965,
+            "end": 1971,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1970,
-            "end": 1979,
+            "start": 1972,
+            "end": 1981,
             "name": "sameValue"
           },
           "computed": false,
@@ -984,22 +984,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1980,
-            "end": 2005,
+            "start": 1982,
+            "end": 2007,
             "callee": {
               "type": "MemberExpression",
-              "start": 1980,
-              "end": 2001,
+              "start": 1982,
+              "end": 2003,
               "object": {
                 "type": "Identifier",
-                "start": 1980,
-                "end": 1986,
+                "start": 1982,
+                "end": 1988,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1987,
-                "end": 2001,
+                "start": 1989,
+                "end": 2003,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -1008,8 +1008,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2002,
-                "end": 2004,
+                "start": 2004,
+                "end": 2006,
                 "name": "fn"
               }
             ],
@@ -1017,18 +1017,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 2007,
-            "end": 2035,
+            "start": 2009,
+            "end": 2037,
             "object": {
               "type": "Identifier",
-              "start": 2007,
-              "end": 2025,
+              "start": 2009,
+              "end": 2027,
               "name": "OtherAsyncFunction"
             },
             "property": {
               "type": "Identifier",
-              "start": 2026,
-              "end": 2035,
+              "start": 2028,
+              "end": 2037,
               "name": "prototype"
             },
             "computed": false,
@@ -1036,8 +1036,8 @@
           },
           {
             "type": "Literal",
-            "start": 2037,
-            "end": 2070,
+            "start": 2039,
+            "end": 2072,
             "value": "newTarget.prototype is a String"
           }
         ],
@@ -1046,27 +1046,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2074,
-      "end": 2105,
+      "start": 2076,
+      "end": 2107,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2074,
-        "end": 2104,
+        "start": 2076,
+        "end": 2106,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 2074,
-          "end": 2093,
+          "start": 2076,
+          "end": 2095,
           "object": {
             "type": "Identifier",
-            "start": 2074,
-            "end": 2083,
+            "start": 2076,
+            "end": 2085,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 2084,
-            "end": 2093,
+            "start": 2086,
+            "end": 2095,
             "name": "prototype"
           },
           "computed": false,
@@ -1074,12 +1074,12 @@
         },
         "right": {
           "type": "CallExpression",
-          "start": 2096,
-          "end": 2104,
+          "start": 2098,
+          "end": 2106,
           "callee": {
             "type": "Identifier",
-            "start": 2096,
-            "end": 2102,
+            "start": 2098,
+            "end": 2104,
             "name": "Symbol"
           },
           "arguments": [],
@@ -1089,37 +1089,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2106,
-      "end": 2159,
+      "start": 2108,
+      "end": 2161,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2106,
-        "end": 2158,
+        "start": 2108,
+        "end": 2160,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 2106,
-          "end": 2108,
+          "start": 2108,
+          "end": 2110,
           "name": "fn"
         },
         "right": {
           "type": "CallExpression",
-          "start": 2111,
-          "end": 2158,
+          "start": 2113,
+          "end": 2160,
           "callee": {
             "type": "MemberExpression",
-            "start": 2111,
-            "end": 2128,
+            "start": 2113,
+            "end": 2130,
             "object": {
               "type": "Identifier",
-              "start": 2111,
-              "end": 2118,
+              "start": 2113,
+              "end": 2120,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 2119,
-              "end": 2128,
+              "start": 2121,
+              "end": 2130,
               "name": "construct"
             },
             "computed": false,
@@ -1128,20 +1128,20 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 2129,
-              "end": 2142,
+              "start": 2131,
+              "end": 2144,
               "name": "AsyncFunction"
             },
             {
               "type": "ArrayExpression",
-              "start": 2144,
-              "end": 2146,
+              "start": 2146,
+              "end": 2148,
               "elements": []
             },
             {
               "type": "Identifier",
-              "start": 2148,
-              "end": 2157,
+              "start": 2150,
+              "end": 2159,
               "name": "newTarget"
             }
           ],
@@ -1151,26 +1151,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2160,
-      "end": 2269,
+      "start": 2162,
+      "end": 2271,
       "expression": {
         "type": "CallExpression",
-        "start": 2160,
-        "end": 2268,
+        "start": 2162,
+        "end": 2270,
         "callee": {
           "type": "MemberExpression",
-          "start": 2160,
-          "end": 2176,
+          "start": 2162,
+          "end": 2178,
           "object": {
             "type": "Identifier",
-            "start": 2160,
-            "end": 2166,
+            "start": 2162,
+            "end": 2168,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2167,
-            "end": 2176,
+            "start": 2169,
+            "end": 2178,
             "name": "sameValue"
           },
           "computed": false,
@@ -1179,22 +1179,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2177,
-            "end": 2202,
+            "start": 2179,
+            "end": 2204,
             "callee": {
               "type": "MemberExpression",
-              "start": 2177,
-              "end": 2198,
+              "start": 2179,
+              "end": 2200,
               "object": {
                 "type": "Identifier",
-                "start": 2177,
-                "end": 2183,
+                "start": 2179,
+                "end": 2185,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2184,
-                "end": 2198,
+                "start": 2186,
+                "end": 2200,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -1203,8 +1203,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2199,
-                "end": 2201,
+                "start": 2201,
+                "end": 2203,
                 "name": "fn"
               }
             ],
@@ -1212,18 +1212,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 2204,
-            "end": 2232,
+            "start": 2206,
+            "end": 2234,
             "object": {
               "type": "Identifier",
-              "start": 2204,
-              "end": 2222,
+              "start": 2206,
+              "end": 2224,
               "name": "OtherAsyncFunction"
             },
             "property": {
               "type": "Identifier",
-              "start": 2223,
-              "end": 2232,
+              "start": 2225,
+              "end": 2234,
               "name": "prototype"
             },
             "computed": false,
@@ -1231,8 +1231,8 @@
           },
           {
             "type": "Literal",
-            "start": 2234,
-            "end": 2267,
+            "start": 2236,
+            "end": 2269,
             "value": "newTarget.prototype is a Symbol"
           }
         ],
@@ -1241,27 +1241,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2271,
-      "end": 2295,
+      "start": 2273,
+      "end": 2297,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2271,
-        "end": 2294,
+        "start": 2273,
+        "end": 2296,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 2271,
-          "end": 2290,
+          "start": 2273,
+          "end": 2292,
           "object": {
             "type": "Identifier",
-            "start": 2271,
-            "end": 2280,
+            "start": 2273,
+            "end": 2282,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 2281,
-            "end": 2290,
+            "start": 2283,
+            "end": 2292,
             "name": "prototype"
           },
           "computed": false,
@@ -1269,45 +1269,45 @@
         },
         "right": {
           "type": "Literal",
-          "start": 2293,
-          "end": 2294,
+          "start": 2295,
+          "end": 2296,
           "value": 1
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 2296,
-      "end": 2349,
+      "start": 2298,
+      "end": 2351,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2296,
-        "end": 2348,
+        "start": 2298,
+        "end": 2350,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 2296,
-          "end": 2298,
+          "start": 2298,
+          "end": 2300,
           "name": "fn"
         },
         "right": {
           "type": "CallExpression",
-          "start": 2301,
-          "end": 2348,
+          "start": 2303,
+          "end": 2350,
           "callee": {
             "type": "MemberExpression",
-            "start": 2301,
-            "end": 2318,
+            "start": 2303,
+            "end": 2320,
             "object": {
               "type": "Identifier",
-              "start": 2301,
-              "end": 2308,
+              "start": 2303,
+              "end": 2310,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 2309,
-              "end": 2318,
+              "start": 2311,
+              "end": 2320,
               "name": "construct"
             },
             "computed": false,
@@ -1316,20 +1316,20 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 2319,
-              "end": 2332,
+              "start": 2321,
+              "end": 2334,
               "name": "AsyncFunction"
             },
             {
               "type": "ArrayExpression",
-              "start": 2334,
-              "end": 2336,
+              "start": 2336,
+              "end": 2338,
               "elements": []
             },
             {
               "type": "Identifier",
-              "start": 2338,
-              "end": 2347,
+              "start": 2340,
+              "end": 2349,
               "name": "newTarget"
             }
           ],
@@ -1339,26 +1339,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2350,
-      "end": 2459,
+      "start": 2352,
+      "end": 2461,
       "expression": {
         "type": "CallExpression",
-        "start": 2350,
-        "end": 2458,
+        "start": 2352,
+        "end": 2460,
         "callee": {
           "type": "MemberExpression",
-          "start": 2350,
-          "end": 2366,
+          "start": 2352,
+          "end": 2368,
           "object": {
             "type": "Identifier",
-            "start": 2350,
-            "end": 2356,
+            "start": 2352,
+            "end": 2358,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2357,
-            "end": 2366,
+            "start": 2359,
+            "end": 2368,
             "name": "sameValue"
           },
           "computed": false,
@@ -1367,22 +1367,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2367,
-            "end": 2392,
+            "start": 2369,
+            "end": 2394,
             "callee": {
               "type": "MemberExpression",
-              "start": 2367,
-              "end": 2388,
+              "start": 2369,
+              "end": 2390,
               "object": {
                 "type": "Identifier",
-                "start": 2367,
-                "end": 2373,
+                "start": 2369,
+                "end": 2375,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2374,
-                "end": 2388,
+                "start": 2376,
+                "end": 2390,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -1391,8 +1391,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2389,
-                "end": 2391,
+                "start": 2391,
+                "end": 2393,
                 "name": "fn"
               }
             ],
@@ -1400,18 +1400,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 2394,
-            "end": 2422,
+            "start": 2396,
+            "end": 2424,
             "object": {
               "type": "Identifier",
-              "start": 2394,
-              "end": 2412,
+              "start": 2396,
+              "end": 2414,
               "name": "OtherAsyncFunction"
             },
             "property": {
               "type": "Identifier",
-              "start": 2413,
-              "end": 2422,
+              "start": 2415,
+              "end": 2424,
               "name": "prototype"
             },
             "computed": false,
@@ -1419,8 +1419,8 @@
           },
           {
             "type": "Literal",
-            "start": 2424,
-            "end": 2457,
+            "start": 2426,
+            "end": 2459,
             "value": "newTarget.prototype is a Number"
           }
         ],

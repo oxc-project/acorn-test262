@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 891,
+  "end": 892,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 693,
-      "end": 745,
+      "start": 694,
+      "end": 746,
       "expression": {
         "type": "CallExpression",
-        "start": 693,
-        "end": 744,
+        "start": 694,
+        "end": 745,
         "callee": {
           "type": "MemberExpression",
-          "start": 693,
-          "end": 709,
+          "start": 694,
+          "end": 710,
           "object": {
             "type": "Identifier",
-            "start": 693,
-            "end": 699,
+            "start": 694,
+            "end": 700,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 700,
-            "end": 709,
+            "start": 701,
+            "end": 710,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 710,
-            "end": 733,
+            "start": 711,
+            "end": 734,
             "object": {
               "type": "MemberExpression",
-              "start": 710,
-              "end": 728,
+              "start": 711,
+              "end": 729,
               "object": {
                 "type": "Identifier",
-                "start": 710,
-                "end": 721,
+                "start": 711,
+                "end": 722,
                 "name": "ArrayBuffer"
               },
               "property": {
                 "type": "Identifier",
-                "start": 722,
-                "end": 728,
+                "start": 723,
+                "end": 729,
                 "name": "isView"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 729,
-              "end": 733,
+              "start": 730,
+              "end": 734,
               "name": "name"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Literal",
-            "start": 735,
-            "end": 743,
+            "start": 736,
+            "end": 744,
             "value": "isView"
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 747,
-      "end": 795,
+      "start": 748,
+      "end": 796,
       "expression": {
         "type": "CallExpression",
-        "start": 747,
-        "end": 794,
+        "start": 748,
+        "end": 795,
         "callee": {
           "type": "Identifier",
-          "start": 747,
-          "end": 766,
+          "start": 748,
+          "end": 767,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 767,
-            "end": 785,
+            "start": 768,
+            "end": 786,
             "object": {
               "type": "Identifier",
-              "start": 767,
-              "end": 778,
+              "start": 768,
+              "end": 779,
               "name": "ArrayBuffer"
             },
             "property": {
               "type": "Identifier",
-              "start": 779,
-              "end": 785,
+              "start": 780,
+              "end": 786,
               "name": "isView"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 787,
-            "end": 793,
+            "start": 788,
+            "end": 794,
             "value": "name"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 796,
-      "end": 842,
+      "start": 797,
+      "end": 843,
       "expression": {
         "type": "CallExpression",
-        "start": 796,
-        "end": 841,
+        "start": 797,
+        "end": 842,
         "callee": {
           "type": "Identifier",
-          "start": 796,
-          "end": 813,
+          "start": 797,
+          "end": 814,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 814,
-            "end": 832,
+            "start": 815,
+            "end": 833,
             "object": {
               "type": "Identifier",
-              "start": 814,
-              "end": 825,
+              "start": 815,
+              "end": 826,
               "name": "ArrayBuffer"
             },
             "property": {
               "type": "Identifier",
-              "start": 826,
-              "end": 832,
+              "start": 827,
+              "end": 833,
               "name": "isView"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 834,
-            "end": 840,
+            "start": 835,
+            "end": 841,
             "value": "name"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 843,
-      "end": 890,
+      "start": 844,
+      "end": 891,
       "expression": {
         "type": "CallExpression",
-        "start": 843,
-        "end": 889,
+        "start": 844,
+        "end": 890,
         "callee": {
           "type": "Identifier",
-          "start": 843,
-          "end": 861,
+          "start": 844,
+          "end": 862,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 862,
-            "end": 880,
+            "start": 863,
+            "end": 881,
             "object": {
               "type": "Identifier",
-              "start": 862,
-              "end": 873,
+              "start": 863,
+              "end": 874,
               "name": "ArrayBuffer"
             },
             "property": {
               "type": "Identifier",
-              "start": 874,
-              "end": 880,
+              "start": 875,
+              "end": 881,
               "name": "isView"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 882,
-            "end": 888,
+            "start": 883,
+            "end": 889,
             "value": "name"
           }
         ],

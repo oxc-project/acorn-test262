@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 922,
+  "end": 926,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 849,
-      "end": 921,
+      "start": 853,
+      "end": 925,
       "expression": {
         "type": "CallExpression",
-        "start": 849,
-        "end": 920,
+        "start": 853,
+        "end": 924,
         "callee": {
           "type": "MemberExpression",
-          "start": 849,
-          "end": 865,
+          "start": 853,
+          "end": 869,
           "object": {
             "type": "Identifier",
-            "start": 849,
-            "end": 855,
+            "start": 853,
+            "end": 859,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 856,
-            "end": 865,
+            "start": 860,
+            "end": 869,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 866,
-            "end": 876,
+            "start": 870,
+            "end": 880,
             "callee": {
               "type": "MemberExpression",
-              "start": 866,
-              "end": 874,
+              "start": 870,
+              "end": 878,
               "object": {
                 "type": "Identifier",
-                "start": 866,
-                "end": 870,
+                "start": 870,
+                "end": 874,
                 "name": "Date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 871,
-                "end": 874,
+                "start": 875,
+                "end": 878,
                 "name": "UTC"
               },
               "computed": false,
@@ -59,14 +59,14 @@
           },
           {
             "type": "Identifier",
-            "start": 878,
-            "end": 881,
+            "start": 882,
+            "end": 885,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 883,
-            "end": 919,
+            "start": 887,
+            "end": 923,
             "value": "missing non-optional year argument"
           }
         ],

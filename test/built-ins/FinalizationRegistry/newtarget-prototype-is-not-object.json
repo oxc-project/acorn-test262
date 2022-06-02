@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2714,
+  "end": 2716,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1205,
-      "end": 1230,
+      "start": 1207,
+      "end": 1232,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1209,
-          "end": 1229,
+          "start": 1211,
+          "end": 1231,
           "id": {
             "type": "Identifier",
-            "start": 1209,
-            "end": 1229,
+            "start": 1211,
+            "end": 1231,
             "name": "finalizationRegistry"
           },
           "init": null
@@ -25,12 +25,12 @@
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1231,
-      "end": 1254,
+      "start": 1233,
+      "end": 1256,
       "id": {
         "type": "Identifier",
-        "start": 1240,
-        "end": 1249,
+        "start": 1242,
+        "end": 1251,
         "name": "newTarget"
       },
       "expression": false,
@@ -39,19 +39,19 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 1252,
-        "end": 1254,
+        "start": 1254,
+        "end": 1256,
         "body": []
       }
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1255,
-      "end": 1271,
+      "start": 1257,
+      "end": 1273,
       "id": {
         "type": "Identifier",
-        "start": 1264,
-        "end": 1266,
+        "start": 1266,
+        "end": 1268,
         "name": "fn"
       },
       "expression": false,
@@ -60,34 +60,34 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 1269,
-        "end": 1271,
+        "start": 1271,
+        "end": 1273,
         "body": []
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 1273,
-      "end": 1305,
+      "start": 1275,
+      "end": 1307,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1273,
-        "end": 1304,
+        "start": 1275,
+        "end": 1306,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 1273,
-          "end": 1292,
+          "start": 1275,
+          "end": 1294,
           "object": {
             "type": "Identifier",
-            "start": 1273,
-            "end": 1282,
+            "start": 1275,
+            "end": 1284,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 1283,
-            "end": 1292,
+            "start": 1285,
+            "end": 1294,
             "name": "prototype"
           },
           "computed": false,
@@ -95,45 +95,45 @@
         },
         "right": {
           "type": "Identifier",
-          "start": 1295,
-          "end": 1304,
+          "start": 1297,
+          "end": 1306,
           "name": "undefined"
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 1306,
-      "end": 1386,
+      "start": 1308,
+      "end": 1388,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1306,
-        "end": 1385,
+        "start": 1308,
+        "end": 1387,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1306,
-          "end": 1326,
+          "start": 1308,
+          "end": 1328,
           "name": "finalizationRegistry"
         },
         "right": {
           "type": "CallExpression",
-          "start": 1329,
-          "end": 1385,
+          "start": 1331,
+          "end": 1387,
           "callee": {
             "type": "MemberExpression",
-            "start": 1329,
-            "end": 1346,
+            "start": 1331,
+            "end": 1348,
             "object": {
               "type": "Identifier",
-              "start": 1329,
-              "end": 1336,
+              "start": 1331,
+              "end": 1338,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 1337,
-              "end": 1346,
+              "start": 1339,
+              "end": 1348,
               "name": "construct"
             },
             "computed": false,
@@ -142,27 +142,27 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1347,
-              "end": 1367,
+              "start": 1349,
+              "end": 1369,
               "name": "FinalizationRegistry"
             },
             {
               "type": "ArrayExpression",
-              "start": 1369,
-              "end": 1373,
+              "start": 1371,
+              "end": 1375,
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 1370,
-                  "end": 1372,
+                  "start": 1372,
+                  "end": 1374,
                   "name": "fn"
                 }
               ]
             },
             {
               "type": "Identifier",
-              "start": 1375,
-              "end": 1384,
+              "start": 1377,
+              "end": 1386,
               "name": "newTarget"
             }
           ],
@@ -172,26 +172,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1387,
-      "end": 1517,
+      "start": 1389,
+      "end": 1519,
       "expression": {
         "type": "CallExpression",
-        "start": 1387,
-        "end": 1516,
+        "start": 1389,
+        "end": 1518,
         "callee": {
           "type": "MemberExpression",
-          "start": 1387,
-          "end": 1403,
+          "start": 1389,
+          "end": 1405,
           "object": {
             "type": "Identifier",
-            "start": 1387,
-            "end": 1393,
+            "start": 1389,
+            "end": 1395,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1394,
-            "end": 1403,
+            "start": 1396,
+            "end": 1405,
             "name": "sameValue"
           },
           "computed": false,
@@ -200,22 +200,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1404,
-            "end": 1447,
+            "start": 1406,
+            "end": 1449,
             "callee": {
               "type": "MemberExpression",
-              "start": 1404,
-              "end": 1425,
+              "start": 1406,
+              "end": 1427,
               "object": {
                 "type": "Identifier",
-                "start": 1404,
-                "end": 1410,
+                "start": 1406,
+                "end": 1412,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1411,
-                "end": 1425,
+                "start": 1413,
+                "end": 1427,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -224,8 +224,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1426,
-                "end": 1446,
+                "start": 1428,
+                "end": 1448,
                 "name": "finalizationRegistry"
               }
             ],
@@ -233,18 +233,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 1449,
-            "end": 1479,
+            "start": 1451,
+            "end": 1481,
             "object": {
               "type": "Identifier",
-              "start": 1449,
-              "end": 1469,
+              "start": 1451,
+              "end": 1471,
               "name": "FinalizationRegistry"
             },
             "property": {
               "type": "Identifier",
-              "start": 1470,
-              "end": 1479,
+              "start": 1472,
+              "end": 1481,
               "name": "prototype"
             },
             "computed": false,
@@ -252,8 +252,8 @@
           },
           {
             "type": "Literal",
-            "start": 1481,
-            "end": 1515,
+            "start": 1483,
+            "end": 1517,
             "value": "newTarget.prototype is undefined"
           }
         ],
@@ -262,27 +262,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1519,
-      "end": 1546,
+      "start": 1521,
+      "end": 1548,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1519,
-        "end": 1545,
+        "start": 1521,
+        "end": 1547,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 1519,
-          "end": 1538,
+          "start": 1521,
+          "end": 1540,
           "object": {
             "type": "Identifier",
-            "start": 1519,
-            "end": 1528,
+            "start": 1521,
+            "end": 1530,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 1529,
-            "end": 1538,
+            "start": 1531,
+            "end": 1540,
             "name": "prototype"
           },
           "computed": false,
@@ -290,45 +290,45 @@
         },
         "right": {
           "type": "Literal",
-          "start": 1541,
-          "end": 1545,
+          "start": 1543,
+          "end": 1547,
           "value": null
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 1547,
-      "end": 1627,
+      "start": 1549,
+      "end": 1629,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1547,
-        "end": 1626,
+        "start": 1549,
+        "end": 1628,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1547,
-          "end": 1567,
+          "start": 1549,
+          "end": 1569,
           "name": "finalizationRegistry"
         },
         "right": {
           "type": "CallExpression",
-          "start": 1570,
-          "end": 1626,
+          "start": 1572,
+          "end": 1628,
           "callee": {
             "type": "MemberExpression",
-            "start": 1570,
-            "end": 1587,
+            "start": 1572,
+            "end": 1589,
             "object": {
               "type": "Identifier",
-              "start": 1570,
-              "end": 1577,
+              "start": 1572,
+              "end": 1579,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 1578,
-              "end": 1587,
+              "start": 1580,
+              "end": 1589,
               "name": "construct"
             },
             "computed": false,
@@ -337,27 +337,27 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1588,
-              "end": 1608,
+              "start": 1590,
+              "end": 1610,
               "name": "FinalizationRegistry"
             },
             {
               "type": "ArrayExpression",
-              "start": 1610,
-              "end": 1614,
+              "start": 1612,
+              "end": 1616,
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 1611,
-                  "end": 1613,
+                  "start": 1613,
+                  "end": 1615,
                   "name": "fn"
                 }
               ]
             },
             {
               "type": "Identifier",
-              "start": 1616,
-              "end": 1625,
+              "start": 1618,
+              "end": 1627,
               "name": "newTarget"
             }
           ],
@@ -367,26 +367,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1628,
-      "end": 1753,
+      "start": 1630,
+      "end": 1755,
       "expression": {
         "type": "CallExpression",
-        "start": 1628,
-        "end": 1752,
+        "start": 1630,
+        "end": 1754,
         "callee": {
           "type": "MemberExpression",
-          "start": 1628,
-          "end": 1644,
+          "start": 1630,
+          "end": 1646,
           "object": {
             "type": "Identifier",
-            "start": 1628,
-            "end": 1634,
+            "start": 1630,
+            "end": 1636,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1635,
-            "end": 1644,
+            "start": 1637,
+            "end": 1646,
             "name": "sameValue"
           },
           "computed": false,
@@ -395,22 +395,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1645,
-            "end": 1688,
+            "start": 1647,
+            "end": 1690,
             "callee": {
               "type": "MemberExpression",
-              "start": 1645,
-              "end": 1666,
+              "start": 1647,
+              "end": 1668,
               "object": {
                 "type": "Identifier",
-                "start": 1645,
-                "end": 1651,
+                "start": 1647,
+                "end": 1653,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1652,
-                "end": 1666,
+                "start": 1654,
+                "end": 1668,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -419,8 +419,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1667,
-                "end": 1687,
+                "start": 1669,
+                "end": 1689,
                 "name": "finalizationRegistry"
               }
             ],
@@ -428,18 +428,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 1690,
-            "end": 1720,
+            "start": 1692,
+            "end": 1722,
             "object": {
               "type": "Identifier",
-              "start": 1690,
-              "end": 1710,
+              "start": 1692,
+              "end": 1712,
               "name": "FinalizationRegistry"
             },
             "property": {
               "type": "Identifier",
-              "start": 1711,
-              "end": 1720,
+              "start": 1713,
+              "end": 1722,
               "name": "prototype"
             },
             "computed": false,
@@ -447,8 +447,8 @@
           },
           {
             "type": "Literal",
-            "start": 1722,
-            "end": 1751,
+            "start": 1724,
+            "end": 1753,
             "value": "newTarget.prototype is null"
           }
         ],
@@ -457,27 +457,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1755,
-      "end": 1782,
+      "start": 1757,
+      "end": 1784,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1755,
-        "end": 1781,
+        "start": 1757,
+        "end": 1783,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 1755,
-          "end": 1774,
+          "start": 1757,
+          "end": 1776,
           "object": {
             "type": "Identifier",
-            "start": 1755,
-            "end": 1764,
+            "start": 1757,
+            "end": 1766,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 1765,
-            "end": 1774,
+            "start": 1767,
+            "end": 1776,
             "name": "prototype"
           },
           "computed": false,
@@ -485,45 +485,45 @@
         },
         "right": {
           "type": "Literal",
-          "start": 1777,
-          "end": 1781,
+          "start": 1779,
+          "end": 1783,
           "value": true
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 1783,
-      "end": 1863,
+      "start": 1785,
+      "end": 1865,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1783,
-        "end": 1862,
+        "start": 1785,
+        "end": 1864,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1783,
-          "end": 1803,
+          "start": 1785,
+          "end": 1805,
           "name": "finalizationRegistry"
         },
         "right": {
           "type": "CallExpression",
-          "start": 1806,
-          "end": 1862,
+          "start": 1808,
+          "end": 1864,
           "callee": {
             "type": "MemberExpression",
-            "start": 1806,
-            "end": 1823,
+            "start": 1808,
+            "end": 1825,
             "object": {
               "type": "Identifier",
-              "start": 1806,
-              "end": 1813,
+              "start": 1808,
+              "end": 1815,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 1814,
-              "end": 1823,
+              "start": 1816,
+              "end": 1825,
               "name": "construct"
             },
             "computed": false,
@@ -532,27 +532,27 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 1824,
-              "end": 1844,
+              "start": 1826,
+              "end": 1846,
               "name": "FinalizationRegistry"
             },
             {
               "type": "ArrayExpression",
-              "start": 1846,
-              "end": 1850,
+              "start": 1848,
+              "end": 1852,
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 1847,
-                  "end": 1849,
+                  "start": 1849,
+                  "end": 1851,
                   "name": "fn"
                 }
               ]
             },
             {
               "type": "Identifier",
-              "start": 1852,
-              "end": 1861,
+              "start": 1854,
+              "end": 1863,
               "name": "newTarget"
             }
           ],
@@ -562,26 +562,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1864,
-      "end": 1994,
+      "start": 1866,
+      "end": 1996,
       "expression": {
         "type": "CallExpression",
-        "start": 1864,
-        "end": 1993,
+        "start": 1866,
+        "end": 1995,
         "callee": {
           "type": "MemberExpression",
-          "start": 1864,
-          "end": 1880,
+          "start": 1866,
+          "end": 1882,
           "object": {
             "type": "Identifier",
-            "start": 1864,
-            "end": 1870,
+            "start": 1866,
+            "end": 1872,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1871,
-            "end": 1880,
+            "start": 1873,
+            "end": 1882,
             "name": "sameValue"
           },
           "computed": false,
@@ -590,22 +590,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1881,
-            "end": 1924,
+            "start": 1883,
+            "end": 1926,
             "callee": {
               "type": "MemberExpression",
-              "start": 1881,
-              "end": 1902,
+              "start": 1883,
+              "end": 1904,
               "object": {
                 "type": "Identifier",
-                "start": 1881,
-                "end": 1887,
+                "start": 1883,
+                "end": 1889,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1888,
-                "end": 1902,
+                "start": 1890,
+                "end": 1904,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -614,8 +614,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1903,
-                "end": 1923,
+                "start": 1905,
+                "end": 1925,
                 "name": "finalizationRegistry"
               }
             ],
@@ -623,18 +623,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 1926,
-            "end": 1956,
+            "start": 1928,
+            "end": 1958,
             "object": {
               "type": "Identifier",
-              "start": 1926,
-              "end": 1946,
+              "start": 1928,
+              "end": 1948,
               "name": "FinalizationRegistry"
             },
             "property": {
               "type": "Identifier",
-              "start": 1947,
-              "end": 1956,
+              "start": 1949,
+              "end": 1958,
               "name": "prototype"
             },
             "computed": false,
@@ -642,8 +642,8 @@
           },
           {
             "type": "Literal",
-            "start": 1958,
-            "end": 1992,
+            "start": 1960,
+            "end": 1994,
             "value": "newTarget.prototype is a Boolean"
           }
         ],
@@ -652,27 +652,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1996,
-      "end": 2021,
+      "start": 1998,
+      "end": 2023,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1996,
-        "end": 2020,
+        "start": 1998,
+        "end": 2022,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 1996,
-          "end": 2015,
+          "start": 1998,
+          "end": 2017,
           "object": {
             "type": "Identifier",
-            "start": 1996,
-            "end": 2005,
+            "start": 1998,
+            "end": 2007,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 2006,
-            "end": 2015,
+            "start": 2008,
+            "end": 2017,
             "name": "prototype"
           },
           "computed": false,
@@ -680,45 +680,45 @@
         },
         "right": {
           "type": "Literal",
-          "start": 2018,
-          "end": 2020,
+          "start": 2020,
+          "end": 2022,
           "value": ""
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 2022,
-      "end": 2102,
+      "start": 2024,
+      "end": 2104,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2022,
-        "end": 2101,
+        "start": 2024,
+        "end": 2103,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 2022,
-          "end": 2042,
+          "start": 2024,
+          "end": 2044,
           "name": "finalizationRegistry"
         },
         "right": {
           "type": "CallExpression",
-          "start": 2045,
-          "end": 2101,
+          "start": 2047,
+          "end": 2103,
           "callee": {
             "type": "MemberExpression",
-            "start": 2045,
-            "end": 2062,
+            "start": 2047,
+            "end": 2064,
             "object": {
               "type": "Identifier",
-              "start": 2045,
-              "end": 2052,
+              "start": 2047,
+              "end": 2054,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 2053,
-              "end": 2062,
+              "start": 2055,
+              "end": 2064,
               "name": "construct"
             },
             "computed": false,
@@ -727,27 +727,27 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 2063,
-              "end": 2083,
+              "start": 2065,
+              "end": 2085,
               "name": "FinalizationRegistry"
             },
             {
               "type": "ArrayExpression",
-              "start": 2085,
-              "end": 2089,
+              "start": 2087,
+              "end": 2091,
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 2086,
-                  "end": 2088,
+                  "start": 2088,
+                  "end": 2090,
                   "name": "fn"
                 }
               ]
             },
             {
               "type": "Identifier",
-              "start": 2091,
-              "end": 2100,
+              "start": 2093,
+              "end": 2102,
               "name": "newTarget"
             }
           ],
@@ -757,26 +757,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2103,
-      "end": 2232,
+      "start": 2105,
+      "end": 2234,
       "expression": {
         "type": "CallExpression",
-        "start": 2103,
-        "end": 2231,
+        "start": 2105,
+        "end": 2233,
         "callee": {
           "type": "MemberExpression",
-          "start": 2103,
-          "end": 2119,
+          "start": 2105,
+          "end": 2121,
           "object": {
             "type": "Identifier",
-            "start": 2103,
-            "end": 2109,
+            "start": 2105,
+            "end": 2111,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2110,
-            "end": 2119,
+            "start": 2112,
+            "end": 2121,
             "name": "sameValue"
           },
           "computed": false,
@@ -785,22 +785,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2120,
-            "end": 2163,
+            "start": 2122,
+            "end": 2165,
             "callee": {
               "type": "MemberExpression",
-              "start": 2120,
-              "end": 2141,
+              "start": 2122,
+              "end": 2143,
               "object": {
                 "type": "Identifier",
-                "start": 2120,
-                "end": 2126,
+                "start": 2122,
+                "end": 2128,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2127,
-                "end": 2141,
+                "start": 2129,
+                "end": 2143,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -809,8 +809,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2142,
-                "end": 2162,
+                "start": 2144,
+                "end": 2164,
                 "name": "finalizationRegistry"
               }
             ],
@@ -818,18 +818,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 2165,
-            "end": 2195,
+            "start": 2167,
+            "end": 2197,
             "object": {
               "type": "Identifier",
-              "start": 2165,
-              "end": 2185,
+              "start": 2167,
+              "end": 2187,
               "name": "FinalizationRegistry"
             },
             "property": {
               "type": "Identifier",
-              "start": 2186,
-              "end": 2195,
+              "start": 2188,
+              "end": 2197,
               "name": "prototype"
             },
             "computed": false,
@@ -837,8 +837,8 @@
           },
           {
             "type": "Literal",
-            "start": 2197,
-            "end": 2230,
+            "start": 2199,
+            "end": 2232,
             "value": "newTarget.prototype is a String"
           }
         ],
@@ -847,27 +847,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2234,
-      "end": 2265,
+      "start": 2236,
+      "end": 2267,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2234,
-        "end": 2264,
+        "start": 2236,
+        "end": 2266,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 2234,
-          "end": 2253,
+          "start": 2236,
+          "end": 2255,
           "object": {
             "type": "Identifier",
-            "start": 2234,
-            "end": 2243,
+            "start": 2236,
+            "end": 2245,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 2244,
-            "end": 2253,
+            "start": 2246,
+            "end": 2255,
             "name": "prototype"
           },
           "computed": false,
@@ -875,12 +875,12 @@
         },
         "right": {
           "type": "CallExpression",
-          "start": 2256,
-          "end": 2264,
+          "start": 2258,
+          "end": 2266,
           "callee": {
             "type": "Identifier",
-            "start": 2256,
-            "end": 2262,
+            "start": 2258,
+            "end": 2264,
             "name": "Symbol"
           },
           "arguments": [],
@@ -890,37 +890,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2266,
-      "end": 2346,
+      "start": 2268,
+      "end": 2348,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2266,
-        "end": 2345,
+        "start": 2268,
+        "end": 2347,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 2266,
-          "end": 2286,
+          "start": 2268,
+          "end": 2288,
           "name": "finalizationRegistry"
         },
         "right": {
           "type": "CallExpression",
-          "start": 2289,
-          "end": 2345,
+          "start": 2291,
+          "end": 2347,
           "callee": {
             "type": "MemberExpression",
-            "start": 2289,
-            "end": 2306,
+            "start": 2291,
+            "end": 2308,
             "object": {
               "type": "Identifier",
-              "start": 2289,
-              "end": 2296,
+              "start": 2291,
+              "end": 2298,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 2297,
-              "end": 2306,
+              "start": 2299,
+              "end": 2308,
               "name": "construct"
             },
             "computed": false,
@@ -929,27 +929,27 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 2307,
-              "end": 2327,
+              "start": 2309,
+              "end": 2329,
               "name": "FinalizationRegistry"
             },
             {
               "type": "ArrayExpression",
-              "start": 2329,
-              "end": 2333,
+              "start": 2331,
+              "end": 2335,
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 2330,
-                  "end": 2332,
+                  "start": 2332,
+                  "end": 2334,
                   "name": "fn"
                 }
               ]
             },
             {
               "type": "Identifier",
-              "start": 2335,
-              "end": 2344,
+              "start": 2337,
+              "end": 2346,
               "name": "newTarget"
             }
           ],
@@ -959,26 +959,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2347,
-      "end": 2476,
+      "start": 2349,
+      "end": 2478,
       "expression": {
         "type": "CallExpression",
-        "start": 2347,
-        "end": 2475,
+        "start": 2349,
+        "end": 2477,
         "callee": {
           "type": "MemberExpression",
-          "start": 2347,
-          "end": 2363,
+          "start": 2349,
+          "end": 2365,
           "object": {
             "type": "Identifier",
-            "start": 2347,
-            "end": 2353,
+            "start": 2349,
+            "end": 2355,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2354,
-            "end": 2363,
+            "start": 2356,
+            "end": 2365,
             "name": "sameValue"
           },
           "computed": false,
@@ -987,22 +987,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2364,
-            "end": 2407,
+            "start": 2366,
+            "end": 2409,
             "callee": {
               "type": "MemberExpression",
-              "start": 2364,
-              "end": 2385,
+              "start": 2366,
+              "end": 2387,
               "object": {
                 "type": "Identifier",
-                "start": 2364,
-                "end": 2370,
+                "start": 2366,
+                "end": 2372,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2371,
-                "end": 2385,
+                "start": 2373,
+                "end": 2387,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -1011,8 +1011,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2386,
-                "end": 2406,
+                "start": 2388,
+                "end": 2408,
                 "name": "finalizationRegistry"
               }
             ],
@@ -1020,18 +1020,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 2409,
-            "end": 2439,
+            "start": 2411,
+            "end": 2441,
             "object": {
               "type": "Identifier",
-              "start": 2409,
-              "end": 2429,
+              "start": 2411,
+              "end": 2431,
               "name": "FinalizationRegistry"
             },
             "property": {
               "type": "Identifier",
-              "start": 2430,
-              "end": 2439,
+              "start": 2432,
+              "end": 2441,
               "name": "prototype"
             },
             "computed": false,
@@ -1039,8 +1039,8 @@
           },
           {
             "type": "Literal",
-            "start": 2441,
-            "end": 2474,
+            "start": 2443,
+            "end": 2476,
             "value": "newTarget.prototype is a Symbol"
           }
         ],
@@ -1049,27 +1049,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2478,
-      "end": 2502,
+      "start": 2480,
+      "end": 2504,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2478,
-        "end": 2501,
+        "start": 2480,
+        "end": 2503,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 2478,
-          "end": 2497,
+          "start": 2480,
+          "end": 2499,
           "object": {
             "type": "Identifier",
-            "start": 2478,
-            "end": 2487,
+            "start": 2480,
+            "end": 2489,
             "name": "newTarget"
           },
           "property": {
             "type": "Identifier",
-            "start": 2488,
-            "end": 2497,
+            "start": 2490,
+            "end": 2499,
             "name": "prototype"
           },
           "computed": false,
@@ -1077,45 +1077,45 @@
         },
         "right": {
           "type": "Literal",
-          "start": 2500,
-          "end": 2501,
+          "start": 2502,
+          "end": 2503,
           "value": 1
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 2503,
-      "end": 2583,
+      "start": 2505,
+      "end": 2585,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2503,
-        "end": 2582,
+        "start": 2505,
+        "end": 2584,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 2503,
-          "end": 2523,
+          "start": 2505,
+          "end": 2525,
           "name": "finalizationRegistry"
         },
         "right": {
           "type": "CallExpression",
-          "start": 2526,
-          "end": 2582,
+          "start": 2528,
+          "end": 2584,
           "callee": {
             "type": "MemberExpression",
-            "start": 2526,
-            "end": 2543,
+            "start": 2528,
+            "end": 2545,
             "object": {
               "type": "Identifier",
-              "start": 2526,
-              "end": 2533,
+              "start": 2528,
+              "end": 2535,
               "name": "Reflect"
             },
             "property": {
               "type": "Identifier",
-              "start": 2534,
-              "end": 2543,
+              "start": 2536,
+              "end": 2545,
               "name": "construct"
             },
             "computed": false,
@@ -1124,27 +1124,27 @@
           "arguments": [
             {
               "type": "Identifier",
-              "start": 2544,
-              "end": 2564,
+              "start": 2546,
+              "end": 2566,
               "name": "FinalizationRegistry"
             },
             {
               "type": "ArrayExpression",
-              "start": 2566,
-              "end": 2570,
+              "start": 2568,
+              "end": 2572,
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 2567,
-                  "end": 2569,
+                  "start": 2569,
+                  "end": 2571,
                   "name": "fn"
                 }
               ]
             },
             {
               "type": "Identifier",
-              "start": 2572,
-              "end": 2581,
+              "start": 2574,
+              "end": 2583,
               "name": "newTarget"
             }
           ],
@@ -1154,26 +1154,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2584,
-      "end": 2713,
+      "start": 2586,
+      "end": 2715,
       "expression": {
         "type": "CallExpression",
-        "start": 2584,
-        "end": 2712,
+        "start": 2586,
+        "end": 2714,
         "callee": {
           "type": "MemberExpression",
-          "start": 2584,
-          "end": 2600,
+          "start": 2586,
+          "end": 2602,
           "object": {
             "type": "Identifier",
-            "start": 2584,
-            "end": 2590,
+            "start": 2586,
+            "end": 2592,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2591,
-            "end": 2600,
+            "start": 2593,
+            "end": 2602,
             "name": "sameValue"
           },
           "computed": false,
@@ -1182,22 +1182,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2601,
-            "end": 2644,
+            "start": 2603,
+            "end": 2646,
             "callee": {
               "type": "MemberExpression",
-              "start": 2601,
-              "end": 2622,
+              "start": 2603,
+              "end": 2624,
               "object": {
                 "type": "Identifier",
-                "start": 2601,
-                "end": 2607,
+                "start": 2603,
+                "end": 2609,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2608,
-                "end": 2622,
+                "start": 2610,
+                "end": 2624,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -1206,8 +1206,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2623,
-                "end": 2643,
+                "start": 2625,
+                "end": 2645,
                 "name": "finalizationRegistry"
               }
             ],
@@ -1215,18 +1215,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 2646,
-            "end": 2676,
+            "start": 2648,
+            "end": 2678,
             "object": {
               "type": "Identifier",
-              "start": 2646,
-              "end": 2666,
+              "start": 2648,
+              "end": 2668,
               "name": "FinalizationRegistry"
             },
             "property": {
               "type": "Identifier",
-              "start": 2667,
-              "end": 2676,
+              "start": 2669,
+              "end": 2678,
               "name": "prototype"
             },
             "computed": false,
@@ -1234,8 +1234,8 @@
           },
           {
             "type": "Literal",
-            "start": 2678,
-            "end": 2711,
+            "start": 2680,
+            "end": 2713,
             "value": "newTarget.prototype is a Number"
           }
         ],

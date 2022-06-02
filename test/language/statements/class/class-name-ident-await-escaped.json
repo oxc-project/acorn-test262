@@ -1,23 +1,23 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 501,
+  "end": 502,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 481,
-      "end": 500,
+      "start": 482,
+      "end": 501,
       "id": {
         "type": "Identifier",
-        "start": 487,
-        "end": 497,
+        "start": 488,
+        "end": 498,
         "name": "await"
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 498,
-        "end": 500,
+        "start": 499,
+        "end": 501,
         "body": []
       }
     }

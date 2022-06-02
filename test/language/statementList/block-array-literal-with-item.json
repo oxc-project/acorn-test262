@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 959,
+  "end": 961,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 951,
-      "end": 953,
+      "start": 953,
+      "end": 955,
       "body": []
     },
     {
       "type": "ExpressionStatement",
-      "start": 953,
-      "end": 958,
+      "start": 955,
+      "end": 960,
       "expression": {
         "type": "ArrayExpression",
-        "start": 953,
-        "end": 957,
+        "start": 955,
+        "end": 959,
         "elements": [
           {
             "type": "Literal",
-            "start": 954,
-            "end": 956,
+            "start": 956,
+            "end": 958,
             "value": 42
           }
         ]

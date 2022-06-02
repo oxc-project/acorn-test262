@@ -1,0 +1,327 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 742,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 284,
+      "end": 344,
+      "id": {
+        "type": "Identifier",
+        "start": 290,
+        "end": 309,
+        "name": "CustomPlainMonthDay"
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 318,
+        "end": 340,
+        "object": {
+          "type": "Identifier",
+          "start": 318,
+          "end": 326,
+          "name": "Temporal"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 327,
+          "end": 340,
+          "name": "PlainMonthDay"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 341,
+        "end": 344,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 346,
+      "end": 393,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 352,
+          "end": 392,
+          "id": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 360,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 363,
+            "end": 392,
+            "callee": {
+              "type": "Identifier",
+              "start": 367,
+              "end": 386,
+              "name": "CustomPlainMonthDay"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 387,
+                "end": 388,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 390,
+                "end": 391,
+                "value": 2
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 394,
+      "end": 450,
+      "expression": {
+        "type": "CallExpression",
+        "start": 394,
+        "end": 449,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 394,
+          "end": 429,
+          "object": {
+            "type": "Identifier",
+            "start": 394,
+            "end": 409,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 429,
+            "name": "assertPlainMonthDay"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 430,
+            "end": 438,
+            "name": "instance"
+          },
+          {
+            "type": "Literal",
+            "start": 440,
+            "end": 445,
+            "value": "M05"
+          },
+          {
+            "type": "Literal",
+            "start": 447,
+            "end": 448,
+            "value": 2
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 451,
+      "end": 567,
+      "expression": {
+        "type": "CallExpression",
+        "start": 451,
+        "end": 566,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 451,
+          "end": 467,
+          "object": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 457,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 467,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 468,
+            "end": 499,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 468,
+              "end": 489,
+              "object": {
+                "type": "Identifier",
+                "start": 468,
+                "end": 474,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 475,
+                "end": 489,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 490,
+                "end": 498,
+                "name": "instance"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 501,
+            "end": 530,
+            "object": {
+              "type": "Identifier",
+              "start": 501,
+              "end": 520,
+              "name": "CustomPlainMonthDay"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 521,
+              "end": 530,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 532,
+            "end": 565,
+            "value": "Instance of CustomPlainMonthDay"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 568,
+      "end": 651,
+      "expression": {
+        "type": "CallExpression",
+        "start": 568,
+        "end": 650,
+        "callee": {
+          "type": "Identifier",
+          "start": 568,
+          "end": 574,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 575,
+            "end": 614,
+            "left": {
+              "type": "Identifier",
+              "start": 575,
+              "end": 583,
+              "name": "instance"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 595,
+              "end": 614,
+              "name": "CustomPlainMonthDay"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 616,
+            "end": 649,
+            "value": "Instance of CustomPlainMonthDay"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 652,
+      "end": 741,
+      "expression": {
+        "type": "CallExpression",
+        "start": 652,
+        "end": 740,
+        "callee": {
+          "type": "Identifier",
+          "start": 652,
+          "end": 658,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 659,
+            "end": 701,
+            "left": {
+              "type": "Identifier",
+              "start": 659,
+              "end": 667,
+              "name": "instance"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "start": 679,
+              "end": 701,
+              "object": {
+                "type": "Identifier",
+                "start": 679,
+                "end": 687,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 688,
+                "end": 701,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 703,
+            "end": 739,
+            "value": "Instance of Temporal.PlainMonthDay"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

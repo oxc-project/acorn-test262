@@ -1,32 +1,32 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1234,
+  "end": 1238,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 1198,
-      "end": 1212,
+      "start": 1202,
+      "end": 1216,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 1199,
-          "end": 1211,
+          "start": 1203,
+          "end": 1215,
           "body": {
             "type": "ExpressionStatement",
-            "start": 1207,
-            "end": 1211,
+            "start": 1211,
+            "end": 1215,
             "expression": {
               "type": "Literal",
-              "start": 1207,
-              "end": 1211,
+              "start": 1211,
+              "end": 1215,
               "value": 3000
             }
           },
           "label": {
             "type": "Identifier",
-            "start": 1199,
-            "end": 1205,
+            "start": 1203,
+            "end": 1209,
             "name": "length"
           }
         }
@@ -34,12 +34,12 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1212,
-      "end": 1233,
+      "start": 1216,
+      "end": 1237,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 1212,
-        "end": 1232,
+        "start": 1216,
+        "end": 1236,
         "id": null,
         "expression": false,
         "generator": false,
@@ -47,17 +47,17 @@
         "params": [],
         "body": {
           "type": "BlockStatement",
-          "start": 1218,
-          "end": 1232,
+          "start": 1222,
+          "end": 1236,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 1220,
-              "end": 1230,
+              "start": 1224,
+              "end": 1234,
               "argument": {
                 "type": "Literal",
-                "start": 1227,
-                "end": 1229,
+                "start": 1231,
+                "end": 1233,
                 "value": 42
               }
             }

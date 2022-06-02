@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 508,
+  "end": 509,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 427,
-      "end": 507,
+      "start": 428,
+      "end": 508,
       "expression": {
         "type": "CallExpression",
-        "start": 427,
-        "end": 506,
+        "start": 428,
+        "end": 507,
         "callee": {
           "type": "MemberExpression",
-          "start": 427,
-          "end": 443,
+          "start": 428,
+          "end": 444,
           "object": {
             "type": "Identifier",
-            "start": 427,
-            "end": 433,
+            "start": 428,
+            "end": 434,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 434,
-            "end": 443,
+            "start": 435,
+            "end": 444,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 444,
-            "end": 482,
+            "start": 445,
+            "end": 483,
             "callee": {
               "type": "MemberExpression",
-              "start": 444,
-              "end": 465,
+              "start": 445,
+              "end": 466,
               "object": {
                 "type": "Identifier",
-                "start": 444,
-                "end": 450,
+                "start": 445,
+                "end": 451,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 451,
-                "end": 465,
+                "start": 452,
+                "end": 466,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -57,12 +57,12 @@
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 466,
-                "end": 481,
+                "start": 467,
+                "end": 482,
                 "callee": {
                   "type": "Identifier",
-                  "start": 470,
-                  "end": 481,
+                  "start": 471,
+                  "end": 482,
                   "name": "SyntaxError"
                 },
                 "arguments": []
@@ -72,18 +72,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 484,
-            "end": 505,
+            "start": 485,
+            "end": 506,
             "object": {
               "type": "Identifier",
-              "start": 484,
-              "end": 495,
+              "start": 485,
+              "end": 496,
               "name": "SyntaxError"
             },
             "property": {
               "type": "Identifier",
-              "start": 496,
-              "end": 505,
+              "start": 497,
+              "end": 506,
               "name": "prototype"
             },
             "computed": false,

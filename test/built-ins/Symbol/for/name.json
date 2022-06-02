@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 843,
+  "end": 844,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 680,
-      "end": 721,
+      "start": 681,
+      "end": 722,
       "expression": {
         "type": "CallExpression",
-        "start": 680,
-        "end": 720,
+        "start": 681,
+        "end": 721,
         "callee": {
           "type": "MemberExpression",
-          "start": 680,
-          "end": 696,
+          "start": 681,
+          "end": 697,
           "object": {
             "type": "Identifier",
-            "start": 680,
-            "end": 686,
+            "start": 681,
+            "end": 687,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 687,
-            "end": 696,
+            "start": 688,
+            "end": 697,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 697,
-            "end": 712,
+            "start": 698,
+            "end": 713,
             "object": {
               "type": "MemberExpression",
-              "start": 697,
-              "end": 707,
+              "start": 698,
+              "end": 708,
               "object": {
                 "type": "Identifier",
-                "start": 697,
-                "end": 703,
+                "start": 698,
+                "end": 704,
                 "name": "Symbol"
               },
               "property": {
                 "type": "Identifier",
-                "start": 704,
-                "end": 707,
+                "start": 705,
+                "end": 708,
                 "name": "for"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 708,
-              "end": 712,
+              "start": 709,
+              "end": 713,
               "name": "name"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Literal",
-            "start": 714,
-            "end": 719,
+            "start": 715,
+            "end": 720,
             "value": "for"
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 723,
-      "end": 763,
+      "start": 724,
+      "end": 764,
       "expression": {
         "type": "CallExpression",
-        "start": 723,
-        "end": 762,
+        "start": 724,
+        "end": 763,
         "callee": {
           "type": "Identifier",
-          "start": 723,
-          "end": 742,
+          "start": 724,
+          "end": 743,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 743,
-            "end": 753,
+            "start": 744,
+            "end": 754,
             "object": {
               "type": "Identifier",
-              "start": 743,
-              "end": 749,
+              "start": 744,
+              "end": 750,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 750,
-              "end": 753,
+              "start": 751,
+              "end": 754,
               "name": "for"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 755,
-            "end": 761,
+            "start": 756,
+            "end": 762,
             "value": "name"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 764,
-      "end": 802,
+      "start": 765,
+      "end": 803,
       "expression": {
         "type": "CallExpression",
-        "start": 764,
-        "end": 801,
+        "start": 765,
+        "end": 802,
         "callee": {
           "type": "Identifier",
-          "start": 764,
-          "end": 781,
+          "start": 765,
+          "end": 782,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 782,
-            "end": 792,
+            "start": 783,
+            "end": 793,
             "object": {
               "type": "Identifier",
-              "start": 782,
-              "end": 788,
+              "start": 783,
+              "end": 789,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 789,
-              "end": 792,
+              "start": 790,
+              "end": 793,
               "name": "for"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 794,
-            "end": 800,
+            "start": 795,
+            "end": 801,
             "value": "name"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 803,
-      "end": 842,
+      "start": 804,
+      "end": 843,
       "expression": {
         "type": "CallExpression",
-        "start": 803,
-        "end": 841,
+        "start": 804,
+        "end": 842,
         "callee": {
           "type": "Identifier",
-          "start": 803,
-          "end": 821,
+          "start": 804,
+          "end": 822,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 822,
-            "end": 832,
+            "start": 823,
+            "end": 833,
             "object": {
               "type": "Identifier",
-              "start": 822,
-              "end": 828,
+              "start": 823,
+              "end": 829,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 829,
-              "end": 832,
+              "start": 830,
+              "end": 833,
               "name": "for"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 834,
-            "end": 840,
+            "start": 835,
+            "end": 841,
             "value": "name"
           }
         ],

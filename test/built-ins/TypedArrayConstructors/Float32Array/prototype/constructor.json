@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 942,
+  "end": 943,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 699,
-      "end": 766,
+      "start": 700,
+      "end": 767,
       "expression": {
         "type": "CallExpression",
-        "start": 699,
-        "end": 765,
+        "start": 700,
+        "end": 766,
         "callee": {
           "type": "MemberExpression",
-          "start": 699,
-          "end": 715,
+          "start": 700,
+          "end": 716,
           "object": {
             "type": "Identifier",
-            "start": 699,
-            "end": 705,
+            "start": 700,
+            "end": 706,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 706,
-            "end": 715,
+            "start": 707,
+            "end": 716,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 716,
-            "end": 750,
+            "start": 717,
+            "end": 751,
             "object": {
               "type": "MemberExpression",
-              "start": 716,
-              "end": 738,
+              "start": 717,
+              "end": 739,
               "object": {
                 "type": "Identifier",
-                "start": 716,
-                "end": 728,
+                "start": 717,
+                "end": 729,
                 "name": "Float32Array"
               },
               "property": {
                 "type": "Identifier",
-                "start": 729,
-                "end": 738,
+                "start": 730,
+                "end": 739,
                 "name": "prototype"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 739,
-              "end": 750,
+              "start": 740,
+              "end": 751,
               "name": "constructor"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Identifier",
-            "start": 752,
-            "end": 764,
+            "start": 753,
+            "end": 765,
             "name": "Float32Array"
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 768,
-      "end": 827,
+      "start": 769,
+      "end": 828,
       "expression": {
         "type": "CallExpression",
-        "start": 768,
-        "end": 826,
+        "start": 769,
+        "end": 827,
         "callee": {
           "type": "Identifier",
-          "start": 768,
-          "end": 787,
+          "start": 769,
+          "end": 788,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 788,
-            "end": 810,
+            "start": 789,
+            "end": 811,
             "object": {
               "type": "Identifier",
-              "start": 788,
-              "end": 800,
+              "start": 789,
+              "end": 801,
               "name": "Float32Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 801,
-              "end": 810,
+              "start": 802,
+              "end": 811,
               "name": "prototype"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 812,
-            "end": 825,
+            "start": 813,
+            "end": 826,
             "value": "constructor"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 828,
-      "end": 882,
+      "start": 829,
+      "end": 883,
       "expression": {
         "type": "CallExpression",
-        "start": 828,
-        "end": 881,
+        "start": 829,
+        "end": 882,
         "callee": {
           "type": "Identifier",
-          "start": 828,
-          "end": 842,
+          "start": 829,
+          "end": 843,
           "name": "verifyWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 843,
-            "end": 865,
+            "start": 844,
+            "end": 866,
             "object": {
               "type": "Identifier",
-              "start": 843,
-              "end": 855,
+              "start": 844,
+              "end": 856,
               "name": "Float32Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 856,
-              "end": 865,
+              "start": 857,
+              "end": 866,
               "name": "prototype"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 867,
-            "end": 880,
+            "start": 868,
+            "end": 881,
             "value": "constructor"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 883,
-      "end": 941,
+      "start": 884,
+      "end": 942,
       "expression": {
         "type": "CallExpression",
-        "start": 883,
-        "end": 940,
+        "start": 884,
+        "end": 941,
         "callee": {
           "type": "Identifier",
-          "start": 883,
-          "end": 901,
+          "start": 884,
+          "end": 902,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 902,
-            "end": 924,
+            "start": 903,
+            "end": 925,
             "object": {
               "type": "Identifier",
-              "start": 902,
-              "end": 914,
+              "start": 903,
+              "end": 915,
               "name": "Float32Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 915,
-              "end": 924,
+              "start": 916,
+              "end": 925,
               "name": "prototype"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 926,
-            "end": 939,
+            "start": 927,
+            "end": 940,
             "value": "constructor"
           }
         ],

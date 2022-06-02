@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 973,
+  "end": 975,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 846,
-      "end": 908,
+      "start": 848,
+      "end": 910,
       "expression": {
         "type": "CallExpression",
-        "start": 846,
-        "end": 907,
+        "start": 848,
+        "end": 909,
         "callee": {
           "type": "MemberExpression",
-          "start": 846,
-          "end": 862,
+          "start": 848,
+          "end": 864,
           "object": {
             "type": "Identifier",
-            "start": 846,
-            "end": 852,
+            "start": 848,
+            "end": 854,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 853,
-            "end": 862,
+            "start": 855,
+            "end": 864,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,16 +33,16 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 863,
-            "end": 898,
+            "start": 865,
+            "end": 900,
             "callee": {
               "type": "MemberExpression",
-              "start": 863,
-              "end": 882,
+              "start": 865,
+              "end": 884,
               "object": {
                 "type": "Literal",
-                "start": 863,
-                "end": 866,
+                "start": 865,
+                "end": 868,
                 "value": {},
                 "regex": {
                   "pattern": "c",
@@ -51,18 +51,18 @@
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 867,
-                "end": 881,
+                "start": 869,
+                "end": 883,
                 "object": {
                   "type": "Identifier",
-                  "start": 867,
-                  "end": 873,
+                  "start": 869,
+                  "end": 875,
                   "name": "Symbol"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 874,
-                  "end": 881,
+                  "start": 876,
+                  "end": 883,
                   "name": "replace"
                 },
                 "computed": false,
@@ -74,14 +74,14 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 883,
-                "end": 888,
+                "start": 885,
+                "end": 890,
                 "value": "abc"
               },
               {
                 "type": "Literal",
-                "start": 890,
-                "end": 897,
+                "start": 892,
+                "end": 899,
                 "value": "[$']"
               }
             ],
@@ -89,8 +89,8 @@
           },
           {
             "type": "Literal",
-            "start": 900,
-            "end": 906,
+            "start": 902,
+            "end": 908,
             "value": "ab[]"
           }
         ],
@@ -99,26 +99,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 909,
-      "end": 972,
+      "start": 911,
+      "end": 974,
       "expression": {
         "type": "CallExpression",
-        "start": 909,
-        "end": 971,
+        "start": 911,
+        "end": 973,
         "callee": {
           "type": "MemberExpression",
-          "start": 909,
-          "end": 925,
+          "start": 911,
+          "end": 927,
           "object": {
             "type": "Identifier",
-            "start": 909,
-            "end": 915,
+            "start": 911,
+            "end": 917,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 916,
-            "end": 925,
+            "start": 918,
+            "end": 927,
             "name": "sameValue"
           },
           "computed": false,
@@ -127,16 +127,16 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 926,
-            "end": 961,
+            "start": 928,
+            "end": 963,
             "callee": {
               "type": "MemberExpression",
-              "start": 926,
-              "end": 945,
+              "start": 928,
+              "end": 947,
               "object": {
                 "type": "Literal",
-                "start": 926,
-                "end": 929,
+                "start": 928,
+                "end": 931,
                 "value": {},
                 "regex": {
                   "pattern": "b",
@@ -145,18 +145,18 @@
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 930,
-                "end": 944,
+                "start": 932,
+                "end": 946,
                 "object": {
                   "type": "Identifier",
-                  "start": 930,
-                  "end": 936,
+                  "start": 932,
+                  "end": 938,
                   "name": "Symbol"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 937,
-                  "end": 944,
+                  "start": 939,
+                  "end": 946,
                   "name": "replace"
                 },
                 "computed": false,
@@ -168,14 +168,14 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 946,
-                "end": 951,
+                "start": 948,
+                "end": 953,
                 "value": "abc"
               },
               {
                 "type": "Literal",
-                "start": 953,
-                "end": 960,
+                "start": 955,
+                "end": 962,
                 "value": "[$']"
               }
             ],
@@ -183,8 +183,8 @@
           },
           {
             "type": "Literal",
-            "start": 963,
-            "end": 970,
+            "start": 965,
+            "end": 972,
             "value": "a[c]c"
           }
         ],

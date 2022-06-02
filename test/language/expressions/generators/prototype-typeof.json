@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 440,
+  "end": 442,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 379,
-      "end": 439,
+      "start": 381,
+      "end": 441,
       "expression": {
         "type": "CallExpression",
-        "start": 379,
-        "end": 438,
+        "start": 381,
+        "end": 440,
         "callee": {
           "type": "MemberExpression",
-          "start": 379,
-          "end": 395,
+          "start": 381,
+          "end": 397,
           "object": {
             "type": "Identifier",
-            "start": 379,
-            "end": 385,
+            "start": 381,
+            "end": 387,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 386,
-            "end": 395,
+            "start": 388,
+            "end": 397,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,18 +33,18 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 396,
-            "end": 427,
+            "start": 398,
+            "end": 429,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "MemberExpression",
-              "start": 403,
-              "end": 427,
+              "start": 405,
+              "end": 429,
               "object": {
                 "type": "FunctionExpression",
-                "start": 403,
-                "end": 417,
+                "start": 405,
+                "end": 419,
                 "id": null,
                 "expression": false,
                 "generator": true,
@@ -52,15 +52,15 @@
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 415,
-                  "end": 417,
+                  "start": 417,
+                  "end": 419,
                   "body": []
                 }
               },
               "property": {
                 "type": "Identifier",
-                "start": 418,
-                "end": 427,
+                "start": 420,
+                "end": 429,
                 "name": "prototype"
               },
               "computed": false,
@@ -69,8 +69,8 @@
           },
           {
             "type": "Literal",
-            "start": 429,
-            "end": 437,
+            "start": 431,
+            "end": 439,
             "value": "object"
           }
         ],

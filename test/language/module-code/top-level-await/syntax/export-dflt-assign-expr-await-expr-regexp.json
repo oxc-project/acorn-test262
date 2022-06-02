@@ -1,20 +1,20 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2080,
+  "end": 2082,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2054,
-      "end": 2079,
+      "start": 2056,
+      "end": 2081,
       "declaration": {
         "type": "AwaitExpression",
-        "start": 2069,
-        "end": 2078,
+        "start": 2071,
+        "end": 2080,
         "argument": {
           "type": "Literal",
-          "start": 2075,
-          "end": 2078,
+          "start": 2077,
+          "end": 2080,
           "value": {},
           "regex": {
             "pattern": "1",

@@ -1,341 +1,512 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 710,
+  "end": 854,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 244,
-      "end": 332,
+      "start": 253,
+      "end": 540,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 250,
-          "end": 331,
+          "start": 259,
+          "end": 539,
           "id": {
             "type": "Identifier",
-            "start": 250,
-            "end": 268,
-            "name": "instantBeforeEpoch"
+            "start": 259,
+            "end": 264,
+            "name": "tests"
           },
           "init": {
-            "type": "CallExpression",
-            "start": 271,
-            "end": 331,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 271,
-              "end": 292,
-              "object": {
-                "type": "MemberExpression",
-                "start": 271,
-                "end": 287,
-                "object": {
-                  "type": "Identifier",
-                  "start": 271,
-                  "end": 279,
-                  "name": "Temporal"
-                },
-                "property": {
-                  "type": "Identifier",
-                  "start": 280,
-                  "end": 287,
-                  "name": "Instant"
-                },
-                "computed": false,
-                "optional": false
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 288,
-                "end": 292,
-                "name": "from"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [
+            "type": "ArrayExpression",
+            "start": 267,
+            "end": 539,
+            "elements": [
               {
-                "type": "Literal",
-                "start": 293,
-                "end": 330,
-                "value": "1963-02-13T10:36:29.123456789+01:00"
+                "type": "ArrayExpression",
+                "start": 271,
+                "end": 343,
+                "elements": [
+                  {
+                    "type": "NewExpression",
+                    "start": 272,
+                    "end": 318,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 276,
+                      "end": 292,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 276,
+                        "end": 284,
+                        "name": "Temporal"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 285,
+                        "end": 292,
+                        "name": "Instant"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 293,
+                        "end": 317,
+                        "value": "192258181000000000n"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 320,
+                    "end": 342,
+                    "value": "1976-02-04T05:03:01Z"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 347,
+                "end": 397,
+                "elements": [
+                  {
+                    "type": "NewExpression",
+                    "start": 348,
+                    "end": 372,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 352,
+                      "end": 368,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 352,
+                        "end": 360,
+                        "name": "Temporal"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 361,
+                        "end": 368,
+                        "name": "Instant"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 369,
+                        "end": 371,
+                        "value": "0n"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 374,
+                    "end": 396,
+                    "value": "1970-01-01T00:00:00Z"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 401,
+                "end": 464,
+                "elements": [
+                  {
+                    "type": "NewExpression",
+                    "start": 402,
+                    "end": 439,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 406,
+                      "end": 422,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 406,
+                        "end": 414,
+                        "name": "Temporal"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 415,
+                        "end": 422,
+                        "name": "Instant"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 423,
+                        "end": 438,
+                        "value": "30000000000n"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 441,
+                    "end": 463,
+                    "value": "1970-01-01T00:00:30Z"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 468,
+                "end": 536,
+                "elements": [
+                  {
+                    "type": "NewExpression",
+                    "start": 469,
+                    "end": 506,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 473,
+                      "end": 489,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 473,
+                        "end": 481,
+                        "name": "Temporal"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 482,
+                        "end": 489,
+                        "name": "Instant"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 490,
+                        "end": 505,
+                        "value": "30123400000n"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 508,
+                    "end": 535,
+                    "value": "1970-01-01T00:00:30.1234Z"
+                  }
+                ]
               }
-            ],
-            "optional": false
+            ]
           }
         }
       ],
       "kind": "const"
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 333,
-      "end": 413,
-      "expression": {
-        "type": "CallExpression",
-        "start": 333,
-        "end": 412,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 333,
-          "end": 349,
-          "object": {
-            "type": "Identifier",
-            "start": 333,
-            "end": 339,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 340,
-            "end": 349,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "CallExpression",
-            "start": 350,
-            "end": 377,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 350,
-              "end": 375,
-              "object": {
-                "type": "Identifier",
-                "start": 350,
-                "end": 368,
-                "name": "instantBeforeEpoch"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 369,
-                "end": 375,
-                "name": "toJSON"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [],
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 379,
-            "end": 411,
-            "value": "1963-02-13T09:36:29.123456789Z"
-          }
-        ],
-        "optional": false
-      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 415,
-      "end": 502,
+      "start": 542,
+      "end": 654,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 421,
-          "end": 501,
+          "start": 548,
+          "end": 653,
           "id": {
             "type": "Identifier",
-            "start": 421,
-            "end": 438,
-            "name": "instantAfterEpoch"
+            "start": 548,
+            "end": 555,
+            "name": "options"
           },
           "init": {
-            "type": "CallExpression",
-            "start": 441,
-            "end": 501,
+            "type": "NewExpression",
+            "start": 558,
+            "end": 653,
             "callee": {
-              "type": "MemberExpression",
-              "start": 441,
-              "end": 462,
-              "object": {
-                "type": "MemberExpression",
-                "start": 441,
-                "end": 457,
-                "object": {
-                  "type": "Identifier",
-                  "start": 441,
-                  "end": 449,
-                  "name": "Temporal"
-                },
-                "property": {
-                  "type": "Identifier",
-                  "start": 450,
-                  "end": 457,
-                  "name": "Instant"
-                },
-                "computed": false,
-                "optional": false
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 458,
-                "end": 462,
-                "name": "from"
-              },
-              "computed": false,
-              "optional": false
+              "type": "Identifier",
+              "start": 562,
+              "end": 567,
+              "name": "Proxy"
             },
             "arguments": [
               {
-                "type": "Literal",
-                "start": 463,
-                "end": 500,
-                "value": "1976-11-18T15:23:30.123456789+01:00"
+                "type": "ObjectExpression",
+                "start": 568,
+                "end": 570,
+                "properties": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 572,
+                "end": 652,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 576,
+                    "end": 650,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 576,
+                      "end": 579,
+                      "name": "get"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 579,
+                      "end": 650,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 582,
+                        "end": 650,
+                        "body": [
+                          {
+                            "type": "ThrowStatement",
+                            "start": 584,
+                            "end": 648,
+                            "argument": {
+                              "type": "NewExpression",
+                              "start": 590,
+                              "end": 648,
+                              "callee": {
+                                "type": "Identifier",
+                                "start": 594,
+                                "end": 606,
+                                "name": "Test262Error"
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "start": 607,
+                                  "end": 647,
+                                  "value": "should not get properties off argument"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
               }
-            ],
-            "optional": false
+            ]
           }
         }
       ],
       "kind": "const"
     },
     {
-      "type": "ExpressionStatement",
-      "start": 503,
-      "end": 582,
-      "expression": {
-        "type": "CallExpression",
-        "start": 503,
-        "end": 581,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 503,
-          "end": 519,
-          "object": {
-            "type": "Identifier",
-            "start": 503,
-            "end": 509,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 510,
-            "end": 519,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
+      "type": "ForOfStatement",
+      "start": 655,
+      "end": 853,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 660,
+        "end": 685,
+        "declarations": [
           {
-            "type": "CallExpression",
-            "start": 520,
-            "end": 546,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 520,
-              "end": 544,
-              "object": {
-                "type": "Identifier",
-                "start": 520,
-                "end": 537,
-                "name": "instantAfterEpoch"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 538,
-                "end": 544,
-                "name": "toJSON"
-              },
-              "computed": false,
-              "optional": false
+            "type": "VariableDeclarator",
+            "start": 666,
+            "end": 685,
+            "id": {
+              "type": "ArrayPattern",
+              "start": 666,
+              "end": 685,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 667,
+                  "end": 674,
+                  "name": "instant"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 676,
+                  "end": 684,
+                  "name": "expected"
+                }
+              ]
             },
-            "arguments": [],
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 548,
-            "end": 580,
-            "value": "1976-11-18T14:23:30.123456789Z"
+            "init": null
           }
         ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 583,
-      "end": 709,
-      "expression": {
-        "type": "CallExpression",
-        "start": 583,
-        "end": 708,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 583,
-          "end": 599,
-          "object": {
-            "type": "Identifier",
-            "start": 583,
-            "end": 589,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 590,
-            "end": 599,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 689,
+        "end": 694,
+        "name": "tests"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 696,
+        "end": 853,
+        "body": [
           {
-            "type": "CallExpression",
-            "start": 600,
-            "end": 634,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 600,
-              "end": 624,
-              "object": {
-                "type": "Identifier",
-                "start": 600,
-                "end": 617,
-                "name": "instantAfterEpoch"
+            "type": "ExpressionStatement",
+            "start": 700,
+            "end": 772,
+            "expression": {
+              "type": "CallExpression",
+              "start": 700,
+              "end": 771,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 700,
+                "end": 716,
+                "object": {
+                  "type": "Identifier",
+                  "start": 700,
+                  "end": 706,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 707,
+                  "end": 716,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
               },
-              "property": {
-                "type": "Identifier",
-                "start": 618,
-                "end": 624,
-                "name": "toJSON"
-              },
-              "computed": false,
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 717,
+                  "end": 733,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 717,
+                    "end": 731,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 717,
+                      "end": 724,
+                      "name": "instant"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 725,
+                      "end": 731,
+                      "name": "toJSON"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 735,
+                  "end": 743,
+                  "name": "expected"
+                },
+                {
+                  "type": "Literal",
+                  "start": 745,
+                  "end": 770,
+                  "value": "toJSON without argument"
+                }
+              ],
               "optional": false
-            },
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 625,
-                "end": 633,
-                "value": "+01:00"
-              }
-            ],
-            "optional": false
+            }
           },
           {
-            "type": "Literal",
-            "start": 636,
-            "end": 668,
-            "value": "1976-11-18T14:23:30.123456789Z"
-          },
-          {
-            "type": "Literal",
-            "start": 672,
-            "end": 707,
-            "value": "after epoch with ignored argument"
+            "type": "ExpressionStatement",
+            "start": 775,
+            "end": 851,
+            "expression": {
+              "type": "CallExpression",
+              "start": 775,
+              "end": 850,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 775,
+                "end": 791,
+                "object": {
+                  "type": "Identifier",
+                  "start": 775,
+                  "end": 781,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 782,
+                  "end": 791,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 792,
+                  "end": 815,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 792,
+                    "end": 806,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 792,
+                      "end": 799,
+                      "name": "instant"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 800,
+                      "end": 806,
+                      "name": "toJSON"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 807,
+                      "end": 814,
+                      "name": "options"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 817,
+                  "end": 825,
+                  "name": "expected"
+                },
+                {
+                  "type": "Literal",
+                  "start": 827,
+                  "end": 849,
+                  "value": "toJSON with argument"
+                }
+              ],
+              "optional": false
+            }
           }
-        ],
-        "optional": false
+        ]
       }
     }
   ],

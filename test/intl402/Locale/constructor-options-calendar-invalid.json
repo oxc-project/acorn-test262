@@ -1,56 +1,56 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 947,
+  "end": 948,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 649,
-      "end": 739,
+      "start": 650,
+      "end": 740,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 655,
-          "end": 738,
+          "start": 656,
+          "end": 739,
           "id": {
             "type": "Identifier",
-            "start": 655,
-            "end": 677,
+            "start": 656,
+            "end": 678,
             "name": "invalidCalendarOptions"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 680,
-            "end": 738,
+            "start": 681,
+            "end": 739,
             "elements": [
               {
                 "type": "Literal",
-                "start": 684,
-                "end": 686,
+                "start": 685,
+                "end": 687,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 690,
-                "end": 693,
+                "start": 691,
+                "end": 694,
                 "value": "a"
               },
               {
                 "type": "Literal",
-                "start": 697,
-                "end": 701,
+                "start": 698,
+                "end": 702,
                 "value": "ab"
               },
               {
                 "type": "Literal",
-                "start": 705,
-                "end": 716,
+                "start": 706,
+                "end": 717,
                 "value": "abcdefghi"
               },
               {
                 "type": "Literal",
-                "start": 720,
-                "end": 735,
+                "start": 721,
+                "end": 736,
                 "value": "abc-abcdefghi"
               }
             ]
@@ -61,22 +61,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 740,
-      "end": 946,
+      "start": 741,
+      "end": 947,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 745,
-        "end": 759,
+        "start": 746,
+        "end": 760,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 751,
-            "end": 759,
+            "start": 752,
+            "end": 760,
             "id": {
               "type": "Identifier",
-              "start": 751,
-              "end": 759,
+              "start": 752,
+              "end": 760,
               "name": "calendar"
             },
             "init": null
@@ -86,37 +86,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 763,
-        "end": 785,
+        "start": 764,
+        "end": 786,
         "name": "invalidCalendarOptions"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 787,
-        "end": 946,
+        "start": 788,
+        "end": 947,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 791,
-            "end": 944,
+            "start": 792,
+            "end": 945,
             "expression": {
               "type": "CallExpression",
-              "start": 791,
-              "end": 943,
+              "start": 792,
+              "end": 944,
               "callee": {
                 "type": "MemberExpression",
-                "start": 791,
-                "end": 804,
+                "start": 792,
+                "end": 805,
                 "object": {
                   "type": "Identifier",
-                  "start": 791,
-                  "end": 797,
+                  "start": 792,
+                  "end": 798,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 798,
-                  "end": 804,
+                  "start": 799,
+                  "end": 805,
                   "name": "throws"
                 },
                 "computed": false,
@@ -125,14 +125,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 805,
-                  "end": 815,
+                  "start": 806,
+                  "end": 816,
                   "name": "RangeError"
                 },
                 {
                   "type": "FunctionExpression",
-                  "start": 817,
-                  "end": 872,
+                  "start": 818,
+                  "end": 873,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -140,31 +140,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 828,
-                    "end": 872,
+                    "start": 829,
+                    "end": 873,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 834,
-                        "end": 868,
+                        "start": 835,
+                        "end": 869,
                         "expression": {
                           "type": "NewExpression",
-                          "start": 834,
-                          "end": 867,
+                          "start": 835,
+                          "end": 868,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 838,
-                            "end": 849,
+                            "start": 839,
+                            "end": 850,
                             "object": {
                               "type": "Identifier",
-                              "start": 838,
-                              "end": 842,
+                              "start": 839,
+                              "end": 843,
                               "name": "Intl"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 843,
-                              "end": 849,
+                              "start": 844,
+                              "end": 850,
                               "name": "Locale"
                             },
                             "computed": false,
@@ -173,33 +173,33 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 850,
-                              "end": 854,
+                              "start": 851,
+                              "end": 855,
                               "value": "en"
                             },
                             {
                               "type": "ObjectExpression",
-                              "start": 856,
-                              "end": 866,
+                              "start": 857,
+                              "end": 867,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 857,
-                                  "end": 865,
+                                  "start": 858,
+                                  "end": 866,
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 857,
-                                    "end": 865,
+                                    "start": 858,
+                                    "end": 866,
                                     "name": "calendar"
                                   },
                                   "kind": "init",
                                   "value": {
                                     "type": "Identifier",
-                                    "start": 857,
-                                    "end": 865,
+                                    "start": 858,
+                                    "end": 866,
                                     "name": "calendar"
                                   }
                                 }
@@ -213,21 +213,21 @@
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 874,
-                  "end": 942,
+                  "start": 875,
+                  "end": 943,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 911,
-                      "end": 919,
+                      "start": 912,
+                      "end": 920,
                       "name": "calendar"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 875,
-                      "end": 909,
+                      "start": 876,
+                      "end": 910,
                       "value": {
                         "raw": "new Intl.Locale(\"en\", {calendar: \"",
                         "cooked": "new Intl.Locale(\"en\", {calendar: \""
@@ -236,8 +236,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 920,
-                      "end": 941,
+                      "start": 921,
+                      "end": 942,
                       "value": {
                         "raw": "\"}) throws RangeError",
                         "cooked": "\"}) throws RangeError"

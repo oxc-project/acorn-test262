@@ -1,37 +1,37 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 837,
+  "end": 838,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 666,
-      "end": 724,
+      "start": 667,
+      "end": 725,
       "expression": {
         "type": "CallExpression",
-        "start": 666,
-        "end": 723,
+        "start": 667,
+        "end": 724,
         "callee": {
           "type": "Identifier",
-          "start": 666,
-          "end": 685,
+          "start": 667,
+          "end": 686,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 686,
-            "end": 713,
+            "start": 687,
+            "end": 714,
             "object": {
               "type": "Identifier",
-              "start": 686,
-              "end": 703,
+              "start": 687,
+              "end": 704,
               "name": "SharedArrayBuffer"
             },
             "property": {
               "type": "Identifier",
-              "start": 704,
-              "end": 713,
+              "start": 705,
+              "end": 714,
               "name": "prototype"
             },
             "computed": false,
@@ -39,8 +39,8 @@
           },
           {
             "type": "Literal",
-            "start": 715,
-            "end": 722,
+            "start": 716,
+            "end": 723,
             "value": "slice"
           }
         ],
@@ -49,33 +49,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 725,
-      "end": 778,
+      "start": 726,
+      "end": 779,
       "expression": {
         "type": "CallExpression",
-        "start": 725,
-        "end": 777,
+        "start": 726,
+        "end": 778,
         "callee": {
           "type": "Identifier",
-          "start": 725,
-          "end": 739,
+          "start": 726,
+          "end": 740,
           "name": "verifyWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 740,
-            "end": 767,
+            "start": 741,
+            "end": 768,
             "object": {
               "type": "Identifier",
-              "start": 740,
-              "end": 757,
+              "start": 741,
+              "end": 758,
               "name": "SharedArrayBuffer"
             },
             "property": {
               "type": "Identifier",
-              "start": 758,
-              "end": 767,
+              "start": 759,
+              "end": 768,
               "name": "prototype"
             },
             "computed": false,
@@ -83,8 +83,8 @@
           },
           {
             "type": "Literal",
-            "start": 769,
-            "end": 776,
+            "start": 770,
+            "end": 777,
             "value": "slice"
           }
         ],
@@ -93,33 +93,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 779,
-      "end": 836,
+      "start": 780,
+      "end": 837,
       "expression": {
         "type": "CallExpression",
-        "start": 779,
-        "end": 835,
+        "start": 780,
+        "end": 836,
         "callee": {
           "type": "Identifier",
-          "start": 779,
-          "end": 797,
+          "start": 780,
+          "end": 798,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 798,
-            "end": 825,
+            "start": 799,
+            "end": 826,
             "object": {
               "type": "Identifier",
-              "start": 798,
-              "end": 815,
+              "start": 799,
+              "end": 816,
               "name": "SharedArrayBuffer"
             },
             "property": {
               "type": "Identifier",
-              "start": 816,
-              "end": 825,
+              "start": 817,
+              "end": 826,
               "name": "prototype"
             },
             "computed": false,
@@ -127,8 +127,8 @@
           },
           {
             "type": "Literal",
-            "start": 827,
-            "end": 834,
+            "start": 828,
+            "end": 835,
             "value": "slice"
           }
         ],

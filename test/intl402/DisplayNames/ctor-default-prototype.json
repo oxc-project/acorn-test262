@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 931,
+  "end": 935,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 791,
-      "end": 854,
+      "start": 795,
+      "end": 858,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 795,
-          "end": 853,
+          "start": 799,
+          "end": 857,
           "id": {
             "type": "Identifier",
-            "start": 795,
-            "end": 798,
+            "start": 799,
+            "end": 802,
             "name": "obj"
           },
           "init": {
             "type": "NewExpression",
-            "start": 801,
-            "end": 853,
+            "start": 805,
+            "end": 857,
             "callee": {
               "type": "MemberExpression",
-              "start": 805,
-              "end": 822,
+              "start": 809,
+              "end": 826,
               "object": {
                 "type": "Identifier",
-                "start": 805,
-                "end": 809,
+                "start": 809,
+                "end": 813,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 810,
-                "end": 822,
+                "start": 814,
+                "end": 826,
                 "name": "DisplayNames"
               },
               "computed": false,
@@ -44,32 +44,32 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 823,
-                "end": 832,
+                "start": 827,
+                "end": 836,
                 "name": "undefined"
               },
               {
                 "type": "ObjectExpression",
-                "start": 834,
-                "end": 852,
+                "start": 838,
+                "end": 856,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 835,
-                    "end": 851,
+                    "start": 839,
+                    "end": 855,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 835,
-                      "end": 839,
+                      "start": 839,
+                      "end": 843,
                       "name": "type"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 841,
-                      "end": 851,
+                      "start": 845,
+                      "end": 855,
                       "value": "language"
                     },
                     "kind": "init"
@@ -84,26 +84,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 856,
-      "end": 930,
+      "start": 860,
+      "end": 934,
       "expression": {
         "type": "CallExpression",
-        "start": 856,
-        "end": 929,
+        "start": 860,
+        "end": 933,
         "callee": {
           "type": "MemberExpression",
-          "start": 856,
-          "end": 872,
+          "start": 860,
+          "end": 876,
           "object": {
             "type": "Identifier",
-            "start": 856,
-            "end": 862,
+            "start": 860,
+            "end": 866,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 863,
-            "end": 872,
+            "start": 867,
+            "end": 876,
             "name": "sameValue"
           },
           "computed": false,
@@ -112,22 +112,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 873,
-            "end": 899,
+            "start": 877,
+            "end": 903,
             "callee": {
               "type": "MemberExpression",
-              "start": 873,
-              "end": 894,
+              "start": 877,
+              "end": 898,
               "object": {
                 "type": "Identifier",
-                "start": 873,
-                "end": 879,
+                "start": 877,
+                "end": 883,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 880,
-                "end": 894,
+                "start": 884,
+                "end": 898,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -136,8 +136,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 895,
-                "end": 898,
+                "start": 899,
+                "end": 902,
                 "name": "obj"
               }
             ],
@@ -145,22 +145,22 @@
           },
           {
             "type": "MemberExpression",
-            "start": 901,
-            "end": 928,
+            "start": 905,
+            "end": 932,
             "object": {
               "type": "MemberExpression",
-              "start": 901,
-              "end": 918,
+              "start": 905,
+              "end": 922,
               "object": {
                 "type": "Identifier",
-                "start": 901,
-                "end": 905,
+                "start": 905,
+                "end": 909,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 906,
-                "end": 918,
+                "start": 910,
+                "end": 922,
                 "name": "DisplayNames"
               },
               "computed": false,
@@ -168,8 +168,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 919,
-              "end": 928,
+              "start": 923,
+              "end": 932,
               "name": "prototype"
             },
             "computed": false,

@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 901,
+  "end": 905,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 620,
-      "end": 699,
+      "start": 624,
+      "end": 703,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 626,
-          "end": 698,
+          "start": 630,
+          "end": 702,
           "id": {
             "type": "Identifier",
-            "start": 626,
-            "end": 634,
+            "start": 630,
+            "end": 638,
             "name": "datetime"
           },
           "init": {
             "type": "NewExpression",
-            "start": 637,
-            "end": 698,
+            "start": 641,
+            "end": 702,
             "callee": {
               "type": "MemberExpression",
-              "start": 641,
-              "end": 663,
+              "start": 645,
+              "end": 667,
               "object": {
                 "type": "Identifier",
-                "start": 641,
-                "end": 649,
+                "start": 645,
+                "end": 653,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 650,
-                "end": 663,
+                "start": 654,
+                "end": 667,
                 "name": "ZonedDateTime"
               },
               "computed": false,
@@ -44,14 +44,14 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 664,
-                "end": 690,
+                "start": 668,
+                "end": 694,
                 "value": "1000000000987654321n"
               },
               {
                 "type": "Literal",
-                "start": 692,
-                "end": 697,
+                "start": 696,
+                "end": 701,
                 "value": "UTC"
               }
             ]
@@ -62,37 +62,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 701,
-      "end": 759,
+      "start": 705,
+      "end": 763,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 707,
-          "end": 758,
+          "start": 711,
+          "end": 762,
           "id": {
             "type": "Identifier",
-            "start": 707,
-            "end": 715,
+            "start": 711,
+            "end": 719,
             "name": "explicit"
           },
           "init": {
             "type": "CallExpression",
-            "start": 718,
-            "end": 758,
+            "start": 722,
+            "end": 762,
             "callee": {
               "type": "MemberExpression",
-              "start": 718,
-              "end": 735,
+              "start": 722,
+              "end": 739,
               "object": {
                 "type": "Identifier",
-                "start": 718,
-                "end": 726,
+                "start": 722,
+                "end": 730,
                 "name": "datetime"
               },
               "property": {
                 "type": "Identifier",
-                "start": 727,
-                "end": 735,
+                "start": 731,
+                "end": 739,
                 "name": "toString"
               },
               "computed": false,
@@ -101,26 +101,26 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 736,
-                "end": 757,
+                "start": 740,
+                "end": 761,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 738,
-                    "end": 755,
+                    "start": 742,
+                    "end": 759,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 738,
-                      "end": 744,
+                      "start": 742,
+                      "end": 748,
                       "name": "offset"
                     },
                     "value": {
                       "type": "Identifier",
-                      "start": 746,
-                      "end": 755,
+                      "start": 750,
+                      "end": 759,
                       "name": "undefined"
                     },
                     "kind": "init"
@@ -136,26 +136,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 760,
-      "end": 864,
+      "start": 764,
+      "end": 868,
       "expression": {
         "type": "CallExpression",
-        "start": 760,
-        "end": 863,
+        "start": 764,
+        "end": 867,
         "callee": {
           "type": "MemberExpression",
-          "start": 760,
-          "end": 776,
+          "start": 764,
+          "end": 780,
           "object": {
             "type": "Identifier",
-            "start": 760,
-            "end": 766,
+            "start": 764,
+            "end": 770,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 767,
-            "end": 776,
+            "start": 771,
+            "end": 780,
             "name": "sameValue"
           },
           "computed": false,
@@ -164,20 +164,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 777,
-            "end": 785,
+            "start": 781,
+            "end": 789,
             "name": "explicit"
           },
           {
             "type": "Literal",
-            "start": 787,
-            "end": 829,
+            "start": 791,
+            "end": 833,
             "value": "2001-09-09T01:46:40.987654321+00:00[UTC]"
           },
           {
             "type": "Literal",
-            "start": 831,
-            "end": 862,
+            "start": 835,
+            "end": 866,
             "value": "default offset option is auto"
           }
         ],

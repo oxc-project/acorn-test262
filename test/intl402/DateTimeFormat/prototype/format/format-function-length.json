@@ -1,45 +1,45 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 927,
+  "end": 930,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 718,
-      "end": 766,
+      "start": 721,
+      "end": 769,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 722,
-          "end": 765,
+          "start": 725,
+          "end": 768,
           "id": {
             "type": "Identifier",
-            "start": 722,
-            "end": 730,
+            "start": 725,
+            "end": 733,
             "name": "formatFn"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 733,
-            "end": 765,
+            "start": 736,
+            "end": 768,
             "object": {
               "type": "NewExpression",
-              "start": 733,
-              "end": 758,
+              "start": 736,
+              "end": 761,
               "callee": {
                 "type": "MemberExpression",
-                "start": 737,
-                "end": 756,
+                "start": 740,
+                "end": 759,
                 "object": {
                   "type": "Identifier",
-                  "start": 737,
-                  "end": 741,
+                  "start": 740,
+                  "end": 744,
                   "name": "Intl"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 742,
-                  "end": 756,
+                  "start": 745,
+                  "end": 759,
                   "name": "DateTimeFormat"
                 },
                 "computed": false,
@@ -49,8 +49,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 759,
-              "end": 765,
+              "start": 762,
+              "end": 768,
               "name": "format"
             },
             "computed": false,
@@ -62,26 +62,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 768,
-      "end": 805,
+      "start": 771,
+      "end": 808,
       "expression": {
         "type": "CallExpression",
-        "start": 768,
-        "end": 804,
+        "start": 771,
+        "end": 807,
         "callee": {
           "type": "MemberExpression",
-          "start": 768,
-          "end": 784,
+          "start": 771,
+          "end": 787,
           "object": {
             "type": "Identifier",
-            "start": 768,
-            "end": 774,
+            "start": 771,
+            "end": 777,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 775,
-            "end": 784,
+            "start": 778,
+            "end": 787,
             "name": "sameValue"
           },
           "computed": false,
@@ -90,18 +90,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 785,
-            "end": 800,
+            "start": 788,
+            "end": 803,
             "object": {
               "type": "Identifier",
-              "start": 785,
-              "end": 793,
+              "start": 788,
+              "end": 796,
               "name": "formatFn"
             },
             "property": {
               "type": "Identifier",
-              "start": 794,
-              "end": 800,
+              "start": 797,
+              "end": 803,
               "name": "length"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 802,
-            "end": 803,
+            "start": 805,
+            "end": 806,
             "value": 1
           }
         ],
@@ -119,29 +119,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 807,
-      "end": 847,
+      "start": 810,
+      "end": 850,
       "expression": {
         "type": "CallExpression",
-        "start": 807,
-        "end": 846,
+        "start": 810,
+        "end": 849,
         "callee": {
           "type": "Identifier",
-          "start": 807,
-          "end": 826,
+          "start": 810,
+          "end": 829,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 827,
-            "end": 835,
+            "start": 830,
+            "end": 838,
             "name": "formatFn"
           },
           {
             "type": "Literal",
-            "start": 837,
-            "end": 845,
+            "start": 840,
+            "end": 848,
             "value": "length"
           }
         ],
@@ -150,29 +150,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 848,
-      "end": 886,
+      "start": 851,
+      "end": 889,
       "expression": {
         "type": "CallExpression",
-        "start": 848,
-        "end": 885,
+        "start": 851,
+        "end": 888,
         "callee": {
           "type": "Identifier",
-          "start": 848,
-          "end": 865,
+          "start": 851,
+          "end": 868,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 866,
-            "end": 874,
+            "start": 869,
+            "end": 877,
             "name": "formatFn"
           },
           {
             "type": "Literal",
-            "start": 876,
-            "end": 884,
+            "start": 879,
+            "end": 887,
             "value": "length"
           }
         ],
@@ -181,29 +181,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 887,
-      "end": 926,
+      "start": 890,
+      "end": 929,
       "expression": {
         "type": "CallExpression",
-        "start": 887,
-        "end": 925,
+        "start": 890,
+        "end": 928,
         "callee": {
           "type": "Identifier",
-          "start": 887,
-          "end": 905,
+          "start": 890,
+          "end": 908,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 906,
-            "end": 914,
+            "start": 909,
+            "end": 917,
             "name": "formatFn"
           },
           {
             "type": "Literal",
-            "start": 916,
-            "end": 924,
+            "start": 919,
+            "end": 927,
             "value": "length"
           }
         ],

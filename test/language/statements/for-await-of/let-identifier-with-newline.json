@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 577,
+  "end": 580,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 507,
-      "end": 576,
+      "start": 510,
+      "end": 579,
       "id": {
         "type": "Identifier",
-        "start": 523,
-        "end": 524,
+        "start": 526,
+        "end": 527,
         "name": "f"
       },
       "expression": false,
@@ -19,27 +19,27 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 527,
-        "end": 576,
+        "start": 530,
+        "end": 579,
         "body": [
           {
             "type": "ForOfStatement",
-            "start": 531,
-            "end": 558,
+            "start": 534,
+            "end": 561,
             "await": true,
             "left": {
               "type": "VariableDeclaration",
-              "start": 542,
-              "end": 547,
+              "start": 545,
+              "end": 550,
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 546,
-                  "end": 547,
+                  "start": 549,
+                  "end": 550,
                   "id": {
                     "type": "Identifier",
-                    "start": 546,
-                    "end": 547,
+                    "start": 549,
+                    "end": 550,
                     "name": "x"
                   },
                   "init": null
@@ -49,41 +49,41 @@
             },
             "right": {
               "type": "ArrayExpression",
-              "start": 551,
-              "end": 553,
+              "start": 554,
+              "end": 556,
               "elements": []
             },
             "body": {
               "type": "ExpressionStatement",
-              "start": 555,
-              "end": 558,
+              "start": 558,
+              "end": 561,
               "expression": {
                 "type": "Identifier",
-                "start": 555,
-                "end": 558,
+                "start": 558,
+                "end": 561,
                 "name": "let"
               }
             }
           },
           {
             "type": "ExpressionStatement",
-            "start": 568,
-            "end": 574,
+            "start": 571,
+            "end": 577,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 568,
-              "end": 573,
+              "start": 571,
+              "end": 576,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 568,
-                "end": 569,
+                "start": 571,
+                "end": 572,
                 "name": "x"
               },
               "right": {
                 "type": "Literal",
-                "start": 572,
-                "end": 573,
+                "start": 575,
+                "end": 576,
                 "value": 1
               }
             }

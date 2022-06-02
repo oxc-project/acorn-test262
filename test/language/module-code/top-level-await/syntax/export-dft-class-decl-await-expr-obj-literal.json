@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2184,
+  "end": 2186,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 2040,
-      "end": 2081,
+      "start": 2042,
+      "end": 2083,
       "id": {
         "type": "Identifier",
-        "start": 2049,
-        "end": 2051,
+        "start": 2051,
+        "end": 2053,
         "name": "fn"
       },
       "expression": false,
@@ -19,17 +19,17 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 2054,
-        "end": 2081,
+        "start": 2056,
+        "end": 2083,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 2058,
-            "end": 2079,
+            "start": 2060,
+            "end": 2081,
             "argument": {
               "type": "FunctionExpression",
-              "start": 2065,
-              "end": 2078,
+              "start": 2067,
+              "end": 2080,
               "id": null,
               "expression": false,
               "generator": false,
@@ -37,8 +37,8 @@
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 2076,
-                "end": 2078,
+                "start": 2078,
+                "end": 2080,
                 "body": []
               }
             }
@@ -48,51 +48,51 @@
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2123,
-      "end": 2182,
+      "start": 2125,
+      "end": 2184,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 2138,
-        "end": 2182,
+        "start": 2140,
+        "end": 2184,
         "id": null,
         "superClass": {
           "type": "CallExpression",
-          "start": 2152,
-          "end": 2179,
+          "start": 2154,
+          "end": 2181,
           "callee": {
             "type": "Identifier",
-            "start": 2152,
-            "end": 2154,
+            "start": 2154,
+            "end": 2156,
             "name": "fn"
           },
           "arguments": [
             {
               "type": "AwaitExpression",
-              "start": 2155,
-              "end": 2178,
+              "start": 2157,
+              "end": 2180,
               "argument": {
                 "type": "ObjectExpression",
-                "start": 2161,
-                "end": 2178,
+                "start": 2163,
+                "end": 2180,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 2163,
-                    "end": 2176,
+                    "start": 2165,
+                    "end": 2178,
                     "method": true,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 2163,
-                      "end": 2171,
+                      "start": 2165,
+                      "end": 2173,
                       "name": "function"
                     },
                     "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 2171,
-                      "end": 2176,
+                      "start": 2173,
+                      "end": 2178,
                       "id": null,
                       "expression": false,
                       "generator": false,
@@ -100,8 +100,8 @@
                       "params": [],
                       "body": {
                         "type": "BlockStatement",
-                        "start": 2174,
-                        "end": 2176,
+                        "start": 2176,
+                        "end": 2178,
                         "body": []
                       }
                     }
@@ -114,16 +114,16 @@
         },
         "body": {
           "type": "ClassBody",
-          "start": 2180,
-          "end": 2182,
+          "start": 2182,
+          "end": 2184,
           "body": []
         }
       }
     },
     {
       "type": "EmptyStatement",
-      "start": 2182,
-      "end": 2183
+      "start": 2184,
+      "end": 2185
     }
   ],
   "sourceType": "module"

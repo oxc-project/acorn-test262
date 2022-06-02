@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 403,
+  "end": 423,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 345,
-      "end": 402,
+      "end": 422,
       "expression": {
         "type": "CallExpression",
         "start": 345,
-        "end": 401,
+        "end": 421,
         "callee": {
           "type": "MemberExpression",
           "start": 345,
@@ -40,7 +40,7 @@
           {
             "type": "ArrowFunctionExpression",
             "start": 370,
-            "end": 400,
+            "end": 420,
             "id": null,
             "expression": true,
             "generator": false,
@@ -49,7 +49,7 @@
             "body": {
               "type": "CallExpression",
               "start": 376,
-              "end": 400,
+              "end": 420,
               "callee": {
                 "type": "MemberExpression",
                 "start": 376,
@@ -69,7 +69,44 @@
                 "computed": false,
                 "optional": false
               },
-              "arguments": [],
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 399,
+                  "end": 403,
+                  "value": 1970
+                },
+                {
+                  "type": "Literal",
+                  "start": 405,
+                  "end": 406,
+                  "value": 1
+                },
+                {
+                  "type": "Literal",
+                  "start": 408,
+                  "end": 409,
+                  "value": 2
+                },
+                {
+                  "type": "Literal",
+                  "start": 411,
+                  "end": 413,
+                  "value": 12
+                },
+                {
+                  "type": "Literal",
+                  "start": 415,
+                  "end": 416,
+                  "value": 0
+                },
+                {
+                  "type": "Literal",
+                  "start": 418,
+                  "end": 419,
+                  "value": 0
+                }
+              ],
               "optional": false
             }
           }

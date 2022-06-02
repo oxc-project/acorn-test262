@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 932,
+  "end": 934,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 913,
-      "end": 929,
+      "start": 915,
+      "end": 931,
       "id": {
         "type": "Identifier",
-        "start": 922,
-        "end": 924,
+        "start": 924,
+        "end": 926,
         "name": "fn"
       },
       "expression": false,
@@ -19,15 +19,15 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 927,
-        "end": 929,
+        "start": 929,
+        "end": 931,
         "body": []
       }
     },
     {
       "type": "BlockStatement",
-      "start": 929,
-      "end": 931,
+      "start": 931,
+      "end": 933,
       "body": []
     }
   ],

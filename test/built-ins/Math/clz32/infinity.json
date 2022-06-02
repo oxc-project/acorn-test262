@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 603,
+  "end": 607,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 489,
-      "end": 544,
+      "start": 493,
+      "end": 548,
       "expression": {
         "type": "CallExpression",
-        "start": 489,
-        "end": 543,
+        "start": 493,
+        "end": 547,
         "callee": {
           "type": "MemberExpression",
-          "start": 489,
-          "end": 505,
+          "start": 493,
+          "end": 509,
           "object": {
             "type": "Identifier",
-            "start": 489,
-            "end": 495,
+            "start": 493,
+            "end": 499,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 496,
-            "end": 505,
+            "start": 500,
+            "end": 509,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 506,
-            "end": 526,
+            "start": 510,
+            "end": 530,
             "callee": {
               "type": "MemberExpression",
-              "start": 506,
-              "end": 516,
+              "start": 510,
+              "end": 520,
               "object": {
                 "type": "Identifier",
-                "start": 506,
-                "end": 510,
+                "start": 510,
+                "end": 514,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 511,
-                "end": 516,
+                "start": 515,
+                "end": 520,
                 "name": "clz32"
               },
               "computed": false,
@@ -57,8 +57,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 517,
-                "end": 525,
+                "start": 521,
+                "end": 529,
                 "name": "Infinity"
               }
             ],
@@ -66,14 +66,14 @@
           },
           {
             "type": "Literal",
-            "start": 528,
-            "end": 530,
+            "start": 532,
+            "end": 534,
             "value": 32
           },
           {
             "type": "Literal",
-            "start": 532,
-            "end": 542,
+            "start": 536,
+            "end": 546,
             "value": "Infinity"
           }
         ],
@@ -82,26 +82,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 545,
-      "end": 602,
+      "start": 549,
+      "end": 606,
       "expression": {
         "type": "CallExpression",
-        "start": 545,
-        "end": 601,
+        "start": 549,
+        "end": 605,
         "callee": {
           "type": "MemberExpression",
-          "start": 545,
-          "end": 561,
+          "start": 549,
+          "end": 565,
           "object": {
             "type": "Identifier",
-            "start": 545,
-            "end": 551,
+            "start": 549,
+            "end": 555,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 552,
-            "end": 561,
+            "start": 556,
+            "end": 565,
             "name": "sameValue"
           },
           "computed": false,
@@ -110,22 +110,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 562,
-            "end": 583,
+            "start": 566,
+            "end": 587,
             "callee": {
               "type": "MemberExpression",
-              "start": 562,
-              "end": 572,
+              "start": 566,
+              "end": 576,
               "object": {
                 "type": "Identifier",
-                "start": 562,
-                "end": 566,
+                "start": 566,
+                "end": 570,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 567,
-                "end": 572,
+                "start": 571,
+                "end": 576,
                 "name": "clz32"
               },
               "computed": false,
@@ -134,14 +134,14 @@
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 573,
-                "end": 582,
+                "start": 577,
+                "end": 586,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Identifier",
-                  "start": 574,
-                  "end": 582,
+                  "start": 578,
+                  "end": 586,
                   "name": "Infinity"
                 }
               }
@@ -150,14 +150,14 @@
           },
           {
             "type": "Literal",
-            "start": 585,
-            "end": 587,
+            "start": 589,
+            "end": 591,
             "value": 32
           },
           {
             "type": "Literal",
-            "start": 589,
-            "end": 600,
+            "start": 593,
+            "end": 604,
             "value": "-Infinity"
           }
         ],

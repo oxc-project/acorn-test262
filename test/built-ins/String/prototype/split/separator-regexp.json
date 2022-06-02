@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 3772,
+  "end": 3774,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 590,
-      "end": 669,
+      "start": 592,
+      "end": 671,
       "expression": {
         "type": "CallExpression",
-        "start": 590,
-        "end": 668,
+        "start": 592,
+        "end": 670,
         "callee": {
           "type": "MemberExpression",
-          "start": 590,
-          "end": 609,
+          "start": 592,
+          "end": 611,
           "object": {
             "type": "Identifier",
-            "start": 590,
-            "end": 596,
+            "start": 592,
+            "end": 598,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 597,
-            "end": 609,
+            "start": 599,
+            "end": 611,
             "name": "compareArray"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 610,
-            "end": 624,
+            "start": 612,
+            "end": 626,
             "callee": {
               "type": "MemberExpression",
-              "start": 610,
-              "end": 619,
+              "start": 612,
+              "end": 621,
               "object": {
                 "type": "Literal",
-                "start": 610,
-                "end": 613,
+                "start": 612,
+                "end": 615,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 614,
-                "end": 619,
+                "start": 616,
+                "end": 621,
                 "name": "split"
               },
               "computed": false,
@@ -57,8 +57,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 620,
-                "end": 623,
+                "start": 622,
+                "end": 625,
                 "value": {},
                 "regex": {
                   "pattern": "^",
@@ -70,21 +70,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 626,
-            "end": 631,
+            "start": 628,
+            "end": 633,
             "elements": [
               {
                 "type": "Literal",
-                "start": 627,
-                "end": 630,
+                "start": 629,
+                "end": 632,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 633,
-            "end": 667,
+            "start": 635,
+            "end": 669,
             "value": "\"x\".split(/^/) must return [\"x\"]"
           }
         ],
@@ -93,26 +93,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 670,
-      "end": 749,
+      "start": 672,
+      "end": 751,
       "expression": {
         "type": "CallExpression",
-        "start": 670,
-        "end": 748,
+        "start": 672,
+        "end": 750,
         "callee": {
           "type": "MemberExpression",
-          "start": 670,
-          "end": 689,
+          "start": 672,
+          "end": 691,
           "object": {
             "type": "Identifier",
-            "start": 670,
-            "end": 676,
+            "start": 672,
+            "end": 678,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 677,
-            "end": 689,
+            "start": 679,
+            "end": 691,
             "name": "compareArray"
           },
           "computed": false,
@@ -121,22 +121,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 690,
-            "end": 704,
+            "start": 692,
+            "end": 706,
             "callee": {
               "type": "MemberExpression",
-              "start": 690,
-              "end": 699,
+              "start": 692,
+              "end": 701,
               "object": {
                 "type": "Literal",
-                "start": 690,
-                "end": 693,
+                "start": 692,
+                "end": 695,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 694,
-                "end": 699,
+                "start": 696,
+                "end": 701,
                 "name": "split"
               },
               "computed": false,
@@ -145,8 +145,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 700,
-                "end": 703,
+                "start": 702,
+                "end": 705,
                 "value": {},
                 "regex": {
                   "pattern": "$",
@@ -158,21 +158,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 706,
-            "end": 711,
+            "start": 708,
+            "end": 713,
             "elements": [
               {
                 "type": "Literal",
-                "start": 707,
-                "end": 710,
+                "start": 709,
+                "end": 712,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 713,
-            "end": 747,
+            "start": 715,
+            "end": 749,
             "value": "\"x\".split(/$/) must return [\"x\"]"
           }
         ],
@@ -181,26 +181,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 750,
-      "end": 837,
+      "start": 752,
+      "end": 839,
       "expression": {
         "type": "CallExpression",
-        "start": 750,
-        "end": 836,
+        "start": 752,
+        "end": 838,
         "callee": {
           "type": "MemberExpression",
-          "start": 750,
-          "end": 769,
+          "start": 752,
+          "end": 771,
           "object": {
             "type": "Identifier",
-            "start": 750,
-            "end": 756,
+            "start": 752,
+            "end": 758,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 757,
-            "end": 769,
+            "start": 759,
+            "end": 771,
             "name": "compareArray"
           },
           "computed": false,
@@ -209,22 +209,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 770,
-            "end": 785,
+            "start": 772,
+            "end": 787,
             "callee": {
               "type": "MemberExpression",
-              "start": 770,
-              "end": 779,
+              "start": 772,
+              "end": 781,
               "object": {
                 "type": "Literal",
-                "start": 770,
-                "end": 773,
+                "start": 772,
+                "end": 775,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 774,
-                "end": 779,
+                "start": 776,
+                "end": 781,
                 "name": "split"
               },
               "computed": false,
@@ -233,8 +233,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 780,
-                "end": 784,
+                "start": 782,
+                "end": 786,
                 "value": {},
                 "regex": {
                   "pattern": ".?",
@@ -246,27 +246,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 787,
-            "end": 795,
+            "start": 789,
+            "end": 797,
             "elements": [
               {
                 "type": "Literal",
-                "start": 788,
-                "end": 790,
+                "start": 790,
+                "end": 792,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 792,
-                "end": 794,
+                "start": 794,
+                "end": 796,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 797,
-            "end": 835,
+            "start": 799,
+            "end": 837,
             "value": "\"x\".split(/.?/) must return [\"\", \"\"]"
           }
         ],
@@ -275,26 +275,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 838,
-      "end": 925,
+      "start": 840,
+      "end": 927,
       "expression": {
         "type": "CallExpression",
-        "start": 838,
-        "end": 924,
+        "start": 840,
+        "end": 926,
         "callee": {
           "type": "MemberExpression",
-          "start": 838,
-          "end": 857,
+          "start": 840,
+          "end": 859,
           "object": {
             "type": "Identifier",
-            "start": 838,
-            "end": 844,
+            "start": 840,
+            "end": 846,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 845,
-            "end": 857,
+            "start": 847,
+            "end": 859,
             "name": "compareArray"
           },
           "computed": false,
@@ -303,22 +303,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 858,
-            "end": 873,
+            "start": 860,
+            "end": 875,
             "callee": {
               "type": "MemberExpression",
-              "start": 858,
-              "end": 867,
+              "start": 860,
+              "end": 869,
               "object": {
                 "type": "Literal",
-                "start": 858,
-                "end": 861,
+                "start": 860,
+                "end": 863,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 862,
-                "end": 867,
+                "start": 864,
+                "end": 869,
                 "name": "split"
               },
               "computed": false,
@@ -327,8 +327,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 868,
-                "end": 872,
+                "start": 870,
+                "end": 874,
                 "value": {},
                 "regex": {
                   "pattern": ".*",
@@ -340,27 +340,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 875,
-            "end": 883,
+            "start": 877,
+            "end": 885,
             "elements": [
               {
                 "type": "Literal",
-                "start": 876,
-                "end": 878,
+                "start": 878,
+                "end": 880,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 880,
-                "end": 882,
+                "start": 882,
+                "end": 884,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 885,
-            "end": 923,
+            "start": 887,
+            "end": 925,
             "value": "\"x\".split(/.*/) must return [\"\", \"\"]"
           }
         ],
@@ -369,26 +369,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 926,
-      "end": 1013,
+      "start": 928,
+      "end": 1015,
       "expression": {
         "type": "CallExpression",
-        "start": 926,
-        "end": 1012,
+        "start": 928,
+        "end": 1014,
         "callee": {
           "type": "MemberExpression",
-          "start": 926,
-          "end": 945,
+          "start": 928,
+          "end": 947,
           "object": {
             "type": "Identifier",
-            "start": 926,
-            "end": 932,
+            "start": 928,
+            "end": 934,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 933,
-            "end": 945,
+            "start": 935,
+            "end": 947,
             "name": "compareArray"
           },
           "computed": false,
@@ -397,22 +397,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 946,
-            "end": 961,
+            "start": 948,
+            "end": 963,
             "callee": {
               "type": "MemberExpression",
-              "start": 946,
-              "end": 955,
+              "start": 948,
+              "end": 957,
               "object": {
                 "type": "Literal",
-                "start": 946,
-                "end": 949,
+                "start": 948,
+                "end": 951,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 950,
-                "end": 955,
+                "start": 952,
+                "end": 957,
                 "name": "split"
               },
               "computed": false,
@@ -421,8 +421,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 956,
-                "end": 960,
+                "start": 958,
+                "end": 962,
                 "value": {},
                 "regex": {
                   "pattern": ".+",
@@ -434,27 +434,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 963,
-            "end": 971,
+            "start": 965,
+            "end": 973,
             "elements": [
               {
                 "type": "Literal",
-                "start": 964,
-                "end": 966,
+                "start": 966,
+                "end": 968,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 968,
-                "end": 970,
+                "start": 970,
+                "end": 972,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 973,
-            "end": 1011,
+            "start": 975,
+            "end": 1013,
             "value": "\"x\".split(/.+/) must return [\"\", \"\"]"
           }
         ],
@@ -463,26 +463,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1014,
-      "end": 1097,
+      "start": 1016,
+      "end": 1099,
       "expression": {
         "type": "CallExpression",
-        "start": 1014,
-        "end": 1096,
+        "start": 1016,
+        "end": 1098,
         "callee": {
           "type": "MemberExpression",
-          "start": 1014,
-          "end": 1033,
+          "start": 1016,
+          "end": 1035,
           "object": {
             "type": "Identifier",
-            "start": 1014,
-            "end": 1020,
+            "start": 1016,
+            "end": 1022,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1021,
-            "end": 1033,
+            "start": 1023,
+            "end": 1035,
             "name": "compareArray"
           },
           "computed": false,
@@ -491,22 +491,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1034,
-            "end": 1050,
+            "start": 1036,
+            "end": 1052,
             "callee": {
               "type": "MemberExpression",
-              "start": 1034,
-              "end": 1043,
+              "start": 1036,
+              "end": 1045,
               "object": {
                 "type": "Literal",
-                "start": 1034,
-                "end": 1037,
+                "start": 1036,
+                "end": 1039,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1038,
-                "end": 1043,
+                "start": 1040,
+                "end": 1045,
                 "name": "split"
               },
               "computed": false,
@@ -515,8 +515,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1044,
-                "end": 1049,
+                "start": 1046,
+                "end": 1051,
                 "value": {},
                 "regex": {
                   "pattern": ".*?",
@@ -528,21 +528,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1052,
-            "end": 1057,
+            "start": 1054,
+            "end": 1059,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1053,
-                "end": 1056,
+                "start": 1055,
+                "end": 1058,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1059,
-            "end": 1095,
+            "start": 1061,
+            "end": 1097,
             "value": "\"x\".split(/.*?/) must return [\"x\"]"
           }
         ],
@@ -551,26 +551,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1098,
-      "end": 1189,
+      "start": 1100,
+      "end": 1191,
       "expression": {
         "type": "CallExpression",
-        "start": 1098,
-        "end": 1188,
+        "start": 1100,
+        "end": 1190,
         "callee": {
           "type": "MemberExpression",
-          "start": 1098,
-          "end": 1117,
+          "start": 1100,
+          "end": 1119,
           "object": {
             "type": "Identifier",
-            "start": 1098,
-            "end": 1104,
+            "start": 1100,
+            "end": 1106,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1105,
-            "end": 1117,
+            "start": 1107,
+            "end": 1119,
             "name": "compareArray"
           },
           "computed": false,
@@ -579,22 +579,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1118,
-            "end": 1135,
+            "start": 1120,
+            "end": 1137,
             "callee": {
               "type": "MemberExpression",
-              "start": 1118,
-              "end": 1127,
+              "start": 1120,
+              "end": 1129,
               "object": {
                 "type": "Literal",
-                "start": 1118,
-                "end": 1121,
+                "start": 1120,
+                "end": 1123,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1122,
-                "end": 1127,
+                "start": 1124,
+                "end": 1129,
                 "name": "split"
               },
               "computed": false,
@@ -603,8 +603,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1128,
-                "end": 1134,
+                "start": 1130,
+                "end": 1136,
                 "value": {},
                 "regex": {
                   "pattern": ".{1}",
@@ -616,27 +616,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1137,
-            "end": 1145,
+            "start": 1139,
+            "end": 1147,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1138,
-                "end": 1140,
+                "start": 1140,
+                "end": 1142,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 1142,
-                "end": 1144,
+                "start": 1144,
+                "end": 1146,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1147,
-            "end": 1187,
+            "start": 1149,
+            "end": 1189,
             "value": "\"x\".split(/.{1}/) must return [\"\", \"\"]"
           }
         ],
@@ -645,26 +645,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1190,
-      "end": 1283,
+      "start": 1192,
+      "end": 1285,
       "expression": {
         "type": "CallExpression",
-        "start": 1190,
-        "end": 1282,
+        "start": 1192,
+        "end": 1284,
         "callee": {
           "type": "MemberExpression",
-          "start": 1190,
-          "end": 1209,
+          "start": 1192,
+          "end": 1211,
           "object": {
             "type": "Identifier",
-            "start": 1190,
-            "end": 1196,
+            "start": 1192,
+            "end": 1198,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1197,
-            "end": 1209,
+            "start": 1199,
+            "end": 1211,
             "name": "compareArray"
           },
           "computed": false,
@@ -673,22 +673,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1210,
-            "end": 1228,
+            "start": 1212,
+            "end": 1230,
             "callee": {
               "type": "MemberExpression",
-              "start": 1210,
-              "end": 1219,
+              "start": 1212,
+              "end": 1221,
               "object": {
                 "type": "Literal",
-                "start": 1210,
-                "end": 1213,
+                "start": 1212,
+                "end": 1215,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1214,
-                "end": 1219,
+                "start": 1216,
+                "end": 1221,
                 "name": "split"
               },
               "computed": false,
@@ -697,8 +697,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1220,
-                "end": 1227,
+                "start": 1222,
+                "end": 1229,
                 "value": {},
                 "regex": {
                   "pattern": ".{1,}",
@@ -710,27 +710,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1230,
-            "end": 1238,
+            "start": 1232,
+            "end": 1240,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1231,
-                "end": 1233,
+                "start": 1233,
+                "end": 1235,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 1235,
-                "end": 1237,
+                "start": 1237,
+                "end": 1239,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1240,
-            "end": 1281,
+            "start": 1242,
+            "end": 1283,
             "value": "\"x\".split(/.{1,}/) must return [\"\", \"\"]"
           }
         ],
@@ -739,26 +739,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1284,
-      "end": 1379,
+      "start": 1286,
+      "end": 1381,
       "expression": {
         "type": "CallExpression",
-        "start": 1284,
-        "end": 1378,
+        "start": 1286,
+        "end": 1380,
         "callee": {
           "type": "MemberExpression",
-          "start": 1284,
-          "end": 1303,
+          "start": 1286,
+          "end": 1305,
           "object": {
             "type": "Identifier",
-            "start": 1284,
-            "end": 1290,
+            "start": 1286,
+            "end": 1292,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1291,
-            "end": 1303,
+            "start": 1293,
+            "end": 1305,
             "name": "compareArray"
           },
           "computed": false,
@@ -767,22 +767,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1304,
-            "end": 1323,
+            "start": 1306,
+            "end": 1325,
             "callee": {
               "type": "MemberExpression",
-              "start": 1304,
-              "end": 1313,
+              "start": 1306,
+              "end": 1315,
               "object": {
                 "type": "Literal",
-                "start": 1304,
-                "end": 1307,
+                "start": 1306,
+                "end": 1309,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1308,
-                "end": 1313,
+                "start": 1310,
+                "end": 1315,
                 "name": "split"
               },
               "computed": false,
@@ -791,8 +791,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1314,
-                "end": 1322,
+                "start": 1316,
+                "end": 1324,
                 "value": {},
                 "regex": {
                   "pattern": ".{1,2}",
@@ -804,27 +804,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1325,
-            "end": 1333,
+            "start": 1327,
+            "end": 1335,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1326,
-                "end": 1328,
+                "start": 1328,
+                "end": 1330,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 1330,
-                "end": 1332,
+                "start": 1332,
+                "end": 1334,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1335,
-            "end": 1377,
+            "start": 1337,
+            "end": 1379,
             "value": "\"x\".split(/.{1,2}/) must return [\"\", \"\"]"
           }
         ],
@@ -833,26 +833,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1380,
-      "end": 1461,
+      "start": 1382,
+      "end": 1463,
       "expression": {
         "type": "CallExpression",
-        "start": 1380,
-        "end": 1460,
+        "start": 1382,
+        "end": 1462,
         "callee": {
           "type": "MemberExpression",
-          "start": 1380,
-          "end": 1399,
+          "start": 1382,
+          "end": 1401,
           "object": {
             "type": "Identifier",
-            "start": 1380,
-            "end": 1386,
+            "start": 1382,
+            "end": 1388,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1387,
-            "end": 1399,
+            "start": 1389,
+            "end": 1401,
             "name": "compareArray"
           },
           "computed": false,
@@ -861,22 +861,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1400,
-            "end": 1415,
+            "start": 1402,
+            "end": 1417,
             "callee": {
               "type": "MemberExpression",
-              "start": 1400,
-              "end": 1409,
+              "start": 1402,
+              "end": 1411,
               "object": {
                 "type": "Literal",
-                "start": 1400,
-                "end": 1403,
+                "start": 1402,
+                "end": 1405,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1404,
-                "end": 1409,
+                "start": 1406,
+                "end": 1411,
                 "name": "split"
               },
               "computed": false,
@@ -885,8 +885,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1410,
-                "end": 1414,
+                "start": 1412,
+                "end": 1416,
                 "value": {},
                 "regex": {
                   "pattern": "()",
@@ -898,21 +898,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1417,
-            "end": 1422,
+            "start": 1419,
+            "end": 1424,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1418,
-                "end": 1421,
+                "start": 1420,
+                "end": 1423,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1424,
-            "end": 1459,
+            "start": 1426,
+            "end": 1461,
             "value": "\"x\".split(/()/) must return [\"x\"]"
           }
         ],
@@ -921,26 +921,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1462,
-      "end": 1545,
+      "start": 1464,
+      "end": 1547,
       "expression": {
         "type": "CallExpression",
-        "start": 1462,
-        "end": 1544,
+        "start": 1464,
+        "end": 1546,
         "callee": {
           "type": "MemberExpression",
-          "start": 1462,
-          "end": 1481,
+          "start": 1464,
+          "end": 1483,
           "object": {
             "type": "Identifier",
-            "start": 1462,
-            "end": 1468,
+            "start": 1464,
+            "end": 1470,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1469,
-            "end": 1481,
+            "start": 1471,
+            "end": 1483,
             "name": "compareArray"
           },
           "computed": false,
@@ -949,22 +949,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1482,
-            "end": 1496,
+            "start": 1484,
+            "end": 1498,
             "callee": {
               "type": "MemberExpression",
-              "start": 1482,
-              "end": 1491,
+              "start": 1484,
+              "end": 1493,
               "object": {
                 "type": "Literal",
-                "start": 1482,
-                "end": 1485,
+                "start": 1484,
+                "end": 1487,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1486,
-                "end": 1491,
+                "start": 1488,
+                "end": 1493,
                 "name": "split"
               },
               "computed": false,
@@ -973,8 +973,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1492,
-                "end": 1495,
+                "start": 1494,
+                "end": 1497,
                 "value": {},
                 "regex": {
                   "pattern": ".",
@@ -986,27 +986,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1498,
-            "end": 1505,
+            "start": 1500,
+            "end": 1507,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1499,
-                "end": 1501,
+                "start": 1501,
+                "end": 1503,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 1502,
-                "end": 1504,
+                "start": 1504,
+                "end": 1506,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1507,
-            "end": 1543,
+            "start": 1509,
+            "end": 1545,
             "value": "\"x\".split(/./) must return [\"\",\"\"]"
           }
         ],
@@ -1015,26 +1015,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1546,
-      "end": 1631,
+      "start": 1548,
+      "end": 1633,
       "expression": {
         "type": "CallExpression",
-        "start": 1546,
-        "end": 1630,
+        "start": 1548,
+        "end": 1632,
         "callee": {
           "type": "MemberExpression",
-          "start": 1546,
-          "end": 1565,
+          "start": 1548,
+          "end": 1567,
           "object": {
             "type": "Identifier",
-            "start": 1546,
-            "end": 1552,
+            "start": 1548,
+            "end": 1554,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1553,
-            "end": 1565,
+            "start": 1555,
+            "end": 1567,
             "name": "compareArray"
           },
           "computed": false,
@@ -1043,22 +1043,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1566,
-            "end": 1583,
+            "start": 1568,
+            "end": 1585,
             "callee": {
               "type": "MemberExpression",
-              "start": 1566,
-              "end": 1575,
+              "start": 1568,
+              "end": 1577,
               "object": {
                 "type": "Literal",
-                "start": 1566,
-                "end": 1569,
+                "start": 1568,
+                "end": 1571,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1570,
-                "end": 1575,
+                "start": 1572,
+                "end": 1577,
                 "name": "split"
               },
               "computed": false,
@@ -1067,8 +1067,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1576,
-                "end": 1582,
+                "start": 1578,
+                "end": 1584,
                 "value": {},
                 "regex": {
                   "pattern": "(?:)",
@@ -1080,21 +1080,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1585,
-            "end": 1590,
+            "start": 1587,
+            "end": 1592,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1586,
-                "end": 1589,
+                "start": 1588,
+                "end": 1591,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1592,
-            "end": 1629,
+            "start": 1594,
+            "end": 1631,
             "value": "\"x\".split(/(?:)/) must return [\"x\"]"
           }
         ],
@@ -1103,26 +1103,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1632,
-      "end": 1719,
+      "start": 1634,
+      "end": 1721,
       "expression": {
         "type": "CallExpression",
-        "start": 1632,
-        "end": 1718,
+        "start": 1634,
+        "end": 1720,
         "callee": {
           "type": "MemberExpression",
-          "start": 1632,
-          "end": 1651,
+          "start": 1634,
+          "end": 1653,
           "object": {
             "type": "Identifier",
-            "start": 1632,
-            "end": 1638,
+            "start": 1634,
+            "end": 1640,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1639,
-            "end": 1651,
+            "start": 1641,
+            "end": 1653,
             "name": "compareArray"
           },
           "computed": false,
@@ -1131,22 +1131,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1652,
-            "end": 1670,
+            "start": 1654,
+            "end": 1672,
             "callee": {
               "type": "MemberExpression",
-              "start": 1652,
-              "end": 1661,
+              "start": 1654,
+              "end": 1663,
               "object": {
                 "type": "Literal",
-                "start": 1652,
-                "end": 1655,
+                "start": 1654,
+                "end": 1657,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1656,
-                "end": 1661,
+                "start": 1658,
+                "end": 1663,
                 "name": "split"
               },
               "computed": false,
@@ -1155,8 +1155,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1662,
-                "end": 1669,
+                "start": 1664,
+                "end": 1671,
                 "value": {},
                 "regex": {
                   "pattern": "(...)",
@@ -1168,21 +1168,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1672,
-            "end": 1677,
+            "start": 1674,
+            "end": 1679,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1673,
-                "end": 1676,
+                "start": 1675,
+                "end": 1678,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1679,
-            "end": 1717,
+            "start": 1681,
+            "end": 1719,
             "value": "\"x\".split(/(...)/) must return [\"x\"]"
           }
         ],
@@ -1191,26 +1191,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1720,
-      "end": 1803,
+      "start": 1722,
+      "end": 1805,
       "expression": {
         "type": "CallExpression",
-        "start": 1720,
-        "end": 1802,
+        "start": 1722,
+        "end": 1804,
         "callee": {
           "type": "MemberExpression",
-          "start": 1720,
-          "end": 1739,
+          "start": 1722,
+          "end": 1741,
           "object": {
             "type": "Identifier",
-            "start": 1720,
-            "end": 1726,
+            "start": 1722,
+            "end": 1728,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1727,
-            "end": 1739,
+            "start": 1729,
+            "end": 1741,
             "name": "compareArray"
           },
           "computed": false,
@@ -1219,22 +1219,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1740,
-            "end": 1756,
+            "start": 1742,
+            "end": 1758,
             "callee": {
               "type": "MemberExpression",
-              "start": 1740,
-              "end": 1749,
+              "start": 1742,
+              "end": 1751,
               "object": {
                 "type": "Literal",
-                "start": 1740,
-                "end": 1743,
+                "start": 1742,
+                "end": 1745,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1744,
-                "end": 1749,
+                "start": 1746,
+                "end": 1751,
                 "name": "split"
               },
               "computed": false,
@@ -1243,8 +1243,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1750,
-                "end": 1755,
+                "start": 1752,
+                "end": 1757,
                 "value": {},
                 "regex": {
                   "pattern": "(|)",
@@ -1256,21 +1256,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1758,
-            "end": 1763,
+            "start": 1760,
+            "end": 1765,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1759,
-                "end": 1762,
+                "start": 1761,
+                "end": 1764,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1765,
-            "end": 1801,
+            "start": 1767,
+            "end": 1803,
             "value": "\"x\".split(/(|)/) must return [\"x\"]"
           }
         ],
@@ -1279,26 +1279,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1804,
-      "end": 1885,
+      "start": 1806,
+      "end": 1887,
       "expression": {
         "type": "CallExpression",
-        "start": 1804,
-        "end": 1884,
+        "start": 1806,
+        "end": 1886,
         "callee": {
           "type": "MemberExpression",
-          "start": 1804,
-          "end": 1823,
+          "start": 1806,
+          "end": 1825,
           "object": {
             "type": "Identifier",
-            "start": 1804,
-            "end": 1810,
+            "start": 1806,
+            "end": 1812,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1811,
-            "end": 1823,
+            "start": 1813,
+            "end": 1825,
             "name": "compareArray"
           },
           "computed": false,
@@ -1307,22 +1307,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1824,
-            "end": 1839,
+            "start": 1826,
+            "end": 1841,
             "callee": {
               "type": "MemberExpression",
-              "start": 1824,
-              "end": 1833,
+              "start": 1826,
+              "end": 1835,
               "object": {
                 "type": "Literal",
-                "start": 1824,
-                "end": 1827,
+                "start": 1826,
+                "end": 1829,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1828,
-                "end": 1833,
+                "start": 1830,
+                "end": 1835,
                 "name": "split"
               },
               "computed": false,
@@ -1331,8 +1331,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1834,
-                "end": 1838,
+                "start": 1836,
+                "end": 1840,
                 "value": {},
                 "regex": {
                   "pattern": "[]",
@@ -1344,21 +1344,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1841,
-            "end": 1846,
+            "start": 1843,
+            "end": 1848,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1842,
-                "end": 1845,
+                "start": 1844,
+                "end": 1847,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1848,
-            "end": 1883,
+            "start": 1850,
+            "end": 1885,
             "value": "\"x\".split(/[]/) must return [\"x\"]"
           }
         ],
@@ -1367,26 +1367,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1886,
-      "end": 1975,
+      "start": 1888,
+      "end": 1977,
       "expression": {
         "type": "CallExpression",
-        "start": 1886,
-        "end": 1974,
+        "start": 1888,
+        "end": 1976,
         "callee": {
           "type": "MemberExpression",
-          "start": 1886,
-          "end": 1905,
+          "start": 1888,
+          "end": 1907,
           "object": {
             "type": "Identifier",
-            "start": 1886,
-            "end": 1892,
+            "start": 1888,
+            "end": 1894,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1893,
-            "end": 1905,
+            "start": 1895,
+            "end": 1907,
             "name": "compareArray"
           },
           "computed": false,
@@ -1395,22 +1395,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1906,
-            "end": 1922,
+            "start": 1908,
+            "end": 1924,
             "callee": {
               "type": "MemberExpression",
-              "start": 1906,
-              "end": 1915,
+              "start": 1908,
+              "end": 1917,
               "object": {
                 "type": "Literal",
-                "start": 1906,
-                "end": 1909,
+                "start": 1908,
+                "end": 1911,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1910,
-                "end": 1915,
+                "start": 1912,
+                "end": 1917,
                 "name": "split"
               },
               "computed": false,
@@ -1419,8 +1419,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1916,
-                "end": 1921,
+                "start": 1918,
+                "end": 1923,
                 "value": {},
                 "regex": {
                   "pattern": "[^]",
@@ -1432,27 +1432,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 1924,
-            "end": 1932,
+            "start": 1926,
+            "end": 1934,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1925,
-                "end": 1927,
+                "start": 1927,
+                "end": 1929,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 1929,
-                "end": 1931,
+                "start": 1931,
+                "end": 1933,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 1934,
-            "end": 1973,
+            "start": 1936,
+            "end": 1975,
             "value": "\"x\".split(/[^]/) must return [\"\", \"\"]"
           }
         ],
@@ -1461,26 +1461,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1976,
-      "end": 2063,
+      "start": 1978,
+      "end": 2065,
       "expression": {
         "type": "CallExpression",
-        "start": 1976,
-        "end": 2062,
+        "start": 1978,
+        "end": 2064,
         "callee": {
           "type": "MemberExpression",
-          "start": 1976,
-          "end": 1995,
+          "start": 1978,
+          "end": 1997,
           "object": {
             "type": "Identifier",
-            "start": 1976,
-            "end": 1982,
+            "start": 1978,
+            "end": 1984,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1983,
-            "end": 1995,
+            "start": 1985,
+            "end": 1997,
             "name": "compareArray"
           },
           "computed": false,
@@ -1489,22 +1489,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1996,
-            "end": 2014,
+            "start": 1998,
+            "end": 2016,
             "callee": {
               "type": "MemberExpression",
-              "start": 1996,
-              "end": 2005,
+              "start": 1998,
+              "end": 2007,
               "object": {
                 "type": "Literal",
-                "start": 1996,
-                "end": 1999,
+                "start": 1998,
+                "end": 2001,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2000,
-                "end": 2005,
+                "start": 2002,
+                "end": 2007,
                 "name": "split"
               },
               "computed": false,
@@ -1513,8 +1513,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2006,
-                "end": 2013,
+                "start": 2008,
+                "end": 2015,
                 "value": {},
                 "regex": {
                   "pattern": "[.-.]",
@@ -1526,21 +1526,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2016,
-            "end": 2021,
+            "start": 2018,
+            "end": 2023,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2017,
-                "end": 2020,
+                "start": 2019,
+                "end": 2022,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2023,
-            "end": 2061,
+            "start": 2025,
+            "end": 2063,
             "value": "\"x\".split(/[.-.]/) must return [\"x\"]"
           }
         ],
@@ -1549,26 +1549,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2064,
-      "end": 2146,
+      "start": 2066,
+      "end": 2148,
       "expression": {
         "type": "CallExpression",
-        "start": 2064,
-        "end": 2145,
+        "start": 2066,
+        "end": 2147,
         "callee": {
           "type": "MemberExpression",
-          "start": 2064,
-          "end": 2083,
+          "start": 2066,
+          "end": 2085,
           "object": {
             "type": "Identifier",
-            "start": 2064,
-            "end": 2070,
+            "start": 2066,
+            "end": 2072,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2071,
-            "end": 2083,
+            "start": 2073,
+            "end": 2085,
             "name": "compareArray"
           },
           "computed": false,
@@ -1577,22 +1577,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2084,
-            "end": 2099,
+            "start": 2086,
+            "end": 2101,
             "callee": {
               "type": "MemberExpression",
-              "start": 2084,
-              "end": 2093,
+              "start": 2086,
+              "end": 2095,
               "object": {
                 "type": "Literal",
-                "start": 2084,
-                "end": 2087,
+                "start": 2086,
+                "end": 2089,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2088,
-                "end": 2093,
+                "start": 2090,
+                "end": 2095,
                 "name": "split"
               },
               "computed": false,
@@ -1601,8 +1601,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2094,
-                "end": 2098,
+                "start": 2096,
+                "end": 2100,
                 "value": {},
                 "regex": {
                   "pattern": "\\0",
@@ -1614,21 +1614,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2101,
-            "end": 2106,
+            "start": 2103,
+            "end": 2108,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2102,
-                "end": 2105,
+                "start": 2104,
+                "end": 2107,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2108,
-            "end": 2144,
+            "start": 2110,
+            "end": 2146,
             "value": "\"x\".split(/\\0/) must return [\"x\"]"
           }
         ],
@@ -1637,26 +1637,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2147,
-      "end": 2229,
+      "start": 2149,
+      "end": 2231,
       "expression": {
         "type": "CallExpression",
-        "start": 2147,
-        "end": 2228,
+        "start": 2149,
+        "end": 2230,
         "callee": {
           "type": "MemberExpression",
-          "start": 2147,
-          "end": 2166,
+          "start": 2149,
+          "end": 2168,
           "object": {
             "type": "Identifier",
-            "start": 2147,
-            "end": 2153,
+            "start": 2149,
+            "end": 2155,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2154,
-            "end": 2166,
+            "start": 2156,
+            "end": 2168,
             "name": "compareArray"
           },
           "computed": false,
@@ -1665,22 +1665,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2167,
-            "end": 2182,
+            "start": 2169,
+            "end": 2184,
             "callee": {
               "type": "MemberExpression",
-              "start": 2167,
-              "end": 2176,
+              "start": 2169,
+              "end": 2178,
               "object": {
                 "type": "Literal",
-                "start": 2167,
-                "end": 2170,
+                "start": 2169,
+                "end": 2172,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2171,
-                "end": 2176,
+                "start": 2173,
+                "end": 2178,
                 "name": "split"
               },
               "computed": false,
@@ -1689,8 +1689,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2177,
-                "end": 2181,
+                "start": 2179,
+                "end": 2183,
                 "value": {},
                 "regex": {
                   "pattern": "\\b",
@@ -1702,21 +1702,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2184,
-            "end": 2189,
+            "start": 2186,
+            "end": 2191,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2185,
-                "end": 2188,
+                "start": 2187,
+                "end": 2190,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2191,
-            "end": 2227,
+            "start": 2193,
+            "end": 2229,
             "value": "\"x\".split(/\\b/) must return [\"x\"]"
           }
         ],
@@ -1725,26 +1725,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2230,
-      "end": 2312,
+      "start": 2232,
+      "end": 2314,
       "expression": {
         "type": "CallExpression",
-        "start": 2230,
-        "end": 2311,
+        "start": 2232,
+        "end": 2313,
         "callee": {
           "type": "MemberExpression",
-          "start": 2230,
-          "end": 2249,
+          "start": 2232,
+          "end": 2251,
           "object": {
             "type": "Identifier",
-            "start": 2230,
-            "end": 2236,
+            "start": 2232,
+            "end": 2238,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2237,
-            "end": 2249,
+            "start": 2239,
+            "end": 2251,
             "name": "compareArray"
           },
           "computed": false,
@@ -1753,22 +1753,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2250,
-            "end": 2265,
+            "start": 2252,
+            "end": 2267,
             "callee": {
               "type": "MemberExpression",
-              "start": 2250,
-              "end": 2259,
+              "start": 2252,
+              "end": 2261,
               "object": {
                 "type": "Literal",
-                "start": 2250,
-                "end": 2253,
+                "start": 2252,
+                "end": 2255,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2254,
-                "end": 2259,
+                "start": 2256,
+                "end": 2261,
                 "name": "split"
               },
               "computed": false,
@@ -1777,8 +1777,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2260,
-                "end": 2264,
+                "start": 2262,
+                "end": 2266,
                 "value": {},
                 "regex": {
                   "pattern": "\\B",
@@ -1790,21 +1790,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2267,
-            "end": 2272,
+            "start": 2269,
+            "end": 2274,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2268,
-                "end": 2271,
+                "start": 2270,
+                "end": 2273,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2274,
-            "end": 2310,
+            "start": 2276,
+            "end": 2312,
             "value": "\"x\".split(/\\B/) must return [\"x\"]"
           }
         ],
@@ -1813,26 +1813,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2313,
-      "end": 2395,
+      "start": 2315,
+      "end": 2397,
       "expression": {
         "type": "CallExpression",
-        "start": 2313,
-        "end": 2394,
+        "start": 2315,
+        "end": 2396,
         "callee": {
           "type": "MemberExpression",
-          "start": 2313,
-          "end": 2332,
+          "start": 2315,
+          "end": 2334,
           "object": {
             "type": "Identifier",
-            "start": 2313,
-            "end": 2319,
+            "start": 2315,
+            "end": 2321,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2320,
-            "end": 2332,
+            "start": 2322,
+            "end": 2334,
             "name": "compareArray"
           },
           "computed": false,
@@ -1841,22 +1841,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2333,
-            "end": 2348,
+            "start": 2335,
+            "end": 2350,
             "callee": {
               "type": "MemberExpression",
-              "start": 2333,
-              "end": 2342,
+              "start": 2335,
+              "end": 2344,
               "object": {
                 "type": "Literal",
-                "start": 2333,
-                "end": 2336,
+                "start": 2335,
+                "end": 2338,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2337,
-                "end": 2342,
+                "start": 2339,
+                "end": 2344,
                 "name": "split"
               },
               "computed": false,
@@ -1865,8 +1865,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2343,
-                "end": 2347,
+                "start": 2345,
+                "end": 2349,
                 "value": {},
                 "regex": {
                   "pattern": "\\d",
@@ -1878,21 +1878,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2350,
-            "end": 2355,
+            "start": 2352,
+            "end": 2357,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2351,
-                "end": 2354,
+                "start": 2353,
+                "end": 2356,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2357,
-            "end": 2393,
+            "start": 2359,
+            "end": 2395,
             "value": "\"x\".split(/\\d/) must return [\"x\"]"
           }
         ],
@@ -1901,26 +1901,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2396,
-      "end": 2484,
+      "start": 2398,
+      "end": 2486,
       "expression": {
         "type": "CallExpression",
-        "start": 2396,
-        "end": 2483,
+        "start": 2398,
+        "end": 2485,
         "callee": {
           "type": "MemberExpression",
-          "start": 2396,
-          "end": 2415,
+          "start": 2398,
+          "end": 2417,
           "object": {
             "type": "Identifier",
-            "start": 2396,
-            "end": 2402,
+            "start": 2398,
+            "end": 2404,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2403,
-            "end": 2415,
+            "start": 2405,
+            "end": 2417,
             "name": "compareArray"
           },
           "computed": false,
@@ -1929,22 +1929,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2416,
-            "end": 2431,
+            "start": 2418,
+            "end": 2433,
             "callee": {
               "type": "MemberExpression",
-              "start": 2416,
-              "end": 2425,
+              "start": 2418,
+              "end": 2427,
               "object": {
                 "type": "Literal",
-                "start": 2416,
-                "end": 2419,
+                "start": 2418,
+                "end": 2421,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2420,
-                "end": 2425,
+                "start": 2422,
+                "end": 2427,
                 "name": "split"
               },
               "computed": false,
@@ -1953,8 +1953,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2426,
-                "end": 2430,
+                "start": 2428,
+                "end": 2432,
                 "value": {},
                 "regex": {
                   "pattern": "\\D",
@@ -1966,27 +1966,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2433,
-            "end": 2441,
+            "start": 2435,
+            "end": 2443,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2434,
-                "end": 2436,
+                "start": 2436,
+                "end": 2438,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 2438,
-                "end": 2440,
+                "start": 2440,
+                "end": 2442,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2443,
-            "end": 2482,
+            "start": 2445,
+            "end": 2484,
             "value": "\"x\".split(/\\D/) must return [\"\", \"\"]"
           }
         ],
@@ -1995,26 +1995,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2485,
-      "end": 2567,
+      "start": 2487,
+      "end": 2569,
       "expression": {
         "type": "CallExpression",
-        "start": 2485,
-        "end": 2566,
+        "start": 2487,
+        "end": 2568,
         "callee": {
           "type": "MemberExpression",
-          "start": 2485,
-          "end": 2504,
+          "start": 2487,
+          "end": 2506,
           "object": {
             "type": "Identifier",
-            "start": 2485,
-            "end": 2491,
+            "start": 2487,
+            "end": 2493,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2492,
-            "end": 2504,
+            "start": 2494,
+            "end": 2506,
             "name": "compareArray"
           },
           "computed": false,
@@ -2023,22 +2023,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2505,
-            "end": 2520,
+            "start": 2507,
+            "end": 2522,
             "callee": {
               "type": "MemberExpression",
-              "start": 2505,
-              "end": 2514,
+              "start": 2507,
+              "end": 2516,
               "object": {
                 "type": "Literal",
-                "start": 2505,
-                "end": 2508,
+                "start": 2507,
+                "end": 2510,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2509,
-                "end": 2514,
+                "start": 2511,
+                "end": 2516,
                 "name": "split"
               },
               "computed": false,
@@ -2047,8 +2047,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2515,
-                "end": 2519,
+                "start": 2517,
+                "end": 2521,
                 "value": {},
                 "regex": {
                   "pattern": "\\n",
@@ -2060,21 +2060,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2522,
-            "end": 2527,
+            "start": 2524,
+            "end": 2529,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2523,
-                "end": 2526,
+                "start": 2525,
+                "end": 2528,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2529,
-            "end": 2565,
+            "start": 2531,
+            "end": 2567,
             "value": "\"x\".split(/\\n/) must return [\"x\"]"
           }
         ],
@@ -2083,26 +2083,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2568,
-      "end": 2650,
+      "start": 2570,
+      "end": 2652,
       "expression": {
         "type": "CallExpression",
-        "start": 2568,
-        "end": 2649,
+        "start": 2570,
+        "end": 2651,
         "callee": {
           "type": "MemberExpression",
-          "start": 2568,
-          "end": 2587,
+          "start": 2570,
+          "end": 2589,
           "object": {
             "type": "Identifier",
-            "start": 2568,
-            "end": 2574,
+            "start": 2570,
+            "end": 2576,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2575,
-            "end": 2587,
+            "start": 2577,
+            "end": 2589,
             "name": "compareArray"
           },
           "computed": false,
@@ -2111,22 +2111,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2588,
-            "end": 2603,
+            "start": 2590,
+            "end": 2605,
             "callee": {
               "type": "MemberExpression",
-              "start": 2588,
-              "end": 2597,
+              "start": 2590,
+              "end": 2599,
               "object": {
                 "type": "Literal",
-                "start": 2588,
-                "end": 2591,
+                "start": 2590,
+                "end": 2593,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2592,
-                "end": 2597,
+                "start": 2594,
+                "end": 2599,
                 "name": "split"
               },
               "computed": false,
@@ -2135,8 +2135,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2598,
-                "end": 2602,
+                "start": 2600,
+                "end": 2604,
                 "value": {},
                 "regex": {
                   "pattern": "\\r",
@@ -2148,21 +2148,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2605,
-            "end": 2610,
+            "start": 2607,
+            "end": 2612,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2606,
-                "end": 2609,
+                "start": 2608,
+                "end": 2611,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2612,
-            "end": 2648,
+            "start": 2614,
+            "end": 2650,
             "value": "\"x\".split(/\\r/) must return [\"x\"]"
           }
         ],
@@ -2171,26 +2171,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2651,
-      "end": 2733,
+      "start": 2653,
+      "end": 2735,
       "expression": {
         "type": "CallExpression",
-        "start": 2651,
-        "end": 2732,
+        "start": 2653,
+        "end": 2734,
         "callee": {
           "type": "MemberExpression",
-          "start": 2651,
-          "end": 2670,
+          "start": 2653,
+          "end": 2672,
           "object": {
             "type": "Identifier",
-            "start": 2651,
-            "end": 2657,
+            "start": 2653,
+            "end": 2659,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2658,
-            "end": 2670,
+            "start": 2660,
+            "end": 2672,
             "name": "compareArray"
           },
           "computed": false,
@@ -2199,22 +2199,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2671,
-            "end": 2686,
+            "start": 2673,
+            "end": 2688,
             "callee": {
               "type": "MemberExpression",
-              "start": 2671,
-              "end": 2680,
+              "start": 2673,
+              "end": 2682,
               "object": {
                 "type": "Literal",
-                "start": 2671,
-                "end": 2674,
+                "start": 2673,
+                "end": 2676,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2675,
-                "end": 2680,
+                "start": 2677,
+                "end": 2682,
                 "name": "split"
               },
               "computed": false,
@@ -2223,8 +2223,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2681,
-                "end": 2685,
+                "start": 2683,
+                "end": 2687,
                 "value": {},
                 "regex": {
                   "pattern": "\\s",
@@ -2236,21 +2236,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2688,
-            "end": 2693,
+            "start": 2690,
+            "end": 2695,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2689,
-                "end": 2692,
+                "start": 2691,
+                "end": 2694,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2695,
-            "end": 2731,
+            "start": 2697,
+            "end": 2733,
             "value": "\"x\".split(/\\s/) must return [\"x\"]"
           }
         ],
@@ -2259,26 +2259,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2734,
-      "end": 2822,
+      "start": 2736,
+      "end": 2824,
       "expression": {
         "type": "CallExpression",
-        "start": 2734,
-        "end": 2821,
+        "start": 2736,
+        "end": 2823,
         "callee": {
           "type": "MemberExpression",
-          "start": 2734,
-          "end": 2753,
+          "start": 2736,
+          "end": 2755,
           "object": {
             "type": "Identifier",
-            "start": 2734,
-            "end": 2740,
+            "start": 2736,
+            "end": 2742,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2741,
-            "end": 2753,
+            "start": 2743,
+            "end": 2755,
             "name": "compareArray"
           },
           "computed": false,
@@ -2287,22 +2287,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2754,
-            "end": 2769,
+            "start": 2756,
+            "end": 2771,
             "callee": {
               "type": "MemberExpression",
-              "start": 2754,
-              "end": 2763,
+              "start": 2756,
+              "end": 2765,
               "object": {
                 "type": "Literal",
-                "start": 2754,
-                "end": 2757,
+                "start": 2756,
+                "end": 2759,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2758,
-                "end": 2763,
+                "start": 2760,
+                "end": 2765,
                 "name": "split"
               },
               "computed": false,
@@ -2311,8 +2311,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2764,
-                "end": 2768,
+                "start": 2766,
+                "end": 2770,
                 "value": {},
                 "regex": {
                   "pattern": "\\S",
@@ -2324,27 +2324,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2771,
-            "end": 2779,
+            "start": 2773,
+            "end": 2781,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2772,
-                "end": 2774,
+                "start": 2774,
+                "end": 2776,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 2776,
-                "end": 2778,
+                "start": 2778,
+                "end": 2780,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2781,
-            "end": 2820,
+            "start": 2783,
+            "end": 2822,
             "value": "\"x\".split(/\\S/) must return [\"\", \"\"]"
           }
         ],
@@ -2353,26 +2353,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2823,
-      "end": 2905,
+      "start": 2825,
+      "end": 2907,
       "expression": {
         "type": "CallExpression",
-        "start": 2823,
-        "end": 2904,
+        "start": 2825,
+        "end": 2906,
         "callee": {
           "type": "MemberExpression",
-          "start": 2823,
-          "end": 2842,
+          "start": 2825,
+          "end": 2844,
           "object": {
             "type": "Identifier",
-            "start": 2823,
-            "end": 2829,
+            "start": 2825,
+            "end": 2831,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2830,
-            "end": 2842,
+            "start": 2832,
+            "end": 2844,
             "name": "compareArray"
           },
           "computed": false,
@@ -2381,22 +2381,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2843,
-            "end": 2858,
+            "start": 2845,
+            "end": 2860,
             "callee": {
               "type": "MemberExpression",
-              "start": 2843,
-              "end": 2852,
+              "start": 2845,
+              "end": 2854,
               "object": {
                 "type": "Literal",
-                "start": 2843,
-                "end": 2846,
+                "start": 2845,
+                "end": 2848,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2847,
-                "end": 2852,
+                "start": 2849,
+                "end": 2854,
                 "name": "split"
               },
               "computed": false,
@@ -2405,8 +2405,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2853,
-                "end": 2857,
+                "start": 2855,
+                "end": 2859,
                 "value": {},
                 "regex": {
                   "pattern": "\\v",
@@ -2418,21 +2418,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2860,
-            "end": 2865,
+            "start": 2862,
+            "end": 2867,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2861,
-                "end": 2864,
+                "start": 2863,
+                "end": 2866,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2867,
-            "end": 2903,
+            "start": 2869,
+            "end": 2905,
             "value": "\"x\".split(/\\v/) must return [\"x\"]"
           }
         ],
@@ -2441,26 +2441,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2906,
-      "end": 2994,
+      "start": 2908,
+      "end": 2996,
       "expression": {
         "type": "CallExpression",
-        "start": 2906,
-        "end": 2993,
+        "start": 2908,
+        "end": 2995,
         "callee": {
           "type": "MemberExpression",
-          "start": 2906,
-          "end": 2925,
+          "start": 2908,
+          "end": 2927,
           "object": {
             "type": "Identifier",
-            "start": 2906,
-            "end": 2912,
+            "start": 2908,
+            "end": 2914,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2913,
-            "end": 2925,
+            "start": 2915,
+            "end": 2927,
             "name": "compareArray"
           },
           "computed": false,
@@ -2469,22 +2469,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2926,
-            "end": 2941,
+            "start": 2928,
+            "end": 2943,
             "callee": {
               "type": "MemberExpression",
-              "start": 2926,
-              "end": 2935,
+              "start": 2928,
+              "end": 2937,
               "object": {
                 "type": "Literal",
-                "start": 2926,
-                "end": 2929,
+                "start": 2928,
+                "end": 2931,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2930,
-                "end": 2935,
+                "start": 2932,
+                "end": 2937,
                 "name": "split"
               },
               "computed": false,
@@ -2493,8 +2493,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2936,
-                "end": 2940,
+                "start": 2938,
+                "end": 2942,
                 "value": {},
                 "regex": {
                   "pattern": "\\w",
@@ -2506,27 +2506,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 2943,
-            "end": 2951,
+            "start": 2945,
+            "end": 2953,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2944,
-                "end": 2946,
+                "start": 2946,
+                "end": 2948,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 2948,
-                "end": 2950,
+                "start": 2950,
+                "end": 2952,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 2953,
-            "end": 2992,
+            "start": 2955,
+            "end": 2994,
             "value": "\"x\".split(/\\w/) must return [\"\", \"\"]"
           }
         ],
@@ -2535,26 +2535,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2995,
-      "end": 3077,
+      "start": 2997,
+      "end": 3079,
       "expression": {
         "type": "CallExpression",
-        "start": 2995,
-        "end": 3076,
+        "start": 2997,
+        "end": 3078,
         "callee": {
           "type": "MemberExpression",
-          "start": 2995,
-          "end": 3014,
+          "start": 2997,
+          "end": 3016,
           "object": {
             "type": "Identifier",
-            "start": 2995,
-            "end": 3001,
+            "start": 2997,
+            "end": 3003,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3002,
-            "end": 3014,
+            "start": 3004,
+            "end": 3016,
             "name": "compareArray"
           },
           "computed": false,
@@ -2563,22 +2563,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3015,
-            "end": 3030,
+            "start": 3017,
+            "end": 3032,
             "callee": {
               "type": "MemberExpression",
-              "start": 3015,
-              "end": 3024,
+              "start": 3017,
+              "end": 3026,
               "object": {
                 "type": "Literal",
-                "start": 3015,
-                "end": 3018,
+                "start": 3017,
+                "end": 3020,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3019,
-                "end": 3024,
+                "start": 3021,
+                "end": 3026,
                 "name": "split"
               },
               "computed": false,
@@ -2587,8 +2587,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3025,
-                "end": 3029,
+                "start": 3027,
+                "end": 3031,
                 "value": {},
                 "regex": {
                   "pattern": "\\W",
@@ -2600,21 +2600,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 3032,
-            "end": 3037,
+            "start": 3034,
+            "end": 3039,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3033,
-                "end": 3036,
+                "start": 3035,
+                "end": 3038,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 3039,
-            "end": 3075,
+            "start": 3041,
+            "end": 3077,
             "value": "\"x\".split(/\\W/) must return [\"x\"]"
           }
         ],
@@ -2623,26 +2623,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3078,
-      "end": 3166,
+      "start": 3080,
+      "end": 3168,
       "expression": {
         "type": "CallExpression",
-        "start": 3078,
-        "end": 3165,
+        "start": 3080,
+        "end": 3167,
         "callee": {
           "type": "MemberExpression",
-          "start": 3078,
-          "end": 3097,
+          "start": 3080,
+          "end": 3099,
           "object": {
             "type": "Identifier",
-            "start": 3078,
-            "end": 3084,
+            "start": 3080,
+            "end": 3086,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3085,
-            "end": 3097,
+            "start": 3087,
+            "end": 3099,
             "name": "compareArray"
           },
           "computed": false,
@@ -2651,22 +2651,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3098,
-            "end": 3116,
+            "start": 3100,
+            "end": 3118,
             "callee": {
               "type": "MemberExpression",
-              "start": 3098,
-              "end": 3107,
+              "start": 3100,
+              "end": 3109,
               "object": {
                 "type": "Literal",
-                "start": 3098,
-                "end": 3101,
+                "start": 3100,
+                "end": 3103,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3102,
-                "end": 3107,
+                "start": 3104,
+                "end": 3109,
                 "name": "split"
               },
               "computed": false,
@@ -2675,8 +2675,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3108,
-                "end": 3115,
+                "start": 3110,
+                "end": 3117,
                 "value": {},
                 "regex": {
                   "pattern": "\\k<x>",
@@ -2688,21 +2688,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 3118,
-            "end": 3123,
+            "start": 3120,
+            "end": 3125,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3119,
-                "end": 3122,
+                "start": 3121,
+                "end": 3124,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 3125,
-            "end": 3164,
+            "start": 3127,
+            "end": 3166,
             "value": "\"x\".split(/\\k<x>/) must return [\"x\"]"
           }
         ],
@@ -2711,26 +2711,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3167,
-      "end": 3253,
+      "start": 3169,
+      "end": 3255,
       "expression": {
         "type": "CallExpression",
-        "start": 3167,
-        "end": 3252,
+        "start": 3169,
+        "end": 3254,
         "callee": {
           "type": "MemberExpression",
-          "start": 3167,
-          "end": 3186,
+          "start": 3169,
+          "end": 3188,
           "object": {
             "type": "Identifier",
-            "start": 3167,
-            "end": 3173,
+            "start": 3169,
+            "end": 3175,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3174,
-            "end": 3186,
+            "start": 3176,
+            "end": 3188,
             "name": "compareArray"
           },
           "computed": false,
@@ -2739,22 +2739,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3187,
-            "end": 3204,
+            "start": 3189,
+            "end": 3206,
             "callee": {
               "type": "MemberExpression",
-              "start": 3187,
-              "end": 3196,
+              "start": 3189,
+              "end": 3198,
               "object": {
                 "type": "Literal",
-                "start": 3187,
-                "end": 3190,
+                "start": 3189,
+                "end": 3192,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3191,
-                "end": 3196,
+                "start": 3193,
+                "end": 3198,
                 "name": "split"
               },
               "computed": false,
@@ -2763,8 +2763,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3197,
-                "end": 3203,
+                "start": 3199,
+                "end": 3205,
                 "value": {},
                 "regex": {
                   "pattern": "\\xA0",
@@ -2776,21 +2776,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 3206,
-            "end": 3211,
+            "start": 3208,
+            "end": 3213,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3207,
-                "end": 3210,
+                "start": 3209,
+                "end": 3212,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 3213,
-            "end": 3251,
+            "start": 3215,
+            "end": 3253,
             "value": "\"x\".split(/\\xA0/) must return [\"x\"]"
           }
         ],
@@ -2799,26 +2799,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3254,
-      "end": 3340,
+      "start": 3256,
+      "end": 3342,
       "expression": {
         "type": "CallExpression",
-        "start": 3254,
-        "end": 3339,
+        "start": 3256,
+        "end": 3341,
         "callee": {
           "type": "MemberExpression",
-          "start": 3254,
-          "end": 3273,
+          "start": 3256,
+          "end": 3275,
           "object": {
             "type": "Identifier",
-            "start": 3254,
-            "end": 3260,
+            "start": 3256,
+            "end": 3262,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3261,
-            "end": 3273,
+            "start": 3263,
+            "end": 3275,
             "name": "compareArray"
           },
           "computed": false,
@@ -2827,22 +2827,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3274,
-            "end": 3291,
+            "start": 3276,
+            "end": 3293,
             "callee": {
               "type": "MemberExpression",
-              "start": 3274,
-              "end": 3283,
+              "start": 3276,
+              "end": 3285,
               "object": {
                 "type": "Literal",
-                "start": 3274,
-                "end": 3277,
+                "start": 3276,
+                "end": 3279,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3278,
-                "end": 3283,
+                "start": 3280,
+                "end": 3285,
                 "name": "split"
               },
               "computed": false,
@@ -2851,8 +2851,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3284,
-                "end": 3290,
+                "start": 3286,
+                "end": 3292,
                 "value": {},
                 "regex": {
                   "pattern": "\\XA0",
@@ -2864,21 +2864,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 3293,
-            "end": 3298,
+            "start": 3295,
+            "end": 3300,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3294,
-                "end": 3297,
+                "start": 3296,
+                "end": 3299,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 3300,
-            "end": 3338,
+            "start": 3302,
+            "end": 3340,
             "value": "\"x\".split(/\\XA0/) must return [\"x\"]"
           }
         ],
@@ -2887,26 +2887,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3341,
-      "end": 3427,
+      "start": 3343,
+      "end": 3429,
       "expression": {
         "type": "CallExpression",
-        "start": 3341,
-        "end": 3426,
+        "start": 3343,
+        "end": 3428,
         "callee": {
           "type": "MemberExpression",
-          "start": 3341,
-          "end": 3360,
+          "start": 3343,
+          "end": 3362,
           "object": {
             "type": "Identifier",
-            "start": 3341,
-            "end": 3347,
+            "start": 3343,
+            "end": 3349,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3348,
-            "end": 3360,
+            "start": 3350,
+            "end": 3362,
             "name": "compareArray"
           },
           "computed": false,
@@ -2915,22 +2915,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3361,
-            "end": 3378,
+            "start": 3363,
+            "end": 3380,
             "callee": {
               "type": "MemberExpression",
-              "start": 3361,
-              "end": 3370,
+              "start": 3363,
+              "end": 3372,
               "object": {
                 "type": "Literal",
-                "start": 3361,
-                "end": 3364,
+                "start": 3363,
+                "end": 3366,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3365,
-                "end": 3370,
+                "start": 3367,
+                "end": 3372,
                 "name": "split"
               },
               "computed": false,
@@ -2939,8 +2939,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3371,
-                "end": 3377,
+                "start": 3373,
+                "end": 3379,
                 "value": {},
                 "regex": {
                   "pattern": "\\ddd",
@@ -2952,21 +2952,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 3380,
-            "end": 3385,
+            "start": 3382,
+            "end": 3387,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3381,
-                "end": 3384,
+                "start": 3383,
+                "end": 3386,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 3387,
-            "end": 3425,
+            "start": 3389,
+            "end": 3427,
             "value": "\"x\".split(/\\ddd/) must return [\"x\"]"
           }
         ],
@@ -2975,26 +2975,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3428,
-      "end": 3512,
+      "start": 3430,
+      "end": 3514,
       "expression": {
         "type": "CallExpression",
-        "start": 3428,
-        "end": 3511,
+        "start": 3430,
+        "end": 3513,
         "callee": {
           "type": "MemberExpression",
-          "start": 3428,
-          "end": 3447,
+          "start": 3430,
+          "end": 3449,
           "object": {
             "type": "Identifier",
-            "start": 3428,
-            "end": 3434,
+            "start": 3430,
+            "end": 3436,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3435,
-            "end": 3447,
+            "start": 3437,
+            "end": 3449,
             "name": "compareArray"
           },
           "computed": false,
@@ -3003,22 +3003,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3448,
-            "end": 3464,
+            "start": 3450,
+            "end": 3466,
             "callee": {
               "type": "MemberExpression",
-              "start": 3448,
-              "end": 3457,
+              "start": 3450,
+              "end": 3459,
               "object": {
                 "type": "Literal",
-                "start": 3448,
-                "end": 3451,
+                "start": 3450,
+                "end": 3453,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3452,
-                "end": 3457,
+                "start": 3454,
+                "end": 3459,
                 "name": "split"
               },
               "computed": false,
@@ -3027,8 +3027,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3458,
-                "end": 3463,
+                "start": 3460,
+                "end": 3465,
                 "value": {},
                 "regex": {
                   "pattern": "\\cY",
@@ -3040,21 +3040,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 3466,
-            "end": 3471,
+            "start": 3468,
+            "end": 3473,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3467,
-                "end": 3470,
+                "start": 3469,
+                "end": 3472,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 3473,
-            "end": 3510,
+            "start": 3475,
+            "end": 3512,
             "value": "\"x\".split(/\\cY/) must return [\"x\"]"
           }
         ],
@@ -3063,26 +3063,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3513,
-      "end": 3599,
+      "start": 3515,
+      "end": 3601,
       "expression": {
         "type": "CallExpression",
-        "start": 3513,
-        "end": 3598,
+        "start": 3515,
+        "end": 3600,
         "callee": {
           "type": "MemberExpression",
-          "start": 3513,
-          "end": 3532,
+          "start": 3515,
+          "end": 3534,
           "object": {
             "type": "Identifier",
-            "start": 3513,
-            "end": 3519,
+            "start": 3515,
+            "end": 3521,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3520,
-            "end": 3532,
+            "start": 3522,
+            "end": 3534,
             "name": "compareArray"
           },
           "computed": false,
@@ -3091,22 +3091,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3533,
-            "end": 3550,
+            "start": 3535,
+            "end": 3552,
             "callee": {
               "type": "MemberExpression",
-              "start": 3533,
-              "end": 3542,
+              "start": 3535,
+              "end": 3544,
               "object": {
                 "type": "Literal",
-                "start": 3533,
-                "end": 3536,
+                "start": 3535,
+                "end": 3538,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3537,
-                "end": 3542,
+                "start": 3539,
+                "end": 3544,
                 "name": "split"
               },
               "computed": false,
@@ -3115,8 +3115,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3543,
-                "end": 3549,
+                "start": 3545,
+                "end": 3551,
                 "value": {},
                 "regex": {
                   "pattern": "[\\b]",
@@ -3128,21 +3128,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 3552,
-            "end": 3557,
+            "start": 3554,
+            "end": 3559,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3553,
-                "end": 3556,
+                "start": 3555,
+                "end": 3558,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 3559,
-            "end": 3597,
+            "start": 3561,
+            "end": 3599,
             "value": "\"x\".split(/[\\b]/) must return [\"x\"]"
           }
         ],
@@ -3151,26 +3151,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3600,
-      "end": 3688,
+      "start": 3602,
+      "end": 3690,
       "expression": {
         "type": "CallExpression",
-        "start": 3600,
-        "end": 3687,
+        "start": 3602,
+        "end": 3689,
         "callee": {
           "type": "MemberExpression",
-          "start": 3600,
-          "end": 3619,
+          "start": 3602,
+          "end": 3621,
           "object": {
             "type": "Identifier",
-            "start": 3600,
-            "end": 3606,
+            "start": 3602,
+            "end": 3608,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3607,
-            "end": 3619,
+            "start": 3609,
+            "end": 3621,
             "name": "compareArray"
           },
           "computed": false,
@@ -3179,22 +3179,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3620,
-            "end": 3635,
+            "start": 3622,
+            "end": 3637,
             "callee": {
               "type": "MemberExpression",
-              "start": 3620,
-              "end": 3629,
+              "start": 3622,
+              "end": 3631,
               "object": {
                 "type": "Literal",
-                "start": 3620,
-                "end": 3623,
+                "start": 3622,
+                "end": 3625,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3624,
-                "end": 3629,
+                "start": 3626,
+                "end": 3631,
                 "name": "split"
               },
               "computed": false,
@@ -3203,8 +3203,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3630,
-                "end": 3634,
+                "start": 3632,
+                "end": 3636,
                 "value": {},
                 "regex": {
                   "pattern": "\\x",
@@ -3216,27 +3216,27 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 3637,
-            "end": 3645,
+            "start": 3639,
+            "end": 3647,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3638,
-                "end": 3640,
+                "start": 3640,
+                "end": 3642,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 3642,
-                "end": 3644,
+                "start": 3644,
+                "end": 3646,
                 "value": ""
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 3647,
-            "end": 3686,
+            "start": 3649,
+            "end": 3688,
             "value": "\"x\".split(/\\x/) must return [\"\", \"\"]"
           }
         ],
@@ -3245,26 +3245,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3689,
-      "end": 3771,
+      "start": 3691,
+      "end": 3773,
       "expression": {
         "type": "CallExpression",
-        "start": 3689,
-        "end": 3770,
+        "start": 3691,
+        "end": 3772,
         "callee": {
           "type": "MemberExpression",
-          "start": 3689,
-          "end": 3708,
+          "start": 3691,
+          "end": 3710,
           "object": {
             "type": "Identifier",
-            "start": 3689,
-            "end": 3695,
+            "start": 3691,
+            "end": 3697,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3696,
-            "end": 3708,
+            "start": 3698,
+            "end": 3710,
             "name": "compareArray"
           },
           "computed": false,
@@ -3273,22 +3273,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3709,
-            "end": 3724,
+            "start": 3711,
+            "end": 3726,
             "callee": {
               "type": "MemberExpression",
-              "start": 3709,
-              "end": 3718,
+              "start": 3711,
+              "end": 3720,
               "object": {
                 "type": "Literal",
-                "start": 3709,
-                "end": 3712,
+                "start": 3711,
+                "end": 3714,
                 "value": "x"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3713,
-                "end": 3718,
+                "start": 3715,
+                "end": 3720,
                 "name": "split"
               },
               "computed": false,
@@ -3297,8 +3297,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3719,
-                "end": 3723,
+                "start": 3721,
+                "end": 3725,
                 "value": {},
                 "regex": {
                   "pattern": "\\X",
@@ -3310,21 +3310,21 @@
           },
           {
             "type": "ArrayExpression",
-            "start": 3726,
-            "end": 3731,
+            "start": 3728,
+            "end": 3733,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3727,
-                "end": 3730,
+                "start": 3729,
+                "end": 3732,
                 "value": "x"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 3733,
-            "end": 3769,
+            "start": 3735,
+            "end": 3771,
             "value": "\"x\".split(/\\X/) must return [\"x\"]"
           }
         ],

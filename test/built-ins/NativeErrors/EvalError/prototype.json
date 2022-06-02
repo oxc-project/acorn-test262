@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 768,
+  "end": 769,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 555,
-      "end": 631,
+      "start": 556,
+      "end": 632,
       "expression": {
         "type": "CallExpression",
-        "start": 555,
-        "end": 630,
+        "start": 556,
+        "end": 631,
         "callee": {
           "type": "MemberExpression",
-          "start": 555,
-          "end": 571,
+          "start": 556,
+          "end": 572,
           "object": {
             "type": "Identifier",
-            "start": 555,
-            "end": 561,
+            "start": 556,
+            "end": 562,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 562,
-            "end": 571,
+            "start": 563,
+            "end": 572,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,18 +33,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 572,
-            "end": 591,
+            "start": 573,
+            "end": 592,
             "object": {
               "type": "Identifier",
-              "start": 572,
-              "end": 581,
+              "start": 573,
+              "end": 582,
               "name": "EvalError"
             },
             "property": {
               "type": "Identifier",
-              "start": 582,
-              "end": 591,
+              "start": 583,
+              "end": 592,
               "name": "prototype"
             },
             "computed": false,
@@ -52,22 +52,22 @@
           },
           {
             "type": "CallExpression",
-            "start": 593,
-            "end": 629,
+            "start": 594,
+            "end": 630,
             "callee": {
               "type": "MemberExpression",
-              "start": 593,
-              "end": 614,
+              "start": 594,
+              "end": 615,
               "object": {
                 "type": "Identifier",
-                "start": 593,
-                "end": 599,
+                "start": 594,
+                "end": 600,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 600,
-                "end": 614,
+                "start": 601,
+                "end": 615,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -76,12 +76,12 @@
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 615,
-                "end": 628,
+                "start": 616,
+                "end": 629,
                 "callee": {
                   "type": "Identifier",
-                  "start": 619,
-                  "end": 628,
+                  "start": 620,
+                  "end": 629,
                   "name": "EvalError"
                 },
                 "arguments": []
@@ -95,29 +95,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 633,
-      "end": 677,
+      "start": 634,
+      "end": 678,
       "expression": {
         "type": "CallExpression",
-        "start": 633,
-        "end": 676,
+        "start": 634,
+        "end": 677,
         "callee": {
           "type": "Identifier",
-          "start": 633,
-          "end": 652,
+          "start": 634,
+          "end": 653,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 653,
-            "end": 662,
+            "start": 654,
+            "end": 663,
             "name": "EvalError"
           },
           {
             "type": "Literal",
-            "start": 664,
-            "end": 675,
+            "start": 665,
+            "end": 676,
             "value": "prototype"
           }
         ],
@@ -126,29 +126,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 678,
-      "end": 720,
+      "start": 679,
+      "end": 721,
       "expression": {
         "type": "CallExpression",
-        "start": 678,
-        "end": 719,
+        "start": 679,
+        "end": 720,
         "callee": {
           "type": "Identifier",
-          "start": 678,
-          "end": 695,
+          "start": 679,
+          "end": 696,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 696,
-            "end": 705,
+            "start": 697,
+            "end": 706,
             "name": "EvalError"
           },
           {
             "type": "Literal",
-            "start": 707,
-            "end": 718,
+            "start": 708,
+            "end": 719,
             "value": "prototype"
           }
         ],
@@ -157,29 +157,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 721,
-      "end": 767,
+      "start": 722,
+      "end": 768,
       "expression": {
         "type": "CallExpression",
-        "start": 721,
-        "end": 766,
+        "start": 722,
+        "end": 767,
         "callee": {
           "type": "Identifier",
-          "start": 721,
-          "end": 742,
+          "start": 722,
+          "end": 743,
           "name": "verifyNotConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 743,
-            "end": 752,
+            "start": 744,
+            "end": 753,
             "name": "EvalError"
           },
           {
             "type": "Literal",
-            "start": 754,
-            "end": 765,
+            "start": 755,
+            "end": 766,
             "value": "prototype"
           }
         ],

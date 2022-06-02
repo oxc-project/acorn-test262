@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2982,
+  "end": 2989,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 2587,
-      "end": 2912,
+      "start": 2594,
+      "end": 2919,
       "id": {
         "type": "Identifier",
-        "start": 2596,
-        "end": 2600,
+        "start": 2603,
+        "end": 2607,
         "name": "body"
       },
       "expression": false,
@@ -19,46 +19,46 @@
       "params": [
         {
           "type": "Identifier",
-          "start": 2601,
-          "end": 2611,
+          "start": 2608,
+          "end": 2618,
           "name": "FloatArray"
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 2613,
-        "end": 2912,
+        "start": 2620,
+        "end": 2919,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 2617,
-            "end": 2651,
+            "start": 2624,
+            "end": 2658,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 2621,
-                "end": 2650,
+                "start": 2628,
+                "end": 2657,
                 "id": {
                   "type": "Identifier",
-                  "start": 2621,
-                  "end": 2627,
+                  "start": 2628,
+                  "end": 2634,
                   "name": "sample"
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 2630,
-                  "end": 2650,
+                  "start": 2637,
+                  "end": 2657,
                   "callee": {
                     "type": "Identifier",
-                    "start": 2634,
-                    "end": 2644,
+                    "start": 2641,
+                    "end": 2651,
                     "name": "FloatArray"
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 2645,
-                      "end": 2649,
+                      "start": 2652,
+                      "end": 2656,
                       "name": "NaNs"
                     }
                   ]
@@ -69,29 +69,29 @@
           },
           {
             "type": "VariableDeclaration",
-            "start": 2654,
-            "end": 2683,
+            "start": 2661,
+            "end": 2690,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 2658,
-                "end": 2669,
+                "start": 2665,
+                "end": 2676,
                 "id": {
                   "type": "Identifier",
-                  "start": 2658,
-                  "end": 2669,
+                  "start": 2665,
+                  "end": 2676,
                   "name": "sampleBytes"
                 },
                 "init": null
               },
               {
                 "type": "VariableDeclarator",
-                "start": 2671,
-                "end": 2682,
+                "start": 2678,
+                "end": 2689,
                 "id": {
                   "type": "Identifier",
-                  "start": 2671,
-                  "end": 2682,
+                  "start": 2678,
+                  "end": 2689,
                   "name": "resultBytes"
                 },
                 "init": null
@@ -101,23 +101,23 @@
           },
           {
             "type": "VariableDeclaration",
-            "start": 2686,
-            "end": 2696,
+            "start": 2693,
+            "end": 2703,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 2690,
-                "end": 2695,
+                "start": 2697,
+                "end": 2702,
                 "id": {
                   "type": "Identifier",
-                  "start": 2690,
-                  "end": 2691,
+                  "start": 2697,
+                  "end": 2698,
                   "name": "i"
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 2694,
-                  "end": 2695,
+                  "start": 2701,
+                  "end": 2702,
                   "value": 0
                 }
               }
@@ -126,37 +126,37 @@
           },
           {
             "type": "VariableDeclaration",
-            "start": 2700,
-            "end": 2764,
+            "start": 2707,
+            "end": 2771,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 2704,
-                "end": 2763,
+                "start": 2711,
+                "end": 2770,
                 "id": {
                   "type": "Identifier",
-                  "start": 2704,
-                  "end": 2710,
+                  "start": 2711,
+                  "end": 2717,
                   "name": "result"
                 },
                 "init": {
                   "type": "CallExpression",
-                  "start": 2713,
-                  "end": 2763,
+                  "start": 2720,
+                  "end": 2770,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 2713,
-                    "end": 2723,
+                    "start": 2720,
+                    "end": 2730,
                     "object": {
                       "type": "Identifier",
-                      "start": 2713,
-                      "end": 2719,
+                      "start": 2720,
+                      "end": 2726,
                       "name": "sample"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 2720,
-                      "end": 2723,
+                      "start": 2727,
+                      "end": 2730,
                       "name": "map"
                     },
                     "computed": false,
@@ -165,8 +165,8 @@
                   "arguments": [
                     {
                       "type": "FunctionExpression",
-                      "start": 2724,
-                      "end": 2762,
+                      "start": 2731,
+                      "end": 2769,
                       "id": null,
                       "expression": false,
                       "generator": false,
@@ -174,33 +174,33 @@
                       "params": [],
                       "body": {
                         "type": "BlockStatement",
-                        "start": 2735,
-                        "end": 2762,
+                        "start": 2742,
+                        "end": 2769,
                         "body": [
                           {
                             "type": "ReturnStatement",
-                            "start": 2741,
-                            "end": 2758,
+                            "start": 2748,
+                            "end": 2765,
                             "argument": {
                               "type": "MemberExpression",
-                              "start": 2748,
-                              "end": 2757,
+                              "start": 2755,
+                              "end": 2764,
                               "object": {
                                 "type": "Identifier",
-                                "start": 2748,
-                                "end": 2752,
+                                "start": 2755,
+                                "end": 2759,
                                 "name": "NaNs"
                               },
                               "property": {
                                 "type": "UpdateExpression",
-                                "start": 2753,
-                                "end": 2756,
+                                "start": 2760,
+                                "end": 2763,
                                 "operator": "++",
                                 "prefix": false,
                                 "argument": {
                                   "type": "Identifier",
-                                  "start": 2753,
-                                  "end": 2754,
+                                  "start": 2760,
+                                  "end": 2761,
                                   "name": "i"
                                 }
                               },
@@ -220,44 +220,44 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 2768,
-            "end": 2812,
+            "start": 2775,
+            "end": 2819,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2768,
-              "end": 2811,
+              "start": 2775,
+              "end": 2818,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2768,
-                "end": 2779,
+                "start": 2775,
+                "end": 2786,
                 "name": "sampleBytes"
               },
               "right": {
                 "type": "NewExpression",
-                "start": 2782,
-                "end": 2811,
+                "start": 2789,
+                "end": 2818,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2786,
-                  "end": 2796,
+                  "start": 2793,
+                  "end": 2803,
                   "name": "Uint8Array"
                 },
                 "arguments": [
                   {
                     "type": "MemberExpression",
-                    "start": 2797,
-                    "end": 2810,
+                    "start": 2804,
+                    "end": 2817,
                     "object": {
                       "type": "Identifier",
-                      "start": 2797,
-                      "end": 2803,
+                      "start": 2804,
+                      "end": 2810,
                       "name": "sample"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 2804,
-                      "end": 2810,
+                      "start": 2811,
+                      "end": 2817,
                       "name": "buffer"
                     },
                     "computed": false,
@@ -269,44 +269,44 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 2815,
-            "end": 2859,
+            "start": 2822,
+            "end": 2866,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2815,
-              "end": 2858,
+              "start": 2822,
+              "end": 2865,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2815,
-                "end": 2826,
+                "start": 2822,
+                "end": 2833,
                 "name": "resultBytes"
               },
               "right": {
                 "type": "NewExpression",
-                "start": 2829,
-                "end": 2858,
+                "start": 2836,
+                "end": 2865,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2833,
-                  "end": 2843,
+                  "start": 2840,
+                  "end": 2850,
                   "name": "Uint8Array"
                 },
                 "arguments": [
                   {
                     "type": "MemberExpression",
-                    "start": 2844,
-                    "end": 2857,
+                    "start": 2851,
+                    "end": 2864,
                     "object": {
                       "type": "Identifier",
-                      "start": 2844,
-                      "end": 2850,
+                      "start": 2851,
+                      "end": 2857,
                       "name": "result"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 2851,
-                      "end": 2857,
+                      "start": 2858,
+                      "end": 2864,
                       "name": "buffer"
                     },
                     "computed": false,
@@ -318,40 +318,40 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 2863,
-            "end": 2910,
+            "start": 2870,
+            "end": 2917,
             "expression": {
               "type": "CallExpression",
-              "start": 2863,
-              "end": 2909,
+              "start": 2870,
+              "end": 2916,
               "callee": {
                 "type": "Identifier",
-                "start": 2863,
-                "end": 2869,
+                "start": 2870,
+                "end": 2876,
                 "name": "assert"
               },
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 2870,
-                  "end": 2908,
+                  "start": 2877,
+                  "end": 2915,
                   "callee": {
                     "type": "Identifier",
-                    "start": 2870,
-                    "end": 2882,
+                    "start": 2877,
+                    "end": 2889,
                     "name": "compareArray"
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 2883,
-                      "end": 2894,
+                      "start": 2890,
+                      "end": 2901,
                       "name": "sampleBytes"
                     },
                     {
                       "type": "Identifier",
-                      "start": 2896,
-                      "end": 2907,
+                      "start": 2903,
+                      "end": 2914,
                       "name": "resultBytes"
                     }
                   ],
@@ -366,40 +366,40 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2914,
-      "end": 2981,
+      "start": 2921,
+      "end": 2988,
       "expression": {
         "type": "CallExpression",
-        "start": 2914,
-        "end": 2980,
+        "start": 2921,
+        "end": 2987,
         "callee": {
           "type": "Identifier",
-          "start": 2914,
-          "end": 2944,
+          "start": 2921,
+          "end": 2951,
           "name": "testWithTypedArrayConstructors"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2945,
-            "end": 2949,
+            "start": 2952,
+            "end": 2956,
             "name": "body"
           },
           {
             "type": "ArrayExpression",
-            "start": 2951,
-            "end": 2979,
+            "start": 2958,
+            "end": 2986,
             "elements": [
               {
                 "type": "Identifier",
-                "start": 2952,
-                "end": 2964,
+                "start": 2959,
+                "end": 2971,
                 "name": "Float32Array"
               },
               {
                 "type": "Identifier",
-                "start": 2966,
-                "end": 2978,
+                "start": 2973,
+                "end": 2985,
                 "name": "Float64Array"
               }
             ]

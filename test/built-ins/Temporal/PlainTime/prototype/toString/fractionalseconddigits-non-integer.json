@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 862,
+  "end": 866,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 653,
-      "end": 714,
+      "start": 657,
+      "end": 718,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 659,
-          "end": 713,
+          "start": 663,
+          "end": 717,
           "id": {
             "type": "Identifier",
-            "start": 659,
-            "end": 663,
+            "start": 663,
+            "end": 667,
             "name": "time"
           },
           "init": {
             "type": "NewExpression",
-            "start": 666,
-            "end": 713,
+            "start": 670,
+            "end": 717,
             "callee": {
               "type": "MemberExpression",
-              "start": 670,
-              "end": 688,
+              "start": 674,
+              "end": 692,
               "object": {
                 "type": "Identifier",
-                "start": 670,
-                "end": 678,
+                "start": 674,
+                "end": 682,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 679,
-                "end": 688,
+                "start": 683,
+                "end": 692,
                 "name": "PlainTime"
               },
               "computed": false,
@@ -44,38 +44,38 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 689,
-                "end": 691,
-                "value": 12
-              },
-              {
-                "type": "Literal",
                 "start": 693,
                 "end": 695,
-                "value": 34
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 697,
                 "end": 699,
-                "value": 56
+                "value": 34
               },
               {
                 "type": "Literal",
                 "start": 701,
-                "end": 704,
+                "end": 703,
+                "value": 56
+              },
+              {
+                "type": "Literal",
+                "start": 705,
+                "end": 708,
                 "value": 987
               },
               {
                 "type": "Literal",
-                "start": 706,
-                "end": 709,
+                "start": 710,
+                "end": 713,
                 "value": 650
               },
               {
                 "type": "Literal",
-                "start": 711,
-                "end": 712,
+                "start": 715,
+                "end": 716,
                 "value": 0
               }
             ]
@@ -86,37 +86,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 716,
-      "end": 778,
+      "start": 720,
+      "end": 782,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 722,
-          "end": 777,
+          "start": 726,
+          "end": 781,
           "id": {
             "type": "Identifier",
-            "start": 722,
-            "end": 728,
+            "start": 726,
+            "end": 732,
             "name": "string"
           },
           "init": {
             "type": "CallExpression",
-            "start": 731,
-            "end": 777,
+            "start": 735,
+            "end": 781,
             "callee": {
               "type": "MemberExpression",
-              "start": 731,
-              "end": 744,
+              "start": 735,
+              "end": 748,
               "object": {
                 "type": "Identifier",
-                "start": 731,
-                "end": 735,
+                "start": 735,
+                "end": 739,
                 "name": "time"
               },
               "property": {
                 "type": "Identifier",
-                "start": 736,
-                "end": 744,
+                "start": 740,
+                "end": 748,
                 "name": "toString"
               },
               "computed": false,
@@ -125,26 +125,26 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 745,
-                "end": 776,
+                "start": 749,
+                "end": 780,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 747,
-                    "end": 774,
+                    "start": 751,
+                    "end": 778,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 747,
-                      "end": 769,
+                      "start": 751,
+                      "end": 773,
                       "name": "fractionalSecondDigits"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 771,
-                      "end": 774,
+                      "start": 775,
+                      "end": 778,
                       "value": 2.5
                     },
                     "kind": "init"
@@ -160,26 +160,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 779,
-      "end": 861,
+      "start": 783,
+      "end": 865,
       "expression": {
         "type": "CallExpression",
-        "start": 779,
-        "end": 860,
+        "start": 783,
+        "end": 864,
         "callee": {
           "type": "MemberExpression",
-          "start": 779,
-          "end": 795,
+          "start": 783,
+          "end": 799,
           "object": {
             "type": "Identifier",
-            "start": 779,
-            "end": 785,
+            "start": 783,
+            "end": 789,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 786,
-            "end": 795,
+            "start": 790,
+            "end": 799,
             "name": "sameValue"
           },
           "computed": false,
@@ -188,20 +188,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 796,
-            "end": 802,
+            "start": 800,
+            "end": 806,
             "name": "string"
           },
           {
             "type": "Literal",
-            "start": 804,
-            "end": 817,
+            "start": 808,
+            "end": 821,
             "value": "12:34:56.98"
           },
           {
             "type": "Literal",
-            "start": 819,
-            "end": 859,
+            "start": 823,
+            "end": 863,
             "value": "fractionalSecondDigits 2.5 floors to 2"
           }
         ],

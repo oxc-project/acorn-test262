@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2214,
+  "end": 2216,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1971,
-      "end": 2027,
+      "start": 1973,
+      "end": 2029,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1977,
-          "end": 2026,
+          "start": 1979,
+          "end": 2028,
           "id": {
             "type": "Identifier",
-            "start": 1977,
-            "end": 1979,
+            "start": 1979,
+            "end": 1981,
             "name": "tz"
           },
           "init": {
             "type": "NewExpression",
-            "start": 1982,
-            "end": 2026,
+            "start": 1984,
+            "end": 2028,
             "callee": {
               "type": "MemberExpression",
-              "start": 1986,
-              "end": 2003,
+              "start": 1988,
+              "end": 2005,
               "object": {
                 "type": "Identifier",
-                "start": 1986,
-                "end": 1994,
+                "start": 1988,
+                "end": 1996,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1995,
-                "end": 2003,
+                "start": 1997,
+                "end": 2005,
                 "name": "TimeZone"
               },
               "computed": false,
@@ -44,8 +44,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2004,
-                "end": 2025,
+                "start": 2006,
+                "end": 2027,
                 "value": "-00:00:00.000000002"
               }
             ]
@@ -56,37 +56,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2028,
-      "end": 2083,
+      "start": 2030,
+      "end": 2085,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2034,
-          "end": 2082,
+          "start": 2036,
+          "end": 2084,
           "id": {
             "type": "Identifier",
-            "start": 2034,
-            "end": 2042,
+            "start": 2036,
+            "end": 2044,
             "name": "datetime"
           },
           "init": {
             "type": "NewExpression",
-            "start": 2045,
-            "end": 2082,
+            "start": 2047,
+            "end": 2084,
             "callee": {
               "type": "MemberExpression",
-              "start": 2049,
-              "end": 2071,
+              "start": 2051,
+              "end": 2073,
               "object": {
                 "type": "Identifier",
-                "start": 2049,
-                "end": 2057,
+                "start": 2051,
+                "end": 2059,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2058,
-                "end": 2071,
+                "start": 2060,
+                "end": 2073,
                 "name": "ZonedDateTime"
               },
               "computed": false,
@@ -95,14 +95,14 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2072,
-                "end": 2077,
+                "start": 2074,
+                "end": 2079,
                 "value": "1001n"
               },
               {
                 "type": "Identifier",
-                "start": 2079,
-                "end": 2081,
+                "start": 2081,
+                "end": 2083,
                 "name": "tz"
               }
             ]
@@ -113,37 +113,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2085,
-      "end": 2122,
+      "start": 2087,
+      "end": 2124,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2091,
-          "end": 2121,
+          "start": 2093,
+          "end": 2123,
           "id": {
             "type": "Identifier",
-            "start": 2091,
-            "end": 2101,
+            "start": 2093,
+            "end": 2103,
             "name": "jsonString"
           },
           "init": {
             "type": "CallExpression",
-            "start": 2104,
-            "end": 2121,
+            "start": 2106,
+            "end": 2123,
             "callee": {
               "type": "MemberExpression",
-              "start": 2104,
-              "end": 2119,
+              "start": 2106,
+              "end": 2121,
               "object": {
                 "type": "Identifier",
-                "start": 2104,
-                "end": 2112,
+                "start": 2106,
+                "end": 2114,
                 "name": "datetime"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2113,
-                "end": 2119,
+                "start": 2115,
+                "end": 2121,
                 "name": "toJSON"
               },
               "computed": false,
@@ -158,26 +158,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2124,
-      "end": 2213,
+      "start": 2126,
+      "end": 2215,
       "expression": {
         "type": "CallExpression",
-        "start": 2124,
-        "end": 2212,
+        "start": 2126,
+        "end": 2214,
         "callee": {
           "type": "MemberExpression",
-          "start": 2124,
-          "end": 2140,
+          "start": 2126,
+          "end": 2142,
           "object": {
             "type": "Identifier",
-            "start": 2124,
-            "end": 2130,
+            "start": 2126,
+            "end": 2132,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2131,
-            "end": 2140,
+            "start": 2133,
+            "end": 2142,
             "name": "sameValue"
           },
           "computed": false,
@@ -186,14 +186,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2141,
-            "end": 2151,
+            "start": 2143,
+            "end": 2153,
             "name": "jsonString"
           },
           {
             "type": "Literal",
-            "start": 2153,
-            "end": 2211,
+            "start": 2155,
+            "end": 2213,
             "value": "1970-01-01T00:00:00.000000999+00:00[-00:00:00.000000002]"
           }
         ],

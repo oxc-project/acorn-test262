@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1182,
+  "end": 1183,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1070,
-      "end": 1080,
+      "start": 1071,
+      "end": 1081,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1074,
-          "end": 1079,
+          "start": 1075,
+          "end": 1080,
           "id": {
             "type": "Identifier",
-            "start": 1074,
-            "end": 1079,
+            "start": 1075,
+            "end": 1080,
             "name": "error"
           },
           "init": null
@@ -25,32 +25,32 @@
     },
     {
       "type": "TryStatement",
-      "start": 1081,
-      "end": 1144,
+      "start": 1082,
+      "end": 1145,
       "block": {
         "type": "BlockStatement",
-        "start": 1085,
-        "end": 1117,
+        "start": 1086,
+        "end": 1118,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1089,
-            "end": 1115,
+            "start": 1090,
+            "end": 1116,
             "expression": {
               "type": "CallExpression",
-              "start": 1089,
-              "end": 1114,
+              "start": 1090,
+              "end": 1115,
               "callee": {
                 "type": "Identifier",
-                "start": 1089,
-                "end": 1093,
+                "start": 1090,
+                "end": 1094,
                 "name": "eval"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1094,
-                  "end": 1113,
+                  "start": 1095,
+                  "end": 1114,
                   "value": "function* NaN(){}"
                 }
               ],
@@ -61,38 +61,38 @@
       },
       "handler": {
         "type": "CatchClause",
-        "start": 1118,
-        "end": 1144,
+        "start": 1119,
+        "end": 1145,
         "param": {
           "type": "Identifier",
-          "start": 1125,
-          "end": 1126,
+          "start": 1126,
+          "end": 1127,
           "name": "e"
         },
         "body": {
           "type": "BlockStatement",
-          "start": 1128,
-          "end": 1144,
+          "start": 1129,
+          "end": 1145,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 1132,
-              "end": 1142,
+              "start": 1133,
+              "end": 1143,
               "expression": {
                 "type": "AssignmentExpression",
-                "start": 1132,
-                "end": 1141,
+                "start": 1133,
+                "end": 1142,
                 "operator": "=",
                 "left": {
                   "type": "Identifier",
-                  "start": 1132,
-                  "end": 1137,
+                  "start": 1133,
+                  "end": 1138,
                   "name": "error"
                 },
                 "right": {
                   "type": "Identifier",
-                  "start": 1140,
-                  "end": 1141,
+                  "start": 1141,
+                  "end": 1142,
                   "name": "e"
                 }
               }
@@ -104,34 +104,34 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1146,
-      "end": 1181,
+      "start": 1147,
+      "end": 1182,
       "expression": {
         "type": "CallExpression",
-        "start": 1146,
-        "end": 1180,
+        "start": 1147,
+        "end": 1181,
         "callee": {
           "type": "Identifier",
-          "start": 1146,
-          "end": 1152,
+          "start": 1147,
+          "end": 1153,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1153,
-            "end": 1179,
+            "start": 1154,
+            "end": 1180,
             "left": {
               "type": "Identifier",
-              "start": 1153,
-              "end": 1158,
+              "start": 1154,
+              "end": 1159,
               "name": "error"
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
-              "start": 1170,
-              "end": 1179,
+              "start": 1171,
+              "end": 1180,
               "name": "TypeError"
             }
           }

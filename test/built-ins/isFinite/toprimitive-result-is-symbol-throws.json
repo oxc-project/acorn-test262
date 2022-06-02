@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 905,
+  "end": 907,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 760,
-      "end": 773,
+      "start": 762,
+      "end": 775,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 764,
-          "end": 772,
+          "start": 766,
+          "end": 774,
           "id": {
             "type": "Identifier",
-            "start": 764,
-            "end": 767,
+            "start": 766,
+            "end": 769,
             "name": "obj"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 770,
-            "end": 772,
+            "start": 772,
+            "end": 774,
             "properties": []
           }
         }
@@ -30,37 +30,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 774,
-      "end": 844,
+      "start": 776,
+      "end": 846,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 774,
-        "end": 843,
+        "start": 776,
+        "end": 845,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 774,
-          "end": 797,
+          "start": 776,
+          "end": 799,
           "object": {
             "type": "Identifier",
-            "start": 774,
-            "end": 777,
+            "start": 776,
+            "end": 779,
             "name": "obj"
           },
           "property": {
             "type": "MemberExpression",
-            "start": 778,
-            "end": 796,
+            "start": 780,
+            "end": 798,
             "object": {
               "type": "Identifier",
-              "start": 778,
-              "end": 784,
+              "start": 780,
+              "end": 786,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 785,
-              "end": 796,
+              "start": 787,
+              "end": 798,
               "name": "toPrimitive"
             },
             "computed": false,
@@ -71,8 +71,8 @@
         },
         "right": {
           "type": "FunctionExpression",
-          "start": 800,
-          "end": 843,
+          "start": 802,
+          "end": 845,
           "id": null,
           "expression": false,
           "generator": false,
@@ -80,27 +80,27 @@
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 811,
-            "end": 843,
+            "start": 813,
+            "end": 845,
             "body": [
               {
                 "type": "ReturnStatement",
-                "start": 815,
-                "end": 841,
+                "start": 817,
+                "end": 843,
                 "argument": {
                   "type": "MemberExpression",
-                  "start": 822,
-                  "end": 840,
+                  "start": 824,
+                  "end": 842,
                   "object": {
                     "type": "Identifier",
-                    "start": 822,
-                    "end": 828,
+                    "start": 824,
+                    "end": 830,
                     "name": "Symbol"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 829,
-                    "end": 840,
+                    "start": 831,
+                    "end": 842,
                     "name": "toPrimitive"
                   },
                   "computed": false,
@@ -114,26 +114,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 846,
-      "end": 904,
+      "start": 848,
+      "end": 906,
       "expression": {
         "type": "CallExpression",
-        "start": 846,
-        "end": 903,
+        "start": 848,
+        "end": 905,
         "callee": {
           "type": "MemberExpression",
-          "start": 846,
-          "end": 859,
+          "start": 848,
+          "end": 861,
           "object": {
             "type": "Identifier",
-            "start": 846,
-            "end": 852,
+            "start": 848,
+            "end": 854,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 853,
-            "end": 859,
+            "start": 855,
+            "end": 861,
             "name": "throws"
           },
           "computed": false,
@@ -142,14 +142,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 860,
-            "end": 869,
+            "start": 862,
+            "end": 871,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 871,
-            "end": 902,
+            "start": 873,
+            "end": 904,
             "id": null,
             "expression": false,
             "generator": false,
@@ -157,28 +157,28 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 882,
-              "end": 902,
+              "start": 884,
+              "end": 904,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 886,
-                  "end": 900,
+                  "start": 888,
+                  "end": 902,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 886,
-                    "end": 899,
+                    "start": 888,
+                    "end": 901,
                     "callee": {
                       "type": "Identifier",
-                      "start": 886,
-                      "end": 894,
+                      "start": 888,
+                      "end": 896,
                       "name": "isFinite"
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 895,
-                        "end": 898,
+                        "start": 897,
+                        "end": 900,
                         "name": "obj"
                       }
                     ],

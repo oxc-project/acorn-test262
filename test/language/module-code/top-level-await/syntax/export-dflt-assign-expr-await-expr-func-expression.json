@@ -1,20 +1,20 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2269,
+  "end": 2273,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2233,
-      "end": 2268,
+      "start": 2237,
+      "end": 2272,
       "declaration": {
         "type": "AwaitExpression",
-        "start": 2248,
-        "end": 2267,
+        "start": 2252,
+        "end": 2271,
         "argument": {
           "type": "FunctionExpression",
-          "start": 2254,
-          "end": 2267,
+          "start": 2258,
+          "end": 2271,
           "id": null,
           "expression": false,
           "generator": false,
@@ -22,8 +22,8 @@
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 2265,
-            "end": 2267,
+            "start": 2269,
+            "end": 2271,
             "body": []
           }
         }

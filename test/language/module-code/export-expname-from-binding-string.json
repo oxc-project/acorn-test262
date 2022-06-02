@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 668,
+  "end": 672,
   "body": [
     {
       "type": "ImportDeclaration",
@@ -30,13 +30,13 @@
     {
       "type": "ExportNamedDeclaration",
       "start": 509,
-      "end": 570,
+      "end": 572,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 518,
-          "end": 532,
+          "end": 534,
           "local": {
             "type": "Identifier",
             "start": 518,
@@ -46,40 +46,40 @@
           "exported": {
             "type": "Literal",
             "start": 529,
-            "end": 532,
+            "end": 534,
             "value": "☿"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 540,
-        "end": 569,
+        "start": 542,
+        "end": 571,
         "value": "./export-expname_FIXTURE.js"
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 572,
-      "end": 616,
+      "start": 574,
+      "end": 618,
       "expression": {
         "type": "CallExpression",
-        "start": 572,
-        "end": 615,
+        "start": 574,
+        "end": 617,
         "callee": {
           "type": "MemberExpression",
-          "start": 572,
-          "end": 588,
+          "start": 574,
+          "end": 590,
           "object": {
             "type": "Identifier",
-            "start": 572,
-            "end": 578,
+            "start": 574,
+            "end": 580,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 579,
-            "end": 588,
+            "start": 581,
+            "end": 590,
             "name": "sameValue"
           },
           "computed": false,
@@ -88,18 +88,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 589,
-            "end": 603,
+            "start": 591,
+            "end": 605,
             "object": {
               "type": "Identifier",
-              "start": 589,
-              "end": 595,
+              "start": 591,
+              "end": 597,
               "name": "Scouts"
             },
             "property": {
               "type": "Identifier",
-              "start": 596,
-              "end": 603,
+              "start": 598,
+              "end": 605,
               "name": "Mercury"
             },
             "computed": false,
@@ -107,8 +107,8 @@
           },
           {
             "type": "Identifier",
-            "start": 605,
-            "end": 614,
+            "start": 607,
+            "end": 616,
             "name": "undefined"
           }
         ],
@@ -117,26 +117,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 617,
-      "end": 667,
+      "start": 619,
+      "end": 671,
       "expression": {
         "type": "CallExpression",
-        "start": 617,
-        "end": 666,
+        "start": 619,
+        "end": 670,
         "callee": {
           "type": "MemberExpression",
-          "start": 617,
-          "end": 633,
+          "start": 619,
+          "end": 635,
           "object": {
             "type": "Identifier",
-            "start": 617,
-            "end": 623,
+            "start": 619,
+            "end": 625,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 624,
-            "end": 633,
+            "start": 626,
+            "end": 635,
             "name": "sameValue"
           },
           "computed": false,
@@ -145,18 +145,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 634,
-            "end": 645,
+            "start": 636,
+            "end": 649,
             "object": {
               "type": "Identifier",
-              "start": 634,
-              "end": 640,
+              "start": 636,
+              "end": 642,
               "name": "Scouts"
             },
             "property": {
               "type": "Literal",
-              "start": 641,
-              "end": 644,
+              "start": 643,
+              "end": 648,
               "value": "☿"
             },
             "computed": true,
@@ -164,18 +164,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 647,
-            "end": 665,
+            "start": 651,
+            "end": 669,
             "object": {
               "type": "Identifier",
-              "start": 647,
-              "end": 657,
+              "start": 651,
+              "end": 661,
               "name": "globalThis"
             },
             "property": {
               "type": "Identifier",
-              "start": 658,
-              "end": 665,
+              "start": 662,
+              "end": 669,
               "name": "Mercury"
             },
             "computed": false,

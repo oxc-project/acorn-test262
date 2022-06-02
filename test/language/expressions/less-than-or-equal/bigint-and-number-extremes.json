@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 3800,
+  "end": 3808,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 902,
-      "end": 999,
+      "start": 910,
+      "end": 1007,
       "expression": {
         "type": "CallExpression",
-        "start": 902,
-        "end": 998,
+        "start": 910,
+        "end": 1006,
         "callee": {
           "type": "MemberExpression",
-          "start": 902,
-          "end": 918,
+          "start": 910,
+          "end": 926,
           "object": {
             "type": "Identifier",
-            "start": 902,
-            "end": 908,
+            "start": 910,
+            "end": 916,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 909,
-            "end": 918,
+            "start": 917,
+            "end": 926,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,29 +33,29 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 919,
-            "end": 941,
+            "start": 927,
+            "end": 949,
             "left": {
               "type": "Literal",
-              "start": 919,
-              "end": 921,
+              "start": 927,
+              "end": 929,
               "value": "1n"
             },
             "operator": "<=",
             "right": {
               "type": "MemberExpression",
-              "start": 925,
-              "end": 941,
+              "start": 933,
+              "end": 949,
               "object": {
                 "type": "Identifier",
-                "start": 925,
-                "end": 931,
+                "start": 933,
+                "end": 939,
                 "name": "Number"
               },
               "property": {
                 "type": "Identifier",
-                "start": 932,
-                "end": 941,
+                "start": 940,
+                "end": 949,
                 "name": "MAX_VALUE"
               },
               "computed": false,
@@ -64,14 +64,14 @@
           },
           {
             "type": "Literal",
-            "start": 943,
-            "end": 947,
+            "start": 951,
+            "end": 955,
             "value": true
           },
           {
             "type": "Literal",
-            "start": 949,
-            "end": 997,
+            "start": 957,
+            "end": 1005,
             "value": "The result of (1n <= Number.MAX_VALUE) is true"
           }
         ],
@@ -80,26 +80,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1000,
-      "end": 1099,
+      "start": 1008,
+      "end": 1107,
       "expression": {
         "type": "CallExpression",
-        "start": 1000,
-        "end": 1098,
+        "start": 1008,
+        "end": 1106,
         "callee": {
           "type": "MemberExpression",
-          "start": 1000,
-          "end": 1016,
+          "start": 1008,
+          "end": 1024,
           "object": {
             "type": "Identifier",
-            "start": 1000,
-            "end": 1006,
+            "start": 1008,
+            "end": 1014,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1007,
-            "end": 1016,
+            "start": 1015,
+            "end": 1024,
             "name": "sameValue"
           },
           "computed": false,
@@ -108,22 +108,22 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1017,
-            "end": 1039,
+            "start": 1025,
+            "end": 1047,
             "left": {
               "type": "MemberExpression",
-              "start": 1017,
-              "end": 1033,
+              "start": 1025,
+              "end": 1041,
               "object": {
                 "type": "Identifier",
-                "start": 1017,
-                "end": 1023,
+                "start": 1025,
+                "end": 1031,
                 "name": "Number"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1024,
-                "end": 1033,
+                "start": 1032,
+                "end": 1041,
                 "name": "MAX_VALUE"
               },
               "computed": false,
@@ -132,21 +132,21 @@
             "operator": "<=",
             "right": {
               "type": "Literal",
-              "start": 1037,
-              "end": 1039,
+              "start": 1045,
+              "end": 1047,
               "value": "1n"
             }
           },
           {
             "type": "Literal",
-            "start": 1041,
-            "end": 1046,
+            "start": 1049,
+            "end": 1054,
             "value": false
           },
           {
             "type": "Literal",
-            "start": 1048,
-            "end": 1097,
+            "start": 1056,
+            "end": 1105,
             "value": "The result of (Number.MAX_VALUE <= 1n) is false"
           }
         ],
@@ -155,26 +155,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1101,
-      "end": 1210,
+      "start": 1109,
+      "end": 1218,
       "expression": {
         "type": "CallExpression",
-        "start": 1101,
-        "end": 1209,
+        "start": 1109,
+        "end": 1217,
         "callee": {
           "type": "MemberExpression",
-          "start": 1101,
-          "end": 1117,
+          "start": 1109,
+          "end": 1125,
           "object": {
             "type": "Identifier",
-            "start": 1101,
-            "end": 1107,
+            "start": 1109,
+            "end": 1115,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1108,
-            "end": 1117,
+            "start": 1116,
+            "end": 1125,
             "name": "sameValue"
           },
           "computed": false,
@@ -183,35 +183,35 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1121,
-            "end": 1144,
+            "start": 1129,
+            "end": 1152,
             "left": {
               "type": "Literal",
-              "start": 1121,
-              "end": 1123,
+              "start": 1129,
+              "end": 1131,
               "value": "1n"
             },
             "operator": "<=",
             "right": {
               "type": "UnaryExpression",
-              "start": 1127,
-              "end": 1144,
+              "start": 1135,
+              "end": 1152,
               "operator": "-",
               "prefix": true,
               "argument": {
                 "type": "MemberExpression",
-                "start": 1128,
-                "end": 1144,
+                "start": 1136,
+                "end": 1152,
                 "object": {
                   "type": "Identifier",
-                  "start": 1128,
-                  "end": 1134,
+                  "start": 1136,
+                  "end": 1142,
                   "name": "Number"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1135,
-                  "end": 1144,
+                  "start": 1143,
+                  "end": 1152,
                   "name": "MAX_VALUE"
                 },
                 "computed": false,
@@ -221,14 +221,14 @@
           },
           {
             "type": "Literal",
-            "start": 1148,
-            "end": 1153,
+            "start": 1156,
+            "end": 1161,
             "value": false
           },
           {
             "type": "Literal",
-            "start": 1157,
-            "end": 1207,
+            "start": 1165,
+            "end": 1215,
             "value": "The result of (1n <= -Number.MAX_VALUE) is false"
           }
         ],
@@ -237,26 +237,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1212,
-      "end": 1311,
+      "start": 1220,
+      "end": 1319,
       "expression": {
         "type": "CallExpression",
-        "start": 1212,
-        "end": 1310,
+        "start": 1220,
+        "end": 1318,
         "callee": {
           "type": "MemberExpression",
-          "start": 1212,
-          "end": 1228,
+          "start": 1220,
+          "end": 1236,
           "object": {
             "type": "Identifier",
-            "start": 1212,
-            "end": 1218,
+            "start": 1220,
+            "end": 1226,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1219,
-            "end": 1228,
+            "start": 1227,
+            "end": 1236,
             "name": "sameValue"
           },
           "computed": false,
@@ -265,28 +265,28 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1229,
-            "end": 1252,
+            "start": 1237,
+            "end": 1260,
             "left": {
               "type": "UnaryExpression",
-              "start": 1229,
-              "end": 1246,
+              "start": 1237,
+              "end": 1254,
               "operator": "-",
               "prefix": true,
               "argument": {
                 "type": "MemberExpression",
-                "start": 1230,
-                "end": 1246,
+                "start": 1238,
+                "end": 1254,
                 "object": {
                   "type": "Identifier",
-                  "start": 1230,
-                  "end": 1236,
+                  "start": 1238,
+                  "end": 1244,
                   "name": "Number"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1237,
-                  "end": 1246,
+                  "start": 1245,
+                  "end": 1254,
                   "name": "MAX_VALUE"
                 },
                 "computed": false,
@@ -296,21 +296,21 @@
             "operator": "<=",
             "right": {
               "type": "Literal",
-              "start": 1250,
-              "end": 1252,
+              "start": 1258,
+              "end": 1260,
               "value": "1n"
             }
           },
           {
             "type": "Literal",
-            "start": 1254,
-            "end": 1258,
+            "start": 1262,
+            "end": 1266,
             "value": true
           },
           {
             "type": "Literal",
-            "start": 1260,
-            "end": 1309,
+            "start": 1268,
+            "end": 1317,
             "value": "The result of (-Number.MAX_VALUE <= 1n) is true"
           }
         ],
@@ -319,26 +319,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1313,
-      "end": 1932,
+      "start": 1321,
+      "end": 1940,
       "expression": {
         "type": "CallExpression",
-        "start": 1313,
-        "end": 1931,
+        "start": 1321,
+        "end": 1939,
         "callee": {
           "type": "MemberExpression",
-          "start": 1313,
-          "end": 1329,
+          "start": 1321,
+          "end": 1337,
           "object": {
             "type": "Identifier",
-            "start": 1313,
-            "end": 1319,
+            "start": 1321,
+            "end": 1327,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1320,
-            "end": 1329,
+            "start": 1328,
+            "end": 1337,
             "name": "sameValue"
           },
           "computed": false,
@@ -347,29 +347,29 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1333,
-            "end": 1612,
+            "start": 1341,
+            "end": 1620,
             "left": {
               "type": "Literal",
-              "start": 1333,
-              "end": 1592,
+              "start": 1341,
+              "end": 1600,
               "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858367n"
             },
             "operator": "<=",
             "right": {
               "type": "MemberExpression",
-              "start": 1596,
-              "end": 1612,
+              "start": 1604,
+              "end": 1620,
               "object": {
                 "type": "Identifier",
-                "start": 1596,
-                "end": 1602,
+                "start": 1604,
+                "end": 1610,
                 "name": "Number"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1603,
-                "end": 1612,
+                "start": 1611,
+                "end": 1620,
                 "name": "MAX_VALUE"
               },
               "computed": false,
@@ -378,14 +378,14 @@
           },
           {
             "type": "Literal",
-            "start": 1616,
-            "end": 1620,
+            "start": 1624,
+            "end": 1628,
             "value": true
           },
           {
             "type": "Literal",
-            "start": 1624,
-            "end": 1929,
+            "start": 1632,
+            "end": 1937,
             "value": "The result of (0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn <= Number.MAX_VALUE) is true"
           }
         ],
@@ -394,26 +394,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1934,
-      "end": 2555,
+      "start": 1942,
+      "end": 2563,
       "expression": {
         "type": "CallExpression",
-        "start": 1934,
-        "end": 2554,
+        "start": 1942,
+        "end": 2562,
         "callee": {
           "type": "MemberExpression",
-          "start": 1934,
-          "end": 1950,
+          "start": 1942,
+          "end": 1958,
           "object": {
             "type": "Identifier",
-            "start": 1934,
-            "end": 1940,
+            "start": 1942,
+            "end": 1948,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1941,
-            "end": 1950,
+            "start": 1949,
+            "end": 1958,
             "name": "sameValue"
           },
           "computed": false,
@@ -422,22 +422,22 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1954,
-            "end": 2233,
+            "start": 1962,
+            "end": 2241,
             "left": {
               "type": "MemberExpression",
-              "start": 1954,
-              "end": 1970,
+              "start": 1962,
+              "end": 1978,
               "object": {
                 "type": "Identifier",
-                "start": 1954,
-                "end": 1960,
+                "start": 1962,
+                "end": 1968,
                 "name": "Number"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1961,
-                "end": 1970,
+                "start": 1969,
+                "end": 1978,
                 "name": "MAX_VALUE"
               },
               "computed": false,
@@ -446,21 +446,21 @@
             "operator": "<=",
             "right": {
               "type": "Literal",
-              "start": 1974,
-              "end": 2233,
+              "start": 1982,
+              "end": 2241,
               "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858367n"
             }
           },
           {
             "type": "Literal",
-            "start": 2237,
-            "end": 2242,
+            "start": 2245,
+            "end": 2250,
             "value": false
           },
           {
             "type": "Literal",
-            "start": 2246,
-            "end": 2552,
+            "start": 2254,
+            "end": 2560,
             "value": "The result of (Number.MAX_VALUE <= 0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn) is false"
           }
         ],
@@ -469,26 +469,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2557,
-      "end": 3178,
+      "start": 2565,
+      "end": 3186,
       "expression": {
         "type": "CallExpression",
-        "start": 2557,
-        "end": 3177,
+        "start": 2565,
+        "end": 3185,
         "callee": {
           "type": "MemberExpression",
-          "start": 2557,
-          "end": 2573,
+          "start": 2565,
+          "end": 2581,
           "object": {
             "type": "Identifier",
-            "start": 2557,
-            "end": 2563,
+            "start": 2565,
+            "end": 2571,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2564,
-            "end": 2573,
+            "start": 2572,
+            "end": 2581,
             "name": "sameValue"
           },
           "computed": false,
@@ -497,29 +497,29 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2577,
-            "end": 2856,
+            "start": 2585,
+            "end": 2864,
             "left": {
               "type": "Literal",
-              "start": 2577,
-              "end": 2836,
+              "start": 2585,
+              "end": 2844,
               "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858369n"
             },
             "operator": "<=",
             "right": {
               "type": "MemberExpression",
-              "start": 2840,
-              "end": 2856,
+              "start": 2848,
+              "end": 2864,
               "object": {
                 "type": "Identifier",
-                "start": 2840,
-                "end": 2846,
+                "start": 2848,
+                "end": 2854,
                 "name": "Number"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2847,
-                "end": 2856,
+                "start": 2855,
+                "end": 2864,
                 "name": "MAX_VALUE"
               },
               "computed": false,
@@ -528,14 +528,14 @@
           },
           {
             "type": "Literal",
-            "start": 2860,
-            "end": 2865,
+            "start": 2868,
+            "end": 2873,
             "value": false
           },
           {
             "type": "Literal",
-            "start": 2869,
-            "end": 3175,
+            "start": 2877,
+            "end": 3183,
             "value": "The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n <= Number.MAX_VALUE) is false"
           }
         ],
@@ -544,26 +544,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3180,
-      "end": 3799,
+      "start": 3188,
+      "end": 3807,
       "expression": {
         "type": "CallExpression",
-        "start": 3180,
-        "end": 3798,
+        "start": 3188,
+        "end": 3806,
         "callee": {
           "type": "MemberExpression",
-          "start": 3180,
-          "end": 3196,
+          "start": 3188,
+          "end": 3204,
           "object": {
             "type": "Identifier",
-            "start": 3180,
-            "end": 3186,
+            "start": 3188,
+            "end": 3194,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3187,
-            "end": 3196,
+            "start": 3195,
+            "end": 3204,
             "name": "sameValue"
           },
           "computed": false,
@@ -572,22 +572,22 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 3200,
-            "end": 3479,
+            "start": 3208,
+            "end": 3487,
             "left": {
               "type": "MemberExpression",
-              "start": 3200,
-              "end": 3216,
+              "start": 3208,
+              "end": 3224,
               "object": {
                 "type": "Identifier",
-                "start": 3200,
-                "end": 3206,
+                "start": 3208,
+                "end": 3214,
                 "name": "Number"
               },
               "property": {
                 "type": "Identifier",
-                "start": 3207,
-                "end": 3216,
+                "start": 3215,
+                "end": 3224,
                 "name": "MAX_VALUE"
               },
               "computed": false,
@@ -596,21 +596,21 @@
             "operator": "<=",
             "right": {
               "type": "Literal",
-              "start": 3220,
-              "end": 3479,
+              "start": 3228,
+              "end": 3487,
               "value": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858369n"
             }
           },
           {
             "type": "Literal",
-            "start": 3483,
-            "end": 3487,
+            "start": 3491,
+            "end": 3495,
             "value": true
           },
           {
             "type": "Literal",
-            "start": 3491,
-            "end": 3796,
+            "start": 3499,
+            "end": 3804,
             "value": "The result of (Number.MAX_VALUE <= 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n) is true"
           }
         ],

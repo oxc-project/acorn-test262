@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 671,
+  "end": 672,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 387,
-      "end": 400,
+      "start": 388,
+      "end": 401,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 391,
-          "end": 399,
+          "start": 392,
+          "end": 400,
           "id": {
             "type": "Identifier",
-            "start": 391,
-            "end": 394,
+            "start": 392,
+            "end": 395,
             "name": "obj"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 397,
-            "end": 399,
+            "start": 398,
+            "end": 400,
             "properties": []
           }
         }
@@ -30,27 +30,27 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 401,
-      "end": 420,
+      "start": 402,
+      "end": 421,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 405,
-          "end": 419,
+          "start": 406,
+          "end": 420,
           "id": {
             "type": "Identifier",
-            "start": 405,
-            "end": 408,
+            "start": 406,
+            "end": 409,
             "name": "sym"
           },
           "init": {
             "type": "CallExpression",
-            "start": 411,
-            "end": 419,
+            "start": 412,
+            "end": 420,
             "callee": {
               "type": "Identifier",
-              "start": 411,
-              "end": 417,
+              "start": 412,
+              "end": 418,
               "name": "Symbol"
             },
             "arguments": [],
@@ -62,26 +62,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 422,
-      "end": 535,
+      "start": 423,
+      "end": 536,
       "expression": {
         "type": "CallExpression",
-        "start": 422,
-        "end": 534,
+        "start": 423,
+        "end": 535,
         "callee": {
           "type": "MemberExpression",
-          "start": 422,
-          "end": 438,
+          "start": 423,
+          "end": 439,
           "object": {
             "type": "Identifier",
-            "start": 422,
-            "end": 428,
+            "start": 423,
+            "end": 429,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 429,
-            "end": 438,
+            "start": 430,
+            "end": 439,
             "name": "sameValue"
           },
           "computed": false,
@@ -90,22 +90,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 442,
-            "end": 471,
+            "start": 443,
+            "end": 472,
             "callee": {
               "type": "MemberExpression",
-              "start": 442,
-              "end": 466,
+              "start": 443,
+              "end": 467,
               "object": {
                 "type": "Identifier",
-                "start": 442,
-                "end": 445,
+                "start": 443,
+                "end": 446,
                 "name": "obj"
               },
               "property": {
                 "type": "Identifier",
-                "start": 446,
-                "end": 466,
+                "start": 447,
+                "end": 467,
                 "name": "propertyIsEnumerable"
               },
               "computed": false,
@@ -114,8 +114,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 467,
-                "end": 470,
+                "start": 468,
+                "end": 471,
                 "name": "sym"
               }
             ],
@@ -123,14 +123,14 @@
           },
           {
             "type": "Literal",
-            "start": 475,
-            "end": 480,
+            "start": 476,
+            "end": 481,
             "value": false
           },
           {
             "type": "Literal",
-            "start": 484,
-            "end": 532,
+            "start": 485,
+            "end": 533,
             "value": "Returns false if symbol own property not found"
           }
         ],
@@ -139,27 +139,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 537,
-      "end": 550,
+      "start": 538,
+      "end": 551,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 537,
-        "end": 549,
+        "start": 538,
+        "end": 550,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 537,
-          "end": 545,
+          "start": 538,
+          "end": 546,
           "object": {
             "type": "Identifier",
-            "start": 537,
-            "end": 540,
+            "start": 538,
+            "end": 541,
             "name": "obj"
           },
           "property": {
             "type": "Identifier",
-            "start": 541,
-            "end": 544,
+            "start": 542,
+            "end": 545,
             "name": "sym"
           },
           "computed": true,
@@ -167,34 +167,34 @@
         },
         "right": {
           "type": "Literal",
-          "start": 548,
-          "end": 549,
+          "start": 549,
+          "end": 550,
           "value": 0
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 552,
-      "end": 670,
+      "start": 553,
+      "end": 671,
       "expression": {
         "type": "CallExpression",
-        "start": 552,
-        "end": 669,
+        "start": 553,
+        "end": 670,
         "callee": {
           "type": "MemberExpression",
-          "start": 552,
-          "end": 568,
+          "start": 553,
+          "end": 569,
           "object": {
             "type": "Identifier",
-            "start": 552,
-            "end": 558,
+            "start": 553,
+            "end": 559,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 559,
-            "end": 568,
+            "start": 560,
+            "end": 569,
             "name": "sameValue"
           },
           "computed": false,
@@ -203,22 +203,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 572,
-            "end": 601,
+            "start": 573,
+            "end": 602,
             "callee": {
               "type": "MemberExpression",
-              "start": 572,
-              "end": 596,
+              "start": 573,
+              "end": 597,
               "object": {
                 "type": "Identifier",
-                "start": 572,
-                "end": 575,
+                "start": 573,
+                "end": 576,
                 "name": "obj"
               },
               "property": {
                 "type": "Identifier",
-                "start": 576,
-                "end": 596,
+                "start": 577,
+                "end": 597,
                 "name": "propertyIsEnumerable"
               },
               "computed": false,
@@ -227,8 +227,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 597,
-                "end": 600,
+                "start": 598,
+                "end": 601,
                 "name": "sym"
               }
             ],
@@ -236,14 +236,14 @@
           },
           {
             "type": "Literal",
-            "start": 605,
-            "end": 609,
+            "start": 606,
+            "end": 610,
             "value": true
           },
           {
             "type": "Literal",
-            "start": 613,
-            "end": 667,
+            "start": 614,
+            "end": 668,
             "value": "Returns true if symbol own enumerable property found"
           }
         ],

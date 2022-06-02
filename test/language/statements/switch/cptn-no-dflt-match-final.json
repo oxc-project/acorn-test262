@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2393,
+  "end": 2395,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1620,
-      "end": 1730,
+      "start": 1622,
+      "end": 1732,
       "expression": {
         "type": "CallExpression",
-        "start": 1620,
-        "end": 1729,
+        "start": 1622,
+        "end": 1731,
         "callee": {
           "type": "MemberExpression",
-          "start": 1620,
-          "end": 1636,
+          "start": 1622,
+          "end": 1638,
           "object": {
             "type": "Identifier",
-            "start": 1620,
-            "end": 1626,
+            "start": 1622,
+            "end": 1628,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1627,
-            "end": 1636,
+            "start": 1629,
+            "end": 1638,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,19 +33,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1640,
-            "end": 1677,
+            "start": 1642,
+            "end": 1679,
             "callee": {
               "type": "Identifier",
-              "start": 1640,
-              "end": 1644,
+              "start": 1642,
+              "end": 1646,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1645,
-                "end": 1676,
+                "start": 1647,
+                "end": 1678,
                 "value": "1; switch (\"a\") { case \"a\": }"
               }
             ],
@@ -53,14 +53,14 @@
           },
           {
             "type": "Identifier",
-            "start": 1681,
-            "end": 1690,
+            "start": 1683,
+            "end": 1692,
             "name": "undefined"
           },
           {
             "type": "Literal",
-            "start": 1694,
-            "end": 1727,
+            "start": 1696,
+            "end": 1729,
             "value": "empty StatementList (lone case)"
           }
         ],
@@ -69,26 +69,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1731,
-      "end": 1839,
+      "start": 1733,
+      "end": 1841,
       "expression": {
         "type": "CallExpression",
-        "start": 1731,
-        "end": 1838,
+        "start": 1733,
+        "end": 1840,
         "callee": {
           "type": "MemberExpression",
-          "start": 1731,
-          "end": 1747,
+          "start": 1733,
+          "end": 1749,
           "object": {
             "type": "Identifier",
-            "start": 1731,
-            "end": 1737,
+            "start": 1733,
+            "end": 1739,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1738,
-            "end": 1747,
+            "start": 1740,
+            "end": 1749,
             "name": "sameValue"
           },
           "computed": false,
@@ -97,19 +97,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1751,
-            "end": 1791,
+            "start": 1753,
+            "end": 1793,
             "callee": {
               "type": "Identifier",
-              "start": 1751,
-              "end": 1755,
+              "start": 1753,
+              "end": 1757,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1756,
-                "end": 1790,
+                "start": 1758,
+                "end": 1792,
                 "value": "2; switch (\"a\") { case \"a\": 3; }"
               }
             ],
@@ -117,14 +117,14 @@
           },
           {
             "type": "Literal",
-            "start": 1795,
-            "end": 1796,
+            "start": 1797,
+            "end": 1798,
             "value": 3
           },
           {
             "type": "Literal",
-            "start": 1800,
-            "end": 1836,
+            "start": 1802,
+            "end": 1838,
             "value": "non-empy StatementList (lone case)"
           }
         ],
@@ -133,26 +133,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1840,
-      "end": 1974,
+      "start": 1842,
+      "end": 1976,
       "expression": {
         "type": "CallExpression",
-        "start": 1840,
-        "end": 1973,
+        "start": 1842,
+        "end": 1975,
         "callee": {
           "type": "MemberExpression",
-          "start": 1840,
-          "end": 1856,
+          "start": 1842,
+          "end": 1858,
           "object": {
             "type": "Identifier",
-            "start": 1840,
-            "end": 1846,
+            "start": 1842,
+            "end": 1848,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1847,
-            "end": 1856,
+            "start": 1849,
+            "end": 1858,
             "name": "sameValue"
           },
           "computed": false,
@@ -161,19 +161,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1860,
-            "end": 1907,
+            "start": 1862,
+            "end": 1909,
             "callee": {
               "type": "Identifier",
-              "start": 1860,
-              "end": 1864,
+              "start": 1862,
+              "end": 1866,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1865,
-                "end": 1906,
+                "start": 1867,
+                "end": 1908,
                 "value": "4; switch (\"b\") { case \"a\": case \"b\": }"
               }
             ],
@@ -181,14 +181,14 @@
           },
           {
             "type": "Identifier",
-            "start": 1911,
-            "end": 1920,
+            "start": 1913,
+            "end": 1922,
             "name": "undefined"
           },
           {
             "type": "Literal",
-            "start": 1924,
-            "end": 1971,
+            "start": 1926,
+            "end": 1973,
             "value": "empty StatementList (following an empty case)"
           }
         ],
@@ -197,26 +197,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1975,
-      "end": 2108,
+      "start": 1977,
+      "end": 2110,
       "expression": {
         "type": "CallExpression",
-        "start": 1975,
-        "end": 2107,
+        "start": 1977,
+        "end": 2109,
         "callee": {
           "type": "MemberExpression",
-          "start": 1975,
-          "end": 1991,
+          "start": 1977,
+          "end": 1993,
           "object": {
             "type": "Identifier",
-            "start": 1975,
-            "end": 1981,
+            "start": 1977,
+            "end": 1983,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1982,
-            "end": 1991,
+            "start": 1984,
+            "end": 1993,
             "name": "sameValue"
           },
           "computed": false,
@@ -225,19 +225,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1995,
-            "end": 2045,
+            "start": 1997,
+            "end": 2047,
             "callee": {
               "type": "Identifier",
-              "start": 1995,
-              "end": 1999,
+              "start": 1997,
+              "end": 2001,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2000,
-                "end": 2044,
+                "start": 2002,
+                "end": 2046,
                 "value": "5; switch (\"b\") { case \"a\": case \"b\": 6; }"
               }
             ],
@@ -245,14 +245,14 @@
           },
           {
             "type": "Literal",
-            "start": 2049,
-            "end": 2050,
+            "start": 2051,
+            "end": 2052,
             "value": 6
           },
           {
             "type": "Literal",
-            "start": 2054,
-            "end": 2105,
+            "start": 2056,
+            "end": 2107,
             "value": "non-empty StatementList (following an empty case)"
           }
         ],
@@ -261,26 +261,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2109,
-      "end": 2249,
+      "start": 2111,
+      "end": 2251,
       "expression": {
         "type": "CallExpression",
-        "start": 2109,
-        "end": 2248,
+        "start": 2111,
+        "end": 2250,
         "callee": {
           "type": "MemberExpression",
-          "start": 2109,
-          "end": 2125,
+          "start": 2111,
+          "end": 2127,
           "object": {
             "type": "Identifier",
-            "start": 2109,
-            "end": 2115,
+            "start": 2111,
+            "end": 2117,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2116,
-            "end": 2125,
+            "start": 2118,
+            "end": 2127,
             "name": "sameValue"
           },
           "computed": false,
@@ -289,19 +289,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2129,
-            "end": 2179,
+            "start": 2131,
+            "end": 2181,
             "callee": {
               "type": "Identifier",
-              "start": 2129,
-              "end": 2133,
+              "start": 2131,
+              "end": 2135,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2134,
-                "end": 2178,
+                "start": 2136,
+                "end": 2180,
                 "value": "7; switch (\"b\") { case \"a\": 8; case \"b\": }"
               }
             ],
@@ -309,14 +309,14 @@
           },
           {
             "type": "Identifier",
-            "start": 2183,
-            "end": 2192,
+            "start": 2185,
+            "end": 2194,
             "name": "undefined"
           },
           {
             "type": "Literal",
-            "start": 2196,
-            "end": 2246,
+            "start": 2198,
+            "end": 2248,
             "value": "empty StatementList (following a non-empty case)"
           }
         ],
@@ -325,26 +325,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2250,
-      "end": 2392,
+      "start": 2252,
+      "end": 2394,
       "expression": {
         "type": "CallExpression",
-        "start": 2250,
-        "end": 2391,
+        "start": 2252,
+        "end": 2393,
         "callee": {
           "type": "MemberExpression",
-          "start": 2250,
-          "end": 2266,
+          "start": 2252,
+          "end": 2268,
           "object": {
             "type": "Identifier",
-            "start": 2250,
-            "end": 2256,
+            "start": 2252,
+            "end": 2258,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2257,
-            "end": 2266,
+            "start": 2259,
+            "end": 2268,
             "name": "sameValue"
           },
           "computed": false,
@@ -353,19 +353,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2270,
-            "end": 2325,
+            "start": 2272,
+            "end": 2327,
             "callee": {
               "type": "Identifier",
-              "start": 2270,
-              "end": 2274,
+              "start": 2272,
+              "end": 2276,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2275,
-                "end": 2324,
+                "start": 2277,
+                "end": 2326,
                 "value": "9; switch (\"b\") { case \"a\": 10; case \"b\": 11; }"
               }
             ],
@@ -373,14 +373,14 @@
           },
           {
             "type": "Literal",
-            "start": 2329,
-            "end": 2331,
+            "start": 2331,
+            "end": 2333,
             "value": 11
           },
           {
             "type": "Literal",
-            "start": 2335,
-            "end": 2389,
+            "start": 2337,
+            "end": 2391,
             "value": "non-empty StatementList (following a non-empty case)"
           }
         ],

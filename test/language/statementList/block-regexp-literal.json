@@ -1,22 +1,22 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 940,
+  "end": 942,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 933,
-      "end": 935,
+      "start": 935,
+      "end": 937,
       "body": []
     },
     {
       "type": "ExpressionStatement",
-      "start": 935,
-      "end": 939,
+      "start": 937,
+      "end": 941,
       "expression": {
         "type": "Literal",
-        "start": 935,
-        "end": 938,
+        "start": 937,
+        "end": 940,
         "value": {},
         "regex": {
           "pattern": "1",

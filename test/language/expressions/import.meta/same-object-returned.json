@@ -1,37 +1,37 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1016,
+  "end": 1017,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 702,
-      "end": 722,
+      "start": 703,
+      "end": 723,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 706,
-          "end": 721,
+          "start": 707,
+          "end": 722,
           "id": {
             "type": "Identifier",
-            "start": 706,
-            "end": 707,
+            "start": 707,
+            "end": 708,
             "name": "a"
           },
           "init": {
             "type": "MetaProperty",
-            "start": 710,
-            "end": 721,
+            "start": 711,
+            "end": 722,
             "meta": {
               "type": "Identifier",
-              "start": 710,
-              "end": 716,
+              "start": 711,
+              "end": 717,
               "name": "import"
             },
             "property": {
               "type": "Identifier",
-              "start": 717,
-              "end": 721,
+              "start": 718,
+              "end": 722,
               "name": "meta"
             }
           }
@@ -41,27 +41,27 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 723,
-      "end": 768,
+      "start": 724,
+      "end": 769,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 727,
-          "end": 767,
+          "start": 728,
+          "end": 768,
           "id": {
             "type": "Identifier",
-            "start": 727,
-            "end": 728,
+            "start": 728,
+            "end": 729,
             "name": "b"
           },
           "init": {
             "type": "CallExpression",
-            "start": 731,
-            "end": 767,
+            "start": 732,
+            "end": 768,
             "callee": {
               "type": "FunctionExpression",
-              "start": 731,
-              "end": 765,
+              "start": 732,
+              "end": 766,
               "id": null,
               "expression": false,
               "generator": false,
@@ -69,27 +69,27 @@
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 742,
-                "end": 765,
+                "start": 743,
+                "end": 766,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 744,
-                    "end": 763,
+                    "start": 745,
+                    "end": 764,
                     "argument": {
                       "type": "MetaProperty",
-                      "start": 751,
-                      "end": 762,
+                      "start": 752,
+                      "end": 763,
                       "meta": {
                         "type": "Identifier",
-                        "start": 751,
-                        "end": 757,
+                        "start": 752,
+                        "end": 758,
                         "name": "import"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 758,
-                        "end": 762,
+                        "start": 759,
+                        "end": 763,
                         "name": "meta"
                       }
                     }
@@ -106,26 +106,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 770,
-      "end": 891,
+      "start": 771,
+      "end": 892,
       "expression": {
         "type": "CallExpression",
-        "start": 770,
-        "end": 890,
+        "start": 771,
+        "end": 891,
         "callee": {
           "type": "MemberExpression",
-          "start": 770,
-          "end": 786,
+          "start": 771,
+          "end": 787,
           "object": {
             "type": "Identifier",
-            "start": 770,
-            "end": 776,
+            "start": 771,
+            "end": 777,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 777,
-            "end": 786,
+            "start": 778,
+            "end": 787,
             "name": "sameValue"
           },
           "computed": false,
@@ -134,31 +134,31 @@
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 787,
-            "end": 798,
+            "start": 788,
+            "end": 799,
             "meta": {
               "type": "Identifier",
-              "start": 787,
-              "end": 793,
+              "start": 788,
+              "end": 794,
               "name": "import"
             },
             "property": {
               "type": "Identifier",
-              "start": 794,
-              "end": 798,
+              "start": 795,
+              "end": 799,
               "name": "meta"
             }
           },
           {
             "type": "Identifier",
-            "start": 800,
-            "end": 801,
+            "start": 801,
+            "end": 802,
             "name": "a"
           },
           {
             "type": "Literal",
-            "start": 820,
-            "end": 889,
+            "start": 821,
+            "end": 890,
             "value": "import.meta accessed directly and accessed via variable declaration"
           }
         ],
@@ -167,26 +167,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 893,
-      "end": 1015,
+      "start": 894,
+      "end": 1016,
       "expression": {
         "type": "CallExpression",
-        "start": 893,
-        "end": 1014,
+        "start": 894,
+        "end": 1015,
         "callee": {
           "type": "MemberExpression",
-          "start": 893,
-          "end": 909,
+          "start": 894,
+          "end": 910,
           "object": {
             "type": "Identifier",
-            "start": 893,
-            "end": 899,
+            "start": 894,
+            "end": 900,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 900,
-            "end": 909,
+            "start": 901,
+            "end": 910,
             "name": "sameValue"
           },
           "computed": false,
@@ -195,31 +195,31 @@
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 910,
-            "end": 921,
+            "start": 911,
+            "end": 922,
             "meta": {
               "type": "Identifier",
-              "start": 910,
-              "end": 916,
+              "start": 911,
+              "end": 917,
               "name": "import"
             },
             "property": {
               "type": "Identifier",
-              "start": 917,
-              "end": 921,
+              "start": 918,
+              "end": 922,
               "name": "meta"
             }
           },
           {
             "type": "Identifier",
-            "start": 923,
-            "end": 924,
+            "start": 924,
+            "end": 925,
             "name": "b"
           },
           {
             "type": "Literal",
-            "start": 943,
-            "end": 1013,
+            "start": 944,
+            "end": 1014,
             "value": "import.meta accessed directly and accessed via function return value"
           }
         ],

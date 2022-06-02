@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 734,
+  "end": 736,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 630,
-      "end": 641,
+      "start": 632,
+      "end": 643,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 634,
-          "end": 640,
+          "start": 636,
+          "end": 642,
           "id": {
             "type": "Identifier",
-            "start": 634,
-            "end": 635,
+            "start": 636,
+            "end": 637,
             "name": "F"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 638,
-            "end": 640,
+            "start": 640,
+            "end": 642,
             "properties": []
           }
         }
@@ -30,37 +30,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 643,
-      "end": 672,
+      "start": 645,
+      "end": 674,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 643,
-        "end": 671,
+        "start": 645,
+        "end": 673,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 643,
-          "end": 664,
+          "start": 645,
+          "end": 666,
           "object": {
             "type": "Identifier",
-            "start": 643,
-            "end": 644,
+            "start": 645,
+            "end": 646,
             "name": "F"
           },
           "property": {
             "type": "MemberExpression",
-            "start": 645,
-            "end": 663,
+            "start": 647,
+            "end": 665,
             "object": {
               "type": "Identifier",
-              "start": 645,
-              "end": 651,
+              "start": 647,
+              "end": 653,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 652,
-              "end": 663,
+              "start": 654,
+              "end": 665,
               "name": "hasInstance"
             },
             "computed": false,
@@ -71,34 +71,34 @@
         },
         "right": {
           "type": "Literal",
-          "start": 667,
-          "end": 671,
+          "start": 669,
+          "end": 673,
           "value": null
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 674,
-      "end": 733,
+      "start": 676,
+      "end": 735,
       "expression": {
         "type": "CallExpression",
-        "start": 674,
-        "end": 732,
+        "start": 676,
+        "end": 734,
         "callee": {
           "type": "MemberExpression",
-          "start": 674,
-          "end": 687,
+          "start": 676,
+          "end": 689,
           "object": {
             "type": "Identifier",
-            "start": 674,
-            "end": 680,
+            "start": 676,
+            "end": 682,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 681,
-            "end": 687,
+            "start": 683,
+            "end": 689,
             "name": "throws"
           },
           "computed": false,
@@ -107,14 +107,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 688,
-            "end": 697,
+            "start": 690,
+            "end": 699,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 699,
-            "end": 731,
+            "start": 701,
+            "end": 733,
             "id": null,
             "expression": false,
             "generator": false,
@@ -122,28 +122,28 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 710,
-              "end": 731,
+              "start": 712,
+              "end": 733,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 714,
-                  "end": 729,
+                  "start": 716,
+                  "end": 731,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 714,
-                    "end": 728,
+                    "start": 716,
+                    "end": 730,
                     "left": {
                       "type": "Literal",
-                      "start": 714,
-                      "end": 715,
+                      "start": 716,
+                      "end": 717,
                       "value": 0
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
-                      "start": 727,
-                      "end": 728,
+                      "start": 729,
+                      "end": 730,
                       "name": "F"
                     }
                   }

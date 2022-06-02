@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 916,
+  "end": 917,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 700,
-      "end": 755,
+      "start": 701,
+      "end": 756,
       "expression": {
         "type": "CallExpression",
-        "start": 700,
-        "end": 754,
+        "start": 701,
+        "end": 755,
         "callee": {
           "type": "MemberExpression",
-          "start": 700,
-          "end": 716,
+          "start": 701,
+          "end": 717,
           "object": {
             "type": "Identifier",
-            "start": 700,
-            "end": 706,
+            "start": 701,
+            "end": 707,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 707,
-            "end": 716,
+            "start": 708,
+            "end": 717,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,26 +33,26 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 717,
-            "end": 745,
+            "start": 718,
+            "end": 746,
             "object": {
               "type": "MemberExpression",
-              "start": 717,
-              "end": 740,
+              "start": 718,
+              "end": 741,
               "object": {
                 "type": "MemberExpression",
-                "start": 717,
-                "end": 735,
+                "start": 718,
+                "end": 736,
                 "object": {
                   "type": "Identifier",
-                  "start": 717,
-                  "end": 725,
+                  "start": 718,
+                  "end": 726,
                   "name": "Function"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 726,
-                  "end": 735,
+                  "start": 727,
+                  "end": 736,
                   "name": "prototype"
                 },
                 "computed": false,
@@ -60,8 +60,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 736,
-                "end": 740,
+                "start": 737,
+                "end": 741,
                 "name": "call"
               },
               "computed": false,
@@ -69,8 +69,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 741,
-              "end": 745,
+              "start": 742,
+              "end": 746,
               "name": "name"
             },
             "computed": false,
@@ -78,8 +78,8 @@
           },
           {
             "type": "Literal",
-            "start": 747,
-            "end": 753,
+            "start": 748,
+            "end": 754,
             "value": "call"
           }
         ],
@@ -88,37 +88,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 757,
-      "end": 810,
+      "start": 758,
+      "end": 811,
       "expression": {
         "type": "CallExpression",
-        "start": 757,
-        "end": 809,
+        "start": 758,
+        "end": 810,
         "callee": {
           "type": "Identifier",
-          "start": 757,
-          "end": 776,
+          "start": 758,
+          "end": 777,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 777,
-            "end": 800,
+            "start": 778,
+            "end": 801,
             "object": {
               "type": "MemberExpression",
-              "start": 777,
-              "end": 795,
+              "start": 778,
+              "end": 796,
               "object": {
                 "type": "Identifier",
-                "start": 777,
-                "end": 785,
+                "start": 778,
+                "end": 786,
                 "name": "Function"
               },
               "property": {
                 "type": "Identifier",
-                "start": 786,
-                "end": 795,
+                "start": 787,
+                "end": 796,
                 "name": "prototype"
               },
               "computed": false,
@@ -126,8 +126,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 796,
-              "end": 800,
+              "start": 797,
+              "end": 801,
               "name": "call"
             },
             "computed": false,
@@ -135,8 +135,8 @@
           },
           {
             "type": "Literal",
-            "start": 802,
-            "end": 808,
+            "start": 803,
+            "end": 809,
             "value": "name"
           }
         ],
@@ -145,37 +145,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 811,
-      "end": 862,
+      "start": 812,
+      "end": 863,
       "expression": {
         "type": "CallExpression",
-        "start": 811,
-        "end": 861,
+        "start": 812,
+        "end": 862,
         "callee": {
           "type": "Identifier",
-          "start": 811,
-          "end": 828,
+          "start": 812,
+          "end": 829,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 829,
-            "end": 852,
+            "start": 830,
+            "end": 853,
             "object": {
               "type": "MemberExpression",
-              "start": 829,
-              "end": 847,
+              "start": 830,
+              "end": 848,
               "object": {
                 "type": "Identifier",
-                "start": 829,
-                "end": 837,
+                "start": 830,
+                "end": 838,
                 "name": "Function"
               },
               "property": {
                 "type": "Identifier",
-                "start": 838,
-                "end": 847,
+                "start": 839,
+                "end": 848,
                 "name": "prototype"
               },
               "computed": false,
@@ -183,8 +183,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 848,
-              "end": 852,
+              "start": 849,
+              "end": 853,
               "name": "call"
             },
             "computed": false,
@@ -192,8 +192,8 @@
           },
           {
             "type": "Literal",
-            "start": 854,
-            "end": 860,
+            "start": 855,
+            "end": 861,
             "value": "name"
           }
         ],
@@ -202,37 +202,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 863,
-      "end": 915,
+      "start": 864,
+      "end": 916,
       "expression": {
         "type": "CallExpression",
-        "start": 863,
-        "end": 914,
+        "start": 864,
+        "end": 915,
         "callee": {
           "type": "Identifier",
-          "start": 863,
-          "end": 881,
+          "start": 864,
+          "end": 882,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 882,
-            "end": 905,
+            "start": 883,
+            "end": 906,
             "object": {
               "type": "MemberExpression",
-              "start": 882,
-              "end": 900,
+              "start": 883,
+              "end": 901,
               "object": {
                 "type": "Identifier",
-                "start": 882,
-                "end": 890,
+                "start": 883,
+                "end": 891,
                 "name": "Function"
               },
               "property": {
                 "type": "Identifier",
-                "start": 891,
-                "end": 900,
+                "start": 892,
+                "end": 901,
                 "name": "prototype"
               },
               "computed": false,
@@ -240,8 +240,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 901,
-              "end": 905,
+              "start": 902,
+              "end": 906,
               "name": "call"
             },
             "computed": false,
@@ -249,8 +249,8 @@
           },
           {
             "type": "Literal",
-            "start": 907,
-            "end": 913,
+            "start": 908,
+            "end": 914,
             "value": "name"
           }
         ],

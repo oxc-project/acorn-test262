@@ -1,37 +1,37 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 591,
+  "end": 593,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 477,
-      "end": 590,
+      "start": 479,
+      "end": 592,
       "expression": {
         "type": "CallExpression",
-        "start": 477,
-        "end": 589,
+        "start": 479,
+        "end": 591,
         "callee": {
           "type": "Identifier",
-          "start": 477,
-          "end": 487,
+          "start": 479,
+          "end": 489,
           "name": "testOption"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 488,
-            "end": 507,
+            "start": 490,
+            "end": 509,
             "object": {
               "type": "Identifier",
-              "start": 488,
-              "end": 492,
+              "start": 490,
+              "end": 494,
               "name": "Intl"
             },
             "property": {
               "type": "Identifier",
-              "start": 493,
-              "end": 507,
+              "start": 495,
+              "end": 509,
               "name": "DurationFormat"
             },
             "computed": false,
@@ -39,63 +39,63 @@
           },
           {
             "type": "Literal",
-            "start": 509,
-            "end": 524,
+            "start": 511,
+            "end": 526,
             "value": "localeMatcher"
           },
           {
             "type": "Literal",
-            "start": 526,
-            "end": 534,
+            "start": 528,
+            "end": 536,
             "value": "string"
           },
           {
             "type": "ArrayExpression",
-            "start": 536,
-            "end": 558,
+            "start": 538,
+            "end": 560,
             "elements": [
               {
                 "type": "Literal",
-                "start": 537,
-                "end": 545,
+                "start": 539,
+                "end": 547,
                 "value": "lookup"
               },
               {
                 "type": "Literal",
-                "start": 547,
-                "end": 557,
+                "start": 549,
+                "end": 559,
                 "value": "best fit"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 560,
-            "end": 570,
+            "start": 562,
+            "end": 572,
             "value": "best fit"
           },
           {
             "type": "ObjectExpression",
-            "start": 572,
-            "end": 588,
+            "start": 574,
+            "end": 590,
             "properties": [
               {
                 "type": "Property",
-                "start": 573,
-                "end": 587,
+                "start": 575,
+                "end": 589,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 573,
-                  "end": 581,
+                  "start": 575,
+                  "end": 583,
                   "name": "noReturn"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 583,
-                  "end": 587,
+                  "start": 585,
+                  "end": 589,
                   "value": true
                 },
                 "kind": "init"

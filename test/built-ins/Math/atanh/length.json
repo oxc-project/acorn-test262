@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1067,
+  "end": 1071,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 900,
-      "end": 939,
+      "start": 904,
+      "end": 943,
       "expression": {
         "type": "CallExpression",
-        "start": 900,
-        "end": 938,
+        "start": 904,
+        "end": 942,
         "callee": {
           "type": "MemberExpression",
-          "start": 900,
-          "end": 916,
+          "start": 904,
+          "end": 920,
           "object": {
             "type": "Identifier",
-            "start": 900,
-            "end": 906,
+            "start": 904,
+            "end": 910,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 907,
-            "end": 916,
+            "start": 911,
+            "end": 920,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 917,
-            "end": 934,
+            "start": 921,
+            "end": 938,
             "object": {
               "type": "MemberExpression",
-              "start": 917,
-              "end": 927,
+              "start": 921,
+              "end": 931,
               "object": {
                 "type": "Identifier",
-                "start": 917,
-                "end": 921,
+                "start": 921,
+                "end": 925,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 922,
-                "end": 927,
+                "start": 926,
+                "end": 931,
                 "name": "atanh"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 928,
-              "end": 934,
+              "start": 932,
+              "end": 938,
               "name": "length"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Literal",
-            "start": 936,
-            "end": 937,
+            "start": 940,
+            "end": 941,
             "value": 1
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 941,
-      "end": 983,
+      "start": 945,
+      "end": 987,
       "expression": {
         "type": "CallExpression",
-        "start": 941,
-        "end": 982,
+        "start": 945,
+        "end": 986,
         "callee": {
           "type": "Identifier",
-          "start": 941,
-          "end": 960,
+          "start": 945,
+          "end": 964,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 961,
-            "end": 971,
+            "start": 965,
+            "end": 975,
             "object": {
               "type": "Identifier",
-              "start": 961,
-              "end": 965,
+              "start": 965,
+              "end": 969,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 966,
-              "end": 971,
+              "start": 970,
+              "end": 975,
               "name": "atanh"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 973,
-            "end": 981,
+            "start": 977,
+            "end": 985,
             "value": "length"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 984,
-      "end": 1024,
+      "start": 988,
+      "end": 1028,
       "expression": {
         "type": "CallExpression",
-        "start": 984,
-        "end": 1023,
+        "start": 988,
+        "end": 1027,
         "callee": {
           "type": "Identifier",
-          "start": 984,
-          "end": 1001,
+          "start": 988,
+          "end": 1005,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1002,
-            "end": 1012,
+            "start": 1006,
+            "end": 1016,
             "object": {
               "type": "Identifier",
-              "start": 1002,
-              "end": 1006,
+              "start": 1006,
+              "end": 1010,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 1007,
-              "end": 1012,
+              "start": 1011,
+              "end": 1016,
               "name": "atanh"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 1014,
-            "end": 1022,
+            "start": 1018,
+            "end": 1026,
             "value": "length"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1025,
-      "end": 1066,
+      "start": 1029,
+      "end": 1070,
       "expression": {
         "type": "CallExpression",
-        "start": 1025,
-        "end": 1065,
+        "start": 1029,
+        "end": 1069,
         "callee": {
           "type": "Identifier",
-          "start": 1025,
-          "end": 1043,
+          "start": 1029,
+          "end": 1047,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1044,
-            "end": 1054,
+            "start": 1048,
+            "end": 1058,
             "object": {
               "type": "Identifier",
-              "start": 1044,
-              "end": 1048,
+              "start": 1048,
+              "end": 1052,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 1049,
-              "end": 1054,
+              "start": 1053,
+              "end": 1058,
               "name": "atanh"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 1056,
-            "end": 1064,
+            "start": 1060,
+            "end": 1068,
             "value": "length"
           }
         ],

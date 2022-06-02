@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 878,
+  "end": 879,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 596,
-      "end": 663,
+      "start": 597,
+      "end": 664,
       "expression": {
         "type": "CallExpression",
-        "start": 596,
-        "end": 662,
+        "start": 597,
+        "end": 663,
         "callee": {
           "type": "MemberExpression",
-          "start": 596,
-          "end": 612,
+          "start": 597,
+          "end": 613,
           "object": {
             "type": "Identifier",
-            "start": 596,
-            "end": 602,
+            "start": 597,
+            "end": 603,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 603,
-            "end": 612,
+            "start": 604,
+            "end": 613,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 613,
-            "end": 658,
+            "start": 614,
+            "end": 659,
             "object": {
               "type": "MemberExpression",
-              "start": 613,
-              "end": 640,
+              "start": 614,
+              "end": 641,
               "object": {
                 "type": "Identifier",
-                "start": 613,
-                "end": 630,
+                "start": 614,
+                "end": 631,
                 "name": "Uint8ClampedArray"
               },
               "property": {
                 "type": "Identifier",
-                "start": 631,
-                "end": 640,
+                "start": 632,
+                "end": 641,
                 "name": "prototype"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 641,
-              "end": 658,
+              "start": 642,
+              "end": 659,
               "name": "BYTES_PER_ELEMENT"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Literal",
-            "start": 660,
-            "end": 661,
+            "start": 661,
+            "end": 662,
             "value": 1
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 665,
-      "end": 735,
+      "start": 666,
+      "end": 736,
       "expression": {
         "type": "CallExpression",
-        "start": 665,
-        "end": 734,
+        "start": 666,
+        "end": 735,
         "callee": {
           "type": "Identifier",
-          "start": 665,
-          "end": 684,
+          "start": 666,
+          "end": 685,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 685,
-            "end": 712,
+            "start": 686,
+            "end": 713,
             "object": {
               "type": "Identifier",
-              "start": 685,
-              "end": 702,
+              "start": 686,
+              "end": 703,
               "name": "Uint8ClampedArray"
             },
             "property": {
               "type": "Identifier",
-              "start": 703,
-              "end": 712,
+              "start": 704,
+              "end": 713,
               "name": "prototype"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 714,
-            "end": 733,
+            "start": 715,
+            "end": 734,
             "value": "BYTES_PER_ELEMENT"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 736,
-      "end": 804,
+      "start": 737,
+      "end": 805,
       "expression": {
         "type": "CallExpression",
-        "start": 736,
-        "end": 803,
+        "start": 737,
+        "end": 804,
         "callee": {
           "type": "Identifier",
-          "start": 736,
-          "end": 753,
+          "start": 737,
+          "end": 754,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 754,
-            "end": 781,
+            "start": 755,
+            "end": 782,
             "object": {
               "type": "Identifier",
-              "start": 754,
-              "end": 771,
+              "start": 755,
+              "end": 772,
               "name": "Uint8ClampedArray"
             },
             "property": {
               "type": "Identifier",
-              "start": 772,
-              "end": 781,
+              "start": 773,
+              "end": 782,
               "name": "prototype"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 783,
-            "end": 802,
+            "start": 784,
+            "end": 803,
             "value": "BYTES_PER_ELEMENT"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 805,
-      "end": 877,
+      "start": 806,
+      "end": 878,
       "expression": {
         "type": "CallExpression",
-        "start": 805,
-        "end": 876,
+        "start": 806,
+        "end": 877,
         "callee": {
           "type": "Identifier",
-          "start": 805,
-          "end": 826,
+          "start": 806,
+          "end": 827,
           "name": "verifyNotConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 827,
-            "end": 854,
+            "start": 828,
+            "end": 855,
             "object": {
               "type": "Identifier",
-              "start": 827,
-              "end": 844,
+              "start": 828,
+              "end": 845,
               "name": "Uint8ClampedArray"
             },
             "property": {
               "type": "Identifier",
-              "start": 845,
-              "end": 854,
+              "start": 846,
+              "end": 855,
               "name": "prototype"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 856,
-            "end": 875,
+            "start": 857,
+            "end": 876,
             "value": "BYTES_PER_ELEMENT"
           }
         ],

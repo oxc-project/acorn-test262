@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 984,
+  "end": 986,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 855,
-      "end": 895,
+      "start": 857,
+      "end": 897,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 859,
-          "end": 894,
+          "start": 861,
+          "end": 896,
           "id": {
             "type": "Identifier",
-            "start": 859,
-            "end": 865,
+            "start": 861,
+            "end": 867,
             "name": "result"
           },
           "init": {
             "type": "CallExpression",
-            "start": 868,
-            "end": 894,
+            "start": 870,
+            "end": 896,
             "callee": {
               "type": "Identifier",
-              "start": 868,
-              "end": 872,
+              "start": 870,
+              "end": 874,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 873,
-                "end": 893,
+                "start": 875,
+                "end": 895,
                 "value": "class C {}{x: 42};"
               }
             ],
@@ -44,26 +44,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 897,
-      "end": 983,
+      "start": 899,
+      "end": 985,
       "expression": {
         "type": "CallExpression",
-        "start": 897,
-        "end": 982,
+        "start": 899,
+        "end": 984,
         "callee": {
           "type": "MemberExpression",
-          "start": 897,
-          "end": 913,
+          "start": 899,
+          "end": 915,
           "object": {
             "type": "Identifier",
-            "start": 897,
-            "end": 903,
+            "start": 899,
+            "end": 905,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 904,
-            "end": 913,
+            "start": 906,
+            "end": 915,
             "name": "sameValue"
           },
           "computed": false,
@@ -72,20 +72,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 914,
-            "end": 920,
+            "start": 916,
+            "end": 922,
             "name": "result"
           },
           {
             "type": "Literal",
-            "start": 922,
-            "end": 924,
+            "start": 924,
+            "end": 926,
             "value": 42
           },
           {
             "type": "Literal",
-            "start": 926,
-            "end": 981,
+            "start": 928,
+            "end": 983,
             "value": "it does not evaluate to an Object with the property x"
           }
         ],

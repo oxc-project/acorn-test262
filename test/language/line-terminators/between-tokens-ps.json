@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 369,
+  "end": 377,
   "body": [
     {
       "type": "VariableDeclaration",
       "start": 332,
-      "end": 343,
+      "end": 351,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 336,
-          "end": 341,
+          "start": 338,
+          "end": 347,
           "id": {
             "type": "Identifier",
-            "start": 336,
-            "end": 337,
+            "start": 338,
+            "end": 339,
             "name": "x"
           },
           "init": {
             "type": "Literal",
-            "start": 340,
-            "end": 341,
+            "start": 346,
+            "end": 347,
             "value": 1
           }
         }
@@ -30,26 +30,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 345,
-      "end": 368,
+      "start": 353,
+      "end": 376,
       "expression": {
         "type": "CallExpression",
-        "start": 345,
-        "end": 367,
+        "start": 353,
+        "end": 375,
         "callee": {
           "type": "MemberExpression",
-          "start": 345,
-          "end": 361,
+          "start": 353,
+          "end": 369,
           "object": {
             "type": "Identifier",
-            "start": 345,
-            "end": 351,
+            "start": 353,
+            "end": 359,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 352,
-            "end": 361,
+            "start": 360,
+            "end": 369,
             "name": "sameValue"
           },
           "computed": false,
@@ -58,14 +58,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 362,
-            "end": 363,
+            "start": 370,
+            "end": 371,
             "name": "x"
           },
           {
             "type": "Literal",
-            "start": 365,
-            "end": 366,
+            "start": 373,
+            "end": 374,
             "value": 1
           }
         ],

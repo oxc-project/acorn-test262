@@ -1,26 +1,26 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 436,
+  "end": 437,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 423,
-      "end": 435,
+      "start": 424,
+      "end": 436,
       "expression": {
         "type": "MetaProperty",
-        "start": 423,
-        "end": 434,
+        "start": 424,
+        "end": 435,
         "meta": {
           "type": "Identifier",
-          "start": 423,
-          "end": 429,
+          "start": 424,
+          "end": 430,
           "name": "import"
         },
         "property": {
           "type": "Identifier",
-          "start": 430,
-          "end": 434,
+          "start": 431,
+          "end": 435,
           "name": "meta"
         }
       }

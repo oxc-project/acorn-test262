@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 857,
+  "end": 858,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 604,
-      "end": 738,
+      "start": 605,
+      "end": 739,
       "expression": {
         "type": "CallExpression",
-        "start": 604,
-        "end": 737,
+        "start": 605,
+        "end": 738,
         "callee": {
           "type": "MemberExpression",
-          "start": 604,
-          "end": 620,
+          "start": 605,
+          "end": 621,
           "object": {
             "type": "Identifier",
-            "start": 604,
-            "end": 610,
+            "start": 605,
+            "end": 611,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 611,
-            "end": 620,
+            "start": 612,
+            "end": 621,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 621,
-            "end": 682,
+            "start": 622,
+            "end": 683,
             "callee": {
               "type": "MemberExpression",
-              "start": 621,
-              "end": 629,
+              "start": 622,
+              "end": 630,
               "object": {
                 "type": "Identifier",
-                "start": 621,
-                "end": 625,
+                "start": 622,
+                "end": 626,
                 "name": "Date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 626,
-                "end": 629,
+                "start": 627,
+                "end": 630,
                 "name": "UTC"
               },
               "computed": false,
@@ -57,50 +57,50 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 630,
-                "end": 634,
+                "start": 631,
+                "end": 635,
                 "value": 1970
               },
               {
                 "type": "Literal",
-                "start": 636,
-                "end": 637,
+                "start": 637,
+                "end": 638,
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 639,
-                "end": 640,
+                "start": 640,
+                "end": 641,
                 "value": 1
               },
               {
                 "type": "Literal",
-                "start": 642,
-                "end": 653,
+                "start": 643,
+                "end": 654,
                 "value": 80063993375
               },
               {
                 "type": "Literal",
-                "start": 655,
-                "end": 657,
+                "start": 656,
+                "end": 658,
                 "value": 29
               },
               {
                 "type": "Literal",
-                "start": 659,
-                "end": 660,
+                "start": 660,
+                "end": 661,
                 "value": 1
               },
               {
                 "type": "UnaryExpression",
-                "start": 662,
-                "end": 681,
+                "start": 663,
+                "end": 682,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 663,
-                  "end": 681,
+                  "start": 664,
+                  "end": 682,
                   "value": 288230376151711740
                 }
               }
@@ -109,14 +109,14 @@
           },
           {
             "type": "Literal",
-            "start": 684,
-            "end": 689,
+            "start": 685,
+            "end": 690,
             "value": 29312
           },
           {
             "type": "Literal",
-            "start": 691,
-            "end": 736,
+            "start": 692,
+            "end": 737,
             "value": "order of operations / precision in MakeTime"
           }
         ],
@@ -125,26 +125,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 739,
-      "end": 856,
+      "start": 740,
+      "end": 857,
       "expression": {
         "type": "CallExpression",
-        "start": 739,
-        "end": 855,
+        "start": 740,
+        "end": 856,
         "callee": {
           "type": "MemberExpression",
-          "start": 739,
-          "end": 755,
+          "start": 740,
+          "end": 756,
           "object": {
             "type": "Identifier",
-            "start": 739,
-            "end": 745,
+            "start": 740,
+            "end": 746,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 746,
-            "end": 755,
+            "start": 747,
+            "end": 756,
             "name": "sameValue"
           },
           "computed": false,
@@ -153,22 +153,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 756,
-            "end": 819,
+            "start": 757,
+            "end": 820,
             "callee": {
               "type": "MemberExpression",
-              "start": 756,
-              "end": 764,
+              "start": 757,
+              "end": 765,
               "object": {
                 "type": "Identifier",
-                "start": 756,
-                "end": 760,
+                "start": 757,
+                "end": 761,
                 "name": "Date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 761,
-                "end": 764,
+                "start": 762,
+                "end": 765,
                 "name": "UTC"
               },
               "computed": false,
@@ -177,50 +177,50 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 765,
-                "end": 769,
+                "start": 766,
+                "end": 770,
                 "value": 1970
               },
               {
                 "type": "Literal",
-                "start": 771,
-                "end": 772,
+                "start": 772,
+                "end": 773,
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 774,
-                "end": 786,
+                "start": 775,
+                "end": 787,
                 "value": 213503982336
               },
               {
                 "type": "Literal",
-                "start": 788,
-                "end": 789,
+                "start": 789,
+                "end": 790,
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 791,
-                "end": 792,
+                "start": 792,
+                "end": 793,
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 794,
-                "end": 795,
+                "start": 795,
+                "end": 796,
                 "value": 0
               },
               {
                 "type": "UnaryExpression",
-                "start": 797,
-                "end": 818,
+                "start": 798,
+                "end": 819,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 798,
-                  "end": 818,
+                  "start": 799,
+                  "end": 819,
                   "value": 18446744073709552000
                 }
               }
@@ -229,14 +229,14 @@
           },
           {
             "type": "Literal",
-            "start": 821,
-            "end": 829,
+            "start": 822,
+            "end": 830,
             "value": 34447360
           },
           {
             "type": "Literal",
-            "start": 831,
-            "end": 854,
+            "start": 832,
+            "end": 855,
             "value": "precision in MakeDate"
           }
         ],

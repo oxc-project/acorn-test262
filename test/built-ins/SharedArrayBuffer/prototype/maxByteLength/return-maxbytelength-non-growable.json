@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 857,
+  "end": 859,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 702,
-      "end": 737,
+      "start": 704,
+      "end": 739,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 706,
-          "end": 736,
+          "start": 708,
+          "end": 738,
           "id": {
             "type": "Identifier",
-            "start": 706,
-            "end": 709,
+            "start": 708,
+            "end": 711,
             "name": "ab1"
           },
           "init": {
             "type": "NewExpression",
-            "start": 712,
-            "end": 736,
+            "start": 714,
+            "end": 738,
             "callee": {
               "type": "Identifier",
-              "start": 716,
-              "end": 733,
+              "start": 718,
+              "end": 735,
               "name": "SharedArrayBuffer"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 734,
-                "end": 735,
+                "start": 736,
+                "end": 737,
                 "value": 0
               }
             ]
@@ -43,26 +43,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 738,
-      "end": 777,
+      "start": 740,
+      "end": 779,
       "expression": {
         "type": "CallExpression",
-        "start": 738,
-        "end": 776,
+        "start": 740,
+        "end": 778,
         "callee": {
           "type": "MemberExpression",
-          "start": 738,
-          "end": 754,
+          "start": 740,
+          "end": 756,
           "object": {
             "type": "Identifier",
-            "start": 738,
-            "end": 744,
+            "start": 740,
+            "end": 746,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 745,
-            "end": 754,
+            "start": 747,
+            "end": 756,
             "name": "sameValue"
           },
           "computed": false,
@@ -71,18 +71,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 755,
-            "end": 772,
+            "start": 757,
+            "end": 774,
             "object": {
               "type": "Identifier",
-              "start": 755,
-              "end": 758,
+              "start": 757,
+              "end": 760,
               "name": "ab1"
             },
             "property": {
               "type": "Identifier",
-              "start": 759,
-              "end": 772,
+              "start": 761,
+              "end": 774,
               "name": "maxByteLength"
             },
             "computed": false,
@@ -90,8 +90,8 @@
           },
           {
             "type": "Literal",
-            "start": 774,
-            "end": 775,
+            "start": 776,
+            "end": 777,
             "value": 0
           }
         ],
@@ -100,34 +100,34 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 779,
-      "end": 815,
+      "start": 781,
+      "end": 817,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 783,
-          "end": 814,
+          "start": 785,
+          "end": 816,
           "id": {
             "type": "Identifier",
-            "start": 783,
-            "end": 786,
+            "start": 785,
+            "end": 788,
             "name": "ab2"
           },
           "init": {
             "type": "NewExpression",
-            "start": 789,
-            "end": 814,
+            "start": 791,
+            "end": 816,
             "callee": {
               "type": "Identifier",
-              "start": 793,
-              "end": 810,
+              "start": 795,
+              "end": 812,
               "name": "SharedArrayBuffer"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 811,
-                "end": 813,
+                "start": 813,
+                "end": 815,
                 "value": 42
               }
             ]
@@ -138,26 +138,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 816,
-      "end": 856,
+      "start": 818,
+      "end": 858,
       "expression": {
         "type": "CallExpression",
-        "start": 816,
-        "end": 855,
+        "start": 818,
+        "end": 857,
         "callee": {
           "type": "MemberExpression",
-          "start": 816,
-          "end": 832,
+          "start": 818,
+          "end": 834,
           "object": {
             "type": "Identifier",
-            "start": 816,
-            "end": 822,
+            "start": 818,
+            "end": 824,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 823,
-            "end": 832,
+            "start": 825,
+            "end": 834,
             "name": "sameValue"
           },
           "computed": false,
@@ -166,18 +166,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 833,
-            "end": 850,
+            "start": 835,
+            "end": 852,
             "object": {
               "type": "Identifier",
-              "start": 833,
-              "end": 836,
+              "start": 835,
+              "end": 838,
               "name": "ab2"
             },
             "property": {
               "type": "Identifier",
-              "start": 837,
-              "end": 850,
+              "start": 839,
+              "end": 852,
               "name": "maxByteLength"
             },
             "computed": false,
@@ -185,8 +185,8 @@
           },
           {
             "type": "Literal",
-            "start": 852,
-            "end": 854,
+            "start": 854,
+            "end": 856,
             "value": 42
           }
         ],

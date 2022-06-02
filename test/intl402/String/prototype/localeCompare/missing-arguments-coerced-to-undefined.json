@@ -1,17 +1,17 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 869,
+  "end": 875,
   "body": [
     {
       "type": "VariableDeclaration",
       "start": 328,
-      "end": 420,
+      "end": 426,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 332,
-          "end": 419,
+          "end": 425,
           "id": {
             "type": "Identifier",
             "start": 332,
@@ -21,7 +21,7 @@
           "init": {
             "type": "ArrayExpression",
             "start": 345,
-            "end": 419,
+            "end": 425,
             "elements": [
               {
                 "type": "Literal",
@@ -68,7 +68,7 @@
               {
                 "type": "Literal",
                 "start": 413,
-                "end": 418,
+                "end": 424,
                 "value": "未定义"
               }
             ]
@@ -79,17 +79,17 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 422,
-      "end": 428,
+      "start": 428,
+      "end": 434,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 426,
-          "end": 427,
+          "start": 432,
+          "end": 433,
           "id": {
             "type": "Identifier",
-            "start": 426,
-            "end": 427,
+            "start": 432,
+            "end": 433,
             "name": "i"
           },
           "init": null
@@ -99,51 +99,51 @@
     },
     {
       "type": "ForStatement",
-      "start": 429,
-      "end": 868,
+      "start": 435,
+      "end": 874,
       "init": {
         "type": "AssignmentExpression",
-        "start": 434,
-        "end": 439,
+        "start": 440,
+        "end": 445,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 434,
-          "end": 435,
+          "start": 440,
+          "end": 441,
           "name": "i"
         },
         "right": {
           "type": "Literal",
-          "start": 438,
-          "end": 439,
+          "start": 444,
+          "end": 445,
           "value": 0
         }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 441,
-        "end": 462,
+        "start": 447,
+        "end": 468,
         "left": {
           "type": "Identifier",
-          "start": 441,
-          "end": 442,
+          "start": 447,
+          "end": 448,
           "name": "i"
         },
         "operator": "<",
         "right": {
           "type": "MemberExpression",
-          "start": 445,
-          "end": 462,
+          "start": 451,
+          "end": 468,
           "object": {
             "type": "Identifier",
-            "start": 445,
-            "end": 455,
+            "start": 451,
+            "end": 461,
             "name": "thisValues"
           },
           "property": {
             "type": "Identifier",
-            "start": 456,
-            "end": 462,
+            "start": 462,
+            "end": 468,
             "name": "length"
           },
           "computed": false,
@@ -152,51 +152,51 @@
       },
       "update": {
         "type": "UpdateExpression",
-        "start": 464,
-        "end": 467,
+        "start": 470,
+        "end": 473,
         "operator": "++",
         "prefix": false,
         "argument": {
           "type": "Identifier",
-          "start": 464,
-          "end": 465,
+          "start": 470,
+          "end": 471,
           "name": "i"
         }
       },
       "body": {
         "type": "BlockStatement",
-        "start": 469,
-        "end": 868,
+        "start": 475,
+        "end": 874,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 475,
-            "end": 505,
+            "start": 481,
+            "end": 511,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 479,
-                "end": 504,
+                "start": 485,
+                "end": 510,
                 "id": {
                   "type": "Identifier",
-                  "start": 479,
-                  "end": 488,
+                  "start": 485,
+                  "end": 494,
                   "name": "thisValue"
                 },
                 "init": {
                   "type": "MemberExpression",
-                  "start": 491,
-                  "end": 504,
+                  "start": 497,
+                  "end": 510,
                   "object": {
                     "type": "Identifier",
-                    "start": 491,
-                    "end": 501,
+                    "start": 497,
+                    "end": 507,
                     "name": "thisValues"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 502,
-                    "end": 503,
+                    "start": 508,
+                    "end": 509,
                     "name": "i"
                   },
                   "computed": true,
@@ -208,26 +208,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 510,
-            "end": 677,
+            "start": 516,
+            "end": 683,
             "expression": {
               "type": "CallExpression",
-              "start": 510,
-              "end": 676,
+              "start": 516,
+              "end": 682,
               "callee": {
                 "type": "MemberExpression",
-                "start": 510,
-                "end": 526,
+                "start": 516,
+                "end": 532,
                 "object": {
                   "type": "Identifier",
-                  "start": 510,
-                  "end": 516,
+                  "start": 516,
+                  "end": 522,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 517,
-                  "end": 526,
+                  "start": 523,
+                  "end": 532,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -236,22 +236,22 @@
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 527,
-                  "end": 552,
+                  "start": 533,
+                  "end": 558,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 527,
-                    "end": 550,
+                    "start": 533,
+                    "end": 556,
                     "object": {
                       "type": "Identifier",
-                      "start": 527,
-                      "end": 536,
+                      "start": 533,
+                      "end": 542,
                       "name": "thisValue"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 537,
-                      "end": 550,
+                      "start": 543,
+                      "end": 556,
                       "name": "localeCompare"
                     },
                     "computed": false,
@@ -262,22 +262,22 @@
                 },
                 {
                   "type": "CallExpression",
-                  "start": 554,
-                  "end": 588,
+                  "start": 560,
+                  "end": 594,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 554,
-                    "end": 577,
+                    "start": 560,
+                    "end": 583,
                     "object": {
                       "type": "Identifier",
-                      "start": 554,
-                      "end": 563,
+                      "start": 560,
+                      "end": 569,
                       "name": "thisValue"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 564,
-                      "end": 577,
+                      "start": 570,
+                      "end": 583,
                       "name": "localeCompare"
                     },
                     "computed": false,
@@ -286,8 +286,8 @@
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 578,
-                      "end": 587,
+                      "start": 584,
+                      "end": 593,
                       "name": "undefined"
                     }
                   ],
@@ -295,8 +295,8 @@
                 },
                 {
                   "type": "Literal",
-                  "start": 590,
-                  "end": 675,
+                  "start": 596,
+                  "end": 681,
                   "value": "String.prototype.localeCompare does not treat missing 'that' argument as undefined."
                 }
               ],
@@ -305,26 +305,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 682,
-            "end": 866,
+            "start": 688,
+            "end": 872,
             "expression": {
               "type": "CallExpression",
-              "start": 682,
-              "end": 865,
+              "start": 688,
+              "end": 871,
               "callee": {
                 "type": "MemberExpression",
-                "start": 682,
-                "end": 698,
+                "start": 688,
+                "end": 704,
                 "object": {
                   "type": "Identifier",
-                  "start": 682,
-                  "end": 688,
+                  "start": 688,
+                  "end": 694,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 689,
-                  "end": 698,
+                  "start": 695,
+                  "end": 704,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -333,22 +333,22 @@
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 699,
-                  "end": 733,
+                  "start": 705,
+                  "end": 739,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 699,
-                    "end": 722,
+                    "start": 705,
+                    "end": 728,
                     "object": {
                       "type": "Identifier",
-                      "start": 699,
-                      "end": 708,
+                      "start": 705,
+                      "end": 714,
                       "name": "thisValue"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 709,
-                      "end": 722,
+                      "start": 715,
+                      "end": 728,
                       "name": "localeCompare"
                     },
                     "computed": false,
@@ -357,8 +357,8 @@
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 723,
-                      "end": 732,
+                      "start": 729,
+                      "end": 738,
                       "name": "undefined"
                     }
                   ],
@@ -366,22 +366,22 @@
                 },
                 {
                   "type": "CallExpression",
-                  "start": 735,
-                  "end": 771,
+                  "start": 741,
+                  "end": 777,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 735,
-                    "end": 758,
+                    "start": 741,
+                    "end": 764,
                     "object": {
                       "type": "Identifier",
-                      "start": 735,
-                      "end": 744,
+                      "start": 741,
+                      "end": 750,
                       "name": "thisValue"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 745,
-                      "end": 758,
+                      "start": 751,
+                      "end": 764,
                       "name": "localeCompare"
                     },
                     "computed": false,
@@ -390,8 +390,8 @@
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 759,
-                      "end": 770,
+                      "start": 765,
+                      "end": 776,
                       "value": "undefined"
                     }
                   ],
@@ -399,8 +399,8 @@
                 },
                 {
                   "type": "Literal",
-                  "start": 773,
-                  "end": 864,
+                  "start": 779,
+                  "end": 870,
                   "value": "String.prototype.localeCompare does not treat undefined 'that' argument as \"undefined\"."
                 }
               ],

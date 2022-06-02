@@ -1,0 +1,387 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 708,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 274,
+      "end": 324,
+      "id": {
+        "type": "Identifier",
+        "start": 280,
+        "end": 294,
+        "name": "CustomDuration"
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 303,
+        "end": 320,
+        "object": {
+          "type": "Identifier",
+          "start": 303,
+          "end": 311,
+          "name": "Temporal"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 312,
+          "end": 320,
+          "name": "Duration"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 321,
+        "end": 324,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 326,
+      "end": 374,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 332,
+          "end": 373,
+          "id": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 340,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 343,
+            "end": 373,
+            "callee": {
+              "type": "Identifier",
+              "start": 347,
+              "end": 361,
+              "name": "CustomDuration"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 362,
+                "end": 363,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 365,
+                "end": 366,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 368,
+                "end": 369,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 371,
+                "end": 372,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 375,
+      "end": 446,
+      "expression": {
+        "type": "CallExpression",
+        "start": 375,
+        "end": 445,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 375,
+          "end": 405,
+          "object": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 390,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 405,
+            "name": "assertDuration"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 406,
+            "end": 414,
+            "name": "instance"
+          },
+          {
+            "type": "Literal",
+            "start": 416,
+            "end": 417,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 419,
+            "end": 420,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 423,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 425,
+            "end": 426,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 429,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 431,
+            "end": 432,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 434,
+            "end": 435,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 437,
+            "end": 438,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 440,
+            "end": 441,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 443,
+            "end": 444,
+            "value": 0
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 447,
+      "end": 553,
+      "expression": {
+        "type": "CallExpression",
+        "start": 447,
+        "end": 552,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 447,
+          "end": 463,
+          "object": {
+            "type": "Identifier",
+            "start": 447,
+            "end": 453,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 454,
+            "end": 463,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 464,
+            "end": 495,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 464,
+              "end": 485,
+              "object": {
+                "type": "Identifier",
+                "start": 464,
+                "end": 470,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 471,
+                "end": 485,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 486,
+                "end": 494,
+                "name": "instance"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 497,
+            "end": 521,
+            "object": {
+              "type": "Identifier",
+              "start": 497,
+              "end": 511,
+              "name": "CustomDuration"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 512,
+              "end": 521,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 523,
+            "end": 551,
+            "value": "Instance of CustomDuration"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 554,
+      "end": 627,
+      "expression": {
+        "type": "CallExpression",
+        "start": 554,
+        "end": 626,
+        "callee": {
+          "type": "Identifier",
+          "start": 554,
+          "end": 560,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 561,
+            "end": 595,
+            "left": {
+              "type": "Identifier",
+              "start": 561,
+              "end": 569,
+              "name": "instance"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 581,
+              "end": 595,
+              "name": "CustomDuration"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 597,
+            "end": 625,
+            "value": "Instance of CustomDuration"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 628,
+      "end": 707,
+      "expression": {
+        "type": "CallExpression",
+        "start": 628,
+        "end": 706,
+        "callee": {
+          "type": "Identifier",
+          "start": 628,
+          "end": 634,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 635,
+            "end": 672,
+            "left": {
+              "type": "Identifier",
+              "start": 635,
+              "end": 643,
+              "name": "instance"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "start": 655,
+              "end": 672,
+              "object": {
+                "type": "Identifier",
+                "start": 655,
+                "end": 663,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 664,
+                "end": 672,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 674,
+            "end": 705,
+            "value": "Instance of Temporal.Duration"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

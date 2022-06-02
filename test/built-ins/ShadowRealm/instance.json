@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 872,
+  "end": 874,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 450,
-      "end": 563,
+      "start": 452,
+      "end": 565,
       "expression": {
         "type": "CallExpression",
-        "start": 450,
-        "end": 562,
+        "start": 452,
+        "end": 564,
         "callee": {
           "type": "MemberExpression",
-          "start": 450,
-          "end": 466,
+          "start": 452,
+          "end": 468,
           "object": {
             "type": "Identifier",
-            "start": 450,
-            "end": 456,
+            "start": 452,
+            "end": 458,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 457,
-            "end": 466,
+            "start": 459,
+            "end": 468,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,27 +33,27 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 470,
-            "end": 488,
+            "start": 472,
+            "end": 490,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "Identifier",
-              "start": 477,
-              "end": 488,
+              "start": 479,
+              "end": 490,
               "name": "ShadowRealm"
             }
           },
           {
             "type": "Literal",
-            "start": 492,
-            "end": 502,
+            "start": 494,
+            "end": 504,
             "value": "function"
           },
           {
             "type": "Literal",
-            "start": 506,
-            "end": 560,
+            "start": 508,
+            "end": 562,
             "value": "This test must fail if ShadowRealm is not a function"
           }
         ],
@@ -62,27 +62,27 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 565,
-      "end": 595,
+      "start": 567,
+      "end": 597,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 569,
-          "end": 594,
+          "start": 571,
+          "end": 596,
           "id": {
             "type": "Identifier",
-            "start": 569,
-            "end": 574,
+            "start": 571,
+            "end": 576,
             "name": "realm"
           },
           "init": {
             "type": "NewExpression",
-            "start": 577,
-            "end": 594,
+            "start": 579,
+            "end": 596,
             "callee": {
               "type": "Identifier",
-              "start": 581,
-              "end": 592,
+              "start": 583,
+              "end": 594,
               "name": "ShadowRealm"
             },
             "arguments": []
@@ -93,34 +93,34 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 597,
-      "end": 634,
+      "start": 599,
+      "end": 636,
       "expression": {
         "type": "CallExpression",
-        "start": 597,
-        "end": 633,
+        "start": 599,
+        "end": 635,
         "callee": {
           "type": "Identifier",
-          "start": 597,
-          "end": 603,
+          "start": 599,
+          "end": 605,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 604,
-            "end": 632,
+            "start": 606,
+            "end": 634,
             "left": {
               "type": "Identifier",
-              "start": 604,
-              "end": 609,
+              "start": 606,
+              "end": 611,
               "name": "realm"
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
-              "start": 621,
-              "end": 632,
+              "start": 623,
+              "end": 634,
               "name": "ShadowRealm"
             }
           }
@@ -130,26 +130,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 635,
-      "end": 764,
+      "start": 637,
+      "end": 766,
       "expression": {
         "type": "CallExpression",
-        "start": 635,
-        "end": 763,
+        "start": 637,
+        "end": 765,
         "callee": {
           "type": "MemberExpression",
-          "start": 635,
-          "end": 651,
+          "start": 637,
+          "end": 653,
           "object": {
             "type": "Identifier",
-            "start": 635,
-            "end": 641,
+            "start": 637,
+            "end": 643,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 642,
-            "end": 651,
+            "start": 644,
+            "end": 653,
             "name": "sameValue"
           },
           "computed": false,
@@ -158,22 +158,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 655,
-            "end": 683,
+            "start": 657,
+            "end": 685,
             "callee": {
               "type": "MemberExpression",
-              "start": 655,
-              "end": 676,
+              "start": 657,
+              "end": 678,
               "object": {
                 "type": "Identifier",
-                "start": 655,
-                "end": 661,
+                "start": 657,
+                "end": 663,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 662,
-                "end": 676,
+                "start": 664,
+                "end": 678,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -182,8 +182,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 677,
-                "end": 682,
+                "start": 679,
+                "end": 684,
                 "name": "realm"
               }
             ],
@@ -191,18 +191,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 687,
-            "end": 708,
+            "start": 689,
+            "end": 710,
             "object": {
               "type": "Identifier",
-              "start": 687,
-              "end": 698,
+              "start": 689,
+              "end": 700,
               "name": "ShadowRealm"
             },
             "property": {
               "type": "Identifier",
-              "start": 699,
-              "end": 708,
+              "start": 701,
+              "end": 710,
               "name": "prototype"
             },
             "computed": false,
@@ -210,8 +210,8 @@
           },
           {
             "type": "Literal",
-            "start": 712,
-            "end": 761,
+            "start": 714,
+            "end": 763,
             "value": "[[Prototype]] is set to %ShadowRealm.prototype%"
           }
         ],
@@ -220,27 +220,27 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 766,
-      "end": 801,
+      "start": 768,
+      "end": 803,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 770,
-          "end": 800,
+          "start": 772,
+          "end": 802,
           "id": {
             "type": "Identifier",
-            "start": 770,
-            "end": 780,
+            "start": 772,
+            "end": 782,
             "name": "otherRealm"
           },
           "init": {
             "type": "NewExpression",
-            "start": 783,
-            "end": 800,
+            "start": 785,
+            "end": 802,
             "callee": {
               "type": "Identifier",
-              "start": 787,
-              "end": 798,
+              "start": 789,
+              "end": 800,
               "name": "ShadowRealm"
             },
             "arguments": []
@@ -251,26 +251,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 802,
-      "end": 871,
+      "start": 804,
+      "end": 873,
       "expression": {
         "type": "CallExpression",
-        "start": 802,
-        "end": 870,
+        "start": 804,
+        "end": 872,
         "callee": {
           "type": "MemberExpression",
-          "start": 802,
-          "end": 821,
+          "start": 804,
+          "end": 823,
           "object": {
             "type": "Identifier",
-            "start": 802,
-            "end": 808,
+            "start": 804,
+            "end": 810,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 809,
-            "end": 821,
+            "start": 811,
+            "end": 823,
             "name": "notSameValue"
           },
           "computed": false,
@@ -279,20 +279,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 822,
-            "end": 827,
+            "start": 824,
+            "end": 829,
             "name": "realm"
           },
           {
             "type": "Identifier",
-            "start": 829,
-            "end": 839,
+            "start": 831,
+            "end": 841,
             "name": "otherRealm"
           },
           {
             "type": "Literal",
-            "start": 841,
-            "end": 869,
+            "start": 843,
+            "end": 871,
             "value": "each instance is different"
           }
         ],

@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 638,
+  "end": 640,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 449,
-      "end": 496,
+      "start": 451,
+      "end": 498,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 453,
-          "end": 495,
+          "start": 455,
+          "end": 497,
           "id": {
             "type": "Identifier",
-            "start": 453,
-            "end": 469,
+            "start": 455,
+            "end": 471,
             "name": "revocableHandler"
           },
           "init": {
             "type": "CallExpression",
-            "start": 472,
-            "end": 495,
+            "start": 474,
+            "end": 497,
             "callee": {
               "type": "MemberExpression",
-              "start": 472,
-              "end": 487,
+              "start": 474,
+              "end": 489,
               "object": {
                 "type": "Identifier",
-                "start": 472,
-                "end": 477,
+                "start": 474,
+                "end": 479,
                 "name": "Proxy"
               },
               "property": {
                 "type": "Identifier",
-                "start": 478,
-                "end": 487,
+                "start": 480,
+                "end": 489,
                 "name": "revocable"
               },
               "computed": false,
@@ -44,14 +44,14 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 488,
-                "end": 490,
+                "start": 490,
+                "end": 492,
                 "properties": []
               },
               {
                 "type": "ObjectExpression",
-                "start": 492,
-                "end": 494,
+                "start": 494,
+                "end": 496,
                 "properties": []
               }
             ],
@@ -63,26 +63,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 497,
-      "end": 523,
+      "start": 499,
+      "end": 525,
       "expression": {
         "type": "CallExpression",
-        "start": 497,
-        "end": 522,
+        "start": 499,
+        "end": 524,
         "callee": {
           "type": "MemberExpression",
-          "start": 497,
-          "end": 520,
+          "start": 499,
+          "end": 522,
           "object": {
             "type": "Identifier",
-            "start": 497,
-            "end": 513,
+            "start": 499,
+            "end": 515,
             "name": "revocableHandler"
           },
           "property": {
             "type": "Identifier",
-            "start": 514,
-            "end": 520,
+            "start": 516,
+            "end": 522,
             "name": "revoke"
           },
           "computed": false,
@@ -94,37 +94,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 525,
-      "end": 585,
+      "start": 527,
+      "end": 587,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 529,
-          "end": 584,
+          "start": 531,
+          "end": 586,
           "id": {
             "type": "Identifier",
-            "start": 529,
-            "end": 538,
+            "start": 531,
+            "end": 540,
             "name": "revocable"
           },
           "init": {
             "type": "CallExpression",
-            "start": 541,
-            "end": 584,
+            "start": 543,
+            "end": 586,
             "callee": {
               "type": "MemberExpression",
-              "start": 541,
-              "end": 556,
+              "start": 543,
+              "end": 558,
               "object": {
                 "type": "Identifier",
-                "start": 541,
-                "end": 546,
+                "start": 543,
+                "end": 548,
                 "name": "Proxy"
               },
               "property": {
                 "type": "Identifier",
-                "start": 547,
-                "end": 556,
+                "start": 549,
+                "end": 558,
                 "name": "revocable"
               },
               "computed": false,
@@ -133,24 +133,24 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 557,
-                "end": 559,
+                "start": 559,
+                "end": 561,
                 "properties": []
               },
               {
                 "type": "MemberExpression",
-                "start": 561,
-                "end": 583,
+                "start": 563,
+                "end": 585,
                 "object": {
                   "type": "Identifier",
-                  "start": 561,
-                  "end": 577,
+                  "start": 563,
+                  "end": 579,
                   "name": "revocableHandler"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 578,
-                  "end": 583,
+                  "start": 580,
+                  "end": 585,
                   "name": "proxy"
                 },
                 "computed": false,
@@ -165,26 +165,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 586,
-      "end": 637,
+      "start": 588,
+      "end": 639,
       "expression": {
         "type": "CallExpression",
-        "start": 586,
-        "end": 636,
+        "start": 588,
+        "end": 638,
         "callee": {
           "type": "MemberExpression",
-          "start": 586,
-          "end": 602,
+          "start": 588,
+          "end": 604,
           "object": {
             "type": "Identifier",
-            "start": 586,
-            "end": 592,
+            "start": 588,
+            "end": 594,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 593,
-            "end": 602,
+            "start": 595,
+            "end": 604,
             "name": "sameValue"
           },
           "computed": false,
@@ -193,24 +193,24 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 603,
-            "end": 625,
+            "start": 605,
+            "end": 627,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "MemberExpression",
-              "start": 610,
-              "end": 625,
+              "start": 612,
+              "end": 627,
               "object": {
                 "type": "Identifier",
-                "start": 610,
-                "end": 619,
+                "start": 612,
+                "end": 621,
                 "name": "revocable"
               },
               "property": {
                 "type": "Identifier",
-                "start": 620,
-                "end": 625,
+                "start": 622,
+                "end": 627,
                 "name": "proxy"
               },
               "computed": false,
@@ -219,8 +219,8 @@
           },
           {
             "type": "Literal",
-            "start": 627,
-            "end": 635,
+            "start": 629,
+            "end": 637,
             "value": "object"
           }
         ],

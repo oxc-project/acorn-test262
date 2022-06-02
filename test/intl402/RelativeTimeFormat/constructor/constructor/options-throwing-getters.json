@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 3393,
+  "end": 3399,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1315,
-      "end": 1340,
+      "start": 1321,
+      "end": 1346,
       "id": {
         "type": "Identifier",
-        "start": 1324,
-        "end": 1335,
+        "start": 1330,
+        "end": 1341,
         "name": "CustomError"
       },
       "expression": false,
@@ -19,49 +19,49 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 1338,
-        "end": 1340,
+        "start": 1344,
+        "end": 1346,
         "body": []
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 1342,
-      "end": 1699,
+      "start": 1348,
+      "end": 1705,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1348,
-          "end": 1698,
+          "start": 1354,
+          "end": 1704,
           "id": {
             "type": "Identifier",
-            "start": 1348,
-            "end": 1350,
+            "start": 1354,
+            "end": 1356,
             "name": "o1"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 1353,
-            "end": 1698,
+            "start": 1359,
+            "end": 1704,
             "properties": [
               {
                 "type": "Property",
-                "start": 1357,
-                "end": 1411,
+                "start": 1363,
+                "end": 1417,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1361,
-                  "end": 1374,
+                  "start": 1367,
+                  "end": 1380,
                   "name": "localeMatcher"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 1374,
-                  "end": 1411,
+                  "start": 1380,
+                  "end": 1417,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -69,21 +69,21 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1377,
-                    "end": 1411,
+                    "start": 1383,
+                    "end": 1417,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 1383,
-                        "end": 1407,
+                        "start": 1389,
+                        "end": 1413,
                         "argument": {
                           "type": "NewExpression",
-                          "start": 1389,
-                          "end": 1406,
+                          "start": 1395,
+                          "end": 1412,
                           "callee": {
                             "type": "Identifier",
-                            "start": 1393,
-                            "end": 1404,
+                            "start": 1399,
+                            "end": 1410,
                             "name": "CustomError"
                           },
                           "arguments": []
@@ -95,22 +95,22 @@
               },
               {
                 "type": "Property",
-                "start": 1415,
-                "end": 1518,
+                "start": 1421,
+                "end": 1524,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1419,
-                  "end": 1434,
+                  "start": 1425,
+                  "end": 1440,
                   "name": "numberingSystem"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 1434,
-                  "end": 1518,
+                  "start": 1440,
+                  "end": 1524,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -118,17 +118,17 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1437,
-                    "end": 1518,
+                    "start": 1443,
+                    "end": 1524,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 1443,
-                        "end": 1514,
+                        "start": 1449,
+                        "end": 1520,
                         "argument": {
                           "type": "Literal",
-                          "start": 1449,
-                          "end": 1513,
+                          "start": 1455,
+                          "end": 1519,
                           "value": "should not get the numberingSystem option before localeMatcher"
                         }
                       }
@@ -138,22 +138,22 @@
               },
               {
                 "type": "Property",
-                "start": 1522,
-                "end": 1605,
+                "start": 1528,
+                "end": 1611,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1526,
-                  "end": 1531,
+                  "start": 1532,
+                  "end": 1537,
                   "name": "style"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 1531,
-                  "end": 1605,
+                  "start": 1537,
+                  "end": 1611,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -161,17 +161,17 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1534,
-                    "end": 1605,
+                    "start": 1540,
+                    "end": 1611,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 1540,
-                        "end": 1601,
+                        "start": 1546,
+                        "end": 1607,
                         "argument": {
                           "type": "Literal",
-                          "start": 1546,
-                          "end": 1600,
+                          "start": 1552,
+                          "end": 1606,
                           "value": "should not get the style option before localeMatcher"
                         }
                       }
@@ -181,22 +181,22 @@
               },
               {
                 "type": "Property",
-                "start": 1609,
-                "end": 1696,
+                "start": 1615,
+                "end": 1702,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1613,
-                  "end": 1620,
+                  "start": 1619,
+                  "end": 1626,
                   "name": "numeric"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 1620,
-                  "end": 1696,
+                  "start": 1626,
+                  "end": 1702,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -204,17 +204,17 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1623,
-                    "end": 1696,
+                    "start": 1629,
+                    "end": 1702,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 1629,
-                        "end": 1692,
+                        "start": 1635,
+                        "end": 1698,
                         "argument": {
                           "type": "Literal",
-                          "start": 1635,
-                          "end": 1691,
+                          "start": 1641,
+                          "end": 1697,
                           "value": "should not get the numeric option before localeMatcher"
                         }
                       }
@@ -230,23 +230,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1701,
-      "end": 1723,
+      "start": 1707,
+      "end": 1729,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1707,
-          "end": 1722,
+          "start": 1713,
+          "end": 1728,
           "id": {
             "type": "Identifier",
-            "start": 1707,
-            "end": 1717,
+            "start": 1713,
+            "end": 1723,
             "name": "o2captures"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 1720,
-            "end": 1722,
+            "start": 1726,
+            "end": 1728,
             "elements": []
           }
         }
@@ -255,42 +255,42 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1724,
-      "end": 2047,
+      "start": 1730,
+      "end": 2053,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1730,
-          "end": 2046,
+          "start": 1736,
+          "end": 2052,
           "id": {
             "type": "Identifier",
-            "start": 1730,
-            "end": 1732,
+            "start": 1736,
+            "end": 1738,
             "name": "o2"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 1735,
-            "end": 2046,
+            "start": 1741,
+            "end": 2052,
             "properties": [
               {
                 "type": "Property",
-                "start": 1739,
-                "end": 1802,
+                "start": 1745,
+                "end": 1808,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1743,
-                  "end": 1756,
+                  "start": 1749,
+                  "end": 1762,
                   "name": "localeMatcher"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 1756,
-                  "end": 1802,
+                  "start": 1762,
+                  "end": 1808,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -298,31 +298,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1759,
-                    "end": 1802,
+                    "start": 1765,
+                    "end": 1808,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 1765,
-                        "end": 1798,
+                        "start": 1771,
+                        "end": 1804,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 1765,
-                          "end": 1797,
+                          "start": 1771,
+                          "end": 1803,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 1765,
-                            "end": 1780,
+                            "start": 1771,
+                            "end": 1786,
                             "object": {
                               "type": "Identifier",
-                              "start": 1765,
-                              "end": 1775,
+                              "start": 1771,
+                              "end": 1781,
                               "name": "o2captures"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 1776,
-                              "end": 1780,
+                              "start": 1782,
+                              "end": 1786,
                               "name": "push"
                             },
                             "computed": false,
@@ -331,8 +331,8 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 1781,
-                              "end": 1796,
+                              "start": 1787,
+                              "end": 1802,
                               "value": "localeMatcher"
                             }
                           ],
@@ -345,22 +345,22 @@
               },
               {
                 "type": "Property",
-                "start": 1806,
-                "end": 1862,
+                "start": 1812,
+                "end": 1868,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1810,
-                  "end": 1825,
+                  "start": 1816,
+                  "end": 1831,
                   "name": "numberingSystem"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 1825,
-                  "end": 1862,
+                  "start": 1831,
+                  "end": 1868,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -368,21 +368,21 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1828,
-                    "end": 1862,
+                    "start": 1834,
+                    "end": 1868,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 1834,
-                        "end": 1858,
+                        "start": 1840,
+                        "end": 1864,
                         "argument": {
                           "type": "NewExpression",
-                          "start": 1840,
-                          "end": 1857,
+                          "start": 1846,
+                          "end": 1863,
                           "callee": {
                             "type": "Identifier",
-                            "start": 1844,
-                            "end": 1855,
+                            "start": 1850,
+                            "end": 1861,
                             "name": "CustomError"
                           },
                           "arguments": []
@@ -394,22 +394,22 @@
               },
               {
                 "type": "Property",
-                "start": 1866,
-                "end": 1951,
+                "start": 1872,
+                "end": 1957,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1870,
-                  "end": 1875,
+                  "start": 1876,
+                  "end": 1881,
                   "name": "style"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 1875,
-                  "end": 1951,
+                  "start": 1881,
+                  "end": 1957,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -417,17 +417,17 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1878,
-                    "end": 1951,
+                    "start": 1884,
+                    "end": 1957,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 1884,
-                        "end": 1947,
+                        "start": 1890,
+                        "end": 1953,
                         "argument": {
                           "type": "Literal",
-                          "start": 1890,
-                          "end": 1946,
+                          "start": 1896,
+                          "end": 1952,
                           "value": "should not get the style option before numberingSystem"
                         }
                       }
@@ -437,22 +437,22 @@
               },
               {
                 "type": "Property",
-                "start": 1955,
-                "end": 2044,
+                "start": 1961,
+                "end": 2050,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1959,
-                  "end": 1966,
+                  "start": 1965,
+                  "end": 1972,
                   "name": "numeric"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 1966,
-                  "end": 2044,
+                  "start": 1972,
+                  "end": 2050,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -460,17 +460,17 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1969,
-                    "end": 2044,
+                    "start": 1975,
+                    "end": 2050,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 1975,
-                        "end": 2040,
+                        "start": 1981,
+                        "end": 2046,
                         "argument": {
                           "type": "Literal",
-                          "start": 1981,
-                          "end": 2039,
+                          "start": 1987,
+                          "end": 2045,
                           "value": "should not get the numeric option before numberingSystem"
                         }
                       }
@@ -486,23 +486,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2049,
-      "end": 2071,
+      "start": 2055,
+      "end": 2077,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2055,
-          "end": 2070,
+          "start": 2061,
+          "end": 2076,
           "id": {
             "type": "Identifier",
-            "start": 2055,
-            "end": 2065,
+            "start": 2061,
+            "end": 2071,
             "name": "o3captures"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2068,
-            "end": 2070,
+            "start": 2074,
+            "end": 2076,
             "elements": []
           }
         }
@@ -511,42 +511,42 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2072,
-      "end": 2357,
+      "start": 2078,
+      "end": 2363,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2078,
-          "end": 2356,
+          "start": 2084,
+          "end": 2362,
           "id": {
             "type": "Identifier",
-            "start": 2078,
-            "end": 2080,
+            "start": 2084,
+            "end": 2086,
             "name": "o3"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 2083,
-            "end": 2356,
+            "start": 2089,
+            "end": 2362,
             "properties": [
               {
                 "type": "Property",
-                "start": 2087,
-                "end": 2150,
+                "start": 2093,
+                "end": 2156,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2091,
-                  "end": 2104,
+                  "start": 2097,
+                  "end": 2110,
                   "name": "localeMatcher"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 2104,
-                  "end": 2150,
+                  "start": 2110,
+                  "end": 2156,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -554,31 +554,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 2107,
-                    "end": 2150,
+                    "start": 2113,
+                    "end": 2156,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 2113,
-                        "end": 2146,
+                        "start": 2119,
+                        "end": 2152,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 2113,
-                          "end": 2145,
+                          "start": 2119,
+                          "end": 2151,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 2113,
-                            "end": 2128,
+                            "start": 2119,
+                            "end": 2134,
                             "object": {
                               "type": "Identifier",
-                              "start": 2113,
-                              "end": 2123,
+                              "start": 2119,
+                              "end": 2129,
                               "name": "o3captures"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 2124,
-                              "end": 2128,
+                              "start": 2130,
+                              "end": 2134,
                               "name": "push"
                             },
                             "computed": false,
@@ -587,8 +587,8 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 2129,
-                              "end": 2144,
+                              "start": 2135,
+                              "end": 2150,
                               "value": "localeMatcher"
                             }
                           ],
@@ -601,22 +601,22 @@
               },
               {
                 "type": "Property",
-                "start": 2154,
-                "end": 2221,
+                "start": 2160,
+                "end": 2227,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2158,
-                  "end": 2173,
+                  "start": 2164,
+                  "end": 2179,
                   "name": "numberingSystem"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 2173,
-                  "end": 2221,
+                  "start": 2179,
+                  "end": 2227,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -624,31 +624,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 2176,
-                    "end": 2221,
+                    "start": 2182,
+                    "end": 2227,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 2182,
-                        "end": 2217,
+                        "start": 2188,
+                        "end": 2223,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 2182,
-                          "end": 2216,
+                          "start": 2188,
+                          "end": 2222,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 2182,
-                            "end": 2197,
+                            "start": 2188,
+                            "end": 2203,
                             "object": {
                               "type": "Identifier",
-                              "start": 2182,
-                              "end": 2192,
+                              "start": 2188,
+                              "end": 2198,
                               "name": "o3captures"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 2193,
-                              "end": 2197,
+                              "start": 2199,
+                              "end": 2203,
                               "name": "push"
                             },
                             "computed": false,
@@ -657,8 +657,8 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 2198,
-                              "end": 2215,
+                              "start": 2204,
+                              "end": 2221,
                               "value": "numberingSystem"
                             }
                           ],
@@ -671,22 +671,22 @@
               },
               {
                 "type": "Property",
-                "start": 2225,
-                "end": 2271,
+                "start": 2231,
+                "end": 2277,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2229,
-                  "end": 2234,
+                  "start": 2235,
+                  "end": 2240,
                   "name": "style"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 2234,
-                  "end": 2271,
+                  "start": 2240,
+                  "end": 2277,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -694,21 +694,21 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 2237,
-                    "end": 2271,
+                    "start": 2243,
+                    "end": 2277,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 2243,
-                        "end": 2267,
+                        "start": 2249,
+                        "end": 2273,
                         "argument": {
                           "type": "NewExpression",
-                          "start": 2249,
-                          "end": 2266,
+                          "start": 2255,
+                          "end": 2272,
                           "callee": {
                             "type": "Identifier",
-                            "start": 2253,
-                            "end": 2264,
+                            "start": 2259,
+                            "end": 2270,
                             "name": "CustomError"
                           },
                           "arguments": []
@@ -720,22 +720,22 @@
               },
               {
                 "type": "Property",
-                "start": 2275,
-                "end": 2354,
+                "start": 2281,
+                "end": 2360,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2279,
-                  "end": 2286,
+                  "start": 2285,
+                  "end": 2292,
                   "name": "numeric"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 2286,
-                  "end": 2354,
+                  "start": 2292,
+                  "end": 2360,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -743,17 +743,17 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 2289,
-                    "end": 2354,
+                    "start": 2295,
+                    "end": 2360,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 2295,
-                        "end": 2350,
+                        "start": 2301,
+                        "end": 2356,
                         "argument": {
                           "type": "Literal",
-                          "start": 2301,
-                          "end": 2349,
+                          "start": 2307,
+                          "end": 2355,
                           "value": "should not get the numeric option before style"
                         }
                       }
@@ -769,23 +769,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2359,
-      "end": 2381,
+      "start": 2365,
+      "end": 2387,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2365,
-          "end": 2380,
+          "start": 2371,
+          "end": 2386,
           "id": {
             "type": "Identifier",
-            "start": 2365,
-            "end": 2375,
+            "start": 2371,
+            "end": 2381,
             "name": "o4captures"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2378,
-            "end": 2380,
+            "start": 2384,
+            "end": 2386,
             "elements": []
           }
         }
@@ -794,42 +794,42 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2382,
-      "end": 2637,
+      "start": 2388,
+      "end": 2643,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2388,
-          "end": 2636,
+          "start": 2394,
+          "end": 2642,
           "id": {
             "type": "Identifier",
-            "start": 2388,
-            "end": 2390,
+            "start": 2394,
+            "end": 2396,
             "name": "o4"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 2393,
-            "end": 2636,
+            "start": 2399,
+            "end": 2642,
             "properties": [
               {
                 "type": "Property",
-                "start": 2397,
-                "end": 2460,
+                "start": 2403,
+                "end": 2466,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2401,
-                  "end": 2414,
+                  "start": 2407,
+                  "end": 2420,
                   "name": "localeMatcher"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 2414,
-                  "end": 2460,
+                  "start": 2420,
+                  "end": 2466,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -837,31 +837,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 2417,
-                    "end": 2460,
+                    "start": 2423,
+                    "end": 2466,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 2423,
-                        "end": 2456,
+                        "start": 2429,
+                        "end": 2462,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 2423,
-                          "end": 2455,
+                          "start": 2429,
+                          "end": 2461,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 2423,
-                            "end": 2438,
+                            "start": 2429,
+                            "end": 2444,
                             "object": {
                               "type": "Identifier",
-                              "start": 2423,
-                              "end": 2433,
+                              "start": 2429,
+                              "end": 2439,
                               "name": "o4captures"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 2434,
-                              "end": 2438,
+                              "start": 2440,
+                              "end": 2444,
                               "name": "push"
                             },
                             "computed": false,
@@ -870,8 +870,8 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 2439,
-                              "end": 2454,
+                              "start": 2445,
+                              "end": 2460,
                               "value": "localeMatcher"
                             }
                           ],
@@ -884,22 +884,22 @@
               },
               {
                 "type": "Property",
-                "start": 2464,
-                "end": 2531,
+                "start": 2470,
+                "end": 2537,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2468,
-                  "end": 2483,
+                  "start": 2474,
+                  "end": 2489,
                   "name": "numberingSystem"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 2483,
-                  "end": 2531,
+                  "start": 2489,
+                  "end": 2537,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -907,31 +907,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 2486,
-                    "end": 2531,
+                    "start": 2492,
+                    "end": 2537,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 2492,
-                        "end": 2527,
+                        "start": 2498,
+                        "end": 2533,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 2492,
-                          "end": 2526,
+                          "start": 2498,
+                          "end": 2532,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 2492,
-                            "end": 2507,
+                            "start": 2498,
+                            "end": 2513,
                             "object": {
                               "type": "Identifier",
-                              "start": 2492,
-                              "end": 2502,
+                              "start": 2498,
+                              "end": 2508,
                               "name": "o4captures"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 2503,
-                              "end": 2507,
+                              "start": 2509,
+                              "end": 2513,
                               "name": "push"
                             },
                             "computed": false,
@@ -940,8 +940,8 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 2508,
-                              "end": 2525,
+                              "start": 2514,
+                              "end": 2531,
                               "value": "numberingSystem"
                             }
                           ],
@@ -954,22 +954,22 @@
               },
               {
                 "type": "Property",
-                "start": 2535,
-                "end": 2582,
+                "start": 2541,
+                "end": 2588,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2539,
-                  "end": 2544,
+                  "start": 2545,
+                  "end": 2550,
                   "name": "style"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 2544,
-                  "end": 2582,
+                  "start": 2550,
+                  "end": 2588,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -977,31 +977,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 2547,
-                    "end": 2582,
+                    "start": 2553,
+                    "end": 2588,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 2553,
-                        "end": 2578,
+                        "start": 2559,
+                        "end": 2584,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 2553,
-                          "end": 2577,
+                          "start": 2559,
+                          "end": 2583,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 2553,
-                            "end": 2568,
+                            "start": 2559,
+                            "end": 2574,
                             "object": {
                               "type": "Identifier",
-                              "start": 2553,
-                              "end": 2563,
+                              "start": 2559,
+                              "end": 2569,
                               "name": "o4captures"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 2564,
-                              "end": 2568,
+                              "start": 2570,
+                              "end": 2574,
                               "name": "push"
                             },
                             "computed": false,
@@ -1010,8 +1010,8 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 2569,
-                              "end": 2576,
+                              "start": 2575,
+                              "end": 2582,
                               "value": "style"
                             }
                           ],
@@ -1024,22 +1024,22 @@
               },
               {
                 "type": "Property",
-                "start": 2586,
-                "end": 2634,
+                "start": 2592,
+                "end": 2640,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2590,
-                  "end": 2597,
+                  "start": 2596,
+                  "end": 2603,
                   "name": "numeric"
                 },
                 "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 2597,
-                  "end": 2634,
+                  "start": 2603,
+                  "end": 2640,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -1047,21 +1047,21 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 2600,
-                    "end": 2634,
+                    "start": 2606,
+                    "end": 2640,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 2606,
-                        "end": 2630,
+                        "start": 2612,
+                        "end": 2636,
                         "argument": {
                           "type": "NewExpression",
-                          "start": 2612,
-                          "end": 2629,
+                          "start": 2618,
+                          "end": 2635,
                           "callee": {
                             "type": "Identifier",
-                            "start": 2616,
-                            "end": 2627,
+                            "start": 2622,
+                            "end": 2633,
                             "name": "CustomError"
                           },
                           "arguments": []
@@ -1079,26 +1079,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2639,
-      "end": 2778,
+      "start": 2645,
+      "end": 2784,
       "expression": {
         "type": "CallExpression",
-        "start": 2639,
-        "end": 2777,
+        "start": 2645,
+        "end": 2783,
         "callee": {
           "type": "MemberExpression",
-          "start": 2639,
-          "end": 2652,
+          "start": 2645,
+          "end": 2658,
           "object": {
             "type": "Identifier",
-            "start": 2639,
-            "end": 2645,
+            "start": 2645,
+            "end": 2651,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2646,
-            "end": 2652,
+            "start": 2652,
+            "end": 2658,
             "name": "throws"
           },
           "computed": false,
@@ -1107,14 +1107,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2653,
-            "end": 2664,
+            "start": 2659,
+            "end": 2670,
             "name": "CustomError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 2666,
-            "end": 2716,
+            "start": 2672,
+            "end": 2722,
             "id": null,
             "expression": false,
             "generator": false,
@@ -1122,31 +1122,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2672,
-              "end": 2716,
+              "start": 2678,
+              "end": 2722,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2676,
-                  "end": 2714,
+                  "start": 2682,
+                  "end": 2720,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 2676,
-                    "end": 2713,
+                    "start": 2682,
+                    "end": 2719,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 2680,
-                      "end": 2703,
+                      "start": 2686,
+                      "end": 2709,
                       "object": {
                         "type": "Identifier",
-                        "start": 2680,
-                        "end": 2684,
+                        "start": 2686,
+                        "end": 2690,
                         "name": "Intl"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 2685,
-                        "end": 2703,
+                        "start": 2691,
+                        "end": 2709,
                         "name": "RelativeTimeFormat"
                       },
                       "computed": false,
@@ -1155,14 +1155,14 @@
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2704,
-                        "end": 2708,
+                        "start": 2710,
+                        "end": 2714,
                         "value": "en"
                       },
                       {
                         "type": "Identifier",
-                        "start": 2710,
-                        "end": 2712,
+                        "start": 2716,
+                        "end": 2718,
                         "name": "o1"
                       }
                     ]
@@ -1173,14 +1173,14 @@
           },
           {
             "type": "TemplateLiteral",
-            "start": 2718,
-            "end": 2776,
+            "start": 2724,
+            "end": 2782,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 2719,
-                "end": 2775,
+                "start": 2725,
+                "end": 2781,
                 "value": {
                   "raw": "Exception from localeMatcher getter should be propagated",
                   "cooked": "Exception from localeMatcher getter should be propagated"
@@ -1195,26 +1195,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2780,
-      "end": 2921,
+      "start": 2786,
+      "end": 2927,
       "expression": {
         "type": "CallExpression",
-        "start": 2780,
-        "end": 2920,
+        "start": 2786,
+        "end": 2926,
         "callee": {
           "type": "MemberExpression",
-          "start": 2780,
-          "end": 2793,
+          "start": 2786,
+          "end": 2799,
           "object": {
             "type": "Identifier",
-            "start": 2780,
-            "end": 2786,
+            "start": 2786,
+            "end": 2792,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2787,
-            "end": 2793,
+            "start": 2793,
+            "end": 2799,
             "name": "throws"
           },
           "computed": false,
@@ -1223,14 +1223,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2794,
-            "end": 2805,
+            "start": 2800,
+            "end": 2811,
             "name": "CustomError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 2807,
-            "end": 2857,
+            "start": 2813,
+            "end": 2863,
             "id": null,
             "expression": false,
             "generator": false,
@@ -1238,31 +1238,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2813,
-              "end": 2857,
+              "start": 2819,
+              "end": 2863,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2817,
-                  "end": 2855,
+                  "start": 2823,
+                  "end": 2861,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 2817,
-                    "end": 2854,
+                    "start": 2823,
+                    "end": 2860,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 2821,
-                      "end": 2844,
+                      "start": 2827,
+                      "end": 2850,
                       "object": {
                         "type": "Identifier",
-                        "start": 2821,
-                        "end": 2825,
+                        "start": 2827,
+                        "end": 2831,
                         "name": "Intl"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 2826,
-                        "end": 2844,
+                        "start": 2832,
+                        "end": 2850,
                         "name": "RelativeTimeFormat"
                       },
                       "computed": false,
@@ -1271,14 +1271,14 @@
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2845,
-                        "end": 2849,
+                        "start": 2851,
+                        "end": 2855,
                         "value": "en"
                       },
                       {
                         "type": "Identifier",
-                        "start": 2851,
-                        "end": 2853,
+                        "start": 2857,
+                        "end": 2859,
                         "name": "o2"
                       }
                     ]
@@ -1289,14 +1289,14 @@
           },
           {
             "type": "TemplateLiteral",
-            "start": 2859,
-            "end": 2919,
+            "start": 2865,
+            "end": 2925,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 2860,
-                "end": 2918,
+                "start": 2866,
+                "end": 2924,
                 "value": {
                   "raw": "Exception from numberingSystem getter should be propagated",
                   "cooked": "Exception from numberingSystem getter should be propagated"
@@ -1311,26 +1311,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2922,
-      "end": 2973,
+      "start": 2928,
+      "end": 2979,
       "expression": {
         "type": "CallExpression",
-        "start": 2922,
-        "end": 2972,
+        "start": 2928,
+        "end": 2978,
         "callee": {
           "type": "MemberExpression",
-          "start": 2922,
-          "end": 2941,
+          "start": 2928,
+          "end": 2947,
           "object": {
             "type": "Identifier",
-            "start": 2922,
-            "end": 2928,
+            "start": 2928,
+            "end": 2934,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2929,
-            "end": 2941,
+            "start": 2935,
+            "end": 2947,
             "name": "compareArray"
           },
           "computed": false,
@@ -1339,19 +1339,19 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2942,
-            "end": 2952,
+            "start": 2948,
+            "end": 2958,
             "name": "o2captures"
           },
           {
             "type": "ArrayExpression",
-            "start": 2954,
-            "end": 2971,
+            "start": 2960,
+            "end": 2977,
             "elements": [
               {
                 "type": "Literal",
-                "start": 2955,
-                "end": 2970,
+                "start": 2961,
+                "end": 2976,
                 "value": "localeMatcher"
               }
             ]
@@ -1362,26 +1362,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2975,
-      "end": 3106,
+      "start": 2981,
+      "end": 3112,
       "expression": {
         "type": "CallExpression",
-        "start": 2975,
-        "end": 3105,
+        "start": 2981,
+        "end": 3111,
         "callee": {
           "type": "MemberExpression",
-          "start": 2975,
-          "end": 2988,
+          "start": 2981,
+          "end": 2994,
           "object": {
             "type": "Identifier",
-            "start": 2975,
-            "end": 2981,
+            "start": 2981,
+            "end": 2987,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2982,
-            "end": 2988,
+            "start": 2988,
+            "end": 2994,
             "name": "throws"
           },
           "computed": false,
@@ -1390,14 +1390,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2989,
-            "end": 3000,
+            "start": 2995,
+            "end": 3006,
             "name": "CustomError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 3002,
-            "end": 3052,
+            "start": 3008,
+            "end": 3058,
             "id": null,
             "expression": false,
             "generator": false,
@@ -1405,31 +1405,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 3008,
-              "end": 3052,
+              "start": 3014,
+              "end": 3058,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 3012,
-                  "end": 3050,
+                  "start": 3018,
+                  "end": 3056,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 3012,
-                    "end": 3049,
+                    "start": 3018,
+                    "end": 3055,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 3016,
-                      "end": 3039,
+                      "start": 3022,
+                      "end": 3045,
                       "object": {
                         "type": "Identifier",
-                        "start": 3016,
-                        "end": 3020,
+                        "start": 3022,
+                        "end": 3026,
                         "name": "Intl"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 3021,
-                        "end": 3039,
+                        "start": 3027,
+                        "end": 3045,
                         "name": "RelativeTimeFormat"
                       },
                       "computed": false,
@@ -1438,14 +1438,14 @@
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 3040,
-                        "end": 3044,
+                        "start": 3046,
+                        "end": 3050,
                         "value": "en"
                       },
                       {
                         "type": "Identifier",
-                        "start": 3046,
-                        "end": 3048,
+                        "start": 3052,
+                        "end": 3054,
                         "name": "o3"
                       }
                     ]
@@ -1456,14 +1456,14 @@
           },
           {
             "type": "TemplateLiteral",
-            "start": 3054,
-            "end": 3104,
+            "start": 3060,
+            "end": 3110,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 3055,
-                "end": 3103,
+                "start": 3061,
+                "end": 3109,
                 "value": {
                   "raw": "Exception from style getter should be propagated",
                   "cooked": "Exception from style getter should be propagated"
@@ -1478,26 +1478,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3107,
-      "end": 3177,
+      "start": 3113,
+      "end": 3183,
       "expression": {
         "type": "CallExpression",
-        "start": 3107,
-        "end": 3176,
+        "start": 3113,
+        "end": 3182,
         "callee": {
           "type": "MemberExpression",
-          "start": 3107,
-          "end": 3126,
+          "start": 3113,
+          "end": 3132,
           "object": {
             "type": "Identifier",
-            "start": 3107,
-            "end": 3113,
+            "start": 3113,
+            "end": 3119,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3114,
-            "end": 3126,
+            "start": 3120,
+            "end": 3132,
             "name": "compareArray"
           },
           "computed": false,
@@ -1506,25 +1506,25 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 3127,
-            "end": 3137,
+            "start": 3133,
+            "end": 3143,
             "name": "o3captures"
           },
           {
             "type": "ArrayExpression",
-            "start": 3139,
-            "end": 3175,
+            "start": 3145,
+            "end": 3181,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3140,
-                "end": 3155,
+                "start": 3146,
+                "end": 3161,
                 "value": "localeMatcher"
               },
               {
                 "type": "Literal",
-                "start": 3157,
-                "end": 3174,
+                "start": 3163,
+                "end": 3180,
                 "value": "numberingSystem"
               }
             ]
@@ -1535,26 +1535,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3179,
-      "end": 3312,
+      "start": 3185,
+      "end": 3318,
       "expression": {
         "type": "CallExpression",
-        "start": 3179,
-        "end": 3311,
+        "start": 3185,
+        "end": 3317,
         "callee": {
           "type": "MemberExpression",
-          "start": 3179,
-          "end": 3192,
+          "start": 3185,
+          "end": 3198,
           "object": {
             "type": "Identifier",
-            "start": 3179,
-            "end": 3185,
+            "start": 3185,
+            "end": 3191,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3186,
-            "end": 3192,
+            "start": 3192,
+            "end": 3198,
             "name": "throws"
           },
           "computed": false,
@@ -1563,14 +1563,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 3193,
-            "end": 3204,
+            "start": 3199,
+            "end": 3210,
             "name": "CustomError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 3206,
-            "end": 3256,
+            "start": 3212,
+            "end": 3262,
             "id": null,
             "expression": false,
             "generator": false,
@@ -1578,31 +1578,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 3212,
-              "end": 3256,
+              "start": 3218,
+              "end": 3262,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 3216,
-                  "end": 3254,
+                  "start": 3222,
+                  "end": 3260,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 3216,
-                    "end": 3253,
+                    "start": 3222,
+                    "end": 3259,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 3220,
-                      "end": 3243,
+                      "start": 3226,
+                      "end": 3249,
                       "object": {
                         "type": "Identifier",
-                        "start": 3220,
-                        "end": 3224,
+                        "start": 3226,
+                        "end": 3230,
                         "name": "Intl"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 3225,
-                        "end": 3243,
+                        "start": 3231,
+                        "end": 3249,
                         "name": "RelativeTimeFormat"
                       },
                       "computed": false,
@@ -1611,14 +1611,14 @@
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 3244,
-                        "end": 3248,
+                        "start": 3250,
+                        "end": 3254,
                         "value": "en"
                       },
                       {
                         "type": "Identifier",
-                        "start": 3250,
-                        "end": 3252,
+                        "start": 3256,
+                        "end": 3258,
                         "name": "o4"
                       }
                     ]
@@ -1629,14 +1629,14 @@
           },
           {
             "type": "TemplateLiteral",
-            "start": 3258,
-            "end": 3310,
+            "start": 3264,
+            "end": 3316,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 3259,
-                "end": 3309,
+                "start": 3265,
+                "end": 3315,
                 "value": {
                   "raw": "Exception from numeric getter should be propagated",
                   "cooked": "Exception from numeric getter should be propagated"
@@ -1651,26 +1651,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 3313,
-      "end": 3392,
+      "start": 3319,
+      "end": 3398,
       "expression": {
         "type": "CallExpression",
-        "start": 3313,
-        "end": 3391,
+        "start": 3319,
+        "end": 3397,
         "callee": {
           "type": "MemberExpression",
-          "start": 3313,
-          "end": 3332,
+          "start": 3319,
+          "end": 3338,
           "object": {
             "type": "Identifier",
-            "start": 3313,
-            "end": 3319,
+            "start": 3319,
+            "end": 3325,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 3320,
-            "end": 3332,
+            "start": 3326,
+            "end": 3338,
             "name": "compareArray"
           },
           "computed": false,
@@ -1679,31 +1679,31 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 3333,
-            "end": 3343,
+            "start": 3339,
+            "end": 3349,
             "name": "o4captures"
           },
           {
             "type": "ArrayExpression",
-            "start": 3345,
-            "end": 3390,
+            "start": 3351,
+            "end": 3396,
             "elements": [
               {
                 "type": "Literal",
-                "start": 3346,
-                "end": 3361,
+                "start": 3352,
+                "end": 3367,
                 "value": "localeMatcher"
               },
               {
                 "type": "Literal",
-                "start": 3363,
-                "end": 3380,
+                "start": 3369,
+                "end": 3386,
                 "value": "numberingSystem"
               },
               {
                 "type": "Literal",
-                "start": 3382,
-                "end": 3389,
+                "start": 3388,
+                "end": 3395,
                 "value": "style"
               }
             ]

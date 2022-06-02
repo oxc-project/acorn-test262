@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1064,
+  "end": 1066,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 814,
-      "end": 880,
+      "start": 816,
+      "end": 882,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 820,
-          "end": 879,
+          "start": 822,
+          "end": 881,
           "id": {
             "type": "Identifier",
-            "start": 820,
-            "end": 828,
+            "start": 822,
+            "end": 830,
             "name": "calendar"
           },
           "init": {
             "type": "CallExpression",
-            "start": 831,
-            "end": 879,
+            "start": 833,
+            "end": 881,
             "callee": {
               "type": "MemberExpression",
-              "start": 831,
-              "end": 877,
+              "start": 833,
+              "end": 879,
               "object": {
                 "type": "Identifier",
-                "start": 831,
-                "end": 846,
+                "start": 833,
+                "end": 848,
                 "name": "TemporalHelpers"
               },
               "property": {
                 "type": "Identifier",
-                "start": 847,
-                "end": 877,
+                "start": 849,
+                "end": 879,
                 "name": "calendarMakeInvalidGettersTime"
               },
               "computed": false,
@@ -50,37 +50,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 881,
-      "end": 924,
+      "start": 883,
+      "end": 926,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 887,
-          "end": 923,
+          "start": 889,
+          "end": 925,
           "id": {
             "type": "Identifier",
-            "start": 887,
-            "end": 896,
+            "start": 889,
+            "end": 898,
             "name": "duration1"
           },
           "init": {
             "type": "NewExpression",
-            "start": 899,
-            "end": 923,
+            "start": 901,
+            "end": 925,
             "callee": {
               "type": "MemberExpression",
-              "start": 903,
-              "end": 920,
+              "start": 905,
+              "end": 922,
               "object": {
                 "type": "Identifier",
-                "start": 903,
-                "end": 911,
+                "start": 905,
+                "end": 913,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 912,
-                "end": 920,
+                "start": 914,
+                "end": 922,
                 "name": "Duration"
               },
               "computed": false,
@@ -89,8 +89,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 921,
-                "end": 922,
+                "start": 923,
+                "end": 924,
                 "value": 1
               }
             ]
@@ -101,37 +101,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 925,
-      "end": 972,
+      "start": 927,
+      "end": 974,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 931,
-          "end": 971,
+          "start": 933,
+          "end": 973,
           "id": {
             "type": "Identifier",
-            "start": 931,
-            "end": 940,
+            "start": 933,
+            "end": 942,
             "name": "duration2"
           },
           "init": {
             "type": "NewExpression",
-            "start": 943,
-            "end": 971,
+            "start": 945,
+            "end": 973,
             "callee": {
               "type": "MemberExpression",
-              "start": 947,
-              "end": 964,
+              "start": 949,
+              "end": 966,
               "object": {
                 "type": "Identifier",
-                "start": 947,
-                "end": 955,
+                "start": 949,
+                "end": 957,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 956,
-                "end": 964,
+                "start": 958,
+                "end": 966,
                 "name": "Duration"
               },
               "computed": false,
@@ -140,14 +140,14 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 965,
-                "end": 966,
+                "start": 967,
+                "end": 968,
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 968,
-                "end": 970,
+                "start": 970,
+                "end": 972,
                 "value": 12
               }
             ]
@@ -158,26 +158,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 973,
-      "end": 1063,
+      "start": 975,
+      "end": 1065,
       "expression": {
         "type": "CallExpression",
-        "start": 973,
-        "end": 1062,
+        "start": 975,
+        "end": 1064,
         "callee": {
           "type": "MemberExpression",
-          "start": 973,
-          "end": 991,
+          "start": 975,
+          "end": 993,
           "object": {
             "type": "Identifier",
-            "start": 973,
-            "end": 982,
+            "start": 975,
+            "end": 984,
             "name": "duration1"
           },
           "property": {
             "type": "Identifier",
-            "start": 983,
-            "end": 991,
+            "start": 985,
+            "end": 993,
             "name": "subtract"
           },
           "computed": false,
@@ -186,114 +186,114 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 992,
-            "end": 1001,
+            "start": 994,
+            "end": 1003,
             "name": "duration2"
           },
           {
             "type": "ObjectExpression",
-            "start": 1003,
-            "end": 1061,
+            "start": 1005,
+            "end": 1063,
             "properties": [
               {
                 "type": "Property",
-                "start": 1005,
-                "end": 1059,
+                "start": 1007,
+                "end": 1061,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1005,
-                  "end": 1015,
+                  "start": 1007,
+                  "end": 1017,
                   "name": "relativeTo"
                 },
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 1017,
-                  "end": 1059,
+                  "start": 1019,
+                  "end": 1061,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 1019,
-                      "end": 1029,
+                      "start": 1021,
+                      "end": 1031,
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 1019,
-                        "end": 1023,
+                        "start": 1021,
+                        "end": 1025,
                         "name": "year"
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 1025,
-                        "end": 1029,
+                        "start": 1027,
+                        "end": 1031,
                         "value": 2000
                       },
                       "kind": "init"
                     },
                     {
                       "type": "Property",
-                      "start": 1031,
-                      "end": 1039,
+                      "start": 1033,
+                      "end": 1041,
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 1031,
-                        "end": 1036,
+                        "start": 1033,
+                        "end": 1038,
                         "name": "month"
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 1038,
-                        "end": 1039,
+                        "start": 1040,
+                        "end": 1041,
                         "value": 1
                       },
                       "kind": "init"
                     },
                     {
                       "type": "Property",
-                      "start": 1041,
-                      "end": 1047,
+                      "start": 1043,
+                      "end": 1049,
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 1041,
-                        "end": 1044,
+                        "start": 1043,
+                        "end": 1046,
                         "name": "day"
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 1046,
-                        "end": 1047,
+                        "start": 1048,
+                        "end": 1049,
                         "value": 1
                       },
                       "kind": "init"
                     },
                     {
                       "type": "Property",
-                      "start": 1049,
-                      "end": 1057,
+                      "start": 1051,
+                      "end": 1059,
                       "method": false,
                       "shorthand": true,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 1049,
-                        "end": 1057,
+                        "start": 1051,
+                        "end": 1059,
                         "name": "calendar"
                       },
                       "kind": "init",
                       "value": {
                         "type": "Identifier",
-                        "start": 1049,
-                        "end": 1057,
+                        "start": 1051,
+                        "end": 1059,
                         "name": "calendar"
                       }
                     }

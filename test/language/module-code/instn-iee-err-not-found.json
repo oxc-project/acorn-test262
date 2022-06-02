@@ -1,36 +1,36 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 879,
+  "end": 883,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 815,
-      "end": 878,
+      "start": 819,
+      "end": 882,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 824,
-          "end": 825,
+          "start": 828,
+          "end": 829,
           "local": {
             "type": "Identifier",
-            "start": 824,
-            "end": 825,
+            "start": 832,
+            "end": 833,
             "name": "x"
           },
           "exported": {
             "type": "Identifier",
-            "start": 824,
-            "end": 825,
+            "start": 832,
+            "end": 833,
             "name": "x"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 833,
-        "end": 877,
+        "start": 837,
+        "end": 881,
         "value": "./instn-iee-err-not-found-empty_FIXTURE.js"
       }
     }

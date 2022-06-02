@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1482,
+  "end": 1484,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1126,
-      "end": 1412,
+      "start": 1128,
+      "end": 1414,
       "id": {
         "type": "Identifier",
-        "start": 1135,
-        "end": 1139,
+        "start": 1137,
+        "end": 1141,
         "name": "body"
       },
       "expression": false,
@@ -19,46 +19,46 @@
       "params": [
         {
           "type": "Identifier",
-          "start": 1140,
-          "end": 1150,
+          "start": 1142,
+          "end": 1152,
           "name": "FloatArray"
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 1152,
-        "end": 1412,
+        "start": 1154,
+        "end": 1414,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 1156,
-            "end": 1191,
+            "start": 1158,
+            "end": 1193,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1160,
-                "end": 1190,
+                "start": 1162,
+                "end": 1192,
                 "id": {
                   "type": "Identifier",
-                  "start": 1160,
-                  "end": 1167,
+                  "start": 1162,
+                  "end": 1169,
                   "name": "subject"
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 1170,
-                  "end": 1190,
+                  "start": 1172,
+                  "end": 1192,
                   "callee": {
                     "type": "Identifier",
-                    "start": 1174,
-                    "end": 1184,
+                    "start": 1176,
+                    "end": 1186,
                     "name": "FloatArray"
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 1185,
-                      "end": 1189,
+                      "start": 1187,
+                      "end": 1191,
                       "name": "NaNs"
                     }
                   ]
@@ -69,41 +69,41 @@
           },
           {
             "type": "VariableDeclaration",
-            "start": 1194,
-            "end": 1232,
+            "start": 1196,
+            "end": 1234,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1198,
-                "end": 1204,
+                "start": 1200,
+                "end": 1206,
                 "id": {
                   "type": "Identifier",
-                  "start": 1198,
-                  "end": 1204,
+                  "start": 1200,
+                  "end": 1206,
                   "name": "sliced"
                 },
                 "init": null
               },
               {
                 "type": "VariableDeclarator",
-                "start": 1206,
-                "end": 1218,
+                "start": 1208,
+                "end": 1220,
                 "id": {
                   "type": "Identifier",
-                  "start": 1206,
-                  "end": 1218,
+                  "start": 1208,
+                  "end": 1220,
                   "name": "subjectBytes"
                 },
                 "init": null
               },
               {
                 "type": "VariableDeclarator",
-                "start": 1220,
-                "end": 1231,
+                "start": 1222,
+                "end": 1233,
                 "id": {
                   "type": "Identifier",
-                  "start": 1220,
-                  "end": 1231,
+                  "start": 1222,
+                  "end": 1233,
                   "name": "slicedBytes"
                 },
                 "init": null
@@ -113,37 +113,37 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1236,
-            "end": 1261,
+            "start": 1238,
+            "end": 1263,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1236,
-              "end": 1260,
+              "start": 1238,
+              "end": 1262,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1236,
-                "end": 1242,
+                "start": 1238,
+                "end": 1244,
                 "name": "sliced"
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1245,
-                "end": 1260,
+                "start": 1247,
+                "end": 1262,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 1245,
-                  "end": 1258,
+                  "start": 1247,
+                  "end": 1260,
                   "object": {
                     "type": "Identifier",
-                    "start": 1245,
-                    "end": 1252,
+                    "start": 1247,
+                    "end": 1254,
                     "name": "subject"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1253,
-                    "end": 1258,
+                    "start": 1255,
+                    "end": 1260,
                     "name": "slice"
                   },
                   "computed": false,
@@ -156,44 +156,44 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1265,
-            "end": 1311,
+            "start": 1267,
+            "end": 1313,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1265,
-              "end": 1310,
+              "start": 1267,
+              "end": 1312,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1265,
-                "end": 1277,
+                "start": 1267,
+                "end": 1279,
                 "name": "subjectBytes"
               },
               "right": {
                 "type": "NewExpression",
-                "start": 1280,
-                "end": 1310,
+                "start": 1282,
+                "end": 1312,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1284,
-                  "end": 1294,
+                  "start": 1286,
+                  "end": 1296,
                   "name": "Uint8Array"
                 },
                 "arguments": [
                   {
                     "type": "MemberExpression",
-                    "start": 1295,
-                    "end": 1309,
+                    "start": 1297,
+                    "end": 1311,
                     "object": {
                       "type": "Identifier",
-                      "start": 1295,
-                      "end": 1302,
+                      "start": 1297,
+                      "end": 1304,
                       "name": "subject"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1303,
-                      "end": 1309,
+                      "start": 1305,
+                      "end": 1311,
                       "name": "buffer"
                     },
                     "computed": false,
@@ -205,44 +205,44 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1314,
-            "end": 1358,
+            "start": 1316,
+            "end": 1360,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1314,
-              "end": 1357,
+              "start": 1316,
+              "end": 1359,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1314,
-                "end": 1325,
+                "start": 1316,
+                "end": 1327,
                 "name": "slicedBytes"
               },
               "right": {
                 "type": "NewExpression",
-                "start": 1328,
-                "end": 1357,
+                "start": 1330,
+                "end": 1359,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1332,
-                  "end": 1342,
+                  "start": 1334,
+                  "end": 1344,
                   "name": "Uint8Array"
                 },
                 "arguments": [
                   {
                     "type": "MemberExpression",
-                    "start": 1343,
-                    "end": 1356,
+                    "start": 1345,
+                    "end": 1358,
                     "object": {
                       "type": "Identifier",
-                      "start": 1343,
-                      "end": 1349,
+                      "start": 1345,
+                      "end": 1351,
                       "name": "sliced"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1350,
-                      "end": 1356,
+                      "start": 1352,
+                      "end": 1358,
                       "name": "buffer"
                     },
                     "computed": false,
@@ -254,40 +254,40 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1362,
-            "end": 1410,
+            "start": 1364,
+            "end": 1412,
             "expression": {
               "type": "CallExpression",
-              "start": 1362,
-              "end": 1409,
+              "start": 1364,
+              "end": 1411,
               "callee": {
                 "type": "Identifier",
-                "start": 1362,
-                "end": 1368,
+                "start": 1364,
+                "end": 1370,
                 "name": "assert"
               },
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 1369,
-                  "end": 1408,
+                  "start": 1371,
+                  "end": 1410,
                   "callee": {
                     "type": "Identifier",
-                    "start": 1369,
-                    "end": 1381,
+                    "start": 1371,
+                    "end": 1383,
                     "name": "compareArray"
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 1382,
-                      "end": 1394,
+                      "start": 1384,
+                      "end": 1396,
                       "name": "subjectBytes"
                     },
                     {
                       "type": "Identifier",
-                      "start": 1396,
-                      "end": 1407,
+                      "start": 1398,
+                      "end": 1409,
                       "name": "slicedBytes"
                     }
                   ],
@@ -302,40 +302,40 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1414,
-      "end": 1481,
+      "start": 1416,
+      "end": 1483,
       "expression": {
         "type": "CallExpression",
-        "start": 1414,
-        "end": 1480,
+        "start": 1416,
+        "end": 1482,
         "callee": {
           "type": "Identifier",
-          "start": 1414,
-          "end": 1444,
+          "start": 1416,
+          "end": 1446,
           "name": "testWithTypedArrayConstructors"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1445,
-            "end": 1449,
+            "start": 1447,
+            "end": 1451,
             "name": "body"
           },
           {
             "type": "ArrayExpression",
-            "start": 1451,
-            "end": 1479,
+            "start": 1453,
+            "end": 1481,
             "elements": [
               {
                 "type": "Identifier",
-                "start": 1452,
-                "end": 1464,
+                "start": 1454,
+                "end": 1466,
                 "name": "Float32Array"
               },
               {
                 "type": "Identifier",
-                "start": 1466,
-                "end": 1478,
+                "start": 1468,
+                "end": 1480,
                 "name": "Float64Array"
               }
             ]

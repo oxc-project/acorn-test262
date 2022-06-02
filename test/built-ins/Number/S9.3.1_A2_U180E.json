@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 930,
+  "end": 935,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 829,
-      "end": 929,
+      "start": 834,
+      "end": 934,
       "expression": {
         "type": "CallExpression",
-        "start": 829,
-        "end": 928,
+        "start": 834,
+        "end": 933,
         "callee": {
           "type": "MemberExpression",
-          "start": 829,
-          "end": 845,
+          "start": 834,
+          "end": 850,
           "object": {
             "type": "Identifier",
-            "start": 829,
-            "end": 835,
+            "start": 834,
+            "end": 840,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 836,
-            "end": 845,
+            "start": 841,
+            "end": 850,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,19 +33,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 846,
-            "end": 862,
+            "start": 851,
+            "end": 867,
             "callee": {
               "type": "Identifier",
-              "start": 846,
-              "end": 852,
+              "start": 851,
+              "end": 857,
               "name": "Number"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 853,
-                "end": 861,
+                "start": 858,
+                "end": 866,
                 "value": "᠎"
               }
             ],
@@ -53,40 +53,40 @@
           },
           {
             "type": "Identifier",
-            "start": 864,
-            "end": 867,
+            "start": 869,
+            "end": 872,
             "name": "NaN"
           },
           {
             "type": "BinaryExpression",
-            "start": 869,
-            "end": 927,
+            "start": 874,
+            "end": 932,
             "left": {
               "type": "Literal",
-              "start": 869,
-              "end": 906,
+              "start": 874,
+              "end": 911,
               "value": "Number(\"\\u180E\") === NaN. Actual: "
             },
             "operator": "+",
             "right": {
               "type": "ParenthesizedExpression",
-              "start": 909,
-              "end": 927,
+              "start": 914,
+              "end": 932,
               "expression": {
                 "type": "CallExpression",
-                "start": 910,
-                "end": 926,
+                "start": 915,
+                "end": 931,
                 "callee": {
                   "type": "Identifier",
-                  "start": 910,
-                  "end": 916,
+                  "start": 915,
+                  "end": 921,
                   "name": "Number"
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 917,
-                    "end": 925,
+                    "start": 922,
+                    "end": 930,
                     "value": "᠎"
                   }
                 ],

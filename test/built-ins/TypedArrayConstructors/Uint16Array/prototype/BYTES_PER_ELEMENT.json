@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 844,
+  "end": 845,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 586,
-      "end": 647,
+      "start": 587,
+      "end": 648,
       "expression": {
         "type": "CallExpression",
-        "start": 586,
-        "end": 646,
+        "start": 587,
+        "end": 647,
         "callee": {
           "type": "MemberExpression",
-          "start": 586,
-          "end": 602,
+          "start": 587,
+          "end": 603,
           "object": {
             "type": "Identifier",
-            "start": 586,
-            "end": 592,
+            "start": 587,
+            "end": 593,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 593,
-            "end": 602,
+            "start": 594,
+            "end": 603,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 603,
-            "end": 642,
+            "start": 604,
+            "end": 643,
             "object": {
               "type": "MemberExpression",
-              "start": 603,
-              "end": 624,
+              "start": 604,
+              "end": 625,
               "object": {
                 "type": "Identifier",
-                "start": 603,
-                "end": 614,
+                "start": 604,
+                "end": 615,
                 "name": "Uint16Array"
               },
               "property": {
                 "type": "Identifier",
-                "start": 615,
-                "end": 624,
+                "start": 616,
+                "end": 625,
                 "name": "prototype"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 625,
-              "end": 642,
+              "start": 626,
+              "end": 643,
               "name": "BYTES_PER_ELEMENT"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Literal",
-            "start": 644,
-            "end": 645,
+            "start": 645,
+            "end": 646,
             "value": 2
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 649,
-      "end": 713,
+      "start": 650,
+      "end": 714,
       "expression": {
         "type": "CallExpression",
-        "start": 649,
-        "end": 712,
+        "start": 650,
+        "end": 713,
         "callee": {
           "type": "Identifier",
-          "start": 649,
-          "end": 668,
+          "start": 650,
+          "end": 669,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 669,
-            "end": 690,
+            "start": 670,
+            "end": 691,
             "object": {
               "type": "Identifier",
-              "start": 669,
-              "end": 680,
+              "start": 670,
+              "end": 681,
               "name": "Uint16Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 681,
-              "end": 690,
+              "start": 682,
+              "end": 691,
               "name": "prototype"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 692,
-            "end": 711,
+            "start": 693,
+            "end": 712,
             "value": "BYTES_PER_ELEMENT"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 714,
-      "end": 776,
+      "start": 715,
+      "end": 777,
       "expression": {
         "type": "CallExpression",
-        "start": 714,
-        "end": 775,
+        "start": 715,
+        "end": 776,
         "callee": {
           "type": "Identifier",
-          "start": 714,
-          "end": 731,
+          "start": 715,
+          "end": 732,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 732,
-            "end": 753,
+            "start": 733,
+            "end": 754,
             "object": {
               "type": "Identifier",
-              "start": 732,
-              "end": 743,
+              "start": 733,
+              "end": 744,
               "name": "Uint16Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 744,
-              "end": 753,
+              "start": 745,
+              "end": 754,
               "name": "prototype"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 755,
-            "end": 774,
+            "start": 756,
+            "end": 775,
             "value": "BYTES_PER_ELEMENT"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 777,
-      "end": 843,
+      "start": 778,
+      "end": 844,
       "expression": {
         "type": "CallExpression",
-        "start": 777,
-        "end": 842,
+        "start": 778,
+        "end": 843,
         "callee": {
           "type": "Identifier",
-          "start": 777,
-          "end": 798,
+          "start": 778,
+          "end": 799,
           "name": "verifyNotConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 799,
-            "end": 820,
+            "start": 800,
+            "end": 821,
             "object": {
               "type": "Identifier",
-              "start": 799,
-              "end": 810,
+              "start": 800,
+              "end": 811,
               "name": "Uint16Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 811,
-              "end": 820,
+              "start": 812,
+              "end": 821,
               "name": "prototype"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 822,
-            "end": 841,
+            "start": 823,
+            "end": 842,
             "value": "BYTES_PER_ELEMENT"
           }
         ],

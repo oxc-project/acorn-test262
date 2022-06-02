@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 967,
+  "end": 968,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 590,
-      "end": 626,
+      "start": 591,
+      "end": 627,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 594,
-          "end": 625,
+          "start": 595,
+          "end": 626,
           "id": {
             "type": "Identifier",
-            "start": 594,
-            "end": 597,
+            "start": 595,
+            "end": 598,
             "name": "dtf"
           },
           "init": {
             "type": "NewExpression",
-            "start": 600,
-            "end": 625,
+            "start": 601,
+            "end": 626,
             "callee": {
               "type": "MemberExpression",
-              "start": 604,
-              "end": 623,
+              "start": 605,
+              "end": 624,
               "object": {
                 "type": "Identifier",
-                "start": 604,
-                "end": 608,
+                "start": 605,
+                "end": 609,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 609,
-                "end": 623,
+                "start": 610,
+                "end": 624,
                 "name": "DateTimeFormat"
               },
               "computed": false,
@@ -49,23 +49,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 628,
-      "end": 676,
+      "start": 629,
+      "end": 677,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 632,
-          "end": 675,
+          "start": 633,
+          "end": 676,
           "id": {
             "type": "Identifier",
-            "start": 632,
-            "end": 646,
+            "start": 633,
+            "end": 647,
             "name": "dateTimeString"
           },
           "init": {
             "type": "Literal",
-            "start": 649,
-            "end": 675,
+            "start": 650,
+            "end": 676,
             "value": "2017-11-10T14:09:00.000Z"
           }
         }
@@ -74,26 +74,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 740,
-      "end": 791,
+      "start": 741,
+      "end": 792,
       "expression": {
         "type": "CallExpression",
-        "start": 740,
-        "end": 790,
+        "start": 741,
+        "end": 791,
         "callee": {
           "type": "MemberExpression",
-          "start": 740,
-          "end": 759,
+          "start": 741,
+          "end": 760,
           "object": {
             "type": "Identifier",
-            "start": 740,
-            "end": 746,
+            "start": 741,
+            "end": 747,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 747,
-            "end": 759,
+            "start": 748,
+            "end": 760,
             "name": "notSameValue"
           },
           "computed": false,
@@ -102,27 +102,27 @@
         "arguments": [
           {
             "type": "NewExpression",
-            "start": 760,
-            "end": 784,
+            "start": 761,
+            "end": 785,
             "callee": {
               "type": "Identifier",
-              "start": 764,
-              "end": 768,
+              "start": 765,
+              "end": 769,
               "name": "Date"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 769,
-                "end": 783,
+                "start": 770,
+                "end": 784,
                 "name": "dateTimeString"
               }
             ]
           },
           {
             "type": "Identifier",
-            "start": 786,
-            "end": 789,
+            "start": 787,
+            "end": 790,
             "name": "NaN"
           }
         ],
@@ -131,26 +131,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 892,
-      "end": 966,
+      "start": 893,
+      "end": 967,
       "expression": {
         "type": "CallExpression",
-        "start": 892,
-        "end": 965,
+        "start": 893,
+        "end": 966,
         "callee": {
           "type": "MemberExpression",
-          "start": 892,
-          "end": 905,
+          "start": 893,
+          "end": 906,
           "object": {
             "type": "Identifier",
-            "start": 892,
-            "end": 898,
+            "start": 893,
+            "end": 899,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 899,
-            "end": 905,
+            "start": 900,
+            "end": 906,
             "name": "throws"
           },
           "computed": false,
@@ -159,14 +159,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 906,
-            "end": 916,
+            "start": 907,
+            "end": 917,
             "name": "RangeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 918,
-            "end": 964,
+            "start": 919,
+            "end": 965,
             "id": null,
             "expression": false,
             "generator": false,
@@ -174,31 +174,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 929,
-              "end": 964,
+              "start": 930,
+              "end": 965,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 935,
-                  "end": 962,
+                  "start": 936,
+                  "end": 963,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 935,
-                    "end": 961,
+                    "start": 936,
+                    "end": 962,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 935,
-                      "end": 945,
+                      "start": 936,
+                      "end": 946,
                       "object": {
                         "type": "Identifier",
-                        "start": 935,
-                        "end": 938,
+                        "start": 936,
+                        "end": 939,
                         "name": "dtf"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 939,
-                        "end": 945,
+                        "start": 940,
+                        "end": 946,
                         "name": "format"
                       },
                       "computed": false,
@@ -207,8 +207,8 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 946,
-                        "end": 960,
+                        "start": 947,
+                        "end": 961,
                         "name": "dateTimeString"
                       }
                     ],

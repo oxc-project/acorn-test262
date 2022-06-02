@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 773,
+  "end": 774,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 552,
-      "end": 633,
+      "start": 553,
+      "end": 634,
       "expression": {
         "type": "CallExpression",
-        "start": 552,
-        "end": 632,
+        "start": 553,
+        "end": 633,
         "callee": {
           "type": "MemberExpression",
-          "start": 552,
-          "end": 568,
+          "start": 553,
+          "end": 569,
           "object": {
             "type": "Identifier",
-            "start": 552,
-            "end": 558,
+            "start": 553,
+            "end": 559,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 559,
-            "end": 568,
+            "start": 560,
+            "end": 569,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,18 +33,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 569,
-            "end": 589,
+            "start": 570,
+            "end": 590,
             "object": {
               "type": "Identifier",
-              "start": 569,
-              "end": 579,
+              "start": 570,
+              "end": 580,
               "name": "Int32Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 580,
-              "end": 589,
+              "start": 581,
+              "end": 590,
               "name": "prototype"
             },
             "computed": false,
@@ -52,22 +52,22 @@
           },
           {
             "type": "CallExpression",
-            "start": 591,
-            "end": 631,
+            "start": 592,
+            "end": 632,
             "callee": {
               "type": "MemberExpression",
-              "start": 591,
-              "end": 612,
+              "start": 592,
+              "end": 613,
               "object": {
                 "type": "Identifier",
-                "start": 591,
-                "end": 597,
+                "start": 592,
+                "end": 598,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 598,
-                "end": 612,
+                "start": 599,
+                "end": 613,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -76,19 +76,19 @@
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 613,
-                "end": 630,
+                "start": 614,
+                "end": 631,
                 "callee": {
                   "type": "Identifier",
-                  "start": 617,
-                  "end": 627,
+                  "start": 618,
+                  "end": 628,
                   "name": "Int32Array"
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 628,
-                    "end": 629,
+                    "start": 629,
+                    "end": 630,
                     "value": 0
                   }
                 ]
@@ -102,29 +102,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 635,
-      "end": 680,
+      "start": 636,
+      "end": 681,
       "expression": {
         "type": "CallExpression",
-        "start": 635,
-        "end": 679,
+        "start": 636,
+        "end": 680,
         "callee": {
           "type": "Identifier",
-          "start": 635,
-          "end": 654,
+          "start": 636,
+          "end": 655,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 655,
-            "end": 665,
+            "start": 656,
+            "end": 666,
             "name": "Int32Array"
           },
           {
             "type": "Literal",
-            "start": 667,
-            "end": 678,
+            "start": 668,
+            "end": 679,
             "value": "prototype"
           }
         ],
@@ -133,29 +133,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 681,
-      "end": 724,
+      "start": 682,
+      "end": 725,
       "expression": {
         "type": "CallExpression",
-        "start": 681,
-        "end": 723,
+        "start": 682,
+        "end": 724,
         "callee": {
           "type": "Identifier",
-          "start": 681,
-          "end": 698,
+          "start": 682,
+          "end": 699,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 699,
-            "end": 709,
+            "start": 700,
+            "end": 710,
             "name": "Int32Array"
           },
           {
             "type": "Literal",
-            "start": 711,
-            "end": 722,
+            "start": 712,
+            "end": 723,
             "value": "prototype"
           }
         ],
@@ -164,29 +164,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 725,
-      "end": 772,
+      "start": 726,
+      "end": 773,
       "expression": {
         "type": "CallExpression",
-        "start": 725,
-        "end": 771,
+        "start": 726,
+        "end": 772,
         "callee": {
           "type": "Identifier",
-          "start": 725,
-          "end": 746,
+          "start": 726,
+          "end": 747,
           "name": "verifyNotConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 747,
-            "end": 757,
+            "start": 748,
+            "end": 758,
             "name": "Int32Array"
           },
           {
             "type": "Literal",
-            "start": 759,
-            "end": 770,
+            "start": 760,
+            "end": 771,
             "value": "prototype"
           }
         ],

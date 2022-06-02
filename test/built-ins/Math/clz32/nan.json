@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 510,
+  "end": 514,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 471,
-      "end": 509,
+      "start": 475,
+      "end": 513,
       "expression": {
         "type": "CallExpression",
-        "start": 471,
-        "end": 508,
+        "start": 475,
+        "end": 512,
         "callee": {
           "type": "MemberExpression",
-          "start": 471,
-          "end": 487,
+          "start": 475,
+          "end": 491,
           "object": {
             "type": "Identifier",
-            "start": 471,
-            "end": 477,
+            "start": 475,
+            "end": 481,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 478,
-            "end": 487,
+            "start": 482,
+            "end": 491,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 488,
-            "end": 503,
+            "start": 492,
+            "end": 507,
             "callee": {
               "type": "MemberExpression",
-              "start": 488,
-              "end": 498,
+              "start": 492,
+              "end": 502,
               "object": {
                 "type": "Identifier",
-                "start": 488,
-                "end": 492,
+                "start": 492,
+                "end": 496,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 493,
-                "end": 498,
+                "start": 497,
+                "end": 502,
                 "name": "clz32"
               },
               "computed": false,
@@ -57,8 +57,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 499,
-                "end": 502,
+                "start": 503,
+                "end": 506,
                 "name": "NaN"
               }
             ],
@@ -66,8 +66,8 @@
           },
           {
             "type": "Literal",
-            "start": 505,
-            "end": 507,
+            "start": 509,
+            "end": 511,
             "value": 32
           }
         ],

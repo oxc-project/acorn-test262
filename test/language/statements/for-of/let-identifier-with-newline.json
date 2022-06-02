@@ -1,26 +1,26 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 515,
+  "end": 518,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 479,
-      "end": 500,
+      "start": 482,
+      "end": 503,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 484,
-        "end": 489,
+        "start": 487,
+        "end": 492,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 488,
-            "end": 489,
+            "start": 491,
+            "end": 492,
             "id": {
               "type": "Identifier",
-              "start": 488,
-              "end": 489,
+              "start": 491,
+              "end": 492,
               "name": "x"
             },
             "init": null
@@ -30,41 +30,41 @@
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 493,
-        "end": 495,
+        "start": 496,
+        "end": 498,
         "elements": []
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 497,
-        "end": 500,
+        "start": 500,
+        "end": 503,
         "expression": {
           "type": "Identifier",
-          "start": 497,
-          "end": 500,
+          "start": 500,
+          "end": 503,
           "name": "let"
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 508,
-      "end": 514,
+      "start": 511,
+      "end": 517,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 508,
-        "end": 513,
+        "start": 511,
+        "end": 516,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 508,
-          "end": 509,
+          "start": 511,
+          "end": 512,
           "name": "x"
         },
         "right": {
           "type": "Literal",
-          "start": 512,
-          "end": 513,
+          "start": 515,
+          "end": 516,
           "value": 1
         }
       }

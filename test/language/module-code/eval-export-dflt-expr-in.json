@@ -1,45 +1,45 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 642,
+  "end": 644,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 520,
-      "end": 540,
+      "start": 522,
+      "end": 542,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 524,
-          "end": 539,
+          "start": 526,
+          "end": 541,
           "id": {
             "type": "Identifier",
-            "start": 524,
-            "end": 525,
+            "start": 526,
+            "end": 527,
             "name": "x"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 528,
-            "end": 539,
+            "start": 530,
+            "end": 541,
             "properties": [
               {
                 "type": "Property",
-                "start": 530,
-                "end": 537,
+                "start": 532,
+                "end": 539,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 530,
-                  "end": 531,
+                  "start": 532,
+                  "end": 533,
                   "name": "x"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 533,
-                  "end": 537,
+                  "start": 535,
+                  "end": 539,
                   "value": true
                 },
                 "kind": "init"
@@ -52,73 +52,73 @@
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 542,
-      "end": 566,
+      "start": 544,
+      "end": 568,
       "declaration": {
         "type": "BinaryExpression",
-        "start": 557,
-        "end": 565,
+        "start": 559,
+        "end": 567,
         "left": {
           "type": "Literal",
-          "start": 557,
-          "end": 560,
+          "start": 559,
+          "end": 562,
           "value": "x"
         },
         "operator": "in",
         "right": {
           "type": "Identifier",
-          "start": 564,
-          "end": 565,
+          "start": 566,
+          "end": 567,
           "name": "x"
         }
       }
     },
     {
       "type": "ImportDeclaration",
-      "start": 567,
-      "end": 613,
+      "start": 569,
+      "end": 615,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 574,
-          "end": 575,
+          "start": 576,
+          "end": 577,
           "local": {
             "type": "Identifier",
-            "start": 574,
-            "end": 575,
+            "start": 576,
+            "end": 577,
             "name": "f"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 581,
-        "end": 612,
+        "start": 583,
+        "end": 614,
         "value": "./eval-export-dflt-expr-in.js"
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 615,
-      "end": 641,
+      "start": 617,
+      "end": 643,
       "expression": {
         "type": "CallExpression",
-        "start": 615,
-        "end": 640,
+        "start": 617,
+        "end": 642,
         "callee": {
           "type": "MemberExpression",
-          "start": 615,
-          "end": 631,
+          "start": 617,
+          "end": 633,
           "object": {
             "type": "Identifier",
-            "start": 615,
-            "end": 621,
+            "start": 617,
+            "end": 623,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 622,
-            "end": 631,
+            "start": 624,
+            "end": 633,
             "name": "sameValue"
           },
           "computed": false,
@@ -127,14 +127,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 632,
-            "end": 633,
+            "start": 634,
+            "end": 635,
             "name": "f"
           },
           {
             "type": "Literal",
-            "start": 635,
-            "end": 639,
+            "start": 637,
+            "end": 641,
             "value": true
           }
         ],

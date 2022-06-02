@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 545,
+  "end": 547,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -17,12 +17,12 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 542,
-      "end": 544,
+      "start": 544,
+      "end": 546,
       "expression": {
         "type": "Literal",
-        "start": 542,
-        "end": 544,
+        "start": 544,
+        "end": 546,
         "value": ""
       },
       "directive": ""

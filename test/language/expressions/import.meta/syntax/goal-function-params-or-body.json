@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 648,
+  "end": 649,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 427,
-      "end": 530,
+      "start": 428,
+      "end": 531,
       "expression": {
         "type": "CallExpression",
-        "start": 427,
-        "end": 529,
+        "start": 428,
+        "end": 530,
         "callee": {
           "type": "MemberExpression",
-          "start": 427,
-          "end": 440,
+          "start": 428,
+          "end": 441,
           "object": {
             "type": "Identifier",
-            "start": 427,
-            "end": 433,
+            "start": 428,
+            "end": 434,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 434,
-            "end": 440,
+            "start": 435,
+            "end": 441,
             "name": "throws"
           },
           "computed": false,
@@ -33,14 +33,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 441,
-            "end": 452,
+            "start": 442,
+            "end": 453,
             "name": "SyntaxError"
           },
           {
             "type": "FunctionExpression",
-            "start": 454,
-            "end": 497,
+            "start": 455,
+            "end": 498,
             "id": null,
             "expression": false,
             "generator": false,
@@ -48,28 +48,28 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 465,
-              "end": 497,
+              "start": 466,
+              "end": 498,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 471,
-                  "end": 495,
+                  "start": 472,
+                  "end": 496,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 471,
-                    "end": 494,
+                    "start": 472,
+                    "end": 495,
                     "callee": {
                       "type": "Identifier",
-                      "start": 471,
-                      "end": 479,
+                      "start": 472,
+                      "end": 480,
                       "name": "Function"
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 480,
-                        "end": 493,
+                        "start": 481,
+                        "end": 494,
                         "value": "import.meta"
                       }
                     ],
@@ -81,8 +81,8 @@
           },
           {
             "type": "Literal",
-            "start": 499,
-            "end": 528,
+            "start": 500,
+            "end": 529,
             "value": "import.meta in FunctionBody"
           }
         ],
@@ -91,26 +91,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 532,
-      "end": 647,
+      "start": 533,
+      "end": 648,
       "expression": {
         "type": "CallExpression",
-        "start": 532,
-        "end": 646,
+        "start": 533,
+        "end": 647,
         "callee": {
           "type": "MemberExpression",
-          "start": 532,
-          "end": 545,
+          "start": 533,
+          "end": 546,
           "object": {
             "type": "Identifier",
-            "start": 532,
-            "end": 538,
+            "start": 533,
+            "end": 539,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 539,
-            "end": 545,
+            "start": 540,
+            "end": 546,
             "name": "throws"
           },
           "computed": false,
@@ -119,14 +119,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 546,
-            "end": 557,
+            "start": 547,
+            "end": 558,
             "name": "SyntaxError"
           },
           {
             "type": "FunctionExpression",
-            "start": 559,
-            "end": 610,
+            "start": 560,
+            "end": 611,
             "id": null,
             "expression": false,
             "generator": false,
@@ -134,34 +134,34 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 570,
-              "end": 610,
+              "start": 571,
+              "end": 611,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 576,
-                  "end": 608,
+                  "start": 577,
+                  "end": 609,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 576,
-                    "end": 607,
+                    "start": 577,
+                    "end": 608,
                     "callee": {
                       "type": "Identifier",
-                      "start": 576,
-                      "end": 584,
+                      "start": 577,
+                      "end": 585,
                       "name": "Function"
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 585,
-                        "end": 602,
+                        "start": 586,
+                        "end": 603,
                         "value": "a = import.meta"
                       },
                       {
                         "type": "Literal",
-                        "start": 604,
-                        "end": 606,
+                        "start": 605,
+                        "end": 607,
                         "value": ""
                       }
                     ],
@@ -173,8 +173,8 @@
           },
           {
             "type": "Literal",
-            "start": 612,
-            "end": 645,
+            "start": 613,
+            "end": 646,
             "value": "import.meta in FormalParameters"
           }
         ],

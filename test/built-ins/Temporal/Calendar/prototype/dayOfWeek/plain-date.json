@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 932,
+  "end": 934,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 461,
-      "end": 504,
+      "start": 463,
+      "end": 506,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 465,
-          "end": 503,
+          "start": 467,
+          "end": 505,
           "id": {
             "type": "Identifier",
-            "start": 465,
-            "end": 468,
+            "start": 467,
+            "end": 470,
             "name": "cal"
           },
           "init": {
             "type": "NewExpression",
-            "start": 471,
-            "end": 503,
+            "start": 473,
+            "end": 505,
             "callee": {
               "type": "MemberExpression",
-              "start": 475,
-              "end": 492,
+              "start": 477,
+              "end": 494,
               "object": {
                 "type": "Identifier",
-                "start": 475,
-                "end": 483,
+                "start": 477,
+                "end": 485,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 484,
-                "end": 492,
+                "start": 486,
+                "end": 494,
                 "name": "Calendar"
               },
               "computed": false,
@@ -44,8 +44,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 493,
-                "end": 502,
+                "start": 495,
+                "end": 504,
                 "value": "iso8601"
               }
             ]
@@ -56,37 +56,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 506,
-      "end": 549,
+      "start": 508,
+      "end": 551,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 510,
-          "end": 548,
+          "start": 512,
+          "end": 550,
           "id": {
             "type": "Identifier",
-            "start": 510,
-            "end": 511,
+            "start": 512,
+            "end": 513,
             "name": "d"
           },
           "init": {
             "type": "NewExpression",
-            "start": 514,
-            "end": 548,
+            "start": 516,
+            "end": 550,
             "callee": {
               "type": "MemberExpression",
-              "start": 518,
-              "end": 536,
+              "start": 520,
+              "end": 538,
               "object": {
                 "type": "Identifier",
-                "start": 518,
-                "end": 526,
+                "start": 520,
+                "end": 528,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 527,
-                "end": 536,
+                "start": 529,
+                "end": 538,
                 "name": "PlainDate"
               },
               "computed": false,
@@ -95,20 +95,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 537,
-                "end": 541,
+                "start": 539,
+                "end": 543,
                 "value": 1970
               },
               {
                 "type": "Literal",
-                "start": 543,
-                "end": 544,
+                "start": 545,
+                "end": 546,
                 "value": 1
               },
               {
                 "type": "Literal",
-                "start": 546,
-                "end": 547,
+                "start": 548,
+                "end": 549,
                 "value": 1
               }
             ]
@@ -119,26 +119,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 550,
-      "end": 649,
+      "start": 552,
+      "end": 651,
       "expression": {
         "type": "CallExpression",
-        "start": 550,
-        "end": 648,
+        "start": 552,
+        "end": 650,
         "callee": {
           "type": "MemberExpression",
-          "start": 550,
-          "end": 566,
+          "start": 552,
+          "end": 568,
           "object": {
             "type": "Identifier",
-            "start": 550,
-            "end": 556,
+            "start": 552,
+            "end": 558,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 557,
-            "end": 566,
+            "start": 559,
+            "end": 568,
             "name": "sameValue"
           },
           "computed": false,
@@ -147,28 +147,28 @@
         "arguments": [
           {
             "type": "Literal",
-            "start": 567,
-            "end": 568,
+            "start": 569,
+            "end": 570,
             "value": 4
           },
           {
             "type": "CallExpression",
-            "start": 570,
-            "end": 586,
+            "start": 572,
+            "end": 588,
             "callee": {
               "type": "MemberExpression",
-              "start": 570,
-              "end": 583,
+              "start": 572,
+              "end": 585,
               "object": {
                 "type": "Identifier",
-                "start": 570,
-                "end": 573,
+                "start": 572,
+                "end": 575,
                 "name": "cal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 574,
-                "end": 583,
+                "start": 576,
+                "end": 585,
                 "name": "dayOfWeek"
               },
               "computed": false,
@@ -177,8 +177,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 584,
-                "end": 585,
+                "start": 586,
+                "end": 587,
                 "name": "d"
               }
             ],
@@ -186,8 +186,8 @@
           },
           {
             "type": "Literal",
-            "start": 588,
-            "end": 647,
+            "start": 590,
+            "end": 649,
             "value": "4 must return the same value returned by cal.dayOfWeek(d)"
           }
         ],
@@ -196,37 +196,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 650,
-      "end": 690,
+      "start": 652,
+      "end": 692,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 650,
-        "end": 689,
+        "start": 652,
+        "end": 691,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 650,
-          "end": 651,
+          "start": 652,
+          "end": 653,
           "name": "d"
         },
         "right": {
           "type": "NewExpression",
-          "start": 654,
-          "end": 689,
+          "start": 656,
+          "end": 691,
           "callee": {
             "type": "MemberExpression",
-            "start": 658,
-            "end": 676,
+            "start": 660,
+            "end": 678,
             "object": {
               "type": "Identifier",
-              "start": 658,
-              "end": 666,
+              "start": 660,
+              "end": 668,
               "name": "Temporal"
             },
             "property": {
               "type": "Identifier",
-              "start": 667,
-              "end": 676,
+              "start": 669,
+              "end": 678,
               "name": "PlainDate"
             },
             "computed": false,
@@ -235,20 +235,20 @@
           "arguments": [
             {
               "type": "Literal",
-              "start": 677,
-              "end": 681,
+              "start": 679,
+              "end": 683,
               "value": 2021
             },
             {
               "type": "Literal",
-              "start": 683,
-              "end": 684,
+              "start": 685,
+              "end": 686,
               "value": 2
             },
             {
               "type": "Literal",
-              "start": 686,
-              "end": 688,
+              "start": 688,
+              "end": 690,
               "value": 15
             }
           ]
@@ -257,26 +257,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 691,
-      "end": 790,
+      "start": 693,
+      "end": 792,
       "expression": {
         "type": "CallExpression",
-        "start": 691,
-        "end": 789,
+        "start": 693,
+        "end": 791,
         "callee": {
           "type": "MemberExpression",
-          "start": 691,
-          "end": 707,
+          "start": 693,
+          "end": 709,
           "object": {
             "type": "Identifier",
-            "start": 691,
-            "end": 697,
+            "start": 693,
+            "end": 699,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 698,
-            "end": 707,
+            "start": 700,
+            "end": 709,
             "name": "sameValue"
           },
           "computed": false,
@@ -285,28 +285,28 @@
         "arguments": [
           {
             "type": "Literal",
-            "start": 708,
-            "end": 709,
+            "start": 710,
+            "end": 711,
             "value": 1
           },
           {
             "type": "CallExpression",
-            "start": 711,
-            "end": 727,
+            "start": 713,
+            "end": 729,
             "callee": {
               "type": "MemberExpression",
-              "start": 711,
-              "end": 724,
+              "start": 713,
+              "end": 726,
               "object": {
                 "type": "Identifier",
-                "start": 711,
-                "end": 714,
+                "start": 713,
+                "end": 716,
                 "name": "cal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 715,
-                "end": 724,
+                "start": 717,
+                "end": 726,
                 "name": "dayOfWeek"
               },
               "computed": false,
@@ -315,8 +315,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 725,
-                "end": 726,
+                "start": 727,
+                "end": 728,
                 "name": "d"
               }
             ],
@@ -324,8 +324,8 @@
           },
           {
             "type": "Literal",
-            "start": 729,
-            "end": 788,
+            "start": 731,
+            "end": 790,
             "value": "1 must return the same value returned by cal.dayOfWeek(d)"
           }
         ],
@@ -334,37 +334,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 791,
-      "end": 831,
+      "start": 793,
+      "end": 833,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 791,
-        "end": 830,
+        "start": 793,
+        "end": 832,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 791,
-          "end": 792,
+          "start": 793,
+          "end": 794,
           "name": "d"
         },
         "right": {
           "type": "NewExpression",
-          "start": 795,
-          "end": 830,
+          "start": 797,
+          "end": 832,
           "callee": {
             "type": "MemberExpression",
-            "start": 799,
-            "end": 817,
+            "start": 801,
+            "end": 819,
             "object": {
               "type": "Identifier",
-              "start": 799,
-              "end": 807,
+              "start": 801,
+              "end": 809,
               "name": "Temporal"
             },
             "property": {
               "type": "Identifier",
-              "start": 808,
-              "end": 817,
+              "start": 810,
+              "end": 819,
               "name": "PlainDate"
             },
             "computed": false,
@@ -373,20 +373,20 @@
           "arguments": [
             {
               "type": "Literal",
-              "start": 818,
-              "end": 822,
+              "start": 820,
+              "end": 824,
               "value": 2021
             },
             {
               "type": "Literal",
-              "start": 824,
-              "end": 825,
+              "start": 826,
+              "end": 827,
               "value": 8
             },
             {
               "type": "Literal",
-              "start": 827,
-              "end": 829,
+              "start": 829,
+              "end": 831,
               "value": 15
             }
           ]
@@ -395,26 +395,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 832,
-      "end": 931,
+      "start": 834,
+      "end": 933,
       "expression": {
         "type": "CallExpression",
-        "start": 832,
-        "end": 930,
+        "start": 834,
+        "end": 932,
         "callee": {
           "type": "MemberExpression",
-          "start": 832,
-          "end": 848,
+          "start": 834,
+          "end": 850,
           "object": {
             "type": "Identifier",
-            "start": 832,
-            "end": 838,
+            "start": 834,
+            "end": 840,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 839,
-            "end": 848,
+            "start": 841,
+            "end": 850,
             "name": "sameValue"
           },
           "computed": false,
@@ -423,28 +423,28 @@
         "arguments": [
           {
             "type": "Literal",
-            "start": 849,
-            "end": 850,
+            "start": 851,
+            "end": 852,
             "value": 7
           },
           {
             "type": "CallExpression",
-            "start": 852,
-            "end": 868,
+            "start": 854,
+            "end": 870,
             "callee": {
               "type": "MemberExpression",
-              "start": 852,
-              "end": 865,
+              "start": 854,
+              "end": 867,
               "object": {
                 "type": "Identifier",
-                "start": 852,
-                "end": 855,
+                "start": 854,
+                "end": 857,
                 "name": "cal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 856,
-                "end": 865,
+                "start": 858,
+                "end": 867,
                 "name": "dayOfWeek"
               },
               "computed": false,
@@ -453,8 +453,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 866,
-                "end": 867,
+                "start": 868,
+                "end": 869,
                 "name": "d"
               }
             ],
@@ -462,8 +462,8 @@
           },
           {
             "type": "Literal",
-            "start": 870,
-            "end": 929,
+            "start": 872,
+            "end": 931,
             "value": "7 must return the same value returned by cal.dayOfWeek(d)"
           }
         ],

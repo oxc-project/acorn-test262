@@ -1,36 +1,36 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 981,
+  "end": 985,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 908,
-      "end": 980,
+      "start": 912,
+      "end": 984,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 917,
-          "end": 924,
+          "start": 921,
+          "end": 928,
           "local": {
             "type": "Identifier",
-            "start": 917,
-            "end": 924,
+            "start": 925,
+            "end": 932,
             "name": "default"
           },
           "exported": {
             "type": "Identifier",
-            "start": 917,
-            "end": 924,
+            "start": 925,
+            "end": 932,
             "name": "default"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 932,
-        "end": 979,
+        "start": 936,
+        "end": 983,
         "value": "./instn-iee-err-dflt-thru-star-int_FIXTURE.js"
       }
     }

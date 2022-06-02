@@ -1,35 +1,35 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 848,
+  "end": 849,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 730,
-      "end": 766,
+      "start": 731,
+      "end": 767,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 730,
-        "end": 765,
+        "start": 731,
+        "end": 766,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 730,
-          "end": 758,
+          "start": 731,
+          "end": 759,
           "object": {
             "type": "MemberExpression",
-            "start": 730,
-            "end": 748,
+            "start": 731,
+            "end": 749,
             "object": {
               "type": "Identifier",
-              "start": 730,
-              "end": 738,
+              "start": 731,
+              "end": 739,
               "name": "Function"
             },
             "property": {
               "type": "Identifier",
-              "start": 739,
-              "end": 748,
+              "start": 740,
+              "end": 749,
               "name": "prototype"
             },
             "computed": false,
@@ -37,8 +37,8 @@
           },
           "property": {
             "type": "Identifier",
-            "start": 749,
-            "end": 758,
+            "start": 750,
+            "end": 759,
             "name": "prototype"
           },
           "computed": false,
@@ -46,52 +46,52 @@
         },
         "right": {
           "type": "Literal",
-          "start": 761,
-          "end": 765,
+          "start": 762,
+          "end": 766,
           "value": true
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 768,
-      "end": 813,
+      "start": 769,
+      "end": 814,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 772,
-          "end": 812,
+          "start": 773,
+          "end": 813,
           "id": {
             "type": "Identifier",
-            "start": 772,
-            "end": 778,
+            "start": 773,
+            "end": 779,
             "name": "result"
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 781,
-            "end": 812,
+            "start": 782,
+            "end": 813,
             "left": {
               "type": "Literal",
-              "start": 781,
-              "end": 782,
+              "start": 782,
+              "end": 783,
               "value": 0
             },
             "operator": "instanceof",
             "right": {
               "type": "MemberExpression",
-              "start": 794,
-              "end": 812,
+              "start": 795,
+              "end": 813,
               "object": {
                 "type": "Identifier",
-                "start": 794,
-                "end": 802,
+                "start": 795,
+                "end": 803,
                 "name": "Function"
               },
               "property": {
                 "type": "Identifier",
-                "start": 803,
-                "end": 812,
+                "start": 804,
+                "end": 813,
                 "name": "prototype"
               },
               "computed": false,
@@ -104,26 +104,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 815,
-      "end": 847,
+      "start": 816,
+      "end": 848,
       "expression": {
         "type": "CallExpression",
-        "start": 815,
-        "end": 846,
+        "start": 816,
+        "end": 847,
         "callee": {
           "type": "MemberExpression",
-          "start": 815,
-          "end": 831,
+          "start": 816,
+          "end": 832,
           "object": {
             "type": "Identifier",
-            "start": 815,
-            "end": 821,
+            "start": 816,
+            "end": 822,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 822,
-            "end": 831,
+            "start": 823,
+            "end": 832,
             "name": "sameValue"
           },
           "computed": false,
@@ -132,14 +132,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 832,
-            "end": 838,
+            "start": 833,
+            "end": 839,
             "name": "result"
           },
           {
             "type": "Literal",
-            "start": 840,
-            "end": 845,
+            "start": 841,
+            "end": 846,
             "value": false
           }
         ],

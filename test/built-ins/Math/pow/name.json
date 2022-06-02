@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 816,
+  "end": 817,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 661,
-      "end": 700,
+      "start": 662,
+      "end": 701,
       "expression": {
         "type": "CallExpression",
-        "start": 661,
-        "end": 699,
+        "start": 662,
+        "end": 700,
         "callee": {
           "type": "MemberExpression",
-          "start": 661,
-          "end": 677,
+          "start": 662,
+          "end": 678,
           "object": {
             "type": "Identifier",
-            "start": 661,
-            "end": 667,
+            "start": 662,
+            "end": 668,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 668,
-            "end": 677,
+            "start": 669,
+            "end": 678,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 678,
-            "end": 691,
+            "start": 679,
+            "end": 692,
             "object": {
               "type": "MemberExpression",
-              "start": 678,
-              "end": 686,
+              "start": 679,
+              "end": 687,
               "object": {
                 "type": "Identifier",
-                "start": 678,
-                "end": 682,
+                "start": 679,
+                "end": 683,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 683,
-                "end": 686,
+                "start": 684,
+                "end": 687,
                 "name": "pow"
               },
               "computed": false,
@@ -56,8 +56,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 687,
-              "end": 691,
+              "start": 688,
+              "end": 692,
               "name": "name"
             },
             "computed": false,
@@ -65,8 +65,8 @@
           },
           {
             "type": "Literal",
-            "start": 693,
-            "end": 698,
+            "start": 694,
+            "end": 699,
             "value": "pow"
           }
         ],
@@ -75,33 +75,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 702,
-      "end": 740,
+      "start": 703,
+      "end": 741,
       "expression": {
         "type": "CallExpression",
-        "start": 702,
-        "end": 739,
+        "start": 703,
+        "end": 740,
         "callee": {
           "type": "Identifier",
-          "start": 702,
-          "end": 721,
+          "start": 703,
+          "end": 722,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 722,
-            "end": 730,
+            "start": 723,
+            "end": 731,
             "object": {
               "type": "Identifier",
-              "start": 722,
-              "end": 726,
+              "start": 723,
+              "end": 727,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 727,
-              "end": 730,
+              "start": 728,
+              "end": 731,
               "name": "pow"
             },
             "computed": false,
@@ -109,8 +109,8 @@
           },
           {
             "type": "Literal",
-            "start": 732,
-            "end": 738,
+            "start": 733,
+            "end": 739,
             "value": "name"
           }
         ],
@@ -119,33 +119,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 741,
-      "end": 777,
+      "start": 742,
+      "end": 778,
       "expression": {
         "type": "CallExpression",
-        "start": 741,
-        "end": 776,
+        "start": 742,
+        "end": 777,
         "callee": {
           "type": "Identifier",
-          "start": 741,
-          "end": 758,
+          "start": 742,
+          "end": 759,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 759,
-            "end": 767,
+            "start": 760,
+            "end": 768,
             "object": {
               "type": "Identifier",
-              "start": 759,
-              "end": 763,
+              "start": 760,
+              "end": 764,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 764,
-              "end": 767,
+              "start": 765,
+              "end": 768,
               "name": "pow"
             },
             "computed": false,
@@ -153,8 +153,8 @@
           },
           {
             "type": "Literal",
-            "start": 769,
-            "end": 775,
+            "start": 770,
+            "end": 776,
             "value": "name"
           }
         ],
@@ -163,33 +163,33 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 778,
-      "end": 815,
+      "start": 779,
+      "end": 816,
       "expression": {
         "type": "CallExpression",
-        "start": 778,
-        "end": 814,
+        "start": 779,
+        "end": 815,
         "callee": {
           "type": "Identifier",
-          "start": 778,
-          "end": 796,
+          "start": 779,
+          "end": 797,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 797,
-            "end": 805,
+            "start": 798,
+            "end": 806,
             "object": {
               "type": "Identifier",
-              "start": 797,
-              "end": 801,
+              "start": 798,
+              "end": 802,
               "name": "Math"
             },
             "property": {
               "type": "Identifier",
-              "start": 802,
-              "end": 805,
+              "start": 803,
+              "end": 806,
               "name": "pow"
             },
             "computed": false,
@@ -197,8 +197,8 @@
           },
           {
             "type": "Literal",
-            "start": 807,
-            "end": 813,
+            "start": 808,
+            "end": 814,
             "value": "name"
           }
         ],

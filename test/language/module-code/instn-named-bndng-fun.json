@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2203,
+  "end": 2207,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1861,
-      "end": 1967,
+      "start": 1865,
+      "end": 1971,
       "expression": {
         "type": "CallExpression",
-        "start": 1861,
-        "end": 1966,
+        "start": 1865,
+        "end": 1970,
         "callee": {
           "type": "MemberExpression",
-          "start": 1861,
-          "end": 1877,
+          "start": 1865,
+          "end": 1881,
           "object": {
             "type": "Identifier",
-            "start": 1861,
-            "end": 1867,
+            "start": 1865,
+            "end": 1871,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1868,
-            "end": 1877,
+            "start": 1872,
+            "end": 1881,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,12 +33,12 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1881,
-            "end": 1885,
+            "start": 1885,
+            "end": 1889,
             "callee": {
               "type": "Identifier",
-              "start": 1881,
-              "end": 1883,
+              "start": 1885,
+              "end": 1887,
               "name": "f2"
             },
             "arguments": [],
@@ -46,14 +46,14 @@
           },
           {
             "type": "Literal",
-            "start": 1889,
-            "end": 1891,
+            "start": 1893,
+            "end": 1895,
             "value": 23
           },
           {
             "type": "Literal",
-            "start": 1895,
-            "end": 1964,
+            "start": 1899,
+            "end": 1968,
             "value": "binding is initialized to function value prior to module evaluation"
           }
         ],
@@ -62,26 +62,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1969,
-      "end": 2053,
+      "start": 1973,
+      "end": 2057,
       "expression": {
         "type": "CallExpression",
-        "start": 1969,
-        "end": 2052,
+        "start": 1973,
+        "end": 2056,
         "callee": {
           "type": "MemberExpression",
-          "start": 1969,
-          "end": 1982,
+          "start": 1973,
+          "end": 1986,
           "object": {
             "type": "Identifier",
-            "start": 1969,
-            "end": 1975,
+            "start": 1973,
+            "end": 1979,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1976,
-            "end": 1982,
+            "start": 1980,
+            "end": 1986,
             "name": "throws"
           },
           "computed": false,
@@ -90,14 +90,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1983,
-            "end": 1992,
+            "start": 1987,
+            "end": 1996,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 1994,
-            "end": 2021,
+            "start": 1998,
+            "end": 2025,
             "id": null,
             "expression": false,
             "generator": false,
@@ -105,28 +105,28 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2005,
-              "end": 2021,
+              "start": 2009,
+              "end": 2025,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2009,
-                  "end": 2019,
+                  "start": 2013,
+                  "end": 2023,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 2009,
-                    "end": 2018,
+                    "start": 2013,
+                    "end": 2022,
                     "operator": "=",
                     "left": {
                       "type": "Identifier",
-                      "start": 2009,
-                      "end": 2011,
+                      "start": 2013,
+                      "end": 2015,
                       "name": "f2"
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 2014,
-                      "end": 2018,
+                      "start": 2018,
+                      "end": 2022,
                       "value": null
                     }
                   }
@@ -136,8 +136,8 @@
           },
           {
             "type": "Literal",
-            "start": 2023,
-            "end": 2051,
+            "start": 2027,
+            "end": 2055,
             "value": "binding rejects assignment"
           }
         ],
@@ -146,26 +146,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2055,
-      "end": 2112,
+      "start": 2059,
+      "end": 2116,
       "expression": {
         "type": "CallExpression",
-        "start": 2055,
-        "end": 2111,
+        "start": 2059,
+        "end": 2115,
         "callee": {
           "type": "MemberExpression",
-          "start": 2055,
-          "end": 2071,
+          "start": 2059,
+          "end": 2075,
           "object": {
             "type": "Identifier",
-            "start": 2055,
-            "end": 2061,
+            "start": 2059,
+            "end": 2065,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2062,
-            "end": 2071,
+            "start": 2066,
+            "end": 2075,
             "name": "sameValue"
           },
           "computed": false,
@@ -174,12 +174,12 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2072,
-            "end": 2076,
+            "start": 2076,
+            "end": 2080,
             "callee": {
               "type": "Identifier",
-              "start": 2072,
-              "end": 2074,
+              "start": 2076,
+              "end": 2078,
               "name": "f2"
             },
             "arguments": [],
@@ -187,14 +187,14 @@
           },
           {
             "type": "Literal",
-            "start": 2078,
-            "end": 2080,
+            "start": 2082,
+            "end": 2084,
             "value": 23
           },
           {
             "type": "Literal",
-            "start": 2082,
-            "end": 2110,
+            "start": 2086,
+            "end": 2114,
             "value": "binding value is immutable"
           }
         ],
@@ -203,46 +203,46 @@
     },
     {
       "type": "ImportDeclaration",
-      "start": 2114,
-      "end": 2167,
+      "start": 2118,
+      "end": 2171,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 2123,
-          "end": 2130,
+          "start": 2127,
+          "end": 2134,
           "imported": {
             "type": "Identifier",
-            "start": 2123,
-            "end": 2124,
+            "start": 2127,
+            "end": 2128,
             "name": "f"
           },
           "local": {
             "type": "Identifier",
-            "start": 2128,
-            "end": 2130,
+            "start": 2132,
+            "end": 2134,
             "name": "f2"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 2138,
-        "end": 2166,
+        "start": 2142,
+        "end": 2170,
         "value": "./instn-named-bndng-fun.js"
       }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2168,
-      "end": 2202,
+      "start": 2172,
+      "end": 2206,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 2175,
-        "end": 2202,
+        "start": 2179,
+        "end": 2206,
         "id": {
           "type": "Identifier",
-          "start": 2184,
-          "end": 2185,
+          "start": 2188,
+          "end": 2189,
           "name": "f"
         },
         "expression": false,
@@ -251,17 +251,17 @@
         "params": [],
         "body": {
           "type": "BlockStatement",
-          "start": 2188,
-          "end": 2202,
+          "start": 2192,
+          "end": 2206,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 2190,
-              "end": 2200,
+              "start": 2194,
+              "end": 2204,
               "argument": {
                 "type": "Literal",
-                "start": 2197,
-                "end": 2199,
+                "start": 2201,
+                "end": 2203,
                 "value": 23
               }
             }

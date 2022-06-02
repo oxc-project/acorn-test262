@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 295,
+  "end": 296,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 213,
-      "end": 294,
+      "start": 214,
+      "end": 295,
       "expression": {
         "type": "CallExpression",
-        "start": 213,
-        "end": 293,
+        "start": 214,
+        "end": 294,
         "callee": {
           "type": "MemberExpression",
-          "start": 213,
-          "end": 229,
+          "start": 214,
+          "end": 230,
           "object": {
             "type": "Identifier",
-            "start": 213,
-            "end": 219,
+            "start": 214,
+            "end": 220,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 220,
-            "end": 229,
+            "start": 221,
+            "end": 230,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,27 +33,27 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 230,
-            "end": 246,
+            "start": 231,
+            "end": 247,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "Identifier",
-              "start": 237,
-              "end": 246,
+              "start": 238,
+              "end": 247,
               "name": "TypeError"
             }
           },
           {
             "type": "Literal",
-            "start": 248,
-            "end": 258,
+            "start": 249,
+            "end": 259,
             "value": "function"
           },
           {
             "type": "Literal",
-            "start": 260,
-            "end": 292,
+            "start": 261,
+            "end": 293,
             "value": "typeof TypeError is \"function\""
           }
         ],

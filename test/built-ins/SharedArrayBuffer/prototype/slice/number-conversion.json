@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 646,
+  "end": 647,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 364,
-      "end": 407,
+      "start": 365,
+      "end": 408,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 368,
-          "end": 406,
+          "start": 369,
+          "end": 407,
           "id": {
             "type": "Identifier",
-            "start": 368,
-            "end": 379,
+            "start": 369,
+            "end": 380,
             "name": "arrayBuffer"
           },
           "init": {
             "type": "NewExpression",
-            "start": 382,
-            "end": 406,
+            "start": 383,
+            "end": 407,
             "callee": {
               "type": "Identifier",
-              "start": 386,
-              "end": 403,
+              "start": 387,
+              "end": 404,
               "name": "SharedArrayBuffer"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 404,
-                "end": 405,
+                "start": 405,
+                "end": 406,
                 "value": 8
               }
             ]
@@ -43,23 +43,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 409,
-      "end": 422,
+      "start": 410,
+      "end": 423,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 413,
-          "end": 421,
+          "start": 414,
+          "end": 422,
           "id": {
             "type": "Identifier",
-            "start": 413,
-            "end": 416,
+            "start": 414,
+            "end": 417,
             "name": "log"
           },
           "init": {
             "type": "Literal",
-            "start": 419,
-            "end": 421,
+            "start": 420,
+            "end": 422,
             "value": ""
           }
         }
@@ -68,41 +68,41 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 423,
-      "end": 502,
+      "start": 424,
+      "end": 503,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 427,
-          "end": 501,
+          "start": 428,
+          "end": 502,
           "id": {
             "type": "Identifier",
-            "start": 427,
-            "end": 432,
+            "start": 428,
+            "end": 433,
             "name": "start"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 435,
-            "end": 501,
+            "start": 436,
+            "end": 502,
             "properties": [
               {
                 "type": "Property",
-                "start": 439,
-                "end": 499,
+                "start": 440,
+                "end": 500,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 439,
-                  "end": 446,
+                  "start": 440,
+                  "end": 447,
                   "name": "valueOf"
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 448,
-                  "end": 499,
+                  "start": 449,
+                  "end": 500,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -110,40 +110,40 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 459,
-                    "end": 499,
+                    "start": 460,
+                    "end": 500,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 465,
-                        "end": 481,
+                        "start": 466,
+                        "end": 482,
                         "expression": {
                           "type": "AssignmentExpression",
-                          "start": 465,
-                          "end": 480,
+                          "start": 466,
+                          "end": 481,
                           "operator": "+=",
                           "left": {
                             "type": "Identifier",
-                            "start": 465,
-                            "end": 468,
+                            "start": 466,
+                            "end": 469,
                             "name": "log"
                           },
                           "right": {
                             "type": "Literal",
-                            "start": 472,
-                            "end": 480,
+                            "start": 473,
+                            "end": 481,
                             "value": "start-"
                           }
                         }
                       },
                       {
                         "type": "ReturnStatement",
-                        "start": 486,
-                        "end": 495,
+                        "start": 487,
+                        "end": 496,
                         "argument": {
                           "type": "Literal",
-                          "start": 493,
-                          "end": 494,
+                          "start": 494,
+                          "end": 495,
                           "value": 0
                         }
                       }
@@ -160,41 +160,41 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 503,
-      "end": 577,
+      "start": 504,
+      "end": 578,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 507,
-          "end": 576,
+          "start": 508,
+          "end": 577,
           "id": {
             "type": "Identifier",
-            "start": 507,
-            "end": 510,
+            "start": 508,
+            "end": 511,
             "name": "end"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 513,
-            "end": 576,
+            "start": 514,
+            "end": 577,
             "properties": [
               {
                 "type": "Property",
-                "start": 517,
-                "end": 574,
+                "start": 518,
+                "end": 575,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 517,
-                  "end": 524,
+                  "start": 518,
+                  "end": 525,
                   "name": "valueOf"
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 526,
-                  "end": 574,
+                  "start": 527,
+                  "end": 575,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -202,40 +202,40 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 537,
-                    "end": 574,
+                    "start": 538,
+                    "end": 575,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 543,
-                        "end": 556,
+                        "start": 544,
+                        "end": 557,
                         "expression": {
                           "type": "AssignmentExpression",
-                          "start": 543,
-                          "end": 555,
+                          "start": 544,
+                          "end": 556,
                           "operator": "+=",
                           "left": {
                             "type": "Identifier",
-                            "start": 543,
-                            "end": 546,
+                            "start": 544,
+                            "end": 547,
                             "name": "log"
                           },
                           "right": {
                             "type": "Literal",
-                            "start": 550,
-                            "end": 555,
+                            "start": 551,
+                            "end": 556,
                             "value": "end"
                           }
                         }
                       },
                       {
                         "type": "ReturnStatement",
-                        "start": 561,
-                        "end": 570,
+                        "start": 562,
+                        "end": 571,
                         "argument": {
                           "type": "Literal",
-                          "start": 568,
-                          "end": 569,
+                          "start": 569,
+                          "end": 570,
                           "value": 8
                         }
                       }
@@ -252,26 +252,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 579,
-      "end": 609,
+      "start": 580,
+      "end": 610,
       "expression": {
         "type": "CallExpression",
-        "start": 579,
-        "end": 608,
+        "start": 580,
+        "end": 609,
         "callee": {
           "type": "MemberExpression",
-          "start": 579,
-          "end": 596,
+          "start": 580,
+          "end": 597,
           "object": {
             "type": "Identifier",
-            "start": 579,
-            "end": 590,
+            "start": 580,
+            "end": 591,
             "name": "arrayBuffer"
           },
           "property": {
             "type": "Identifier",
-            "start": 591,
-            "end": 596,
+            "start": 592,
+            "end": 597,
             "name": "slice"
           },
           "computed": false,
@@ -280,14 +280,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 597,
-            "end": 602,
+            "start": 598,
+            "end": 603,
             "name": "start"
           },
           {
             "type": "Identifier",
-            "start": 604,
-            "end": 607,
+            "start": 605,
+            "end": 608,
             "name": "end"
           }
         ],
@@ -296,26 +296,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 610,
-      "end": 645,
+      "start": 611,
+      "end": 646,
       "expression": {
         "type": "CallExpression",
-        "start": 610,
-        "end": 644,
+        "start": 611,
+        "end": 645,
         "callee": {
           "type": "MemberExpression",
-          "start": 610,
-          "end": 626,
+          "start": 611,
+          "end": 627,
           "object": {
             "type": "Identifier",
-            "start": 610,
-            "end": 616,
+            "start": 611,
+            "end": 617,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 617,
-            "end": 626,
+            "start": 618,
+            "end": 627,
             "name": "sameValue"
           },
           "computed": false,
@@ -324,14 +324,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 627,
-            "end": 630,
+            "start": 628,
+            "end": 631,
             "name": "log"
           },
           {
             "type": "Literal",
-            "start": 632,
-            "end": 643,
+            "start": 633,
+            "end": 644,
             "value": "start-end"
           }
         ],

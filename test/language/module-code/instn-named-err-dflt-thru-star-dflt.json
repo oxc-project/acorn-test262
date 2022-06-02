@@ -1,29 +1,29 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1164,
+  "end": 1168,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 1099,
-      "end": 1163,
+      "start": 1103,
+      "end": 1167,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 1106,
-          "end": 1107,
+          "start": 1110,
+          "end": 1111,
           "local": {
             "type": "Identifier",
-            "start": 1106,
-            "end": 1107,
+            "start": 1110,
+            "end": 1111,
             "name": "x"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1113,
-        "end": 1162,
+        "start": 1117,
+        "end": 1166,
         "value": "./instn-named-err-dflt-thru-star-int_FIXTURE.js"
       }
     }

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 857,
+  "end": 861,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -30,43 +30,43 @@
     },
     {
       "type": "IfStatement",
-      "start": 812,
-      "end": 856,
+      "start": 816,
+      "end": 860,
       "test": {
         "type": "BinaryExpression",
-        "start": 816,
-        "end": 823,
+        "start": 820,
+        "end": 827,
         "left": {
           "type": "Identifier",
-          "start": 816,
-          "end": 817,
+          "start": 820,
+          "end": 821,
           "name": "x"
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 822,
-          "end": 823,
+          "start": 826,
+          "end": 827,
           "value": 0
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 825,
-        "end": 856,
+        "start": 829,
+        "end": 860,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 829,
-            "end": 854,
+            "start": 833,
+            "end": 858,
             "argument": {
               "type": "NewExpression",
-              "start": 835,
-              "end": 853,
+              "start": 839,
+              "end": 857,
               "callee": {
                 "type": "Identifier",
-                "start": 839,
-                "end": 851,
+                "start": 843,
+                "end": 855,
                 "name": "Test262Error"
               },
               "arguments": []

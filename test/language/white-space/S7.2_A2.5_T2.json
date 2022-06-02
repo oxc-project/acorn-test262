@@ -1,54 +1,54 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 398,
+  "end": 404,
   "body": [
     {
       "type": "IfStatement",
       "start": 267,
-      "end": 397,
+      "end": 403,
       "test": {
         "type": "BinaryExpression",
         "start": 271,
-        "end": 313,
+        "end": 316,
         "left": {
           "type": "Literal",
           "start": 271,
-          "end": 282,
+          "end": 285,
           "value": " str ing "
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 287,
-          "end": 313,
+          "start": 290,
+          "end": 316,
           "value": " str ing "
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 315,
-        "end": 397,
+        "start": 318,
+        "end": 403,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 319,
-            "end": 395,
+            "start": 322,
+            "end": 401,
             "argument": {
               "type": "NewExpression",
-              "start": 325,
-              "end": 394,
+              "start": 328,
+              "end": 400,
               "callee": {
                 "type": "Identifier",
-                "start": 329,
-                "end": 341,
+                "start": 332,
+                "end": 344,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 342,
-                  "end": 393,
+                  "start": 345,
+                  "end": 399,
                   "value": "#1: \" str ing \" === \"\\u00A0str\\u00A0ing\\u00A0\""
                 }
               ]

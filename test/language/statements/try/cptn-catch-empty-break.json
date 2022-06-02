@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 773,
+  "end": 774,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 604,
-      "end": 731,
+      "start": 605,
+      "end": 732,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 608,
-          "end": 730,
+          "start": 609,
+          "end": 731,
           "id": {
             "type": "Identifier",
-            "start": 608,
-            "end": 618,
+            "start": 609,
+            "end": 619,
             "name": "completion"
           },
           "init": {
             "type": "CallExpression",
-            "start": 621,
-            "end": 730,
+            "start": 622,
+            "end": 731,
             "callee": {
               "type": "Identifier",
-              "start": 621,
-              "end": 625,
+              "start": 622,
+              "end": 626,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 626,
-                "end": 729,
+                "start": 627,
+                "end": 730,
                 "value": "for (var i = 0; i < 2; ++i) { if (i) { try { throw null; } catch (e) { break; } } 'bad completion'; }"
               }
             ],
@@ -44,26 +44,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 732,
-      "end": 772,
+      "start": 733,
+      "end": 773,
       "expression": {
         "type": "CallExpression",
-        "start": 732,
-        "end": 771,
+        "start": 733,
+        "end": 772,
         "callee": {
           "type": "MemberExpression",
-          "start": 732,
-          "end": 748,
+          "start": 733,
+          "end": 749,
           "object": {
             "type": "Identifier",
-            "start": 732,
-            "end": 738,
+            "start": 733,
+            "end": 739,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 739,
-            "end": 748,
+            "start": 740,
+            "end": 749,
             "name": "sameValue"
           },
           "computed": false,
@@ -72,14 +72,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 749,
-            "end": 759,
+            "start": 750,
+            "end": 760,
             "name": "completion"
           },
           {
             "type": "Identifier",
-            "start": 761,
-            "end": 770,
+            "start": 762,
+            "end": 771,
             "name": "undefined"
           }
         ],

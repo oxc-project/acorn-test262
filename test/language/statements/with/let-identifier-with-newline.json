@@ -1,64 +1,64 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 584,
+  "end": 587,
   "body": [
     {
       "type": "IfStatement",
-      "start": 533,
-      "end": 583,
+      "start": 536,
+      "end": 586,
       "test": {
         "type": "Literal",
-        "start": 537,
-        "end": 542,
+        "start": 540,
+        "end": 545,
         "value": false
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 544,
-        "end": 583,
+        "start": 547,
+        "end": 586,
         "body": [
           {
             "type": "WithStatement",
-            "start": 550,
-            "end": 563,
+            "start": 553,
+            "end": 566,
             "object": {
               "type": "ObjectExpression",
-              "start": 556,
-              "end": 558,
+              "start": 559,
+              "end": 561,
               "properties": []
             },
             "body": {
               "type": "ExpressionStatement",
-              "start": 560,
-              "end": 563,
+              "start": 563,
+              "end": 566,
               "expression": {
                 "type": "Identifier",
-                "start": 560,
-                "end": 563,
+                "start": 563,
+                "end": 566,
                 "name": "let"
               }
             }
           },
           {
             "type": "ExpressionStatement",
-            "start": 575,
-            "end": 581,
+            "start": 578,
+            "end": 584,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 575,
-              "end": 580,
+              "start": 578,
+              "end": 583,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 575,
-                "end": 576,
+                "start": 578,
+                "end": 579,
                 "name": "x"
               },
               "right": {
                 "type": "Literal",
-                "start": 579,
-                "end": 580,
+                "start": 582,
+                "end": 583,
                 "value": 1
               }
             }

@@ -1,32 +1,32 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 945,
+  "end": 947,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 922,
-      "end": 936,
+      "start": 924,
+      "end": 938,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 923,
-          "end": 935,
+          "start": 925,
+          "end": 937,
           "body": {
             "type": "ExpressionStatement",
-            "start": 931,
-            "end": 935,
+            "start": 933,
+            "end": 937,
             "expression": {
               "type": "Literal",
-              "start": 931,
-              "end": 935,
+              "start": 933,
+              "end": 937,
               "value": 3000
             }
           },
           "label": {
             "type": "Identifier",
-            "start": 923,
-            "end": 929,
+            "start": 925,
+            "end": 931,
             "name": "length"
           }
         }
@@ -34,28 +34,28 @@
     },
     {
       "type": "BlockStatement",
-      "start": 936,
-      "end": 943,
+      "start": 938,
+      "end": 945,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 937,
-          "end": 942,
+          "start": 939,
+          "end": 944,
           "body": {
             "type": "ExpressionStatement",
-            "start": 940,
-            "end": 942,
+            "start": 942,
+            "end": 944,
             "expression": {
               "type": "Literal",
-              "start": 940,
-              "end": 942,
+              "start": 942,
+              "end": 944,
               "value": 42
             }
           },
           "label": {
             "type": "Identifier",
-            "start": 937,
-            "end": 938,
+            "start": 939,
+            "end": 940,
             "name": "x"
           }
         }
@@ -63,8 +63,8 @@
     },
     {
       "type": "EmptyStatement",
-      "start": 943,
-      "end": 944
+      "start": 945,
+      "end": 946
     }
   ],
   "sourceType": "script"

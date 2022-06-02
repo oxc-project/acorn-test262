@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 802,
+  "end": 803,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 642,
-      "end": 686,
+      "start": 643,
+      "end": 687,
       "expression": {
         "type": "CallExpression",
-        "start": 642,
-        "end": 685,
+        "start": 643,
+        "end": 686,
         "callee": {
           "type": "MemberExpression",
-          "start": 642,
-          "end": 658,
+          "start": 643,
+          "end": 659,
           "object": {
             "type": "Identifier",
-            "start": 642,
-            "end": 648,
+            "start": 643,
+            "end": 649,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 649,
-            "end": 658,
+            "start": 650,
+            "end": 659,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,18 +33,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 659,
-            "end": 672,
+            "start": 660,
+            "end": 673,
             "object": {
               "type": "Identifier",
-              "start": 659,
-              "end": 667,
+              "start": 660,
+              "end": 668,
               "name": "URIError"
             },
             "property": {
               "type": "Identifier",
-              "start": 668,
-              "end": 672,
+              "start": 669,
+              "end": 673,
               "name": "name"
             },
             "computed": false,
@@ -52,8 +52,8 @@
           },
           {
             "type": "Literal",
-            "start": 674,
-            "end": 684,
+            "start": 675,
+            "end": 685,
             "value": "URIError"
           }
         ],
@@ -62,29 +62,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 688,
-      "end": 726,
+      "start": 689,
+      "end": 727,
       "expression": {
         "type": "CallExpression",
-        "start": 688,
-        "end": 725,
+        "start": 689,
+        "end": 726,
         "callee": {
           "type": "Identifier",
-          "start": 688,
-          "end": 707,
+          "start": 689,
+          "end": 708,
           "name": "verifyNotEnumerable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 708,
-            "end": 716,
+            "start": 709,
+            "end": 717,
             "name": "URIError"
           },
           {
             "type": "Literal",
-            "start": 718,
-            "end": 724,
+            "start": 719,
+            "end": 725,
             "value": "name"
           }
         ],
@@ -93,29 +93,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 727,
-      "end": 763,
+      "start": 728,
+      "end": 764,
       "expression": {
         "type": "CallExpression",
-        "start": 727,
-        "end": 762,
+        "start": 728,
+        "end": 763,
         "callee": {
           "type": "Identifier",
-          "start": 727,
-          "end": 744,
+          "start": 728,
+          "end": 745,
           "name": "verifyNotWritable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 745,
-            "end": 753,
+            "start": 746,
+            "end": 754,
             "name": "URIError"
           },
           {
             "type": "Literal",
-            "start": 755,
-            "end": 761,
+            "start": 756,
+            "end": 762,
             "value": "name"
           }
         ],
@@ -124,29 +124,29 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 764,
-      "end": 801,
+      "start": 765,
+      "end": 802,
       "expression": {
         "type": "CallExpression",
-        "start": 764,
-        "end": 800,
+        "start": 765,
+        "end": 801,
         "callee": {
           "type": "Identifier",
-          "start": 764,
-          "end": 782,
+          "start": 765,
+          "end": 783,
           "name": "verifyConfigurable"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 783,
-            "end": 791,
+            "start": 784,
+            "end": 792,
             "name": "URIError"
           },
           {
             "type": "Literal",
-            "start": 793,
-            "end": 799,
+            "start": 794,
+            "end": 800,
             "value": "name"
           }
         ],

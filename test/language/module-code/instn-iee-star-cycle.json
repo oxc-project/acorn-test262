@@ -1,85 +1,85 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1979,
+  "end": 1983,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 1839,
-      "end": 1895,
+      "start": 1843,
+      "end": 1899,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 1848,
-          "end": 1849,
+          "start": 1852,
+          "end": 1853,
           "local": {
             "type": "Identifier",
-            "start": 1848,
-            "end": 1849,
+            "start": 1856,
+            "end": 1857,
             "name": "x"
           },
           "exported": {
             "type": "Identifier",
-            "start": 1848,
-            "end": 1849,
+            "start": 1856,
+            "end": 1857,
             "name": "x"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1857,
-        "end": 1894,
+        "start": 1861,
+        "end": 1898,
         "value": "./instn-iee-star-cycle-2_FIXTURE.js"
       }
     },
     {
       "type": "ImportDeclaration",
-      "start": 1897,
-      "end": 1947,
+      "start": 1901,
+      "end": 1951,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1904,
-          "end": 1913,
+          "start": 1908,
+          "end": 1917,
           "local": {
             "type": "Identifier",
-            "start": 1909,
-            "end": 1913,
+            "start": 1913,
+            "end": 1917,
             "name": "self"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1919,
-        "end": 1946,
+        "start": 1923,
+        "end": 1950,
         "value": "./instn-iee-star-cycle.js"
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 1949,
-      "end": 1978,
+      "start": 1953,
+      "end": 1982,
       "expression": {
         "type": "CallExpression",
-        "start": 1949,
-        "end": 1977,
+        "start": 1953,
+        "end": 1981,
         "callee": {
           "type": "MemberExpression",
-          "start": 1949,
-          "end": 1965,
+          "start": 1953,
+          "end": 1969,
           "object": {
             "type": "Identifier",
-            "start": 1949,
-            "end": 1955,
+            "start": 1953,
+            "end": 1959,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1956,
-            "end": 1965,
+            "start": 1960,
+            "end": 1969,
             "name": "sameValue"
           },
           "computed": false,
@@ -88,18 +88,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1966,
-            "end": 1972,
+            "start": 1970,
+            "end": 1976,
             "object": {
               "type": "Identifier",
-              "start": 1966,
-              "end": 1970,
+              "start": 1970,
+              "end": 1974,
               "name": "self"
             },
             "property": {
               "type": "Identifier",
-              "start": 1971,
-              "end": 1972,
+              "start": 1975,
+              "end": 1976,
               "name": "x"
             },
             "computed": false,
@@ -107,8 +107,8 @@
           },
           {
             "type": "Literal",
-            "start": 1974,
-            "end": 1976,
+            "start": 1978,
+            "end": 1980,
             "value": 45
           }
         ],

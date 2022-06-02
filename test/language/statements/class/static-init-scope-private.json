@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 778,
+  "end": 780,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 646,
-      "end": 656,
+      "start": 648,
+      "end": 658,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 650,
-          "end": 655,
+          "start": 652,
+          "end": 657,
           "id": {
             "type": "Identifier",
-            "start": 650,
-            "end": 655,
+            "start": 652,
+            "end": 657,
             "name": "probe"
           },
           "init": null
@@ -25,73 +25,73 @@
     },
     {
       "type": "ClassDeclaration",
-      "start": 658,
-      "end": 740,
+      "start": 660,
+      "end": 742,
       "id": {
         "type": "Identifier",
-        "start": 664,
-        "end": 665,
+        "start": 666,
+        "end": 667,
         "name": "C"
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 666,
-        "end": 740,
+        "start": 668,
+        "end": 742,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 670,
-            "end": 698,
+            "start": 672,
+            "end": 700,
             "static": true,
             "computed": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 677,
-              "end": 685,
+              "start": 679,
+              "end": 687,
               "name": "test262"
             },
             "value": {
               "type": "Literal",
-              "start": 688,
-              "end": 697,
+              "start": 690,
+              "end": 699,
               "value": "private"
             }
           },
           {
             "type": "StaticBlock",
-            "start": 702,
-            "end": 738,
+            "start": 704,
+            "end": 740,
             "body": [
               {
                 "type": "ExpressionStatement",
-                "start": 715,
-                "end": 734,
+                "start": 717,
+                "end": 736,
                 "expression": {
                   "type": "AssignmentExpression",
-                  "start": 715,
-                  "end": 733,
+                  "start": 717,
+                  "end": 735,
                   "operator": "=",
                   "left": {
                     "type": "Identifier",
-                    "start": 715,
-                    "end": 720,
+                    "start": 717,
+                    "end": 722,
                     "name": "probe"
                   },
                   "right": {
                     "type": "MemberExpression",
-                    "start": 723,
-                    "end": 733,
+                    "start": 725,
+                    "end": 735,
                     "object": {
                       "type": "Identifier",
-                      "start": 723,
-                      "end": 724,
+                      "start": 725,
+                      "end": 726,
                       "name": "C"
                     },
                     "property": {
                       "type": "PrivateIdentifier",
-                      "start": 725,
-                      "end": 733,
+                      "start": 727,
+                      "end": 735,
                       "name": "test262"
                     },
                     "computed": false,
@@ -106,26 +106,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 742,
-      "end": 777,
+      "start": 744,
+      "end": 779,
       "expression": {
         "type": "CallExpression",
-        "start": 742,
-        "end": 776,
+        "start": 744,
+        "end": 778,
         "callee": {
           "type": "MemberExpression",
-          "start": 742,
-          "end": 758,
+          "start": 744,
+          "end": 760,
           "object": {
             "type": "Identifier",
-            "start": 742,
-            "end": 748,
+            "start": 744,
+            "end": 750,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 749,
-            "end": 758,
+            "start": 751,
+            "end": 760,
             "name": "sameValue"
           },
           "computed": false,
@@ -134,14 +134,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 759,
-            "end": 764,
+            "start": 761,
+            "end": 766,
             "name": "probe"
           },
           {
             "type": "Literal",
-            "start": 766,
-            "end": 775,
+            "start": 768,
+            "end": 777,
             "value": "private"
           }
         ],

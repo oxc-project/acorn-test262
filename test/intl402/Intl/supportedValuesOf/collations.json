@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2170,
+  "end": 2171,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 928,
-      "end": 983,
+      "start": 929,
+      "end": 984,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 934,
-          "end": 982,
+          "start": 935,
+          "end": 983,
           "id": {
             "type": "Identifier",
-            "start": 934,
-            "end": 944,
+            "start": 935,
+            "end": 945,
             "name": "collations"
           },
           "init": {
             "type": "CallExpression",
-            "start": 947,
-            "end": 982,
+            "start": 948,
+            "end": 983,
             "callee": {
               "type": "MemberExpression",
-              "start": 947,
-              "end": 969,
+              "start": 948,
+              "end": 970,
               "object": {
                 "type": "Identifier",
-                "start": 947,
-                "end": 951,
+                "start": 948,
+                "end": 952,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 952,
-                "end": 969,
+                "start": 953,
+                "end": 970,
                 "name": "supportedValuesOf"
               },
               "computed": false,
@@ -44,8 +44,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 970,
-                "end": 981,
+                "start": 971,
+                "end": 982,
                 "value": "collation"
               }
             ],
@@ -57,37 +57,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 985,
-      "end": 1047,
+      "start": 986,
+      "end": 1048,
       "expression": {
         "type": "CallExpression",
-        "start": 985,
-        "end": 1046,
+        "start": 986,
+        "end": 1047,
         "callee": {
           "type": "Identifier",
-          "start": 985,
-          "end": 991,
+          "start": 986,
+          "end": 992,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 992,
-            "end": 1017,
+            "start": 993,
+            "end": 1018,
             "callee": {
               "type": "MemberExpression",
-              "start": 992,
-              "end": 1005,
+              "start": 993,
+              "end": 1006,
               "object": {
                 "type": "Identifier",
-                "start": 992,
-                "end": 997,
+                "start": 993,
+                "end": 998,
                 "name": "Array"
               },
               "property": {
                 "type": "Identifier",
-                "start": 998,
-                "end": 1005,
+                "start": 999,
+                "end": 1006,
                 "name": "isArray"
               },
               "computed": false,
@@ -96,8 +96,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1006,
-                "end": 1016,
+                "start": 1007,
+                "end": 1017,
                 "name": "collations"
               }
             ],
@@ -105,8 +105,8 @@
           },
           {
             "type": "Literal",
-            "start": 1019,
-            "end": 1045,
+            "start": 1020,
+            "end": 1046,
             "value": "Returns an Array object."
           }
         ],
@@ -115,26 +115,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1048,
-      "end": 1176,
+      "start": 1049,
+      "end": 1177,
       "expression": {
         "type": "CallExpression",
-        "start": 1048,
-        "end": 1175,
+        "start": 1049,
+        "end": 1176,
         "callee": {
           "type": "MemberExpression",
-          "start": 1048,
-          "end": 1064,
+          "start": 1049,
+          "end": 1065,
           "object": {
             "type": "Identifier",
-            "start": 1048,
-            "end": 1054,
+            "start": 1049,
+            "end": 1055,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1055,
-            "end": 1064,
+            "start": 1056,
+            "end": 1065,
             "name": "sameValue"
           },
           "computed": false,
@@ -143,22 +143,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1065,
-            "end": 1098,
+            "start": 1066,
+            "end": 1099,
             "callee": {
               "type": "MemberExpression",
-              "start": 1065,
-              "end": 1086,
+              "start": 1066,
+              "end": 1087,
               "object": {
                 "type": "Identifier",
-                "start": 1065,
-                "end": 1071,
+                "start": 1066,
+                "end": 1072,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1072,
-                "end": 1086,
+                "start": 1073,
+                "end": 1087,
                 "name": "getPrototypeOf"
               },
               "computed": false,
@@ -167,8 +167,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1087,
-                "end": 1097,
+                "start": 1088,
+                "end": 1098,
                 "name": "collations"
               }
             ],
@@ -176,18 +176,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 1100,
-            "end": 1115,
+            "start": 1101,
+            "end": 1116,
             "object": {
               "type": "Identifier",
-              "start": 1100,
-              "end": 1105,
+              "start": 1101,
+              "end": 1106,
               "name": "Array"
             },
             "property": {
               "type": "Identifier",
-              "start": 1106,
-              "end": 1115,
+              "start": 1107,
+              "end": 1116,
               "name": "prototype"
             },
             "computed": false,
@@ -195,8 +195,8 @@
           },
           {
             "type": "Literal",
-            "start": 1134,
-            "end": 1174,
+            "start": 1135,
+            "end": 1175,
             "value": "The array prototype is Array.prototype"
           }
         ],
@@ -205,37 +205,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1178,
-      "end": 1238,
+      "start": 1179,
+      "end": 1239,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1184,
-          "end": 1237,
+          "start": 1185,
+          "end": 1238,
           "id": {
             "type": "Identifier",
-            "start": 1184,
-            "end": 1199,
+            "start": 1185,
+            "end": 1200,
             "name": "otherCollations"
           },
           "init": {
             "type": "CallExpression",
-            "start": 1202,
-            "end": 1237,
+            "start": 1203,
+            "end": 1238,
             "callee": {
               "type": "MemberExpression",
-              "start": 1202,
-              "end": 1224,
+              "start": 1203,
+              "end": 1225,
               "object": {
                 "type": "Identifier",
-                "start": 1202,
-                "end": 1206,
+                "start": 1203,
+                "end": 1207,
                 "name": "Intl"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1207,
-                "end": 1224,
+                "start": 1208,
+                "end": 1225,
                 "name": "supportedValuesOf"
               },
               "computed": false,
@@ -244,8 +244,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1225,
-                "end": 1236,
+                "start": 1226,
+                "end": 1237,
                 "value": "collation"
               }
             ],
@@ -257,26 +257,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1239,
-      "end": 1353,
+      "start": 1240,
+      "end": 1354,
       "expression": {
         "type": "CallExpression",
-        "start": 1239,
-        "end": 1352,
+        "start": 1240,
+        "end": 1353,
         "callee": {
           "type": "MemberExpression",
-          "start": 1239,
-          "end": 1258,
+          "start": 1240,
+          "end": 1259,
           "object": {
             "type": "Identifier",
-            "start": 1239,
-            "end": 1245,
+            "start": 1240,
+            "end": 1246,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1246,
-            "end": 1258,
+            "start": 1247,
+            "end": 1259,
             "name": "notSameValue"
           },
           "computed": false,
@@ -285,20 +285,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1259,
-            "end": 1274,
+            "start": 1260,
+            "end": 1275,
             "name": "otherCollations"
           },
           {
             "type": "Identifier",
-            "start": 1276,
-            "end": 1286,
+            "start": 1277,
+            "end": 1287,
             "name": "collations"
           },
           {
             "type": "Literal",
-            "start": 1308,
-            "end": 1351,
+            "start": 1309,
+            "end": 1352,
             "value": "Returns a new array object for each call."
           }
         ],
@@ -307,26 +307,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1355,
-      "end": 1455,
+      "start": 1356,
+      "end": 1456,
       "expression": {
         "type": "CallExpression",
-        "start": 1355,
-        "end": 1454,
+        "start": 1356,
+        "end": 1455,
         "callee": {
           "type": "MemberExpression",
-          "start": 1355,
-          "end": 1374,
+          "start": 1356,
+          "end": 1375,
           "object": {
             "type": "Identifier",
-            "start": 1355,
-            "end": 1361,
+            "start": 1356,
+            "end": 1362,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1362,
-            "end": 1374,
+            "start": 1363,
+            "end": 1375,
             "name": "compareArray"
           },
           "computed": false,
@@ -335,28 +335,28 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1375,
-            "end": 1385,
+            "start": 1376,
+            "end": 1386,
             "name": "collations"
           },
           {
             "type": "CallExpression",
-            "start": 1387,
-            "end": 1409,
+            "start": 1388,
+            "end": 1410,
             "callee": {
               "type": "MemberExpression",
-              "start": 1387,
-              "end": 1407,
+              "start": 1388,
+              "end": 1408,
               "object": {
                 "type": "Identifier",
-                "start": 1387,
-                "end": 1402,
+                "start": 1388,
+                "end": 1403,
                 "name": "otherCollations"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1403,
-                "end": 1407,
+                "start": 1404,
+                "end": 1408,
                 "name": "sort"
               },
               "computed": false,
@@ -367,8 +367,8 @@
           },
           {
             "type": "Literal",
-            "start": 1431,
-            "end": 1453,
+            "start": 1432,
+            "end": 1454,
             "value": "The array is sorted."
           }
         ],
@@ -377,26 +377,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1457,
-      "end": 1577,
+      "start": 1458,
+      "end": 1578,
       "expression": {
         "type": "CallExpression",
-        "start": 1457,
-        "end": 1576,
+        "start": 1458,
+        "end": 1577,
         "callee": {
           "type": "MemberExpression",
-          "start": 1457,
-          "end": 1473,
+          "start": 1458,
+          "end": 1474,
           "object": {
             "type": "Identifier",
-            "start": 1457,
-            "end": 1463,
+            "start": 1458,
+            "end": 1464,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1464,
-            "end": 1473,
+            "start": 1465,
+            "end": 1474,
             "name": "sameValue"
           },
           "computed": false,
@@ -405,31 +405,31 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1474,
-            "end": 1498,
+            "start": 1475,
+            "end": 1499,
             "object": {
               "type": "NewExpression",
-              "start": 1474,
-              "end": 1493,
+              "start": 1475,
+              "end": 1494,
               "callee": {
                 "type": "Identifier",
-                "start": 1478,
-                "end": 1481,
+                "start": 1479,
+                "end": 1482,
                 "name": "Set"
               },
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 1482,
-                  "end": 1492,
+                  "start": 1483,
+                  "end": 1493,
                   "name": "collations"
                 }
               ]
             },
             "property": {
               "type": "Identifier",
-              "start": 1494,
-              "end": 1498,
+              "start": 1495,
+              "end": 1499,
               "name": "size"
             },
             "computed": false,
@@ -437,18 +437,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 1500,
-            "end": 1517,
+            "start": 1501,
+            "end": 1518,
             "object": {
               "type": "Identifier",
-              "start": 1500,
-              "end": 1510,
+              "start": 1501,
+              "end": 1511,
               "name": "collations"
             },
             "property": {
               "type": "Identifier",
-              "start": 1511,
-              "end": 1517,
+              "start": 1512,
+              "end": 1518,
               "name": "length"
             },
             "computed": false,
@@ -456,8 +456,8 @@
           },
           {
             "type": "Literal",
-            "start": 1536,
-            "end": 1575,
+            "start": 1537,
+            "end": 1576,
             "value": "The array doesn't contain duplicates."
           }
         ],
@@ -466,23 +466,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1651,
-      "end": 1701,
+      "start": 1652,
+      "end": 1702,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1657,
-          "end": 1700,
+          "start": 1658,
+          "end": 1701,
           "id": {
             "type": "Identifier",
-            "start": 1657,
-            "end": 1663,
+            "start": 1658,
+            "end": 1664,
             "name": "typeRE"
           },
           "init": {
             "type": "Literal",
-            "start": 1666,
-            "end": 1700,
+            "start": 1667,
+            "end": 1701,
             "value": {},
             "regex": {
               "pattern": "^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$",
@@ -495,22 +495,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 1702,
-      "end": 1819,
+      "start": 1703,
+      "end": 1820,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 1707,
-        "end": 1720,
+        "start": 1708,
+        "end": 1721,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1711,
-            "end": 1720,
+            "start": 1712,
+            "end": 1721,
             "id": {
               "type": "Identifier",
-              "start": 1711,
-              "end": 1720,
+              "start": 1712,
+              "end": 1721,
               "name": "collation"
             },
             "init": null
@@ -520,48 +520,48 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 1724,
-        "end": 1734,
+        "start": 1725,
+        "end": 1735,
         "name": "collations"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1736,
-        "end": 1819,
+        "start": 1737,
+        "end": 1820,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1740,
-            "end": 1817,
+            "start": 1741,
+            "end": 1818,
             "expression": {
               "type": "CallExpression",
-              "start": 1740,
-              "end": 1816,
+              "start": 1741,
+              "end": 1817,
               "callee": {
                 "type": "Identifier",
-                "start": 1740,
-                "end": 1746,
+                "start": 1741,
+                "end": 1747,
                 "name": "assert"
               },
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 1747,
-                  "end": 1769,
+                  "start": 1748,
+                  "end": 1770,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 1747,
-                    "end": 1758,
+                    "start": 1748,
+                    "end": 1759,
                     "object": {
                       "type": "Identifier",
-                      "start": 1747,
-                      "end": 1753,
+                      "start": 1748,
+                      "end": 1754,
                       "name": "typeRE"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1754,
-                      "end": 1758,
+                      "start": 1755,
+                      "end": 1759,
                       "name": "test"
                     },
                     "computed": false,
@@ -570,8 +570,8 @@
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 1759,
-                      "end": 1768,
+                      "start": 1760,
+                      "end": 1769,
                       "name": "collation"
                     }
                   ],
@@ -579,21 +579,21 @@
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 1771,
-                  "end": 1815,
+                  "start": 1772,
+                  "end": 1816,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 1774,
-                      "end": 1783,
+                      "start": 1775,
+                      "end": 1784,
                       "name": "collation"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 1772,
-                      "end": 1772,
+                      "start": 1773,
+                      "end": 1773,
                       "value": {
                         "raw": "",
                         "cooked": ""
@@ -602,8 +602,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 1784,
-                      "end": 1814,
+                      "start": 1785,
+                      "end": 1815,
                       "value": {
                         "raw": " matches the 'type' production",
                         "cooked": " matches the 'type' production"
@@ -621,22 +621,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 1821,
-      "end": 1988,
+      "start": 1822,
+      "end": 1989,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 1826,
-        "end": 1839,
+        "start": 1827,
+        "end": 1840,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1830,
-            "end": 1839,
+            "start": 1831,
+            "end": 1840,
             "id": {
               "type": "Identifier",
-              "start": 1830,
-              "end": 1839,
+              "start": 1831,
+              "end": 1840,
               "name": "collation"
             },
             "init": null
@@ -646,37 +646,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 1843,
-        "end": 1853,
+        "start": 1844,
+        "end": 1854,
         "name": "collations"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1855,
-        "end": 1988,
+        "start": 1856,
+        "end": 1989,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1859,
-            "end": 1986,
+            "start": 1860,
+            "end": 1987,
             "expression": {
               "type": "CallExpression",
-              "start": 1859,
-              "end": 1985,
+              "start": 1860,
+              "end": 1986,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1859,
-                "end": 1875,
+                "start": 1860,
+                "end": 1876,
                 "object": {
                   "type": "Identifier",
-                  "start": 1859,
-                  "end": 1865,
+                  "start": 1860,
+                  "end": 1866,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1866,
-                  "end": 1875,
+                  "start": 1867,
+                  "end": 1876,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -685,26 +685,26 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 1876,
-                  "end": 1921,
+                  "start": 1877,
+                  "end": 1922,
                   "object": {
                     "type": "NewExpression",
-                    "start": 1876,
-                    "end": 1911,
+                    "start": 1877,
+                    "end": 1912,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1880,
-                      "end": 1891,
+                      "start": 1881,
+                      "end": 1892,
                       "object": {
                         "type": "Identifier",
-                        "start": 1880,
-                        "end": 1884,
+                        "start": 1881,
+                        "end": 1885,
                         "name": "Intl"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1885,
-                        "end": 1891,
+                        "start": 1886,
+                        "end": 1892,
                         "name": "Locale"
                       },
                       "computed": false,
@@ -713,33 +713,33 @@
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1892,
-                        "end": 1897,
+                        "start": 1893,
+                        "end": 1898,
                         "value": "und"
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 1899,
-                        "end": 1910,
+                        "start": 1900,
+                        "end": 1911,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 1900,
-                            "end": 1909,
+                            "start": 1901,
+                            "end": 1910,
                             "method": false,
                             "shorthand": true,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 1900,
-                              "end": 1909,
+                              "start": 1901,
+                              "end": 1910,
                               "name": "collation"
                             },
                             "kind": "init",
                             "value": {
                               "type": "Identifier",
-                              "start": 1900,
-                              "end": 1909,
+                              "start": 1901,
+                              "end": 1910,
                               "name": "collation"
                             }
                           }
@@ -749,8 +749,8 @@
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1912,
-                    "end": 1921,
+                    "start": 1913,
+                    "end": 1922,
                     "name": "collation"
                   },
                   "computed": false,
@@ -758,27 +758,27 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 1923,
-                  "end": 1932,
+                  "start": 1924,
+                  "end": 1933,
                   "name": "collation"
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 1953,
-                  "end": 1984,
+                  "start": 1954,
+                  "end": 1985,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 1956,
-                      "end": 1965,
+                      "start": 1957,
+                      "end": 1966,
                       "name": "collation"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 1954,
-                      "end": 1954,
+                      "start": 1955,
+                      "end": 1955,
                       "value": {
                         "raw": "",
                         "cooked": ""
@@ -787,8 +787,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 1966,
-                      "end": 1983,
+                      "start": 1967,
+                      "end": 1984,
                       "value": {
                         "raw": " is canonicalised",
                         "cooked": " is canonicalised"
@@ -806,43 +806,43 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1990,
-      "end": 2081,
+      "start": 1991,
+      "end": 2082,
       "expression": {
         "type": "CallExpression",
-        "start": 1990,
-        "end": 2080,
+        "start": 1991,
+        "end": 2081,
         "callee": {
           "type": "Identifier",
-          "start": 1990,
-          "end": 1996,
+          "start": 1991,
+          "end": 1997,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1997,
-            "end": 2029,
+            "start": 1998,
+            "end": 2030,
             "operator": "!",
             "prefix": true,
             "argument": {
               "type": "CallExpression",
-              "start": 1998,
-              "end": 2029,
+              "start": 1999,
+              "end": 2030,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1998,
-                "end": 2017,
+                "start": 1999,
+                "end": 2018,
                 "object": {
                   "type": "Identifier",
-                  "start": 1998,
-                  "end": 2008,
+                  "start": 1999,
+                  "end": 2009,
                   "name": "collations"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 2009,
-                  "end": 2017,
+                  "start": 2010,
+                  "end": 2018,
                   "name": "includes"
                 },
                 "computed": false,
@@ -851,8 +851,8 @@
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2018,
-                  "end": 2028,
+                  "start": 2019,
+                  "end": 2029,
                   "value": "standard"
                 }
               ],
@@ -861,8 +861,8 @@
           },
           {
             "type": "Literal",
-            "start": 2031,
-            "end": 2079,
+            "start": 2032,
+            "end": 2080,
             "value": "Mustn't include the 'standard' collation type."
           }
         ],
@@ -871,43 +871,43 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2082,
-      "end": 2169,
+      "start": 2083,
+      "end": 2170,
       "expression": {
         "type": "CallExpression",
-        "start": 2082,
-        "end": 2168,
+        "start": 2083,
+        "end": 2169,
         "callee": {
           "type": "Identifier",
-          "start": 2082,
-          "end": 2088,
+          "start": 2083,
+          "end": 2089,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 2089,
-            "end": 2119,
+            "start": 2090,
+            "end": 2120,
             "operator": "!",
             "prefix": true,
             "argument": {
               "type": "CallExpression",
-              "start": 2090,
-              "end": 2119,
+              "start": 2091,
+              "end": 2120,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2090,
-                "end": 2109,
+                "start": 2091,
+                "end": 2110,
                 "object": {
                   "type": "Identifier",
-                  "start": 2090,
-                  "end": 2100,
+                  "start": 2091,
+                  "end": 2101,
                   "name": "collations"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 2101,
-                  "end": 2109,
+                  "start": 2102,
+                  "end": 2110,
                   "name": "includes"
                 },
                 "computed": false,
@@ -916,8 +916,8 @@
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2110,
-                  "end": 2118,
+                  "start": 2111,
+                  "end": 2119,
                   "value": "search"
                 }
               ],
@@ -926,8 +926,8 @@
           },
           {
             "type": "Literal",
-            "start": 2121,
-            "end": 2167,
+            "start": 2122,
+            "end": 2168,
             "value": "Mustn't include the 'search' collation type."
           }
         ],

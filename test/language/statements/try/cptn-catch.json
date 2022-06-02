@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1145,
+  "end": 1147,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 996,
-      "end": 1072,
+      "start": 998,
+      "end": 1074,
       "expression": {
         "type": "CallExpression",
-        "start": 996,
-        "end": 1071,
+        "start": 998,
+        "end": 1073,
         "callee": {
           "type": "MemberExpression",
-          "start": 996,
-          "end": 1012,
+          "start": 998,
+          "end": 1014,
           "object": {
             "type": "Identifier",
-            "start": 996,
-            "end": 1002,
+            "start": 998,
+            "end": 1004,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1003,
-            "end": 1012,
+            "start": 1005,
+            "end": 1014,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,19 +33,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1013,
-            "end": 1059,
+            "start": 1015,
+            "end": 1061,
             "callee": {
               "type": "Identifier",
-              "start": 1013,
-              "end": 1017,
+              "start": 1015,
+              "end": 1019,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1018,
-                "end": 1058,
+                "start": 1020,
+                "end": 1060,
                 "value": "1; try { throw null; } catch (err) { }"
               }
             ],
@@ -53,8 +53,8 @@
           },
           {
             "type": "Identifier",
-            "start": 1061,
-            "end": 1070,
+            "start": 1063,
+            "end": 1072,
             "name": "undefined"
           }
         ],
@@ -63,26 +63,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1073,
-      "end": 1144,
+      "start": 1075,
+      "end": 1146,
       "expression": {
         "type": "CallExpression",
-        "start": 1073,
-        "end": 1143,
+        "start": 1075,
+        "end": 1145,
         "callee": {
           "type": "MemberExpression",
-          "start": 1073,
-          "end": 1089,
+          "start": 1075,
+          "end": 1091,
           "object": {
             "type": "Identifier",
-            "start": 1073,
-            "end": 1079,
+            "start": 1075,
+            "end": 1081,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1080,
-            "end": 1089,
+            "start": 1082,
+            "end": 1091,
             "name": "sameValue"
           },
           "computed": false,
@@ -91,19 +91,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1090,
-            "end": 1139,
+            "start": 1092,
+            "end": 1141,
             "callee": {
               "type": "Identifier",
-              "start": 1090,
-              "end": 1094,
+              "start": 1092,
+              "end": 1096,
               "name": "eval"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1095,
-                "end": 1138,
+                "start": 1097,
+                "end": 1140,
                 "value": "2; try { throw null; } catch (err) { 3; }"
               }
             ],
@@ -111,8 +111,8 @@
           },
           {
             "type": "Literal",
-            "start": 1141,
-            "end": 1142,
+            "start": 1143,
+            "end": 1144,
             "value": 3
           }
         ],

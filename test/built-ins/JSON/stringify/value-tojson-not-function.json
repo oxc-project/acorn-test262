@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 859,
+  "end": 861,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 587,
-      "end": 655,
+      "start": 589,
+      "end": 657,
       "expression": {
         "type": "CallExpression",
-        "start": 587,
-        "end": 654,
+        "start": 589,
+        "end": 656,
         "callee": {
           "type": "MemberExpression",
-          "start": 587,
-          "end": 603,
+          "start": 589,
+          "end": 605,
           "object": {
             "type": "Identifier",
-            "start": 587,
-            "end": 593,
+            "start": 589,
+            "end": 595,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 594,
-            "end": 603,
+            "start": 596,
+            "end": 605,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 604,
-            "end": 634,
+            "start": 606,
+            "end": 636,
             "callee": {
               "type": "MemberExpression",
-              "start": 604,
-              "end": 618,
+              "start": 606,
+              "end": 620,
               "object": {
                 "type": "Identifier",
-                "start": 604,
-                "end": 608,
+                "start": 606,
+                "end": 610,
                 "name": "JSON"
               },
               "property": {
                 "type": "Identifier",
-                "start": 609,
-                "end": 618,
+                "start": 611,
+                "end": 620,
                 "name": "stringify"
               },
               "computed": false,
@@ -57,26 +57,26 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 619,
-                "end": 633,
+                "start": 621,
+                "end": 635,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 620,
-                    "end": 632,
+                    "start": 622,
+                    "end": 634,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 620,
-                      "end": 626,
+                      "start": 622,
+                      "end": 628,
                       "name": "toJSON"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 628,
-                      "end": 632,
+                      "start": 630,
+                      "end": 634,
                       "value": null
                     },
                     "kind": "init"
@@ -88,8 +88,8 @@
           },
           {
             "type": "Literal",
-            "start": 636,
-            "end": 653,
+            "start": 638,
+            "end": 655,
             "value": "{\"toJSON\":null}"
           }
         ],
@@ -98,26 +98,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 656,
-      "end": 726,
+      "start": 658,
+      "end": 728,
       "expression": {
         "type": "CallExpression",
-        "start": 656,
-        "end": 725,
+        "start": 658,
+        "end": 727,
         "callee": {
           "type": "MemberExpression",
-          "start": 656,
-          "end": 672,
+          "start": 658,
+          "end": 674,
           "object": {
             "type": "Identifier",
-            "start": 656,
-            "end": 662,
+            "start": 658,
+            "end": 664,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 663,
-            "end": 672,
+            "start": 665,
+            "end": 674,
             "name": "sameValue"
           },
           "computed": false,
@@ -126,22 +126,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 673,
-            "end": 704,
+            "start": 675,
+            "end": 706,
             "callee": {
               "type": "MemberExpression",
-              "start": 673,
-              "end": 687,
+              "start": 675,
+              "end": 689,
               "object": {
                 "type": "Identifier",
-                "start": 673,
-                "end": 677,
+                "start": 675,
+                "end": 679,
                 "name": "JSON"
               },
               "property": {
                 "type": "Identifier",
-                "start": 678,
-                "end": 687,
+                "start": 680,
+                "end": 689,
                 "name": "stringify"
               },
               "computed": false,
@@ -150,26 +150,26 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 688,
-                "end": 703,
+                "start": 690,
+                "end": 705,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 689,
-                    "end": 702,
+                    "start": 691,
+                    "end": 704,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 689,
-                      "end": 695,
+                      "start": 691,
+                      "end": 697,
                       "name": "toJSON"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 697,
-                      "end": 702,
+                      "start": 699,
+                      "end": 704,
                       "value": false
                     },
                     "kind": "init"
@@ -181,8 +181,8 @@
           },
           {
             "type": "Literal",
-            "start": 706,
-            "end": 724,
+            "start": 708,
+            "end": 726,
             "value": "{\"toJSON\":false}"
           }
         ],
@@ -191,26 +191,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 727,
-      "end": 791,
+      "start": 729,
+      "end": 793,
       "expression": {
         "type": "CallExpression",
-        "start": 727,
-        "end": 790,
+        "start": 729,
+        "end": 792,
         "callee": {
           "type": "MemberExpression",
-          "start": 727,
-          "end": 743,
+          "start": 729,
+          "end": 745,
           "object": {
             "type": "Identifier",
-            "start": 727,
-            "end": 733,
+            "start": 729,
+            "end": 735,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 734,
-            "end": 743,
+            "start": 736,
+            "end": 745,
             "name": "sameValue"
           },
           "computed": false,
@@ -219,22 +219,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 744,
-            "end": 772,
+            "start": 746,
+            "end": 774,
             "callee": {
               "type": "MemberExpression",
-              "start": 744,
-              "end": 758,
+              "start": 746,
+              "end": 760,
               "object": {
                 "type": "Identifier",
-                "start": 744,
-                "end": 748,
+                "start": 746,
+                "end": 750,
                 "name": "JSON"
               },
               "property": {
                 "type": "Identifier",
-                "start": 749,
-                "end": 758,
+                "start": 751,
+                "end": 760,
                 "name": "stringify"
               },
               "computed": false,
@@ -243,26 +243,26 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 759,
-                "end": 771,
+                "start": 761,
+                "end": 773,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 760,
-                    "end": 770,
+                    "start": 762,
+                    "end": 772,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 760,
-                      "end": 766,
+                      "start": 762,
+                      "end": 768,
                       "name": "toJSON"
                     },
                     "value": {
                       "type": "ArrayExpression",
-                      "start": 768,
-                      "end": 770,
+                      "start": 770,
+                      "end": 772,
                       "elements": []
                     },
                     "kind": "init"
@@ -274,8 +274,8 @@
           },
           {
             "type": "Literal",
-            "start": 774,
-            "end": 789,
+            "start": 776,
+            "end": 791,
             "value": "{\"toJSON\":[]}"
           }
         ],
@@ -284,26 +284,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 792,
-      "end": 858,
+      "start": 794,
+      "end": 860,
       "expression": {
         "type": "CallExpression",
-        "start": 792,
-        "end": 857,
+        "start": 794,
+        "end": 859,
         "callee": {
           "type": "MemberExpression",
-          "start": 792,
-          "end": 808,
+          "start": 794,
+          "end": 810,
           "object": {
             "type": "Identifier",
-            "start": 792,
-            "end": 798,
+            "start": 794,
+            "end": 800,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 799,
-            "end": 808,
+            "start": 801,
+            "end": 810,
             "name": "sameValue"
           },
           "computed": false,
@@ -312,22 +312,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 809,
-            "end": 839,
+            "start": 811,
+            "end": 841,
             "callee": {
               "type": "MemberExpression",
-              "start": 809,
-              "end": 823,
+              "start": 811,
+              "end": 825,
               "object": {
                 "type": "Identifier",
-                "start": 809,
-                "end": 813,
+                "start": 811,
+                "end": 815,
                 "name": "JSON"
               },
               "property": {
                 "type": "Identifier",
-                "start": 814,
-                "end": 823,
+                "start": 816,
+                "end": 825,
                 "name": "stringify"
               },
               "computed": false,
@@ -336,26 +336,26 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 824,
-                "end": 838,
+                "start": 826,
+                "end": 840,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 825,
-                    "end": 837,
+                    "start": 827,
+                    "end": 839,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 825,
-                      "end": 831,
+                      "start": 827,
+                      "end": 833,
                       "name": "toJSON"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 833,
-                      "end": 837,
+                      "start": 835,
+                      "end": 839,
                       "value": {},
                       "regex": {
                         "pattern": "re",
@@ -371,8 +371,8 @@
           },
           {
             "type": "Literal",
-            "start": 841,
-            "end": 856,
+            "start": 843,
+            "end": 858,
             "value": "{\"toJSON\":{}}"
           }
         ],

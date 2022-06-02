@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 539,
+  "end": 541,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 398,
-      "end": 441,
+      "start": 400,
+      "end": 443,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 402,
-          "end": 440,
+          "start": 404,
+          "end": 442,
           "id": {
             "type": "Identifier",
-            "start": 402,
-            "end": 405,
+            "start": 404,
+            "end": 407,
             "name": "cal"
           },
           "init": {
             "type": "NewExpression",
-            "start": 408,
-            "end": 440,
+            "start": 410,
+            "end": 442,
             "callee": {
               "type": "MemberExpression",
-              "start": 412,
-              "end": 429,
+              "start": 414,
+              "end": 431,
               "object": {
                 "type": "Identifier",
-                "start": 412,
-                "end": 420,
+                "start": 414,
+                "end": 422,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 421,
-                "end": 429,
+                "start": 423,
+                "end": 431,
                 "name": "Calendar"
               },
               "computed": false,
@@ -44,8 +44,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 430,
-                "end": 439,
+                "start": 432,
+                "end": 441,
                 "value": "iso8601"
               }
             ]
@@ -56,26 +56,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 442,
-      "end": 538,
+      "start": 444,
+      "end": 540,
       "expression": {
         "type": "CallExpression",
-        "start": 442,
-        "end": 537,
+        "start": 444,
+        "end": 539,
         "callee": {
           "type": "MemberExpression",
-          "start": 442,
-          "end": 458,
+          "start": 444,
+          "end": 460,
           "object": {
             "type": "Identifier",
-            "start": 442,
-            "end": 448,
+            "start": 444,
+            "end": 450,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 449,
-            "end": 458,
+            "start": 451,
+            "end": 460,
             "name": "sameValue"
           },
           "computed": false,
@@ -84,22 +84,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 459,
-            "end": 487,
+            "start": 461,
+            "end": 489,
             "callee": {
               "type": "MemberExpression",
-              "start": 459,
-              "end": 473,
+              "start": 461,
+              "end": 475,
               "object": {
                 "type": "Identifier",
-                "start": 459,
-                "end": 462,
+                "start": 461,
+                "end": 464,
                 "name": "cal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 463,
-                "end": 473,
+                "start": 465,
+                "end": 475,
                 "name": "daysInWeek"
               },
               "computed": false,
@@ -108,8 +108,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 474,
-                "end": 486,
+                "start": 476,
+                "end": 488,
                 "value": "2019-03-18"
               }
             ],
@@ -117,14 +117,14 @@
           },
           {
             "type": "Literal",
-            "start": 489,
-            "end": 490,
+            "start": 491,
+            "end": 492,
             "value": 7
           },
           {
             "type": "Literal",
-            "start": 492,
-            "end": 536,
+            "start": 494,
+            "end": 538,
             "value": "cal.daysInWeek(\"2019-03-18\") must return 7"
           }
         ],

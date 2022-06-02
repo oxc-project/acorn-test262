@@ -1,45 +1,45 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 524,
+  "end": 525,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 417,
-      "end": 473,
+      "start": 418,
+      "end": 474,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 421,
-          "end": 472,
+          "start": 422,
+          "end": 473,
           "id": {
             "type": "Identifier",
-            "start": 421,
-            "end": 439,
+            "start": 422,
+            "end": 440,
             "name": "revocationFunction"
           },
           "init": {
             "type": "MemberExpression",
-            "start": 442,
-            "end": 472,
+            "start": 443,
+            "end": 473,
             "object": {
               "type": "CallExpression",
-              "start": 442,
-              "end": 465,
+              "start": 443,
+              "end": 466,
               "callee": {
                 "type": "MemberExpression",
-                "start": 442,
-                "end": 457,
+                "start": 443,
+                "end": 458,
                 "object": {
                   "type": "Identifier",
-                  "start": 442,
-                  "end": 447,
+                  "start": 443,
+                  "end": 448,
                   "name": "Proxy"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 448,
-                  "end": 457,
+                  "start": 449,
+                  "end": 458,
                   "name": "revocable"
                 },
                 "computed": false,
@@ -48,14 +48,14 @@
               "arguments": [
                 {
                   "type": "ObjectExpression",
-                  "start": 458,
-                  "end": 460,
+                  "start": 459,
+                  "end": 461,
                   "properties": []
                 },
                 {
                   "type": "ObjectExpression",
-                  "start": 462,
-                  "end": 464,
+                  "start": 463,
+                  "end": 465,
                   "properties": []
                 }
               ],
@@ -63,8 +63,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 466,
-              "end": 472,
+              "start": 467,
+              "end": 473,
               "name": "revoke"
             },
             "computed": false,
@@ -76,37 +76,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 475,
-      "end": 523,
+      "start": 476,
+      "end": 524,
       "expression": {
         "type": "CallExpression",
-        "start": 475,
-        "end": 522,
+        "start": 476,
+        "end": 523,
         "callee": {
           "type": "Identifier",
-          "start": 475,
-          "end": 481,
+          "start": 476,
+          "end": 482,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 482,
-            "end": 521,
+            "start": 483,
+            "end": 522,
             "callee": {
               "type": "MemberExpression",
-              "start": 482,
-              "end": 501,
+              "start": 483,
+              "end": 502,
               "object": {
                 "type": "Identifier",
-                "start": 482,
-                "end": 488,
+                "start": 483,
+                "end": 489,
                 "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 489,
-                "end": 501,
+                "start": 490,
+                "end": 502,
                 "name": "isExtensible"
               },
               "computed": false,
@@ -115,8 +115,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 502,
-                "end": 520,
+                "start": 503,
+                "end": 521,
                 "name": "revocationFunction"
               }
             ],

@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 855,
+  "end": 861,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 447,
-      "end": 493,
+      "start": 453,
+      "end": 499,
       "expression": {
         "type": "CallExpression",
-        "start": 447,
-        "end": 492,
+        "start": 453,
+        "end": 498,
         "callee": {
           "type": "MemberExpression",
-          "start": 447,
-          "end": 463,
+          "start": 453,
+          "end": 469,
           "object": {
             "type": "Identifier",
-            "start": 447,
-            "end": 453,
+            "start": 453,
+            "end": 459,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 454,
-            "end": 463,
+            "start": 460,
+            "end": 469,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,22 +33,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 464,
-            "end": 479,
+            "start": 470,
+            "end": 485,
             "callee": {
               "type": "MemberExpression",
-              "start": 464,
-              "end": 474,
+              "start": 470,
+              "end": 480,
               "object": {
                 "type": "Identifier",
-                "start": 464,
-                "end": 468,
+                "start": 470,
+                "end": 474,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 469,
-                "end": 474,
+                "start": 475,
+                "end": 480,
                 "name": "log1p"
               },
               "computed": false,
@@ -57,8 +57,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 475,
-                "end": 478,
+                "start": 481,
+                "end": 484,
                 "name": "NaN"
               }
             ],
@@ -66,14 +66,14 @@
           },
           {
             "type": "Identifier",
-            "start": 481,
-            "end": 484,
+            "start": 487,
+            "end": 490,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 486,
-            "end": 491,
+            "start": 492,
+            "end": 497,
             "value": "NaN"
           }
         ],
@@ -82,26 +82,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 494,
-      "end": 552,
+      "start": 500,
+      "end": 558,
       "expression": {
         "type": "CallExpression",
-        "start": 494,
-        "end": 551,
+        "start": 500,
+        "end": 557,
         "callee": {
           "type": "MemberExpression",
-          "start": 494,
-          "end": 510,
+          "start": 500,
+          "end": 516,
           "object": {
             "type": "Identifier",
-            "start": 494,
-            "end": 500,
+            "start": 500,
+            "end": 506,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 501,
-            "end": 510,
+            "start": 507,
+            "end": 516,
             "name": "sameValue"
           },
           "computed": false,
@@ -110,22 +110,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 511,
-            "end": 532,
+            "start": 517,
+            "end": 538,
             "callee": {
               "type": "MemberExpression",
-              "start": 511,
-              "end": 521,
+              "start": 517,
+              "end": 527,
               "object": {
                 "type": "Identifier",
-                "start": 511,
-                "end": 515,
+                "start": 517,
+                "end": 521,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 516,
-                "end": 521,
+                "start": 522,
+                "end": 527,
                 "name": "log1p"
               },
               "computed": false,
@@ -134,14 +134,14 @@
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 522,
-                "end": 531,
+                "start": 528,
+                "end": 537,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 523,
-                  "end": 531,
+                  "start": 529,
+                  "end": 537,
                   "value": 1.000001
                 }
               }
@@ -150,14 +150,14 @@
           },
           {
             "type": "Identifier",
-            "start": 534,
-            "end": 537,
+            "start": 540,
+            "end": 543,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 539,
-            "end": 550,
+            "start": 545,
+            "end": 556,
             "value": "-1.000001"
           }
         ],
@@ -166,26 +166,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 553,
-      "end": 597,
+      "start": 559,
+      "end": 603,
       "expression": {
         "type": "CallExpression",
-        "start": 553,
-        "end": 596,
+        "start": 559,
+        "end": 602,
         "callee": {
           "type": "MemberExpression",
-          "start": 553,
-          "end": 569,
+          "start": 559,
+          "end": 575,
           "object": {
             "type": "Identifier",
-            "start": 553,
-            "end": 559,
+            "start": 559,
+            "end": 565,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 560,
-            "end": 569,
+            "start": 566,
+            "end": 575,
             "name": "sameValue"
           },
           "computed": false,
@@ -194,22 +194,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 570,
-            "end": 584,
+            "start": 576,
+            "end": 590,
             "callee": {
               "type": "MemberExpression",
-              "start": 570,
-              "end": 580,
+              "start": 576,
+              "end": 586,
               "object": {
                 "type": "Identifier",
-                "start": 570,
-                "end": 574,
+                "start": 576,
+                "end": 580,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 575,
-                "end": 580,
+                "start": 581,
+                "end": 586,
                 "name": "log1p"
               },
               "computed": false,
@@ -218,14 +218,14 @@
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 581,
-                "end": 583,
+                "start": 587,
+                "end": 589,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 582,
-                  "end": 583,
+                  "start": 588,
+                  "end": 589,
                   "value": 2
                 }
               }
@@ -234,14 +234,14 @@
           },
           {
             "type": "Identifier",
-            "start": 586,
-            "end": 589,
+            "start": 592,
+            "end": 595,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 591,
-            "end": 595,
+            "start": 597,
+            "end": 601,
             "value": "-2"
           }
         ],
@@ -250,26 +250,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 598,
-      "end": 656,
+      "start": 604,
+      "end": 662,
       "expression": {
         "type": "CallExpression",
-        "start": 598,
-        "end": 655,
+        "start": 604,
+        "end": 661,
         "callee": {
           "type": "MemberExpression",
-          "start": 598,
-          "end": 614,
+          "start": 604,
+          "end": 620,
           "object": {
             "type": "Identifier",
-            "start": 598,
-            "end": 604,
+            "start": 604,
+            "end": 610,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 605,
-            "end": 614,
+            "start": 611,
+            "end": 620,
             "name": "sameValue"
           },
           "computed": false,
@@ -278,22 +278,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 615,
-            "end": 636,
+            "start": 621,
+            "end": 642,
             "callee": {
               "type": "MemberExpression",
-              "start": 615,
-              "end": 625,
+              "start": 621,
+              "end": 631,
               "object": {
                 "type": "Identifier",
-                "start": 615,
-                "end": 619,
+                "start": 621,
+                "end": 625,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 620,
-                "end": 625,
+                "start": 626,
+                "end": 631,
                 "name": "log1p"
               },
               "computed": false,
@@ -302,14 +302,14 @@
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 626,
-                "end": 635,
+                "start": 632,
+                "end": 641,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Identifier",
-                  "start": 627,
-                  "end": 635,
+                  "start": 633,
+                  "end": 641,
                   "name": "Infinity"
                 }
               }
@@ -318,14 +318,14 @@
           },
           {
             "type": "Identifier",
-            "start": 638,
-            "end": 641,
+            "start": 644,
+            "end": 647,
             "name": "NaN"
           },
           {
             "type": "Literal",
-            "start": 643,
-            "end": 654,
+            "start": 649,
+            "end": 660,
             "value": "-Infinity"
           }
         ],
@@ -334,26 +334,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 657,
-      "end": 707,
+      "start": 663,
+      "end": 713,
       "expression": {
         "type": "CallExpression",
-        "start": 657,
-        "end": 706,
+        "start": 663,
+        "end": 712,
         "callee": {
           "type": "MemberExpression",
-          "start": 657,
-          "end": 673,
+          "start": 663,
+          "end": 679,
           "object": {
             "type": "Identifier",
-            "start": 657,
-            "end": 663,
+            "start": 663,
+            "end": 669,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 664,
-            "end": 673,
+            "start": 670,
+            "end": 679,
             "name": "sameValue"
           },
           "computed": false,
@@ -362,22 +362,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 674,
-            "end": 688,
+            "start": 680,
+            "end": 694,
             "callee": {
               "type": "MemberExpression",
-              "start": 674,
-              "end": 684,
+              "start": 680,
+              "end": 690,
               "object": {
                 "type": "Identifier",
-                "start": 674,
-                "end": 678,
+                "start": 680,
+                "end": 684,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 679,
-                "end": 684,
+                "start": 685,
+                "end": 690,
                 "name": "log1p"
               },
               "computed": false,
@@ -386,14 +386,14 @@
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 685,
-                "end": 687,
+                "start": 691,
+                "end": 693,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 686,
-                  "end": 687,
+                  "start": 692,
+                  "end": 693,
                   "value": 1
                 }
               }
@@ -402,21 +402,21 @@
           },
           {
             "type": "UnaryExpression",
-            "start": 690,
-            "end": 699,
+            "start": 696,
+            "end": 705,
             "operator": "-",
             "prefix": true,
             "argument": {
               "type": "Identifier",
-              "start": 691,
-              "end": 699,
+              "start": 697,
+              "end": 705,
               "name": "Infinity"
             }
           },
           {
             "type": "Literal",
-            "start": 701,
-            "end": 705,
+            "start": 707,
+            "end": 711,
             "value": "-1"
           }
         ],
@@ -425,26 +425,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 708,
-      "end": 748,
+      "start": 714,
+      "end": 754,
       "expression": {
         "type": "CallExpression",
-        "start": 708,
-        "end": 747,
+        "start": 714,
+        "end": 753,
         "callee": {
           "type": "MemberExpression",
-          "start": 708,
-          "end": 724,
+          "start": 714,
+          "end": 730,
           "object": {
             "type": "Identifier",
-            "start": 708,
-            "end": 714,
+            "start": 714,
+            "end": 720,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 715,
-            "end": 724,
+            "start": 721,
+            "end": 730,
             "name": "sameValue"
           },
           "computed": false,
@@ -453,22 +453,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 725,
-            "end": 738,
+            "start": 731,
+            "end": 744,
             "callee": {
               "type": "MemberExpression",
-              "start": 725,
-              "end": 735,
+              "start": 731,
+              "end": 741,
               "object": {
                 "type": "Identifier",
-                "start": 725,
-                "end": 729,
+                "start": 731,
+                "end": 735,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 730,
-                "end": 735,
+                "start": 736,
+                "end": 741,
                 "name": "log1p"
               },
               "computed": false,
@@ -477,8 +477,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 736,
-                "end": 737,
+                "start": 742,
+                "end": 743,
                 "value": 0
               }
             ],
@@ -486,14 +486,14 @@
           },
           {
             "type": "Literal",
-            "start": 740,
-            "end": 741,
+            "start": 746,
+            "end": 747,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 743,
-            "end": 746,
+            "start": 749,
+            "end": 752,
             "value": "0"
           }
         ],
@@ -502,26 +502,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 749,
-      "end": 792,
+      "start": 755,
+      "end": 798,
       "expression": {
         "type": "CallExpression",
-        "start": 749,
-        "end": 791,
+        "start": 755,
+        "end": 797,
         "callee": {
           "type": "MemberExpression",
-          "start": 749,
-          "end": 765,
+          "start": 755,
+          "end": 771,
           "object": {
             "type": "Identifier",
-            "start": 749,
-            "end": 755,
+            "start": 755,
+            "end": 761,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 756,
-            "end": 765,
+            "start": 762,
+            "end": 771,
             "name": "sameValue"
           },
           "computed": false,
@@ -530,22 +530,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 766,
-            "end": 780,
+            "start": 772,
+            "end": 786,
             "callee": {
               "type": "MemberExpression",
-              "start": 766,
-              "end": 776,
+              "start": 772,
+              "end": 782,
               "object": {
                 "type": "Identifier",
-                "start": 766,
-                "end": 770,
+                "start": 772,
+                "end": 776,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 771,
-                "end": 776,
+                "start": 777,
+                "end": 782,
                 "name": "log1p"
               },
               "computed": false,
@@ -554,14 +554,14 @@
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 777,
-                "end": 779,
+                "start": 783,
+                "end": 785,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 778,
-                  "end": 779,
+                  "start": 784,
+                  "end": 785,
                   "value": 0
                 }
               }
@@ -570,21 +570,21 @@
           },
           {
             "type": "UnaryExpression",
-            "start": 782,
-            "end": 784,
+            "start": 788,
+            "end": 790,
             "operator": "-",
             "prefix": true,
             "argument": {
               "type": "Literal",
-              "start": 783,
-              "end": 784,
+              "start": 789,
+              "end": 790,
               "value": 0
             }
           },
           {
             "type": "Literal",
-            "start": 786,
-            "end": 790,
+            "start": 792,
+            "end": 796,
             "value": "-0"
           }
         ],
@@ -593,26 +593,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 793,
-      "end": 854,
+      "start": 799,
+      "end": 860,
       "expression": {
         "type": "CallExpression",
-        "start": 793,
-        "end": 853,
+        "start": 799,
+        "end": 859,
         "callee": {
           "type": "MemberExpression",
-          "start": 793,
-          "end": 809,
+          "start": 799,
+          "end": 815,
           "object": {
             "type": "Identifier",
-            "start": 793,
-            "end": 799,
+            "start": 799,
+            "end": 805,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 800,
-            "end": 809,
+            "start": 806,
+            "end": 815,
             "name": "sameValue"
           },
           "computed": false,
@@ -621,22 +621,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 810,
-            "end": 830,
+            "start": 816,
+            "end": 836,
             "callee": {
               "type": "MemberExpression",
-              "start": 810,
-              "end": 820,
+              "start": 816,
+              "end": 826,
               "object": {
                 "type": "Identifier",
-                "start": 810,
-                "end": 814,
+                "start": 816,
+                "end": 820,
                 "name": "Math"
               },
               "property": {
                 "type": "Identifier",
-                "start": 815,
-                "end": 820,
+                "start": 821,
+                "end": 826,
                 "name": "log1p"
               },
               "computed": false,
@@ -645,8 +645,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 821,
-                "end": 829,
+                "start": 827,
+                "end": 835,
                 "name": "Infinity"
               }
             ],
@@ -654,14 +654,14 @@
           },
           {
             "type": "Identifier",
-            "start": 832,
-            "end": 840,
+            "start": 838,
+            "end": 846,
             "name": "Infinity"
           },
           {
             "type": "Literal",
-            "start": 842,
-            "end": 852,
+            "start": 848,
+            "end": 858,
             "value": "Infinity"
           }
         ],

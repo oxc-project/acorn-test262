@@ -1,51 +1,51 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 4718,
+  "end": 4726,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 3947,
-      "end": 4717,
+      "start": 3955,
+      "end": 4725,
       "expression": {
         "type": "CallExpression",
-        "start": 3947,
-        "end": 4716,
+        "start": 3955,
+        "end": 4724,
         "callee": {
           "type": "MemberExpression",
-          "start": 3947,
-          "end": 4709,
+          "start": 3955,
+          "end": 4717,
           "object": {
             "type": "CallExpression",
-            "start": 3947,
-            "end": 4703,
+            "start": 3955,
+            "end": 4711,
             "callee": {
               "type": "MemberExpression",
-              "start": 3947,
-              "end": 4689,
+              "start": 3955,
+              "end": 4697,
               "object": {
                 "type": "CallExpression",
-                "start": 3947,
-                "end": 4684,
+                "start": 3955,
+                "end": 4692,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 3947,
-                  "end": 3980,
+                  "start": 3955,
+                  "end": 3988,
                   "object": {
                     "type": "ImportExpression",
-                    "start": 3947,
-                    "end": 3975,
+                    "start": 3955,
+                    "end": 3983,
                     "source": {
                       "type": "Literal",
-                      "start": 3954,
-                      "end": 3974,
+                      "start": 3962,
+                      "end": 3982,
                       "value": "./empty_FIXTURE.js"
                     }
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 3976,
-                    "end": 3980,
+                    "start": 3984,
+                    "end": 3988,
                     "name": "then"
                   },
                   "computed": false,
@@ -54,8 +54,8 @@
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
-                    "start": 3981,
-                    "end": 4683,
+                    "start": 3989,
+                    "end": 4691,
                     "id": null,
                     "expression": false,
                     "generator": false,
@@ -63,51 +63,51 @@
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 3981,
-                        "end": 3983,
+                        "start": 3989,
+                        "end": 3991,
                         "name": "ns"
                       }
                     ],
                     "body": {
                       "type": "BlockStatement",
-                      "start": 3987,
-                      "end": 4683,
+                      "start": 3995,
+                      "end": 4691,
                       "body": [
                         {
                           "type": "ExpressionStatement",
-                          "start": 3994,
-                          "end": 4035,
+                          "start": 4002,
+                          "end": 4043,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 3994,
-                            "end": 4034,
+                            "start": 4002,
+                            "end": 4042,
                             "callee": {
                               "type": "Identifier",
-                              "start": 3994,
-                              "end": 4000,
+                              "start": 4002,
+                              "end": 4008,
                               "name": "assert"
                             },
                             "arguments": [
                               {
                                 "type": "UnaryExpression",
-                                "start": 4001,
-                                "end": 4016,
+                                "start": 4009,
+                                "end": 4024,
                                 "operator": "delete",
                                 "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
-                                  "start": 4008,
-                                  "end": 4016,
+                                  "start": 4016,
+                                  "end": 4024,
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 4008,
-                                    "end": 4010,
+                                    "start": 4016,
+                                    "end": 4018,
                                     "name": "ns"
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 4011,
-                                    "end": 4016,
+                                    "start": 4019,
+                                    "end": 4024,
                                     "name": "undef"
                                   },
                                   "computed": false,
@@ -116,8 +116,8 @@
                               },
                               {
                                 "type": "Literal",
-                                "start": 4018,
-                                "end": 4033,
+                                "start": 4026,
+                                "end": 4041,
                                 "value": "delete: undef"
                               }
                             ],
@@ -126,37 +126,37 @@
                         },
                         {
                           "type": "ExpressionStatement",
-                          "start": 4040,
-                          "end": 4117,
+                          "start": 4048,
+                          "end": 4125,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 4040,
-                            "end": 4116,
+                            "start": 4048,
+                            "end": 4124,
                             "callee": {
                               "type": "Identifier",
-                              "start": 4040,
-                              "end": 4046,
+                              "start": 4048,
+                              "end": 4054,
                               "name": "assert"
                             },
                             "arguments": [
                               {
                                 "type": "CallExpression",
-                                "start": 4047,
-                                "end": 4082,
+                                "start": 4055,
+                                "end": 4090,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 4047,
-                                  "end": 4069,
+                                  "start": 4055,
+                                  "end": 4077,
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 4047,
-                                    "end": 4054,
+                                    "start": 4055,
+                                    "end": 4062,
                                     "name": "Reflect"
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 4055,
-                                    "end": 4069,
+                                    "start": 4063,
+                                    "end": 4077,
                                     "name": "deleteProperty"
                                   },
                                   "computed": false,
@@ -165,14 +165,14 @@
                                 "arguments": [
                                   {
                                     "type": "Identifier",
-                                    "start": 4070,
-                                    "end": 4072,
+                                    "start": 4078,
+                                    "end": 4080,
                                     "name": "ns"
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 4074,
-                                    "end": 4081,
+                                    "start": 4082,
+                                    "end": 4089,
                                     "value": "undef"
                                   }
                                 ],
@@ -180,8 +180,8 @@
                               },
                               {
                                 "type": "Literal",
-                                "start": 4084,
-                                "end": 4115,
+                                "start": 4092,
+                                "end": 4123,
                                 "value": "Reflect.deleteProperty: undef"
                               }
                             ],
@@ -190,39 +190,39 @@
                         },
                         {
                           "type": "ExpressionStatement",
-                          "start": 4123,
-                          "end": 4168,
+                          "start": 4131,
+                          "end": 4176,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 4123,
-                            "end": 4167,
+                            "start": 4131,
+                            "end": 4175,
                             "callee": {
                               "type": "Identifier",
-                              "start": 4123,
-                              "end": 4129,
+                              "start": 4131,
+                              "end": 4137,
                               "name": "assert"
                             },
                             "arguments": [
                               {
                                 "type": "UnaryExpression",
-                                "start": 4130,
-                                "end": 4147,
+                                "start": 4138,
+                                "end": 4155,
                                 "operator": "delete",
                                 "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
-                                  "start": 4137,
-                                  "end": 4147,
+                                  "start": 4145,
+                                  "end": 4155,
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 4137,
-                                    "end": 4139,
+                                    "start": 4145,
+                                    "end": 4147,
                                     "name": "ns"
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 4140,
-                                    "end": 4147,
+                                    "start": 4148,
+                                    "end": 4155,
                                     "name": "default"
                                   },
                                   "computed": false,
@@ -231,8 +231,8 @@
                               },
                               {
                                 "type": "Literal",
-                                "start": 4149,
-                                "end": 4166,
+                                "start": 4157,
+                                "end": 4174,
                                 "value": "delete: default"
                               }
                             ],
@@ -241,37 +241,37 @@
                         },
                         {
                           "type": "ExpressionStatement",
-                          "start": 4173,
-                          "end": 4266,
+                          "start": 4181,
+                          "end": 4274,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 4173,
-                            "end": 4265,
+                            "start": 4181,
+                            "end": 4273,
                             "callee": {
                               "type": "Identifier",
-                              "start": 4173,
-                              "end": 4179,
+                              "start": 4181,
+                              "end": 4187,
                               "name": "assert"
                             },
                             "arguments": [
                               {
                                 "type": "CallExpression",
-                                "start": 4187,
-                                "end": 4224,
+                                "start": 4195,
+                                "end": 4232,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 4187,
-                                  "end": 4209,
+                                  "start": 4195,
+                                  "end": 4217,
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 4187,
-                                    "end": 4194,
+                                    "start": 4195,
+                                    "end": 4202,
                                     "name": "Reflect"
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 4195,
-                                    "end": 4209,
+                                    "start": 4203,
+                                    "end": 4217,
                                     "name": "deleteProperty"
                                   },
                                   "computed": false,
@@ -280,14 +280,14 @@
                                 "arguments": [
                                   {
                                     "type": "Identifier",
-                                    "start": 4210,
-                                    "end": 4212,
+                                    "start": 4218,
+                                    "end": 4220,
                                     "name": "ns"
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 4214,
-                                    "end": 4223,
+                                    "start": 4222,
+                                    "end": 4231,
                                     "value": "default"
                                   }
                                 ],
@@ -295,8 +295,8 @@
                               },
                               {
                                 "type": "Literal",
-                                "start": 4226,
-                                "end": 4259,
+                                "start": 4234,
+                                "end": 4267,
                                 "value": "Reflect.deleteProperty: default"
                               }
                             ],
@@ -305,26 +305,26 @@
                         },
                         {
                           "type": "ExpressionStatement",
-                          "start": 4272,
-                          "end": 4414,
+                          "start": 4280,
+                          "end": 4422,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 4272,
-                            "end": 4413,
+                            "start": 4280,
+                            "end": 4421,
                             "callee": {
                               "type": "MemberExpression",
-                              "start": 4272,
-                              "end": 4288,
+                              "start": 4280,
+                              "end": 4296,
                               "object": {
                                 "type": "Identifier",
-                                "start": 4272,
-                                "end": 4278,
+                                "start": 4280,
+                                "end": 4286,
                                 "name": "assert"
                               },
                               "property": {
                                 "type": "Identifier",
-                                "start": 4279,
-                                "end": 4288,
+                                "start": 4287,
+                                "end": 4296,
                                 "name": "sameValue"
                               },
                               "computed": false,
@@ -333,22 +333,22 @@
                             "arguments": [
                               {
                                 "type": "CallExpression",
-                                "start": 4298,
-                                "end": 4344,
+                                "start": 4306,
+                                "end": 4352,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 4298,
-                                  "end": 4320,
+                                  "start": 4306,
+                                  "end": 4328,
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 4298,
-                                    "end": 4305,
+                                    "start": 4306,
+                                    "end": 4313,
                                     "name": "Reflect"
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 4306,
-                                    "end": 4320,
+                                    "start": 4314,
+                                    "end": 4328,
                                     "name": "deleteProperty"
                                   },
                                   "computed": false,
@@ -357,24 +357,24 @@
                                 "arguments": [
                                   {
                                     "type": "Identifier",
-                                    "start": 4321,
-                                    "end": 4323,
+                                    "start": 4329,
+                                    "end": 4331,
                                     "name": "ns"
                                   },
                                   {
                                     "type": "MemberExpression",
-                                    "start": 4325,
-                                    "end": 4343,
+                                    "start": 4333,
+                                    "end": 4351,
                                     "object": {
                                       "type": "Identifier",
-                                      "start": 4325,
-                                      "end": 4331,
+                                      "start": 4333,
+                                      "end": 4339,
                                       "name": "Symbol"
                                     },
                                     "property": {
                                       "type": "Identifier",
-                                      "start": 4332,
-                                      "end": 4343,
+                                      "start": 4340,
+                                      "end": 4351,
                                       "name": "toStringTag"
                                     },
                                     "computed": false,
@@ -385,14 +385,14 @@
                               },
                               {
                                 "type": "Literal",
-                                "start": 4346,
-                                "end": 4351,
+                                "start": 4354,
+                                "end": 4359,
                                 "value": false
                               },
                               {
                                 "type": "Literal",
-                                "start": 4361,
-                                "end": 4405,
+                                "start": 4369,
+                                "end": 4413,
                                 "value": "Reflect.deleteProperty: Symbol.toStringTag"
                               }
                             ],
@@ -401,26 +401,26 @@
                         },
                         {
                           "type": "ExpressionStatement",
-                          "start": 4419,
-                          "end": 4521,
+                          "start": 4427,
+                          "end": 4529,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 4419,
-                            "end": 4520,
+                            "start": 4427,
+                            "end": 4528,
                             "callee": {
                               "type": "MemberExpression",
-                              "start": 4419,
-                              "end": 4432,
+                              "start": 4427,
+                              "end": 4440,
                               "object": {
                                 "type": "Identifier",
-                                "start": 4419,
-                                "end": 4425,
+                                "start": 4427,
+                                "end": 4433,
                                 "name": "assert"
                               },
                               "property": {
                                 "type": "Identifier",
-                                "start": 4426,
-                                "end": 4432,
+                                "start": 4434,
+                                "end": 4440,
                                 "name": "throws"
                               },
                               "computed": false,
@@ -429,14 +429,14 @@
                             "arguments": [
                               {
                                 "type": "Identifier",
-                                "start": 4433,
-                                "end": 4442,
+                                "start": 4441,
+                                "end": 4450,
                                 "name": "TypeError"
                               },
                               {
                                 "type": "FunctionExpression",
-                                "start": 4444,
-                                "end": 4489,
+                                "start": 4452,
+                                "end": 4497,
                                 "id": null,
                                 "expression": false,
                                 "generator": false,
@@ -444,43 +444,43 @@
                                 "params": [],
                                 "body": {
                                   "type": "BlockStatement",
-                                  "start": 4455,
-                                  "end": 4489,
+                                  "start": 4463,
+                                  "end": 4497,
                                   "body": [
                                     {
                                       "type": "ExpressionStatement",
-                                      "start": 4457,
-                                      "end": 4487,
+                                      "start": 4465,
+                                      "end": 4495,
                                       "expression": {
                                         "type": "UnaryExpression",
-                                        "start": 4457,
-                                        "end": 4486,
+                                        "start": 4465,
+                                        "end": 4494,
                                         "operator": "delete",
                                         "prefix": true,
                                         "argument": {
                                           "type": "MemberExpression",
-                                          "start": 4464,
-                                          "end": 4486,
+                                          "start": 4472,
+                                          "end": 4494,
                                           "object": {
                                             "type": "Identifier",
-                                            "start": 4464,
-                                            "end": 4466,
+                                            "start": 4472,
+                                            "end": 4474,
                                             "name": "ns"
                                           },
                                           "property": {
                                             "type": "MemberExpression",
-                                            "start": 4467,
-                                            "end": 4485,
+                                            "start": 4475,
+                                            "end": 4493,
                                             "object": {
                                               "type": "Identifier",
-                                              "start": 4467,
-                                              "end": 4473,
+                                              "start": 4475,
+                                              "end": 4481,
                                               "name": "Symbol"
                                             },
                                             "property": {
                                               "type": "Identifier",
-                                              "start": 4474,
-                                              "end": 4485,
+                                              "start": 4482,
+                                              "end": 4493,
                                               "name": "toStringTag"
                                             },
                                             "computed": false,
@@ -496,8 +496,8 @@
                               },
                               {
                                 "type": "Literal",
-                                "start": 4491,
-                                "end": 4519,
+                                "start": 4499,
+                                "end": 4527,
                                 "value": "delete: Symbol.toStringTag"
                               }
                             ],
@@ -506,34 +506,34 @@
                         },
                         {
                           "type": "VariableDeclaration",
-                          "start": 4527,
-                          "end": 4555,
+                          "start": 4535,
+                          "end": 4563,
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
-                              "start": 4531,
-                              "end": 4554,
+                              "start": 4539,
+                              "end": 4562,
                               "id": {
                                 "type": "Identifier",
-                                "start": 4531,
-                                "end": 4534,
+                                "start": 4539,
+                                "end": 4542,
                                 "name": "sym"
                               },
                               "init": {
                                 "type": "CallExpression",
-                                "start": 4537,
-                                "end": 4554,
+                                "start": 4545,
+                                "end": 4562,
                                 "callee": {
                                   "type": "Identifier",
-                                  "start": 4537,
-                                  "end": 4543,
+                                  "start": 4545,
+                                  "end": 4551,
                                   "name": "Symbol"
                                 },
                                 "arguments": [
                                   {
                                     "type": "Literal",
-                                    "start": 4544,
-                                    "end": 4553,
+                                    "start": 4552,
+                                    "end": 4561,
                                     "value": "test262"
                                   }
                                 ],
@@ -545,39 +545,39 @@
                         },
                         {
                           "type": "ExpressionStatement",
-                          "start": 4560,
-                          "end": 4601,
+                          "start": 4568,
+                          "end": 4609,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 4560,
-                            "end": 4600,
+                            "start": 4568,
+                            "end": 4608,
                             "callee": {
                               "type": "Identifier",
-                              "start": 4560,
-                              "end": 4566,
+                              "start": 4568,
+                              "end": 4574,
                               "name": "assert"
                             },
                             "arguments": [
                               {
                                 "type": "UnaryExpression",
-                                "start": 4567,
-                                "end": 4581,
+                                "start": 4575,
+                                "end": 4589,
                                 "operator": "delete",
                                 "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
-                                  "start": 4574,
-                                  "end": 4581,
+                                  "start": 4582,
+                                  "end": 4589,
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 4574,
-                                    "end": 4576,
+                                    "start": 4582,
+                                    "end": 4584,
                                     "name": "ns"
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 4577,
-                                    "end": 4580,
+                                    "start": 4585,
+                                    "end": 4588,
                                     "name": "sym"
                                   },
                                   "computed": true,
@@ -586,8 +586,8 @@
                               },
                               {
                                 "type": "Literal",
-                                "start": 4583,
-                                "end": 4599,
+                                "start": 4591,
+                                "end": 4607,
                                 "value": "delete: symbol"
                               }
                             ],
@@ -596,37 +596,37 @@
                         },
                         {
                           "type": "ExpressionStatement",
-                          "start": 4606,
-                          "end": 4680,
+                          "start": 4614,
+                          "end": 4688,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 4606,
-                            "end": 4679,
+                            "start": 4614,
+                            "end": 4687,
                             "callee": {
                               "type": "Identifier",
-                              "start": 4606,
-                              "end": 4612,
+                              "start": 4614,
+                              "end": 4620,
                               "name": "assert"
                             },
                             "arguments": [
                               {
                                 "type": "CallExpression",
-                                "start": 4613,
-                                "end": 4644,
+                                "start": 4621,
+                                "end": 4652,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 4613,
-                                  "end": 4635,
+                                  "start": 4621,
+                                  "end": 4643,
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 4613,
-                                    "end": 4620,
+                                    "start": 4621,
+                                    "end": 4628,
                                     "name": "Reflect"
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 4621,
-                                    "end": 4635,
+                                    "start": 4629,
+                                    "end": 4643,
                                     "name": "deleteProperty"
                                   },
                                   "computed": false,
@@ -635,14 +635,14 @@
                                 "arguments": [
                                   {
                                     "type": "Identifier",
-                                    "start": 4636,
-                                    "end": 4638,
+                                    "start": 4644,
+                                    "end": 4646,
                                     "name": "ns"
                                   },
                                   {
                                     "type": "Identifier",
-                                    "start": 4640,
-                                    "end": 4643,
+                                    "start": 4648,
+                                    "end": 4651,
                                     "name": "sym"
                                   }
                                 ],
@@ -650,8 +650,8 @@
                               },
                               {
                                 "type": "Literal",
-                                "start": 4646,
-                                "end": 4678,
+                                "start": 4654,
+                                "end": 4686,
                                 "value": "Reflect.deleteProperty: symbol"
                               }
                             ],
@@ -666,8 +666,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 4685,
-                "end": 4689,
+                "start": 4693,
+                "end": 4697,
                 "name": "then"
               },
               "computed": false,
@@ -676,14 +676,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 4690,
-                "end": 4695,
+                "start": 4698,
+                "end": 4703,
                 "name": "$DONE"
               },
               {
                 "type": "Identifier",
-                "start": 4697,
-                "end": 4702,
+                "start": 4705,
+                "end": 4710,
                 "name": "$DONE"
               }
             ],
@@ -691,8 +691,8 @@
           },
           "property": {
             "type": "Identifier",
-            "start": 4704,
-            "end": 4709,
+            "start": 4712,
+            "end": 4717,
             "name": "catch"
           },
           "computed": false,
@@ -701,8 +701,8 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 4710,
-            "end": 4715,
+            "start": 4718,
+            "end": 4723,
             "name": "$DONE"
           }
         ],
