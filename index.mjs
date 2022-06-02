@@ -52,6 +52,13 @@ for await (const p of walk("./test262/test")) {
 
     // omit the raw field, which is useless for test comparisons
     traverse(astJson).forEach((node) => {
+      // convert start and end length to utf8, for comparing in Rust
+      if (node && node.start) {
+        node.start = Buffer.byteLength(code.substring(0, node.start));
+      }
+      if (node && node.end) {
+        node.end = Buffer.byteLength(code.substring(0, node.end));
+      }
       if (node && node.type === "Literal") {
         delete node.raw;
         if (node.bigint) {
