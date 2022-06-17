@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 978,
+  "end": 988,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -69,12 +69,12 @@
     {
       "type": "VariableDeclaration",
       "start": 814,
-      "end": 869,
+      "end": 879,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 820,
-          "end": 868,
+          "end": 878,
           "id": {
             "type": "Identifier",
             "start": 820,
@@ -84,7 +84,7 @@
           "init": {
             "type": "ArrayExpression",
             "start": 829,
-            "end": 868,
+            "end": 878,
             "elements": [
               {
                 "type": "Literal",
@@ -103,6 +103,12 @@
                 "start": 853,
                 "end": 867,
                 "value": "other string"
+              },
+              {
+                "type": "Literal",
+                "start": 869,
+                "end": 877,
+                "value": "auto\u0000"
               }
             ]
           }
@@ -112,22 +118,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 871,
-      "end": 977,
+      "start": 881,
+      "end": 987,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 876,
-        "end": 894,
+        "start": 886,
+        "end": 904,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 882,
-            "end": 894,
+            "start": 892,
+            "end": 904,
             "id": {
               "type": "Identifier",
-              "start": 882,
-              "end": 894,
+              "start": 892,
+              "end": 904,
               "name": "calendarName"
             },
             "init": null
@@ -137,37 +143,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 898,
-        "end": 904,
+        "start": 908,
+        "end": 914,
         "name": "values"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 906,
-        "end": 977,
+        "start": 916,
+        "end": 987,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 910,
-            "end": 975,
+            "start": 920,
+            "end": 985,
             "expression": {
               "type": "CallExpression",
-              "start": 910,
-              "end": 974,
+              "start": 920,
+              "end": 984,
               "callee": {
                 "type": "MemberExpression",
-                "start": 910,
-                "end": 923,
+                "start": 920,
+                "end": 933,
                 "object": {
                   "type": "Identifier",
-                  "start": 910,
-                  "end": 916,
+                  "start": 920,
+                  "end": 926,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 917,
-                  "end": 923,
+                  "start": 927,
+                  "end": 933,
                   "name": "throws"
                 },
                 "computed": false,
@@ -176,14 +182,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 924,
-                  "end": 934,
+                  "start": 934,
+                  "end": 944,
                   "name": "RangeError"
                 },
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 936,
-                  "end": 973,
+                  "start": 946,
+                  "end": 983,
                   "id": null,
                   "expression": true,
                   "generator": false,
@@ -191,22 +197,22 @@
                   "params": [],
                   "body": {
                     "type": "CallExpression",
-                    "start": 942,
-                    "end": 973,
+                    "start": 952,
+                    "end": 983,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 942,
-                      "end": 955,
+                      "start": 952,
+                      "end": 965,
                       "object": {
                         "type": "Identifier",
-                        "start": 942,
-                        "end": 946,
+                        "start": 952,
+                        "end": 956,
                         "name": "date"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 947,
-                        "end": 955,
+                        "start": 957,
+                        "end": 965,
                         "name": "toString"
                       },
                       "computed": false,
@@ -215,27 +221,27 @@
                     "arguments": [
                       {
                         "type": "ObjectExpression",
-                        "start": 956,
-                        "end": 972,
+                        "start": 966,
+                        "end": 982,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 958,
-                            "end": 970,
+                            "start": 968,
+                            "end": 980,
                             "method": false,
                             "shorthand": true,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 958,
-                              "end": 970,
+                              "start": 968,
+                              "end": 980,
                               "name": "calendarName"
                             },
                             "kind": "init",
                             "value": {
                               "type": "Identifier",
-                              "start": 958,
-                              "end": 970,
+                              "start": 968,
+                              "end": 980,
                               "name": "calendarName"
                             }
                           }
