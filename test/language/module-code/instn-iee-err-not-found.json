@@ -15,14 +15,14 @@
           "end": 829,
           "local": {
             "type": "Identifier",
-            "start": 832,
-            "end": 833,
+            "start": 828,
+            "end": 829,
             "name": "x"
           },
           "exported": {
             "type": "Identifier",
-            "start": 832,
-            "end": 833,
+            "start": 828,
+            "end": 829,
             "name": "x"
           }
         }

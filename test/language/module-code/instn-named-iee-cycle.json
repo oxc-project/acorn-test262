@@ -14,14 +14,14 @@
           "end": 2024,
           "imported": {
             "type": "Identifier",
-            "start": 2027,
-            "end": 2028,
+            "start": 2023,
+            "end": 2024,
             "name": "a"
           },
           "local": {
             "type": "Identifier",
-            "start": 2027,
-            "end": 2028,
+            "start": 2023,
+            "end": 2024,
             "name": "a"
           }
         }

@@ -93,14 +93,14 @@
           "end": 1823,
           "imported": {
             "type": "Identifier",
-            "start": 1826,
-            "end": 1827,
+            "start": 1822,
+            "end": 1823,
             "name": "B"
           },
           "local": {
             "type": "Identifier",
-            "start": 1826,
-            "end": 1827,
+            "start": 1822,
+            "end": 1823,
             "name": "B"
           }
         },
@@ -110,14 +110,14 @@
           "end": 1832,
           "imported": {
             "type": "Identifier",
-            "start": 1829,
-            "end": 1836,
+            "start": 1825,
+            "end": 1832,
             "name": "results"
           },
           "local": {
             "type": "Identifier",
-            "start": 1829,
-            "end": 1836,
+            "start": 1825,
+            "end": 1832,
             "name": "results"
           }
         }

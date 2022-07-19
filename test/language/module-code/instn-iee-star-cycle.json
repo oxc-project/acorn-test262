@@ -15,14 +15,14 @@
           "end": 1853,
           "local": {
             "type": "Identifier",
-            "start": 1856,
-            "end": 1857,
+            "start": 1852,
+            "end": 1853,
             "name": "x"
           },
           "exported": {
             "type": "Identifier",
-            "start": 1856,
-            "end": 1857,
+            "start": 1852,
+            "end": 1853,
             "name": "x"
           }
         }

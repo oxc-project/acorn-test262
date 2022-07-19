@@ -93,14 +93,14 @@
           "end": 1775,
           "imported": {
             "type": "Identifier",
-            "start": 1778,
-            "end": 1779,
+            "start": 1774,
+            "end": 1775,
             "name": "B"
           },
           "local": {
             "type": "Identifier",
-            "start": 1778,
-            "end": 1779,
+            "start": 1774,
+            "end": 1775,
             "name": "B"
           }
         },
@@ -110,14 +110,14 @@
           "end": 1784,
           "imported": {
             "type": "Identifier",
-            "start": 1781,
-            "end": 1788,
+            "start": 1777,
+            "end": 1784,
             "name": "results"
           },
           "local": {
             "type": "Identifier",
-            "start": 1781,
-            "end": 1788,
+            "start": 1777,
+            "end": 1784,
             "name": "results"
           }
         }

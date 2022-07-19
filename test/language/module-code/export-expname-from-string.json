@@ -40,13 +40,13 @@
           "local": {
             "type": "Literal",
             "start": 493,
-            "end": 500,
+            "end": 498,
             "value": "☿"
           },
           "exported": {
             "type": "Literal",
             "start": 493,
-            "end": 500,
+            "end": 498,
             "value": "☿"
           }
         }

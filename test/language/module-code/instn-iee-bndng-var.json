@@ -198,14 +198,14 @@
           "end": 1928,
           "imported": {
             "type": "Identifier",
-            "start": 1931,
-            "end": 1932,
+            "start": 1927,
+            "end": 1928,
             "name": "B"
           },
           "local": {
             "type": "Identifier",
-            "start": 1931,
-            "end": 1932,
+            "start": 1927,
+            "end": 1928,
             "name": "B"
           }
         },
@@ -215,14 +215,14 @@
           "end": 1937,
           "imported": {
             "type": "Identifier",
-            "start": 1934,
-            "end": 1941,
+            "start": 1930,
+            "end": 1937,
             "name": "results"
           },
           "local": {
             "type": "Identifier",
-            "start": 1934,
-            "end": 1941,
+            "start": 1930,
+            "end": 1937,
             "name": "results"
           }
         }

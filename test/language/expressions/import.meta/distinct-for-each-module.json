@@ -31,14 +31,14 @@
           "end": 657,
           "imported": {
             "type": "Identifier",
-            "start": 651,
-            "end": 658,
+            "start": 650,
+            "end": 657,
             "name": "getMeta"
           },
           "local": {
             "type": "Identifier",
-            "start": 651,
-            "end": 658,
+            "start": 650,
+            "end": 657,
             "name": "getMeta"
           }
         }

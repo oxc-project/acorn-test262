@@ -14,14 +14,14 @@
           "end": 1414,
           "imported": {
             "type": "Identifier",
-            "start": 1413,
-            "end": 1418,
+            "start": 1409,
+            "end": 1414,
             "name": "named"
           },
           "local": {
             "type": "Identifier",
-            "start": 1413,
-            "end": 1418,
+            "start": 1409,
+            "end": 1414,
             "name": "named"
           }
         }
@@ -44,14 +44,14 @@
           "end": 1496,
           "imported": {
             "type": "Identifier",
-            "start": 1490,
-            "end": 1500,
+            "start": 1486,
+            "end": 1496,
             "name": "production"
           },
           "local": {
             "type": "Identifier",
-            "start": 1490,
-            "end": 1500,
+            "start": 1486,
+            "end": 1496,
             "name": "production"
           }
         }

@@ -14,14 +14,14 @@
           "end": 1767,
           "imported": {
             "type": "Identifier",
-            "start": 1770,
-            "end": 1771,
+            "start": 1766,
+            "end": 1767,
             "name": "x"
           },
           "local": {
             "type": "Identifier",
-            "start": 1770,
-            "end": 1771,
+            "start": 1766,
+            "end": 1767,
             "name": "x"
           }
         }

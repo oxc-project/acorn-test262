@@ -40,14 +40,14 @@
           "end": 925,
           "local": {
             "type": "Identifier",
-            "start": 926,
-            "end": 927,
+            "start": 924,
+            "end": 925,
             "name": "x"
           },
           "exported": {
             "type": "Identifier",
-            "start": 926,
-            "end": 927,
+            "start": 924,
+            "end": 925,
             "name": "x"
           }
         },

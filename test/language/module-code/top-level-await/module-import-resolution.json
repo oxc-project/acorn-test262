@@ -82,14 +82,14 @@
           "end": 2710,
           "imported": {
             "type": "Identifier",
-            "start": 2713,
-            "end": 2714,
+            "start": 2709,
+            "end": 2710,
             "name": "x"
           },
           "local": {
             "type": "Identifier",
-            "start": 2713,
-            "end": 2714,
+            "start": 2709,
+            "end": 2710,
             "name": "x"
           }
         },
@@ -99,14 +99,14 @@
           "end": 2713,
           "imported": {
             "type": "Identifier",
-            "start": 2716,
-            "end": 2717,
+            "start": 2712,
+            "end": 2713,
             "name": "y"
           },
           "local": {
             "type": "Identifier",
-            "start": 2716,
-            "end": 2717,
+            "start": 2712,
+            "end": 2713,
             "name": "y"
           }
         }

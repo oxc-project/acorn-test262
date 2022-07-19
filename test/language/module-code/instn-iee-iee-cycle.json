@@ -15,14 +15,14 @@
           "end": 1667,
           "local": {
             "type": "Identifier",
-            "start": 1670,
-            "end": 1671,
+            "start": 1666,
+            "end": 1667,
             "name": "a"
           },
           "exported": {
             "type": "Identifier",
-            "start": 1670,
-            "end": 1671,
+            "start": 1666,
+            "end": 1667,
             "name": "a"
           }
         }

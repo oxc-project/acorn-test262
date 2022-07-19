@@ -15,14 +15,14 @@
           "end": 491,
           "local": {
             "type": "Identifier",
-            "start": 494,
-            "end": 495,
+            "start": 490,
+            "end": 491,
             "name": "a"
           },
           "exported": {
             "type": "Identifier",
-            "start": 494,
-            "end": 495,
+            "start": 490,
+            "end": 491,
             "name": "a"
           }
         }
@@ -76,14 +76,14 @@
           "end": 613,
           "imported": {
             "type": "Identifier",
-            "start": 616,
-            "end": 617,
+            "start": 612,
+            "end": 613,
             "name": "a"
           },
           "local": {
             "type": "Identifier",
-            "start": 616,
-            "end": 617,
+            "start": 612,
+            "end": 613,
             "name": "a"
           }
         },
@@ -93,14 +93,14 @@
           "end": 616,
           "imported": {
             "type": "Identifier",
-            "start": 619,
-            "end": 620,
+            "start": 615,
+            "end": 616,
             "name": "b"
           },
           "local": {
             "type": "Identifier",
-            "start": 619,
-            "end": 620,
+            "start": 615,
+            "end": 616,
             "name": "b"
           }
         }

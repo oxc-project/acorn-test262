@@ -272,14 +272,14 @@
           "end": 1959,
           "imported": {
             "type": "Identifier",
-            "start": 1962,
-            "end": 1963,
+            "start": 1958,
+            "end": 1959,
             "name": "B"
           },
           "local": {
             "type": "Identifier",
-            "start": 1962,
-            "end": 1963,
+            "start": 1958,
+            "end": 1959,
             "name": "B"
           }
         },
@@ -289,14 +289,14 @@
           "end": 1968,
           "imported": {
             "type": "Identifier",
-            "start": 1965,
-            "end": 1972,
+            "start": 1961,
+            "end": 1968,
             "name": "results"
           },
           "local": {
             "type": "Identifier",
-            "start": 1965,
-            "end": 1972,
+            "start": 1961,
+            "end": 1968,
             "name": "results"
           }
         }
