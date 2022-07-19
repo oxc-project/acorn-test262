@@ -1,0 +1,239 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 627,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 341,
+      "end": 419,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 347,
+          "end": 418,
+          "id": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 355,
+            "name": "calendar"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 358,
+            "end": 418,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 358,
+              "end": 416,
+              "object": {
+                "type": "Identifier",
+                "start": 358,
+                "end": 373,
+                "name": "TemporalHelpers"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 374,
+                "end": 416,
+                "name": "calendarCheckMergeFieldsPrototypePollution"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 420,
+      "end": 484,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 426,
+          "end": 483,
+          "id": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 434,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 437,
+            "end": 483,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 441,
+              "end": 464,
+              "object": {
+                "type": "Identifier",
+                "start": 441,
+                "end": 449,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 450,
+                "end": 464,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 465,
+                "end": 469,
+                "value": 2000
+              },
+              {
+                "type": "Literal",
+                "start": 471,
+                "end": 472,
+                "value": 5
+              },
+              {
+                "type": "Identifier",
+                "start": 474,
+                "end": 482,
+                "name": "calendar"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 485,
+      "end": 519,
+      "expression": {
+        "type": "CallExpression",
+        "start": 485,
+        "end": 518,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 485,
+          "end": 505,
+          "object": {
+            "type": "Identifier",
+            "start": 485,
+            "end": 493,
+            "name": "instance"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 494,
+            "end": 505,
+            "name": "toPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ObjectExpression",
+            "start": 506,
+            "end": 517,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 508,
+                "end": 515,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 508,
+                  "end": 511,
+                  "name": "day"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 513,
+                  "end": 515,
+                  "value": 24
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 520,
+      "end": 626,
+      "expression": {
+        "type": "CallExpression",
+        "start": 520,
+        "end": 625,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 520,
+          "end": 536,
+          "object": {
+            "type": "Identifier",
+            "start": 520,
+            "end": 526,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 527,
+            "end": 536,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 537,
+            "end": 566,
+            "object": {
+              "type": "Identifier",
+              "start": 537,
+              "end": 545,
+              "name": "calendar"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 546,
+              "end": 566,
+              "name": "mergeFieldsCallCount"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 568,
+            "end": 569,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 571,
+            "end": 624,
+            "value": "mergeFields should have been called on the calendar"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

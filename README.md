@@ -20,8 +20,9 @@ Literal.raw is deleted, it is useless for test comparisons
 ```bash
 pnpm update
 git submodule update --recursive --remote
+pnpm run start
+git commit -m "update snapshots"
 ```
 
 [acorn]: https://github.com/acornjs/acorn
 [test262]: https://github.com/tc39/test262
-

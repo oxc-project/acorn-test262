@@ -693,7 +693,7 @@
             "type": "Literal",
             "start": 1603,
             "end": 1611,
-            "value": "bigint"
+            "value": "number"
           }
         ],
         "optional": false

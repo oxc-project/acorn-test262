@@ -1,0 +1,364 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 636,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 332,
+      "end": 369,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 338,
+          "end": 368,
+          "id": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 340,
+            "name": "df"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 343,
+            "end": 368,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 347,
+              "end": 366,
+              "object": {
+                "type": "Identifier",
+                "start": 347,
+                "end": 351,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 352,
+                "end": 366,
+                "name": "DurationFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 371,
+      "end": 502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 371,
+        "end": 501,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 371,
+          "end": 384,
+          "object": {
+            "type": "Identifier",
+            "start": 371,
+            "end": 377,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 378,
+            "end": 384,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 385,
+            "end": 395,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 397,
+            "end": 500,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 403,
+              "end": 500,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 405,
+                  "end": 498,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 405,
+                    "end": 498,
+                    "expressions": [
+                      {
+                        "type": "CallExpression",
+                        "start": 405,
+                        "end": 447,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 405,
+                          "end": 414,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 405,
+                            "end": 407,
+                            "name": "df"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 408,
+                            "end": 414,
+                            "name": "format"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "ObjectExpression",
+                            "start": 415,
+                            "end": 446,
+                            "properties": [
+                              {
+                                "type": "Property",
+                                "start": 419,
+                                "end": 429,
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false,
+                                "key": {
+                                  "type": "Identifier",
+                                  "start": 419,
+                                  "end": 424,
+                                  "name": "hours"
+                                },
+                                "value": {
+                                  "type": "UnaryExpression",
+                                  "start": 427,
+                                  "end": 429,
+                                  "operator": "-",
+                                  "prefix": true,
+                                  "argument": {
+                                    "type": "Literal",
+                                    "start": 428,
+                                    "end": 429,
+                                    "value": 1
+                                  }
+                                },
+                                "kind": "init"
+                              },
+                              {
+                                "type": "Property",
+                                "start": 433,
+                                "end": 444,
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false,
+                                "key": {
+                                  "type": "Identifier",
+                                  "start": 433,
+                                  "end": 440,
+                                  "name": "minutes"
+                                },
+                                "value": {
+                                  "type": "Literal",
+                                  "start": 442,
+                                  "end": 444,
+                                  "value": 10
+                                },
+                                "kind": "init"
+                              }
+                            ]
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 449,
+                        "end": 498,
+                        "value": "Throws when mixing negative and positive values"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 504,
+      "end": 635,
+      "expression": {
+        "type": "CallExpression",
+        "start": 504,
+        "end": 634,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 504,
+          "end": 517,
+          "object": {
+            "type": "Identifier",
+            "start": 504,
+            "end": 510,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 517,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 518,
+            "end": 528,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 530,
+            "end": 633,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 536,
+              "end": 633,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 538,
+                  "end": 631,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 538,
+                    "end": 631,
+                    "expressions": [
+                      {
+                        "type": "CallExpression",
+                        "start": 538,
+                        "end": 580,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 538,
+                          "end": 547,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 538,
+                            "end": 540,
+                            "name": "df"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 541,
+                            "end": 547,
+                            "name": "format"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "ObjectExpression",
+                            "start": 548,
+                            "end": 579,
+                            "properties": [
+                              {
+                                "type": "Property",
+                                "start": 552,
+                                "end": 561,
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false,
+                                "key": {
+                                  "type": "Identifier",
+                                  "start": 552,
+                                  "end": 557,
+                                  "name": "hours"
+                                },
+                                "value": {
+                                  "type": "Literal",
+                                  "start": 560,
+                                  "end": 561,
+                                  "value": 2
+                                },
+                                "kind": "init"
+                              },
+                              {
+                                "type": "Property",
+                                "start": 565,
+                                "end": 577,
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false,
+                                "key": {
+                                  "type": "Identifier",
+                                  "start": 565,
+                                  "end": 572,
+                                  "name": "minutes"
+                                },
+                                "value": {
+                                  "type": "UnaryExpression",
+                                  "start": 574,
+                                  "end": 577,
+                                  "operator": "-",
+                                  "prefix": true,
+                                  "argument": {
+                                    "type": "Literal",
+                                    "start": 575,
+                                    "end": 577,
+                                    "value": 10
+                                  }
+                                },
+                                "kind": "init"
+                              }
+                            ]
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 582,
+                        "end": 631,
+                        "value": "Throws when mixing negative and positive values"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

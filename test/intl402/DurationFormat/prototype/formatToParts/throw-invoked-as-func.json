@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 679,
+  "end": 707,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -139,11 +139,11 @@
     {
       "type": "ExpressionStatement",
       "start": 625,
-      "end": 677,
+      "end": 706,
       "expression": {
         "type": "CallExpression",
         "start": 625,
-        "end": 676,
+        "end": 705,
         "callee": {
           "type": "MemberExpression",
           "start": 625,
@@ -173,7 +173,7 @@
           {
             "type": "ArrowFunctionExpression",
             "start": 650,
-            "end": 675,
+            "end": 704,
             "id": null,
             "expression": false,
             "generator": false,
@@ -182,28 +182,92 @@
             "body": {
               "type": "BlockStatement",
               "start": 656,
-              "end": 675,
+              "end": 704,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 658,
-                  "end": 673,
+                  "start": 660,
+                  "end": 702,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 658,
-                    "end": 673,
+                    "start": 660,
+                    "end": 701,
                     "callee": {
                       "type": "Identifier",
-                      "start": 658,
-                      "end": 659,
+                      "start": 660,
+                      "end": 661,
                       "name": "f"
                     },
                     "arguments": [
                       {
-                        "type": "Literal",
-                        "start": 660,
-                        "end": 672,
-                        "value": "PT12.3456S"
+                        "type": "ObjectExpression",
+                        "start": 662,
+                        "end": 700,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 664,
+                            "end": 672,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 664,
+                              "end": 669,
+                              "name": "hours"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 671,
+                              "end": 672,
+                              "value": 1
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 674,
+                            "end": 685,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 674,
+                              "end": 681,
+                              "name": "minutes"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 683,
+                              "end": 685,
+                              "value": 46
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 687,
+                            "end": 698,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 687,
+                              "end": 694,
+                              "name": "seconds"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 696,
+                              "end": 698,
+                              "value": 40
+                            },
+                            "kind": "init"
+                          }
+                        ]
                       }
                     ],
                     "optional": false

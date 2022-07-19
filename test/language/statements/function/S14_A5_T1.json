@@ -1,24 +1,24 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 850,
+  "end": 851,
   "body": [
     {
       "type": "IfStatement",
-      "start": 457,
-      "end": 572,
+      "start": 458,
+      "end": 573,
       "test": {
         "type": "BinaryExpression",
-        "start": 461,
-        "end": 480,
+        "start": 462,
+        "end": 481,
         "left": {
           "type": "CallExpression",
-          "start": 461,
-          "end": 469,
+          "start": 462,
+          "end": 470,
           "callee": {
             "type": "Identifier",
-            "start": 461,
-            "end": 467,
+            "start": 462,
+            "end": 468,
             "name": "__func"
           },
           "arguments": [],
@@ -27,50 +27,50 @@
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 474,
-          "end": 480,
+          "start": 475,
+          "end": 481,
           "value": "both"
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 482,
-        "end": 572,
+        "start": 483,
+        "end": 573,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 485,
-            "end": 570,
+            "start": 486,
+            "end": 571,
             "argument": {
               "type": "NewExpression",
-              "start": 491,
-              "end": 569,
+              "start": 492,
+              "end": 570,
               "callee": {
                 "type": "Identifier",
-                "start": 495,
-                "end": 507,
+                "start": 496,
+                "end": 508,
                 "name": "Test262Error"
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 508,
-                  "end": 566,
+                  "start": 509,
+                  "end": 567,
                   "left": {
                     "type": "Literal",
-                    "start": 508,
-                    "end": 556,
+                    "start": 509,
+                    "end": 557,
                     "value": "#1: __func() === \"both\". Actual:  __func() ==="
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 558,
-                    "end": 566,
+                    "start": 559,
+                    "end": 567,
                     "callee": {
                       "type": "Identifier",
-                      "start": 558,
-                      "end": 564,
+                      "start": 559,
+                      "end": 565,
                       "name": "__func"
                     },
                     "arguments": [],
@@ -86,12 +86,12 @@
     },
     {
       "type": "FunctionDeclaration",
-      "start": 656,
-      "end": 689,
+      "start": 657,
+      "end": 690,
       "id": {
         "type": "Identifier",
-        "start": 665,
-        "end": 671,
+        "start": 666,
+        "end": 672,
         "name": "__func"
       },
       "expression": false,
@@ -100,17 +100,17 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 673,
-        "end": 689,
+        "start": 674,
+        "end": 690,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 674,
-            "end": 688,
+            "start": 675,
+            "end": 689,
             "argument": {
               "type": "Literal",
-              "start": 681,
-              "end": 688,
+              "start": 682,
+              "end": 689,
               "value": "ascii"
             }
           }
@@ -119,17 +119,17 @@
     },
     {
       "type": "EmptyStatement",
-      "start": 689,
-      "end": 690
+      "start": 690,
+      "end": 691
     },
     {
       "type": "FunctionDeclaration",
-      "start": 691,
-      "end": 756,
+      "start": 692,
+      "end": 757,
       "id": {
         "type": "Identifier",
-        "start": 700,
-        "end": 736,
+        "start": 701,
+        "end": 737,
         "name": "__func"
       },
       "expression": false,
@@ -138,17 +138,17 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 738,
-        "end": 756,
+        "start": 739,
+        "end": 757,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 739,
-            "end": 755,
+            "start": 740,
+            "end": 756,
             "argument": {
               "type": "Literal",
-              "start": 746,
-              "end": 755,
+              "start": 747,
+              "end": 756,
               "value": "unicode"
             }
           }
@@ -157,17 +157,17 @@
     },
     {
       "type": "EmptyStatement",
-      "start": 756,
-      "end": 757
+      "start": 757,
+      "end": 758
     },
     {
       "type": "FunctionDeclaration",
-      "start": 777,
-      "end": 829,
+      "start": 778,
+      "end": 830,
       "id": {
         "type": "Identifier",
-        "start": 786,
-        "end": 812,
+        "start": 787,
+        "end": 813,
         "name": "__func"
       },
       "expression": false,
@@ -176,17 +176,17 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 814,
-        "end": 829,
+        "start": 815,
+        "end": 830,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 815,
-            "end": 828,
+            "start": 816,
+            "end": 829,
             "argument": {
               "type": "Literal",
-              "start": 822,
-              "end": 828,
+              "start": 823,
+              "end": 829,
               "value": "both"
             }
           }
@@ -195,8 +195,8 @@
     },
     {
       "type": "EmptyStatement",
-      "start": 829,
-      "end": 830
+      "start": 830,
+      "end": 831
     }
   ],
   "sourceType": "script"
