@@ -43,12 +43,19 @@ for await (const p of walk("./test262/test")) {
   }
 
   try {
-    const astJson = Parser.extend(importAssertions).parse(code, {
+    let astJson = Parser.extend(importAssertions).parse(code, {
       ecmaVersion: "latest",
       preserveParens: true,
       sourceType: module ? "module" : "script",
       allowHashBang: true,
     });
+
+    const bigIntSerializer = (_key, value) => {
+      return typeof value === "bigint" ? value.toString() + "n" : value;
+    };
+
+    // remove references
+    astJson = JSON.parse(JSON.stringify(astJson, bigIntSerializer));
 
     // omit the raw field, which is useless for test comparisons
     traverse(astJson).forEach((node) => {
@@ -67,14 +74,7 @@ for await (const p of walk("./test262/test")) {
       }
     });
 
-    const bigIntSerializer = (_key, value) => {
-      return typeof value === "bigint" ? value.toString() + "n" : value;
-    };
-
-    await fs.promises.writeFile(
-      writeFile,
-      JSON.stringify(astJson, bigIntSerializer, 2)
-    );
+    await fs.promises.writeFile(writeFile, JSON.stringify(astJson, null, 2));
   } catch (err) {
     if (fs.existsSync(writeFile)) {
       fs.unlinkSync(writeFile);
