@@ -18,8 +18,8 @@ importers:
         specifier: ^0.6.11
         version: 0.6.11
       yaml:
-        specifier: ^1.10.2
-        version: 1.10.2
+        specifier: ^2.0.0
+        version: 2.7.0
 
 packages:
 
@@ -380,9 +380,10 @@ packages:
     resolution: {integrity: sha512-qEcY+KJYlWyLH9vNbsr6/5j59AXk5ni5aakf8ldzBvGde6Iz4sxZGkJyWSAueTG7QhOvNRYb1lDdFmL5Td0QKA==}
     engines: {node: '>= 0.4'}
 
-  yaml@1.10.2:
-    resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
-    engines: {node: '>= 6'}
+  yaml@2.7.0:
+    resolution: {integrity: sha512-+hSoy/QHluxmC9kCIJyL/uyFmLmc+e5CFR5Wa+bpIhIj85LVb9ZH2nVnqrHoSvKogwODv0ClqZkmiSSaIH5LTA==}
+    engines: {node: '>= 14'}
+    hasBin: true
 
 snapshots:
 
@@ -940,4 +941,4 @@ snapshots:
       gopd: 1.2.0
       has-tostringtag: 1.0.2
 
-  yaml@1.10.2: {}
+  yaml@2.7.0: {}
