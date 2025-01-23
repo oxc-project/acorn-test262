@@ -48,7 +48,8 @@
         "start": 664,
         "end": 703,
         "value": "./distinct-for-each-module_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

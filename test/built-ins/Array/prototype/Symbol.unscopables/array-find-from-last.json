@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1095,
+  "end": 1038,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -204,29 +204,99 @@
     {
       "type": "ExpressionStatement",
       "start": 736,
-      "end": 778,
+      "end": 840,
       "expression": {
         "type": "CallExpression",
         "start": 736,
-        "end": 777,
+        "end": 839,
         "callee": {
           "type": "Identifier",
           "start": 736,
-          "end": 752,
-          "name": "verifyEnumerable"
+          "end": 750,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 753,
-            "end": 764,
+            "start": 751,
+            "end": 762,
             "name": "unscopables"
           },
           {
             "type": "Literal",
-            "start": 766,
-            "end": 776,
+            "start": 764,
+            "end": 774,
             "value": "findLast"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 776,
+            "end": 838,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 780,
+                "end": 794,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 780,
+                  "end": 788,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 790,
+                  "end": 794,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 798,
+                "end": 814,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 798,
+                  "end": 808,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 810,
+                  "end": 814,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 818,
+                "end": 836,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 818,
+                  "end": 830,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 832,
+                  "end": 836,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false
@@ -234,88 +304,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 779,
-      "end": 819,
+      "start": 843,
+      "end": 927,
       "expression": {
         "type": "CallExpression",
-        "start": 779,
-        "end": 818,
-        "callee": {
-          "type": "Identifier",
-          "start": 779,
-          "end": 793,
-          "name": "verifyWritable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 794,
-            "end": 805,
-            "name": "unscopables"
-          },
-          {
-            "type": "Literal",
-            "start": 807,
-            "end": 817,
-            "value": "findLast"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 820,
-      "end": 864,
-      "expression": {
-        "type": "CallExpression",
-        "start": 820,
-        "end": 863,
-        "callee": {
-          "type": "Identifier",
-          "start": 820,
-          "end": 838,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 839,
-            "end": 850,
-            "name": "unscopables"
-          },
-          {
-            "type": "Literal",
-            "start": 852,
-            "end": 862,
-            "value": "findLast"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 866,
-      "end": 950,
-      "expression": {
-        "type": "CallExpression",
-        "start": 866,
-        "end": 949,
+        "start": 843,
+        "end": 926,
         "callee": {
           "type": "MemberExpression",
-          "start": 866,
-          "end": 882,
+          "start": 843,
+          "end": 859,
           "object": {
             "type": "Identifier",
-            "start": 866,
-            "end": 872,
+            "start": 843,
+            "end": 849,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 873,
-            "end": 882,
+            "start": 850,
+            "end": 859,
             "name": "sameValue"
           },
           "computed": false,
@@ -324,18 +332,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 883,
-            "end": 908,
+            "start": 860,
+            "end": 885,
             "object": {
               "type": "Identifier",
-              "start": 883,
-              "end": 894,
+              "start": 860,
+              "end": 871,
               "name": "unscopables"
             },
             "property": {
               "type": "Identifier",
-              "start": 895,
-              "end": 908,
+              "start": 872,
+              "end": 885,
               "name": "findLastIndex"
             },
             "computed": false,
@@ -343,14 +351,14 @@
           },
           {
             "type": "Literal",
-            "start": 910,
-            "end": 914,
+            "start": 887,
+            "end": 891,
             "value": true
           },
           {
             "type": "Literal",
-            "start": 916,
-            "end": 948,
+            "start": 893,
+            "end": 925,
             "value": "`findLastIndex` property value"
           }
         ],
@@ -359,92 +367,100 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 951,
-      "end": 998,
+      "start": 928,
+      "end": 1037,
       "expression": {
         "type": "CallExpression",
-        "start": 951,
-        "end": 997,
+        "start": 928,
+        "end": 1036,
         "callee": {
           "type": "Identifier",
-          "start": 951,
-          "end": 967,
-          "name": "verifyEnumerable"
+          "start": 928,
+          "end": 942,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 968,
-            "end": 979,
+            "start": 943,
+            "end": 954,
             "name": "unscopables"
           },
           {
             "type": "Literal",
-            "start": 981,
-            "end": 996,
+            "start": 956,
+            "end": 971,
             "value": "findLastIndex"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 999,
-      "end": 1044,
-      "expression": {
-        "type": "CallExpression",
-        "start": 999,
-        "end": 1043,
-        "callee": {
-          "type": "Identifier",
-          "start": 999,
-          "end": 1013,
-          "name": "verifyWritable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 1014,
-            "end": 1025,
-            "name": "unscopables"
           },
           {
-            "type": "Literal",
-            "start": 1027,
-            "end": 1042,
-            "value": "findLastIndex"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 1045,
-      "end": 1094,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1045,
-        "end": 1093,
-        "callee": {
-          "type": "Identifier",
-          "start": 1045,
-          "end": 1063,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 1064,
-            "end": 1075,
-            "name": "unscopables"
-          },
-          {
-            "type": "Literal",
-            "start": 1077,
-            "end": 1092,
-            "value": "findLastIndex"
+            "type": "ObjectExpression",
+            "start": 973,
+            "end": 1035,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 977,
+                "end": 991,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 977,
+                  "end": 985,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 987,
+                  "end": 991,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 995,
+                "end": 1011,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 995,
+                  "end": 1005,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1007,
+                  "end": 1011,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1015,
+                "end": 1033,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1015,
+                  "end": 1027,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1029,
+                  "end": 1033,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

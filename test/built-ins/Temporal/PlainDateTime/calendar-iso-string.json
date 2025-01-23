@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 494,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 288,
+      "end": 493,
+      "expression": {
+        "type": "CallExpression",
+        "start": 288,
+        "end": 492,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 288,
+          "end": 301,
+          "object": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 294,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 301,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 305,
+            "end": 315,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 319,
+            "end": 418,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "NewExpression",
+              "start": 325,
+              "end": 418,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 329,
+                "end": 351,
+                "object": {
+                  "type": "Identifier",
+                  "start": 329,
+                  "end": 337,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 338,
+                  "end": 351,
+                  "name": "PlainDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 352,
+                  "end": 356,
+                  "value": 2000
+                },
+                {
+                  "type": "Literal",
+                  "start": 358,
+                  "end": 359,
+                  "value": 5
+                },
+                {
+                  "type": "Literal",
+                  "start": 361,
+                  "end": 362,
+                  "value": 2
+                },
+                {
+                  "type": "Literal",
+                  "start": 364,
+                  "end": 366,
+                  "value": 15
+                },
+                {
+                  "type": "Literal",
+                  "start": 368,
+                  "end": 370,
+                  "value": 23
+                },
+                {
+                  "type": "Literal",
+                  "start": 372,
+                  "end": 374,
+                  "value": 30
+                },
+                {
+                  "type": "Literal",
+                  "start": 376,
+                  "end": 379,
+                  "value": 987
+                },
+                {
+                  "type": "Literal",
+                  "start": 381,
+                  "end": 384,
+                  "value": 654
+                },
+                {
+                  "type": "Literal",
+                  "start": 386,
+                  "end": 389,
+                  "value": 321
+                },
+                {
+                  "type": "Literal",
+                  "start": 391,
+                  "end": 417,
+                  "value": "1997-12-04[u-ca=iso8601]"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 490,
+            "value": "An ISO string is not a valid calendar ID for constructor parameter"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

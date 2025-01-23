@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 445,
+  "end": 421,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 296,
-      "end": 417,
+      "start": 284,
+      "end": 405,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 300,
-          "end": 416,
+          "start": 288,
+          "end": 404,
           "id": {
             "type": "Identifier",
-            "start": 300,
-            "end": 303,
+            "start": 288,
+            "end": 291,
             "name": "foo"
           },
           "init": {
             "type": "CallExpression",
-            "start": 306,
-            "end": 416,
+            "start": 294,
+            "end": 404,
             "callee": {
               "type": "Identifier",
-              "start": 306,
-              "end": 314,
+              "start": 294,
+              "end": 302,
               "name": "Function"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 315,
-                "end": 415,
+                "start": 303,
+                "end": 403,
                 "value": "'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}"
               }
             ],
@@ -44,26 +44,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 430,
-      "end": 444,
+      "start": 406,
+      "end": 420,
       "expression": {
         "type": "CallExpression",
-        "start": 430,
-        "end": 443,
+        "start": 406,
+        "end": 419,
         "callee": {
           "type": "MemberExpression",
-          "start": 430,
-          "end": 438,
+          "start": 406,
+          "end": 414,
           "object": {
             "type": "Identifier",
-            "start": 430,
-            "end": 433,
+            "start": 406,
+            "end": 409,
             "name": "foo"
           },
           "property": {
             "type": "Identifier",
-            "start": 434,
-            "end": 438,
+            "start": 410,
+            "end": 414,
             "name": "call"
           },
           "computed": false,
@@ -72,8 +72,8 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 439,
-            "end": 442,
+            "start": 415,
+            "end": 418,
             "name": "foo"
           }
         ],

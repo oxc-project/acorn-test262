@@ -13,7 +13,8 @@
         "start": 518,
         "end": 557,
         "value": "./instn-uniq-env-rec-other_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

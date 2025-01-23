@@ -145,7 +145,8 @@
                       "start": 4817,
                       "end": 4865,
                       "value": "./get-nested-namespace-props-nrml-1_FIXTURE.js"
-                    }
+                    },
+                    "options": null
                   },
                   "property": {
                     "type": "Identifier",

@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2396,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 2171,
+      "end": 2191,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2175,
+          "end": 2190,
+          "id": {
+            "type": "Identifier",
+            "start": 2175,
+            "end": 2178,
+            "name": "re1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2181,
+            "end": 2190,
+            "value": null,
+            "regex": {
+              "pattern": "(?-i:)",
+              "flags": "i"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2192,
+      "end": 2274,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2192,
+        "end": 2273,
+        "callee": {
+          "type": "Identifier",
+          "start": 2192,
+          "end": 2198,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2199,
+            "end": 2213,
+            "object": {
+              "type": "Identifier",
+              "start": 2199,
+              "end": 2202,
+              "name": "re1"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2203,
+              "end": 2213,
+              "name": "ignoreCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2215,
+            "end": 2272,
+            "value": "RegExp instance ignoreCase property should still be set"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2276,
+      "end": 2312,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2280,
+          "end": 2311,
+          "id": {
+            "type": "Identifier",
+            "start": 2280,
+            "end": 2283,
+            "name": "re2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2286,
+            "end": 2311,
+            "callee": {
+              "type": "Identifier",
+              "start": 2290,
+              "end": 2296,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2297,
+                "end": 2305,
+                "value": "(?-i:)"
+              },
+              {
+                "type": "Literal",
+                "start": 2307,
+                "end": 2310,
+                "value": "i"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2313,
+      "end": 2395,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2313,
+        "end": 2394,
+        "callee": {
+          "type": "Identifier",
+          "start": 2313,
+          "end": 2319,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2320,
+            "end": 2334,
+            "object": {
+              "type": "Identifier",
+              "start": 2320,
+              "end": 2323,
+              "name": "re2"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2324,
+              "end": 2334,
+              "name": "ignoreCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2336,
+            "end": 2393,
+            "value": "RegExp instance ignoreCase property should still be set"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

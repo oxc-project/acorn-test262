@@ -1,0 +1,295 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 647,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 492,
+      "end": 513,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 498,
+          "end": 512,
+          "id": {
+            "type": "Identifier",
+            "start": 498,
+            "end": 501,
+            "name": "arr"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 504,
+            "end": 512,
+            "elements": [
+              {
+                "type": "UnaryExpression",
+                "start": 505,
+                "end": 507,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 506,
+                  "end": 507,
+                  "value": 0
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 509,
+                "end": 511,
+                "operator": "+",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 510,
+                  "end": 511,
+                  "value": 0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 515,
+      "end": 572,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 521,
+          "end": 571,
+          "id": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 524,
+            "name": "map"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 527,
+            "end": 571,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 527,
+              "end": 538,
+              "object": {
+                "type": "Identifier",
+                "start": 527,
+                "end": 530,
+                "name": "Map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 531,
+                "end": 538,
+                "name": "groupBy"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 539,
+                "end": 542,
+                "name": "arr"
+              },
+              {
+                "type": "FunctionExpression",
+                "start": 544,
+                "end": 570,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 554,
+                    "end": 555,
+                    "name": "i"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 557,
+                  "end": 570,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 559,
+                      "end": 568,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 566,
+                        "end": 567,
+                        "name": "i"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 574,
+      "end": 604,
+      "expression": {
+        "type": "CallExpression",
+        "start": 574,
+        "end": 603,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 574,
+          "end": 590,
+          "object": {
+            "type": "Identifier",
+            "start": 574,
+            "end": 580,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 581,
+            "end": 590,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 591,
+            "end": 599,
+            "object": {
+              "type": "Identifier",
+              "start": 591,
+              "end": 594,
+              "name": "map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 595,
+              "end": 599,
+              "name": "size"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 601,
+            "end": 602,
+            "value": 1
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 605,
+      "end": 646,
+      "expression": {
+        "type": "CallExpression",
+        "start": 605,
+        "end": 645,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 605,
+          "end": 624,
+          "object": {
+            "type": "Identifier",
+            "start": 605,
+            "end": 611,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 612,
+            "end": 624,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 625,
+            "end": 635,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 625,
+              "end": 632,
+              "object": {
+                "type": "Identifier",
+                "start": 625,
+                "end": 628,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 629,
+                "end": 632,
+                "name": "get"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 633,
+                "end": 634,
+                "value": 0
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 637,
+            "end": 644,
+            "elements": [
+              {
+                "type": "UnaryExpression",
+                "start": 638,
+                "end": 640,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 639,
+                  "end": 640,
+                  "value": 0
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 642,
+                "end": 643,
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

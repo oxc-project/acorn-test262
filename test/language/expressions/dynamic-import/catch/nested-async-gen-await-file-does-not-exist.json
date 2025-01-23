@@ -39,7 +39,8 @@
                   "start": 1325,
                   "end": 1356,
                   "value": "./THIS_FILE_DOES_NOT_EXIST.js"
-                }
+                },
+                "options": null
               }
             }
           }

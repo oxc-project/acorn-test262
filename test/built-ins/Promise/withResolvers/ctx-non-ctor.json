@@ -1,0 +1,114 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 368,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 290,
+      "end": 367,
+      "expression": {
+        "type": "CallExpression",
+        "start": 290,
+        "end": 366,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 290,
+          "end": 303,
+          "object": {
+            "type": "Identifier",
+            "start": 290,
+            "end": 296,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 297,
+            "end": 303,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 304,
+            "end": 313,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 315,
+            "end": 365,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 326,
+              "end": 365,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 330,
+                  "end": 363,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 330,
+                    "end": 362,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 330,
+                      "end": 356,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 330,
+                        "end": 351,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 330,
+                          "end": 337,
+                          "name": "Promise"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 338,
+                          "end": 351,
+                          "name": "withResolvers"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 352,
+                        "end": 356,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 357,
+                        "end": 361,
+                        "name": "eval"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

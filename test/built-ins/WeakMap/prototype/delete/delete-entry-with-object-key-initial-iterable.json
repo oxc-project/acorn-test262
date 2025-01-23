@@ -1,0 +1,264 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 899,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 711,
+      "end": 724,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 715,
+          "end": 723,
+          "id": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 718,
+            "name": "foo"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 721,
+            "end": 723,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 725,
+      "end": 764,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 729,
+          "end": 763,
+          "id": {
+            "type": "Identifier",
+            "start": 729,
+            "end": 732,
+            "name": "map"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 735,
+            "end": 763,
+            "callee": {
+              "type": "Identifier",
+              "start": 739,
+              "end": 746,
+              "name": "WeakMap"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 747,
+                "end": 762,
+                "elements": [
+                  {
+                    "type": "ArrayExpression",
+                    "start": 751,
+                    "end": 760,
+                    "elements": [
+                      {
+                        "type": "Identifier",
+                        "start": 752,
+                        "end": 755,
+                        "name": "foo"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 757,
+                        "end": 759,
+                        "value": 42
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 766,
+      "end": 795,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 770,
+          "end": 794,
+          "id": {
+            "type": "Identifier",
+            "start": 770,
+            "end": 776,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 779,
+            "end": 794,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 779,
+              "end": 789,
+              "object": {
+                "type": "Identifier",
+                "start": 779,
+                "end": 782,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 783,
+                "end": 789,
+                "name": "delete"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 790,
+                "end": 793,
+                "name": "foo"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 797,
+      "end": 835,
+      "expression": {
+        "type": "CallExpression",
+        "start": 797,
+        "end": 834,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 797,
+          "end": 813,
+          "object": {
+            "type": "Identifier",
+            "start": 797,
+            "end": 803,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 804,
+            "end": 813,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 814,
+            "end": 826,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 814,
+              "end": 821,
+              "object": {
+                "type": "Identifier",
+                "start": 814,
+                "end": 817,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 818,
+                "end": 821,
+                "name": "has"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 822,
+                "end": 825,
+                "name": "foo"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 828,
+            "end": 833,
+            "value": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 836,
+      "end": 898,
+      "expression": {
+        "type": "CallExpression",
+        "start": 836,
+        "end": 897,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 836,
+          "end": 852,
+          "object": {
+            "type": "Identifier",
+            "start": 836,
+            "end": 842,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 843,
+            "end": 852,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 853,
+            "end": 859,
+            "name": "result"
+          },
+          {
+            "type": "Literal",
+            "start": 861,
+            "end": 865,
+            "value": true
+          },
+          {
+            "type": "Literal",
+            "start": 867,
+            "end": 896,
+            "value": "WeakMap#delete returns true"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

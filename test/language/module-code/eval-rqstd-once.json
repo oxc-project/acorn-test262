@@ -13,7 +13,8 @@
         "start": 693,
         "end": 723,
         "value": "./eval-rqstd-once_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -25,7 +26,8 @@
         "start": 732,
         "end": 762,
         "value": "./eval-rqstd-once_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -49,7 +51,8 @@
         "start": 785,
         "end": 815,
         "value": "./eval-rqstd-once_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -73,7 +76,8 @@
         "start": 835,
         "end": 865,
         "value": "./eval-rqstd-once_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -86,7 +90,8 @@
         "start": 882,
         "end": 912,
         "value": "./eval-rqstd-once_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -110,7 +115,8 @@
         "start": 936,
         "end": 966,
         "value": "./eval-rqstd-once_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -122,7 +128,8 @@
         "start": 982,
         "end": 1012,
         "value": "./eval-rqstd-once_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -139,7 +146,8 @@
         "start": 1035,
         "end": 1065,
         "value": "./eval-rqstd-once_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -156,7 +164,8 @@
         "start": 1090,
         "end": 1120,
         "value": "./eval-rqstd-once_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -191,7 +200,8 @@
         "start": 1150,
         "end": 1180,
         "value": "./eval-rqstd-once_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

@@ -1,0 +1,196 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 752,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 535,
+      "end": 751,
+      "expression": {
+        "type": "CallExpression",
+        "start": 535,
+        "end": 750,
+        "callee": {
+          "type": "Identifier",
+          "start": 535,
+          "end": 544,
+          "name": "asyncTest"
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 545,
+            "end": 749,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 557,
+              "end": 749,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 561,
+                  "end": 747,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 561,
+                    "end": 746,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 567,
+                      "end": 746,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 567,
+                        "end": 585,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 567,
+                          "end": 573,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 574,
+                          "end": 585,
+                          "name": "throwsAsync"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 586,
+                          "end": 598,
+                          "name": "Test262Error"
+                        },
+                        {
+                          "type": "ArrowFunctionExpression",
+                          "start": 600,
+                          "end": 689,
+                          "id": null,
+                          "expression": true,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "CallExpression",
+                            "start": 606,
+                            "end": 689,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 606,
+                              "end": 621,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 606,
+                                "end": 611,
+                                "name": "Array"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 612,
+                                "end": 621,
+                                "name": "fromAsync"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "ArrayExpression",
+                                "start": 622,
+                                "end": 631,
+                                "elements": [
+                                  {
+                                    "type": "Literal",
+                                    "start": 623,
+                                    "end": 624,
+                                    "value": 1
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 626,
+                                    "end": 627,
+                                    "value": 2
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 629,
+                                    "end": 630,
+                                    "value": 3
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "ArrowFunctionExpression",
+                                "start": 633,
+                                "end": 688,
+                                "id": null,
+                                "expression": false,
+                                "generator": false,
+                                "async": false,
+                                "params": [],
+                                "body": {
+                                  "type": "BlockStatement",
+                                  "start": 639,
+                                  "end": 688,
+                                  "body": [
+                                    {
+                                      "type": "ThrowStatement",
+                                      "start": 645,
+                                      "end": 684,
+                                      "argument": {
+                                        "type": "NewExpression",
+                                        "start": 651,
+                                        "end": 683,
+                                        "callee": {
+                                          "type": "Identifier",
+                                          "start": 655,
+                                          "end": 667,
+                                          "name": "Test262Error"
+                                        },
+                                        "arguments": [
+                                          {
+                                            "type": "Literal",
+                                            "start": 668,
+                                            "end": 682,
+                                            "value": "mapfn throws"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ],
+                            "optional": false
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 691,
+                          "end": 745,
+                          "value": "sync mapfn throwing should cause fromAsync to reject"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

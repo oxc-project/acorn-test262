@@ -1,0 +1,1797 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3012,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 990,
+      "end": 2180,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 996,
+          "end": 2179,
+          "id": {
+            "type": "Identifier",
+            "start": 996,
+            "end": 1000,
+            "name": "data"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 1003,
+            "end": 2179,
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "start": 1007,
+                "end": 1063,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1013,
+                    "end": 1023,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1013,
+                      "end": 1018,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1020,
+                      "end": 1023,
+                      "value": 816
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1029,
+                    "end": 1058,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1029,
+                      "end": 1040,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1042,
+                      "end": 1058,
+                      "value": 2049187497660
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1067,
+                "end": 1124,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1073,
+                    "end": 1084,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1073,
+                      "end": 1078,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1080,
+                      "end": 1084,
+                      "value": 7825
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1090,
+                    "end": 1119,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1090,
+                      "end": 1101,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1103,
+                      "end": 1119,
+                      "value": 1865665040770
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1128,
+                "end": 1182,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1134,
+                    "end": 1142,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1134,
+                      "end": 1139,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1141,
+                      "end": 1142,
+                      "value": 0
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1148,
+                    "end": 1177,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1148,
+                      "end": 1159,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1161,
+                      "end": 1177,
+                      "value": 1049560584034
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1186,
+                "end": 1246,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1192,
+                    "end": 1206,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1192,
+                      "end": 1197,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1199,
+                      "end": 1206,
+                      "value": 2055144
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1212,
+                    "end": 1241,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1212,
+                      "end": 1223,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1225,
+                      "end": 1241,
+                      "value": 2502078444371
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1250,
+                "end": 1305,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1256,
+                    "end": 1265,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1256,
+                      "end": 1261,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1263,
+                      "end": 1265,
+                      "value": 31
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1271,
+                    "end": 1300,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1271,
+                      "end": 1282,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1284,
+                      "end": 1300,
+                      "value": 1010734758745
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1309,
+                "end": 1364,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1315,
+                    "end": 1324,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1315,
+                      "end": 1320,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1322,
+                      "end": 1324,
+                      "value": 24
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1330,
+                    "end": 1359,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1330,
+                      "end": 1341,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1343,
+                      "end": 1359,
+                      "value": 2958999560387
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1368,
+                "end": 1421,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1374,
+                    "end": 1382,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1374,
+                      "end": 1379,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1381,
+                      "end": 1382,
+                      "value": 0
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1388,
+                    "end": 1416,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1388,
+                      "end": 1399,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1401,
+                      "end": 1416,
+                      "value": 342058521588
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1425,
+                "end": 1483,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1431,
+                    "end": 1443,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1431,
+                      "end": 1436,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1438,
+                      "end": 1443,
+                      "value": 17746
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1449,
+                    "end": 1478,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1449,
+                      "end": 1460,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1462,
+                      "end": 1478,
+                      "value": 3009093506309
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1487,
+                "end": 1540,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1493,
+                    "end": 1501,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1493,
+                      "end": 1498,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1500,
+                      "end": 1501,
+                      "value": 4
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1507,
+                    "end": 1535,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1507,
+                      "end": 1518,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1520,
+                      "end": 1535,
+                      "value": 892480914569
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1544,
+                "end": 1600,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1550,
+                    "end": 1561,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1550,
+                      "end": 1555,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1557,
+                      "end": 1561,
+                      "value": 3954
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1567,
+                    "end": 1595,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1567,
+                      "end": 1578,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1580,
+                      "end": 1595,
+                      "value": 571647777618
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1604,
+                "end": 1659,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1610,
+                    "end": 1619,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1610,
+                      "end": 1615,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1617,
+                      "end": 1619,
+                      "value": 27
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1625,
+                    "end": 1654,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1625,
+                      "end": 1636,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1638,
+                      "end": 1654,
+                      "value": 2322199502640
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1663,
+                "end": 1725,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1669,
+                    "end": 1685,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1669,
+                      "end": 1674,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1676,
+                      "end": 1685,
+                      "value": 258054064
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1691,
+                    "end": 1720,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1691,
+                      "end": 1702,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1704,
+                      "end": 1720,
+                      "value": 2782411891222
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1729,
+                "end": 1786,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1735,
+                    "end": 1746,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1735,
+                      "end": 1740,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1742,
+                      "end": 1746,
+                      "value": 1485
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1752,
+                    "end": 1781,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1752,
+                      "end": 1763,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1765,
+                      "end": 1781,
+                      "value": 2422559903100
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1790,
+                "end": 1844,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1796,
+                    "end": 1804,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1796,
+                      "end": 1801,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1803,
+                      "end": 1804,
+                      "value": 0
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1810,
+                    "end": 1839,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1810,
+                      "end": 1821,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1823,
+                      "end": 1839,
+                      "value": 1461068214153
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1848,
+                "end": 1904,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1854,
+                    "end": 1864,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1854,
+                      "end": 1859,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1861,
+                      "end": 1864,
+                      "value": 393
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1870,
+                    "end": 1899,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1870,
+                      "end": 1881,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1883,
+                      "end": 1899,
+                      "value": 1250229561658
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1908,
+                "end": 1956,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1914,
+                    "end": 1922,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1914,
+                      "end": 1919,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1921,
+                      "end": 1922,
+                      "value": 0
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1928,
+                    "end": 1951,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1928,
+                      "end": 1939,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1941,
+                      "end": 1951,
+                      "value": 91035820
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1960,
+                "end": 2009,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1966,
+                    "end": 1974,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1966,
+                      "end": 1971,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1973,
+                      "end": 1974,
+                      "value": 0
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1980,
+                    "end": 2004,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1980,
+                      "end": 1991,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1993,
+                      "end": 2004,
+                      "value": 790982655
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 2013,
+                "end": 2064,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 2019,
+                    "end": 2029,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2019,
+                      "end": 2024,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2026,
+                      "end": 2029,
+                      "value": 150
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 2035,
+                    "end": 2059,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2035,
+                      "end": 2046,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2048,
+                      "end": 2059,
+                      "value": 608531524
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 2068,
+                "end": 2120,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 2074,
+                    "end": 2085,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2074,
+                      "end": 2079,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2081,
+                      "end": 2085,
+                      "value": 5469
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 2091,
+                    "end": 2115,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2091,
+                      "end": 2102,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2104,
+                      "end": 2115,
+                      "value": 889204952
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 2124,
+                "end": 2176,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 2130,
+                    "end": 2141,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2130,
+                      "end": 2135,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2137,
+                      "end": 2141,
+                      "value": 7870
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 2147,
+                    "end": 2171,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2147,
+                      "end": 2158,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2160,
+                      "end": 2171,
+                      "value": 680042770
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2182,
+      "end": 2217,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2188,
+          "end": 2216,
+          "id": {
+            "type": "Identifier",
+            "start": 2188,
+            "end": 2197,
+            "name": "nsPerHour"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2200,
+            "end": 2216,
+            "value": 3600000000000
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2219,
+      "end": 2311,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2225,
+          "end": 2310,
+          "id": {
+            "type": "Identifier",
+            "start": 2225,
+            "end": 2239,
+            "name": "fractionDigits"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 2242,
+            "end": 2310,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 2242,
+              "end": 2293,
+              "left": {
+                "type": "CallExpression",
+                "start": 2242,
+                "end": 2263,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2242,
+                  "end": 2252,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2242,
+                    "end": 2246,
+                    "name": "Math"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2247,
+                    "end": 2252,
+                    "name": "log10"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 2253,
+                    "end": 2262,
+                    "name": "nsPerHour"
+                  }
+                ],
+                "optional": false
+              },
+              "operator": "+",
+              "right": {
+                "type": "CallExpression",
+                "start": 2266,
+                "end": 2293,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2266,
+                  "end": 2276,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2266,
+                    "end": 2270,
+                    "name": "Math"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2271,
+                    "end": 2276,
+                    "name": "log10"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2277,
+                    "end": 2292,
+                    "value": 100000000000
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "operator": "-",
+            "right": {
+              "type": "CallExpression",
+              "start": 2296,
+              "end": 2310,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2296,
+                "end": 2306,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2296,
+                  "end": 2300,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2301,
+                  "end": 2306,
+                  "name": "log10"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2307,
+                  "end": 2309,
+                  "value": 36
+                }
+              ],
+              "optional": false
+            }
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2312,
+      "end": 2349,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2312,
+        "end": 2348,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2312,
+          "end": 2328,
+          "object": {
+            "type": "Identifier",
+            "start": 2312,
+            "end": 2318,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2319,
+            "end": 2328,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2329,
+            "end": 2343,
+            "name": "fractionDigits"
+          },
+          {
+            "type": "Literal",
+            "start": 2345,
+            "end": 2347,
+            "value": 22
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 2351,
+      "end": 3011,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 2356,
+        "end": 2380,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2360,
+            "end": 2380,
+            "id": {
+              "type": "ObjectPattern",
+              "start": 2360,
+              "end": 2380,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 2361,
+                  "end": 2366,
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 2361,
+                    "end": 2366,
+                    "name": "hours"
+                  },
+                  "kind": "init",
+                  "value": {
+                    "type": "Identifier",
+                    "start": 2361,
+                    "end": 2366,
+                    "name": "hours"
+                  }
+                },
+                {
+                  "type": "Property",
+                  "start": 2368,
+                  "end": 2379,
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 2368,
+                    "end": 2379,
+                    "name": "nanoseconds"
+                  },
+                  "kind": "init",
+                  "value": {
+                    "type": "Identifier",
+                    "start": 2368,
+                    "end": 2379,
+                    "name": "nanoseconds"
+                  }
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "let"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 2384,
+        "end": 2388,
+        "name": "data"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 2390,
+        "end": 3011,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 2394,
+            "end": 2426,
+            "expression": {
+              "type": "CallExpression",
+              "start": 2394,
+              "end": 2425,
+              "callee": {
+                "type": "Identifier",
+                "start": 2394,
+                "end": 2400,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2401,
+                  "end": 2424,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 2401,
+                    "end": 2412,
+                    "name": "nanoseconds"
+                  },
+                  "operator": "<",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 2415,
+                    "end": 2424,
+                    "name": "nsPerHour"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 2596,
+            "end": 2701,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 2600,
+                "end": 2700,
+                "id": {
+                  "type": "Identifier",
+                  "start": 2600,
+                  "end": 2608,
+                  "name": "fraction"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 2611,
+                  "end": 2700,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 2611,
+                    "end": 2679,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 2611,
+                      "end": 2670,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 2611,
+                        "end": 2668,
+                        "object": {
+                          "type": "ParenthesizedExpression",
+                          "start": 2611,
+                          "end": 2659,
+                          "expression": {
+                            "type": "BinaryExpression",
+                            "start": 2612,
+                            "end": 2658,
+                            "left": {
+                              "type": "ParenthesizedExpression",
+                              "start": 2612,
+                              "end": 2652,
+                              "expression": {
+                                "type": "BinaryExpression",
+                                "start": 2613,
+                                "end": 2651,
+                                "left": {
+                                  "type": "CallExpression",
+                                  "start": 2613,
+                                  "end": 2632,
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 2613,
+                                    "end": 2619,
+                                    "name": "BigInt"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "Identifier",
+                                      "start": 2620,
+                                      "end": 2631,
+                                      "name": "nanoseconds"
+                                    }
+                                  ],
+                                  "optional": false
+                                },
+                                "operator": "*",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 2635,
+                                  "end": 2651,
+                                  "value": "100000000000n"
+                                }
+                              }
+                            },
+                            "operator": "/",
+                            "right": {
+                              "type": "Literal",
+                              "start": 2655,
+                              "end": 2658,
+                              "value": "36n"
+                            }
+                          }
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 2660,
+                          "end": 2668,
+                          "name": "toString"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2671,
+                      "end": 2679,
+                      "name": "padStart"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 2680,
+                      "end": 2694,
+                      "name": "fractionDigits"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2696,
+                      "end": 2699,
+                      "value": "0"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 2771,
+            "end": 2817,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 2775,
+                "end": 2816,
+                "id": {
+                  "type": "Identifier",
+                  "start": 2775,
+                  "end": 2783,
+                  "name": "expected"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 2786,
+                  "end": 2816,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 2786,
+                    "end": 2792,
+                    "name": "Number"
+                  },
+                  "arguments": [
+                    {
+                      "type": "TemplateLiteral",
+                      "start": 2793,
+                      "end": 2815,
+                      "expressions": [
+                        {
+                          "type": "Identifier",
+                          "start": 2796,
+                          "end": 2801,
+                          "name": "hours"
+                        },
+                        {
+                          "type": "Identifier",
+                          "start": 2805,
+                          "end": 2813,
+                          "name": "fraction"
+                        }
+                      ],
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 2794,
+                          "end": 2794,
+                          "value": {
+                            "raw": "",
+                            "cooked": ""
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 2802,
+                          "end": 2803,
+                          "value": {
+                            "raw": ".",
+                            "cooked": "."
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 2814,
+                          "end": 2814,
+                          "value": {
+                            "raw": "",
+                            "cooked": ""
+                          },
+                          "tail": true
+                        }
+                      ]
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 2821,
+            "end": 2874,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 2825,
+                "end": 2873,
+                "id": {
+                  "type": "Identifier",
+                  "start": 2825,
+                  "end": 2826,
+                  "name": "d"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 2829,
+                  "end": 2873,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 2829,
+                    "end": 2851,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 2829,
+                      "end": 2846,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2829,
+                        "end": 2837,
+                        "name": "Temporal"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2838,
+                        "end": 2846,
+                        "name": "Duration"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2847,
+                      "end": 2851,
+                      "name": "from"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "start": 2852,
+                      "end": 2872,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 2853,
+                          "end": 2858,
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 2853,
+                            "end": 2858,
+                            "name": "hours"
+                          },
+                          "kind": "init",
+                          "value": {
+                            "type": "Identifier",
+                            "start": 2853,
+                            "end": 2858,
+                            "name": "hours"
+                          }
+                        },
+                        {
+                          "type": "Property",
+                          "start": 2860,
+                          "end": 2871,
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 2860,
+                            "end": 2871,
+                            "name": "nanoseconds"
+                          },
+                          "kind": "init",
+                          "value": {
+                            "type": "Identifier",
+                            "start": 2860,
+                            "end": 2871,
+                            "name": "nanoseconds"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 2877,
+            "end": 2907,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 2881,
+                "end": 2906,
+                "id": {
+                  "type": "Identifier",
+                  "start": 2881,
+                  "end": 2887,
+                  "name": "actual"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 2890,
+                  "end": 2906,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 2890,
+                    "end": 2897,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2890,
+                      "end": 2891,
+                      "name": "d"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2892,
+                      "end": 2897,
+                      "name": "total"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 2898,
+                      "end": 2905,
+                      "value": "hours"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 2911,
+            "end": 3009,
+            "expression": {
+              "type": "CallExpression",
+              "start": 2911,
+              "end": 3008,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2911,
+                "end": 2927,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2911,
+                  "end": 2917,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2918,
+                  "end": 2927,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 2933,
+                  "end": 2939,
+                  "name": "actual"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 2945,
+                  "end": 2953,
+                  "name": "expected"
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 2959,
+                  "end": 3003,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 2968,
+                      "end": 2973,
+                      "name": "hours"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 2990,
+                      "end": 3001,
+                      "name": "nanoseconds"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 2960,
+                      "end": 2966,
+                      "value": {
+                        "raw": "hours=",
+                        "cooked": "hours="
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 2974,
+                      "end": 2988,
+                      "value": {
+                        "raw": ", nanoseconds=",
+                        "cooked": ", nanoseconds="
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 3002,
+                      "end": 3002,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

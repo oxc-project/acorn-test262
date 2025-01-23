@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 829,
+  "end": 828,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 650,
-      "end": 718,
+      "start": 649,
+      "end": 717,
       "expression": {
         "type": "CallExpression",
-        "start": 650,
-        "end": 717,
+        "start": 649,
+        "end": 716,
         "callee": {
           "type": "MemberExpression",
-          "start": 650,
-          "end": 666,
+          "start": 649,
+          "end": 665,
           "object": {
             "type": "Identifier",
-            "start": 650,
-            "end": 656,
+            "start": 649,
+            "end": 655,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 657,
-            "end": 666,
+            "start": 656,
+            "end": 665,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,28 +33,28 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 667,
-            "end": 704,
+            "start": 666,
+            "end": 703,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "MemberExpression",
-              "start": 674,
-              "end": 704,
+              "start": 673,
+              "end": 703,
               "object": {
                 "type": "MemberExpression",
-                "start": 674,
-                "end": 695,
+                "start": 673,
+                "end": 694,
                 "object": {
                   "type": "Identifier",
-                  "start": 674,
-                  "end": 685,
+                  "start": 673,
+                  "end": 684,
                   "name": "ArrayBuffer"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 686,
-                  "end": 695,
+                  "start": 685,
+                  "end": 694,
                   "name": "prototype"
                 },
                 "computed": false,
@@ -62,8 +62,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 696,
-                "end": 704,
+                "start": 695,
+                "end": 703,
                 "name": "transfer"
               },
               "computed": false,
@@ -72,8 +72,8 @@
           },
           {
             "type": "Literal",
-            "start": 706,
-            "end": 716,
+            "start": 705,
+            "end": 715,
             "value": "function"
           }
         ],
@@ -82,34 +82,34 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 720,
-      "end": 748,
+      "start": 719,
+      "end": 747,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 724,
-          "end": 747,
+          "start": 723,
+          "end": 746,
           "id": {
             "type": "Identifier",
-            "start": 724,
-            "end": 726,
+            "start": 723,
+            "end": 725,
             "name": "ab"
           },
           "init": {
             "type": "NewExpression",
-            "start": 729,
-            "end": 747,
+            "start": 728,
+            "end": 746,
             "callee": {
               "type": "Identifier",
-              "start": 733,
-              "end": 744,
+              "start": 732,
+              "end": 743,
               "name": "ArrayBuffer"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 745,
-                "end": 746,
+                "start": 744,
+                "end": 745,
                 "value": 1
               }
             ]
@@ -120,23 +120,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 750,
-      "end": 768,
+      "start": 749,
+      "end": 767,
       "expression": {
         "type": "CallExpression",
-        "start": 750,
-        "end": 767,
+        "start": 749,
+        "end": 766,
         "callee": {
           "type": "Identifier",
-          "start": 750,
-          "end": 763,
+          "start": 749,
+          "end": 762,
           "name": "$DETACHBUFFER"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 764,
-            "end": 766,
+            "start": 763,
+            "end": 765,
             "name": "ab"
           }
         ],
@@ -145,26 +145,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 770,
-      "end": 828,
+      "start": 769,
+      "end": 827,
       "expression": {
         "type": "CallExpression",
-        "start": 770,
-        "end": 827,
+        "start": 769,
+        "end": 826,
         "callee": {
           "type": "MemberExpression",
-          "start": 770,
-          "end": 783,
+          "start": 769,
+          "end": 782,
           "object": {
             "type": "Identifier",
-            "start": 770,
-            "end": 776,
+            "start": 769,
+            "end": 775,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 777,
-            "end": 783,
+            "start": 776,
+            "end": 782,
             "name": "throws"
           },
           "computed": false,
@@ -173,14 +173,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 784,
-            "end": 793,
+            "start": 783,
+            "end": 792,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 795,
-            "end": 826,
+            "start": 794,
+            "end": 825,
             "id": null,
             "expression": false,
             "generator": false,
@@ -188,31 +188,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 806,
-              "end": 826,
+              "start": 805,
+              "end": 825,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 810,
-                  "end": 824,
+                  "start": 809,
+                  "end": 823,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 810,
-                    "end": 823,
+                    "start": 809,
+                    "end": 822,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 810,
-                      "end": 821,
+                      "start": 809,
+                      "end": 820,
                       "object": {
                         "type": "Identifier",
-                        "start": 810,
-                        "end": 812,
+                        "start": 809,
+                        "end": 811,
                         "name": "ab"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 813,
-                        "end": 821,
+                        "start": 812,
+                        "end": 820,
                         "name": "transfer"
                       },
                       "computed": false,

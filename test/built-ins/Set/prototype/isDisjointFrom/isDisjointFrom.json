@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 556,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 308,
+      "end": 439,
+      "expression": {
+        "type": "CallExpression",
+        "start": 308,
+        "end": 438,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 308,
+          "end": 324,
+          "object": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 314,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 324,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 328,
+            "end": 363,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 335,
+              "end": 363,
+              "object": {
+                "type": "MemberExpression",
+                "start": 335,
+                "end": 348,
+                "object": {
+                  "type": "Identifier",
+                  "start": 335,
+                  "end": 338,
+                  "name": "Set"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 339,
+                  "end": 348,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 349,
+                "end": 363,
+                "name": "isDisjointFrom"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 367,
+            "end": 377,
+            "value": "function"
+          },
+          {
+            "type": "Literal",
+            "start": 381,
+            "end": 436,
+            "value": "`typeof Set.prototype.isDisjointFrom` is `'function'`"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 441,
+      "end": 555,
+      "expression": {
+        "type": "CallExpression",
+        "start": 441,
+        "end": 554,
+        "callee": {
+          "type": "Identifier",
+          "start": 441,
+          "end": 455,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 456,
+            "end": 469,
+            "object": {
+              "type": "Identifier",
+              "start": 456,
+              "end": 459,
+              "name": "Set"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 460,
+              "end": 469,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 471,
+            "end": 487,
+            "value": "isDisjointFrom"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 489,
+            "end": 553,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 493,
+                "end": 510,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 493,
+                  "end": 503,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 505,
+                  "end": 510,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 514,
+                "end": 528,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 514,
+                  "end": 522,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 524,
+                  "end": 528,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 532,
+                "end": 550,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 532,
+                  "end": 544,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 546,
+                  "end": 550,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,213 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 838,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 568,
+      "end": 647,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 572,
+          "end": 646,
+          "id": {
+            "type": "Identifier",
+            "start": 572,
+            "end": 581,
+            "name": "wontThrow"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 584,
+            "end": 646,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 588,
+              "end": 605,
+              "object": {
+                "type": "Identifier",
+                "start": 588,
+                "end": 592,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 593,
+                "end": 605,
+                "name": "NumberFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 606,
+                "end": 615,
+                "name": "undefined"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 617,
+                "end": 645,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 618,
+                    "end": 644,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 618,
+                      "end": 639,
+                      "name": "maximumFractionDigits"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 641,
+                      "end": 644,
+                      "value": 100
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 649,
+      "end": 837,
+      "expression": {
+        "type": "CallExpression",
+        "start": 649,
+        "end": 836,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 649,
+          "end": 662,
+          "object": {
+            "type": "Identifier",
+            "start": 649,
+            "end": 655,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 656,
+            "end": 662,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 663,
+            "end": 673,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 675,
+            "end": 769,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 687,
+              "end": 769,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 697,
+                  "end": 767,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 704,
+                    "end": 766,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 708,
+                      "end": 725,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 708,
+                        "end": 712,
+                        "name": "Intl"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 713,
+                        "end": 725,
+                        "name": "NumberFormat"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 726,
+                        "end": 735,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 737,
+                        "end": 765,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 738,
+                            "end": 764,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 738,
+                              "end": 759,
+                              "name": "maximumFractionDigits"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 761,
+                              "end": 764,
+                              "value": 101
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 771,
+            "end": 835,
+            "value": "Throws RangeError when maximumFractionDigits is more than 100."
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

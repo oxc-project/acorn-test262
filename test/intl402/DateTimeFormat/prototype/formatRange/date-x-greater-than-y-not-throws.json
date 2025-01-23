@@ -1,0 +1,520 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 990,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 651,
+      "end": 687,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 655,
+          "end": 686,
+          "id": {
+            "type": "Identifier",
+            "start": 655,
+            "end": 658,
+            "name": "dtf"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 661,
+            "end": 686,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 665,
+              "end": 684,
+              "object": {
+                "type": "Identifier",
+                "start": 665,
+                "end": 669,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 670,
+                "end": 684,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 689,
+      "end": 708,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 693,
+          "end": 707,
+          "id": {
+            "type": "Identifier",
+            "start": 693,
+            "end": 694,
+            "name": "x"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 697,
+            "end": 707,
+            "callee": {
+              "type": "Identifier",
+              "start": 701,
+              "end": 705,
+              "name": "Date"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 709,
+      "end": 728,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 713,
+          "end": 727,
+          "id": {
+            "type": "Identifier",
+            "start": 713,
+            "end": 714,
+            "name": "y"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 717,
+            "end": 727,
+            "callee": {
+              "type": "Identifier",
+              "start": 721,
+              "end": 725,
+              "name": "Date"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 729,
+      "end": 756,
+      "expression": {
+        "type": "CallExpression",
+        "start": 729,
+        "end": 755,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 729,
+          "end": 738,
+          "object": {
+            "type": "Identifier",
+            "start": 729,
+            "end": 730,
+            "name": "x"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 738,
+            "name": "setDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 739,
+            "end": 754,
+            "left": {
+              "type": "CallExpression",
+              "start": 739,
+              "end": 750,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 739,
+                "end": 748,
+                "object": {
+                  "type": "Identifier",
+                  "start": 739,
+                  "end": 740,
+                  "name": "y"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 741,
+                  "end": 748,
+                  "name": "getDate"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 753,
+              "end": 754,
+              "value": 1
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 758,
+      "end": 815,
+      "expression": {
+        "type": "CallExpression",
+        "start": 758,
+        "end": 814,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 758,
+          "end": 774,
+          "object": {
+            "type": "Identifier",
+            "start": 758,
+            "end": 764,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 765,
+            "end": 774,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 775,
+            "end": 783,
+            "value": "string"
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 785,
+            "end": 813,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 792,
+              "end": 813,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 792,
+                "end": 807,
+                "object": {
+                  "type": "Identifier",
+                  "start": 792,
+                  "end": 795,
+                  "name": "dtf"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 796,
+                  "end": 807,
+                  "name": "formatRange"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 808,
+                  "end": 809,
+                  "name": "x"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 811,
+                  "end": 812,
+                  "name": "y"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 816,
+      "end": 873,
+      "expression": {
+        "type": "CallExpression",
+        "start": 816,
+        "end": 872,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 816,
+          "end": 832,
+          "object": {
+            "type": "Identifier",
+            "start": 816,
+            "end": 822,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 823,
+            "end": 832,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 833,
+            "end": 841,
+            "value": "string"
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 843,
+            "end": 871,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 850,
+              "end": 871,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 850,
+                "end": 865,
+                "object": {
+                  "type": "Identifier",
+                  "start": 850,
+                  "end": 853,
+                  "name": "dtf"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 854,
+                  "end": 865,
+                  "name": "formatRange"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 866,
+                  "end": 867,
+                  "name": "x"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 869,
+                  "end": 870,
+                  "name": "x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 874,
+      "end": 931,
+      "expression": {
+        "type": "CallExpression",
+        "start": 874,
+        "end": 930,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 874,
+          "end": 890,
+          "object": {
+            "type": "Identifier",
+            "start": 874,
+            "end": 880,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 881,
+            "end": 890,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 891,
+            "end": 899,
+            "value": "string"
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 901,
+            "end": 929,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 908,
+              "end": 929,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 908,
+                "end": 923,
+                "object": {
+                  "type": "Identifier",
+                  "start": 908,
+                  "end": 911,
+                  "name": "dtf"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 912,
+                  "end": 923,
+                  "name": "formatRange"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 924,
+                  "end": 925,
+                  "name": "y"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 927,
+                  "end": 928,
+                  "name": "y"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 932,
+      "end": 989,
+      "expression": {
+        "type": "CallExpression",
+        "start": 932,
+        "end": 988,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 932,
+          "end": 948,
+          "object": {
+            "type": "Identifier",
+            "start": 932,
+            "end": 938,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 939,
+            "end": 948,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 949,
+            "end": 957,
+            "value": "string"
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 959,
+            "end": 987,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 966,
+              "end": 987,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 966,
+                "end": 981,
+                "object": {
+                  "type": "Identifier",
+                  "start": 966,
+                  "end": 969,
+                  "name": "dtf"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 970,
+                  "end": 981,
+                  "name": "formatRange"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 982,
+                  "end": 983,
+                  "name": "y"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 985,
+                  "end": 986,
+                  "name": "x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

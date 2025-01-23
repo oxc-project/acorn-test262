@@ -16,7 +16,8 @@
           "start": 1092,
           "end": 1094,
           "value": ""
-        }
+        },
+        "options": null
       },
       "body": {
         "type": "BlockStatement",

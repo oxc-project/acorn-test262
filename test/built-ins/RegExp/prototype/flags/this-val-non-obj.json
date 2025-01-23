@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 886,
+  "end": 955,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -683,6 +683,105 @@
             "start": 875,
             "end": 883,
             "value": "symbol"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 887,
+      "end": 954,
+      "expression": {
+        "type": "CallExpression",
+        "start": 887,
+        "end": 953,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 887,
+          "end": 900,
+          "object": {
+            "type": "Identifier",
+            "start": 887,
+            "end": 893,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 894,
+            "end": 900,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 901,
+            "end": 910,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 912,
+            "end": 942,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 923,
+              "end": 942,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 927,
+                  "end": 940,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 927,
+                    "end": 939,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 927,
+                      "end": 935,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 927,
+                        "end": 930,
+                        "name": "get"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 931,
+                        "end": 935,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 936,
+                        "end": 938,
+                        "value": "4n"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 944,
+            "end": 952,
+            "value": "bigint"
           }
         ],
         "optional": false

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 885,
+  "end": 958,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -654,6 +654,105 @@
                 }
               ]
             }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 886,
+      "end": 957,
+      "expression": {
+        "type": "CallExpression",
+        "start": 886,
+        "end": 956,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 886,
+          "end": 899,
+          "object": {
+            "type": "Identifier",
+            "start": 886,
+            "end": 892,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 893,
+            "end": 899,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 900,
+            "end": 909,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 911,
+            "end": 945,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 922,
+              "end": 945,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 926,
+                  "end": 943,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 926,
+                    "end": 942,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 926,
+                      "end": 938,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 926,
+                        "end": 933,
+                        "name": "unicode"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 934,
+                        "end": 938,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 939,
+                        "end": 941,
+                        "value": "4n"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 947,
+            "end": 955,
+            "value": "bigint"
           }
         ],
         "optional": false

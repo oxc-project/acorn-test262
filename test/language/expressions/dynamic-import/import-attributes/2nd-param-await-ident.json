@@ -1,0 +1,196 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 759,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 589,
+      "end": 608,
+      "id": {
+        "type": "Identifier",
+        "start": 598,
+        "end": 603,
+        "name": "await"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 606,
+        "end": 608,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 610,
+      "end": 758,
+      "expression": {
+        "type": "CallExpression",
+        "start": 610,
+        "end": 757,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 610,
+          "end": 743,
+          "object": {
+            "type": "CallExpression",
+            "start": 610,
+            "end": 735,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 610,
+              "end": 668,
+              "object": {
+                "type": "ImportExpression",
+                "start": 610,
+                "end": 660,
+                "source": {
+                  "type": "Literal",
+                  "start": 617,
+                  "end": 641,
+                  "value": "./2nd-param_FIXTURE.js"
+                },
+                "options": {
+                  "type": "AwaitExpression",
+                  "start": 643,
+                  "end": 659,
+                  "argument": {
+                    "type": "ParenthesizedExpression",
+                    "start": 648,
+                    "end": 659,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 649,
+                      "end": 658,
+                      "name": "undefined"
+                    }
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 664,
+                "end": 668,
+                "name": "then"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 669,
+                "end": 734,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 678,
+                    "end": 684,
+                    "name": "module"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 686,
+                  "end": 734,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 692,
+                      "end": 730,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 692,
+                        "end": 729,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 692,
+                          "end": 708,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 692,
+                            "end": 698,
+                            "name": "assert"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 699,
+                            "end": 708,
+                            "name": "sameValue"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "MemberExpression",
+                            "start": 709,
+                            "end": 723,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 709,
+                              "end": 715,
+                              "name": "module"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 716,
+                              "end": 723,
+                              "name": "default"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 725,
+                            "end": 728,
+                            "value": 262
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 739,
+            "end": 743,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 744,
+            "end": 749,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 751,
+            "end": 756,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

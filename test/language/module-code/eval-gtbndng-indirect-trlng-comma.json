@@ -31,7 +31,8 @@
         "start": 740,
         "end": 788,
         "value": "./eval-gtbndng-indirect-trlng-comma_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

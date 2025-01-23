@@ -1,0 +1,810 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 7035,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 485,
+      "end": 7034,
+      "expression": {
+        "type": "CallExpression",
+        "start": 485,
+        "end": 7033,
+        "callee": {
+          "type": "Identifier",
+          "start": 485,
+          "end": 506,
+          "name": "testPropertyOfStrings"
+        },
+        "arguments": [
+          {
+            "type": "ObjectExpression",
+            "start": 507,
+            "end": 7032,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 511,
+                "end": 538,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 511,
+                  "end": 517,
+                  "name": "regExp"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 519,
+                  "end": 538,
+                  "value": {},
+                  "regex": {
+                    "pattern": "^\\p{RGI_Emoji}+$",
+                    "flags": "v"
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 542,
+                "end": 570,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 542,
+                  "end": 552,
+                  "name": "expression"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 554,
+                  "end": 570,
+                  "value": "\\p{RGI_Emoji}"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 574,
+                "end": 7029,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 574,
+                  "end": 586,
+                  "name": "matchStrings"
+                },
+                "value": {
+                  "type": "ArrayExpression",
+                  "start": 588,
+                  "end": 7029,
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "start": 594,
+                      "end": 623,
+                      "value": "⛓️‍💥"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 629,
+                      "end": 655,
+                      "value": "🍄‍🟫"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 661,
+                      "end": 687,
+                      "value": "🍋‍🟩"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 693,
+                      "end": 740,
+                      "value": "🏃‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 746,
+                      "end": 793,
+                      "value": "🏃‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 799,
+                      "end": 828,
+                      "value": "🏃‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 834,
+                      "end": 890,
+                      "value": "🏃🏻‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 896,
+                      "end": 952,
+                      "value": "🏃🏻‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 958,
+                      "end": 996,
+                      "value": "🏃🏻‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1002,
+                      "end": 1058,
+                      "value": "🏃🏼‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1064,
+                      "end": 1120,
+                      "value": "🏃🏼‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1126,
+                      "end": 1164,
+                      "value": "🏃🏼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1170,
+                      "end": 1226,
+                      "value": "🏃🏽‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1232,
+                      "end": 1288,
+                      "value": "🏃🏽‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1294,
+                      "end": 1332,
+                      "value": "🏃🏽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1338,
+                      "end": 1394,
+                      "value": "🏃🏾‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1400,
+                      "end": 1456,
+                      "value": "🏃🏾‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1462,
+                      "end": 1500,
+                      "value": "🏃🏾‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1506,
+                      "end": 1562,
+                      "value": "🏃🏿‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1568,
+                      "end": 1624,
+                      "value": "🏃🏿‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1630,
+                      "end": 1668,
+                      "value": "🏃🏿‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1674,
+                      "end": 1700,
+                      "value": "🐦‍🔥"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1706,
+                      "end": 1750,
+                      "value": "👨‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1756,
+                      "end": 1800,
+                      "value": "👨‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1806,
+                      "end": 1850,
+                      "value": "👨‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1856,
+                      "end": 1909,
+                      "value": "👨🏻‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1915,
+                      "end": 1968,
+                      "value": "👨🏻‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1974,
+                      "end": 2027,
+                      "value": "👨🏻‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2033,
+                      "end": 2086,
+                      "value": "👨🏼‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2092,
+                      "end": 2145,
+                      "value": "👨🏼‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2151,
+                      "end": 2204,
+                      "value": "👨🏼‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2210,
+                      "end": 2263,
+                      "value": "👨🏽‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2269,
+                      "end": 2322,
+                      "value": "👨🏽‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2328,
+                      "end": 2381,
+                      "value": "👨🏽‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2387,
+                      "end": 2440,
+                      "value": "👨🏾‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2446,
+                      "end": 2499,
+                      "value": "👨🏾‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2505,
+                      "end": 2558,
+                      "value": "👨🏾‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2564,
+                      "end": 2617,
+                      "value": "👨🏿‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2623,
+                      "end": 2676,
+                      "value": "👨🏿‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2682,
+                      "end": 2735,
+                      "value": "👨🏿‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2741,
+                      "end": 2785,
+                      "value": "👩‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2791,
+                      "end": 2835,
+                      "value": "👩‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2841,
+                      "end": 2885,
+                      "value": "👩‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2891,
+                      "end": 2944,
+                      "value": "👩🏻‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 2950,
+                      "end": 3003,
+                      "value": "👩🏻‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3009,
+                      "end": 3062,
+                      "value": "👩🏻‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3068,
+                      "end": 3121,
+                      "value": "👩🏼‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3127,
+                      "end": 3180,
+                      "value": "👩🏼‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3186,
+                      "end": 3239,
+                      "value": "👩🏼‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3245,
+                      "end": 3298,
+                      "value": "👩🏽‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3304,
+                      "end": 3357,
+                      "value": "👩🏽‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3363,
+                      "end": 3416,
+                      "value": "👩🏽‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3422,
+                      "end": 3475,
+                      "value": "👩🏾‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3481,
+                      "end": 3534,
+                      "value": "👩🏾‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3540,
+                      "end": 3593,
+                      "value": "👩🏾‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3599,
+                      "end": 3652,
+                      "value": "👩🏿‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3658,
+                      "end": 3711,
+                      "value": "👩🏿‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3717,
+                      "end": 3770,
+                      "value": "👩🏿‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3776,
+                      "end": 3805,
+                      "value": "🙂‍↔️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3811,
+                      "end": 3840,
+                      "value": "🙂‍↕️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3846,
+                      "end": 3893,
+                      "value": "🚶‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3899,
+                      "end": 3946,
+                      "value": "🚶‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3952,
+                      "end": 3981,
+                      "value": "🚶‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 3987,
+                      "end": 4043,
+                      "value": "🚶🏻‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4049,
+                      "end": 4105,
+                      "value": "🚶🏻‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4111,
+                      "end": 4149,
+                      "value": "🚶🏻‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4155,
+                      "end": 4211,
+                      "value": "🚶🏼‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4217,
+                      "end": 4273,
+                      "value": "🚶🏼‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4279,
+                      "end": 4317,
+                      "value": "🚶🏼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4323,
+                      "end": 4379,
+                      "value": "🚶🏽‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4385,
+                      "end": 4441,
+                      "value": "🚶🏽‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4447,
+                      "end": 4485,
+                      "value": "🚶🏽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4491,
+                      "end": 4547,
+                      "value": "🚶🏾‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4553,
+                      "end": 4609,
+                      "value": "🚶🏾‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4615,
+                      "end": 4653,
+                      "value": "🚶🏾‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4659,
+                      "end": 4715,
+                      "value": "🚶🏿‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4721,
+                      "end": 4777,
+                      "value": "🚶🏿‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4783,
+                      "end": 4821,
+                      "value": "🚶🏿‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4827,
+                      "end": 4874,
+                      "value": "🧎‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4880,
+                      "end": 4927,
+                      "value": "🧎‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4933,
+                      "end": 4962,
+                      "value": "🧎‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 4968,
+                      "end": 5024,
+                      "value": "🧎🏻‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5030,
+                      "end": 5086,
+                      "value": "🧎🏻‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5092,
+                      "end": 5130,
+                      "value": "🧎🏻‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5136,
+                      "end": 5192,
+                      "value": "🧎🏼‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5198,
+                      "end": 5254,
+                      "value": "🧎🏼‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5260,
+                      "end": 5298,
+                      "value": "🧎🏼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5304,
+                      "end": 5360,
+                      "value": "🧎🏽‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5366,
+                      "end": 5422,
+                      "value": "🧎🏽‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5428,
+                      "end": 5466,
+                      "value": "🧎🏽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5472,
+                      "end": 5528,
+                      "value": "🧎🏾‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5534,
+                      "end": 5590,
+                      "value": "🧎🏾‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5596,
+                      "end": 5634,
+                      "value": "🧎🏾‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5640,
+                      "end": 5696,
+                      "value": "🧎🏿‍♀️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5702,
+                      "end": 5758,
+                      "value": "🧎🏿‍♂️‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5764,
+                      "end": 5802,
+                      "value": "🧎🏿‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5808,
+                      "end": 5852,
+                      "value": "🧑‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5858,
+                      "end": 5902,
+                      "value": "🧑‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5908,
+                      "end": 5952,
+                      "value": "🧑‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 5958,
+                      "end": 5999,
+                      "value": "🧑‍🧑‍🧒"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6005,
+                      "end": 6061,
+                      "value": "🧑‍🧑‍🧒‍🧒"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6067,
+                      "end": 6093,
+                      "value": "🧑‍🧒"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6099,
+                      "end": 6140,
+                      "value": "🧑‍🧒‍🧒"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6146,
+                      "end": 6199,
+                      "value": "🧑🏻‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6205,
+                      "end": 6258,
+                      "value": "🧑🏻‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6264,
+                      "end": 6317,
+                      "value": "🧑🏻‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6323,
+                      "end": 6376,
+                      "value": "🧑🏼‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6382,
+                      "end": 6435,
+                      "value": "🧑🏼‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6441,
+                      "end": 6494,
+                      "value": "🧑🏼‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6500,
+                      "end": 6553,
+                      "value": "🧑🏽‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6559,
+                      "end": 6612,
+                      "value": "🧑🏽‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6618,
+                      "end": 6671,
+                      "value": "🧑🏽‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6677,
+                      "end": 6730,
+                      "value": "🧑🏾‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6736,
+                      "end": 6789,
+                      "value": "🧑🏾‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6795,
+                      "end": 6848,
+                      "value": "🧑🏾‍🦽‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6854,
+                      "end": 6907,
+                      "value": "🧑🏿‍🦯‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6913,
+                      "end": 6966,
+                      "value": "🧑🏿‍🦼‍➡️"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 6972,
+                      "end": 7025,
+                      "value": "🧑🏿‍🦽‍➡️"
+                    }
+                  ]
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

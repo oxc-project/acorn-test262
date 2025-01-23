@@ -25,7 +25,8 @@
         "start": 789,
         "end": 827,
         "value": "./own-property-keys-binding-types.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -129,7 +130,8 @@
         "start": 933,
         "end": 971,
         "value": "./own-property-keys-binding-types.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -141,7 +143,8 @@
         "start": 987,
         "end": 1033,
         "value": "./own-property-keys-binding-types_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
@@ -1883,7 +1886,8 @@
         "start": 2706,
         "end": 2744,
         "value": "./own-property-keys-binding-types.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

@@ -1,0 +1,518 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 988,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 302,
+      "end": 357,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 308,
+          "end": 356,
+          "id": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 316,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 319,
+            "end": 356,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 323,
+              "end": 345,
+              "object": {
+                "type": "Identifier",
+                "start": 323,
+                "end": 331,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 332,
+                "end": 345,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 346,
+                "end": 348,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 350,
+                "end": 355,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 359,
+      "end": 419,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 365,
+          "end": 418,
+          "id": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 378,
+            "name": "offsetOptions"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 381,
+            "end": 418,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 382,
+                "end": 387,
+                "value": "use"
+              },
+              {
+                "type": "Literal",
+                "start": 389,
+                "end": 397,
+                "value": "prefer"
+              },
+              {
+                "type": "Literal",
+                "start": 399,
+                "end": 407,
+                "value": "ignore"
+              },
+              {
+                "type": "Literal",
+                "start": 409,
+                "end": 417,
+                "value": "reject"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 421,
+      "end": 663,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 427,
+          "end": 662,
+          "id": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 437,
+            "name": "badOffsets"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 440,
+            "end": 662,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 444,
+                "end": 451,
+                "value": "00:00"
+              },
+              {
+                "type": "Literal",
+                "start": 474,
+                "end": 478,
+                "value": "+0"
+              },
+              {
+                "type": "Literal",
+                "start": 501,
+                "end": 510,
+                "value": "-000:00"
+              },
+              {
+                "type": "Literal",
+                "start": 527,
+                "end": 528,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 561,
+                "end": 565,
+                "value": null
+              },
+              {
+                "type": "Literal",
+                "start": 595,
+                "end": 599,
+                "value": true
+              },
+              {
+                "type": "Literal",
+                "start": 629,
+                "end": 634,
+                "value": "1000n"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 664,
+      "end": 987,
+      "expression": {
+        "type": "CallExpression",
+        "start": 664,
+        "end": 986,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 664,
+          "end": 685,
+          "object": {
+            "type": "Identifier",
+            "start": 664,
+            "end": 677,
+            "name": "offsetOptions"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 678,
+            "end": 685,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 686,
+            "end": 985,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 687,
+                "end": 699,
+                "name": "offsetOption"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 704,
+              "end": 985,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 708,
+                  "end": 983,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 708,
+                    "end": 982,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 708,
+                      "end": 726,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 708,
+                        "end": 718,
+                        "name": "badOffsets"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 719,
+                        "end": 726,
+                        "name": "forEach"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 727,
+                        "end": 981,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [
+                          {
+                            "type": "Identifier",
+                            "start": 728,
+                            "end": 734,
+                            "name": "offset"
+                          }
+                        ],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 739,
+                          "end": 981,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 745,
+                              "end": 977,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 745,
+                                "end": 976,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 745,
+                                  "end": 758,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 745,
+                                    "end": 751,
+                                    "name": "assert"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 752,
+                                    "end": 758,
+                                    "name": "throws"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "ConditionalExpression",
+                                    "start": 766,
+                                    "end": 818,
+                                    "test": {
+                                      "type": "BinaryExpression",
+                                      "start": 766,
+                                      "end": 793,
+                                      "left": {
+                                        "type": "UnaryExpression",
+                                        "start": 766,
+                                        "end": 780,
+                                        "operator": "typeof",
+                                        "prefix": true,
+                                        "argument": {
+                                          "type": "ParenthesizedExpression",
+                                          "start": 772,
+                                          "end": 780,
+                                          "expression": {
+                                            "type": "Identifier",
+                                            "start": 773,
+                                            "end": 779,
+                                            "name": "offset"
+                                          }
+                                        }
+                                      },
+                                      "operator": "===",
+                                      "right": {
+                                        "type": "Literal",
+                                        "start": 785,
+                                        "end": 793,
+                                        "value": "string"
+                                      }
+                                    },
+                                    "consequent": {
+                                      "type": "Identifier",
+                                      "start": 796,
+                                      "end": 806,
+                                      "name": "RangeError"
+                                    },
+                                    "alternate": {
+                                      "type": "Identifier",
+                                      "start": 809,
+                                      "end": 818,
+                                      "name": "TypeError"
+                                    }
+                                  },
+                                  {
+                                    "type": "ArrowFunctionExpression",
+                                    "start": 826,
+                                    "end": 883,
+                                    "id": null,
+                                    "expression": true,
+                                    "generator": false,
+                                    "async": false,
+                                    "params": [],
+                                    "body": {
+                                      "type": "CallExpression",
+                                      "start": 832,
+                                      "end": 883,
+                                      "callee": {
+                                        "type": "MemberExpression",
+                                        "start": 832,
+                                        "end": 845,
+                                        "object": {
+                                          "type": "Identifier",
+                                          "start": 832,
+                                          "end": 840,
+                                          "name": "instance"
+                                        },
+                                        "property": {
+                                          "type": "Identifier",
+                                          "start": 841,
+                                          "end": 845,
+                                          "name": "with"
+                                        },
+                                        "computed": false,
+                                        "optional": false
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "ObjectExpression",
+                                          "start": 846,
+                                          "end": 856,
+                                          "properties": [
+                                            {
+                                              "type": "Property",
+                                              "start": 848,
+                                              "end": 854,
+                                              "method": false,
+                                              "shorthand": true,
+                                              "computed": false,
+                                              "key": {
+                                                "type": "Identifier",
+                                                "start": 848,
+                                                "end": 854,
+                                                "name": "offset"
+                                              },
+                                              "kind": "init",
+                                              "value": {
+                                                "type": "Identifier",
+                                                "start": 848,
+                                                "end": 854,
+                                                "name": "offset"
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "ObjectExpression",
+                                          "start": 858,
+                                          "end": 882,
+                                          "properties": [
+                                            {
+                                              "type": "Property",
+                                              "start": 860,
+                                              "end": 880,
+                                              "method": false,
+                                              "shorthand": false,
+                                              "computed": false,
+                                              "key": {
+                                                "type": "Identifier",
+                                                "start": 860,
+                                                "end": 866,
+                                                "name": "offset"
+                                              },
+                                              "value": {
+                                                "type": "Identifier",
+                                                "start": 868,
+                                                "end": 880,
+                                                "name": "offsetOption"
+                                              },
+                                              "kind": "init"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  },
+                                  {
+                                    "type": "TemplateLiteral",
+                                    "start": 891,
+                                    "end": 969,
+                                    "expressions": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 895,
+                                        "end": 901,
+                                        "name": "offset"
+                                      },
+                                      {
+                                        "type": "Identifier",
+                                        "start": 940,
+                                        "end": 952,
+                                        "name": "offsetOption"
+                                      }
+                                    ],
+                                    "quasis": [
+                                      {
+                                        "type": "TemplateElement",
+                                        "start": 892,
+                                        "end": 893,
+                                        "value": {
+                                          "raw": "\"",
+                                          "cooked": "\""
+                                        },
+                                        "tail": false
+                                      },
+                                      {
+                                        "type": "TemplateElement",
+                                        "start": 902,
+                                        "end": 938,
+                                        "value": {
+                                          "raw": " is not a valid offset string (with ",
+                                          "cooked": " is not a valid offset string (with "
+                                        },
+                                        "tail": false
+                                      },
+                                      {
+                                        "type": "TemplateElement",
+                                        "start": 953,
+                                        "end": 968,
+                                        "value": {
+                                          "raw": " offset option)",
+                                          "cooked": " offset option)"
+                                        },
+                                        "tail": true
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

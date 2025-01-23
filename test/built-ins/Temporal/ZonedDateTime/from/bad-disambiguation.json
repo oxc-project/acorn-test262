@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 430,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 251,
+      "end": 429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 251,
+        "end": 428,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 251,
+          "end": 293,
+          "object": {
+            "type": "ArrayExpression",
+            "start": 251,
+            "end": 285,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 255,
+                "end": 257,
+                "value": ""
+              },
+              {
+                "type": "Literal",
+                "start": 261,
+                "end": 270,
+                "value": "EARLIER"
+              },
+              {
+                "type": "Literal",
+                "start": 274,
+                "end": 283,
+                "value": "balance"
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 293,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 294,
+            "end": 427,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 294,
+                "end": 308,
+                "name": "disambiguation"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 312,
+              "end": 427,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 316,
+                  "end": 425,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 316,
+                    "end": 424,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 316,
+                      "end": 329,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 316,
+                        "end": 322,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 323,
+                        "end": 329,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 330,
+                        "end": 340,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 342,
+                        "end": 423,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 348,
+                          "end": 423,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 348,
+                            "end": 375,
+                            "object": {
+                              "type": "MemberExpression",
+                              "start": 348,
+                              "end": 370,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 348,
+                                "end": 356,
+                                "name": "Temporal"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 357,
+                                "end": 370,
+                                "name": "ZonedDateTime"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 371,
+                              "end": 375,
+                              "name": "from"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 376,
+                              "end": 402,
+                              "value": "2020-11-01T04:00[-08:00]"
+                            },
+                            {
+                              "type": "ObjectExpression",
+                              "start": 404,
+                              "end": 422,
+                              "properties": [
+                                {
+                                  "type": "Property",
+                                  "start": 406,
+                                  "end": 420,
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 406,
+                                    "end": 420,
+                                    "name": "disambiguation"
+                                  },
+                                  "kind": "init",
+                                  "value": {
+                                    "type": "Identifier",
+                                    "start": 406,
+                                    "end": 420,
+                                    "name": "disambiguation"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

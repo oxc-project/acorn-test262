@@ -1,309 +1,164 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 896,
+  "end": 769,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 608,
-      "end": 696,
+      "end": 768,
       "expression": {
         "type": "CallExpression",
         "start": 608,
-        "end": 695,
+        "end": 767,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 608,
-          "end": 624,
-          "object": {
-            "type": "Identifier",
-            "start": 608,
-            "end": 614,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 615,
-            "end": 624,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 622,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 628,
-            "end": 669,
+            "start": 623,
+            "end": 659,
             "object": {
               "type": "MemberExpression",
-              "start": 628,
-              "end": 664,
-              "object": {
-                "type": "MemberExpression",
-                "start": 628,
-                "end": 644,
-                "object": {
-                  "type": "Identifier",
-                  "start": 628,
-                  "end": 634,
-                  "name": "Symbol"
-                },
-                "property": {
-                  "type": "Identifier",
-                  "start": 635,
-                  "end": 644,
-                  "name": "prototype"
-                },
-                "computed": false,
-                "optional": false
-              },
-              "property": {
-                "type": "MemberExpression",
-                "start": 645,
-                "end": 663,
-                "object": {
-                  "type": "Identifier",
-                  "start": 645,
-                  "end": 651,
-                  "name": "Symbol"
-                },
-                "property": {
-                  "type": "Identifier",
-                  "start": 652,
-                  "end": 663,
-                  "name": "toPrimitive"
-                },
-                "computed": false,
-                "optional": false
-              },
-              "computed": true,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 665,
-              "end": 669,
-              "name": "name"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 671,
-            "end": 693,
-            "value": "[Symbol.toPrimitive]"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 698,
-      "end": 764,
-      "expression": {
-        "type": "CallExpression",
-        "start": 698,
-        "end": 763,
-        "callee": {
-          "type": "Identifier",
-          "start": 698,
-          "end": 717,
-          "name": "verifyNotEnumerable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 718,
-            "end": 754,
-            "object": {
-              "type": "MemberExpression",
-              "start": 718,
-              "end": 734,
+              "start": 623,
+              "end": 639,
               "object": {
                 "type": "Identifier",
-                "start": 718,
-                "end": 724,
+                "start": 623,
+                "end": 629,
                 "name": "Symbol"
               },
               "property": {
                 "type": "Identifier",
+                "start": 630,
+                "end": 639,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 640,
+              "end": 658,
+              "object": {
+                "type": "Identifier",
+                "start": 640,
+                "end": 646,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 647,
+                "end": 658,
+                "name": "toPrimitive"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 661,
+            "end": 667,
+            "value": "name"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 669,
+            "end": 766,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 673,
+                "end": 702,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 673,
+                  "end": 678,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 680,
+                  "end": 702,
+                  "value": "[Symbol.toPrimitive]"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 706,
+                "end": 721,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 706,
+                  "end": 714,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 716,
+                  "end": 721,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
                 "start": 725,
-                "end": 734,
-                "name": "prototype"
+                "end": 742,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 725,
+                  "end": 735,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 737,
+                  "end": 742,
+                  "value": false
+                },
+                "kind": "init"
               },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "MemberExpression",
-              "start": 735,
-              "end": 753,
-              "object": {
-                "type": "Identifier",
-                "start": 735,
-                "end": 741,
-                "name": "Symbol"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 742,
-                "end": 753,
-                "name": "toPrimitive"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "computed": true,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 756,
-            "end": 762,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 765,
-      "end": 829,
-      "expression": {
-        "type": "CallExpression",
-        "start": 765,
-        "end": 828,
-        "callee": {
-          "type": "Identifier",
-          "start": 765,
-          "end": 782,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 783,
-            "end": 819,
-            "object": {
-              "type": "MemberExpression",
-              "start": 783,
-              "end": 799,
-              "object": {
-                "type": "Identifier",
-                "start": 783,
-                "end": 789,
-                "name": "Symbol"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 790,
-                "end": 799,
-                "name": "prototype"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "MemberExpression",
-              "start": 800,
-              "end": 818,
-              "object": {
-                "type": "Identifier",
-                "start": 800,
-                "end": 806,
-                "name": "Symbol"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 807,
-                "end": 818,
-                "name": "toPrimitive"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "computed": true,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 821,
-            "end": 827,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 830,
-      "end": 895,
-      "expression": {
-        "type": "CallExpression",
-        "start": 830,
-        "end": 894,
-        "callee": {
-          "type": "Identifier",
-          "start": 830,
-          "end": 848,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 849,
-            "end": 885,
-            "object": {
-              "type": "MemberExpression",
-              "start": 849,
-              "end": 865,
-              "object": {
-                "type": "Identifier",
-                "start": 849,
-                "end": 855,
-                "name": "Symbol"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 856,
-                "end": 865,
-                "name": "prototype"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "MemberExpression",
-              "start": 866,
-              "end": 884,
-              "object": {
-                "type": "Identifier",
-                "start": 866,
-                "end": 872,
-                "name": "Symbol"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 873,
-                "end": 884,
-                "name": "toPrimitive"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "computed": true,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 887,
-            "end": 893,
-            "value": "name"
+              {
+                "type": "Property",
+                "start": 746,
+                "end": 764,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 746,
+                  "end": 758,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 760,
+                  "end": 764,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

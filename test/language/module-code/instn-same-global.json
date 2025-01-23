@@ -13,7 +13,8 @@
         "start": 432,
         "end": 468,
         "value": "./instn-same-global-set_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

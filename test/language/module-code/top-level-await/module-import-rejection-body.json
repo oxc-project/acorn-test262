@@ -25,7 +25,8 @@
         "start": 2658,
         "end": 2701,
         "value": "./module-import-rejection-body_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ThrowStatement",

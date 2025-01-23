@@ -106,7 +106,8 @@
                       "start": 1114,
                       "end": 1147,
                       "value": "./eval-export-dflt-cls-named.js"
-                    }
+                    },
+                    "options": null
                   },
                   "property": {
                     "type": "Identifier",

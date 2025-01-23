@@ -1,0 +1,478 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2460,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1877,
+      "end": 1923,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1883,
+          "end": 1922,
+          "id": {
+            "type": "Identifier",
+            "start": 1883,
+            "end": 1893,
+            "name": "WhiteSpace"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1896,
+            "end": 1922,
+            "value": "﻿   "
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1925,
+      "end": 2032,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1925,
+        "end": 2031,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1925,
+          "end": 1941,
+          "object": {
+            "type": "Identifier",
+            "start": 1925,
+            "end": 1931,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1932,
+            "end": 1941,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1942,
+            "end": 1965,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1942,
+              "end": 1955,
+              "object": {
+                "type": "Identifier",
+                "start": 1942,
+                "end": 1948,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1949,
+                "end": 1955,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1956,
+                "end": 1964,
+                "value": "﻿"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1967,
+            "end": 1976,
+            "value": "\\ufeff"
+          },
+          {
+            "type": "TemplateLiteral",
+            "start": 1978,
+            "end": 2030,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 1979,
+                "end": 2029,
+                "value": {
+                  "raw": "whitespace \\\\uFEFF is escaped correctly to \\\\uFEFF",
+                  "cooked": "whitespace \\uFEFF is escaped correctly to \\uFEFF"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2033,
+      "end": 2136,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2033,
+        "end": 2135,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2033,
+          "end": 2049,
+          "object": {
+            "type": "Identifier",
+            "start": 2033,
+            "end": 2039,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2040,
+            "end": 2049,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2050,
+            "end": 2073,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2050,
+              "end": 2063,
+              "object": {
+                "type": "Identifier",
+                "start": 2050,
+                "end": 2056,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2057,
+                "end": 2063,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2064,
+                "end": 2072,
+                "value": " "
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2075,
+            "end": 2082,
+            "value": "\\x20"
+          },
+          {
+            "type": "TemplateLiteral",
+            "start": 2084,
+            "end": 2134,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 2085,
+                "end": 2133,
+                "value": {
+                  "raw": "whitespace \\\\u0020 is escaped correctly to \\\\x20",
+                  "cooked": "whitespace \\u0020 is escaped correctly to \\x20"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2137,
+      "end": 2240,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2137,
+        "end": 2239,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2137,
+          "end": 2153,
+          "object": {
+            "type": "Identifier",
+            "start": 2137,
+            "end": 2143,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2144,
+            "end": 2153,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2154,
+            "end": 2177,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2154,
+              "end": 2167,
+              "object": {
+                "type": "Identifier",
+                "start": 2154,
+                "end": 2160,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2161,
+                "end": 2167,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2168,
+                "end": 2176,
+                "value": " "
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2179,
+            "end": 2186,
+            "value": "\\xa0"
+          },
+          {
+            "type": "TemplateLiteral",
+            "start": 2188,
+            "end": 2238,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 2189,
+                "end": 2237,
+                "value": {
+                  "raw": "whitespace \\\\u00A0 is escaped correctly to \\\\xA0",
+                  "cooked": "whitespace \\u00A0 is escaped correctly to \\xA0"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2241,
+      "end": 2348,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2241,
+        "end": 2347,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2241,
+          "end": 2257,
+          "object": {
+            "type": "Identifier",
+            "start": 2241,
+            "end": 2247,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2248,
+            "end": 2257,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2258,
+            "end": 2281,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2258,
+              "end": 2271,
+              "object": {
+                "type": "Identifier",
+                "start": 2258,
+                "end": 2264,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2265,
+                "end": 2271,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2272,
+                "end": 2280,
+                "value": " "
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2283,
+            "end": 2292,
+            "value": "\\u202f"
+          },
+          {
+            "type": "TemplateLiteral",
+            "start": 2294,
+            "end": 2346,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 2295,
+                "end": 2345,
+                "value": {
+                  "raw": "whitespace \\\\u202F is escaped correctly to \\\\u202F",
+                  "cooked": "whitespace \\u202F is escaped correctly to \\u202F"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2350,
+      "end": 2459,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2350,
+        "end": 2458,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2350,
+          "end": 2366,
+          "object": {
+            "type": "Identifier",
+            "start": 2350,
+            "end": 2356,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2357,
+            "end": 2366,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2367,
+            "end": 2392,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2367,
+              "end": 2380,
+              "object": {
+                "type": "Identifier",
+                "start": 2367,
+                "end": 2373,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2374,
+                "end": 2380,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2381,
+                "end": 2391,
+                "name": "WhiteSpace"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2394,
+            "end": 2420,
+            "value": "\\ufeff\\x20\\xa0\\u202f"
+          },
+          {
+            "type": "TemplateLiteral",
+            "start": 2422,
+            "end": 2457,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 2423,
+                "end": 2456,
+                "value": {
+                  "raw": "whitespaces are escaped correctly",
+                  "cooked": "whitespaces are escaped correctly"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

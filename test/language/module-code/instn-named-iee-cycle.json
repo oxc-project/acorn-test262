@@ -31,7 +31,8 @@
         "start": 2032,
         "end": 2070,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -62,7 +63,8 @@
         "start": 2095,
         "end": 2133,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -93,7 +95,8 @@
         "start": 2158,
         "end": 2196,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -124,7 +127,8 @@
         "start": 2221,
         "end": 2259,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -155,7 +159,8 @@
         "start": 2284,
         "end": 2322,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -186,7 +191,8 @@
         "start": 2347,
         "end": 2385,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -217,7 +223,8 @@
         "start": 2410,
         "end": 2448,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -248,7 +255,8 @@
         "start": 2473,
         "end": 2511,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -279,7 +287,8 @@
         "start": 2536,
         "end": 2574,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -310,7 +319,8 @@
         "start": 2599,
         "end": 2637,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -341,7 +351,8 @@
         "start": 2662,
         "end": 2700,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -372,7 +383,8 @@
         "start": 2725,
         "end": 2763,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -403,7 +415,8 @@
         "start": 2788,
         "end": 2826,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

@@ -108,7 +108,8 @@
                   "start": 1847,
                   "end": 1850,
                   "name": "obj"
-                }
+                },
+                "options": null
               }
             }
           }

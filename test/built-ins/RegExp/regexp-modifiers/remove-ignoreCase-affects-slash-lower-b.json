@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2847,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 2691,
+      "end": 2714,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2695,
+          "end": 2713,
+          "id": {
+            "type": "Identifier",
+            "start": 2695,
+            "end": 2698,
+            "name": "re1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2701,
+            "end": 2713,
+            "value": null,
+            "regex": {
+              "pattern": "(?-i:\\b)",
+              "flags": "ui"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2715,
+      "end": 2780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2715,
+        "end": 2779,
+        "callee": {
+          "type": "Identifier",
+          "start": 2715,
+          "end": 2721,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 2722,
+            "end": 2741,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 2723,
+              "end": 2741,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2723,
+                "end": 2731,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2723,
+                  "end": 2726,
+                  "name": "re1"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2727,
+                  "end": 2731,
+                  "name": "test"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2732,
+                  "end": 2740,
+                  "value": "ſ"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2743,
+            "end": 2778,
+            "value": "\\b should not match after ſ"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2781,
+      "end": 2846,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2781,
+        "end": 2845,
+        "callee": {
+          "type": "Identifier",
+          "start": 2781,
+          "end": 2787,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 2788,
+            "end": 2807,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 2789,
+              "end": 2807,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2789,
+                "end": 2797,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2789,
+                  "end": 2792,
+                  "name": "re1"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2793,
+                  "end": 2797,
+                  "name": "test"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2798,
+                  "end": 2806,
+                  "value": "K"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2809,
+            "end": 2844,
+            "value": "\\b should not match after K"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

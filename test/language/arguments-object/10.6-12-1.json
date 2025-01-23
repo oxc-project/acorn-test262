@@ -1,12 +1,12 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 313,
+  "end": 312,
   "body": [
     {
       "type": "FunctionDeclaration",
       "start": 254,
-      "end": 300,
+      "end": 299,
       "id": {
         "type": "Identifier",
         "start": 263,
@@ -20,7 +20,7 @@
       "body": {
         "type": "BlockStatement",
         "start": 274,
-        "end": 300,
+        "end": 299,
         "body": [
           {
             "type": "ExpressionStatement",
@@ -51,16 +51,16 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 301,
-      "end": 312,
+      "start": 300,
+      "end": 311,
       "expression": {
         "type": "CallExpression",
-        "start": 301,
-        "end": 311,
+        "start": 300,
+        "end": 310,
         "callee": {
           "type": "Identifier",
-          "start": 301,
-          "end": 309,
+          "start": 300,
+          "end": 308,
           "name": "testcase"
         },
         "arguments": [],

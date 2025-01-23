@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 329,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 267,
+      "end": 328,
+      "expression": {
+        "type": "CallExpression",
+        "start": 267,
+        "end": 327,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 267,
+          "end": 283,
+          "object": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 273,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 283,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 284,
+            "end": 314,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 291,
+              "end": 314,
+              "object": {
+                "type": "MemberExpression",
+                "start": 291,
+                "end": 309,
+                "object": {
+                  "type": "Identifier",
+                  "start": 291,
+                  "end": 299,
+                  "name": "Iterator"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 300,
+                  "end": 309,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 310,
+                "end": 314,
+                "name": "find"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 316,
+            "end": 326,
+            "value": "function"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

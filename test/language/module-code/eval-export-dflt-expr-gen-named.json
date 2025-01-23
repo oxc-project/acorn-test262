@@ -68,7 +68,8 @@
         "start": 1042,
         "end": 1080,
         "value": "./eval-export-dflt-expr-gen-named.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

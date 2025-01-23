@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 496,
+  "end": 552,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -88,53 +88,53 @@
     {
       "type": "ExpressionStatement",
       "start": 427,
-      "end": 495,
+      "end": 551,
       "expression": {
         "type": "CallExpression",
         "start": 427,
-        "end": 494,
+        "end": 550,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 427,
-          "end": 443,
-          "object": {
-            "type": "Identifier",
-            "start": 427,
-            "end": 433,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 434,
-            "end": 443,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 433,
+          "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 444,
-            "end": 487,
+            "start": 437,
+            "end": 490,
             "callee": {
               "type": "MemberExpression",
-              "start": 444,
-              "end": 470,
+              "start": 437,
+              "end": 473,
               "object": {
                 "type": "MemberExpression",
-                "start": 444,
-                "end": 465,
+                "start": 437,
+                "end": 468,
                 "object": {
-                  "type": "Identifier",
-                  "start": 444,
-                  "end": 450,
-                  "name": "Object"
+                  "type": "MemberExpression",
+                  "start": 437,
+                  "end": 453,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 437,
+                    "end": 443,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 444,
+                    "end": 453,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 451,
-                  "end": 465,
+                  "start": 454,
+                  "end": 468,
                   "name": "hasOwnProperty"
                 },
                 "computed": false,
@@ -142,8 +142,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 466,
-                "end": 470,
+                "start": 469,
+                "end": 473,
                 "name": "call"
               },
               "computed": false,
@@ -152,14 +152,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 471,
-                "end": 474,
+                "start": 474,
+                "end": 477,
                 "name": "obj"
               },
               {
                 "type": "Literal",
-                "start": 476,
-                "end": 486,
+                "start": 479,
+                "end": 489,
                 "value": "propName"
               }
             ],
@@ -167,9 +167,9 @@
           },
           {
             "type": "Literal",
-            "start": 489,
-            "end": 493,
-            "value": true
+            "start": 494,
+            "end": 548,
+            "value": "The property name is taken from the 'yield' variable"
           }
         ],
         "optional": false

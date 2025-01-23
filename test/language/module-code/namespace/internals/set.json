@@ -25,7 +25,8 @@
         "start": 393,
         "end": 403,
         "value": "./set.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -139,7 +140,8 @@
         "start": 515,
         "end": 525,
         "value": "./set.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

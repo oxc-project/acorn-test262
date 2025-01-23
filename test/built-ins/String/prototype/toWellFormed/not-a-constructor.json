@@ -1,0 +1,196 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 942,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 714,
+      "end": 858,
+      "expression": {
+        "type": "CallExpression",
+        "start": 714,
+        "end": 857,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 714,
+          "end": 730,
+          "object": {
+            "type": "Identifier",
+            "start": 714,
+            "end": 720,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 721,
+            "end": 730,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 734,
+            "end": 778,
+            "callee": {
+              "type": "Identifier",
+              "start": 734,
+              "end": 747,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 748,
+                "end": 777,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 748,
+                  "end": 764,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 748,
+                    "end": 754,
+                    "name": "String"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 755,
+                    "end": 764,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 765,
+                  "end": 777,
+                  "name": "toWellFormed"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 782,
+            "end": 787,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 791,
+            "end": 855,
+            "value": "isConstructor(String.prototype.toWellFormed) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 860,
+      "end": 941,
+      "expression": {
+        "type": "CallExpression",
+        "start": 860,
+        "end": 940,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 860,
+          "end": 873,
+          "object": {
+            "type": "Identifier",
+            "start": 860,
+            "end": 866,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 867,
+            "end": 873,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 874,
+            "end": 883,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 885,
+            "end": 939,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 897,
+              "end": 939,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 901,
+                  "end": 937,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 901,
+                    "end": 936,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 905,
+                      "end": 934,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 905,
+                        "end": 921,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 905,
+                          "end": 911,
+                          "name": "String"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 912,
+                          "end": 921,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 922,
+                        "end": 934,
+                        "name": "toWellFormed"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -105,7 +105,8 @@
                             "start": 1079,
                             "end": 1115,
                             "value": "./dynamic-import-module_FIXTURE.js"
-                          }
+                          },
+                          "options": null
                         },
                         "property": {
                           "type": "Identifier",

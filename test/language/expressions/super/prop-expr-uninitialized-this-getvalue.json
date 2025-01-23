@@ -1,0 +1,226 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 733,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 516,
+      "end": 600,
+      "id": {
+        "type": "Identifier",
+        "start": 522,
+        "end": 526,
+        "name": "Base"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 527,
+        "end": 600,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 531,
+            "end": 598,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 531,
+              "end": 542,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 542,
+              "end": 598,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 545,
+                "end": 598,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 551,
+                    "end": 594,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 557,
+                      "end": 593,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 561,
+                        "end": 573,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 574,
+                          "end": 592,
+                          "value": "base constructor"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 602,
+      "end": 681,
+      "id": {
+        "type": "Identifier",
+        "start": 608,
+        "end": 615,
+        "name": "Derived"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 624,
+        "end": 628,
+        "name": "Base"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 629,
+        "end": 681,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 633,
+            "end": 679,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 633,
+              "end": 644,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 644,
+              "end": 679,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 647,
+                "end": 679,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 653,
+                    "end": 675,
+                    "argument": {
+                      "type": "MemberExpression",
+                      "start": 660,
+                      "end": 674,
+                      "object": {
+                        "type": "Super",
+                        "start": 660,
+                        "end": 665
+                      },
+                      "property": {
+                        "type": "CallExpression",
+                        "start": 666,
+                        "end": 673,
+                        "callee": {
+                          "type": "Super",
+                          "start": 666,
+                          "end": 671
+                        },
+                        "arguments": [],
+                        "optional": false
+                      },
+                      "computed": true,
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 683,
+      "end": 732,
+      "expression": {
+        "type": "CallExpression",
+        "start": 683,
+        "end": 731,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 683,
+          "end": 696,
+          "object": {
+            "type": "Identifier",
+            "start": 683,
+            "end": 689,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 690,
+            "end": 696,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 697,
+            "end": 711,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 713,
+            "end": 730,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "NewExpression",
+              "start": 719,
+              "end": 730,
+              "callee": {
+                "type": "Identifier",
+                "start": 723,
+                "end": 730,
+                "name": "Derived"
+              },
+              "arguments": []
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

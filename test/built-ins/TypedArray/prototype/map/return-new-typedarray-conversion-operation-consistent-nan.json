@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2989,
+  "end": 2983,
   "body": [
     {
       "type": "FunctionDeclaration",
@@ -367,11 +367,11 @@
     {
       "type": "ExpressionStatement",
       "start": 2921,
-      "end": 2988,
+      "end": 2982,
       "expression": {
         "type": "CallExpression",
         "start": 2921,
-        "end": 2987,
+        "end": 2981,
         "callee": {
           "type": "Identifier",
           "start": 2921,
@@ -386,23 +386,10 @@
             "name": "body"
           },
           {
-            "type": "ArrayExpression",
+            "type": "Identifier",
             "start": 2958,
-            "end": 2986,
-            "elements": [
-              {
-                "type": "Identifier",
-                "start": 2959,
-                "end": 2971,
-                "name": "Float32Array"
-              },
-              {
-                "type": "Identifier",
-                "start": 2973,
-                "end": 2985,
-                "name": "Float64Array"
-              }
-            ]
+            "end": 2980,
+            "name": "floatArrayConstructors"
           }
         ],
         "optional": false

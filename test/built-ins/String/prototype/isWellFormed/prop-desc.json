@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 649,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 388,
+      "end": 532,
+      "expression": {
+        "type": "CallExpression",
+        "start": 388,
+        "end": 531,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 388,
+          "end": 404,
+          "object": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 394,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 395,
+            "end": 404,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 408,
+            "end": 444,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 415,
+              "end": 444,
+              "object": {
+                "type": "MemberExpression",
+                "start": 415,
+                "end": 431,
+                "object": {
+                  "type": "Identifier",
+                  "start": 415,
+                  "end": 421,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 422,
+                  "end": 431,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 432,
+                "end": 444,
+                "name": "isWellFormed"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 448,
+            "end": 458,
+            "value": "function"
+          },
+          {
+            "type": "Literal",
+            "start": 462,
+            "end": 529,
+            "value": "The value of `typeof String.prototype.isWellFormed` is \"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 534,
+      "end": 648,
+      "expression": {
+        "type": "CallExpression",
+        "start": 534,
+        "end": 647,
+        "callee": {
+          "type": "Identifier",
+          "start": 534,
+          "end": 548,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 549,
+            "end": 565,
+            "object": {
+              "type": "Identifier",
+              "start": 549,
+              "end": 555,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 556,
+              "end": 565,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 567,
+            "end": 581,
+            "value": "isWellFormed"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 583,
+            "end": 646,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 587,
+                "end": 604,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 587,
+                  "end": 597,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 599,
+                  "end": 604,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 608,
+                "end": 622,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 608,
+                  "end": 616,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 618,
+                  "end": 622,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 626,
+                "end": 644,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 626,
+                  "end": 638,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 640,
+                  "end": 644,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

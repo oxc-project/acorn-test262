@@ -1,0 +1,421 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 956,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 593,
+      "end": 693,
+      "id": {
+        "type": "Identifier",
+        "start": 609,
+        "end": 617,
+        "name": "asyncGen"
+      },
+      "expression": false,
+      "generator": true,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 620,
+        "end": 693,
+        "body": [
+          {
+            "type": "ForStatement",
+            "start": 624,
+            "end": 691,
+            "init": {
+              "type": "VariableDeclaration",
+              "start": 629,
+              "end": 638,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 633,
+                  "end": 638,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 633,
+                    "end": 634,
+                    "name": "i"
+                  },
+                  "init": {
+                    "type": "Literal",
+                    "start": 637,
+                    "end": 638,
+                    "value": 0
+                  }
+                }
+              ],
+              "kind": "let"
+            },
+            "test": {
+              "type": "BinaryExpression",
+              "start": 640,
+              "end": 645,
+              "left": {
+                "type": "Identifier",
+                "start": 640,
+                "end": 641,
+                "name": "i"
+              },
+              "operator": "<",
+              "right": {
+                "type": "Literal",
+                "start": 644,
+                "end": 645,
+                "value": 4
+              }
+            },
+            "update": {
+              "type": "UpdateExpression",
+              "start": 647,
+              "end": 650,
+              "operator": "++",
+              "prefix": false,
+              "argument": {
+                "type": "Identifier",
+                "start": 647,
+                "end": 648,
+                "name": "i"
+              }
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 652,
+              "end": 691,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 658,
+                  "end": 687,
+                  "expression": {
+                    "type": "YieldExpression",
+                    "start": 658,
+                    "end": 686,
+                    "delegate": false,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 664,
+                      "end": 686,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 664,
+                        "end": 679,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 664,
+                          "end": 671,
+                          "name": "Promise"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 672,
+                          "end": 679,
+                          "name": "resolve"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 680,
+                          "end": 685,
+                          "left": {
+                            "type": "Identifier",
+                            "start": 680,
+                            "end": 681,
+                            "name": "i"
+                          },
+                          "operator": "*",
+                          "right": {
+                            "type": "Literal",
+                            "start": 684,
+                            "end": 685,
+                            "value": 2
+                          }
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 695,
+      "end": 743,
+      "id": {
+        "type": "Identifier",
+        "start": 704,
+        "end": 711,
+        "name": "syncMap"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 712,
+          "end": 715,
+          "name": "val"
+        },
+        {
+          "type": "Identifier",
+          "start": 717,
+          "end": 719,
+          "name": "ix"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 721,
+        "end": 743,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 725,
+            "end": 741,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 732,
+              "end": 740,
+              "left": {
+                "type": "Identifier",
+                "start": 732,
+                "end": 735,
+                "name": "val"
+              },
+              "operator": "*",
+              "right": {
+                "type": "Identifier",
+                "start": 738,
+                "end": 740,
+                "name": "ix"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 745,
+      "end": 955,
+      "expression": {
+        "type": "CallExpression",
+        "start": 745,
+        "end": 954,
+        "callee": {
+          "type": "Identifier",
+          "start": 745,
+          "end": 754,
+          "name": "asyncTest"
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 755,
+            "end": 953,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 767,
+              "end": 953,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 771,
+                  "end": 855,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 777,
+                      "end": 854,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 777,
+                        "end": 783,
+                        "name": "result"
+                      },
+                      "init": {
+                        "type": "AwaitExpression",
+                        "start": 786,
+                        "end": 854,
+                        "argument": {
+                          "type": "CallExpression",
+                          "start": 792,
+                          "end": 854,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 792,
+                            "end": 807,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 792,
+                              "end": 797,
+                              "name": "Array"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 798,
+                              "end": 807,
+                              "name": "fromAsync"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "ObjectExpression",
+                              "start": 808,
+                              "end": 844,
+                              "properties": [
+                                {
+                                  "type": "Property",
+                                  "start": 810,
+                                  "end": 842,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": true,
+                                  "key": {
+                                    "type": "MemberExpression",
+                                    "start": 811,
+                                    "end": 831,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "start": 811,
+                                      "end": 817,
+                                      "name": "Symbol"
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "start": 818,
+                                      "end": 831,
+                                      "name": "asyncIterator"
+                                    },
+                                    "computed": false,
+                                    "optional": false
+                                  },
+                                  "value": {
+                                    "type": "Identifier",
+                                    "start": 834,
+                                    "end": 842,
+                                    "name": "asyncGen"
+                                  },
+                                  "kind": "init"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Identifier",
+                              "start": 846,
+                              "end": 853,
+                              "name": "syncMap"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 858,
+                  "end": 951,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 858,
+                    "end": 950,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 858,
+                      "end": 877,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 858,
+                        "end": 864,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 865,
+                        "end": 877,
+                        "name": "compareArray"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 878,
+                        "end": 884,
+                        "name": "result"
+                      },
+                      {
+                        "type": "ArrayExpression",
+                        "start": 886,
+                        "end": 899,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 887,
+                            "end": 888,
+                            "value": 0
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 890,
+                            "end": 891,
+                            "value": 2
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 893,
+                            "end": 894,
+                            "value": 8
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 896,
+                            "end": 898,
+                            "value": 18
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 901,
+                        "end": 949,
+                        "value": "sync mapfn should be applied to async iterable"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

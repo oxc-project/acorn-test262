@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 932,
+  "end": 885,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -83,11 +83,11 @@
     {
       "type": "ExpressionStatement",
       "start": 819,
-      "end": 930,
+      "end": 883,
       "expression": {
         "type": "CallExpression",
         "start": 819,
-        "end": 929,
+        "end": 882,
         "callee": {
           "type": "MemberExpression",
           "start": 819,
@@ -160,12 +160,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 883,
-            "end": 928,
-            "value": "`new ArrayBuffer.isView()` throws TypeError"
           }
         ],
         "optional": false

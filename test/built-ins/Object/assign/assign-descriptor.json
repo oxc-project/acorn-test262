@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 358,
+  "end": 347,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 247,
-      "end": 280,
+      "end": 346,
       "expression": {
         "type": "CallExpression",
         "start": 247,
-        "end": 279,
+        "end": 345,
         "callee": {
           "type": "Identifier",
           "start": 247,
           "end": 261,
-          "name": "verifyWritable"
+          "name": "verifyProperty"
         },
         "arguments": [
           {
@@ -29,68 +29,76 @@
             "start": 270,
             "end": 278,
             "value": "assign"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 281,
-      "end": 319,
-      "expression": {
-        "type": "CallExpression",
-        "start": 281,
-        "end": 318,
-        "callee": {
-          "type": "Identifier",
-          "start": 281,
-          "end": 300,
-          "name": "verifyNotEnumerable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 301,
-            "end": 307,
-            "name": "Object"
           },
           {
-            "type": "Literal",
-            "start": 309,
-            "end": 317,
-            "value": "assign"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 320,
-      "end": 357,
-      "expression": {
-        "type": "CallExpression",
-        "start": 320,
-        "end": 356,
-        "callee": {
-          "type": "Identifier",
-          "start": 320,
-          "end": 338,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 339,
-            "end": 345,
-            "name": "Object"
-          },
-          {
-            "type": "Literal",
-            "start": 347,
-            "end": 355,
-            "value": "assign"
+            "type": "ObjectExpression",
+            "start": 280,
+            "end": 344,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 284,
+                "end": 298,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 284,
+                  "end": 292,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 294,
+                  "end": 298,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 302,
+                "end": 319,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 302,
+                  "end": 312,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 314,
+                  "end": 319,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 323,
+                "end": 341,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 323,
+                  "end": 335,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 337,
+                  "end": 341,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

@@ -1,0 +1,216 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 589,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 360,
+      "end": 478,
+      "expression": {
+        "type": "CallExpression",
+        "start": 360,
+        "end": 477,
+        "callee": {
+          "type": "Identifier",
+          "start": 360,
+          "end": 366,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 367,
+            "end": 417,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 368,
+              "end": 417,
+              "callee": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 381,
+                "name": "isConstructor"
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 382,
+                  "end": 416,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 382,
+                    "end": 402,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 382,
+                      "end": 392,
+                      "name": "Uint8Array"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 393,
+                      "end": 402,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 403,
+                    "end": 416,
+                    "name": "setFromBase64"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 419,
+            "end": 476,
+            "value": "Uint8Array.prototype.setFromBase64 is not a constructor"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 480,
+      "end": 588,
+      "expression": {
+        "type": "CallExpression",
+        "start": 480,
+        "end": 587,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 480,
+          "end": 493,
+          "object": {
+            "type": "Identifier",
+            "start": 480,
+            "end": 486,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 487,
+            "end": 493,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 494,
+            "end": 503,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 505,
+            "end": 586,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 516,
+              "end": 586,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 520,
+                  "end": 552,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 524,
+                      "end": 551,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 524,
+                        "end": 530,
+                        "name": "target"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 533,
+                        "end": 551,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 537,
+                          "end": 547,
+                          "name": "Uint8Array"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 548,
+                            "end": 550,
+                            "value": 10
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 555,
+                  "end": 584,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 555,
+                    "end": 583,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 559,
+                      "end": 579,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 559,
+                        "end": 565,
+                        "name": "target"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 566,
+                        "end": 579,
+                        "name": "setFromBase64"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 580,
+                        "end": 582,
+                        "value": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 866,
+  "end": 1191,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -87,36 +87,36 @@
     {
       "type": "VariableDeclaration",
       "start": 720,
-      "end": 782,
+      "end": 780,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 726,
-          "end": 781,
+          "start": 724,
+          "end": 779,
           "id": {
             "type": "Identifier",
-            "start": 726,
-            "end": 732,
+            "start": 724,
+            "end": 730,
             "name": "string"
           },
           "init": {
             "type": "CallExpression",
-            "start": 735,
-            "end": 781,
+            "start": 733,
+            "end": 779,
             "callee": {
               "type": "MemberExpression",
-              "start": 735,
-              "end": 748,
+              "start": 733,
+              "end": 746,
               "object": {
                 "type": "Identifier",
-                "start": 735,
-                "end": 739,
+                "start": 733,
+                "end": 737,
                 "name": "time"
               },
               "property": {
                 "type": "Identifier",
-                "start": 740,
-                "end": 748,
+                "start": 738,
+                "end": 746,
                 "name": "toString"
               },
               "computed": false,
@@ -125,26 +125,26 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 749,
-                "end": 780,
+                "start": 747,
+                "end": 778,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 751,
-                    "end": 778,
+                    "start": 749,
+                    "end": 776,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 751,
-                      "end": 773,
+                      "start": 749,
+                      "end": 771,
                       "name": "fractionalSecondDigits"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 775,
-                      "end": 778,
+                      "start": 773,
+                      "end": 776,
                       "value": 2.5
                     },
                     "kind": "init"
@@ -156,30 +156,30 @@
           }
         }
       ],
-      "kind": "const"
+      "kind": "let"
     },
     {
       "type": "ExpressionStatement",
-      "start": 783,
-      "end": 865,
+      "start": 781,
+      "end": 863,
       "expression": {
         "type": "CallExpression",
-        "start": 783,
-        "end": 864,
+        "start": 781,
+        "end": 862,
         "callee": {
           "type": "MemberExpression",
-          "start": 783,
-          "end": 799,
+          "start": 781,
+          "end": 797,
           "object": {
             "type": "Identifier",
-            "start": 783,
-            "end": 789,
+            "start": 781,
+            "end": 787,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 790,
-            "end": 799,
+            "start": 788,
+            "end": 797,
             "name": "sameValue"
           },
           "computed": false,
@@ -188,21 +188,259 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 800,
-            "end": 806,
+            "start": 798,
+            "end": 804,
             "name": "string"
           },
           {
             "type": "Literal",
-            "start": 808,
-            "end": 821,
+            "start": 806,
+            "end": 819,
             "value": "12:34:56.98"
           },
           {
             "type": "Literal",
-            "start": 823,
-            "end": 863,
+            "start": 821,
+            "end": 861,
             "value": "fractionalSecondDigits 2.5 floors to 2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 865,
+      "end": 921,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 865,
+        "end": 920,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 865,
+          "end": 871,
+          "name": "string"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 874,
+          "end": 920,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 874,
+            "end": 887,
+            "object": {
+              "type": "Identifier",
+              "start": 874,
+              "end": 878,
+              "name": "time"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 879,
+              "end": 887,
+              "name": "toString"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "ObjectExpression",
+              "start": 888,
+              "end": 919,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 890,
+                  "end": 917,
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 890,
+                    "end": 912,
+                    "name": "fractionalSecondDigits"
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "start": 914,
+                    "end": 917,
+                    "value": 9.7
+                  },
+                  "kind": "init"
+                }
+              ]
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 922,
+      "end": 1035,
+      "expression": {
+        "type": "CallExpression",
+        "start": 922,
+        "end": 1034,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 922,
+          "end": 938,
+          "object": {
+            "type": "Identifier",
+            "start": 922,
+            "end": 928,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 929,
+            "end": 938,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 939,
+            "end": 945,
+            "name": "string"
+          },
+          {
+            "type": "Literal",
+            "start": 947,
+            "end": 967,
+            "value": "12:34:56.987650000"
+          },
+          {
+            "type": "Literal",
+            "start": 969,
+            "end": 1033,
+            "value": "fractionalSecondDigits 9.7 floors to 9 and is not out of range"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1037,
+      "end": 1190,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1037,
+        "end": 1189,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1037,
+          "end": 1050,
+          "object": {
+            "type": "Identifier",
+            "start": 1037,
+            "end": 1043,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1044,
+            "end": 1050,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1054,
+            "end": 1064,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 1068,
+            "end": 1121,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 1074,
+              "end": 1121,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1074,
+                "end": 1087,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1074,
+                  "end": 1078,
+                  "name": "time"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1079,
+                  "end": 1087,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 1088,
+                  "end": 1120,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 1090,
+                      "end": 1118,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1090,
+                        "end": 1112,
+                        "name": "fractionalSecondDigits"
+                      },
+                      "value": {
+                        "type": "UnaryExpression",
+                        "start": 1114,
+                        "end": 1118,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 1115,
+                          "end": 1118,
+                          "value": 0.6
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1125,
+            "end": 1187,
+            "value": "fractionalSecondDigits -0.6 floors to -1 and is out of range"
           }
         ],
         "optional": false

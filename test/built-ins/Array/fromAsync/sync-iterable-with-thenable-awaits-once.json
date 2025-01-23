@@ -1,0 +1,347 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 656,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 338,
+      "end": 655,
+      "expression": {
+        "type": "CallExpression",
+        "start": 338,
+        "end": 654,
+        "callee": {
+          "type": "Identifier",
+          "start": 338,
+          "end": 347,
+          "name": "asyncTest"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 348,
+            "end": 653,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 366,
+              "end": 653,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 370,
+                  "end": 395,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 376,
+                      "end": 394,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 376,
+                        "end": 389,
+                        "name": "expectedValue"
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "start": 392,
+                        "end": 394,
+                        "properties": []
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 398,
+                  "end": 419,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 402,
+                      "end": 418,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 402,
+                        "end": 414,
+                        "name": "awaitCounter"
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "start": 417,
+                        "end": 418,
+                        "value": 0
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 422,
+                  "end": 538,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 428,
+                      "end": 537,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 428,
+                        "end": 441,
+                        "name": "inputThenable"
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "start": 444,
+                        "end": 537,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 450,
+                            "end": 532,
+                            "method": true,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 450,
+                              "end": 454,
+                              "name": "then"
+                            },
+                            "kind": "init",
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 455,
+                              "end": 532,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [
+                                {
+                                  "type": "Identifier",
+                                  "start": 456,
+                                  "end": 463,
+                                  "name": "resolve"
+                                },
+                                {
+                                  "type": "Identifier",
+                                  "start": 465,
+                                  "end": 471,
+                                  "name": "reject"
+                                }
+                              ],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 473,
+                                "end": 532,
+                                "body": [
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "start": 481,
+                                    "end": 496,
+                                    "expression": {
+                                      "type": "UpdateExpression",
+                                      "start": 481,
+                                      "end": 495,
+                                      "operator": "++",
+                                      "prefix": false,
+                                      "argument": {
+                                        "type": "Identifier",
+                                        "start": 481,
+                                        "end": 493,
+                                        "name": "awaitCounter"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "start": 503,
+                                    "end": 526,
+                                    "expression": {
+                                      "type": "CallExpression",
+                                      "start": 503,
+                                      "end": 525,
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "start": 503,
+                                        "end": 510,
+                                        "name": "resolve"
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Identifier",
+                                          "start": 511,
+                                          "end": 524,
+                                          "name": "expectedValue"
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 541,
+                  "end": 582,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 547,
+                      "end": 581,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 547,
+                        "end": 552,
+                        "name": "input"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 555,
+                        "end": 581,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 555,
+                          "end": 579,
+                          "object": {
+                            "type": "ArrayExpression",
+                            "start": 555,
+                            "end": 572,
+                            "elements": [
+                              {
+                                "type": "Identifier",
+                                "start": 557,
+                                "end": 570,
+                                "name": "inputThenable"
+                              }
+                            ]
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 573,
+                            "end": 579,
+                            "name": "values"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 585,
+                  "end": 614,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 585,
+                    "end": 613,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 591,
+                      "end": 613,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 591,
+                        "end": 606,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 591,
+                          "end": 596,
+                          "name": "Array"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 597,
+                          "end": 606,
+                          "name": "fromAsync"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 607,
+                          "end": 612,
+                          "name": "input"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 617,
+                  "end": 651,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 617,
+                    "end": 650,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 617,
+                      "end": 633,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 617,
+                        "end": 623,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 624,
+                        "end": 633,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 634,
+                        "end": 646,
+                        "name": "awaitCounter"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 648,
+                        "end": 649,
+                        "value": 1
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

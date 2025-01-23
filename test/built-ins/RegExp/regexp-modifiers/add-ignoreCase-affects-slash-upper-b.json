@@ -1,0 +1,298 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3017,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 2689,
+      "end": 2711,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2693,
+          "end": 2710,
+          "id": {
+            "type": "Identifier",
+            "start": 2693,
+            "end": 2696,
+            "name": "re1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2699,
+            "end": 2710,
+            "value": null,
+            "regex": {
+              "pattern": "(?i:Z\\B)",
+              "flags": "u"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2712,
+      "end": 2781,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2712,
+        "end": 2780,
+        "callee": {
+          "type": "Identifier",
+          "start": 2712,
+          "end": 2718,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2719,
+            "end": 2738,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2719,
+              "end": 2727,
+              "object": {
+                "type": "Identifier",
+                "start": 2719,
+                "end": 2722,
+                "name": "re1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2723,
+                "end": 2727,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2728,
+                "end": 2737,
+                "value": "Zſ"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2740,
+            "end": 2779,
+            "value": "\\B should match between Z and ſ"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2782,
+      "end": 2851,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2782,
+        "end": 2850,
+        "callee": {
+          "type": "Identifier",
+          "start": 2782,
+          "end": 2788,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2789,
+            "end": 2808,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2789,
+              "end": 2797,
+              "object": {
+                "type": "Identifier",
+                "start": 2789,
+                "end": 2792,
+                "name": "re1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2793,
+                "end": 2797,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2798,
+                "end": 2807,
+                "value": "ZK"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2810,
+            "end": 2849,
+            "value": "\\B should match between Z and K"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2853,
+      "end": 2876,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2857,
+          "end": 2875,
+          "id": {
+            "type": "Identifier",
+            "start": 2857,
+            "end": 2860,
+            "name": "re2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2863,
+            "end": 2875,
+            "value": null,
+            "regex": {
+              "pattern": "(?i-:Z\\B)",
+              "flags": "u"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2877,
+      "end": 2946,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2877,
+        "end": 2945,
+        "callee": {
+          "type": "Identifier",
+          "start": 2877,
+          "end": 2883,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2884,
+            "end": 2903,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2884,
+              "end": 2892,
+              "object": {
+                "type": "Identifier",
+                "start": 2884,
+                "end": 2887,
+                "name": "re2"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2888,
+                "end": 2892,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2893,
+                "end": 2902,
+                "value": "Zſ"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2905,
+            "end": 2944,
+            "value": "\\B should match between Z and ſ"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2947,
+      "end": 3016,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2947,
+        "end": 3015,
+        "callee": {
+          "type": "Identifier",
+          "start": 2947,
+          "end": 2953,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2954,
+            "end": 2973,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2954,
+              "end": 2962,
+              "object": {
+                "type": "Identifier",
+                "start": 2954,
+                "end": 2957,
+                "name": "re2"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2958,
+                "end": 2962,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2963,
+                "end": 2972,
+                "value": "ZK"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2975,
+            "end": 3014,
+            "value": "\\B should match between Z and K"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

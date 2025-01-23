@@ -25,7 +25,8 @@
         "start": 2630,
         "end": 2669,
         "value": "./module-import-resolution_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -116,7 +117,8 @@
         "start": 2721,
         "end": 2760,
         "value": "./module-import-resolution_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

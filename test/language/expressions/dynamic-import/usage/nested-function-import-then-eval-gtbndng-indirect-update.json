@@ -59,7 +59,8 @@
                             "start": 1605,
                             "end": 1648,
                             "value": "./eval-gtbndng-indirect-update_FIXTURE.js"
-                          }
+                          },
+                          "options": null
                         },
                         "property": {
                           "type": "Identifier",

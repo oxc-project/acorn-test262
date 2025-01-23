@@ -1,0 +1,1227 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2502,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 701,
+      "end": 761,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 707,
+          "end": 760,
+          "id": {
+            "type": "Identifier",
+            "start": 707,
+            "end": 717,
+            "name": "codePoints"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 720,
+            "end": 760,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 720,
+              "end": 739,
+              "object": {
+                "type": "Identifier",
+                "start": 720,
+                "end": 726,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 727,
+                "end": 739,
+                "name": "fromCharCode"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 740,
+                "end": 745,
+                "value": 256
+              },
+              {
+                "type": "Literal",
+                "start": 747,
+                "end": 752,
+                "value": 512
+              },
+              {
+                "type": "Literal",
+                "start": 754,
+                "end": 759,
+                "value": 768
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 763,
+      "end": 859,
+      "expression": {
+        "type": "CallExpression",
+        "start": 763,
+        "end": 858,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 763,
+          "end": 779,
+          "object": {
+            "type": "Identifier",
+            "start": 763,
+            "end": 769,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 770,
+            "end": 779,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 780,
+            "end": 805,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 780,
+              "end": 793,
+              "object": {
+                "type": "Identifier",
+                "start": 780,
+                "end": 786,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 787,
+                "end": 793,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 794,
+                "end": 804,
+                "name": "codePoints"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 807,
+            "end": 817,
+            "name": "codePoints"
+          },
+          {
+            "type": "Literal",
+            "start": 819,
+            "end": 857,
+            "value": "characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 861,
+      "end": 961,
+      "expression": {
+        "type": "CallExpression",
+        "start": 861,
+        "end": 960,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 861,
+          "end": 877,
+          "object": {
+            "type": "Identifier",
+            "start": 861,
+            "end": 867,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 868,
+            "end": 877,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 878,
+            "end": 901,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 878,
+              "end": 891,
+              "object": {
+                "type": "Identifier",
+                "start": 878,
+                "end": 884,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 885,
+                "end": 891,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 892,
+                "end": 900,
+                "value": "你好"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 903,
+            "end": 911,
+            "value": "你好"
+          },
+          {
+            "type": "Literal",
+            "start": 913,
+            "end": 959,
+            "value": "Chinese characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 962,
+      "end": 1081,
+      "expression": {
+        "type": "CallExpression",
+        "start": 962,
+        "end": 1080,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 962,
+          "end": 978,
+          "object": {
+            "type": "Identifier",
+            "start": 962,
+            "end": 968,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 969,
+            "end": 978,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 979,
+            "end": 1011,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 979,
+              "end": 992,
+              "object": {
+                "type": "Identifier",
+                "start": 979,
+                "end": 985,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 986,
+                "end": 992,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 993,
+                "end": 1010,
+                "value": "こんにちは"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1013,
+            "end": 1030,
+            "value": "こんにちは"
+          },
+          {
+            "type": "Literal",
+            "start": 1032,
+            "end": 1079,
+            "value": "Japanese characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1082,
+      "end": 1199,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1082,
+        "end": 1198,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1082,
+          "end": 1098,
+          "object": {
+            "type": "Identifier",
+            "start": 1082,
+            "end": 1088,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1089,
+            "end": 1098,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1099,
+            "end": 1131,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1099,
+              "end": 1112,
+              "object": {
+                "type": "Identifier",
+                "start": 1099,
+                "end": 1105,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1106,
+                "end": 1112,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1113,
+                "end": 1130,
+                "value": "안녕하세요"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1133,
+            "end": 1150,
+            "value": "안녕하세요"
+          },
+          {
+            "type": "Literal",
+            "start": 1152,
+            "end": 1197,
+            "value": "Korean characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1200,
+      "end": 1313,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1200,
+        "end": 1312,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1200,
+          "end": 1216,
+          "object": {
+            "type": "Identifier",
+            "start": 1200,
+            "end": 1206,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1207,
+            "end": 1216,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1217,
+            "end": 1246,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1217,
+              "end": 1230,
+              "object": {
+                "type": "Identifier",
+                "start": 1217,
+                "end": 1223,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1224,
+                "end": 1230,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1231,
+                "end": 1245,
+                "value": "Привет"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1248,
+            "end": 1262,
+            "value": "Привет"
+          },
+          {
+            "type": "Literal",
+            "start": 1264,
+            "end": 1311,
+            "value": "Cyrillic characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1314,
+      "end": 1421,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1314,
+        "end": 1420,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1314,
+          "end": 1330,
+          "object": {
+            "type": "Identifier",
+            "start": 1314,
+            "end": 1320,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1321,
+            "end": 1330,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1331,
+            "end": 1358,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1331,
+              "end": 1344,
+              "object": {
+                "type": "Identifier",
+                "start": 1331,
+                "end": 1337,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1338,
+                "end": 1344,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1345,
+                "end": 1357,
+                "value": "مرحبا"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1360,
+            "end": 1372,
+            "value": "مرحبا"
+          },
+          {
+            "type": "Literal",
+            "start": 1374,
+            "end": 1419,
+            "value": "Arabic characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1422,
+      "end": 1537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1422,
+        "end": 1536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1422,
+          "end": 1438,
+          "object": {
+            "type": "Identifier",
+            "start": 1422,
+            "end": 1428,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1429,
+            "end": 1438,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1439,
+            "end": 1468,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1439,
+              "end": 1452,
+              "object": {
+                "type": "Identifier",
+                "start": 1439,
+                "end": 1445,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1446,
+                "end": 1452,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1453,
+                "end": 1467,
+                "value": "हेलो"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1470,
+            "end": 1484,
+            "value": "हेलो"
+          },
+          {
+            "type": "Literal",
+            "start": 1486,
+            "end": 1535,
+            "value": "Devanagari characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1538,
+      "end": 1658,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1538,
+        "end": 1657,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1538,
+          "end": 1554,
+          "object": {
+            "type": "Identifier",
+            "start": 1538,
+            "end": 1544,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1545,
+            "end": 1554,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1555,
+            "end": 1587,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1555,
+              "end": 1568,
+              "object": {
+                "type": "Identifier",
+                "start": 1555,
+                "end": 1561,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1562,
+                "end": 1568,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1569,
+                "end": 1586,
+                "value": "Γειά σου"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1589,
+            "end": 1610,
+            "value": "Γειά\\x20σου"
+          },
+          {
+            "type": "Literal",
+            "start": 1612,
+            "end": 1656,
+            "value": "Greek characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1659,
+      "end": 1762,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1659,
+        "end": 1761,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1659,
+          "end": 1675,
+          "object": {
+            "type": "Identifier",
+            "start": 1659,
+            "end": 1665,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1666,
+            "end": 1675,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1676,
+            "end": 1701,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1676,
+              "end": 1689,
+              "object": {
+                "type": "Identifier",
+                "start": 1676,
+                "end": 1682,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1683,
+                "end": 1689,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1690,
+                "end": 1700,
+                "value": "שלום"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1703,
+            "end": 1713,
+            "value": "שלום"
+          },
+          {
+            "type": "Literal",
+            "start": 1715,
+            "end": 1760,
+            "value": "Hebrew characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1763,
+      "end": 1884,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1763,
+        "end": 1883,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1763,
+          "end": 1779,
+          "object": {
+            "type": "Identifier",
+            "start": 1763,
+            "end": 1769,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1770,
+            "end": 1779,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1780,
+            "end": 1815,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1780,
+              "end": 1793,
+              "object": {
+                "type": "Identifier",
+                "start": 1780,
+                "end": 1786,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1787,
+                "end": 1793,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1794,
+                "end": 1814,
+                "value": "สวัสดี"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1817,
+            "end": 1837,
+            "value": "สวัสดี"
+          },
+          {
+            "type": "Literal",
+            "start": 1839,
+            "end": 1882,
+            "value": "Thai characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1885,
+      "end": 2007,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1885,
+        "end": 2006,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1885,
+          "end": 1901,
+          "object": {
+            "type": "Identifier",
+            "start": 1885,
+            "end": 1891,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1892,
+            "end": 1901,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1902,
+            "end": 1937,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1902,
+              "end": 1915,
+              "object": {
+                "type": "Identifier",
+                "start": 1902,
+                "end": 1908,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1909,
+                "end": 1915,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1916,
+                "end": 1936,
+                "value": "नमस्ते"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1939,
+            "end": 1959,
+            "value": "नमस्ते"
+          },
+          {
+            "type": "Literal",
+            "start": 1961,
+            "end": 2005,
+            "value": "Hindi characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2008,
+      "end": 2114,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2008,
+        "end": 2113,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2008,
+          "end": 2024,
+          "object": {
+            "type": "Identifier",
+            "start": 2008,
+            "end": 2014,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2015,
+            "end": 2024,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2025,
+            "end": 2051,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2025,
+              "end": 2038,
+              "object": {
+                "type": "Identifier",
+                "start": 2025,
+                "end": 2031,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2032,
+                "end": 2038,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2039,
+                "end": 2050,
+                "value": "ሰላም"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2053,
+            "end": 2064,
+            "value": "ሰላም"
+          },
+          {
+            "type": "Literal",
+            "start": 2066,
+            "end": 2112,
+            "value": "Amharic characters are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2115,
+      "end": 2241,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2115,
+        "end": 2240,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2115,
+          "end": 2131,
+          "object": {
+            "type": "Identifier",
+            "start": 2115,
+            "end": 2121,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2122,
+            "end": 2131,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2132,
+            "end": 2161,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2132,
+              "end": 2145,
+              "object": {
+                "type": "Identifier",
+                "start": 2132,
+                "end": 2138,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2139,
+                "end": 2145,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2146,
+                "end": 2160,
+                "value": "हैलो"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2163,
+            "end": 2177,
+            "value": "हैलो"
+          },
+          {
+            "type": "Literal",
+            "start": 2179,
+            "end": 2239,
+            "value": "Hindi characters with diacritics are correctly not escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2242,
+      "end": 2364,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2242,
+        "end": 2363,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2242,
+          "end": 2258,
+          "object": {
+            "type": "Identifier",
+            "start": 2242,
+            "end": 2248,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2249,
+            "end": 2258,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2259,
+            "end": 2283,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2259,
+              "end": 2272,
+              "object": {
+                "type": "Identifier",
+                "start": 2259,
+                "end": 2265,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2266,
+                "end": 2272,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2273,
+                "end": 2282,
+                "value": "안녕!"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2285,
+            "end": 2298,
+            "value": "안녕\\x21"
+          },
+          {
+            "type": "Literal",
+            "start": 2300,
+            "end": 2362,
+            "value": "Korean character with special character is correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2365,
+      "end": 2501,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2365,
+        "end": 2500,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2365,
+          "end": 2381,
+          "object": {
+            "type": "Identifier",
+            "start": 2365,
+            "end": 2371,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2372,
+            "end": 2381,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2382,
+            "end": 2416,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2382,
+              "end": 2395,
+              "object": {
+                "type": "Identifier",
+                "start": 2382,
+                "end": 2388,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2389,
+                "end": 2395,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2396,
+                "end": 2415,
+                "value": ".hello퟿world"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2418,
+            "end": 2439,
+            "value": "\\.hello퟿world"
+          },
+          {
+            "type": "Literal",
+            "start": 2441,
+            "end": 2499,
+            "value": "Mixed ASCII and Unicode characters are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,249 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 659,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 268,
+      "end": 480,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 274,
+          "end": 479,
+          "id": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 288,
+            "name": "invalidStrings"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 291,
+            "end": 479,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 295,
+                "end": 323,
+                "value": "1970-01-01T00:00[UTC][UTC]"
+              },
+              {
+                "type": "Literal",
+                "start": 327,
+                "end": 356,
+                "value": "1970-01-01T00:00[!UTC][UTC]"
+              },
+              {
+                "type": "Literal",
+                "start": 360,
+                "end": 389,
+                "value": "1970-01-01T00:00[UTC][!UTC]"
+              },
+              {
+                "type": "Literal",
+                "start": 393,
+                "end": 435,
+                "value": "1970-01-01T00:00[UTC][u-ca=iso8601][UTC]"
+              },
+              {
+                "type": "Literal",
+                "start": 439,
+                "end": 476,
+                "value": "1970-01-01T00:00[UTC][foo=bar][UTC]"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 482,
+      "end": 658,
+      "expression": {
+        "type": "CallExpression",
+        "start": 482,
+        "end": 657,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 482,
+          "end": 504,
+          "object": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 496,
+            "name": "invalidStrings"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 497,
+            "end": 504,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 505,
+            "end": 656,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 506,
+                "end": 509,
+                "name": "arg"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 514,
+              "end": 656,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 518,
+                  "end": 654,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 518,
+                    "end": 653,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 518,
+                      "end": 531,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 518,
+                        "end": 524,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 525,
+                        "end": 531,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 537,
+                        "end": 547,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 553,
+                        "end": 592,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 559,
+                          "end": 592,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 559,
+                            "end": 587,
+                            "object": {
+                              "type": "MemberExpression",
+                              "start": 559,
+                              "end": 582,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 559,
+                                "end": 567,
+                                "name": "Temporal"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 568,
+                                "end": 582,
+                                "name": "PlainYearMonth"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 583,
+                              "end": 587,
+                              "name": "from"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 588,
+                              "end": 591,
+                              "name": "arg"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "start": 598,
+                        "end": 649,
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 644,
+                            "end": 647,
+                            "name": "arg"
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 599,
+                            "end": 642,
+                            "value": {
+                              "raw": "reject more than one time zone annotation: ",
+                              "cooked": "reject more than one time zone annotation: "
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 648,
+                            "end": 648,
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

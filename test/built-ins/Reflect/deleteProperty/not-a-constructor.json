@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 970,
+  "end": 911,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -83,11 +83,11 @@
     {
       "type": "ExpressionStatement",
       "start": 835,
-      "end": 968,
+      "end": 909,
       "expression": {
         "type": "CallExpression",
         "start": 835,
-        "end": 967,
+        "end": 908,
         "callee": {
           "type": "MemberExpression",
           "start": 835,
@@ -173,12 +173,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 909,
-            "end": 966,
-            "value": "`new Reflect.deleteProperty({}, '')` throws TypeError"
           }
         ],
         "optional": false

@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2442,
+  "end": 2338,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 297,
-      "end": 349,
+      "start": 283,
+      "end": 335,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 303,
-          "end": 348,
+          "start": 289,
+          "end": 334,
           "id": {
             "type": "Identifier",
-            "start": 303,
-            "end": 311,
+            "start": 289,
+            "end": 297,
             "name": "instance"
           },
           "init": {
             "type": "NewExpression",
-            "start": 314,
-            "end": 348,
+            "start": 300,
+            "end": 334,
             "callee": {
               "type": "MemberExpression",
-              "start": 318,
-              "end": 336,
+              "start": 304,
+              "end": 322,
               "object": {
                 "type": "Identifier",
-                "start": 318,
-                "end": 326,
+                "start": 304,
+                "end": 312,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 327,
-                "end": 336,
+                "start": 313,
+                "end": 322,
                 "name": "PlainDate"
               },
               "computed": false,
@@ -44,20 +44,20 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 337,
-                "end": 341,
+                "start": 323,
+                "end": 327,
                 "value": 2000
               },
               {
                 "type": "Literal",
-                "start": 343,
-                "end": 344,
+                "start": 329,
+                "end": 330,
                 "value": 5
               },
               {
                 "type": "Literal",
-                "start": 346,
-                "end": 347,
+                "start": 332,
+                "end": 333,
                 "value": 2
               }
             ]
@@ -68,23 +68,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 351,
-      "end": 385,
+      "start": 337,
+      "end": 371,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 355,
-          "end": 384,
+          "start": 341,
+          "end": 370,
           "id": {
             "type": "Identifier",
-            "start": 355,
-            "end": 363,
+            "start": 341,
+            "end": 349,
             "name": "timeZone"
           },
           "init": {
             "type": "Literal",
-            "start": 366,
-            "end": 384,
+            "start": 352,
+            "end": 370,
             "value": "2021-08-19T17:30"
           }
         }
@@ -93,26 +93,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 386,
-      "end": 498,
+      "start": 372,
+      "end": 484,
       "expression": {
         "type": "CallExpression",
-        "start": 386,
-        "end": 497,
+        "start": 372,
+        "end": 483,
         "callee": {
           "type": "MemberExpression",
-          "start": 386,
-          "end": 399,
+          "start": 372,
+          "end": 385,
           "object": {
             "type": "Identifier",
-            "start": 386,
-            "end": 392,
+            "start": 372,
+            "end": 378,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 393,
-            "end": 399,
+            "start": 379,
+            "end": 385,
             "name": "throws"
           },
           "computed": false,
@@ -121,14 +121,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 400,
-            "end": 410,
+            "start": 386,
+            "end": 396,
             "name": "RangeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 412,
-            "end": 452,
+            "start": 398,
+            "end": 438,
             "id": null,
             "expression": true,
             "generator": false,
@@ -136,22 +136,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 418,
-              "end": 452,
+              "start": 404,
+              "end": 438,
               "callee": {
                 "type": "MemberExpression",
-                "start": 418,
-                "end": 442,
+                "start": 404,
+                "end": 428,
                 "object": {
                   "type": "Identifier",
-                  "start": 418,
-                  "end": 426,
+                  "start": 404,
+                  "end": 412,
                   "name": "instance"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 427,
-                  "end": 442,
+                  "start": 413,
+                  "end": 428,
                   "name": "toZonedDateTime"
                 },
                 "computed": false,
@@ -160,8 +160,8 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 443,
-                  "end": 451,
+                  "start": 429,
+                  "end": 437,
                   "name": "timeZone"
                 }
               ],
@@ -170,8 +170,8 @@
           },
           {
             "type": "Literal",
-            "start": 454,
-            "end": 496,
+            "start": 440,
+            "end": 482,
             "value": "bare date-time string is not a time zone"
           }
         ],
@@ -180,108 +180,292 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 499,
-      "end": 615,
+      "start": 486,
+      "end": 1408,
       "expression": {
         "type": "CallExpression",
-        "start": 499,
-        "end": 614,
+        "start": 486,
+        "end": 1407,
         "callee": {
           "type": "MemberExpression",
-          "start": 499,
-          "end": 512,
+          "start": 486,
+          "end": 1225,
           "object": {
-            "type": "Identifier",
-            "start": 499,
-            "end": 505,
-            "name": "assert"
+            "type": "ArrayExpression",
+            "start": 486,
+            "end": 1217,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 490,
+                "end": 517,
+                "value": "2021-08-19T17:30-07:00:01"
+              },
+              {
+                "type": "Literal",
+                "start": 521,
+                "end": 548,
+                "value": "2021-08-19T17:30-07:00:00"
+              },
+              {
+                "type": "Literal",
+                "start": 552,
+                "end": 581,
+                "value": "2021-08-19T17:30-07:00:00.1"
+              },
+              {
+                "type": "Literal",
+                "start": 585,
+                "end": 614,
+                "value": "2021-08-19T17:30-07:00:00.0"
+              },
+              {
+                "type": "Literal",
+                "start": 618,
+                "end": 648,
+                "value": "2021-08-19T17:30-07:00:00.01"
+              },
+              {
+                "type": "Literal",
+                "start": 652,
+                "end": 682,
+                "value": "2021-08-19T17:30-07:00:00.00"
+              },
+              {
+                "type": "Literal",
+                "start": 686,
+                "end": 717,
+                "value": "2021-08-19T17:30-07:00:00.001"
+              },
+              {
+                "type": "Literal",
+                "start": 721,
+                "end": 752,
+                "value": "2021-08-19T17:30-07:00:00.000"
+              },
+              {
+                "type": "Literal",
+                "start": 756,
+                "end": 788,
+                "value": "2021-08-19T17:30-07:00:00.0001"
+              },
+              {
+                "type": "Literal",
+                "start": 792,
+                "end": 824,
+                "value": "2021-08-19T17:30-07:00:00.0000"
+              },
+              {
+                "type": "Literal",
+                "start": 828,
+                "end": 861,
+                "value": "2021-08-19T17:30-07:00:00.00001"
+              },
+              {
+                "type": "Literal",
+                "start": 865,
+                "end": 898,
+                "value": "2021-08-19T17:30-07:00:00.00000"
+              },
+              {
+                "type": "Literal",
+                "start": 902,
+                "end": 936,
+                "value": "2021-08-19T17:30-07:00:00.000001"
+              },
+              {
+                "type": "Literal",
+                "start": 940,
+                "end": 974,
+                "value": "2021-08-19T17:30-07:00:00.000000"
+              },
+              {
+                "type": "Literal",
+                "start": 978,
+                "end": 1013,
+                "value": "2021-08-19T17:30-07:00:00.0000001"
+              },
+              {
+                "type": "Literal",
+                "start": 1017,
+                "end": 1052,
+                "value": "2021-08-19T17:30-07:00:00.0000000"
+              },
+              {
+                "type": "Literal",
+                "start": 1056,
+                "end": 1092,
+                "value": "2021-08-19T17:30-07:00:00.00000001"
+              },
+              {
+                "type": "Literal",
+                "start": 1096,
+                "end": 1132,
+                "value": "2021-08-19T17:30-07:00:00.00000000"
+              },
+              {
+                "type": "Literal",
+                "start": 1136,
+                "end": 1173,
+                "value": "2021-08-19T17:30-07:00:00.000000001"
+              },
+              {
+                "type": "Literal",
+                "start": 1177,
+                "end": 1214,
+                "value": "2021-08-19T17:30-07:00:00.000000000"
+              }
+            ]
           },
           "property": {
             "type": "Identifier",
-            "start": 506,
-            "end": 512,
-            "name": "throws"
+            "start": 1218,
+            "end": 1225,
+            "name": "forEach"
           },
           "computed": false,
           "optional": false
         },
         "arguments": [
           {
-            "type": "Identifier",
-            "start": 513,
-            "end": 523,
-            "name": "RangeError"
-          },
-          {
             "type": "ArrowFunctionExpression",
-            "start": 525,
-            "end": 569,
+            "start": 1226,
+            "end": 1406,
             "id": null,
-            "expression": true,
+            "expression": false,
             "generator": false,
             "async": false,
-            "params": [],
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 1227,
+                "end": 1235,
+                "name": "timeZone"
+              }
+            ],
             "body": {
-              "type": "CallExpression",
-              "start": 531,
-              "end": 569,
-              "callee": {
-                "type": "MemberExpression",
-                "start": 531,
-                "end": 555,
-                "object": {
-                  "type": "Identifier",
-                  "start": 531,
-                  "end": 539,
-                  "name": "instance"
-                },
-                "property": {
-                  "type": "Identifier",
-                  "start": 540,
-                  "end": 555,
-                  "name": "toZonedDateTime"
-                },
-                "computed": false,
-                "optional": false
-              },
-              "arguments": [
+              "type": "BlockStatement",
+              "start": 1240,
+              "end": 1406,
+              "body": [
                 {
-                  "type": "ObjectExpression",
-                  "start": 556,
-                  "end": 568,
-                  "properties": [
-                    {
-                      "type": "Property",
-                      "start": 558,
-                      "end": 566,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
-                      "key": {
+                  "type": "ExpressionStatement",
+                  "start": 1244,
+                  "end": 1404,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1244,
+                    "end": 1403,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1244,
+                      "end": 1257,
+                      "object": {
                         "type": "Identifier",
-                        "start": 558,
-                        "end": 566,
-                        "name": "timeZone"
+                        "start": 1244,
+                        "end": 1250,
+                        "name": "assert"
                       },
-                      "kind": "init",
-                      "value": {
+                      "property": {
                         "type": "Identifier",
-                        "start": 558,
-                        "end": 566,
-                        "name": "timeZone"
+                        "start": 1251,
+                        "end": 1257,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1263,
+                        "end": 1273,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 1279,
+                        "end": 1319,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 1285,
+                          "end": 1319,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 1285,
+                            "end": 1309,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 1285,
+                              "end": 1293,
+                              "name": "instance"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 1294,
+                              "end": 1309,
+                              "name": "toZonedDateTime"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 1310,
+                              "end": 1318,
+                              "name": "timeZone"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "start": 1325,
+                        "end": 1399,
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1339,
+                            "end": 1347,
+                            "name": "timeZone"
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 1326,
+                            "end": 1337,
+                            "value": {
+                              "raw": "ISO string ",
+                              "cooked": "ISO string "
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 1348,
+                            "end": 1398,
+                            "value": {
+                              "raw": " with a sub-minute offset is not a valid time zone",
+                              "cooked": " with a sub-minute offset is not a valid time zone"
+                            },
+                            "tail": true
+                          }
+                        ]
                       }
-                    }
-                  ]
+                    ],
+                    "optional": false
+                  }
                 }
-              ],
-              "optional": false
+              ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 571,
-            "end": 613,
-            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -289,60 +473,60 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 617,
-      "end": 648,
+      "start": 1410,
+      "end": 1441,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 617,
-        "end": 647,
+        "start": 1410,
+        "end": 1440,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 617,
-          "end": 625,
+          "start": 1410,
+          "end": 1418,
           "name": "timeZone"
         },
         "right": {
           "type": "Literal",
-          "start": 628,
-          "end": 647,
+          "start": 1421,
+          "end": 1440,
           "value": "2021-08-19T17:30Z"
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 649,
-      "end": 700,
+      "start": 1442,
+      "end": 1493,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 655,
-          "end": 699,
+          "start": 1448,
+          "end": 1492,
           "id": {
             "type": "Identifier",
-            "start": 655,
-            "end": 662,
+            "start": 1448,
+            "end": 1455,
             "name": "result1"
           },
           "init": {
             "type": "CallExpression",
-            "start": 665,
-            "end": 699,
+            "start": 1458,
+            "end": 1492,
             "callee": {
               "type": "MemberExpression",
-              "start": 665,
-              "end": 689,
+              "start": 1458,
+              "end": 1482,
               "object": {
                 "type": "Identifier",
-                "start": 665,
-                "end": 673,
+                "start": 1458,
+                "end": 1466,
                 "name": "instance"
               },
               "property": {
                 "type": "Identifier",
-                "start": 674,
-                "end": 689,
+                "start": 1467,
+                "end": 1482,
                 "name": "toZonedDateTime"
               },
               "computed": false,
@@ -351,8 +535,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 690,
-                "end": 698,
+                "start": 1483,
+                "end": 1491,
                 "name": "timeZone"
               }
             ],
@@ -364,26 +548,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 701,
-      "end": 780,
+      "start": 1494,
+      "end": 1572,
       "expression": {
         "type": "CallExpression",
-        "start": 701,
-        "end": 779,
+        "start": 1494,
+        "end": 1571,
         "callee": {
           "type": "MemberExpression",
-          "start": 701,
-          "end": 717,
+          "start": 1494,
+          "end": 1510,
           "object": {
             "type": "Identifier",
-            "start": 701,
-            "end": 707,
+            "start": 1494,
+            "end": 1500,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 708,
-            "end": 717,
+            "start": 1501,
+            "end": 1510,
             "name": "sameValue"
           },
           "computed": false,
@@ -392,46 +576,33 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 718,
-            "end": 737,
+            "start": 1511,
+            "end": 1529,
             "object": {
-              "type": "MemberExpression",
-              "start": 718,
-              "end": 734,
-              "object": {
-                "type": "Identifier",
-                "start": 718,
-                "end": 725,
-                "name": "result1"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 726,
-                "end": 734,
-                "name": "timeZone"
-              },
-              "computed": false,
-              "optional": false
+              "type": "Identifier",
+              "start": 1511,
+              "end": 1518,
+              "name": "result1"
             },
             "property": {
               "type": "Identifier",
-              "start": 735,
-              "end": 737,
-              "name": "id"
+              "start": 1519,
+              "end": 1529,
+              "name": "timeZoneId"
             },
             "computed": false,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 739,
-            "end": 744,
+            "start": 1531,
+            "end": 1536,
             "value": "UTC"
           },
           {
             "type": "Literal",
-            "start": 746,
-            "end": 778,
+            "start": 1538,
+            "end": 1570,
             "value": "date-time + Z is UTC time zone"
           }
         ],
@@ -439,211 +610,61 @@
       }
     },
     {
-      "type": "VariableDeclaration",
-      "start": 781,
-      "end": 836,
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 787,
-          "end": 835,
-          "id": {
-            "type": "Identifier",
-            "start": 787,
-            "end": 794,
-            "name": "result2"
-          },
-          "init": {
-            "type": "CallExpression",
-            "start": 797,
-            "end": 835,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 797,
-              "end": 821,
-              "object": {
-                "type": "Identifier",
-                "start": 797,
-                "end": 805,
-                "name": "instance"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 806,
-                "end": 821,
-                "name": "toZonedDateTime"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [
-              {
-                "type": "ObjectExpression",
-                "start": 822,
-                "end": 834,
-                "properties": [
-                  {
-                    "type": "Property",
-                    "start": 824,
-                    "end": 832,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 824,
-                      "end": 832,
-                      "name": "timeZone"
-                    },
-                    "kind": "init",
-                    "value": {
-                      "type": "Identifier",
-                      "start": 824,
-                      "end": 832,
-                      "name": "timeZone"
-                    }
-                  }
-                ]
-              }
-            ],
-            "optional": false
-          }
-        }
-      ],
-      "kind": "const"
-    },
-    {
       "type": "ExpressionStatement",
-      "start": 837,
-      "end": 941,
-      "expression": {
-        "type": "CallExpression",
-        "start": 837,
-        "end": 940,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 837,
-          "end": 853,
-          "object": {
-            "type": "Identifier",
-            "start": 837,
-            "end": 843,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 844,
-            "end": 853,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 854,
-            "end": 873,
-            "object": {
-              "type": "MemberExpression",
-              "start": 854,
-              "end": 870,
-              "object": {
-                "type": "Identifier",
-                "start": 854,
-                "end": 861,
-                "name": "result2"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 862,
-                "end": 870,
-                "name": "timeZone"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 871,
-              "end": 873,
-              "name": "id"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 875,
-            "end": 880,
-            "value": "UTC"
-          },
-          {
-            "type": "Literal",
-            "start": 882,
-            "end": 939,
-            "value": "date-time + Z is UTC time zone (string in property bag)"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 943,
-      "end": 979,
+      "start": 1574,
+      "end": 1610,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 943,
-        "end": 978,
+        "start": 1574,
+        "end": 1609,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 943,
-          "end": 951,
+          "start": 1574,
+          "end": 1582,
           "name": "timeZone"
         },
         "right": {
           "type": "Literal",
-          "start": 954,
-          "end": 978,
+          "start": 1585,
+          "end": 1609,
           "value": "2021-08-19T17:30-07:00"
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 980,
-      "end": 1031,
+      "start": 1611,
+      "end": 1662,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 986,
-          "end": 1030,
+          "start": 1617,
+          "end": 1661,
           "id": {
             "type": "Identifier",
-            "start": 986,
-            "end": 993,
-            "name": "result3"
+            "start": 1617,
+            "end": 1624,
+            "name": "result2"
           },
           "init": {
             "type": "CallExpression",
-            "start": 996,
-            "end": 1030,
+            "start": 1627,
+            "end": 1661,
             "callee": {
               "type": "MemberExpression",
-              "start": 996,
-              "end": 1020,
+              "start": 1627,
+              "end": 1651,
               "object": {
                 "type": "Identifier",
-                "start": 996,
-                "end": 1004,
+                "start": 1627,
+                "end": 1635,
                 "name": "instance"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1005,
-                "end": 1020,
+                "start": 1636,
+                "end": 1651,
                 "name": "toZonedDateTime"
               },
               "computed": false,
@@ -652,8 +673,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1021,
-                "end": 1029,
+                "start": 1652,
+                "end": 1660,
                 "name": "timeZone"
               }
             ],
@@ -665,26 +686,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1032,
-      "end": 1126,
+      "start": 1663,
+      "end": 1756,
       "expression": {
         "type": "CallExpression",
-        "start": 1032,
-        "end": 1125,
+        "start": 1663,
+        "end": 1755,
         "callee": {
           "type": "MemberExpression",
-          "start": 1032,
-          "end": 1048,
+          "start": 1663,
+          "end": 1679,
           "object": {
             "type": "Identifier",
-            "start": 1032,
-            "end": 1038,
+            "start": 1663,
+            "end": 1669,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1039,
-            "end": 1048,
+            "start": 1670,
+            "end": 1679,
             "name": "sameValue"
           },
           "computed": false,
@@ -693,46 +714,33 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1049,
-            "end": 1068,
+            "start": 1680,
+            "end": 1698,
             "object": {
-              "type": "MemberExpression",
-              "start": 1049,
-              "end": 1065,
-              "object": {
-                "type": "Identifier",
-                "start": 1049,
-                "end": 1056,
-                "name": "result3"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 1057,
-                "end": 1065,
-                "name": "timeZone"
-              },
-              "computed": false,
-              "optional": false
+              "type": "Identifier",
+              "start": 1680,
+              "end": 1687,
+              "name": "result2"
             },
             "property": {
               "type": "Identifier",
-              "start": 1066,
-              "end": 1068,
-              "name": "id"
+              "start": 1688,
+              "end": 1698,
+              "name": "timeZoneId"
             },
             "computed": false,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1070,
-            "end": 1078,
+            "start": 1700,
+            "end": 1708,
             "value": "-07:00"
           },
           {
             "type": "Literal",
-            "start": 1080,
-            "end": 1124,
+            "start": 1710,
+            "end": 1754,
             "value": "date-time + offset is the offset time zone"
           }
         ],
@@ -740,211 +748,61 @@
       }
     },
     {
-      "type": "VariableDeclaration",
-      "start": 1127,
-      "end": 1182,
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 1133,
-          "end": 1181,
-          "id": {
-            "type": "Identifier",
-            "start": 1133,
-            "end": 1140,
-            "name": "result4"
-          },
-          "init": {
-            "type": "CallExpression",
-            "start": 1143,
-            "end": 1181,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 1143,
-              "end": 1167,
-              "object": {
-                "type": "Identifier",
-                "start": 1143,
-                "end": 1151,
-                "name": "instance"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 1152,
-                "end": 1167,
-                "name": "toZonedDateTime"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [
-              {
-                "type": "ObjectExpression",
-                "start": 1168,
-                "end": 1180,
-                "properties": [
-                  {
-                    "type": "Property",
-                    "start": 1170,
-                    "end": 1178,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 1170,
-                      "end": 1178,
-                      "name": "timeZone"
-                    },
-                    "kind": "init",
-                    "value": {
-                      "type": "Identifier",
-                      "start": 1170,
-                      "end": 1178,
-                      "name": "timeZone"
-                    }
-                  }
-                ]
-              }
-            ],
-            "optional": false
-          }
-        }
-      ],
-      "kind": "const"
-    },
-    {
       "type": "ExpressionStatement",
-      "start": 1183,
-      "end": 1302,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1183,
-        "end": 1301,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 1183,
-          "end": 1199,
-          "object": {
-            "type": "Identifier",
-            "start": 1183,
-            "end": 1189,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 1190,
-            "end": 1199,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1200,
-            "end": 1219,
-            "object": {
-              "type": "MemberExpression",
-              "start": 1200,
-              "end": 1216,
-              "object": {
-                "type": "Identifier",
-                "start": 1200,
-                "end": 1207,
-                "name": "result4"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 1208,
-                "end": 1216,
-                "name": "timeZone"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 1217,
-              "end": 1219,
-              "name": "id"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1221,
-            "end": 1229,
-            "value": "-07:00"
-          },
-          {
-            "type": "Literal",
-            "start": 1231,
-            "end": 1300,
-            "value": "date-time + offset is the offset time zone (string in property bag)"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 1304,
-      "end": 1339,
+      "start": 1758,
+      "end": 1793,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1304,
-        "end": 1338,
+        "start": 1758,
+        "end": 1792,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1304,
-          "end": 1312,
+          "start": 1758,
+          "end": 1766,
           "name": "timeZone"
         },
         "right": {
           "type": "Literal",
-          "start": 1315,
-          "end": 1338,
+          "start": 1769,
+          "end": 1792,
           "value": "2021-08-19T17:30[UTC]"
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 1340,
-      "end": 1391,
+      "start": 1794,
+      "end": 1845,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1346,
-          "end": 1390,
+          "start": 1800,
+          "end": 1844,
           "id": {
             "type": "Identifier",
-            "start": 1346,
-            "end": 1353,
-            "name": "result5"
+            "start": 1800,
+            "end": 1807,
+            "name": "result3"
           },
           "init": {
             "type": "CallExpression",
-            "start": 1356,
-            "end": 1390,
+            "start": 1810,
+            "end": 1844,
             "callee": {
               "type": "MemberExpression",
-              "start": 1356,
-              "end": 1380,
+              "start": 1810,
+              "end": 1834,
               "object": {
                 "type": "Identifier",
-                "start": 1356,
-                "end": 1364,
+                "start": 1810,
+                "end": 1818,
                 "name": "instance"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1365,
-                "end": 1380,
+                "start": 1819,
+                "end": 1834,
                 "name": "toZonedDateTime"
               },
               "computed": false,
@@ -953,8 +811,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1381,
-                "end": 1389,
+                "start": 1835,
+                "end": 1843,
                 "name": "timeZone"
               }
             ],
@@ -966,26 +824,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1392,
-      "end": 1490,
+      "start": 1846,
+      "end": 1943,
       "expression": {
         "type": "CallExpression",
-        "start": 1392,
-        "end": 1489,
+        "start": 1846,
+        "end": 1942,
         "callee": {
           "type": "MemberExpression",
-          "start": 1392,
-          "end": 1408,
+          "start": 1846,
+          "end": 1862,
           "object": {
             "type": "Identifier",
-            "start": 1392,
-            "end": 1398,
+            "start": 1846,
+            "end": 1852,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1399,
-            "end": 1408,
+            "start": 1853,
+            "end": 1862,
             "name": "sameValue"
           },
           "computed": false,
@@ -994,46 +852,33 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1409,
-            "end": 1428,
+            "start": 1863,
+            "end": 1881,
             "object": {
-              "type": "MemberExpression",
-              "start": 1409,
-              "end": 1425,
-              "object": {
-                "type": "Identifier",
-                "start": 1409,
-                "end": 1416,
-                "name": "result5"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 1417,
-                "end": 1425,
-                "name": "timeZone"
-              },
-              "computed": false,
-              "optional": false
+              "type": "Identifier",
+              "start": 1863,
+              "end": 1870,
+              "name": "result3"
             },
             "property": {
               "type": "Identifier",
-              "start": 1426,
-              "end": 1428,
-              "name": "id"
+              "start": 1871,
+              "end": 1881,
+              "name": "timeZoneId"
             },
             "computed": false,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1430,
-            "end": 1435,
+            "start": 1883,
+            "end": 1888,
             "value": "UTC"
           },
           {
             "type": "Literal",
-            "start": 1437,
-            "end": 1488,
+            "start": 1890,
+            "end": 1941,
             "value": "date-time + IANA annotation is the IANA time zone"
           }
         ],
@@ -1041,211 +886,61 @@
       }
     },
     {
-      "type": "VariableDeclaration",
-      "start": 1491,
-      "end": 1546,
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 1497,
-          "end": 1545,
-          "id": {
-            "type": "Identifier",
-            "start": 1497,
-            "end": 1504,
-            "name": "result6"
-          },
-          "init": {
-            "type": "CallExpression",
-            "start": 1507,
-            "end": 1545,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 1507,
-              "end": 1531,
-              "object": {
-                "type": "Identifier",
-                "start": 1507,
-                "end": 1515,
-                "name": "instance"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 1516,
-                "end": 1531,
-                "name": "toZonedDateTime"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [
-              {
-                "type": "ObjectExpression",
-                "start": 1532,
-                "end": 1544,
-                "properties": [
-                  {
-                    "type": "Property",
-                    "start": 1534,
-                    "end": 1542,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 1534,
-                      "end": 1542,
-                      "name": "timeZone"
-                    },
-                    "kind": "init",
-                    "value": {
-                      "type": "Identifier",
-                      "start": 1534,
-                      "end": 1542,
-                      "name": "timeZone"
-                    }
-                  }
-                ]
-              }
-            ],
-            "optional": false
-          }
-        }
-      ],
-      "kind": "const"
-    },
-    {
       "type": "ExpressionStatement",
-      "start": 1547,
-      "end": 1670,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1547,
-        "end": 1669,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 1547,
-          "end": 1563,
-          "object": {
-            "type": "Identifier",
-            "start": 1547,
-            "end": 1553,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 1554,
-            "end": 1563,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1564,
-            "end": 1583,
-            "object": {
-              "type": "MemberExpression",
-              "start": 1564,
-              "end": 1580,
-              "object": {
-                "type": "Identifier",
-                "start": 1564,
-                "end": 1571,
-                "name": "result6"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 1572,
-                "end": 1580,
-                "name": "timeZone"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 1581,
-              "end": 1583,
-              "name": "id"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1585,
-            "end": 1590,
-            "value": "UTC"
-          },
-          {
-            "type": "Literal",
-            "start": 1592,
-            "end": 1668,
-            "value": "date-time + IANA annotation is the IANA time zone (string in property bag)"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 1672,
-      "end": 1708,
+      "start": 1945,
+      "end": 1981,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1672,
-        "end": 1707,
+        "start": 1945,
+        "end": 1980,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1672,
-          "end": 1680,
+          "start": 1945,
+          "end": 1953,
           "name": "timeZone"
         },
         "right": {
           "type": "Literal",
-          "start": 1683,
-          "end": 1707,
+          "start": 1956,
+          "end": 1980,
           "value": "2021-08-19T17:30Z[UTC]"
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 1709,
-      "end": 1760,
+      "start": 1982,
+      "end": 2033,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1715,
-          "end": 1759,
+          "start": 1988,
+          "end": 2032,
           "id": {
             "type": "Identifier",
-            "start": 1715,
-            "end": 1722,
-            "name": "result7"
+            "start": 1988,
+            "end": 1995,
+            "name": "result4"
           },
           "init": {
             "type": "CallExpression",
-            "start": 1725,
-            "end": 1759,
+            "start": 1998,
+            "end": 2032,
             "callee": {
               "type": "MemberExpression",
-              "start": 1725,
-              "end": 1749,
+              "start": 1998,
+              "end": 2022,
               "object": {
                 "type": "Identifier",
-                "start": 1725,
-                "end": 1733,
+                "start": 1998,
+                "end": 2006,
                 "name": "instance"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1734,
-                "end": 1749,
+                "start": 2007,
+                "end": 2022,
                 "name": "toZonedDateTime"
               },
               "computed": false,
@@ -1254,8 +949,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1750,
-                "end": 1758,
+                "start": 2023,
+                "end": 2031,
                 "name": "timeZone"
               }
             ],
@@ -1267,26 +962,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1761,
-      "end": 1863,
+      "start": 2034,
+      "end": 2135,
       "expression": {
         "type": "CallExpression",
-        "start": 1761,
-        "end": 1862,
+        "start": 2034,
+        "end": 2134,
         "callee": {
           "type": "MemberExpression",
-          "start": 1761,
-          "end": 1777,
+          "start": 2034,
+          "end": 2050,
           "object": {
             "type": "Identifier",
-            "start": 1761,
-            "end": 1767,
+            "start": 2034,
+            "end": 2040,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1768,
-            "end": 1777,
+            "start": 2041,
+            "end": 2050,
             "name": "sameValue"
           },
           "computed": false,
@@ -1295,46 +990,33 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1778,
-            "end": 1797,
+            "start": 2051,
+            "end": 2069,
             "object": {
-              "type": "MemberExpression",
-              "start": 1778,
-              "end": 1794,
-              "object": {
-                "type": "Identifier",
-                "start": 1778,
-                "end": 1785,
-                "name": "result7"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 1786,
-                "end": 1794,
-                "name": "timeZone"
-              },
-              "computed": false,
-              "optional": false
+              "type": "Identifier",
+              "start": 2051,
+              "end": 2058,
+              "name": "result4"
             },
             "property": {
               "type": "Identifier",
-              "start": 1795,
-              "end": 1797,
-              "name": "id"
+              "start": 2059,
+              "end": 2069,
+              "name": "timeZoneId"
             },
             "computed": false,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 1799,
-            "end": 1804,
+            "start": 2071,
+            "end": 2076,
             "value": "UTC"
           },
           {
             "type": "Literal",
-            "start": 1806,
-            "end": 1861,
+            "start": 2078,
+            "end": 2133,
             "value": "date-time + Z + IANA annotation is the IANA time zone"
           }
         ],
@@ -1342,211 +1024,61 @@
       }
     },
     {
-      "type": "VariableDeclaration",
-      "start": 1864,
-      "end": 1919,
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 1870,
-          "end": 1918,
-          "id": {
-            "type": "Identifier",
-            "start": 1870,
-            "end": 1877,
-            "name": "result8"
-          },
-          "init": {
-            "type": "CallExpression",
-            "start": 1880,
-            "end": 1918,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 1880,
-              "end": 1904,
-              "object": {
-                "type": "Identifier",
-                "start": 1880,
-                "end": 1888,
-                "name": "instance"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 1889,
-                "end": 1904,
-                "name": "toZonedDateTime"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [
-              {
-                "type": "ObjectExpression",
-                "start": 1905,
-                "end": 1917,
-                "properties": [
-                  {
-                    "type": "Property",
-                    "start": 1907,
-                    "end": 1915,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 1907,
-                      "end": 1915,
-                      "name": "timeZone"
-                    },
-                    "kind": "init",
-                    "value": {
-                      "type": "Identifier",
-                      "start": 1907,
-                      "end": 1915,
-                      "name": "timeZone"
-                    }
-                  }
-                ]
-              }
-            ],
-            "optional": false
-          }
-        }
-      ],
-      "kind": "const"
-    },
-    {
       "type": "ExpressionStatement",
-      "start": 1920,
-      "end": 2047,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1920,
-        "end": 2046,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 1920,
-          "end": 1936,
-          "object": {
-            "type": "Identifier",
-            "start": 1920,
-            "end": 1926,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 1927,
-            "end": 1936,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1937,
-            "end": 1956,
-            "object": {
-              "type": "MemberExpression",
-              "start": 1937,
-              "end": 1953,
-              "object": {
-                "type": "Identifier",
-                "start": 1937,
-                "end": 1944,
-                "name": "result8"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 1945,
-                "end": 1953,
-                "name": "timeZone"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 1954,
-              "end": 1956,
-              "name": "id"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1958,
-            "end": 1963,
-            "value": "UTC"
-          },
-          {
-            "type": "Literal",
-            "start": 1965,
-            "end": 2045,
-            "value": "date-time + Z + IANA annotation is the IANA time zone (string in property bag)"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 2049,
-      "end": 2090,
+      "start": 2137,
+      "end": 2178,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2049,
-        "end": 2089,
+        "start": 2137,
+        "end": 2177,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 2049,
-          "end": 2057,
+          "start": 2137,
+          "end": 2145,
           "name": "timeZone"
         },
         "right": {
           "type": "Literal",
-          "start": 2060,
-          "end": 2089,
+          "start": 2148,
+          "end": 2177,
           "value": "2021-08-19T17:30-07:00[UTC]"
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 2091,
-      "end": 2142,
+      "start": 2179,
+      "end": 2230,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2097,
-          "end": 2141,
+          "start": 2185,
+          "end": 2229,
           "id": {
             "type": "Identifier",
-            "start": 2097,
-            "end": 2104,
-            "name": "result9"
+            "start": 2185,
+            "end": 2192,
+            "name": "result5"
           },
           "init": {
             "type": "CallExpression",
-            "start": 2107,
-            "end": 2141,
+            "start": 2195,
+            "end": 2229,
             "callee": {
               "type": "MemberExpression",
-              "start": 2107,
-              "end": 2131,
+              "start": 2195,
+              "end": 2219,
               "object": {
                 "type": "Identifier",
-                "start": 2107,
-                "end": 2115,
+                "start": 2195,
+                "end": 2203,
                 "name": "instance"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2116,
-                "end": 2131,
+                "start": 2204,
+                "end": 2219,
                 "name": "toZonedDateTime"
               },
               "computed": false,
@@ -1555,8 +1087,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2132,
-                "end": 2140,
+                "start": 2220,
+                "end": 2228,
                 "name": "timeZone"
               }
             ],
@@ -1568,26 +1100,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2143,
-      "end": 2250,
+      "start": 2231,
+      "end": 2337,
       "expression": {
         "type": "CallExpression",
-        "start": 2143,
-        "end": 2249,
+        "start": 2231,
+        "end": 2336,
         "callee": {
           "type": "MemberExpression",
-          "start": 2143,
-          "end": 2159,
+          "start": 2231,
+          "end": 2247,
           "object": {
             "type": "Identifier",
-            "start": 2143,
-            "end": 2149,
+            "start": 2231,
+            "end": 2237,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2150,
-            "end": 2159,
+            "start": 2238,
+            "end": 2247,
             "name": "sameValue"
           },
           "computed": false,
@@ -1596,197 +1128,34 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2160,
-            "end": 2179,
+            "start": 2248,
+            "end": 2266,
             "object": {
-              "type": "MemberExpression",
-              "start": 2160,
-              "end": 2176,
-              "object": {
-                "type": "Identifier",
-                "start": 2160,
-                "end": 2167,
-                "name": "result9"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 2168,
-                "end": 2176,
-                "name": "timeZone"
-              },
-              "computed": false,
-              "optional": false
+              "type": "Identifier",
+              "start": 2248,
+              "end": 2255,
+              "name": "result5"
             },
             "property": {
               "type": "Identifier",
-              "start": 2177,
-              "end": 2179,
-              "name": "id"
+              "start": 2256,
+              "end": 2266,
+              "name": "timeZoneId"
             },
             "computed": false,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 2181,
-            "end": 2186,
-            "value": "UTC"
-          },
-          {
-            "type": "Literal",
-            "start": 2188,
-            "end": 2248,
-            "value": "date-time + offset + IANA annotation is the IANA time zone"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "VariableDeclaration",
-      "start": 2251,
-      "end": 2307,
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 2257,
-          "end": 2306,
-          "id": {
-            "type": "Identifier",
-            "start": 2257,
-            "end": 2265,
-            "name": "result10"
-          },
-          "init": {
-            "type": "CallExpression",
             "start": 2268,
-            "end": 2306,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 2268,
-              "end": 2292,
-              "object": {
-                "type": "Identifier",
-                "start": 2268,
-                "end": 2276,
-                "name": "instance"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 2277,
-                "end": 2292,
-                "name": "toZonedDateTime"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [
-              {
-                "type": "ObjectExpression",
-                "start": 2293,
-                "end": 2305,
-                "properties": [
-                  {
-                    "type": "Property",
-                    "start": 2295,
-                    "end": 2303,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 2295,
-                      "end": 2303,
-                      "name": "timeZone"
-                    },
-                    "kind": "init",
-                    "value": {
-                      "type": "Identifier",
-                      "start": 2295,
-                      "end": 2303,
-                      "name": "timeZone"
-                    }
-                  }
-                ]
-              }
-            ],
-            "optional": false
-          }
-        }
-      ],
-      "kind": "const"
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 2308,
-      "end": 2441,
-      "expression": {
-        "type": "CallExpression",
-        "start": 2308,
-        "end": 2440,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 2308,
-          "end": 2324,
-          "object": {
-            "type": "Identifier",
-            "start": 2308,
-            "end": 2314,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 2315,
-            "end": 2324,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 2325,
-            "end": 2345,
-            "object": {
-              "type": "MemberExpression",
-              "start": 2325,
-              "end": 2342,
-              "object": {
-                "type": "Identifier",
-                "start": 2325,
-                "end": 2333,
-                "name": "result10"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 2334,
-                "end": 2342,
-                "name": "timeZone"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 2343,
-              "end": 2345,
-              "name": "id"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 2347,
-            "end": 2352,
+            "end": 2273,
             "value": "UTC"
           },
           {
             "type": "Literal",
-            "start": 2354,
-            "end": 2439,
-            "value": "date-time + offset + IANA annotation is the IANA time zone (string in property bag)"
+            "start": 2275,
+            "end": 2335,
+            "value": "date-time + offset + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false

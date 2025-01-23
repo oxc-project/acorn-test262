@@ -1,0 +1,409 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3238,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 278,
+      "end": 3106,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 284,
+          "end": 3105,
+          "id": {
+            "type": "Identifier",
+            "start": 284,
+            "end": 293,
+            "name": "testCases"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 296,
+            "end": 3105,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 300,
+                "end": 314,
+                "value": "Africa/Accra"
+              },
+              {
+                "type": "Literal",
+                "start": 370,
+                "end": 385,
+                "value": "Africa/Bamako"
+              },
+              {
+                "type": "Literal",
+                "start": 440,
+                "end": 455,
+                "value": "Africa/Banjul"
+              },
+              {
+                "type": "Literal",
+                "start": 516,
+                "end": 532,
+                "value": "Africa/Conakry"
+              },
+              {
+                "type": "Literal",
+                "start": 589,
+                "end": 603,
+                "value": "Africa/Dakar"
+              },
+              {
+                "type": "Literal",
+                "start": 661,
+                "end": 678,
+                "value": "Africa/Freetown"
+              },
+              {
+                "type": "Literal",
+                "start": 741,
+                "end": 754,
+                "value": "Africa/Lome"
+              },
+              {
+                "type": "Literal",
+                "start": 809,
+                "end": 828,
+                "value": "Africa/Nouakchott"
+              },
+              {
+                "type": "Literal",
+                "start": 889,
+                "end": 909,
+                "value": "Africa/Ouagadougou"
+              },
+              {
+                "type": "Literal",
+                "start": 972,
+                "end": 992,
+                "value": "Atlantic/St_Helena"
+              },
+              {
+                "type": "Literal",
+                "start": 1052,
+                "end": 1072,
+                "value": "Africa/Addis_Ababa"
+              },
+              {
+                "type": "Literal",
+                "start": 1132,
+                "end": 1147,
+                "value": "Africa/Asmara"
+              },
+              {
+                "type": "Literal",
+                "start": 1206,
+                "end": 1228,
+                "value": "Africa/Dar_es_Salaam"
+              },
+              {
+                "type": "Literal",
+                "start": 1288,
+                "end": 1305,
+                "value": "Africa/Djibouti"
+              },
+              {
+                "type": "Literal",
+                "start": 1349,
+                "end": 1365,
+                "value": "Africa/Kampala"
+              },
+              {
+                "type": "Literal",
+                "start": 1423,
+                "end": 1441,
+                "value": "Africa/Mogadishu"
+              },
+              {
+                "type": "Literal",
+                "start": 1500,
+                "end": 1521,
+                "value": "Indian/Antananarivo"
+              },
+              {
+                "type": "Literal",
+                "start": 1583,
+                "end": 1598,
+                "value": "Indian/Comoro"
+              },
+              {
+                "type": "Literal",
+                "start": 1640,
+                "end": 1656,
+                "value": "Indian/Mayotte"
+              },
+              {
+                "type": "Literal",
+                "start": 1699,
+                "end": 1716,
+                "value": "Africa/Blantyre"
+              },
+              {
+                "type": "Literal",
+                "start": 1773,
+                "end": 1791,
+                "value": "Africa/Bujumbura"
+              },
+              {
+                "type": "Literal",
+                "start": 1849,
+                "end": 1866,
+                "value": "Africa/Gaborone"
+              },
+              {
+                "type": "Literal",
+                "start": 1925,
+                "end": 1940,
+                "value": "Africa/Harare"
+              },
+              {
+                "type": "Literal",
+                "start": 1999,
+                "end": 2014,
+                "value": "Africa/Kigali"
+              },
+              {
+                "type": "Literal",
+                "start": 2071,
+                "end": 2090,
+                "value": "Africa/Lubumbashi"
+              },
+              {
+                "type": "Literal",
+                "start": 2161,
+                "end": 2176,
+                "value": "Africa/Lusaka"
+              },
+              {
+                "type": "Literal",
+                "start": 2233,
+                "end": 2248,
+                "value": "Africa/Bangui"
+              },
+              {
+                "type": "Literal",
+                "start": 2323,
+                "end": 2343,
+                "value": "Africa/Brazzaville"
+              },
+              {
+                "type": "Literal",
+                "start": 2411,
+                "end": 2426,
+                "value": "Africa/Douala"
+              },
+              {
+                "type": "Literal",
+                "start": 2485,
+                "end": 2502,
+                "value": "Africa/Kinshasa"
+              },
+              {
+                "type": "Literal",
+                "start": 2582,
+                "end": 2601,
+                "value": "Africa/Libreville"
+              },
+              {
+                "type": "Literal",
+                "start": 2657,
+                "end": 2672,
+                "value": "Africa/Luanda"
+              },
+              {
+                "type": "Literal",
+                "start": 2729,
+                "end": 2744,
+                "value": "Africa/Malabo"
+              },
+              {
+                "type": "Literal",
+                "start": 2812,
+                "end": 2827,
+                "value": "Africa/Niamey"
+              },
+              {
+                "type": "Literal",
+                "start": 2883,
+                "end": 2902,
+                "value": "Africa/Porto-Novo"
+              },
+              {
+                "type": "Literal",
+                "start": 2958,
+                "end": 2973,
+                "value": "Africa/Maseru"
+              },
+              {
+                "type": "Literal",
+                "start": 3031,
+                "end": 3047,
+                "value": "Africa/Mbabane"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 3108,
+      "end": 3237,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 3113,
+        "end": 3119,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 3117,
+            "end": 3119,
+            "id": {
+              "type": "Identifier",
+              "start": 3117,
+              "end": 3119,
+              "name": "id"
+            },
+            "init": null
+          }
+        ],
+        "kind": "let"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 3123,
+        "end": 3132,
+        "name": "testCases"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 3134,
+        "end": 3237,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 3138,
+            "end": 3190,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 3144,
+                "end": 3189,
+                "id": {
+                  "type": "Identifier",
+                  "start": 3144,
+                  "end": 3152,
+                  "name": "instance"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 3155,
+                  "end": 3189,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 3159,
+                    "end": 3181,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 3159,
+                      "end": 3167,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 3168,
+                      "end": 3181,
+                      "name": "ZonedDateTime"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 3182,
+                      "end": 3184,
+                      "value": "0n"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 3186,
+                      "end": 3188,
+                      "name": "id"
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 3193,
+            "end": 3235,
+            "expression": {
+              "type": "CallExpression",
+              "start": 3193,
+              "end": 3234,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 3193,
+                "end": 3209,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3193,
+                  "end": 3199,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 3200,
+                  "end": 3209,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 3210,
+                  "end": 3229,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 3210,
+                    "end": 3218,
+                    "name": "instance"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 3219,
+                    "end": 3229,
+                    "name": "timeZoneId"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 3231,
+                  "end": 3233,
+                  "name": "id"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,271 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 943,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 725,
+      "end": 778,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 729,
+          "end": 777,
+          "id": {
+            "type": "Identifier",
+            "start": 729,
+            "end": 736,
+            "name": "minDate"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 739,
+            "end": 777,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 743,
+              "end": 761,
+              "object": {
+                "type": "Identifier",
+                "start": 743,
+                "end": 751,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 752,
+                "end": 761,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 762,
+                "end": 769,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 763,
+                  "end": 769,
+                  "value": 271821
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 771,
+                "end": 772,
+                "value": 4
+              },
+              {
+                "type": "Literal",
+                "start": 774,
+                "end": 776,
+                "value": 19
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 779,
+      "end": 819,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 783,
+          "end": 818,
+          "id": {
+            "type": "Identifier",
+            "start": 783,
+            "end": 791,
+            "name": "midnight"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 794,
+            "end": 818,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 798,
+              "end": 816,
+              "object": {
+                "type": "Identifier",
+                "start": 798,
+                "end": 806,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 807,
+                "end": 816,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 820,
+      "end": 877,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 824,
+          "end": 876,
+          "id": {
+            "type": "Identifier",
+            "start": 824,
+            "end": 828,
+            "name": "item"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 831,
+            "end": 876,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 835,
+                "end": 850,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 835,
+                  "end": 843,
+                  "name": "timeZone"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 845,
+                  "end": 850,
+                  "value": "+00"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 854,
+                "end": 873,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 854,
+                  "end": 863,
+                  "name": "plainTime"
+                },
+                "value": {
+                  "type": "Identifier",
+                  "start": 865,
+                  "end": 873,
+                  "name": "midnight"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 879,
+      "end": 942,
+      "expression": {
+        "type": "CallExpression",
+        "start": 879,
+        "end": 941,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 879,
+          "end": 892,
+          "object": {
+            "type": "Identifier",
+            "start": 879,
+            "end": 885,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 886,
+            "end": 892,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 893,
+            "end": 903,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 905,
+            "end": 940,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 911,
+              "end": 940,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 911,
+                "end": 934,
+                "object": {
+                  "type": "Identifier",
+                  "start": 911,
+                  "end": 918,
+                  "name": "minDate"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 919,
+                  "end": 934,
+                  "name": "toZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 935,
+                  "end": 939,
+                  "name": "item"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

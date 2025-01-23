@@ -1,0 +1,699 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 788,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 268,
+      "end": 301,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 272,
+          "end": 300,
+          "id": {
+            "type": "Identifier",
+            "start": 272,
+            "end": 280,
+            "name": "nsPerDay"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 283,
+            "end": 300,
+            "left": {
+              "type": "Literal",
+              "start": 283,
+              "end": 287,
+              "value": "864n"
+            },
+            "operator": "*",
+            "right": {
+              "type": "BinaryExpression",
+              "start": 290,
+              "end": 300,
+              "left": {
+                "type": "Literal",
+                "start": 290,
+                "end": 293,
+                "value": "10n"
+              },
+              "operator": "**",
+              "right": {
+                "type": "Literal",
+                "start": 297,
+                "end": 300,
+                "value": "11n"
+              }
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 303,
+      "end": 311,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 307,
+          "end": 310,
+          "id": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 310,
+            "name": "zdt"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 313,
+      "end": 357,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 313,
+        "end": 356,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 313,
+          "end": 316,
+          "name": "zdt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 319,
+          "end": 356,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 323,
+            "end": 345,
+            "object": {
+              "type": "Identifier",
+              "start": 323,
+              "end": 331,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 332,
+              "end": 345,
+              "name": "ZonedDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 346,
+              "end": 348,
+              "value": "0n"
+            },
+            {
+              "type": "Literal",
+              "start": 350,
+              "end": 355,
+              "value": "UTC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 358,
+      "end": 397,
+      "expression": {
+        "type": "CallExpression",
+        "start": 358,
+        "end": 396,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 358,
+          "end": 374,
+          "object": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 364,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 374,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 375,
+            "end": 389,
+            "object": {
+              "type": "Identifier",
+              "start": 375,
+              "end": 378,
+              "name": "zdt"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 379,
+              "end": 389,
+              "name": "yearOfWeek"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 391,
+            "end": 395,
+            "value": 1970
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 399,
+      "end": 454,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 399,
+        "end": 454,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 399,
+          "end": 402,
+          "name": "zdt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 405,
+          "end": 454,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 409,
+            "end": 431,
+            "object": {
+              "type": "Identifier",
+              "start": 409,
+              "end": 417,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 418,
+              "end": 431,
+              "name": "ZonedDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "BinaryExpression",
+              "start": 432,
+              "end": 446,
+              "left": {
+                "type": "UnaryExpression",
+                "start": 432,
+                "end": 435,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 433,
+                  "end": 435,
+                  "value": "3n"
+                }
+              },
+              "operator": "*",
+              "right": {
+                "type": "Identifier",
+                "start": 438,
+                "end": 446,
+                "name": "nsPerDay"
+              }
+            },
+            {
+              "type": "Literal",
+              "start": 448,
+              "end": 453,
+              "value": "UTC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 455,
+      "end": 494,
+      "expression": {
+        "type": "CallExpression",
+        "start": 455,
+        "end": 493,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 455,
+          "end": 471,
+          "object": {
+            "type": "Identifier",
+            "start": 455,
+            "end": 461,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 471,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 472,
+            "end": 486,
+            "object": {
+              "type": "Identifier",
+              "start": 472,
+              "end": 475,
+              "name": "zdt"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 476,
+              "end": 486,
+              "name": "yearOfWeek"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 488,
+            "end": 492,
+            "value": 1970
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 496,
+      "end": 551,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 496,
+        "end": 551,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 496,
+          "end": 499,
+          "name": "zdt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 502,
+          "end": 551,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 506,
+            "end": 528,
+            "object": {
+              "type": "Identifier",
+              "start": 506,
+              "end": 514,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 515,
+              "end": 528,
+              "name": "ZonedDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "BinaryExpression",
+              "start": 529,
+              "end": 543,
+              "left": {
+                "type": "UnaryExpression",
+                "start": 529,
+                "end": 532,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 530,
+                  "end": 532,
+                  "value": "4n"
+                }
+              },
+              "operator": "*",
+              "right": {
+                "type": "Identifier",
+                "start": 535,
+                "end": 543,
+                "name": "nsPerDay"
+              }
+            },
+            {
+              "type": "Literal",
+              "start": 545,
+              "end": 550,
+              "value": "UTC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 552,
+      "end": 591,
+      "expression": {
+        "type": "CallExpression",
+        "start": 552,
+        "end": 590,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 552,
+          "end": 568,
+          "object": {
+            "type": "Identifier",
+            "start": 552,
+            "end": 558,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 559,
+            "end": 568,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 569,
+            "end": 583,
+            "object": {
+              "type": "Identifier",
+              "start": 569,
+              "end": 572,
+              "name": "zdt"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 573,
+              "end": 583,
+              "name": "yearOfWeek"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 585,
+            "end": 589,
+            "value": 1969
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 593,
+      "end": 649,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 593,
+        "end": 649,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 593,
+          "end": 596,
+          "name": "zdt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 599,
+          "end": 649,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 603,
+            "end": 625,
+            "object": {
+              "type": "Identifier",
+              "start": 603,
+              "end": 611,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 612,
+              "end": 625,
+              "name": "ZonedDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "BinaryExpression",
+              "start": 626,
+              "end": 641,
+              "left": {
+                "type": "Literal",
+                "start": 626,
+                "end": 630,
+                "value": "367n"
+              },
+              "operator": "*",
+              "right": {
+                "type": "Identifier",
+                "start": 633,
+                "end": 641,
+                "name": "nsPerDay"
+              }
+            },
+            {
+              "type": "Literal",
+              "start": 643,
+              "end": 648,
+              "value": "UTC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 650,
+      "end": 689,
+      "expression": {
+        "type": "CallExpression",
+        "start": 650,
+        "end": 688,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 650,
+          "end": 666,
+          "object": {
+            "type": "Identifier",
+            "start": 650,
+            "end": 656,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 657,
+            "end": 666,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 667,
+            "end": 681,
+            "object": {
+              "type": "Identifier",
+              "start": 667,
+              "end": 670,
+              "name": "zdt"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 671,
+              "end": 681,
+              "name": "yearOfWeek"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 683,
+            "end": 687,
+            "value": 1970
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 691,
+      "end": 747,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 691,
+        "end": 747,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 691,
+          "end": 694,
+          "name": "zdt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 697,
+          "end": 747,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 701,
+            "end": 723,
+            "object": {
+              "type": "Identifier",
+              "start": 701,
+              "end": 709,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 710,
+              "end": 723,
+              "name": "ZonedDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "BinaryExpression",
+              "start": 724,
+              "end": 739,
+              "left": {
+                "type": "Literal",
+                "start": 724,
+                "end": 728,
+                "value": "368n"
+              },
+              "operator": "*",
+              "right": {
+                "type": "Identifier",
+                "start": 731,
+                "end": 739,
+                "name": "nsPerDay"
+              }
+            },
+            {
+              "type": "Literal",
+              "start": 741,
+              "end": 746,
+              "value": "UTC"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 748,
+      "end": 787,
+      "expression": {
+        "type": "CallExpression",
+        "start": 748,
+        "end": 786,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 748,
+          "end": 764,
+          "object": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 754,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 755,
+            "end": 764,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 765,
+            "end": 779,
+            "object": {
+              "type": "Identifier",
+              "start": 765,
+              "end": 768,
+              "name": "zdt"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 769,
+              "end": 779,
+              "name": "yearOfWeek"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 781,
+            "end": 785,
+            "value": 1971
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

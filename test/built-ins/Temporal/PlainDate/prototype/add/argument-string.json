@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 492,
+  "end": 586,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -241,6 +241,101 @@
             "start": 488,
             "end": 489,
             "value": 5
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 493,
+      "end": 585,
+      "expression": {
+        "type": "CallExpression",
+        "start": 493,
+        "end": 584,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 493,
+          "end": 524,
+          "object": {
+            "type": "Identifier",
+            "start": 493,
+            "end": 508,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 524,
+            "name": "assertPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 525,
+            "end": 546,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 525,
+              "end": 537,
+              "object": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 533,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 534,
+                "end": 537,
+                "name": "add"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 538,
+                "end": 545,
+                "value": "P1M1W"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 548,
+            "end": 552,
+            "value": 2000
+          },
+          {
+            "type": "Literal",
+            "start": 554,
+            "end": 555,
+            "value": 6
+          },
+          {
+            "type": "Literal",
+            "start": 557,
+            "end": 562,
+            "value": "M06"
+          },
+          {
+            "type": "Literal",
+            "start": 564,
+            "end": 565,
+            "value": 9
+          },
+          {
+            "type": "Literal",
+            "start": 567,
+            "end": 583,
+            "value": "calendar units"
           }
         ],
         "optional": false

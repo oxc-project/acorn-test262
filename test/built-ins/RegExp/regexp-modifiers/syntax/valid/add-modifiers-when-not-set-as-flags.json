@@ -1,0 +1,593 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2119,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1633,
+      "end": 1641,
+      "expression": {
+        "type": "Literal",
+        "start": 1633,
+        "end": 1640,
+        "value": null,
+        "regex": {
+          "pattern": "(?i:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1642,
+      "end": 1651,
+      "expression": {
+        "type": "Literal",
+        "start": 1642,
+        "end": 1650,
+        "value": null,
+        "regex": {
+          "pattern": "(?is:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1652,
+      "end": 1661,
+      "expression": {
+        "type": "Literal",
+        "start": 1652,
+        "end": 1660,
+        "value": null,
+        "regex": {
+          "pattern": "(?im:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1662,
+      "end": 1670,
+      "expression": {
+        "type": "Literal",
+        "start": 1662,
+        "end": 1669,
+        "value": null,
+        "regex": {
+          "pattern": "(?s:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1671,
+      "end": 1680,
+      "expression": {
+        "type": "Literal",
+        "start": 1671,
+        "end": 1679,
+        "value": null,
+        "regex": {
+          "pattern": "(?si:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1681,
+      "end": 1690,
+      "expression": {
+        "type": "Literal",
+        "start": 1681,
+        "end": 1689,
+        "value": null,
+        "regex": {
+          "pattern": "(?sm:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1691,
+      "end": 1699,
+      "expression": {
+        "type": "Literal",
+        "start": 1691,
+        "end": 1698,
+        "value": null,
+        "regex": {
+          "pattern": "(?m:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1700,
+      "end": 1709,
+      "expression": {
+        "type": "Literal",
+        "start": 1700,
+        "end": 1708,
+        "value": null,
+        "regex": {
+          "pattern": "(?mi:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1710,
+      "end": 1719,
+      "expression": {
+        "type": "Literal",
+        "start": 1710,
+        "end": 1718,
+        "value": null,
+        "regex": {
+          "pattern": "(?ms:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1720,
+      "end": 1730,
+      "expression": {
+        "type": "Literal",
+        "start": 1720,
+        "end": 1729,
+        "value": null,
+        "regex": {
+          "pattern": "(?ims:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1731,
+      "end": 1741,
+      "expression": {
+        "type": "Literal",
+        "start": 1731,
+        "end": 1740,
+        "value": null,
+        "regex": {
+          "pattern": "(?ism:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1742,
+      "end": 1752,
+      "expression": {
+        "type": "Literal",
+        "start": 1742,
+        "end": 1751,
+        "value": null,
+        "regex": {
+          "pattern": "(?sim:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1753,
+      "end": 1763,
+      "expression": {
+        "type": "Literal",
+        "start": 1753,
+        "end": 1762,
+        "value": null,
+        "regex": {
+          "pattern": "(?smi:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1764,
+      "end": 1774,
+      "expression": {
+        "type": "Literal",
+        "start": 1764,
+        "end": 1773,
+        "value": null,
+        "regex": {
+          "pattern": "(?mis:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1775,
+      "end": 1785,
+      "expression": {
+        "type": "Literal",
+        "start": 1775,
+        "end": 1784,
+        "value": null,
+        "regex": {
+          "pattern": "(?msi:)",
+          "flags": ""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1786,
+      "end": 1806,
+      "expression": {
+        "type": "NewExpression",
+        "start": 1786,
+        "end": 1805,
+        "callee": {
+          "type": "Identifier",
+          "start": 1790,
+          "end": 1796,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1797,
+            "end": 1804,
+            "value": "(?i:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1807,
+      "end": 1828,
+      "expression": {
+        "type": "NewExpression",
+        "start": 1807,
+        "end": 1827,
+        "callee": {
+          "type": "Identifier",
+          "start": 1811,
+          "end": 1817,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1818,
+            "end": 1826,
+            "value": "(?is:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1829,
+      "end": 1850,
+      "expression": {
+        "type": "NewExpression",
+        "start": 1829,
+        "end": 1849,
+        "callee": {
+          "type": "Identifier",
+          "start": 1833,
+          "end": 1839,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1840,
+            "end": 1848,
+            "value": "(?im:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1851,
+      "end": 1871,
+      "expression": {
+        "type": "NewExpression",
+        "start": 1851,
+        "end": 1870,
+        "callee": {
+          "type": "Identifier",
+          "start": 1855,
+          "end": 1861,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1862,
+            "end": 1869,
+            "value": "(?s:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1872,
+      "end": 1893,
+      "expression": {
+        "type": "NewExpression",
+        "start": 1872,
+        "end": 1892,
+        "callee": {
+          "type": "Identifier",
+          "start": 1876,
+          "end": 1882,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1883,
+            "end": 1891,
+            "value": "(?si:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1894,
+      "end": 1915,
+      "expression": {
+        "type": "NewExpression",
+        "start": 1894,
+        "end": 1914,
+        "callee": {
+          "type": "Identifier",
+          "start": 1898,
+          "end": 1904,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1905,
+            "end": 1913,
+            "value": "(?sm:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1916,
+      "end": 1936,
+      "expression": {
+        "type": "NewExpression",
+        "start": 1916,
+        "end": 1935,
+        "callee": {
+          "type": "Identifier",
+          "start": 1920,
+          "end": 1926,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1927,
+            "end": 1934,
+            "value": "(?m:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1937,
+      "end": 1958,
+      "expression": {
+        "type": "NewExpression",
+        "start": 1937,
+        "end": 1957,
+        "callee": {
+          "type": "Identifier",
+          "start": 1941,
+          "end": 1947,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1948,
+            "end": 1956,
+            "value": "(?mi:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1959,
+      "end": 1980,
+      "expression": {
+        "type": "NewExpression",
+        "start": 1959,
+        "end": 1979,
+        "callee": {
+          "type": "Identifier",
+          "start": 1963,
+          "end": 1969,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1970,
+            "end": 1978,
+            "value": "(?ms:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1981,
+      "end": 2003,
+      "expression": {
+        "type": "NewExpression",
+        "start": 1981,
+        "end": 2002,
+        "callee": {
+          "type": "Identifier",
+          "start": 1985,
+          "end": 1991,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1992,
+            "end": 2001,
+            "value": "(?ims:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2004,
+      "end": 2026,
+      "expression": {
+        "type": "NewExpression",
+        "start": 2004,
+        "end": 2025,
+        "callee": {
+          "type": "Identifier",
+          "start": 2008,
+          "end": 2014,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 2015,
+            "end": 2024,
+            "value": "(?ism:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2027,
+      "end": 2049,
+      "expression": {
+        "type": "NewExpression",
+        "start": 2027,
+        "end": 2048,
+        "callee": {
+          "type": "Identifier",
+          "start": 2031,
+          "end": 2037,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 2038,
+            "end": 2047,
+            "value": "(?sim:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2050,
+      "end": 2072,
+      "expression": {
+        "type": "NewExpression",
+        "start": 2050,
+        "end": 2071,
+        "callee": {
+          "type": "Identifier",
+          "start": 2054,
+          "end": 2060,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 2061,
+            "end": 2070,
+            "value": "(?smi:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2073,
+      "end": 2095,
+      "expression": {
+        "type": "NewExpression",
+        "start": 2073,
+        "end": 2094,
+        "callee": {
+          "type": "Identifier",
+          "start": 2077,
+          "end": 2083,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 2084,
+            "end": 2093,
+            "value": "(?mis:)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2096,
+      "end": 2118,
+      "expression": {
+        "type": "NewExpression",
+        "start": 2096,
+        "end": 2117,
+        "callee": {
+          "type": "Identifier",
+          "start": 2100,
+          "end": 2106,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 2107,
+            "end": 2116,
+            "value": "(?msi:)"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

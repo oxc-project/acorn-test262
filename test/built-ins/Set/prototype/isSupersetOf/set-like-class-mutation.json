@@ -1,0 +1,545 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 837,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 350,
+      "end": 391,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 356,
+          "end": 390,
+          "id": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 363,
+            "name": "baseSet"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 366,
+            "end": 390,
+            "callee": {
+              "type": "Identifier",
+              "start": 370,
+              "end": 373,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 374,
+                "end": 389,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 375,
+                    "end": 378,
+                    "value": "a"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 380,
+                    "end": 383,
+                    "value": "b"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 385,
+                    "end": 388,
+                    "value": "c"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 393,
+      "end": 664,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 399,
+          "end": 663,
+          "id": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 410,
+            "name": "evilSetLike"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 413,
+            "end": 663,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 417,
+                "end": 424,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 417,
+                  "end": 421,
+                  "name": "size"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 423,
+                  "end": 424,
+                  "value": 3
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 428,
+                "end": 540,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 428,
+                  "end": 431,
+                  "name": "has"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 431,
+                  "end": 540,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 432,
+                      "end": 433,
+                      "name": "v"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 435,
+                    "end": 540,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 441,
+                        "end": 536,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 447,
+                          "end": 535,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 451,
+                            "end": 463,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 464,
+                              "end": 534,
+                              "value": "Set.prototype.isSupersetOf should not call its argument's has method"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "Property",
+                "start": 544,
+                "end": 660,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 546,
+                  "end": 550,
+                  "name": "keys"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 550,
+                  "end": 660,
+                  "id": null,
+                  "expression": false,
+                  "generator": true,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 553,
+                    "end": 660,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 559,
+                        "end": 569,
+                        "expression": {
+                          "type": "YieldExpression",
+                          "start": 559,
+                          "end": 568,
+                          "delegate": false,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 565,
+                            "end": 568,
+                            "value": "a"
+                          }
+                        }
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 574,
+                        "end": 594,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 574,
+                          "end": 593,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 574,
+                            "end": 588,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 574,
+                              "end": 581,
+                              "name": "baseSet"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 582,
+                              "end": 588,
+                              "name": "delete"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 589,
+                              "end": 592,
+                              "value": "b"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 599,
+                        "end": 619,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 599,
+                          "end": 618,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 599,
+                            "end": 613,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 599,
+                              "end": 606,
+                              "name": "baseSet"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 607,
+                              "end": 613,
+                              "name": "delete"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 614,
+                              "end": 617,
+                              "value": "c"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 624,
+                        "end": 641,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 624,
+                          "end": 640,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 624,
+                            "end": 635,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 624,
+                              "end": 631,
+                              "name": "baseSet"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 632,
+                              "end": 635,
+                              "name": "add"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 636,
+                              "end": 639,
+                              "value": "b"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 646,
+                        "end": 656,
+                        "expression": {
+                          "type": "YieldExpression",
+                          "start": 646,
+                          "end": 655,
+                          "delegate": false,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 652,
+                            "end": 655,
+                            "value": "b"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 666,
+      "end": 715,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 672,
+          "end": 714,
+          "id": {
+            "type": "Identifier",
+            "start": 672,
+            "end": 678,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 681,
+            "end": 714,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 681,
+              "end": 701,
+              "object": {
+                "type": "Identifier",
+                "start": 681,
+                "end": 688,
+                "name": "baseSet"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 689,
+                "end": 701,
+                "name": "isSupersetOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 702,
+                "end": 713,
+                "name": "evilSetLike"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 716,
+      "end": 747,
+      "expression": {
+        "type": "CallExpression",
+        "start": 716,
+        "end": 746,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 716,
+          "end": 732,
+          "object": {
+            "type": "Identifier",
+            "start": 716,
+            "end": 722,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 723,
+            "end": 732,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 733,
+            "end": 739,
+            "name": "result"
+          },
+          {
+            "type": "Literal",
+            "start": 741,
+            "end": 745,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 749,
+      "end": 784,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 755,
+          "end": 783,
+          "id": {
+            "type": "Identifier",
+            "start": 755,
+            "end": 770,
+            "name": "expectedNewBase"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 773,
+            "end": 783,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 774,
+                "end": 777,
+                "value": "a"
+              },
+              {
+                "type": "Literal",
+                "start": 779,
+                "end": 782,
+                "value": "b"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 785,
+      "end": 836,
+      "expression": {
+        "type": "CallExpression",
+        "start": 785,
+        "end": 835,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 785,
+          "end": 804,
+          "object": {
+            "type": "Identifier",
+            "start": 785,
+            "end": 791,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 792,
+            "end": 804,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 805,
+            "end": 817,
+            "elements": [
+              {
+                "type": "SpreadElement",
+                "start": 806,
+                "end": 816,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 809,
+                  "end": 816,
+                  "name": "baseSet"
+                }
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 819,
+            "end": 834,
+            "name": "expectedNewBase"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

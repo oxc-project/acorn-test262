@@ -1,0 +1,327 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2025,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1756,
+      "end": 1780,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1760,
+          "end": 1779,
+          "id": {
+            "type": "Identifier",
+            "start": 1760,
+            "end": 1763,
+            "name": "re1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1766,
+            "end": 1779,
+            "value": null,
+            "regex": {
+              "pattern": "(?m-i:^a$)",
+              "flags": "i"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1781,
+      "end": 1833,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1781,
+        "end": 1832,
+        "callee": {
+          "type": "Identifier",
+          "start": 1781,
+          "end": 1787,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1788,
+            "end": 1804,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 1789,
+              "end": 1804,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1789,
+                "end": 1797,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1789,
+                  "end": 1792,
+                  "name": "re1"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1793,
+                  "end": 1797,
+                  "name": "test"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1798,
+                  "end": 1803,
+                  "value": "A\n"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1806,
+            "end": 1831,
+            "value": "Should not match 'A\\n'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1834,
+      "end": 1881,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1834,
+        "end": 1880,
+        "callee": {
+          "type": "Identifier",
+          "start": 1834,
+          "end": 1840,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1841,
+            "end": 1856,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1841,
+              "end": 1849,
+              "object": {
+                "type": "Identifier",
+                "start": 1841,
+                "end": 1844,
+                "name": "re1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1845,
+                "end": 1849,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1850,
+                "end": 1855,
+                "value": "a\n"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1858,
+            "end": 1879,
+            "value": "Should match 'a\\n'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1883,
+      "end": 1923,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1887,
+          "end": 1922,
+          "id": {
+            "type": "Identifier",
+            "start": 1887,
+            "end": 1890,
+            "name": "re2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1893,
+            "end": 1922,
+            "callee": {
+              "type": "Identifier",
+              "start": 1897,
+              "end": 1903,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1904,
+                "end": 1916,
+                "value": "(?m-i:^a$)"
+              },
+              {
+                "type": "Literal",
+                "start": 1918,
+                "end": 1921,
+                "value": "i"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1924,
+      "end": 1976,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1924,
+        "end": 1975,
+        "callee": {
+          "type": "Identifier",
+          "start": 1924,
+          "end": 1930,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1931,
+            "end": 1947,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 1932,
+              "end": 1947,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1932,
+                "end": 1940,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1932,
+                  "end": 1935,
+                  "name": "re2"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1936,
+                  "end": 1940,
+                  "name": "test"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1941,
+                  "end": 1946,
+                  "value": "A\n"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1949,
+            "end": 1974,
+            "value": "Should not match 'A\\n'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1977,
+      "end": 2024,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1977,
+        "end": 2023,
+        "callee": {
+          "type": "Identifier",
+          "start": 1977,
+          "end": 1983,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1984,
+            "end": 1999,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1984,
+              "end": 1992,
+              "object": {
+                "type": "Identifier",
+                "start": 1984,
+                "end": 1987,
+                "name": "re2"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1988,
+                "end": 1992,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1993,
+                "end": 1998,
+                "value": "a\n"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2001,
+            "end": 2022,
+            "value": "Should match 'a\\n'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

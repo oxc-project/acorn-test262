@@ -31,7 +31,8 @@
         "start": 2667,
         "end": 2705,
         "value": "./module-import-rejection_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ThrowStatement",

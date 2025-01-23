@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 520,
+  "end": 468,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -108,87 +108,57 @@
     {
       "type": "ExpressionStatement",
       "start": 408,
-      "end": 480,
+      "end": 467,
       "expression": {
         "type": "CallExpression",
         "start": 408,
-        "end": 479,
+        "end": 466,
         "callee": {
           "type": "Identifier",
           "start": 408,
-          "end": 414,
-          "name": "assert"
-        },
-        "arguments": [
-          {
-            "type": "CallExpression",
-            "start": 415,
-            "end": 444,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 415,
-              "end": 436,
-              "object": {
-                "type": "Identifier",
-                "start": 415,
-                "end": 421,
-                "name": "newObj"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 422,
-                "end": 436,
-                "name": "hasOwnProperty"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 437,
-                "end": 443,
-                "value": "prop"
-              }
-            ],
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 446,
-            "end": 478,
-            "value": "expected newObj to have 'prop'"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 481,
-      "end": 519,
-      "expression": {
-        "type": "CallExpression",
-        "start": 481,
-        "end": 518,
-        "callee": {
-          "type": "Identifier",
-          "start": 481,
-          "end": 502,
-          "name": "verifyNotConfigurable"
+          "end": 422,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 503,
-            "end": 509,
+            "start": 423,
+            "end": 429,
             "name": "newObj"
           },
           {
             "type": "Literal",
-            "start": 511,
-            "end": 517,
+            "start": 431,
+            "end": 437,
             "value": "prop"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 439,
+            "end": 465,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 443,
+                "end": 462,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 443,
+                  "end": 455,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 457,
+                  "end": 462,
+                  "value": false
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

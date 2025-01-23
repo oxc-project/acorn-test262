@@ -1,0 +1,198 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 480,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 354,
+      "end": 374,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 358,
+          "end": 373,
+          "id": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 361,
+            "name": "arr"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 364,
+            "end": 373,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 365,
+                "end": 366,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 368,
+                "end": 369,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 371,
+                "end": 372,
+                "value": 3
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 375,
+      "end": 409,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 379,
+          "end": 408,
+          "id": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 386,
+            "name": "spliced"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 389,
+            "end": 408,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 389,
+              "end": 402,
+              "object": {
+                "type": "Identifier",
+                "start": 389,
+                "end": 392,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 393,
+                "end": 402,
+                "name": "toSpliced"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 403,
+                "end": 404,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 406,
+                "end": 407,
+                "value": 0
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 410,
+      "end": 444,
+      "expression": {
+        "type": "CallExpression",
+        "start": 410,
+        "end": 443,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 410,
+          "end": 429,
+          "object": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 416,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 429,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 430,
+            "end": 433,
+            "name": "arr"
+          },
+          {
+            "type": "Identifier",
+            "start": 435,
+            "end": 442,
+            "name": "spliced"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 445,
+      "end": 479,
+      "expression": {
+        "type": "CallExpression",
+        "start": 445,
+        "end": 478,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 445,
+          "end": 464,
+          "object": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 451,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 464,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 465,
+            "end": 468,
+            "name": "arr"
+          },
+          {
+            "type": "Identifier",
+            "start": 470,
+            "end": 477,
+            "name": "spliced"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

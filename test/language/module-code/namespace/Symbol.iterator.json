@@ -25,7 +25,8 @@
         "start": 298,
         "end": 320,
         "value": "./Symbol.iterator.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

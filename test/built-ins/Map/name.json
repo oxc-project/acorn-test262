@@ -1,159 +1,125 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 492,
+  "end": 434,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 323,
-      "end": 391,
+      "end": 433,
       "expression": {
         "type": "CallExpression",
         "start": 323,
-        "end": 390,
+        "end": 432,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 323,
-          "end": 339,
-          "object": {
-            "type": "Identifier",
-            "start": 323,
-            "end": 329,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 330,
-            "end": 339,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 340,
-            "end": 348,
-            "object": {
-              "type": "Identifier",
-              "start": 340,
-              "end": 343,
-              "name": "Map"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 344,
-              "end": 348,
-              "name": "name"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 350,
-            "end": 355,
-            "value": "Map"
-          },
-          {
-            "type": "Literal",
-            "start": 357,
-            "end": 389,
-            "value": "The value of Map.name is \"Map\""
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 393,
-      "end": 426,
-      "expression": {
-        "type": "CallExpression",
-        "start": 393,
-        "end": 425,
-        "callee": {
-          "type": "Identifier",
-          "start": 393,
-          "end": 412,
-          "name": "verifyNotEnumerable"
+          "end": 337,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 413,
-            "end": 416,
+            "start": 338,
+            "end": 341,
             "name": "Map"
           },
           {
             "type": "Literal",
-            "start": 418,
-            "end": 424,
+            "start": 343,
+            "end": 349,
             "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 427,
-      "end": 458,
-      "expression": {
-        "type": "CallExpression",
-        "start": 427,
-        "end": 457,
-        "callee": {
-          "type": "Identifier",
-          "start": 427,
-          "end": 444,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 445,
-            "end": 448,
-            "name": "Map"
           },
           {
-            "type": "Literal",
-            "start": 450,
-            "end": 456,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 459,
-      "end": 491,
-      "expression": {
-        "type": "CallExpression",
-        "start": 459,
-        "end": 490,
-        "callee": {
-          "type": "Identifier",
-          "start": 459,
-          "end": 477,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 478,
-            "end": 481,
-            "name": "Map"
-          },
-          {
-            "type": "Literal",
-            "start": 483,
-            "end": 489,
-            "value": "name"
+            "type": "ObjectExpression",
+            "start": 351,
+            "end": 431,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 355,
+                "end": 367,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 355,
+                  "end": 360,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 362,
+                  "end": 367,
+                  "value": "Map"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 371,
+                "end": 386,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 371,
+                  "end": 379,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 381,
+                  "end": 386,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 390,
+                "end": 407,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 390,
+                  "end": 400,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 402,
+                  "end": 407,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 411,
+                "end": 429,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 411,
+                  "end": 423,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 425,
+                  "end": 429,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

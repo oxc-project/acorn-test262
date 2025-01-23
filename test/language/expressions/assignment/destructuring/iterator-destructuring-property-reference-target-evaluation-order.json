@@ -940,21 +940,21 @@
               },
               {
                 "type": "Literal",
-                "start": 2071,
-                "end": 2092,
-                "value": "target-key-tostring"
-              },
-              {
-                "type": "Literal",
-                "start": 2098,
-                "end": 2113,
+                "start": 2075,
+                "end": 2090,
                 "value": "iterator-step"
               },
               {
                 "type": "Literal",
-                "start": 2115,
-                "end": 2130,
+                "start": 2092,
+                "end": 2107,
                 "value": "iterator-done"
+              },
+              {
+                "type": "Literal",
+                "start": 2113,
+                "end": 2134,
+                "value": "target-key-tostring"
               },
               {
                 "type": "Literal",

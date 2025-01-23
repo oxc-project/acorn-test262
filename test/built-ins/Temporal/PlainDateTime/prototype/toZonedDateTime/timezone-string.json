@@ -1,0 +1,284 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 538,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 280,
+      "end": 336,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 286,
+          "end": 335,
+          "id": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 294,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 297,
+            "end": 335,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 301,
+              "end": 323,
+              "object": {
+                "type": "Identifier",
+                "start": 301,
+                "end": 309,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 310,
+                "end": 323,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 324,
+                "end": 328,
+                "value": 2000
+              },
+              {
+                "type": "Literal",
+                "start": 330,
+                "end": 331,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 333,
+                "end": 334,
+                "value": 2
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 338,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 338,
+        "end": 536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 338,
+          "end": 363,
+          "object": {
+            "type": "ArrayExpression",
+            "start": 338,
+            "end": 355,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 339,
+                "end": 344,
+                "value": "UTC"
+              },
+              {
+                "type": "Literal",
+                "start": 346,
+                "end": 354,
+                "value": "+01:30"
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 363,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 364,
+            "end": 535,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 365,
+                "end": 373,
+                "name": "timeZone"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 378,
+              "end": 535,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 382,
+                  "end": 432,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 388,
+                      "end": 431,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 388,
+                        "end": 394,
+                        "name": "result"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 397,
+                        "end": 431,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 397,
+                          "end": 421,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 397,
+                            "end": 405,
+                            "name": "instance"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 406,
+                            "end": 421,
+                            "name": "toZonedDateTime"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 422,
+                            "end": 430,
+                            "name": "timeZone"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 435,
+                  "end": 533,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 435,
+                    "end": 532,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 435,
+                      "end": 451,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 435,
+                        "end": 441,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 442,
+                        "end": 451,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 452,
+                        "end": 469,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 452,
+                          "end": 458,
+                          "name": "result"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 459,
+                          "end": 469,
+                          "name": "timeZoneId"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 471,
+                        "end": 479,
+                        "name": "timeZone"
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "start": 481,
+                        "end": 531,
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 520,
+                            "end": 528,
+                            "name": "timeZone"
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 482,
+                            "end": 518,
+                            "value": {
+                              "raw": "time zone slot should store string \"",
+                              "cooked": "time zone slot should store string \""
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 529,
+                            "end": 530,
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

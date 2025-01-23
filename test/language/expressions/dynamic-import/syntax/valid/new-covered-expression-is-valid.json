@@ -72,7 +72,8 @@
                           "start": 717,
                           "end": 719,
                           "value": ""
-                        }
+                        },
+                        "options": null
                       }
                     },
                     "arguments": []
@@ -175,7 +176,8 @@
                               "start": 791,
                               "end": 793,
                               "value": ""
-                            }
+                            },
+                            "options": null
                           }
                         ]
                       }
@@ -246,7 +248,8 @@
                         "start": 842,
                         "end": 844,
                         "value": ""
-                      }
+                      },
+                      "options": null
                     },
                     {
                       "type": "FunctionExpression",

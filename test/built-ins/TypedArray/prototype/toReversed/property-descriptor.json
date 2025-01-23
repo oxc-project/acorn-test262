@@ -1,0 +1,252 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 839,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 598,
+      "end": 677,
+      "expression": {
+        "type": "CallExpression",
+        "start": 598,
+        "end": 676,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 598,
+          "end": 614,
+          "object": {
+            "type": "Identifier",
+            "start": 598,
+            "end": 604,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 605,
+            "end": 614,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 615,
+            "end": 653,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 622,
+              "end": 653,
+              "object": {
+                "type": "MemberExpression",
+                "start": 622,
+                "end": 642,
+                "object": {
+                  "type": "Identifier",
+                  "start": 622,
+                  "end": 632,
+                  "name": "TypedArray"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 633,
+                  "end": 642,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 643,
+                "end": 653,
+                "name": "toReversed"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 655,
+            "end": 665,
+            "value": "function"
+          },
+          {
+            "type": "Literal",
+            "start": 667,
+            "end": 675,
+            "value": "typeof"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 679,
+      "end": 838,
+      "expression": {
+        "type": "CallExpression",
+        "start": 679,
+        "end": 837,
+        "callee": {
+          "type": "Identifier",
+          "start": 679,
+          "end": 693,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 694,
+            "end": 714,
+            "object": {
+              "type": "Identifier",
+              "start": 694,
+              "end": 704,
+              "name": "TypedArray"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 705,
+              "end": 714,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 716,
+            "end": 728,
+            "value": "toReversed"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 730,
+            "end": 836,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 734,
+                "end": 772,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 734,
+                  "end": 739,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "MemberExpression",
+                  "start": 741,
+                  "end": 772,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 741,
+                    "end": 761,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 741,
+                      "end": 751,
+                      "name": "TypedArray"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 752,
+                      "end": 761,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 762,
+                    "end": 772,
+                    "name": "toReversed"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 776,
+                "end": 790,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 776,
+                  "end": 784,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 786,
+                  "end": 790,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 794,
+                "end": 811,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 794,
+                  "end": 804,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 806,
+                  "end": 811,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 815,
+                "end": 833,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 815,
+                  "end": 827,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 829,
+                  "end": 833,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

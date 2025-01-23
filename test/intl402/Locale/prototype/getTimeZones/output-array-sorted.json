@@ -1,0 +1,155 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 824,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 719,
+      "end": 774,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 725,
+          "end": 773,
+          "id": {
+            "type": "Identifier",
+            "start": 725,
+            "end": 731,
+            "name": "output"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 734,
+            "end": 773,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 734,
+              "end": 771,
+              "object": {
+                "type": "NewExpression",
+                "start": 734,
+                "end": 758,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 738,
+                  "end": 749,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 738,
+                    "end": 742,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 743,
+                    "end": 749,
+                    "name": "Locale"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 750,
+                    "end": 757,
+                    "value": "en-US"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 759,
+                "end": 771,
+                "name": "getTimeZones"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 775,
+      "end": 823,
+      "expression": {
+        "type": "CallExpression",
+        "start": 775,
+        "end": 822,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 775,
+          "end": 794,
+          "object": {
+            "type": "Identifier",
+            "start": 775,
+            "end": 781,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 782,
+            "end": 794,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 795,
+            "end": 801,
+            "name": "output"
+          },
+          {
+            "type": "CallExpression",
+            "start": 803,
+            "end": 821,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 803,
+              "end": 819,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 803,
+                "end": 814,
+                "elements": [
+                  {
+                    "type": "SpreadElement",
+                    "start": 804,
+                    "end": 813,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 807,
+                      "end": 813,
+                      "name": "output"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 815,
+                "end": 819,
+                "name": "sort"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

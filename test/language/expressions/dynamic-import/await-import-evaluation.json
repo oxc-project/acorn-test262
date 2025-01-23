@@ -77,7 +77,8 @@
                   "start": 742,
                   "end": 780,
                   "value": "./await-import-evaluation_FIXTURE.js"
-                }
+                },
+                "options": null
               },
               "property": {
                 "type": "Identifier",

@@ -306,7 +306,8 @@
         "start": 1976,
         "end": 2010,
         "value": "./instn-iee-bndng-gen_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

@@ -1,205 +1,138 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 820,
+  "end": 778,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 660,
-      "end": 701,
+      "end": 777,
       "expression": {
         "type": "CallExpression",
         "start": 660,
-        "end": 700,
+        "end": 776,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 660,
-          "end": 676,
-          "object": {
-            "type": "Identifier",
-            "start": 660,
-            "end": 666,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 667,
-            "end": 676,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 674,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 677,
-            "end": 691,
+            "start": 675,
+            "end": 684,
             "object": {
-              "type": "MemberExpression",
-              "start": 677,
-              "end": 686,
-              "object": {
-                "type": "Identifier",
-                "start": 677,
-                "end": 681,
-                "name": "Math"
+              "type": "Identifier",
+              "start": 675,
+              "end": 679,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 680,
+              "end": 684,
+              "name": "cosh"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 686,
+            "end": 692,
+            "value": "name"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 694,
+            "end": 775,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 698,
+                "end": 711,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 698,
+                  "end": 703,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 705,
+                  "end": 711,
+                  "value": "cosh"
+                },
+                "kind": "init"
               },
-              "property": {
-                "type": "Identifier",
-                "start": 682,
-                "end": 686,
-                "name": "cosh"
+              {
+                "type": "Property",
+                "start": 715,
+                "end": 730,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 715,
+                  "end": 723,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 725,
+                  "end": 730,
+                  "value": false
+                },
+                "kind": "init"
               },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 687,
-              "end": 691,
-              "name": "name"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 693,
-            "end": 699,
-            "value": "cosh"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 703,
-      "end": 742,
-      "expression": {
-        "type": "CallExpression",
-        "start": 703,
-        "end": 741,
-        "callee": {
-          "type": "Identifier",
-          "start": 703,
-          "end": 722,
-          "name": "verifyNotEnumerable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 723,
-            "end": 732,
-            "object": {
-              "type": "Identifier",
-              "start": 723,
-              "end": 727,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 728,
-              "end": 732,
-              "name": "cosh"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 734,
-            "end": 740,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 743,
-      "end": 780,
-      "expression": {
-        "type": "CallExpression",
-        "start": 743,
-        "end": 779,
-        "callee": {
-          "type": "Identifier",
-          "start": 743,
-          "end": 760,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 761,
-            "end": 770,
-            "object": {
-              "type": "Identifier",
-              "start": 761,
-              "end": 765,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 766,
-              "end": 770,
-              "name": "cosh"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 772,
-            "end": 778,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 781,
-      "end": 819,
-      "expression": {
-        "type": "CallExpression",
-        "start": 781,
-        "end": 818,
-        "callee": {
-          "type": "Identifier",
-          "start": 781,
-          "end": 799,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 800,
-            "end": 809,
-            "object": {
-              "type": "Identifier",
-              "start": 800,
-              "end": 804,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 805,
-              "end": 809,
-              "name": "cosh"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 811,
-            "end": 817,
-            "value": "name"
+              {
+                "type": "Property",
+                "start": 734,
+                "end": 751,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 734,
+                  "end": 744,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 746,
+                  "end": 751,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 755,
+                "end": 773,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 755,
+                  "end": 767,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 769,
+                  "end": 773,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

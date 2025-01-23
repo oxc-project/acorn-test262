@@ -481,60 +481,78 @@
     {
       "type": "ExpressionStatement",
       "start": 898,
-      "end": 938,
-      "expression": {
-        "type": "CallExpression",
-        "start": 898,
-        "end": 937,
-        "callee": {
-          "type": "Identifier",
-          "start": 898,
-          "end": 917,
-          "name": "verifyNotEnumerable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 918,
-            "end": 924,
-            "name": "arrObj"
-          },
-          {
-            "type": "Literal",
-            "start": 926,
-            "end": 936,
-            "value": "property"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 940,
       "end": 982,
       "expression": {
         "type": "CallExpression",
-        "start": 940,
+        "start": 898,
         "end": 981,
         "callee": {
           "type": "Identifier",
-          "start": 940,
-          "end": 961,
-          "name": "verifyNotConfigurable"
+          "start": 898,
+          "end": 912,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 962,
-            "end": 968,
+            "start": 913,
+            "end": 919,
             "name": "arrObj"
           },
           {
             "type": "Literal",
-            "start": 970,
-            "end": 980,
+            "start": 921,
+            "end": 931,
             "value": "property"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 933,
+            "end": 980,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 937,
+                "end": 954,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 937,
+                  "end": 947,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 949,
+                  "end": 954,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 958,
+                "end": 977,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 958,
+                  "end": 970,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 972,
+                  "end": 977,
+                  "value": false
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

@@ -1,0 +1,233 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 599,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 316,
+      "end": 598,
+      "expression": {
+        "type": "CallExpression",
+        "start": 316,
+        "end": 597,
+        "callee": {
+          "type": "Identifier",
+          "start": 316,
+          "end": 325,
+          "name": "asyncTest"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 326,
+            "end": 596,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 344,
+              "end": 596,
+              "body": [
+                {
+                  "type": "FunctionDeclaration",
+                  "start": 348,
+                  "end": 450,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 364,
+                    "end": 377,
+                    "name": "generateInput"
+                  },
+                  "expression": false,
+                  "generator": true,
+                  "async": true,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 381,
+                    "end": 450,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 387,
+                        "end": 446,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 393,
+                          "end": 445,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 397,
+                            "end": 409,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 410,
+                              "end": 444,
+                              "value": "This error should be propagated."
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 453,
+                  "end": 483,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 459,
+                      "end": 482,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 459,
+                        "end": 464,
+                        "name": "input"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 467,
+                        "end": 482,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 467,
+                          "end": 480,
+                          "name": "generateInput"
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 486,
+                  "end": 531,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 492,
+                      "end": 530,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 492,
+                        "end": 505,
+                        "name": "outputPromise"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 508,
+                        "end": 530,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 508,
+                          "end": 523,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 508,
+                            "end": 513,
+                            "name": "Array"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 514,
+                            "end": 523,
+                            "name": "fromAsync"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 524,
+                            "end": 529,
+                            "name": "input"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 534,
+                  "end": 594,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 534,
+                    "end": 593,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 540,
+                      "end": 593,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 540,
+                        "end": 558,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 540,
+                          "end": 546,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 547,
+                          "end": 558,
+                          "name": "throwsAsync"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 559,
+                          "end": 571,
+                          "name": "Test262Error"
+                        },
+                        {
+                          "type": "ArrowFunctionExpression",
+                          "start": 573,
+                          "end": 592,
+                          "id": null,
+                          "expression": true,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "Identifier",
+                            "start": 579,
+                            "end": 592,
+                            "name": "outputPromise"
+                          }
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

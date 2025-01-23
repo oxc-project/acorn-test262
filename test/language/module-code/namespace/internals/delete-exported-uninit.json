@@ -25,7 +25,8 @@
         "start": 501,
         "end": 530,
         "value": "./delete-exported-uninit.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -1179,7 +1180,8 @@
         "start": 1759,
         "end": 1788,
         "value": "./delete-exported-uninit.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

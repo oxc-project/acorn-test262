@@ -1,0 +1,275 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 804,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 609,
+      "end": 653,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 613,
+          "end": 652,
+          "id": {
+            "type": "Identifier",
+            "start": 613,
+            "end": 616,
+            "name": "arr"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 619,
+            "end": 652,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 620,
+                "end": 621,
+                "value": 0
+              },
+              null,
+              {
+                "type": "Literal",
+                "start": 635,
+                "end": 636,
+                "value": 2
+              },
+              null,
+              {
+                "type": "Literal",
+                "start": 650,
+                "end": 651,
+                "value": 4
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 654,
+      "end": 677,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 654,
+        "end": 676,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 654,
+          "end": 672,
+          "object": {
+            "type": "MemberExpression",
+            "start": 654,
+            "end": 669,
+            "object": {
+              "type": "Identifier",
+              "start": 654,
+              "end": 659,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 660,
+              "end": 669,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 670,
+            "end": 671,
+            "value": 3
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 675,
+          "end": 676,
+          "value": 3
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 679,
+      "end": 711,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 683,
+          "end": 710,
+          "id": {
+            "type": "Identifier",
+            "start": 683,
+            "end": 691,
+            "name": "reversed"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 694,
+            "end": 710,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 694,
+              "end": 708,
+              "object": {
+                "type": "Identifier",
+                "start": 694,
+                "end": 697,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 698,
+                "end": 708,
+                "name": "toReversed"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 712,
+      "end": 767,
+      "expression": {
+        "type": "CallExpression",
+        "start": 712,
+        "end": 766,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 712,
+          "end": 731,
+          "object": {
+            "type": "Identifier",
+            "start": 712,
+            "end": 718,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 719,
+            "end": 731,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 732,
+            "end": 740,
+            "name": "reversed"
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 742,
+            "end": 765,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 743,
+                "end": 744,
+                "value": 4
+              },
+              {
+                "type": "Literal",
+                "start": 746,
+                "end": 747,
+                "value": 3
+              },
+              {
+                "type": "Literal",
+                "start": 749,
+                "end": 750,
+                "value": 2
+              },
+              {
+                "type": "Identifier",
+                "start": 752,
+                "end": 761,
+                "name": "undefined"
+              },
+              {
+                "type": "Literal",
+                "start": 763,
+                "end": 764,
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 768,
+      "end": 803,
+      "expression": {
+        "type": "CallExpression",
+        "start": 768,
+        "end": 802,
+        "callee": {
+          "type": "Identifier",
+          "start": 768,
+          "end": 774,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 775,
+            "end": 801,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 775,
+              "end": 798,
+              "object": {
+                "type": "Identifier",
+                "start": 775,
+                "end": 783,
+                "name": "reversed"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 784,
+                "end": 798,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 799,
+                "end": 800,
+                "value": 3
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

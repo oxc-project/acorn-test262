@@ -1,0 +1,556 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 753,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 265,
+      "end": 352,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 271,
+          "end": 351,
+          "id": {
+            "type": "Identifier",
+            "start": 271,
+            "end": 274,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 277,
+            "end": 351,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 277,
+              "end": 304,
+              "object": {
+                "type": "MemberExpression",
+                "start": 277,
+                "end": 299,
+                "object": {
+                  "type": "Identifier",
+                  "start": 277,
+                  "end": 285,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 286,
+                  "end": 299,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 300,
+                "end": 304,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 305,
+                "end": 350,
+                "value": "1976-11-18T15:23:30.123456789+01:00[+01:00]"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 354,
+      "end": 412,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 360,
+          "end": 411,
+          "id": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 373,
+            "name": "laterDateTime"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 376,
+            "end": 411,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 376,
+              "end": 383,
+              "object": {
+                "type": "Identifier",
+                "start": 376,
+                "end": 379,
+                "name": "zdt"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 380,
+                "end": 383,
+                "name": "add"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 384,
+                "end": 410,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 388,
+                    "end": 396,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 388,
+                      "end": 392,
+                      "name": "days"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 394,
+                      "end": 396,
+                      "value": 42
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 400,
+                    "end": 408,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 400,
+                      "end": 405,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 407,
+                      "end": 408,
+                      "value": 3
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 413,
+      "end": 488,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 419,
+          "end": 487,
+          "id": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 434,
+            "name": "weeksDifference"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 437,
+            "end": 487,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 437,
+              "end": 446,
+              "object": {
+                "type": "Identifier",
+                "start": 437,
+                "end": 440,
+                "name": "zdt"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 441,
+                "end": 446,
+                "name": "until"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 447,
+                "end": 460,
+                "name": "laterDateTime"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 462,
+                "end": 486,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 464,
+                    "end": 484,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 464,
+                      "end": 475,
+                      "name": "largestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 477,
+                      "end": 484,
+                      "value": "weeks"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 489,
+      "end": 535,
+      "expression": {
+        "type": "CallExpression",
+        "start": 489,
+        "end": 534,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 489,
+          "end": 508,
+          "object": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 495,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 508,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 509,
+            "end": 530,
+            "object": {
+              "type": "Identifier",
+              "start": 509,
+              "end": 524,
+              "name": "weeksDifference"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 525,
+              "end": 530,
+              "name": "weeks"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 532,
+            "end": 533,
+            "value": 0
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 536,
+      "end": 580,
+      "expression": {
+        "type": "CallExpression",
+        "start": 536,
+        "end": 579,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 536,
+          "end": 552,
+          "object": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 542,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 552,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 553,
+            "end": 575,
+            "object": {
+              "type": "Identifier",
+              "start": 553,
+              "end": 568,
+              "name": "weeksDifference"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 569,
+              "end": 575,
+              "name": "months"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 577,
+            "end": 578,
+            "value": 0
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 581,
+      "end": 658,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 587,
+          "end": 657,
+          "id": {
+            "type": "Identifier",
+            "start": 587,
+            "end": 603,
+            "name": "monthsDifference"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 606,
+            "end": 657,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 606,
+              "end": 615,
+              "object": {
+                "type": "Identifier",
+                "start": 606,
+                "end": 609,
+                "name": "zdt"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 610,
+                "end": 615,
+                "name": "until"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 616,
+                "end": 629,
+                "name": "laterDateTime"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 631,
+                "end": 656,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 633,
+                    "end": 654,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 633,
+                      "end": 644,
+                      "name": "largestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 646,
+                      "end": 654,
+                      "value": "months"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 659,
+      "end": 703,
+      "expression": {
+        "type": "CallExpression",
+        "start": 659,
+        "end": 702,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 659,
+          "end": 675,
+          "object": {
+            "type": "Identifier",
+            "start": 659,
+            "end": 665,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 666,
+            "end": 675,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 676,
+            "end": 698,
+            "object": {
+              "type": "Identifier",
+              "start": 676,
+              "end": 692,
+              "name": "monthsDifference"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 693,
+              "end": 698,
+              "name": "weeks"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 700,
+            "end": 701,
+            "value": 0
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 704,
+      "end": 752,
+      "expression": {
+        "type": "CallExpression",
+        "start": 704,
+        "end": 751,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 704,
+          "end": 723,
+          "object": {
+            "type": "Identifier",
+            "start": 704,
+            "end": 710,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 711,
+            "end": 723,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 724,
+            "end": 747,
+            "object": {
+              "type": "Identifier",
+              "start": 724,
+              "end": 740,
+              "name": "monthsDifference"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 741,
+              "end": 747,
+              "name": "months"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 749,
+            "end": 750,
+            "value": 0
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

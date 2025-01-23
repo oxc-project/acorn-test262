@@ -76,7 +76,8 @@
                 "start": 1282,
                 "end": 1302,
                 "value": "./empty_FIXTURE.js"
-              }
+              },
+              "options": null
             }
           }
         ]

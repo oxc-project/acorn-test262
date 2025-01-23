@@ -1,0 +1,158 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 394,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 286,
+      "end": 339,
+      "expression": {
+        "type": "CallExpression",
+        "start": 286,
+        "end": 338,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 286,
+          "end": 302,
+          "object": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 292,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 293,
+            "end": 302,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 303,
+            "end": 334,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 303,
+              "end": 315,
+              "object": {
+                "type": "Literal",
+                "start": 303,
+                "end": 308,
+                "value": "xab"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 309,
+                "end": 315,
+                "name": "search"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 316,
+                "end": 333,
+                "value": null,
+                "regex": {
+                  "pattern": "(?<x>a)|(?<x>b)",
+                  "flags": ""
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 336,
+            "end": 337,
+            "value": 1
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 340,
+      "end": 393,
+      "expression": {
+        "type": "CallExpression",
+        "start": 340,
+        "end": 392,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 340,
+          "end": 356,
+          "object": {
+            "type": "Identifier",
+            "start": 340,
+            "end": 346,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 356,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 357,
+            "end": 388,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 357,
+              "end": 369,
+              "object": {
+                "type": "Literal",
+                "start": 357,
+                "end": 362,
+                "value": "xba"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 363,
+                "end": 369,
+                "name": "search"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 370,
+                "end": 387,
+                "value": null,
+                "regex": {
+                  "pattern": "(?<x>a)|(?<x>b)",
+                  "flags": ""
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 390,
+            "end": 391,
+            "value": 1
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

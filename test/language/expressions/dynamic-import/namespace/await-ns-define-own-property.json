@@ -133,7 +133,8 @@
                       "start": 3957,
                       "end": 3991,
                       "value": "./define-own-property_FIXTURE.js"
-                    }
+                    },
+                    "options": null
                   }
                 }
               }

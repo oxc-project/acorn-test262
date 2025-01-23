@@ -57,7 +57,8 @@
           "start": 1296,
           "end": 1316,
           "value": "./empty_FIXTURE.js"
-        }
+        },
+        "options": null
       },
       "body": {
         "type": "BlockStatement",

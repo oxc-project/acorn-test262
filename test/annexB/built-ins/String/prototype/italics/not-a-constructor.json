@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 956,
+  "end": 903,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -96,11 +96,11 @@
     {
       "type": "ExpressionStatement",
       "start": 831,
-      "end": 954,
+      "end": 901,
       "expression": {
         "type": "CallExpression",
         "start": 831,
-        "end": 953,
+        "end": 900,
         "callee": {
           "type": "MemberExpression",
           "start": 831,
@@ -186,12 +186,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 901,
-            "end": 952,
-            "value": "`new String.prototype.italics()` throws TypeError"
           }
         ],
         "optional": false

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 869,
+  "end": 823,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -166,91 +166,99 @@
     {
       "type": "ExpressionStatement",
       "start": 707,
-      "end": 762,
+      "end": 822,
       "expression": {
         "type": "CallExpression",
         "start": 707,
-        "end": 761,
+        "end": 821,
         "callee": {
           "type": "Identifier",
           "start": 707,
-          "end": 726,
-          "name": "verifyNotEnumerable"
+          "end": 721,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 727,
-            "end": 752,
+            "start": 722,
+            "end": 747,
             "name": "RegExpStringIteratorProto"
           },
           {
             "type": "Literal",
-            "start": 754,
-            "end": 760,
+            "start": 749,
+            "end": 755,
             "value": "next"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 763,
-      "end": 813,
-      "expression": {
-        "type": "CallExpression",
-        "start": 763,
-        "end": 812,
-        "callee": {
-          "type": "Identifier",
-          "start": 763,
-          "end": 777,
-          "name": "verifyWritable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 778,
-            "end": 803,
-            "name": "RegExpStringIteratorProto"
           },
           {
-            "type": "Literal",
-            "start": 805,
-            "end": 811,
-            "value": "next"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 814,
-      "end": 868,
-      "expression": {
-        "type": "CallExpression",
-        "start": 814,
-        "end": 867,
-        "callee": {
-          "type": "Identifier",
-          "start": 814,
-          "end": 832,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 833,
-            "end": 858,
-            "name": "RegExpStringIteratorProto"
-          },
-          {
-            "type": "Literal",
-            "start": 860,
-            "end": 866,
-            "value": "next"
+            "type": "ObjectExpression",
+            "start": 757,
+            "end": 820,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 761,
+                "end": 775,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 761,
+                  "end": 769,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 771,
+                  "end": 775,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 779,
+                "end": 796,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 779,
+                  "end": 789,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 791,
+                  "end": 796,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 800,
+                "end": 818,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 800,
+                  "end": 812,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 814,
+                  "end": 818,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

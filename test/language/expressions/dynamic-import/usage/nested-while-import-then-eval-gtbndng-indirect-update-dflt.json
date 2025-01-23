@@ -105,7 +105,8 @@
                             "start": 1591,
                             "end": 1639,
                             "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js"
-                          }
+                          },
+                          "options": null
                         },
                         "property": {
                           "type": "Identifier",

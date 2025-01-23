@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 397,
+  "end": 399,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 267,
-      "end": 305,
+      "start": 268,
+      "end": 306,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 273,
-          "end": 305,
+          "start": 274,
+          "end": 306,
           "id": {
             "type": "Identifier",
-            "start": 273,
-            "end": 281,
+            "start": 274,
+            "end": 282,
             "name": "Subclass"
           },
           "init": {
             "type": "ClassExpression",
-            "start": 284,
-            "end": 305,
+            "start": 285,
+            "end": 306,
             "id": null,
             "superClass": {
               "type": "Identifier",
-              "start": 298,
-              "end": 302,
+              "start": 299,
+              "end": 303,
               "name": "Date"
             },
             "body": {
               "type": "ClassBody",
-              "start": 303,
-              "end": 305,
+              "start": 304,
+              "end": 306,
               "body": []
             }
           }
@@ -42,30 +42,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 307,
-      "end": 334,
+      "start": 308,
+      "end": 336,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 313,
-          "end": 333,
+          "start": 314,
+          "end": 335,
           "id": {
             "type": "Identifier",
-            "start": 313,
-            "end": 316,
+            "start": 314,
+            "end": 317,
             "name": "sub"
           },
           "init": {
             "type": "NewExpression",
-            "start": 319,
-            "end": 333,
+            "start": 320,
+            "end": 335,
             "callee": {
               "type": "Identifier",
-              "start": 323,
-              "end": 331,
+              "start": 324,
+              "end": 332,
               "name": "Subclass"
             },
-            "arguments": []
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 333,
+                "end": 334,
+                "value": 0
+              }
+            ]
           }
         }
       ],
@@ -73,34 +80,34 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 335,
-      "end": 367,
+      "start": 337,
+      "end": 369,
       "expression": {
         "type": "CallExpression",
-        "start": 335,
-        "end": 366,
+        "start": 337,
+        "end": 368,
         "callee": {
           "type": "Identifier",
-          "start": 335,
-          "end": 341,
+          "start": 337,
+          "end": 343,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 342,
-            "end": 365,
+            "start": 344,
+            "end": 367,
             "left": {
               "type": "Identifier",
-              "start": 342,
-              "end": 345,
+              "start": 344,
+              "end": 347,
               "name": "sub"
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
-              "start": 357,
-              "end": 365,
+              "start": 359,
+              "end": 367,
               "name": "Subclass"
             }
           }
@@ -110,34 +117,34 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 368,
-      "end": 396,
+      "start": 370,
+      "end": 398,
       "expression": {
         "type": "CallExpression",
-        "start": 368,
-        "end": 395,
+        "start": 370,
+        "end": 397,
         "callee": {
           "type": "Identifier",
-          "start": 368,
-          "end": 374,
+          "start": 370,
+          "end": 376,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 375,
-            "end": 394,
+            "start": 377,
+            "end": 396,
             "left": {
               "type": "Identifier",
-              "start": 375,
-              "end": 378,
+              "start": 377,
+              "end": 380,
               "name": "sub"
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
-              "start": 390,
-              "end": 394,
+              "start": 392,
+              "end": 396,
               "name": "Date"
             }
           }

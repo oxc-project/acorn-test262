@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 737,
+  "end": 753,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 671,
-      "end": 736,
+      "start": 687,
+      "end": 752,
       "expression": {
         "type": "CallExpression",
-        "start": 671,
-        "end": 735,
+        "start": 687,
+        "end": 751,
         "callee": {
           "type": "MemberExpression",
-          "start": 671,
-          "end": 687,
+          "start": 687,
+          "end": 703,
           "object": {
             "type": "Identifier",
-            "start": 671,
-            "end": 677,
+            "start": 687,
+            "end": 693,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 678,
-            "end": 687,
+            "start": 694,
+            "end": 703,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,32 +33,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 688,
-            "end": 696,
+            "start": 704,
+            "end": 712,
             "left": {
               "type": "Literal",
-              "start": 688,
-              "end": 690,
+              "start": 704,
+              "end": 706,
               "value": "0n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 694,
-              "end": 696,
+              "start": 710,
+              "end": 712,
               "value": "0n"
             }
           },
           {
             "type": "Literal",
-            "start": 698,
-            "end": 700,
+            "start": 714,
+            "end": 716,
             "value": "1n"
           },
           {
             "type": "Literal",
-            "start": 702,
-            "end": 734,
+            "start": 718,
+            "end": 750,
             "value": "The result of (0n ** 0n) is 1n"
           }
         ],

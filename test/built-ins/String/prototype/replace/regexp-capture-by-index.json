@@ -1,0 +1,7233 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 12221,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 4090,
+      "end": 4112,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4094,
+          "end": 4111,
+          "id": {
+            "type": "Identifier",
+            "start": 4094,
+            "end": 4097,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 4100,
+            "end": 4111,
+            "value": "foo-x-bar"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 4114,
+      "end": 4126,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4118,
+          "end": 4125,
+          "id": {
+            "type": "Identifier",
+            "start": 4118,
+            "end": 4119,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 4122,
+            "end": 4125,
+            "value": "x"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 4127,
+      "end": 4141,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4131,
+          "end": 4140,
+          "id": {
+            "type": "Identifier",
+            "start": 4131,
+            "end": 4134,
+            "name": "re0"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 4137,
+            "end": 4140,
+            "value": {},
+            "regex": {
+              "pattern": "x",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 4142,
+      "end": 4158,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4146,
+          "end": 4157,
+          "id": {
+            "type": "Identifier",
+            "start": 4146,
+            "end": 4149,
+            "name": "re1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 4152,
+            "end": 4157,
+            "value": {},
+            "regex": {
+              "pattern": "(x)",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 4159,
+      "end": 4181,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4163,
+          "end": 4180,
+          "id": {
+            "type": "Identifier",
+            "start": 4163,
+            "end": 4167,
+            "name": "re1x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 4170,
+            "end": 4180,
+            "value": {},
+            "regex": {
+              "pattern": "(x)($^)?",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 4182,
+      "end": 4217,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4186,
+          "end": 4216,
+          "id": {
+            "type": "Identifier",
+            "start": 4186,
+            "end": 4190,
+            "name": "re10"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 4193,
+            "end": 4216,
+            "value": {},
+            "regex": {
+              "pattern": "((((((((((x))))))))))",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4219,
+      "end": 4332,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4219,
+        "end": 4331,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4219,
+          "end": 4235,
+          "object": {
+            "type": "Identifier",
+            "start": 4219,
+            "end": 4225,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4226,
+            "end": 4235,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4236,
+            "end": 4258,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4236,
+              "end": 4247,
+              "object": {
+                "type": "Identifier",
+                "start": 4236,
+                "end": 4239,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4240,
+                "end": 4247,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4248,
+                "end": 4249,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 4251,
+                "end": 4257,
+                "value": "|$0|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4260,
+            "end": 4274,
+            "value": "foo-|$0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 4278,
+            "end": 4330,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 4278,
+              "end": 4324,
+              "left": {
+                "type": "Literal",
+                "start": 4278,
+                "end": 4320,
+                "value": "`$0` is not a capture index for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 4323,
+                "end": 4324,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 4327,
+              "end": 4330,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4333,
+      "end": 4443,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4333,
+        "end": 4442,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4333,
+          "end": 4349,
+          "object": {
+            "type": "Identifier",
+            "start": 4333,
+            "end": 4339,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4340,
+            "end": 4349,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4350,
+            "end": 4374,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4350,
+              "end": 4361,
+              "object": {
+                "type": "Identifier",
+                "start": 4350,
+                "end": 4353,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4354,
+                "end": 4361,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4362,
+                "end": 4365,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 4367,
+                "end": 4373,
+                "value": "|$0|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4376,
+            "end": 4390,
+            "value": "foo-|$0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 4394,
+            "end": 4441,
+            "left": {
+              "type": "Literal",
+              "start": 4394,
+              "end": 4427,
+              "value": "`$0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 4430,
+              "end": 4441,
+              "callee": {
+                "type": "Identifier",
+                "start": 4430,
+                "end": 4436,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 4437,
+                  "end": 4440,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4444,
+      "end": 4554,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4444,
+        "end": 4553,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4444,
+          "end": 4460,
+          "object": {
+            "type": "Identifier",
+            "start": 4444,
+            "end": 4450,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4451,
+            "end": 4460,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4461,
+            "end": 4485,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4461,
+              "end": 4472,
+              "object": {
+                "type": "Identifier",
+                "start": 4461,
+                "end": 4464,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4465,
+                "end": 4472,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4473,
+                "end": 4476,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 4478,
+                "end": 4484,
+                "value": "|$0|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4487,
+            "end": 4501,
+            "value": "foo-|$0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 4505,
+            "end": 4552,
+            "left": {
+              "type": "Literal",
+              "start": 4505,
+              "end": 4538,
+              "value": "`$0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 4541,
+              "end": 4552,
+              "callee": {
+                "type": "Identifier",
+                "start": 4541,
+                "end": 4547,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 4548,
+                  "end": 4551,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4555,
+      "end": 4667,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4555,
+        "end": 4666,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4555,
+          "end": 4571,
+          "object": {
+            "type": "Identifier",
+            "start": 4555,
+            "end": 4561,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4562,
+            "end": 4571,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4572,
+            "end": 4597,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4572,
+              "end": 4583,
+              "object": {
+                "type": "Identifier",
+                "start": 4572,
+                "end": 4575,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4576,
+                "end": 4583,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4584,
+                "end": 4588,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 4590,
+                "end": 4596,
+                "value": "|$0|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4599,
+            "end": 4613,
+            "value": "foo-|$0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 4617,
+            "end": 4665,
+            "left": {
+              "type": "Literal",
+              "start": 4617,
+              "end": 4650,
+              "value": "`$0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 4653,
+              "end": 4665,
+              "callee": {
+                "type": "Identifier",
+                "start": 4653,
+                "end": 4659,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 4660,
+                  "end": 4664,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4668,
+      "end": 4780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4668,
+        "end": 4779,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4668,
+          "end": 4684,
+          "object": {
+            "type": "Identifier",
+            "start": 4668,
+            "end": 4674,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4675,
+            "end": 4684,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4685,
+            "end": 4710,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4685,
+              "end": 4696,
+              "object": {
+                "type": "Identifier",
+                "start": 4685,
+                "end": 4688,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4689,
+                "end": 4696,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4697,
+                "end": 4701,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 4703,
+                "end": 4709,
+                "value": "|$0|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4712,
+            "end": 4726,
+            "value": "foo-|$0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 4730,
+            "end": 4778,
+            "left": {
+              "type": "Literal",
+              "start": 4730,
+              "end": 4763,
+              "value": "`$0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 4766,
+              "end": 4778,
+              "callee": {
+                "type": "Identifier",
+                "start": 4766,
+                "end": 4772,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 4773,
+                  "end": 4777,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4782,
+      "end": 4898,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4782,
+        "end": 4897,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4782,
+          "end": 4798,
+          "object": {
+            "type": "Identifier",
+            "start": 4782,
+            "end": 4788,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4789,
+            "end": 4798,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4799,
+            "end": 4822,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4799,
+              "end": 4810,
+              "object": {
+                "type": "Identifier",
+                "start": 4799,
+                "end": 4802,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4803,
+                "end": 4810,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4811,
+                "end": 4812,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 4814,
+                "end": 4821,
+                "value": "|$00|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4824,
+            "end": 4839,
+            "value": "foo-|$00|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 4843,
+            "end": 4896,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 4843,
+              "end": 4890,
+              "left": {
+                "type": "Literal",
+                "start": 4843,
+                "end": 4886,
+                "value": "`$00` is not a capture index for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 4889,
+                "end": 4890,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 4893,
+              "end": 4896,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4899,
+      "end": 5012,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4899,
+        "end": 5011,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4899,
+          "end": 4915,
+          "object": {
+            "type": "Identifier",
+            "start": 4899,
+            "end": 4905,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4906,
+            "end": 4915,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4916,
+            "end": 4941,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4916,
+              "end": 4927,
+              "object": {
+                "type": "Identifier",
+                "start": 4916,
+                "end": 4919,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4920,
+                "end": 4927,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4928,
+                "end": 4931,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 4933,
+                "end": 4940,
+                "value": "|$00|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4943,
+            "end": 4958,
+            "value": "foo-|$00|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 4962,
+            "end": 5010,
+            "left": {
+              "type": "Literal",
+              "start": 4962,
+              "end": 4996,
+              "value": "`$00` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 4999,
+              "end": 5010,
+              "callee": {
+                "type": "Identifier",
+                "start": 4999,
+                "end": 5005,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 5006,
+                  "end": 5009,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5013,
+      "end": 5126,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5013,
+        "end": 5125,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5013,
+          "end": 5029,
+          "object": {
+            "type": "Identifier",
+            "start": 5013,
+            "end": 5019,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5020,
+            "end": 5029,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5030,
+            "end": 5055,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5030,
+              "end": 5041,
+              "object": {
+                "type": "Identifier",
+                "start": 5030,
+                "end": 5033,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5034,
+                "end": 5041,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5042,
+                "end": 5045,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 5047,
+                "end": 5054,
+                "value": "|$00|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5057,
+            "end": 5072,
+            "value": "foo-|$00|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 5076,
+            "end": 5124,
+            "left": {
+              "type": "Literal",
+              "start": 5076,
+              "end": 5110,
+              "value": "`$00` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 5113,
+              "end": 5124,
+              "callee": {
+                "type": "Identifier",
+                "start": 5113,
+                "end": 5119,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 5120,
+                  "end": 5123,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5127,
+      "end": 5242,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5127,
+        "end": 5241,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5127,
+          "end": 5143,
+          "object": {
+            "type": "Identifier",
+            "start": 5127,
+            "end": 5133,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5134,
+            "end": 5143,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5144,
+            "end": 5170,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5144,
+              "end": 5155,
+              "object": {
+                "type": "Identifier",
+                "start": 5144,
+                "end": 5147,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5148,
+                "end": 5155,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5156,
+                "end": 5160,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 5162,
+                "end": 5169,
+                "value": "|$00|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5172,
+            "end": 5187,
+            "value": "foo-|$00|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 5191,
+            "end": 5240,
+            "left": {
+              "type": "Literal",
+              "start": 5191,
+              "end": 5225,
+              "value": "`$00` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 5228,
+              "end": 5240,
+              "callee": {
+                "type": "Identifier",
+                "start": 5228,
+                "end": 5234,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 5235,
+                  "end": 5239,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5243,
+      "end": 5358,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5243,
+        "end": 5357,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5243,
+          "end": 5259,
+          "object": {
+            "type": "Identifier",
+            "start": 5243,
+            "end": 5249,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5250,
+            "end": 5259,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5260,
+            "end": 5286,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5260,
+              "end": 5271,
+              "object": {
+                "type": "Identifier",
+                "start": 5260,
+                "end": 5263,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5264,
+                "end": 5271,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5272,
+                "end": 5276,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 5278,
+                "end": 5285,
+                "value": "|$00|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5288,
+            "end": 5303,
+            "value": "foo-|$00|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 5307,
+            "end": 5356,
+            "left": {
+              "type": "Literal",
+              "start": 5307,
+              "end": 5341,
+              "value": "`$00` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 5344,
+              "end": 5356,
+              "callee": {
+                "type": "Identifier",
+                "start": 5344,
+                "end": 5350,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 5351,
+                  "end": 5355,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5360,
+      "end": 5489,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5360,
+        "end": 5488,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5360,
+          "end": 5376,
+          "object": {
+            "type": "Identifier",
+            "start": 5360,
+            "end": 5366,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5367,
+            "end": 5376,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5377,
+            "end": 5401,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5377,
+              "end": 5388,
+              "object": {
+                "type": "Identifier",
+                "start": 5377,
+                "end": 5380,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5381,
+                "end": 5388,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5389,
+                "end": 5390,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 5392,
+                "end": 5400,
+                "value": "|$000|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5403,
+            "end": 5419,
+            "value": "foo-|$000|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 5423,
+            "end": 5487,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 5423,
+              "end": 5481,
+              "left": {
+                "type": "Literal",
+                "start": 5423,
+                "end": 5477,
+                "value": "`$00` before `0` is not a capture index for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 5480,
+                "end": 5481,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 5484,
+              "end": 5487,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5490,
+      "end": 5616,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5490,
+        "end": 5615,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5490,
+          "end": 5506,
+          "object": {
+            "type": "Identifier",
+            "start": 5490,
+            "end": 5496,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5497,
+            "end": 5506,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5507,
+            "end": 5533,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5507,
+              "end": 5518,
+              "object": {
+                "type": "Identifier",
+                "start": 5507,
+                "end": 5510,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5511,
+                "end": 5518,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5519,
+                "end": 5522,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 5524,
+                "end": 5532,
+                "value": "|$000|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5535,
+            "end": 5551,
+            "value": "foo-|$000|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 5555,
+            "end": 5614,
+            "left": {
+              "type": "Literal",
+              "start": 5555,
+              "end": 5600,
+              "value": "`$00` before `0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 5603,
+              "end": 5614,
+              "callee": {
+                "type": "Identifier",
+                "start": 5603,
+                "end": 5609,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 5610,
+                  "end": 5613,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5617,
+      "end": 5743,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5617,
+        "end": 5742,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5617,
+          "end": 5633,
+          "object": {
+            "type": "Identifier",
+            "start": 5617,
+            "end": 5623,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5624,
+            "end": 5633,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5634,
+            "end": 5660,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5634,
+              "end": 5645,
+              "object": {
+                "type": "Identifier",
+                "start": 5634,
+                "end": 5637,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5638,
+                "end": 5645,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5646,
+                "end": 5649,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 5651,
+                "end": 5659,
+                "value": "|$000|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5662,
+            "end": 5678,
+            "value": "foo-|$000|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 5682,
+            "end": 5741,
+            "left": {
+              "type": "Literal",
+              "start": 5682,
+              "end": 5727,
+              "value": "`$00` before `0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 5730,
+              "end": 5741,
+              "callee": {
+                "type": "Identifier",
+                "start": 5730,
+                "end": 5736,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 5737,
+                  "end": 5740,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5744,
+      "end": 5872,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5744,
+        "end": 5871,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5744,
+          "end": 5760,
+          "object": {
+            "type": "Identifier",
+            "start": 5744,
+            "end": 5750,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5751,
+            "end": 5760,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5761,
+            "end": 5788,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5761,
+              "end": 5772,
+              "object": {
+                "type": "Identifier",
+                "start": 5761,
+                "end": 5764,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5765,
+                "end": 5772,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5773,
+                "end": 5777,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 5779,
+                "end": 5787,
+                "value": "|$000|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5790,
+            "end": 5806,
+            "value": "foo-|$000|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 5810,
+            "end": 5870,
+            "left": {
+              "type": "Literal",
+              "start": 5810,
+              "end": 5855,
+              "value": "`$00` before `0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 5858,
+              "end": 5870,
+              "callee": {
+                "type": "Identifier",
+                "start": 5858,
+                "end": 5864,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 5865,
+                  "end": 5869,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5873,
+      "end": 6001,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5873,
+        "end": 6000,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5873,
+          "end": 5889,
+          "object": {
+            "type": "Identifier",
+            "start": 5873,
+            "end": 5879,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5880,
+            "end": 5889,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5890,
+            "end": 5917,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5890,
+              "end": 5901,
+              "object": {
+                "type": "Identifier",
+                "start": 5890,
+                "end": 5893,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5894,
+                "end": 5901,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5902,
+                "end": 5906,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 5908,
+                "end": 5916,
+                "value": "|$000|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5919,
+            "end": 5935,
+            "value": "foo-|$000|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 5939,
+            "end": 5999,
+            "left": {
+              "type": "Literal",
+              "start": 5939,
+              "end": 5984,
+              "value": "`$00` before `0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 5987,
+              "end": 5999,
+              "callee": {
+                "type": "Identifier",
+                "start": 5987,
+                "end": 5993,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 5994,
+                  "end": 5998,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6003,
+      "end": 6116,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6003,
+        "end": 6115,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6003,
+          "end": 6019,
+          "object": {
+            "type": "Identifier",
+            "start": 6003,
+            "end": 6009,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6010,
+            "end": 6019,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6020,
+            "end": 6042,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6020,
+              "end": 6031,
+              "object": {
+                "type": "Identifier",
+                "start": 6020,
+                "end": 6023,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6024,
+                "end": 6031,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6032,
+                "end": 6033,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 6035,
+                "end": 6041,
+                "value": "|$1|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6044,
+            "end": 6058,
+            "value": "foo-|$1|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 6062,
+            "end": 6114,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 6062,
+              "end": 6108,
+              "left": {
+                "type": "Literal",
+                "start": 6062,
+                "end": 6104,
+                "value": "`$1` is not a capture index for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 6107,
+                "end": 6108,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 6111,
+              "end": 6114,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6117,
+      "end": 6227,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6117,
+        "end": 6226,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6117,
+          "end": 6133,
+          "object": {
+            "type": "Identifier",
+            "start": 6117,
+            "end": 6123,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6124,
+            "end": 6133,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6134,
+            "end": 6158,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6134,
+              "end": 6145,
+              "object": {
+                "type": "Identifier",
+                "start": 6134,
+                "end": 6137,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6138,
+                "end": 6145,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6146,
+                "end": 6149,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 6151,
+                "end": 6157,
+                "value": "|$1|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6160,
+            "end": 6174,
+            "value": "foo-|$1|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 6178,
+            "end": 6225,
+            "left": {
+              "type": "Literal",
+              "start": 6178,
+              "end": 6211,
+              "value": "`$1` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 6214,
+              "end": 6225,
+              "callee": {
+                "type": "Identifier",
+                "start": 6214,
+                "end": 6220,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 6221,
+                  "end": 6224,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6228,
+      "end": 6333,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6228,
+        "end": 6332,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6228,
+          "end": 6244,
+          "object": {
+            "type": "Identifier",
+            "start": 6228,
+            "end": 6234,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6235,
+            "end": 6244,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6245,
+            "end": 6269,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6245,
+              "end": 6256,
+              "object": {
+                "type": "Identifier",
+                "start": 6245,
+                "end": 6248,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6249,
+                "end": 6256,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6257,
+                "end": 6260,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 6262,
+                "end": 6268,
+                "value": "|$1|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6271,
+            "end": 6284,
+            "value": "foo-|x|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 6288,
+            "end": 6331,
+            "left": {
+              "type": "Literal",
+              "start": 6288,
+              "end": 6317,
+              "value": "`$1` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 6320,
+              "end": 6331,
+              "callee": {
+                "type": "Identifier",
+                "start": 6320,
+                "end": 6326,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 6327,
+                  "end": 6330,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6334,
+      "end": 6441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6334,
+        "end": 6440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6334,
+          "end": 6350,
+          "object": {
+            "type": "Identifier",
+            "start": 6334,
+            "end": 6340,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6341,
+            "end": 6350,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6351,
+            "end": 6376,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6351,
+              "end": 6362,
+              "object": {
+                "type": "Identifier",
+                "start": 6351,
+                "end": 6354,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6355,
+                "end": 6362,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6363,
+                "end": 6367,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 6369,
+                "end": 6375,
+                "value": "|$1|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6378,
+            "end": 6391,
+            "value": "foo-|x|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 6395,
+            "end": 6439,
+            "left": {
+              "type": "Literal",
+              "start": 6395,
+              "end": 6424,
+              "value": "`$1` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 6427,
+              "end": 6439,
+              "callee": {
+                "type": "Identifier",
+                "start": 6427,
+                "end": 6433,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 6434,
+                  "end": 6438,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6442,
+      "end": 6549,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6442,
+        "end": 6548,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6442,
+          "end": 6458,
+          "object": {
+            "type": "Identifier",
+            "start": 6442,
+            "end": 6448,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6449,
+            "end": 6458,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6459,
+            "end": 6484,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6459,
+              "end": 6470,
+              "object": {
+                "type": "Identifier",
+                "start": 6459,
+                "end": 6462,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6463,
+                "end": 6470,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6471,
+                "end": 6475,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 6477,
+                "end": 6483,
+                "value": "|$1|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6486,
+            "end": 6499,
+            "value": "foo-|x|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 6503,
+            "end": 6547,
+            "left": {
+              "type": "Literal",
+              "start": 6503,
+              "end": 6532,
+              "value": "`$1` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 6535,
+              "end": 6547,
+              "callee": {
+                "type": "Identifier",
+                "start": 6535,
+                "end": 6541,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 6542,
+                  "end": 6546,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6551,
+      "end": 6667,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6551,
+        "end": 6666,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6551,
+          "end": 6567,
+          "object": {
+            "type": "Identifier",
+            "start": 6551,
+            "end": 6557,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6558,
+            "end": 6567,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6568,
+            "end": 6591,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6568,
+              "end": 6579,
+              "object": {
+                "type": "Identifier",
+                "start": 6568,
+                "end": 6571,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6572,
+                "end": 6579,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6580,
+                "end": 6581,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 6583,
+                "end": 6590,
+                "value": "|$01|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6593,
+            "end": 6608,
+            "value": "foo-|$01|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 6612,
+            "end": 6665,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 6612,
+              "end": 6659,
+              "left": {
+                "type": "Literal",
+                "start": 6612,
+                "end": 6655,
+                "value": "`$01` is not a capture index for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 6658,
+                "end": 6659,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 6662,
+              "end": 6665,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6668,
+      "end": 6781,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6668,
+        "end": 6780,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6668,
+          "end": 6684,
+          "object": {
+            "type": "Identifier",
+            "start": 6668,
+            "end": 6674,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6675,
+            "end": 6684,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6685,
+            "end": 6710,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6685,
+              "end": 6696,
+              "object": {
+                "type": "Identifier",
+                "start": 6685,
+                "end": 6688,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6689,
+                "end": 6696,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6697,
+                "end": 6700,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 6702,
+                "end": 6709,
+                "value": "|$01|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6712,
+            "end": 6727,
+            "value": "foo-|$01|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 6731,
+            "end": 6779,
+            "left": {
+              "type": "Literal",
+              "start": 6731,
+              "end": 6765,
+              "value": "`$01` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 6768,
+              "end": 6779,
+              "callee": {
+                "type": "Identifier",
+                "start": 6768,
+                "end": 6774,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 6775,
+                  "end": 6778,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6782,
+      "end": 6889,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6782,
+        "end": 6888,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6782,
+          "end": 6798,
+          "object": {
+            "type": "Identifier",
+            "start": 6782,
+            "end": 6788,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6789,
+            "end": 6798,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6799,
+            "end": 6824,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6799,
+              "end": 6810,
+              "object": {
+                "type": "Identifier",
+                "start": 6799,
+                "end": 6802,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6803,
+                "end": 6810,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6811,
+                "end": 6814,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 6816,
+                "end": 6823,
+                "value": "|$01|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6826,
+            "end": 6839,
+            "value": "foo-|x|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 6843,
+            "end": 6887,
+            "left": {
+              "type": "Literal",
+              "start": 6843,
+              "end": 6873,
+              "value": "`$01` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 6876,
+              "end": 6887,
+              "callee": {
+                "type": "Identifier",
+                "start": 6876,
+                "end": 6882,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 6883,
+                  "end": 6886,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6890,
+      "end": 6999,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6890,
+        "end": 6998,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6890,
+          "end": 6906,
+          "object": {
+            "type": "Identifier",
+            "start": 6890,
+            "end": 6896,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6897,
+            "end": 6906,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6907,
+            "end": 6933,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6907,
+              "end": 6918,
+              "object": {
+                "type": "Identifier",
+                "start": 6907,
+                "end": 6910,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6911,
+                "end": 6918,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6919,
+                "end": 6923,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 6925,
+                "end": 6932,
+                "value": "|$01|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6935,
+            "end": 6948,
+            "value": "foo-|x|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 6952,
+            "end": 6997,
+            "left": {
+              "type": "Literal",
+              "start": 6952,
+              "end": 6982,
+              "value": "`$01` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 6985,
+              "end": 6997,
+              "callee": {
+                "type": "Identifier",
+                "start": 6985,
+                "end": 6991,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 6992,
+                  "end": 6996,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 7000,
+      "end": 7109,
+      "expression": {
+        "type": "CallExpression",
+        "start": 7000,
+        "end": 7108,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7000,
+          "end": 7016,
+          "object": {
+            "type": "Identifier",
+            "start": 7000,
+            "end": 7006,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 7007,
+            "end": 7016,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 7017,
+            "end": 7043,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7017,
+              "end": 7028,
+              "object": {
+                "type": "Identifier",
+                "start": 7017,
+                "end": 7020,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 7021,
+                "end": 7028,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 7029,
+                "end": 7033,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 7035,
+                "end": 7042,
+                "value": "|$01|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 7045,
+            "end": 7058,
+            "value": "foo-|x|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 7062,
+            "end": 7107,
+            "left": {
+              "type": "Literal",
+              "start": 7062,
+              "end": 7092,
+              "value": "`$01` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 7095,
+              "end": 7107,
+              "callee": {
+                "type": "Identifier",
+                "start": 7095,
+                "end": 7101,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 7102,
+                  "end": 7106,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 7111,
+      "end": 7240,
+      "expression": {
+        "type": "CallExpression",
+        "start": 7111,
+        "end": 7239,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7111,
+          "end": 7127,
+          "object": {
+            "type": "Identifier",
+            "start": 7111,
+            "end": 7117,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 7118,
+            "end": 7127,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 7128,
+            "end": 7152,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7128,
+              "end": 7139,
+              "object": {
+                "type": "Identifier",
+                "start": 7128,
+                "end": 7131,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 7132,
+                "end": 7139,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 7140,
+                "end": 7141,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 7143,
+                "end": 7151,
+                "value": "|$010|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 7154,
+            "end": 7170,
+            "value": "foo-|$010|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 7174,
+            "end": 7238,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 7174,
+              "end": 7232,
+              "left": {
+                "type": "Literal",
+                "start": 7174,
+                "end": 7228,
+                "value": "`$01` before `0` is not a capture index for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 7231,
+                "end": 7232,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 7235,
+              "end": 7238,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 7241,
+      "end": 7367,
+      "expression": {
+        "type": "CallExpression",
+        "start": 7241,
+        "end": 7366,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7241,
+          "end": 7257,
+          "object": {
+            "type": "Identifier",
+            "start": 7241,
+            "end": 7247,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 7248,
+            "end": 7257,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 7258,
+            "end": 7284,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7258,
+              "end": 7269,
+              "object": {
+                "type": "Identifier",
+                "start": 7258,
+                "end": 7261,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 7262,
+                "end": 7269,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 7270,
+                "end": 7273,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 7275,
+                "end": 7283,
+                "value": "|$010|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 7286,
+            "end": 7302,
+            "value": "foo-|$010|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 7306,
+            "end": 7365,
+            "left": {
+              "type": "Literal",
+              "start": 7306,
+              "end": 7351,
+              "value": "`$01` before `0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 7354,
+              "end": 7365,
+              "callee": {
+                "type": "Identifier",
+                "start": 7354,
+                "end": 7360,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 7361,
+                  "end": 7364,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 7368,
+      "end": 7488,
+      "expression": {
+        "type": "CallExpression",
+        "start": 7368,
+        "end": 7487,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7368,
+          "end": 7384,
+          "object": {
+            "type": "Identifier",
+            "start": 7368,
+            "end": 7374,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 7375,
+            "end": 7384,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 7385,
+            "end": 7411,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7385,
+              "end": 7396,
+              "object": {
+                "type": "Identifier",
+                "start": 7385,
+                "end": 7388,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 7389,
+                "end": 7396,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 7397,
+                "end": 7400,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 7402,
+                "end": 7410,
+                "value": "|$010|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 7413,
+            "end": 7427,
+            "value": "foo-|x0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 7431,
+            "end": 7486,
+            "left": {
+              "type": "Literal",
+              "start": 7431,
+              "end": 7472,
+              "value": "`$01` before `0` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 7475,
+              "end": 7486,
+              "callee": {
+                "type": "Identifier",
+                "start": 7475,
+                "end": 7481,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 7482,
+                  "end": 7485,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 7489,
+      "end": 7611,
+      "expression": {
+        "type": "CallExpression",
+        "start": 7489,
+        "end": 7610,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7489,
+          "end": 7505,
+          "object": {
+            "type": "Identifier",
+            "start": 7489,
+            "end": 7495,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 7496,
+            "end": 7505,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 7506,
+            "end": 7533,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7506,
+              "end": 7517,
+              "object": {
+                "type": "Identifier",
+                "start": 7506,
+                "end": 7509,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 7510,
+                "end": 7517,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 7518,
+                "end": 7522,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 7524,
+                "end": 7532,
+                "value": "|$010|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 7535,
+            "end": 7549,
+            "value": "foo-|x0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 7553,
+            "end": 7609,
+            "left": {
+              "type": "Literal",
+              "start": 7553,
+              "end": 7594,
+              "value": "`$01` before `0` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 7597,
+              "end": 7609,
+              "callee": {
+                "type": "Identifier",
+                "start": 7597,
+                "end": 7603,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 7604,
+                  "end": 7608,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 7612,
+      "end": 7734,
+      "expression": {
+        "type": "CallExpression",
+        "start": 7612,
+        "end": 7733,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7612,
+          "end": 7628,
+          "object": {
+            "type": "Identifier",
+            "start": 7612,
+            "end": 7618,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 7619,
+            "end": 7628,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 7629,
+            "end": 7656,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7629,
+              "end": 7640,
+              "object": {
+                "type": "Identifier",
+                "start": 7629,
+                "end": 7632,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 7633,
+                "end": 7640,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 7641,
+                "end": 7645,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 7647,
+                "end": 7655,
+                "value": "|$010|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 7658,
+            "end": 7672,
+            "value": "foo-|x0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 7676,
+            "end": 7732,
+            "left": {
+              "type": "Literal",
+              "start": 7676,
+              "end": 7717,
+              "value": "`$01` before `0` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 7720,
+              "end": 7732,
+              "callee": {
+                "type": "Identifier",
+                "start": 7720,
+                "end": 7726,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 7727,
+                  "end": 7731,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 7736,
+      "end": 7849,
+      "expression": {
+        "type": "CallExpression",
+        "start": 7736,
+        "end": 7848,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7736,
+          "end": 7752,
+          "object": {
+            "type": "Identifier",
+            "start": 7736,
+            "end": 7742,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 7743,
+            "end": 7752,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 7753,
+            "end": 7775,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7753,
+              "end": 7764,
+              "object": {
+                "type": "Identifier",
+                "start": 7753,
+                "end": 7756,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 7757,
+                "end": 7764,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 7765,
+                "end": 7766,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 7768,
+                "end": 7774,
+                "value": "|$2|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 7777,
+            "end": 7791,
+            "value": "foo-|$2|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 7795,
+            "end": 7847,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 7795,
+              "end": 7841,
+              "left": {
+                "type": "Literal",
+                "start": 7795,
+                "end": 7837,
+                "value": "`$2` is not a capture index for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 7840,
+                "end": 7841,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 7844,
+              "end": 7847,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 7850,
+      "end": 7960,
+      "expression": {
+        "type": "CallExpression",
+        "start": 7850,
+        "end": 7959,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7850,
+          "end": 7866,
+          "object": {
+            "type": "Identifier",
+            "start": 7850,
+            "end": 7856,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 7857,
+            "end": 7866,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 7867,
+            "end": 7891,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7867,
+              "end": 7878,
+              "object": {
+                "type": "Identifier",
+                "start": 7867,
+                "end": 7870,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 7871,
+                "end": 7878,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 7879,
+                "end": 7882,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 7884,
+                "end": 7890,
+                "value": "|$2|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 7893,
+            "end": 7907,
+            "value": "foo-|$2|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 7911,
+            "end": 7958,
+            "left": {
+              "type": "Literal",
+              "start": 7911,
+              "end": 7944,
+              "value": "`$2` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 7947,
+              "end": 7958,
+              "callee": {
+                "type": "Identifier",
+                "start": 7947,
+                "end": 7953,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 7954,
+                  "end": 7957,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 7961,
+      "end": 8071,
+      "expression": {
+        "type": "CallExpression",
+        "start": 7961,
+        "end": 8070,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7961,
+          "end": 7977,
+          "object": {
+            "type": "Identifier",
+            "start": 7961,
+            "end": 7967,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 7968,
+            "end": 7977,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 7978,
+            "end": 8002,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7978,
+              "end": 7989,
+              "object": {
+                "type": "Identifier",
+                "start": 7978,
+                "end": 7981,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 7982,
+                "end": 7989,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 7990,
+                "end": 7993,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 7995,
+                "end": 8001,
+                "value": "|$2|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 8004,
+            "end": 8018,
+            "value": "foo-|$2|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 8022,
+            "end": 8069,
+            "left": {
+              "type": "Literal",
+              "start": 8022,
+              "end": 8055,
+              "value": "`$2` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 8058,
+              "end": 8069,
+              "callee": {
+                "type": "Identifier",
+                "start": 8058,
+                "end": 8064,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 8065,
+                  "end": 8068,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 8072,
+      "end": 8185,
+      "expression": {
+        "type": "CallExpression",
+        "start": 8072,
+        "end": 8184,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 8072,
+          "end": 8088,
+          "object": {
+            "type": "Identifier",
+            "start": 8072,
+            "end": 8078,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 8079,
+            "end": 8088,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 8089,
+            "end": 8114,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 8089,
+              "end": 8100,
+              "object": {
+                "type": "Identifier",
+                "start": 8089,
+                "end": 8092,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 8093,
+                "end": 8100,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 8101,
+                "end": 8105,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 8107,
+                "end": 8113,
+                "value": "|$2|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 8116,
+            "end": 8128,
+            "value": "foo-||-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 8132,
+            "end": 8183,
+            "left": {
+              "type": "Literal",
+              "start": 8132,
+              "end": 8168,
+              "value": "`$2` is a failed capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 8171,
+              "end": 8183,
+              "callee": {
+                "type": "Identifier",
+                "start": 8171,
+                "end": 8177,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 8178,
+                  "end": 8182,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 8186,
+      "end": 8293,
+      "expression": {
+        "type": "CallExpression",
+        "start": 8186,
+        "end": 8292,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 8186,
+          "end": 8202,
+          "object": {
+            "type": "Identifier",
+            "start": 8186,
+            "end": 8192,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 8193,
+            "end": 8202,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 8203,
+            "end": 8228,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 8203,
+              "end": 8214,
+              "object": {
+                "type": "Identifier",
+                "start": 8203,
+                "end": 8206,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 8207,
+                "end": 8214,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 8215,
+                "end": 8219,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 8221,
+                "end": 8227,
+                "value": "|$2|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 8230,
+            "end": 8243,
+            "value": "foo-|x|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 8247,
+            "end": 8291,
+            "left": {
+              "type": "Literal",
+              "start": 8247,
+              "end": 8276,
+              "value": "`$2` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 8279,
+              "end": 8291,
+              "callee": {
+                "type": "Identifier",
+                "start": 8279,
+                "end": 8285,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 8286,
+                  "end": 8290,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 8295,
+      "end": 8411,
+      "expression": {
+        "type": "CallExpression",
+        "start": 8295,
+        "end": 8410,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 8295,
+          "end": 8311,
+          "object": {
+            "type": "Identifier",
+            "start": 8295,
+            "end": 8301,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 8302,
+            "end": 8311,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 8312,
+            "end": 8335,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 8312,
+              "end": 8323,
+              "object": {
+                "type": "Identifier",
+                "start": 8312,
+                "end": 8315,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 8316,
+                "end": 8323,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 8324,
+                "end": 8325,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 8327,
+                "end": 8334,
+                "value": "|$02|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 8337,
+            "end": 8352,
+            "value": "foo-|$02|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 8356,
+            "end": 8409,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 8356,
+              "end": 8403,
+              "left": {
+                "type": "Literal",
+                "start": 8356,
+                "end": 8399,
+                "value": "`$02` is not a capture index for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 8402,
+                "end": 8403,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 8406,
+              "end": 8409,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 8412,
+      "end": 8525,
+      "expression": {
+        "type": "CallExpression",
+        "start": 8412,
+        "end": 8524,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 8412,
+          "end": 8428,
+          "object": {
+            "type": "Identifier",
+            "start": 8412,
+            "end": 8418,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 8419,
+            "end": 8428,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 8429,
+            "end": 8454,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 8429,
+              "end": 8440,
+              "object": {
+                "type": "Identifier",
+                "start": 8429,
+                "end": 8432,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 8433,
+                "end": 8440,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 8441,
+                "end": 8444,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 8446,
+                "end": 8453,
+                "value": "|$02|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 8456,
+            "end": 8471,
+            "value": "foo-|$02|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 8475,
+            "end": 8523,
+            "left": {
+              "type": "Literal",
+              "start": 8475,
+              "end": 8509,
+              "value": "`$02` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 8512,
+              "end": 8523,
+              "callee": {
+                "type": "Identifier",
+                "start": 8512,
+                "end": 8518,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 8519,
+                  "end": 8522,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 8526,
+      "end": 8639,
+      "expression": {
+        "type": "CallExpression",
+        "start": 8526,
+        "end": 8638,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 8526,
+          "end": 8542,
+          "object": {
+            "type": "Identifier",
+            "start": 8526,
+            "end": 8532,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 8533,
+            "end": 8542,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 8543,
+            "end": 8568,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 8543,
+              "end": 8554,
+              "object": {
+                "type": "Identifier",
+                "start": 8543,
+                "end": 8546,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 8547,
+                "end": 8554,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 8555,
+                "end": 8558,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 8560,
+                "end": 8567,
+                "value": "|$02|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 8570,
+            "end": 8585,
+            "value": "foo-|$02|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 8589,
+            "end": 8637,
+            "left": {
+              "type": "Literal",
+              "start": 8589,
+              "end": 8623,
+              "value": "`$02` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 8626,
+              "end": 8637,
+              "callee": {
+                "type": "Identifier",
+                "start": 8626,
+                "end": 8632,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 8633,
+                  "end": 8636,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 8640,
+      "end": 8755,
+      "expression": {
+        "type": "CallExpression",
+        "start": 8640,
+        "end": 8754,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 8640,
+          "end": 8656,
+          "object": {
+            "type": "Identifier",
+            "start": 8640,
+            "end": 8646,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 8647,
+            "end": 8656,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 8657,
+            "end": 8683,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 8657,
+              "end": 8668,
+              "object": {
+                "type": "Identifier",
+                "start": 8657,
+                "end": 8660,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 8661,
+                "end": 8668,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 8669,
+                "end": 8673,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 8675,
+                "end": 8682,
+                "value": "|$02|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 8685,
+            "end": 8697,
+            "value": "foo-||-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 8701,
+            "end": 8753,
+            "left": {
+              "type": "Literal",
+              "start": 8701,
+              "end": 8738,
+              "value": "`$02` is a failed capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 8741,
+              "end": 8753,
+              "callee": {
+                "type": "Identifier",
+                "start": 8741,
+                "end": 8747,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 8748,
+                  "end": 8752,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 8756,
+      "end": 8865,
+      "expression": {
+        "type": "CallExpression",
+        "start": 8756,
+        "end": 8864,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 8756,
+          "end": 8772,
+          "object": {
+            "type": "Identifier",
+            "start": 8756,
+            "end": 8762,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 8763,
+            "end": 8772,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 8773,
+            "end": 8799,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 8773,
+              "end": 8784,
+              "object": {
+                "type": "Identifier",
+                "start": 8773,
+                "end": 8776,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 8777,
+                "end": 8784,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 8785,
+                "end": 8789,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 8791,
+                "end": 8798,
+                "value": "|$02|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 8801,
+            "end": 8814,
+            "value": "foo-|x|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 8818,
+            "end": 8863,
+            "left": {
+              "type": "Literal",
+              "start": 8818,
+              "end": 8848,
+              "value": "`$02` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 8851,
+              "end": 8863,
+              "callee": {
+                "type": "Identifier",
+                "start": 8851,
+                "end": 8857,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 8858,
+                  "end": 8862,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 8867,
+      "end": 8996,
+      "expression": {
+        "type": "CallExpression",
+        "start": 8867,
+        "end": 8995,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 8867,
+          "end": 8883,
+          "object": {
+            "type": "Identifier",
+            "start": 8867,
+            "end": 8873,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 8874,
+            "end": 8883,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 8884,
+            "end": 8908,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 8884,
+              "end": 8895,
+              "object": {
+                "type": "Identifier",
+                "start": 8884,
+                "end": 8887,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 8888,
+                "end": 8895,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 8896,
+                "end": 8897,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 8899,
+                "end": 8907,
+                "value": "|$020|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 8910,
+            "end": 8926,
+            "value": "foo-|$020|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 8930,
+            "end": 8994,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 8930,
+              "end": 8988,
+              "left": {
+                "type": "Literal",
+                "start": 8930,
+                "end": 8984,
+                "value": "`$02` before `0` is not a capture index for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 8987,
+                "end": 8988,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 8991,
+              "end": 8994,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 8997,
+      "end": 9123,
+      "expression": {
+        "type": "CallExpression",
+        "start": 8997,
+        "end": 9122,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 8997,
+          "end": 9013,
+          "object": {
+            "type": "Identifier",
+            "start": 8997,
+            "end": 9003,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9004,
+            "end": 9013,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9014,
+            "end": 9040,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9014,
+              "end": 9025,
+              "object": {
+                "type": "Identifier",
+                "start": 9014,
+                "end": 9017,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9018,
+                "end": 9025,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9026,
+                "end": 9029,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 9031,
+                "end": 9039,
+                "value": "|$020|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9042,
+            "end": 9058,
+            "value": "foo-|$020|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 9062,
+            "end": 9121,
+            "left": {
+              "type": "Literal",
+              "start": 9062,
+              "end": 9107,
+              "value": "`$02` before `0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 9110,
+              "end": 9121,
+              "callee": {
+                "type": "Identifier",
+                "start": 9110,
+                "end": 9116,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 9117,
+                  "end": 9120,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9124,
+      "end": 9250,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9124,
+        "end": 9249,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9124,
+          "end": 9140,
+          "object": {
+            "type": "Identifier",
+            "start": 9124,
+            "end": 9130,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9131,
+            "end": 9140,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9141,
+            "end": 9167,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9141,
+              "end": 9152,
+              "object": {
+                "type": "Identifier",
+                "start": 9141,
+                "end": 9144,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9145,
+                "end": 9152,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9153,
+                "end": 9156,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 9158,
+                "end": 9166,
+                "value": "|$020|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9169,
+            "end": 9185,
+            "value": "foo-|$020|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 9189,
+            "end": 9248,
+            "left": {
+              "type": "Literal",
+              "start": 9189,
+              "end": 9234,
+              "value": "`$02` before `0` is not a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 9237,
+              "end": 9248,
+              "callee": {
+                "type": "Identifier",
+                "start": 9237,
+                "end": 9243,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 9244,
+                  "end": 9247,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9251,
+      "end": 9379,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9251,
+        "end": 9378,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9251,
+          "end": 9267,
+          "object": {
+            "type": "Identifier",
+            "start": 9251,
+            "end": 9257,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9258,
+            "end": 9267,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9268,
+            "end": 9295,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9268,
+              "end": 9279,
+              "object": {
+                "type": "Identifier",
+                "start": 9268,
+                "end": 9271,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9272,
+                "end": 9279,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9280,
+                "end": 9284,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 9286,
+                "end": 9294,
+                "value": "|$020|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9297,
+            "end": 9310,
+            "value": "foo-|0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 9314,
+            "end": 9377,
+            "left": {
+              "type": "Literal",
+              "start": 9314,
+              "end": 9362,
+              "value": "`$02` before `0` is a failed capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 9365,
+              "end": 9377,
+              "callee": {
+                "type": "Identifier",
+                "start": 9365,
+                "end": 9371,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 9372,
+                  "end": 9376,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9380,
+      "end": 9502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9380,
+        "end": 9501,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9380,
+          "end": 9396,
+          "object": {
+            "type": "Identifier",
+            "start": 9380,
+            "end": 9386,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9387,
+            "end": 9396,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9397,
+            "end": 9424,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9397,
+              "end": 9408,
+              "object": {
+                "type": "Identifier",
+                "start": 9397,
+                "end": 9400,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9401,
+                "end": 9408,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9409,
+                "end": 9413,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 9415,
+                "end": 9423,
+                "value": "|$020|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9426,
+            "end": 9440,
+            "value": "foo-|x0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 9444,
+            "end": 9500,
+            "left": {
+              "type": "Literal",
+              "start": 9444,
+              "end": 9485,
+              "value": "`$02` before `0` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 9488,
+              "end": 9500,
+              "callee": {
+                "type": "Identifier",
+                "start": 9488,
+                "end": 9494,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 9495,
+                  "end": 9499,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9504,
+      "end": 9634,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9504,
+        "end": 9633,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9504,
+          "end": 9520,
+          "object": {
+            "type": "Identifier",
+            "start": 9504,
+            "end": 9510,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9511,
+            "end": 9520,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9521,
+            "end": 9544,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9521,
+              "end": 9532,
+              "object": {
+                "type": "Identifier",
+                "start": 9521,
+                "end": 9524,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9525,
+                "end": 9532,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9533,
+                "end": 9534,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 9536,
+                "end": 9543,
+                "value": "|$10|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9546,
+            "end": 9561,
+            "value": "foo-|$10|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 9565,
+            "end": 9632,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 9565,
+              "end": 9626,
+              "left": {
+                "type": "Literal",
+                "start": 9565,
+                "end": 9622,
+                "value": "`$10` is not a capture index (nor is `$1`) for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 9625,
+                "end": 9626,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 9629,
+              "end": 9632,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9635,
+      "end": 9762,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9635,
+        "end": 9761,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9635,
+          "end": 9651,
+          "object": {
+            "type": "Identifier",
+            "start": 9635,
+            "end": 9641,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9642,
+            "end": 9651,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9652,
+            "end": 9677,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9652,
+              "end": 9663,
+              "object": {
+                "type": "Identifier",
+                "start": 9652,
+                "end": 9655,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9656,
+                "end": 9663,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9664,
+                "end": 9667,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 9669,
+                "end": 9676,
+                "value": "|$10|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9679,
+            "end": 9694,
+            "value": "foo-|$10|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 9698,
+            "end": 9760,
+            "left": {
+              "type": "Literal",
+              "start": 9698,
+              "end": 9746,
+              "value": "`$10` is not a capture index (nor is `$1`) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 9749,
+              "end": 9760,
+              "callee": {
+                "type": "Identifier",
+                "start": 9749,
+                "end": 9755,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 9756,
+                  "end": 9759,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9763,
+      "end": 9889,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9763,
+        "end": 9888,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9763,
+          "end": 9779,
+          "object": {
+            "type": "Identifier",
+            "start": 9763,
+            "end": 9769,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9770,
+            "end": 9779,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9780,
+            "end": 9805,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9780,
+              "end": 9791,
+              "object": {
+                "type": "Identifier",
+                "start": 9780,
+                "end": 9783,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9784,
+                "end": 9791,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9792,
+                "end": 9795,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 9797,
+                "end": 9804,
+                "value": "|$10|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9807,
+            "end": 9821,
+            "value": "foo-|x0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 9825,
+            "end": 9887,
+            "left": {
+              "type": "Literal",
+              "start": 9825,
+              "end": 9873,
+              "value": "`$10` is not a capture index (but `$1` is) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 9876,
+              "end": 9887,
+              "callee": {
+                "type": "Identifier",
+                "start": 9876,
+                "end": 9882,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 9883,
+                  "end": 9886,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9890,
+      "end": 10018,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9890,
+        "end": 10017,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9890,
+          "end": 9906,
+          "object": {
+            "type": "Identifier",
+            "start": 9890,
+            "end": 9896,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9897,
+            "end": 9906,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9907,
+            "end": 9933,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9907,
+              "end": 9918,
+              "object": {
+                "type": "Identifier",
+                "start": 9907,
+                "end": 9910,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9911,
+                "end": 9918,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9919,
+                "end": 9923,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 9925,
+                "end": 9932,
+                "value": "|$10|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9935,
+            "end": 9949,
+            "value": "foo-|x0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 9953,
+            "end": 10016,
+            "left": {
+              "type": "Literal",
+              "start": 9953,
+              "end": 10001,
+              "value": "`$10` is not a capture index (but `$1` is) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 10004,
+              "end": 10016,
+              "callee": {
+                "type": "Identifier",
+                "start": 10004,
+                "end": 10010,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 10011,
+                  "end": 10015,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10019,
+      "end": 10128,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10019,
+        "end": 10127,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10019,
+          "end": 10035,
+          "object": {
+            "type": "Identifier",
+            "start": 10019,
+            "end": 10025,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10026,
+            "end": 10035,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10036,
+            "end": 10062,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10036,
+              "end": 10047,
+              "object": {
+                "type": "Identifier",
+                "start": 10036,
+                "end": 10039,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10040,
+                "end": 10047,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10048,
+                "end": 10052,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 10054,
+                "end": 10061,
+                "value": "|$10|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10064,
+            "end": 10077,
+            "value": "foo-|x|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 10081,
+            "end": 10126,
+            "left": {
+              "type": "Literal",
+              "start": 10081,
+              "end": 10111,
+              "value": "`$10` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 10114,
+              "end": 10126,
+              "callee": {
+                "type": "Identifier",
+                "start": 10114,
+                "end": 10120,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 10121,
+                  "end": 10125,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10130,
+      "end": 10273,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10130,
+        "end": 10272,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10130,
+          "end": 10146,
+          "object": {
+            "type": "Identifier",
+            "start": 10130,
+            "end": 10136,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10137,
+            "end": 10146,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10147,
+            "end": 10171,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10147,
+              "end": 10158,
+              "object": {
+                "type": "Identifier",
+                "start": 10147,
+                "end": 10150,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10151,
+                "end": 10158,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10159,
+                "end": 10160,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 10162,
+                "end": 10170,
+                "value": "|$100|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10173,
+            "end": 10189,
+            "value": "foo-|$100|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 10193,
+            "end": 10271,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 10193,
+              "end": 10265,
+              "left": {
+                "type": "Literal",
+                "start": 10193,
+                "end": 10261,
+                "value": "`$10` before `0` is not a capture index (nor is `$1`) for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 10264,
+                "end": 10265,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 10268,
+              "end": 10271,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10274,
+      "end": 10414,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10274,
+        "end": 10413,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10274,
+          "end": 10290,
+          "object": {
+            "type": "Identifier",
+            "start": 10274,
+            "end": 10280,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10281,
+            "end": 10290,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10291,
+            "end": 10317,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10291,
+              "end": 10302,
+              "object": {
+                "type": "Identifier",
+                "start": 10291,
+                "end": 10294,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10295,
+                "end": 10302,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10303,
+                "end": 10306,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 10308,
+                "end": 10316,
+                "value": "|$100|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10319,
+            "end": 10335,
+            "value": "foo-|$100|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 10339,
+            "end": 10412,
+            "left": {
+              "type": "Literal",
+              "start": 10339,
+              "end": 10398,
+              "value": "`$10` before `0` is not a capture index (nor is `$1`) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 10401,
+              "end": 10412,
+              "callee": {
+                "type": "Identifier",
+                "start": 10401,
+                "end": 10407,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 10408,
+                  "end": 10411,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10415,
+      "end": 10554,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10415,
+        "end": 10553,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10415,
+          "end": 10431,
+          "object": {
+            "type": "Identifier",
+            "start": 10415,
+            "end": 10421,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10422,
+            "end": 10431,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10432,
+            "end": 10458,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10432,
+              "end": 10443,
+              "object": {
+                "type": "Identifier",
+                "start": 10432,
+                "end": 10435,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10436,
+                "end": 10443,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10444,
+                "end": 10447,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 10449,
+                "end": 10457,
+                "value": "|$100|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10460,
+            "end": 10475,
+            "value": "foo-|x00|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 10479,
+            "end": 10552,
+            "left": {
+              "type": "Literal",
+              "start": 10479,
+              "end": 10538,
+              "value": "`$10` before `0` is not a capture index (but `$1` is) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 10541,
+              "end": 10552,
+              "callee": {
+                "type": "Identifier",
+                "start": 10541,
+                "end": 10547,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 10548,
+                  "end": 10551,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10555,
+      "end": 10696,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10555,
+        "end": 10695,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10555,
+          "end": 10571,
+          "object": {
+            "type": "Identifier",
+            "start": 10555,
+            "end": 10561,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10562,
+            "end": 10571,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10572,
+            "end": 10599,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10572,
+              "end": 10583,
+              "object": {
+                "type": "Identifier",
+                "start": 10572,
+                "end": 10575,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10576,
+                "end": 10583,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10584,
+                "end": 10588,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 10590,
+                "end": 10598,
+                "value": "|$100|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10601,
+            "end": 10616,
+            "value": "foo-|x00|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 10620,
+            "end": 10694,
+            "left": {
+              "type": "Literal",
+              "start": 10620,
+              "end": 10679,
+              "value": "`$10` before `0` is not a capture index (but `$1` is) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 10682,
+              "end": 10694,
+              "callee": {
+                "type": "Identifier",
+                "start": 10682,
+                "end": 10688,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 10689,
+                  "end": 10693,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10697,
+      "end": 10819,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10697,
+        "end": 10818,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10697,
+          "end": 10713,
+          "object": {
+            "type": "Identifier",
+            "start": 10697,
+            "end": 10703,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10704,
+            "end": 10713,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10714,
+            "end": 10741,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10714,
+              "end": 10725,
+              "object": {
+                "type": "Identifier",
+                "start": 10714,
+                "end": 10717,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10718,
+                "end": 10725,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10726,
+                "end": 10730,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 10732,
+                "end": 10740,
+                "value": "|$100|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10743,
+            "end": 10757,
+            "value": "foo-|x0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 10761,
+            "end": 10817,
+            "left": {
+              "type": "Literal",
+              "start": 10761,
+              "end": 10802,
+              "value": "`$10` before `0` is a capture index in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 10805,
+              "end": 10817,
+              "callee": {
+                "type": "Identifier",
+                "start": 10805,
+                "end": 10811,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 10812,
+                  "end": 10816,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10821,
+      "end": 10951,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10821,
+        "end": 10950,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10821,
+          "end": 10837,
+          "object": {
+            "type": "Identifier",
+            "start": 10821,
+            "end": 10827,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10828,
+            "end": 10837,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10838,
+            "end": 10861,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10838,
+              "end": 10849,
+              "object": {
+                "type": "Identifier",
+                "start": 10838,
+                "end": 10841,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10842,
+                "end": 10849,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10850,
+                "end": 10851,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 10853,
+                "end": 10860,
+                "value": "|$20|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10863,
+            "end": 10878,
+            "value": "foo-|$20|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 10882,
+            "end": 10949,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 10882,
+              "end": 10943,
+              "left": {
+                "type": "Literal",
+                "start": 10882,
+                "end": 10939,
+                "value": "`$20` is not a capture index (nor is `$2`) for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 10942,
+                "end": 10943,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 10946,
+              "end": 10949,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10952,
+      "end": 11079,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10952,
+        "end": 11078,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10952,
+          "end": 10968,
+          "object": {
+            "type": "Identifier",
+            "start": 10952,
+            "end": 10958,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10959,
+            "end": 10968,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10969,
+            "end": 10994,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10969,
+              "end": 10980,
+              "object": {
+                "type": "Identifier",
+                "start": 10969,
+                "end": 10972,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10973,
+                "end": 10980,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10981,
+                "end": 10984,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 10986,
+                "end": 10993,
+                "value": "|$20|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10996,
+            "end": 11011,
+            "value": "foo-|$20|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 11015,
+            "end": 11077,
+            "left": {
+              "type": "Literal",
+              "start": 11015,
+              "end": 11063,
+              "value": "`$20` is not a capture index (nor is `$2`) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 11066,
+              "end": 11077,
+              "callee": {
+                "type": "Identifier",
+                "start": 11066,
+                "end": 11072,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 11073,
+                  "end": 11076,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11080,
+      "end": 11207,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11080,
+        "end": 11206,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11080,
+          "end": 11096,
+          "object": {
+            "type": "Identifier",
+            "start": 11080,
+            "end": 11086,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11087,
+            "end": 11096,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11097,
+            "end": 11122,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11097,
+              "end": 11108,
+              "object": {
+                "type": "Identifier",
+                "start": 11097,
+                "end": 11100,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11101,
+                "end": 11108,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11109,
+                "end": 11112,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 11114,
+                "end": 11121,
+                "value": "|$20|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11124,
+            "end": 11139,
+            "value": "foo-|$20|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 11143,
+            "end": 11205,
+            "left": {
+              "type": "Literal",
+              "start": 11143,
+              "end": 11191,
+              "value": "`$20` is not a capture index (nor is `$2`) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 11194,
+              "end": 11205,
+              "callee": {
+                "type": "Identifier",
+                "start": 11194,
+                "end": 11200,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 11201,
+                  "end": 11204,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11208,
+      "end": 11358,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11208,
+        "end": 11357,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11208,
+          "end": 11224,
+          "object": {
+            "type": "Identifier",
+            "start": 11208,
+            "end": 11214,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11215,
+            "end": 11224,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11225,
+            "end": 11251,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11225,
+              "end": 11236,
+              "object": {
+                "type": "Identifier",
+                "start": 11225,
+                "end": 11228,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11229,
+                "end": 11236,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11237,
+                "end": 11241,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 11243,
+                "end": 11250,
+                "value": "|$20|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11253,
+            "end": 11266,
+            "value": "foo-|0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 11270,
+            "end": 11356,
+            "left": {
+              "type": "Literal",
+              "start": 11270,
+              "end": 11341,
+              "value": "`$20` is not a capture index (but `$2` is a failed capture index) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 11344,
+              "end": 11356,
+              "callee": {
+                "type": "Identifier",
+                "start": 11344,
+                "end": 11350,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 11351,
+                  "end": 11355,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11359,
+      "end": 11487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11359,
+        "end": 11486,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11359,
+          "end": 11375,
+          "object": {
+            "type": "Identifier",
+            "start": 11359,
+            "end": 11365,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11366,
+            "end": 11375,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11376,
+            "end": 11402,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11376,
+              "end": 11387,
+              "object": {
+                "type": "Identifier",
+                "start": 11376,
+                "end": 11379,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11380,
+                "end": 11387,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11388,
+                "end": 11392,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 11394,
+                "end": 11401,
+                "value": "|$20|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11404,
+            "end": 11418,
+            "value": "foo-|x0|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 11422,
+            "end": 11485,
+            "left": {
+              "type": "Literal",
+              "start": 11422,
+              "end": 11470,
+              "value": "`$20` is not a capture index (but `$2` is) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 11473,
+              "end": 11485,
+              "callee": {
+                "type": "Identifier",
+                "start": 11473,
+                "end": 11479,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 11480,
+                  "end": 11484,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11489,
+      "end": 11632,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11489,
+        "end": 11631,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11489,
+          "end": 11505,
+          "object": {
+            "type": "Identifier",
+            "start": 11489,
+            "end": 11495,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11496,
+            "end": 11505,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11506,
+            "end": 11530,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11506,
+              "end": 11517,
+              "object": {
+                "type": "Identifier",
+                "start": 11506,
+                "end": 11509,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11510,
+                "end": 11517,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11518,
+                "end": 11519,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 11521,
+                "end": 11529,
+                "value": "|$200|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11532,
+            "end": 11548,
+            "value": "foo-|$200|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 11552,
+            "end": 11630,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 11552,
+              "end": 11624,
+              "left": {
+                "type": "Literal",
+                "start": 11552,
+                "end": 11620,
+                "value": "`$20` before `0` is not a capture index (nor is `$2`) for string \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 11623,
+                "end": 11624,
+                "name": "x"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 11627,
+              "end": 11630,
+              "value": "\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11633,
+      "end": 11773,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11633,
+        "end": 11772,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11633,
+          "end": 11649,
+          "object": {
+            "type": "Identifier",
+            "start": 11633,
+            "end": 11639,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11640,
+            "end": 11649,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11650,
+            "end": 11676,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11650,
+              "end": 11661,
+              "object": {
+                "type": "Identifier",
+                "start": 11650,
+                "end": 11653,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11654,
+                "end": 11661,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11662,
+                "end": 11665,
+                "name": "re0"
+              },
+              {
+                "type": "Literal",
+                "start": 11667,
+                "end": 11675,
+                "value": "|$200|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11678,
+            "end": 11694,
+            "value": "foo-|$200|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 11698,
+            "end": 11771,
+            "left": {
+              "type": "Literal",
+              "start": 11698,
+              "end": 11757,
+              "value": "`$20` before `0` is not a capture index (nor is `$2`) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 11760,
+              "end": 11771,
+              "callee": {
+                "type": "Identifier",
+                "start": 11760,
+                "end": 11766,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 11767,
+                  "end": 11770,
+                  "name": "re0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11774,
+      "end": 11914,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11774,
+        "end": 11913,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11774,
+          "end": 11790,
+          "object": {
+            "type": "Identifier",
+            "start": 11774,
+            "end": 11780,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11781,
+            "end": 11790,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11791,
+            "end": 11817,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11791,
+              "end": 11802,
+              "object": {
+                "type": "Identifier",
+                "start": 11791,
+                "end": 11794,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11795,
+                "end": 11802,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11803,
+                "end": 11806,
+                "name": "re1"
+              },
+              {
+                "type": "Literal",
+                "start": 11808,
+                "end": 11816,
+                "value": "|$200|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11819,
+            "end": 11835,
+            "value": "foo-|$200|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 11839,
+            "end": 11912,
+            "left": {
+              "type": "Literal",
+              "start": 11839,
+              "end": 11898,
+              "value": "`$20` before `0` is not a capture index (nor is `$2`) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 11901,
+              "end": 11912,
+              "callee": {
+                "type": "Identifier",
+                "start": 11901,
+                "end": 11907,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 11908,
+                  "end": 11911,
+                  "name": "re1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11915,
+      "end": 12078,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11915,
+        "end": 12077,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11915,
+          "end": 11931,
+          "object": {
+            "type": "Identifier",
+            "start": 11915,
+            "end": 11921,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11922,
+            "end": 11931,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11932,
+            "end": 11959,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11932,
+              "end": 11943,
+              "object": {
+                "type": "Identifier",
+                "start": 11932,
+                "end": 11935,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11936,
+                "end": 11943,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11944,
+                "end": 11948,
+                "name": "re1x"
+              },
+              {
+                "type": "Literal",
+                "start": 11950,
+                "end": 11958,
+                "value": "|$200|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11961,
+            "end": 11975,
+            "value": "foo-|00|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 11979,
+            "end": 12076,
+            "left": {
+              "type": "Literal",
+              "start": 11979,
+              "end": 12061,
+              "value": "`$20` before `0` is not a capture index (but `$2` is a failed capture index) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 12064,
+              "end": 12076,
+              "callee": {
+                "type": "Identifier",
+                "start": 12064,
+                "end": 12070,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 12071,
+                  "end": 12075,
+                  "name": "re1x"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 12079,
+      "end": 12220,
+      "expression": {
+        "type": "CallExpression",
+        "start": 12079,
+        "end": 12219,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 12079,
+          "end": 12095,
+          "object": {
+            "type": "Identifier",
+            "start": 12079,
+            "end": 12085,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 12086,
+            "end": 12095,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 12096,
+            "end": 12123,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 12096,
+              "end": 12107,
+              "object": {
+                "type": "Identifier",
+                "start": 12096,
+                "end": 12099,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 12100,
+                "end": 12107,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 12108,
+                "end": 12112,
+                "name": "re10"
+              },
+              {
+                "type": "Literal",
+                "start": 12114,
+                "end": 12122,
+                "value": "|$200|"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 12125,
+            "end": 12140,
+            "value": "foo-|x00|-bar"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 12144,
+            "end": 12218,
+            "left": {
+              "type": "Literal",
+              "start": 12144,
+              "end": 12203,
+              "value": "`$20` before `0` is not a capture index (but `$2` is) in "
+            },
+            "operator": "+",
+            "right": {
+              "type": "CallExpression",
+              "start": 12206,
+              "end": 12218,
+              "callee": {
+                "type": "Identifier",
+                "start": 12206,
+                "end": 12212,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 12213,
+                  "end": 12217,
+                  "name": "re10"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

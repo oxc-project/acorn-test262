@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 570,
+  "end": 552,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -196,11 +196,11 @@
     {
       "type": "ExpressionStatement",
       "start": 442,
-      "end": 507,
+      "end": 498,
       "expression": {
         "type": "CallExpression",
         "start": 442,
-        "end": 506,
+        "end": 497,
         "callee": {
           "type": "MemberExpression",
           "start": 442,
@@ -222,54 +222,34 @@
         },
         "arguments": [
           {
-            "type": "CallExpression",
+            "type": "MemberExpression",
             "start": 459,
-            "end": 482,
-            "callee": {
-              "type": "MemberExpression",
+            "end": 473,
+            "object": {
+              "type": "Identifier",
               "start": 459,
-              "end": 480,
-              "object": {
-                "type": "MemberExpression",
-                "start": 459,
-                "end": 471,
-                "object": {
-                  "type": "Identifier",
-                  "start": 459,
-                  "end": 462,
-                  "name": "zdt"
-                },
-                "property": {
-                  "type": "Identifier",
-                  "start": 463,
-                  "end": 471,
-                  "name": "calendar"
-                },
-                "computed": false,
-                "optional": false
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 472,
-                "end": 480,
-                "name": "toString"
-              },
-              "computed": false,
-              "optional": false
+              "end": 462,
+              "name": "zdt"
             },
-            "arguments": [],
+            "property": {
+              "type": "Identifier",
+              "start": 463,
+              "end": 473,
+              "name": "calendarId"
+            },
+            "computed": false,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 484,
-            "end": 493,
+            "start": 475,
+            "end": 484,
             "value": "iso8601"
           },
           {
             "type": "Literal",
-            "start": 495,
-            "end": 505,
+            "start": 486,
+            "end": 496,
             "value": "calendar"
           }
         ],
@@ -278,26 +258,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 508,
-      "end": 569,
+      "start": 499,
+      "end": 551,
       "expression": {
         "type": "CallExpression",
-        "start": 508,
-        "end": 568,
+        "start": 499,
+        "end": 550,
         "callee": {
           "type": "MemberExpression",
-          "start": 508,
-          "end": 524,
+          "start": 499,
+          "end": 515,
           "object": {
             "type": "Identifier",
-            "start": 508,
-            "end": 514,
+            "start": 499,
+            "end": 505,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 515,
-            "end": 524,
+            "start": 506,
+            "end": 515,
             "name": "sameValue"
           },
           "computed": false,
@@ -305,54 +285,34 @@
         },
         "arguments": [
           {
-            "type": "CallExpression",
-            "start": 525,
-            "end": 548,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 525,
-              "end": 546,
-              "object": {
-                "type": "MemberExpression",
-                "start": 525,
-                "end": 537,
-                "object": {
-                  "type": "Identifier",
-                  "start": 525,
-                  "end": 528,
-                  "name": "zdt"
-                },
-                "property": {
-                  "type": "Identifier",
-                  "start": 529,
-                  "end": 537,
-                  "name": "timeZone"
-                },
-                "computed": false,
-                "optional": false
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 538,
-                "end": 546,
-                "name": "toString"
-              },
-              "computed": false,
-              "optional": false
+            "type": "MemberExpression",
+            "start": 516,
+            "end": 530,
+            "object": {
+              "type": "Identifier",
+              "start": 516,
+              "end": 519,
+              "name": "zdt"
             },
-            "arguments": [],
+            "property": {
+              "type": "Identifier",
+              "start": 520,
+              "end": 530,
+              "name": "timeZoneId"
+            },
+            "computed": false,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 550,
-            "end": 555,
+            "start": 532,
+            "end": 537,
             "value": "UTC"
           },
           {
             "type": "Literal",
-            "start": 557,
-            "end": 567,
+            "start": 539,
+            "end": 549,
             "value": "timezone"
           }
         ],

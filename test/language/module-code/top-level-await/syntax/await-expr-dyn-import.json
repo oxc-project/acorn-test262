@@ -29,7 +29,8 @@
                   "start": 809,
                   "end": 814,
                   "value": "foo"
-                }
+                },
+                "options": null
               }
             }
           }

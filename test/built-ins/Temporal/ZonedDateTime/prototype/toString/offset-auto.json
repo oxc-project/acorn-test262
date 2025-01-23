@@ -1,0 +1,166 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 420,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 258,
+      "end": 330,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 264,
+          "end": 329,
+          "id": {
+            "type": "Identifier",
+            "start": 264,
+            "end": 268,
+            "name": "zdt1"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 271,
+            "end": 329,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 271,
+              "end": 298,
+              "object": {
+                "type": "MemberExpression",
+                "start": 271,
+                "end": 293,
+                "object": {
+                  "type": "Identifier",
+                  "start": 271,
+                  "end": 279,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 280,
+                  "end": 293,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 294,
+                "end": 298,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 299,
+                "end": 328,
+                "value": "1976-11-18T15:23+00:00[UTC]"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 332,
+      "end": 419,
+      "expression": {
+        "type": "CallExpression",
+        "start": 332,
+        "end": 418,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 332,
+          "end": 348,
+          "object": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 338,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 348,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 349,
+            "end": 382,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 349,
+              "end": 362,
+              "object": {
+                "type": "Identifier",
+                "start": 349,
+                "end": 353,
+                "name": "zdt1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 354,
+                "end": 362,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 363,
+                "end": 381,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 365,
+                    "end": 379,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 365,
+                      "end": 371,
+                      "name": "offset"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 373,
+                      "end": 379,
+                      "value": "auto"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 385,
+            "end": 417,
+            "value": "1976-11-18T15:23:00+00:00[UTC]"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

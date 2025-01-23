@@ -1,153 +1,125 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1064,
+  "end": 998,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 859,
-      "end": 921,
+      "end": 997,
       "expression": {
         "type": "CallExpression",
         "start": 859,
-        "end": 920,
+        "end": 996,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 859,
-          "end": 875,
-          "object": {
-            "type": "Identifier",
-            "start": 859,
-            "end": 865,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 866,
-            "end": 875,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 876,
-            "end": 898,
-            "object": {
-              "type": "Identifier",
-              "start": 876,
-              "end": 893,
-              "name": "Uint8ClampedArray"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 894,
-              "end": 898,
-              "name": "name"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 900,
-            "end": 919,
-            "value": "Uint8ClampedArray"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 923,
-      "end": 970,
-      "expression": {
-        "type": "CallExpression",
-        "start": 923,
-        "end": 969,
-        "callee": {
-          "type": "Identifier",
-          "start": 923,
-          "end": 942,
-          "name": "verifyNotEnumerable"
+          "end": 873,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 943,
-            "end": 960,
+            "start": 874,
+            "end": 891,
             "name": "Uint8ClampedArray"
           },
           {
             "type": "Literal",
-            "start": 962,
-            "end": 968,
+            "start": 893,
+            "end": 899,
             "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 971,
-      "end": 1016,
-      "expression": {
-        "type": "CallExpression",
-        "start": 971,
-        "end": 1015,
-        "callee": {
-          "type": "Identifier",
-          "start": 971,
-          "end": 988,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 989,
-            "end": 1006,
-            "name": "Uint8ClampedArray"
           },
           {
-            "type": "Literal",
-            "start": 1008,
-            "end": 1014,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 1017,
-      "end": 1063,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1017,
-        "end": 1062,
-        "callee": {
-          "type": "Identifier",
-          "start": 1017,
-          "end": 1035,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 1036,
-            "end": 1053,
-            "name": "Uint8ClampedArray"
-          },
-          {
-            "type": "Literal",
-            "start": 1055,
-            "end": 1061,
-            "value": "name"
+            "type": "ObjectExpression",
+            "start": 901,
+            "end": 995,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 905,
+                "end": 931,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 905,
+                  "end": 910,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 912,
+                  "end": 931,
+                  "value": "Uint8ClampedArray"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 935,
+                "end": 950,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 935,
+                  "end": 943,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 945,
+                  "end": 950,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 954,
+                "end": 971,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 954,
+                  "end": 964,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 966,
+                  "end": 971,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 975,
+                "end": 993,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 975,
+                  "end": 987,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 989,
+                  "end": 993,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

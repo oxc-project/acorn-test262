@@ -1,0 +1,235 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 504,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 286,
+      "end": 321,
+      "id": {
+        "type": "Identifier",
+        "start": 292,
+        "end": 302,
+        "name": "SubPromise"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 311,
+        "end": 318,
+        "name": "Promise"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 319,
+        "end": 321,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 323,
+      "end": 377,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 327,
+          "end": 376,
+          "id": {
+            "type": "Identifier",
+            "start": 327,
+            "end": 335,
+            "name": "instance"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 338,
+            "end": 376,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 338,
+              "end": 364,
+              "object": {
+                "type": "MemberExpression",
+                "start": 338,
+                "end": 359,
+                "object": {
+                  "type": "Identifier",
+                  "start": 338,
+                  "end": 345,
+                  "name": "Promise"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 346,
+                  "end": 359,
+                  "name": "withResolvers"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 360,
+                "end": 364,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 365,
+                "end": 375,
+                "name": "SubPromise"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 379,
+      "end": 438,
+      "expression": {
+        "type": "CallExpression",
+        "start": 379,
+        "end": 437,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 379,
+          "end": 395,
+          "object": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 385,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 386,
+            "end": 395,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 396,
+            "end": 424,
+            "object": {
+              "type": "MemberExpression",
+              "start": 396,
+              "end": 412,
+              "object": {
+                "type": "Identifier",
+                "start": 396,
+                "end": 404,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 405,
+                "end": 412,
+                "name": "promise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 413,
+              "end": 424,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 426,
+            "end": 436,
+            "name": "SubPromise"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 439,
+      "end": 502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 439,
+        "end": 501,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 439,
+          "end": 455,
+          "object": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 445,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 446,
+            "end": 455,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 456,
+            "end": 494,
+            "left": {
+              "type": "MemberExpression",
+              "start": 456,
+              "end": 472,
+              "object": {
+                "type": "Identifier",
+                "start": 456,
+                "end": 464,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 465,
+                "end": 472,
+                "name": "promise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 484,
+              "end": 494,
+              "name": "SubPromise"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 496,
+            "end": 500,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

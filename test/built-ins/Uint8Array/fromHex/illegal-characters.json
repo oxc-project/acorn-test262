@@ -1,0 +1,243 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 590,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 300,
+      "end": 473,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 304,
+          "end": 472,
+          "id": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 311,
+            "name": "illegal"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 314,
+            "end": 472,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 318,
+                "end": 323,
+                "value": "a.a"
+              },
+              {
+                "type": "Literal",
+                "start": 327,
+                "end": 332,
+                "value": "aa^"
+              },
+              {
+                "type": "Literal",
+                "start": 336,
+                "end": 341,
+                "value": "a a"
+              },
+              {
+                "type": "Literal",
+                "start": 345,
+                "end": 351,
+                "value": "a\ta"
+              },
+              {
+                "type": "Literal",
+                "start": 355,
+                "end": 363,
+                "value": "a\na"
+              },
+              {
+                "type": "Literal",
+                "start": 367,
+                "end": 375,
+                "value": "a\fa"
+              },
+              {
+                "type": "Literal",
+                "start": 379,
+                "end": 387,
+                "value": "a\ra"
+              },
+              {
+                "type": "Literal",
+                "start": 391,
+                "end": 401,
+                "value": "a a"
+              },
+              {
+                "type": "Literal",
+                "start": 413,
+                "end": 423,
+                "value": "a a"
+              },
+              {
+                "type": "Literal",
+                "start": 441,
+                "end": 451,
+                "value": "a a"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 474,
+      "end": 589,
+      "expression": {
+        "type": "CallExpression",
+        "start": 474,
+        "end": 588,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 474,
+          "end": 489,
+          "object": {
+            "type": "Identifier",
+            "start": 474,
+            "end": 481,
+            "name": "illegal"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 489,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 490,
+            "end": 587,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 499,
+                "end": 504,
+                "name": "value"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 506,
+              "end": 587,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 510,
+                  "end": 585,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 510,
+                    "end": 584,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 510,
+                      "end": 523,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 510,
+                        "end": 516,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 517,
+                        "end": 523,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 524,
+                        "end": 535,
+                        "name": "SyntaxError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 537,
+                        "end": 583,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 548,
+                          "end": 583,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 554,
+                              "end": 579,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 554,
+                                "end": 579,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 554,
+                                  "end": 572,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 554,
+                                    "end": 564,
+                                    "name": "Uint8Array"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 565,
+                                    "end": 572,
+                                    "name": "fromHex"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 573,
+                                    "end": 578,
+                                    "name": "value"
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

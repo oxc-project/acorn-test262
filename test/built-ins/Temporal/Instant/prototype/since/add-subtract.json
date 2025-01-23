@@ -1,0 +1,494 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 717,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 264,
+      "end": 336,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 270,
+          "end": 335,
+          "id": {
+            "type": "Identifier",
+            "start": 270,
+            "end": 277,
+            "name": "earlier"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 280,
+            "end": 335,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 280,
+              "end": 301,
+              "object": {
+                "type": "MemberExpression",
+                "start": 280,
+                "end": 296,
+                "object": {
+                  "type": "Identifier",
+                  "start": 280,
+                  "end": 288,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 289,
+                  "end": 296,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 297,
+                "end": 301,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 302,
+                "end": 334,
+                "value": "1976-11-18T15:23:30.123456789Z"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 337,
+      "end": 407,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 343,
+          "end": 406,
+          "id": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 348,
+            "name": "later"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 351,
+            "end": 406,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 351,
+              "end": 372,
+              "object": {
+                "type": "MemberExpression",
+                "start": 351,
+                "end": 367,
+                "object": {
+                  "type": "Identifier",
+                  "start": 351,
+                  "end": 359,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 360,
+                  "end": 367,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 372,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 373,
+                "end": 405,
+                "value": "2019-10-29T10:46:38.271986102Z"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 408,
+      "end": 442,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 414,
+          "end": 441,
+          "id": {
+            "type": "Identifier",
+            "start": 414,
+            "end": 418,
+            "name": "diff"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 421,
+            "end": 441,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 421,
+              "end": 432,
+              "object": {
+                "type": "Identifier",
+                "start": 421,
+                "end": 426,
+                "name": "later"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 427,
+                "end": 432,
+                "name": "since"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 433,
+                "end": 440,
+                "name": "earlier"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 444,
+      "end": 519,
+      "expression": {
+        "type": "CallExpression",
+        "start": 444,
+        "end": 518,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 444,
+          "end": 480,
+          "object": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 459,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 460,
+            "end": 480,
+            "name": "assertDurationsEqual"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 481,
+            "end": 501,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 481,
+              "end": 494,
+              "object": {
+                "type": "Identifier",
+                "start": 481,
+                "end": 488,
+                "name": "earlier"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 489,
+                "end": 494,
+                "name": "since"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 495,
+                "end": 500,
+                "name": "later"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 503,
+            "end": 517,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 503,
+              "end": 515,
+              "object": {
+                "type": "Identifier",
+                "start": 503,
+                "end": 507,
+                "name": "diff"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 508,
+                "end": 515,
+                "name": "negated"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 520,
+      "end": 585,
+      "expression": {
+        "type": "CallExpression",
+        "start": 520,
+        "end": 584,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 520,
+          "end": 556,
+          "object": {
+            "type": "Identifier",
+            "start": 520,
+            "end": 535,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 556,
+            "name": "assertDurationsEqual"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 557,
+            "end": 577,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 557,
+              "end": 570,
+              "object": {
+                "type": "Identifier",
+                "start": 557,
+                "end": 564,
+                "name": "earlier"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 565,
+                "end": 570,
+                "name": "until"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 571,
+                "end": 576,
+                "name": "later"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 579,
+            "end": 583,
+            "name": "diff"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 586,
+      "end": 648,
+      "expression": {
+        "type": "CallExpression",
+        "start": 586,
+        "end": 647,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 586,
+          "end": 621,
+          "object": {
+            "type": "Identifier",
+            "start": 586,
+            "end": 601,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 602,
+            "end": 621,
+            "name": "assertInstantsEqual"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 622,
+            "end": 639,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 622,
+              "end": 633,
+              "object": {
+                "type": "Identifier",
+                "start": 622,
+                "end": 629,
+                "name": "earlier"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 630,
+                "end": 633,
+                "name": "add"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 634,
+                "end": 638,
+                "name": "diff"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 641,
+            "end": 646,
+            "name": "later"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 649,
+      "end": 716,
+      "expression": {
+        "type": "CallExpression",
+        "start": 649,
+        "end": 715,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 649,
+          "end": 684,
+          "object": {
+            "type": "Identifier",
+            "start": 649,
+            "end": 664,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 665,
+            "end": 684,
+            "name": "assertInstantsEqual"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 685,
+            "end": 705,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 685,
+              "end": 699,
+              "object": {
+                "type": "Identifier",
+                "start": 685,
+                "end": 690,
+                "name": "later"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 691,
+                "end": 699,
+                "name": "subtract"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 700,
+                "end": 704,
+                "name": "diff"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 707,
+            "end": 714,
+            "name": "earlier"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

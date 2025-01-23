@@ -25,7 +25,8 @@
         "start": 520,
         "end": 545,
         "value": "./get-str-found-init.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -139,7 +140,8 @@
         "start": 653,
         "end": 678,
         "value": "./get-str-found-init.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

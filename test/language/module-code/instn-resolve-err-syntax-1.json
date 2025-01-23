@@ -31,7 +31,8 @@
         "start": 562,
         "end": 603,
         "value": "./instn-resolve-err-syntax-1_FIXTURE.js"
-      }
+      },
+      "attributes": []
     }
   ],
   "sourceType": "module"

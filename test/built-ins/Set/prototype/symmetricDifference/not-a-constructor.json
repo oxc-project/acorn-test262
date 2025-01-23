@@ -1,0 +1,196 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 618,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 375,
+      "end": 527,
+      "expression": {
+        "type": "CallExpression",
+        "start": 375,
+        "end": 526,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 375,
+          "end": 391,
+          "object": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 381,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 391,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 395,
+            "end": 443,
+            "callee": {
+              "type": "Identifier",
+              "start": 395,
+              "end": 408,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 409,
+                "end": 442,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 409,
+                  "end": 422,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 409,
+                    "end": 412,
+                    "name": "Set"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 413,
+                    "end": 422,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 423,
+                  "end": 442,
+                  "name": "symmetricDifference"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 447,
+            "end": 452,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 456,
+            "end": 524,
+            "value": "isConstructor(Set.prototype.symmetricDifference) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 529,
+      "end": 617,
+      "expression": {
+        "type": "CallExpression",
+        "start": 529,
+        "end": 616,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 529,
+          "end": 542,
+          "object": {
+            "type": "Identifier",
+            "start": 529,
+            "end": 535,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 542,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 546,
+            "end": 555,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 559,
+            "end": 615,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 565,
+              "end": 615,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 571,
+                  "end": 611,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 571,
+                    "end": 610,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 575,
+                      "end": 608,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 575,
+                        "end": 588,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 575,
+                          "end": 578,
+                          "name": "Set"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 579,
+                          "end": 588,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 589,
+                        "end": 608,
+                        "name": "symmetricDifference"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

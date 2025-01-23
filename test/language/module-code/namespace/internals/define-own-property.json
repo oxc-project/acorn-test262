@@ -25,7 +25,8 @@
         "start": 449,
         "end": 475,
         "value": "./define-own-property.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -129,7 +130,8 @@
         "start": 573,
         "end": 599,
         "value": "./define-own-property.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

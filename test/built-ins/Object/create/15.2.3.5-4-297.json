@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 404,
+  "end": 405,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 294,
-      "end": 403,
+      "end": 404,
       "expression": {
         "type": "CallExpression",
         "start": 294,
-        "end": 402,
+        "end": 403,
         "callee": {
           "type": "MemberExpression",
           "start": 294,
@@ -40,7 +40,7 @@
           {
             "type": "FunctionExpression",
             "start": 319,
-            "end": 401,
+            "end": 402,
             "id": null,
             "expression": false,
             "generator": false,
@@ -49,16 +49,16 @@
             "body": {
               "type": "BlockStatement",
               "start": 330,
-              "end": 401,
+              "end": 402,
               "body": [
                 {
                   "type": "ExpressionStatement",
                   "start": 334,
-                  "end": 399,
+                  "end": 400,
                   "expression": {
                     "type": "CallExpression",
                     "start": 334,
-                    "end": 398,
+                    "end": 399,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 334,
@@ -88,12 +88,12 @@
                       {
                         "type": "ObjectExpression",
                         "start": 352,
-                        "end": 397,
+                        "end": 398,
                         "properties": [
                           {
                             "type": "Property",
                             "start": 358,
-                            "end": 393,
+                            "end": 394,
                             "method": false,
                             "shorthand": false,
                             "computed": false,
@@ -106,12 +106,12 @@
                             "value": {
                               "type": "ObjectExpression",
                               "start": 364,
-                              "end": 393,
+                              "end": 394,
                               "properties": [
                                 {
                                   "type": "Property",
                                   "start": 372,
-                                  "end": 387,
+                                  "end": 388,
                                   "method": false,
                                   "shorthand": false,
                                   "computed": false,
@@ -124,14 +124,21 @@
                                   "value": {
                                     "type": "NewExpression",
                                     "start": 377,
-                                    "end": 387,
+                                    "end": 388,
                                     "callee": {
                                       "type": "Identifier",
                                       "start": 381,
                                       "end": 385,
                                       "name": "Date"
                                     },
-                                    "arguments": []
+                                    "arguments": [
+                                      {
+                                        "type": "Literal",
+                                        "start": 386,
+                                        "end": 387,
+                                        "value": 0
+                                      }
+                                    ]
                                   },
                                   "kind": "init"
                                 }

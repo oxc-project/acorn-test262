@@ -1,0 +1,1203 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2497,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 825,
+      "end": 2011,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 831,
+          "end": 2010,
+          "id": {
+            "type": "Identifier",
+            "start": 831,
+            "end": 857,
+            "name": "validFirstDayOfWeekOptions"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 860,
+            "end": 2010,
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "start": 864,
+                "end": 886,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 865,
+                    "end": 870,
+                    "value": "mon"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 872,
+                    "end": 885,
+                    "value": "en-u-fw-mon"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 890,
+                "end": 912,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 891,
+                    "end": 896,
+                    "value": "tue"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 898,
+                    "end": 911,
+                    "value": "en-u-fw-tue"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 916,
+                "end": 938,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 917,
+                    "end": 922,
+                    "value": "wed"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 924,
+                    "end": 937,
+                    "value": "en-u-fw-wed"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 942,
+                "end": 964,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 943,
+                    "end": 948,
+                    "value": "thu"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 950,
+                    "end": 963,
+                    "value": "en-u-fw-thu"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 968,
+                "end": 990,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 969,
+                    "end": 974,
+                    "value": "fri"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 976,
+                    "end": 989,
+                    "value": "en-u-fw-fri"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 994,
+                "end": 1016,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 995,
+                    "end": 1000,
+                    "value": "sat"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1002,
+                    "end": 1015,
+                    "value": "en-u-fw-sat"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1020,
+                "end": 1042,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1021,
+                    "end": 1026,
+                    "value": "sun"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1028,
+                    "end": 1041,
+                    "value": "en-u-fw-sun"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1046,
+                "end": 1066,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1047,
+                    "end": 1050,
+                    "value": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1052,
+                    "end": 1065,
+                    "value": "en-u-fw-mon"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1070,
+                "end": 1090,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1071,
+                    "end": 1074,
+                    "value": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1076,
+                    "end": 1089,
+                    "value": "en-u-fw-tue"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1094,
+                "end": 1114,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1095,
+                    "end": 1098,
+                    "value": "3"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1100,
+                    "end": 1113,
+                    "value": "en-u-fw-wed"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1118,
+                "end": 1138,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1119,
+                    "end": 1122,
+                    "value": "4"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1124,
+                    "end": 1137,
+                    "value": "en-u-fw-thu"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1142,
+                "end": 1162,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1143,
+                    "end": 1146,
+                    "value": "5"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1148,
+                    "end": 1161,
+                    "value": "en-u-fw-fri"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1166,
+                "end": 1186,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1167,
+                    "end": 1170,
+                    "value": "6"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1172,
+                    "end": 1185,
+                    "value": "en-u-fw-sat"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1190,
+                "end": 1210,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1191,
+                    "end": 1194,
+                    "value": "7"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1196,
+                    "end": 1209,
+                    "value": "en-u-fw-sun"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1214,
+                "end": 1234,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1215,
+                    "end": 1218,
+                    "value": "0"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1220,
+                    "end": 1233,
+                    "value": "en-u-fw-sun"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1238,
+                "end": 1256,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1239,
+                    "end": 1240,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1242,
+                    "end": 1255,
+                    "value": "en-u-fw-mon"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1260,
+                "end": 1278,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1261,
+                    "end": 1262,
+                    "value": 2
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1264,
+                    "end": 1277,
+                    "value": "en-u-fw-tue"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1282,
+                "end": 1300,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1283,
+                    "end": 1284,
+                    "value": 3
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1286,
+                    "end": 1299,
+                    "value": "en-u-fw-wed"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1304,
+                "end": 1322,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1305,
+                    "end": 1306,
+                    "value": 4
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1308,
+                    "end": 1321,
+                    "value": "en-u-fw-thu"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1326,
+                "end": 1344,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1327,
+                    "end": 1328,
+                    "value": 5
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1330,
+                    "end": 1343,
+                    "value": "en-u-fw-fri"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1348,
+                "end": 1366,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1349,
+                    "end": 1350,
+                    "value": 6
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1352,
+                    "end": 1365,
+                    "value": "en-u-fw-sat"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1370,
+                "end": 1388,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1371,
+                    "end": 1372,
+                    "value": 7
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1374,
+                    "end": 1387,
+                    "value": "en-u-fw-sun"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1392,
+                "end": 1410,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1393,
+                    "end": 1394,
+                    "value": 0
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1396,
+                    "end": 1409,
+                    "value": "en-u-fw-sun"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1414,
+                "end": 1431,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1415,
+                    "end": 1419,
+                    "value": true
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1421,
+                    "end": 1430,
+                    "value": "en-u-fw"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1435,
+                "end": 1459,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1436,
+                    "end": 1441,
+                    "value": false
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1443,
+                    "end": 1458,
+                    "value": "en-u-fw-false"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1463,
+                "end": 1485,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1464,
+                    "end": 1468,
+                    "value": null
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1470,
+                    "end": 1484,
+                    "value": "en-u-fw-null"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1489,
+                "end": 1519,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1490,
+                    "end": 1499,
+                    "value": "primidi"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1501,
+                    "end": 1518,
+                    "value": "en-u-fw-primidi"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1523,
+                "end": 1549,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1524,
+                    "end": 1531,
+                    "value": "duodi"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1533,
+                    "end": 1548,
+                    "value": "en-u-fw-duodi"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1553,
+                "end": 1579,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1554,
+                    "end": 1561,
+                    "value": "tridi"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1563,
+                    "end": 1578,
+                    "value": "en-u-fw-tridi"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1583,
+                "end": 1615,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1584,
+                    "end": 1594,
+                    "value": "quartidi"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1596,
+                    "end": 1614,
+                    "value": "en-u-fw-quartidi"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1619,
+                "end": 1651,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1620,
+                    "end": 1630,
+                    "value": "quintidi"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1632,
+                    "end": 1650,
+                    "value": "en-u-fw-quintidi"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1655,
+                "end": 1685,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1656,
+                    "end": 1665,
+                    "value": "sextidi"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1667,
+                    "end": 1684,
+                    "value": "en-u-fw-sextidi"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1689,
+                "end": 1719,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1690,
+                    "end": 1699,
+                    "value": "septidi"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1701,
+                    "end": 1718,
+                    "value": "en-u-fw-septidi"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1723,
+                "end": 1751,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1724,
+                    "end": 1732,
+                    "value": "octidi"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1734,
+                    "end": 1750,
+                    "value": "en-u-fw-octidi"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1755,
+                "end": 1783,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1756,
+                    "end": 1764,
+                    "value": "nonidi"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1766,
+                    "end": 1782,
+                    "value": "en-u-fw-nonidi"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1787,
+                "end": 1815,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1788,
+                    "end": 1796,
+                    "value": "decadi"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1798,
+                    "end": 1814,
+                    "value": "en-u-fw-decadi"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1819,
+                "end": 1845,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1820,
+                    "end": 1827,
+                    "value": "frank"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1829,
+                    "end": 1844,
+                    "value": "en-u-fw-frank"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1849,
+                "end": 1881,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1850,
+                    "end": 1860,
+                    "value": "yungfong"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1862,
+                    "end": 1880,
+                    "value": "en-u-fw-yungfong"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1885,
+                "end": 1919,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1886,
+                    "end": 1897,
+                    "value": "yung-fong"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1899,
+                    "end": 1918,
+                    "value": "en-u-fw-yung-fong"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1923,
+                "end": 1947,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1924,
+                    "end": 1930,
+                    "value": "tang"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1932,
+                    "end": 1946,
+                    "value": "en-u-fw-tang"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1951,
+                "end": 2007,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1952,
+                    "end": 1974,
+                    "value": "frank-yung-fong-tang"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1976,
+                    "end": 2006,
+                    "value": "en-u-fw-frank-yung-fong-tang"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 2012,
+      "end": 2496,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 2017,
+        "end": 2049,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2023,
+            "end": 2049,
+            "id": {
+              "type": "ArrayPattern",
+              "start": 2023,
+              "end": 2049,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 2024,
+                  "end": 2038,
+                  "name": "firstDayOfWeek"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 2040,
+                  "end": 2048,
+                  "name": "expected"
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 2053,
+        "end": 2079,
+        "name": "validFirstDayOfWeekOptions"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 2081,
+        "end": 2496,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 2085,
+            "end": 2279,
+            "expression": {
+              "type": "CallExpression",
+              "start": 2085,
+              "end": 2278,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2085,
+                "end": 2101,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2085,
+                  "end": 2091,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2092,
+                  "end": 2101,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 2107,
+                  "end": 2159,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 2107,
+                    "end": 2157,
+                    "object": {
+                      "type": "NewExpression",
+                      "start": 2107,
+                      "end": 2148,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 2111,
+                        "end": 2122,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 2111,
+                          "end": 2115,
+                          "name": "Intl"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 2116,
+                          "end": 2122,
+                          "name": "Locale"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 2123,
+                          "end": 2127,
+                          "value": "en"
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "start": 2129,
+                          "end": 2147,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 2131,
+                              "end": 2145,
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 2131,
+                                "end": 2145,
+                                "name": "firstDayOfWeek"
+                              },
+                              "kind": "init",
+                              "value": {
+                                "type": "Identifier",
+                                "start": 2131,
+                                "end": 2145,
+                                "name": "firstDayOfWeek"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2149,
+                      "end": 2157,
+                      "name": "toString"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 2165,
+                  "end": 2173,
+                  "name": "expected"
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 2179,
+                  "end": 2274,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 2222,
+                      "end": 2236,
+                      "name": "firstDayOfWeek"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 2263,
+                      "end": 2271,
+                      "name": "expected"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 2180,
+                      "end": 2220,
+                      "value": {
+                        "raw": "new Intl.Locale(\"en\", { firstDayOfWeek: ",
+                        "cooked": "new Intl.Locale(\"en\", { firstDayOfWeek: "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 2237,
+                      "end": 2261,
+                      "value": {
+                        "raw": " }).toString() returns \"",
+                        "cooked": " }).toString() returns \""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 2272,
+                      "end": 2273,
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 2282,
+            "end": 2494,
+            "expression": {
+              "type": "CallExpression",
+              "start": 2282,
+              "end": 2493,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2282,
+                "end": 2298,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2282,
+                  "end": 2288,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2289,
+                  "end": 2298,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 2304,
+                  "end": 2365,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 2304,
+                    "end": 2363,
+                    "object": {
+                      "type": "NewExpression",
+                      "start": 2304,
+                      "end": 2354,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 2308,
+                        "end": 2319,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 2308,
+                          "end": 2312,
+                          "name": "Intl"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 2313,
+                          "end": 2319,
+                          "name": "Locale"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 2320,
+                          "end": 2333,
+                          "value": "en-u-fw-WED"
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "start": 2335,
+                          "end": 2353,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 2337,
+                              "end": 2351,
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 2337,
+                                "end": 2351,
+                                "name": "firstDayOfWeek"
+                              },
+                              "kind": "init",
+                              "value": {
+                                "type": "Identifier",
+                                "start": 2337,
+                                "end": 2351,
+                                "name": "firstDayOfWeek"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2355,
+                      "end": 2363,
+                      "name": "toString"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 2371,
+                  "end": 2379,
+                  "name": "expected"
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 2385,
+                  "end": 2489,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 2437,
+                      "end": 2451,
+                      "name": "firstDayOfWeek"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 2478,
+                      "end": 2486,
+                      "name": "expected"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 2386,
+                      "end": 2435,
+                      "value": {
+                        "raw": "new Intl.Locale(\"en-u-fw-WED\", { firstDayOfWeek: ",
+                        "cooked": "new Intl.Locale(\"en-u-fw-WED\", { firstDayOfWeek: "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 2452,
+                      "end": 2476,
+                      "value": {
+                        "raw": " }).toString() returns \"",
+                        "cooked": " }).toString() returns \""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 2487,
+                      "end": 2488,
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 936,
+  "end": 939,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -44,11 +44,11 @@
     {
       "type": "ExpressionStatement",
       "start": 734,
-      "end": 935,
+      "end": 938,
       "expression": {
         "type": "CallExpression",
         "start": 734,
-        "end": 934,
+        "end": 937,
         "callee": {
           "type": "Identifier",
           "start": 734,
@@ -166,47 +166,62 @@
             }
           },
           {
-            "type": "ArrayExpression",
+            "type": "CallExpression",
             "start": 853,
-            "end": 933,
-            "elements": [
-              {
+            "end": 936,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 853,
+              "end": 882,
+              "object": {
                 "type": "Identifier",
-                "start": 855,
-                "end": 867,
-                "name": "Float64Array"
+                "start": 853,
+                "end": 875,
+                "name": "floatArrayConstructors"
               },
-              {
+              "property": {
                 "type": "Identifier",
-                "start": 869,
-                "end": 881,
-                "name": "Float32Array"
+                "start": 876,
+                "end": 882,
+                "name": "concat"
               },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
               {
-                "type": "Identifier",
+                "type": "ArrayExpression",
                 "start": 883,
-                "end": 893,
-                "name": "Int32Array"
-              },
-              {
-                "type": "Identifier",
-                "start": 895,
-                "end": 905,
-                "name": "Int16Array"
-              },
-              {
-                "type": "Identifier",
-                "start": 907,
-                "end": 918,
-                "name": "Uint32Array"
-              },
-              {
-                "type": "Identifier",
-                "start": 920,
-                "end": 931,
-                "name": "Uint16Array"
+                "end": 935,
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "start": 885,
+                    "end": 895,
+                    "name": "Int32Array"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 897,
+                    "end": 907,
+                    "name": "Int16Array"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 909,
+                    "end": 920,
+                    "name": "Uint32Array"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 922,
+                    "end": 933,
+                    "name": "Uint16Array"
+                  }
+                ]
               }
-            ]
+            ],
+            "optional": false
           }
         ],
         "optional": false

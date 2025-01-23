@@ -25,7 +25,8 @@
         "start": 777,
         "end": 820,
         "value": "./export-expname-binding-index_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

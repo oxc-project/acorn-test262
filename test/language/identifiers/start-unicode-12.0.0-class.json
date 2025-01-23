@@ -1,12 +1,12 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1318,
+  "end": 2433,
   "body": [
     {
       "type": "ClassDeclaration",
       "start": 434,
-      "end": 1316,
+      "end": 2431,
       "id": {
         "type": "Identifier",
         "start": 440,
@@ -17,19 +17,3141 @@
       "body": {
         "type": "ClassBody",
         "start": 442,
-        "end": 1316,
+        "end": 2431,
         "body": [
           {
             "type": "PropertyDefinition",
             "start": 446,
-            "end": 1314,
+            "end": 451,
             "static": false,
             "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 446,
-              "end": 1313,
-              "name": "ຆຉຌຎຏຐຑຒຓຘຠຨຩຬᳲᳳᳺꞺꞻꞼꞽꞾꞿꟂꟃꟄꟅꟆꭦꭧ𐿠𐿡𐿢𐿣𐿤𐿥𐿦𐿧𐿨𐿩𐿪𐿫𐿬𐿭𐿮𐿯𐿰𐿱𐿲𐿳𐿴𐿵𐿶𑑟𑚸𑦠𑦡𑦢𑦣𑦤𑦥𑦦𑦧𑦪𑦫𑦬𑦭𑦮𑦯𑦰𑦱𑦲𑦳𑦴𑦵𑦶𑦷𑦸𑦹𑦺𑦻𑦼𑦽𑦾𑦿𑧀𑧁𑧂𑧃𑧄𑧅𑧆𑧇𑧈𑧉𑧊𑧋𑧌𑧍𑧎𑧏𑧐𑧡𑧣𑪄𑪅𖽅𖽆𖽇𖽈𖽉𖽊𖿣𘟲𘟳𘟴𘟵𘟶𘟷𛅐𛅑𛅒𛅤𛅥𛅦𛅧𞄀𞄁𞄂𞄃𞄄𞄅𞄆𞄇𞄈𞄉𞄊𞄋𞄌𞄍𞄎𞄏𞄐𞄑𞄒𞄓𞄔𞄕𞄖𞄗𞄘𞄙𞄚𞄛𞄜𞄝𞄞𞄟𞄠𞄡𞄢𞄣𞄤𞄥𞄦𞄧𞄨𞄩𞄪𞄫𞄬𞄷𞄸𞄹𞄺𞄻𞄼𞄽𞅎𞋀𞋁𞋂𞋃𞋄𞋅𞋆𞋇𞋈𞋉𞋊𞋋𞋌𞋍𞋎𞋏𞋐𞋑𞋒𞋓𞋔𞋕𞋖𞋗𞋘𞋙𞋚𞋛𞋜𞋝𞋞𞋟𞋠𞋡𞋢𞋣𞋤𞋥𞋦𞋧𞋨𞋩𞋪𞋫𞥋"
+              "end": 450,
+              "name": "ຆ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 454,
+            "end": 459,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 454,
+              "end": 458,
+              "name": "ຉ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 462,
+            "end": 467,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 462,
+              "end": 466,
+              "name": "ຌ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 470,
+            "end": 475,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 470,
+              "end": 474,
+              "name": "ຎ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 478,
+            "end": 483,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 478,
+              "end": 482,
+              "name": "ຏ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 486,
+            "end": 491,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 486,
+              "end": 490,
+              "name": "ຐ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 494,
+            "end": 499,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 494,
+              "end": 498,
+              "name": "ຑ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 502,
+            "end": 507,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 502,
+              "end": 506,
+              "name": "ຒ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 510,
+            "end": 515,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 510,
+              "end": 514,
+              "name": "ຓ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 518,
+            "end": 523,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 518,
+              "end": 522,
+              "name": "ຘ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 526,
+            "end": 531,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 526,
+              "end": 530,
+              "name": "ຠ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 534,
+            "end": 539,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 534,
+              "end": 538,
+              "name": "ຨ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 542,
+            "end": 547,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 542,
+              "end": 546,
+              "name": "ຩ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 550,
+            "end": 555,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 550,
+              "end": 554,
+              "name": "ຬ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 558,
+            "end": 563,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 558,
+              "end": 562,
+              "name": "ᳲ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 566,
+            "end": 571,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 566,
+              "end": 570,
+              "name": "ᳳ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 574,
+            "end": 579,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 574,
+              "end": 578,
+              "name": "ᳺ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 582,
+            "end": 587,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 582,
+              "end": 586,
+              "name": "Ꞻ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 590,
+            "end": 595,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 590,
+              "end": 594,
+              "name": "ꞻ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 598,
+            "end": 603,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 598,
+              "end": 602,
+              "name": "Ꞽ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 606,
+            "end": 611,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 606,
+              "end": 610,
+              "name": "ꞽ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 614,
+            "end": 619,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 614,
+              "end": 618,
+              "name": "Ꞿ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 622,
+            "end": 627,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 622,
+              "end": 626,
+              "name": "ꞿ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 630,
+            "end": 635,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 630,
+              "end": 634,
+              "name": "Ꟃ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 638,
+            "end": 643,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 638,
+              "end": 642,
+              "name": "ꟃ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 646,
+            "end": 651,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 646,
+              "end": 650,
+              "name": "Ꞔ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 654,
+            "end": 659,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 654,
+              "end": 658,
+              "name": "Ʂ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 662,
+            "end": 667,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 662,
+              "end": 666,
+              "name": "Ᶎ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 670,
+            "end": 675,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 670,
+              "end": 674,
+              "name": "ꭦ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 678,
+            "end": 683,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 678,
+              "end": 682,
+              "name": "ꭧ"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 686,
+            "end": 692,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 686,
+              "end": 691,
+              "name": "𐿠"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 695,
+            "end": 701,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 695,
+              "end": 700,
+              "name": "𐿡"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 704,
+            "end": 710,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 704,
+              "end": 709,
+              "name": "𐿢"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 713,
+            "end": 719,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 713,
+              "end": 718,
+              "name": "𐿣"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 722,
+            "end": 728,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 722,
+              "end": 727,
+              "name": "𐿤"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 731,
+            "end": 737,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 731,
+              "end": 736,
+              "name": "𐿥"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 740,
+            "end": 746,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 740,
+              "end": 745,
+              "name": "𐿦"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 749,
+            "end": 755,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 749,
+              "end": 754,
+              "name": "𐿧"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 758,
+            "end": 764,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 758,
+              "end": 763,
+              "name": "𐿨"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 767,
+            "end": 773,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 767,
+              "end": 772,
+              "name": "𐿩"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 776,
+            "end": 782,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 776,
+              "end": 781,
+              "name": "𐿪"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 785,
+            "end": 791,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 785,
+              "end": 790,
+              "name": "𐿫"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 794,
+            "end": 800,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 794,
+              "end": 799,
+              "name": "𐿬"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 803,
+            "end": 809,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 803,
+              "end": 808,
+              "name": "𐿭"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 812,
+            "end": 818,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 812,
+              "end": 817,
+              "name": "𐿮"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 821,
+            "end": 827,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 821,
+              "end": 826,
+              "name": "𐿯"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 830,
+            "end": 836,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 830,
+              "end": 835,
+              "name": "𐿰"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 839,
+            "end": 845,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 839,
+              "end": 844,
+              "name": "𐿱"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 848,
+            "end": 854,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 848,
+              "end": 853,
+              "name": "𐿲"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 857,
+            "end": 863,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 857,
+              "end": 862,
+              "name": "𐿳"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 866,
+            "end": 872,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 866,
+              "end": 871,
+              "name": "𐿴"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 875,
+            "end": 881,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 875,
+              "end": 880,
+              "name": "𐿵"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 884,
+            "end": 890,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 884,
+              "end": 889,
+              "name": "𐿶"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 893,
+            "end": 899,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 893,
+              "end": 898,
+              "name": "𑑟"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 902,
+            "end": 908,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 902,
+              "end": 907,
+              "name": "𑚸"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 911,
+            "end": 917,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 911,
+              "end": 916,
+              "name": "𑦠"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 920,
+            "end": 926,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 920,
+              "end": 925,
+              "name": "𑦡"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 929,
+            "end": 935,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 929,
+              "end": 934,
+              "name": "𑦢"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 938,
+            "end": 944,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 938,
+              "end": 943,
+              "name": "𑦣"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 947,
+            "end": 953,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 947,
+              "end": 952,
+              "name": "𑦤"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 956,
+            "end": 962,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 956,
+              "end": 961,
+              "name": "𑦥"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 965,
+            "end": 971,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 965,
+              "end": 970,
+              "name": "𑦦"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 974,
+            "end": 980,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 974,
+              "end": 979,
+              "name": "𑦧"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 983,
+            "end": 989,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 983,
+              "end": 988,
+              "name": "𑦪"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 992,
+            "end": 998,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 992,
+              "end": 997,
+              "name": "𑦫"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1001,
+            "end": 1007,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1001,
+              "end": 1006,
+              "name": "𑦬"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1010,
+            "end": 1016,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1010,
+              "end": 1015,
+              "name": "𑦭"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1019,
+            "end": 1025,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1019,
+              "end": 1024,
+              "name": "𑦮"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1028,
+            "end": 1034,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1028,
+              "end": 1033,
+              "name": "𑦯"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1037,
+            "end": 1043,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1037,
+              "end": 1042,
+              "name": "𑦰"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1046,
+            "end": 1052,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1046,
+              "end": 1051,
+              "name": "𑦱"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1055,
+            "end": 1061,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1055,
+              "end": 1060,
+              "name": "𑦲"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1064,
+            "end": 1070,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1064,
+              "end": 1069,
+              "name": "𑦳"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1073,
+            "end": 1079,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1073,
+              "end": 1078,
+              "name": "𑦴"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1082,
+            "end": 1088,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1082,
+              "end": 1087,
+              "name": "𑦵"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1091,
+            "end": 1097,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1091,
+              "end": 1096,
+              "name": "𑦶"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1100,
+            "end": 1106,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1100,
+              "end": 1105,
+              "name": "𑦷"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1109,
+            "end": 1115,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1109,
+              "end": 1114,
+              "name": "𑦸"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1118,
+            "end": 1124,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1118,
+              "end": 1123,
+              "name": "𑦹"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1127,
+            "end": 1133,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1127,
+              "end": 1132,
+              "name": "𑦺"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1136,
+            "end": 1142,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1136,
+              "end": 1141,
+              "name": "𑦻"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1145,
+            "end": 1151,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1145,
+              "end": 1150,
+              "name": "𑦼"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1154,
+            "end": 1160,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1154,
+              "end": 1159,
+              "name": "𑦽"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1163,
+            "end": 1169,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1163,
+              "end": 1168,
+              "name": "𑦾"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1172,
+            "end": 1178,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1172,
+              "end": 1177,
+              "name": "𑦿"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1181,
+            "end": 1187,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1181,
+              "end": 1186,
+              "name": "𑧀"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1190,
+            "end": 1196,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1190,
+              "end": 1195,
+              "name": "𑧁"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1199,
+            "end": 1205,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1199,
+              "end": 1204,
+              "name": "𑧂"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1208,
+            "end": 1214,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1208,
+              "end": 1213,
+              "name": "𑧃"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1217,
+            "end": 1223,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1217,
+              "end": 1222,
+              "name": "𑧄"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1226,
+            "end": 1232,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1226,
+              "end": 1231,
+              "name": "𑧅"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1235,
+            "end": 1241,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1235,
+              "end": 1240,
+              "name": "𑧆"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1244,
+            "end": 1250,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1244,
+              "end": 1249,
+              "name": "𑧇"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1253,
+            "end": 1259,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1253,
+              "end": 1258,
+              "name": "𑧈"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1262,
+            "end": 1268,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1262,
+              "end": 1267,
+              "name": "𑧉"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1271,
+            "end": 1277,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1271,
+              "end": 1276,
+              "name": "𑧊"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1280,
+            "end": 1286,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1280,
+              "end": 1285,
+              "name": "𑧋"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1289,
+            "end": 1295,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1289,
+              "end": 1294,
+              "name": "𑧌"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1298,
+            "end": 1304,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1298,
+              "end": 1303,
+              "name": "𑧍"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1307,
+            "end": 1313,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1307,
+              "end": 1312,
+              "name": "𑧎"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1316,
+            "end": 1322,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1316,
+              "end": 1321,
+              "name": "𑧏"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1325,
+            "end": 1331,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1325,
+              "end": 1330,
+              "name": "𑧐"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1334,
+            "end": 1340,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1334,
+              "end": 1339,
+              "name": "𑧡"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1343,
+            "end": 1349,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1343,
+              "end": 1348,
+              "name": "𑧣"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1352,
+            "end": 1358,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1352,
+              "end": 1357,
+              "name": "𑪄"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1361,
+            "end": 1367,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1361,
+              "end": 1366,
+              "name": "𑪅"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1370,
+            "end": 1376,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1370,
+              "end": 1375,
+              "name": "𖽅"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1379,
+            "end": 1385,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1379,
+              "end": 1384,
+              "name": "𖽆"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1388,
+            "end": 1394,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1388,
+              "end": 1393,
+              "name": "𖽇"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1397,
+            "end": 1403,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1397,
+              "end": 1402,
+              "name": "𖽈"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1406,
+            "end": 1412,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1406,
+              "end": 1411,
+              "name": "𖽉"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1415,
+            "end": 1421,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1415,
+              "end": 1420,
+              "name": "𖽊"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1424,
+            "end": 1430,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1424,
+              "end": 1429,
+              "name": "𖿣"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1433,
+            "end": 1439,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1433,
+              "end": 1438,
+              "name": "𘟲"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1442,
+            "end": 1448,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1442,
+              "end": 1447,
+              "name": "𘟳"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1451,
+            "end": 1457,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1451,
+              "end": 1456,
+              "name": "𘟴"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1460,
+            "end": 1466,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1460,
+              "end": 1465,
+              "name": "𘟵"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1469,
+            "end": 1475,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1469,
+              "end": 1474,
+              "name": "𘟶"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1478,
+            "end": 1484,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1478,
+              "end": 1483,
+              "name": "𘟷"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1487,
+            "end": 1493,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1487,
+              "end": 1492,
+              "name": "𛅐"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1496,
+            "end": 1502,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1496,
+              "end": 1501,
+              "name": "𛅑"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1505,
+            "end": 1511,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1505,
+              "end": 1510,
+              "name": "𛅒"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1514,
+            "end": 1520,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1514,
+              "end": 1519,
+              "name": "𛅤"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1523,
+            "end": 1529,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1523,
+              "end": 1528,
+              "name": "𛅥"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1532,
+            "end": 1538,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1532,
+              "end": 1537,
+              "name": "𛅦"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1541,
+            "end": 1547,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1541,
+              "end": 1546,
+              "name": "𛅧"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1550,
+            "end": 1556,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1550,
+              "end": 1555,
+              "name": "𞄀"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1559,
+            "end": 1565,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1559,
+              "end": 1564,
+              "name": "𞄁"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1568,
+            "end": 1574,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1568,
+              "end": 1573,
+              "name": "𞄂"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1577,
+            "end": 1583,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1577,
+              "end": 1582,
+              "name": "𞄃"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1586,
+            "end": 1592,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1586,
+              "end": 1591,
+              "name": "𞄄"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1595,
+            "end": 1601,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1595,
+              "end": 1600,
+              "name": "𞄅"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1604,
+            "end": 1610,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1604,
+              "end": 1609,
+              "name": "𞄆"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1613,
+            "end": 1619,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1613,
+              "end": 1618,
+              "name": "𞄇"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1622,
+            "end": 1628,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1622,
+              "end": 1627,
+              "name": "𞄈"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1631,
+            "end": 1637,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1631,
+              "end": 1636,
+              "name": "𞄉"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1640,
+            "end": 1646,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1640,
+              "end": 1645,
+              "name": "𞄊"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1649,
+            "end": 1655,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1649,
+              "end": 1654,
+              "name": "𞄋"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1658,
+            "end": 1664,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1658,
+              "end": 1663,
+              "name": "𞄌"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1667,
+            "end": 1673,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1667,
+              "end": 1672,
+              "name": "𞄍"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1676,
+            "end": 1682,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1676,
+              "end": 1681,
+              "name": "𞄎"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1685,
+            "end": 1691,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1685,
+              "end": 1690,
+              "name": "𞄏"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1694,
+            "end": 1700,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1694,
+              "end": 1699,
+              "name": "𞄐"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1703,
+            "end": 1709,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1703,
+              "end": 1708,
+              "name": "𞄑"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1712,
+            "end": 1718,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1712,
+              "end": 1717,
+              "name": "𞄒"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1721,
+            "end": 1727,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1721,
+              "end": 1726,
+              "name": "𞄓"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1730,
+            "end": 1736,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1730,
+              "end": 1735,
+              "name": "𞄔"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1739,
+            "end": 1745,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1739,
+              "end": 1744,
+              "name": "𞄕"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1748,
+            "end": 1754,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1748,
+              "end": 1753,
+              "name": "𞄖"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1757,
+            "end": 1763,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1757,
+              "end": 1762,
+              "name": "𞄗"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1766,
+            "end": 1772,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1766,
+              "end": 1771,
+              "name": "𞄘"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1775,
+            "end": 1781,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1775,
+              "end": 1780,
+              "name": "𞄙"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1784,
+            "end": 1790,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1784,
+              "end": 1789,
+              "name": "𞄚"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1793,
+            "end": 1799,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1793,
+              "end": 1798,
+              "name": "𞄛"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1802,
+            "end": 1808,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1802,
+              "end": 1807,
+              "name": "𞄜"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1811,
+            "end": 1817,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1811,
+              "end": 1816,
+              "name": "𞄝"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1820,
+            "end": 1826,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1820,
+              "end": 1825,
+              "name": "𞄞"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1829,
+            "end": 1835,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1829,
+              "end": 1834,
+              "name": "𞄟"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1838,
+            "end": 1844,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1838,
+              "end": 1843,
+              "name": "𞄠"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1847,
+            "end": 1853,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1847,
+              "end": 1852,
+              "name": "𞄡"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1856,
+            "end": 1862,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1856,
+              "end": 1861,
+              "name": "𞄢"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1865,
+            "end": 1871,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1865,
+              "end": 1870,
+              "name": "𞄣"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1874,
+            "end": 1880,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1874,
+              "end": 1879,
+              "name": "𞄤"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1883,
+            "end": 1889,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1883,
+              "end": 1888,
+              "name": "𞄥"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1892,
+            "end": 1898,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1892,
+              "end": 1897,
+              "name": "𞄦"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1901,
+            "end": 1907,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1901,
+              "end": 1906,
+              "name": "𞄧"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1910,
+            "end": 1916,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1910,
+              "end": 1915,
+              "name": "𞄨"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1919,
+            "end": 1925,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1919,
+              "end": 1924,
+              "name": "𞄩"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1928,
+            "end": 1934,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1928,
+              "end": 1933,
+              "name": "𞄪"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1937,
+            "end": 1943,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1937,
+              "end": 1942,
+              "name": "𞄫"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1946,
+            "end": 1952,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1946,
+              "end": 1951,
+              "name": "𞄬"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1955,
+            "end": 1961,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1955,
+              "end": 1960,
+              "name": "𞄷"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1964,
+            "end": 1970,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1964,
+              "end": 1969,
+              "name": "𞄸"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1973,
+            "end": 1979,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1973,
+              "end": 1978,
+              "name": "𞄹"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1982,
+            "end": 1988,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1982,
+              "end": 1987,
+              "name": "𞄺"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1991,
+            "end": 1997,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1991,
+              "end": 1996,
+              "name": "𞄻"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2000,
+            "end": 2006,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2000,
+              "end": 2005,
+              "name": "𞄼"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2009,
+            "end": 2015,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2009,
+              "end": 2014,
+              "name": "𞄽"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2018,
+            "end": 2024,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2018,
+              "end": 2023,
+              "name": "𞅎"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2027,
+            "end": 2033,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2027,
+              "end": 2032,
+              "name": "𞋀"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2036,
+            "end": 2042,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2036,
+              "end": 2041,
+              "name": "𞋁"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2045,
+            "end": 2051,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2045,
+              "end": 2050,
+              "name": "𞋂"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2054,
+            "end": 2060,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2054,
+              "end": 2059,
+              "name": "𞋃"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2063,
+            "end": 2069,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2063,
+              "end": 2068,
+              "name": "𞋄"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2072,
+            "end": 2078,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2072,
+              "end": 2077,
+              "name": "𞋅"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2081,
+            "end": 2087,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2081,
+              "end": 2086,
+              "name": "𞋆"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2090,
+            "end": 2096,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2090,
+              "end": 2095,
+              "name": "𞋇"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2099,
+            "end": 2105,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2099,
+              "end": 2104,
+              "name": "𞋈"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2108,
+            "end": 2114,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2108,
+              "end": 2113,
+              "name": "𞋉"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2117,
+            "end": 2123,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2117,
+              "end": 2122,
+              "name": "𞋊"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2126,
+            "end": 2132,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2126,
+              "end": 2131,
+              "name": "𞋋"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2135,
+            "end": 2141,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2135,
+              "end": 2140,
+              "name": "𞋌"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2144,
+            "end": 2150,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2144,
+              "end": 2149,
+              "name": "𞋍"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2153,
+            "end": 2159,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2153,
+              "end": 2158,
+              "name": "𞋎"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2162,
+            "end": 2168,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2162,
+              "end": 2167,
+              "name": "𞋏"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2171,
+            "end": 2177,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2171,
+              "end": 2176,
+              "name": "𞋐"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2180,
+            "end": 2186,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2180,
+              "end": 2185,
+              "name": "𞋑"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2189,
+            "end": 2195,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2189,
+              "end": 2194,
+              "name": "𞋒"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2198,
+            "end": 2204,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2198,
+              "end": 2203,
+              "name": "𞋓"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2207,
+            "end": 2213,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2207,
+              "end": 2212,
+              "name": "𞋔"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2216,
+            "end": 2222,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2216,
+              "end": 2221,
+              "name": "𞋕"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2225,
+            "end": 2231,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2225,
+              "end": 2230,
+              "name": "𞋖"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2234,
+            "end": 2240,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2234,
+              "end": 2239,
+              "name": "𞋗"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2243,
+            "end": 2249,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2243,
+              "end": 2248,
+              "name": "𞋘"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2252,
+            "end": 2258,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2252,
+              "end": 2257,
+              "name": "𞋙"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2261,
+            "end": 2267,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2261,
+              "end": 2266,
+              "name": "𞋚"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2270,
+            "end": 2276,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2270,
+              "end": 2275,
+              "name": "𞋛"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2279,
+            "end": 2285,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2279,
+              "end": 2284,
+              "name": "𞋜"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2288,
+            "end": 2294,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2288,
+              "end": 2293,
+              "name": "𞋝"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2297,
+            "end": 2303,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2297,
+              "end": 2302,
+              "name": "𞋞"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2306,
+            "end": 2312,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2306,
+              "end": 2311,
+              "name": "𞋟"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2315,
+            "end": 2321,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2315,
+              "end": 2320,
+              "name": "𞋠"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2324,
+            "end": 2330,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2324,
+              "end": 2329,
+              "name": "𞋡"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2333,
+            "end": 2339,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2333,
+              "end": 2338,
+              "name": "𞋢"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2342,
+            "end": 2348,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2342,
+              "end": 2347,
+              "name": "𞋣"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2351,
+            "end": 2357,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2351,
+              "end": 2356,
+              "name": "𞋤"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2360,
+            "end": 2366,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2360,
+              "end": 2365,
+              "name": "𞋥"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2369,
+            "end": 2375,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2369,
+              "end": 2374,
+              "name": "𞋦"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2378,
+            "end": 2384,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2378,
+              "end": 2383,
+              "name": "𞋧"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2387,
+            "end": 2393,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2387,
+              "end": 2392,
+              "name": "𞋨"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2396,
+            "end": 2402,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2396,
+              "end": 2401,
+              "name": "𞋩"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2405,
+            "end": 2411,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2405,
+              "end": 2410,
+              "name": "𞋪"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2414,
+            "end": 2420,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2414,
+              "end": 2419,
+              "name": "𞋫"
+            },
+            "value": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2423,
+            "end": 2429,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2423,
+              "end": 2428,
+              "name": "𞥋"
             },
             "value": null
           }
@@ -38,8 +3160,8 @@
     },
     {
       "type": "EmptyStatement",
-      "start": 1316,
-      "end": 1317
+      "start": 2431,
+      "end": 2432
     }
   ],
   "sourceType": "script"

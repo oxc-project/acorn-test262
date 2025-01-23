@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 670,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 588,
+      "end": 669,
+      "expression": {
+        "type": "CallExpression",
+        "start": 588,
+        "end": 668,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 588,
+          "end": 604,
+          "object": {
+            "type": "Identifier",
+            "start": 588,
+            "end": 594,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 595,
+            "end": 604,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 605,
+            "end": 642,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 605,
+              "end": 626,
+              "object": {
+                "type": "Identifier",
+                "start": 605,
+                "end": 611,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 612,
+                "end": 626,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 627,
+                "end": 641,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": true,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 639,
+                  "end": 641,
+                  "body": []
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 644,
+            "end": 667,
+            "object": {
+              "type": "Identifier",
+              "start": 644,
+              "end": 657,
+              "name": "AsyncFunction"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 658,
+              "end": 667,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

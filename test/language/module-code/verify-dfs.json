@@ -13,7 +13,8 @@
         "start": 470,
         "end": 497,
         "value": "./verify-dfs-a_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -25,7 +26,8 @@
         "start": 506,
         "end": 533,
         "value": "./verify-dfs-b_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

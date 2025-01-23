@@ -127,7 +127,8 @@
         "start": 1245,
         "end": 1278,
         "value": "./instn-named-bndng-dflt-cls.js"
-      }
+      },
+      "attributes": []
     }
   ],
   "sourceType": "module"

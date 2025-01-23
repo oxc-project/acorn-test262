@@ -31,7 +31,8 @@
         "start": 1310,
         "end": 1351,
         "value": "./instn-resolve-empty-import_FIXTURE.js"
-      }
+      },
+      "attributes": []
     }
   ],
   "sourceType": "module"

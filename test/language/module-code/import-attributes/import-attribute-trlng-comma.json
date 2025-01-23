@@ -1,0 +1,144 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 952,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 680,
+      "end": 697,
+      "expression": {
+        "type": "CallExpression",
+        "start": 680,
+        "end": 696,
+        "callee": {
+          "type": "Identifier",
+          "start": 680,
+          "end": 694,
+          "name": "$DONOTEVALUATE"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 699,
+      "end": 753,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 706,
+        "end": 752,
+        "value": "../resources/ensure-linking-error_FIXTURE.js"
+      },
+      "attributes": []
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 755,
+      "end": 822,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 762,
+          "end": 763,
+          "local": {
+            "type": "Identifier",
+            "start": 762,
+            "end": 763,
+            "name": "x"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 769,
+        "end": 802,
+        "value": "./import-attribute-1_FIXTURE.js"
+      },
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 809,
+          "end": 819,
+          "key": {
+            "type": "Identifier",
+            "start": 809,
+            "end": 816,
+            "name": "test262"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 817,
+            "end": 819,
+            "value": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 823,
+      "end": 883,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 830,
+        "end": 863,
+        "value": "./import-attribute-2_FIXTURE.js"
+      },
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 870,
+          "end": 880,
+          "key": {
+            "type": "Identifier",
+            "start": 870,
+            "end": 877,
+            "name": "test262"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 878,
+            "end": 880,
+            "value": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportAllDeclaration",
+      "start": 884,
+      "end": 951,
+      "exported": null,
+      "source": {
+        "type": "Literal",
+        "start": 898,
+        "end": 931,
+        "value": "./import-attribute-3_FIXTURE.js"
+      },
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 938,
+          "end": 948,
+          "key": {
+            "type": "Identifier",
+            "start": 938,
+            "end": 945,
+            "name": "test262"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 946,
+            "end": 948,
+            "value": ""
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module"
+}

@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 427,
+  "end": 412,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 321,
-      "end": 352,
+      "start": 313,
+      "end": 344,
       "id": {
         "type": "Identifier",
-        "start": 330,
-        "end": 333,
+        "start": 322,
+        "end": 325,
         "name": "foo"
       },
       "expression": false,
@@ -19,17 +19,17 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 337,
-        "end": 352,
+        "start": 329,
+        "end": 344,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 338,
-            "end": 351,
+            "start": 330,
+            "end": 343,
             "expression": {
               "type": "Literal",
-              "start": 338,
-              "end": 350,
+              "start": 330,
+              "end": 342,
               "value": "use strict"
             },
             "directive": "use strict"
@@ -39,26 +39,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 353,
-      "end": 426,
+      "start": 346,
+      "end": 411,
       "expression": {
         "type": "CallExpression",
-        "start": 353,
-        "end": 425,
+        "start": 346,
+        "end": 410,
         "callee": {
           "type": "MemberExpression",
-          "start": 353,
-          "end": 366,
+          "start": 346,
+          "end": 359,
           "object": {
             "type": "Identifier",
-            "start": 353,
-            "end": 359,
+            "start": 346,
+            "end": 352,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 360,
-            "end": 366,
+            "start": 353,
+            "end": 359,
             "name": "throws"
           },
           "computed": false,
@@ -67,14 +67,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 367,
-            "end": 376,
+            "start": 360,
+            "end": 369,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 378,
-            "end": 424,
+            "start": 371,
+            "end": 409,
             "id": null,
             "expression": false,
             "generator": false,
@@ -82,32 +82,32 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 389,
-              "end": 424,
+              "start": 382,
+              "end": 409,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 403,
-                  "end": 422,
+                  "start": 388,
+                  "end": 407,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 403,
-                    "end": 421,
+                    "start": 388,
+                    "end": 406,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 403,
-                      "end": 416,
+                      "start": 388,
+                      "end": 401,
                       "object": {
                         "type": "Identifier",
-                        "start": 403,
-                        "end": 406,
+                        "start": 388,
+                        "end": 391,
                         "name": "foo"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 407,
-                        "end": 416,
+                        "start": 392,
+                        "end": 401,
                         "name": "arguments"
                       },
                       "computed": false,
@@ -115,8 +115,8 @@
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 419,
-                      "end": 421,
+                      "start": 404,
+                      "end": 406,
                       "value": 41
                     }
                   }

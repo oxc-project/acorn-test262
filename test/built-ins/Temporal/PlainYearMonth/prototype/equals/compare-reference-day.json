@@ -1,106 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 477,
+  "end": 442,
   "body": [
     {
       "type": "VariableDeclaration",
       "start": 272,
-      "end": 318,
+      "end": 335,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 278,
-          "end": 317,
+          "end": 334,
           "id": {
             "type": "Identifier",
             "start": 278,
             "end": 281,
-            "name": "iso"
-          },
-          "init": {
-            "type": "CallExpression",
-            "start": 284,
-            "end": 317,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 284,
-              "end": 306,
-              "object": {
-                "type": "MemberExpression",
-                "start": 284,
-                "end": 301,
-                "object": {
-                  "type": "Identifier",
-                  "start": 284,
-                  "end": 292,
-                  "name": "Temporal"
-                },
-                "property": {
-                  "type": "Identifier",
-                  "start": 293,
-                  "end": 301,
-                  "name": "Calendar"
-                },
-                "computed": false,
-                "optional": false
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 302,
-                "end": 306,
-                "name": "from"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 307,
-                "end": 316,
-                "value": "iso8601"
-              }
-            ],
-            "optional": false
-          }
-        }
-      ],
-      "kind": "const"
-    },
-    {
-      "type": "VariableDeclaration",
-      "start": 319,
-      "end": 376,
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 325,
-          "end": 375,
-          "id": {
-            "type": "Identifier",
-            "start": 325,
-            "end": 328,
             "name": "ym1"
           },
           "init": {
             "type": "NewExpression",
-            "start": 331,
-            "end": 375,
+            "start": 284,
+            "end": 334,
             "callee": {
               "type": "MemberExpression",
-              "start": 335,
-              "end": 358,
+              "start": 288,
+              "end": 311,
               "object": {
                 "type": "Identifier",
-                "start": 335,
-                "end": 343,
+                "start": 288,
+                "end": 296,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 344,
-                "end": 358,
+                "start": 297,
+                "end": 311,
                 "name": "PlainYearMonth"
               },
               "computed": false,
@@ -109,26 +44,26 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 359,
-                "end": 363,
+                "start": 312,
+                "end": 316,
                 "value": 2000
               },
               {
                 "type": "Literal",
-                "start": 365,
-                "end": 366,
+                "start": 318,
+                "end": 319,
                 "value": 1
               },
               {
-                "type": "Identifier",
-                "start": 368,
-                "end": 371,
-                "name": "iso"
+                "type": "Literal",
+                "start": 321,
+                "end": 330,
+                "value": "iso8601"
               },
               {
                 "type": "Literal",
-                "start": 373,
-                "end": 374,
+                "start": 332,
+                "end": 333,
                 "value": 1
               }
             ]
@@ -139,37 +74,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 377,
-      "end": 434,
+      "start": 336,
+      "end": 399,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 383,
-          "end": 433,
+          "start": 342,
+          "end": 398,
           "id": {
             "type": "Identifier",
-            "start": 383,
-            "end": 386,
+            "start": 342,
+            "end": 345,
             "name": "ym2"
           },
           "init": {
             "type": "NewExpression",
-            "start": 389,
-            "end": 433,
+            "start": 348,
+            "end": 398,
             "callee": {
               "type": "MemberExpression",
-              "start": 393,
-              "end": 416,
+              "start": 352,
+              "end": 375,
               "object": {
                 "type": "Identifier",
-                "start": 393,
-                "end": 401,
+                "start": 352,
+                "end": 360,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 402,
-                "end": 416,
+                "start": 361,
+                "end": 375,
                 "name": "PlainYearMonth"
               },
               "computed": false,
@@ -178,26 +113,26 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 417,
-                "end": 421,
+                "start": 376,
+                "end": 380,
                 "value": 2000
               },
               {
                 "type": "Literal",
-                "start": 423,
-                "end": 424,
+                "start": 382,
+                "end": 383,
                 "value": 1
               },
               {
-                "type": "Identifier",
-                "start": 426,
-                "end": 429,
-                "name": "iso"
+                "type": "Literal",
+                "start": 385,
+                "end": 394,
+                "value": "iso8601"
               },
               {
                 "type": "Literal",
-                "start": 431,
-                "end": 432,
+                "start": 396,
+                "end": 397,
                 "value": 2
               }
             ]
@@ -208,26 +143,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 435,
-      "end": 476,
+      "start": 400,
+      "end": 441,
       "expression": {
         "type": "CallExpression",
-        "start": 435,
-        "end": 475,
+        "start": 400,
+        "end": 440,
         "callee": {
           "type": "MemberExpression",
-          "start": 435,
-          "end": 451,
+          "start": 400,
+          "end": 416,
           "object": {
             "type": "Identifier",
-            "start": 435,
-            "end": 441,
+            "start": 400,
+            "end": 406,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 442,
-            "end": 451,
+            "start": 407,
+            "end": 416,
             "name": "sameValue"
           },
           "computed": false,
@@ -236,22 +171,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 452,
-            "end": 467,
+            "start": 417,
+            "end": 432,
             "callee": {
               "type": "MemberExpression",
-              "start": 452,
-              "end": 462,
+              "start": 417,
+              "end": 427,
               "object": {
                 "type": "Identifier",
-                "start": 452,
-                "end": 455,
+                "start": 417,
+                "end": 420,
                 "name": "ym1"
               },
               "property": {
                 "type": "Identifier",
-                "start": 456,
-                "end": 462,
+                "start": 421,
+                "end": 427,
                 "name": "equals"
               },
               "computed": false,
@@ -260,8 +195,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 463,
-                "end": 466,
+                "start": 428,
+                "end": 431,
                 "name": "ym2"
               }
             ],
@@ -269,8 +204,8 @@
           },
           {
             "type": "Literal",
-            "start": 469,
-            "end": 474,
+            "start": 434,
+            "end": 439,
             "value": false
           }
         ],

@@ -104,7 +104,8 @@
         "start": 1305,
         "end": 1339,
         "value": "./instn-named-bndng-dflt-expr.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

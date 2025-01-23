@@ -1,0 +1,598 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 839,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 299,
+      "end": 388,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 305,
+          "end": 387,
+          "id": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 313,
+            "name": "calcutta"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 316,
+            "end": 387,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 316,
+              "end": 343,
+              "object": {
+                "type": "MemberExpression",
+                "start": 316,
+                "end": 338,
+                "object": {
+                  "type": "Identifier",
+                  "start": 316,
+                  "end": 324,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 325,
+                  "end": 338,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 339,
+                "end": 343,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 344,
+                "end": 386,
+                "value": "2020-01-01T00:00:00+05:30[Asia/Calcutta]"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 389,
+      "end": 476,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 395,
+          "end": 475,
+          "id": {
+            "type": "Identifier",
+            "start": 395,
+            "end": 402,
+            "name": "kolkata"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 405,
+            "end": 475,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 405,
+              "end": 432,
+              "object": {
+                "type": "MemberExpression",
+                "start": 405,
+                "end": 427,
+                "object": {
+                  "type": "Identifier",
+                  "start": 405,
+                  "end": 413,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 414,
+                  "end": 427,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 428,
+                "end": 432,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 433,
+                "end": 474,
+                "value": "2020-01-01T00:00:00+05:30[Asia/Kolkata]"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 477,
+      "end": 564,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 483,
+          "end": 563,
+          "id": {
+            "type": "Identifier",
+            "start": 483,
+            "end": 490,
+            "name": "colombo"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 493,
+            "end": 563,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 493,
+              "end": 520,
+              "object": {
+                "type": "MemberExpression",
+                "start": 493,
+                "end": 515,
+                "object": {
+                  "type": "Identifier",
+                  "start": 493,
+                  "end": 501,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 502,
+                  "end": 515,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 516,
+                "end": 520,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 521,
+                "end": 562,
+                "value": "2020-01-01T00:00:00+05:30[Asia/Colombo]"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 566,
+      "end": 615,
+      "expression": {
+        "type": "CallExpression",
+        "start": 566,
+        "end": 614,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 566,
+          "end": 582,
+          "object": {
+            "type": "Identifier",
+            "start": 566,
+            "end": 572,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 582,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 583,
+            "end": 607,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 583,
+              "end": 598,
+              "object": {
+                "type": "Identifier",
+                "start": 583,
+                "end": 591,
+                "name": "calcutta"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 592,
+                "end": 598,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 599,
+                "end": 606,
+                "name": "kolkata"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 609,
+            "end": 613,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 616,
+      "end": 676,
+      "expression": {
+        "type": "CallExpression",
+        "start": 616,
+        "end": 675,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 616,
+          "end": 632,
+          "object": {
+            "type": "Identifier",
+            "start": 616,
+            "end": 622,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 623,
+            "end": 632,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 633,
+            "end": 668,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 633,
+              "end": 648,
+              "object": {
+                "type": "Identifier",
+                "start": 633,
+                "end": 641,
+                "name": "calcutta"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 642,
+                "end": 648,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 649,
+                "end": 667,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 649,
+                  "end": 665,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 649,
+                    "end": 656,
+                    "name": "kolkata"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 657,
+                    "end": 665,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 670,
+            "end": 674,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 677,
+      "end": 726,
+      "expression": {
+        "type": "CallExpression",
+        "start": 677,
+        "end": 725,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 677,
+          "end": 693,
+          "object": {
+            "type": "Identifier",
+            "start": 677,
+            "end": 683,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 684,
+            "end": 693,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 694,
+            "end": 718,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 694,
+              "end": 708,
+              "object": {
+                "type": "Identifier",
+                "start": 694,
+                "end": 701,
+                "name": "kolkata"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 702,
+                "end": 708,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 709,
+                "end": 717,
+                "name": "calcutta"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 720,
+            "end": 724,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 727,
+      "end": 787,
+      "expression": {
+        "type": "CallExpression",
+        "start": 727,
+        "end": 786,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 727,
+          "end": 743,
+          "object": {
+            "type": "Identifier",
+            "start": 727,
+            "end": 733,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 734,
+            "end": 743,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 744,
+            "end": 779,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 744,
+              "end": 758,
+              "object": {
+                "type": "Identifier",
+                "start": 744,
+                "end": 751,
+                "name": "kolkata"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 752,
+                "end": 758,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 759,
+                "end": 778,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 759,
+                  "end": 776,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 759,
+                    "end": 767,
+                    "name": "calcutta"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 768,
+                    "end": 776,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 781,
+            "end": 785,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 788,
+      "end": 838,
+      "expression": {
+        "type": "CallExpression",
+        "start": 788,
+        "end": 837,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 788,
+          "end": 804,
+          "object": {
+            "type": "Identifier",
+            "start": 788,
+            "end": 794,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 795,
+            "end": 804,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 805,
+            "end": 829,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 805,
+              "end": 820,
+              "object": {
+                "type": "Identifier",
+                "start": 805,
+                "end": 813,
+                "name": "calcutta"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 814,
+                "end": 820,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 821,
+                "end": 828,
+                "name": "colombo"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 831,
+            "end": 836,
+            "value": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

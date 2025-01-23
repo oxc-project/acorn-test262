@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2310,
+  "end": 2244,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 2061,
-      "end": 2309,
+      "end": 2243,
       "expression": {
         "type": "CallExpression",
         "start": 2061,
-        "end": 2308,
+        "end": 2242,
         "callee": {
           "type": "Identifier",
           "start": 2061,
@@ -21,7 +21,7 @@
           {
             "type": "FunctionExpression",
             "start": 2098,
-            "end": 2307,
+            "end": 2241,
             "id": null,
             "expression": false,
             "generator": false,
@@ -37,7 +37,7 @@
             "body": {
               "type": "BlockStatement",
               "start": 2111,
-              "end": 2307,
+              "end": 2241,
               "body": [
                 {
                   "type": "VariableDeclaration",
@@ -80,11 +80,11 @@
                 {
                   "type": "ExpressionStatement",
                   "start": 2146,
-                  "end": 2304,
+                  "end": 2238,
                   "expression": {
                     "type": "CallExpression",
                     "start": 2146,
-                    "end": 2303,
+                    "end": 2237,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 2146,
@@ -163,12 +163,6 @@
                             }
                           ]
                         }
-                      },
-                      {
-                        "type": "Literal",
-                        "start": 2238,
-                        "end": 2302,
-                        "value": "`typedArray[0] = \"definately not a number\"` throws SyntaxError"
                       }
                     ],
                     "optional": false

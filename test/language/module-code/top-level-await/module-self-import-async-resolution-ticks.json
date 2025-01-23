@@ -130,7 +130,8 @@
         "start": 2737,
         "end": 2785,
         "value": "./module-self-import-async-resolution-ticks.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

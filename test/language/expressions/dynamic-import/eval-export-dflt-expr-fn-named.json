@@ -83,7 +83,8 @@
                       "start": 1091,
                       "end": 1128,
                       "value": "./eval-export-dflt-expr-fn-named.js"
-                    }
+                    },
+                    "options": null
                   },
                   "property": {
                     "type": "Identifier",

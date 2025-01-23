@@ -25,7 +25,8 @@
         "start": 1059,
         "end": 1111,
         "value": "./instn-star-props-dflt-skip-star-named_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -49,7 +50,8 @@
         "start": 1141,
         "end": 1192,
         "value": "./instn-star-props-dflt-skip-star-prod_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

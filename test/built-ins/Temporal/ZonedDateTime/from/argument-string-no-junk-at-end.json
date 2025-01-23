@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 352,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 239,
+      "end": 350,
+      "expression": {
+        "type": "CallExpression",
+        "start": 239,
+        "end": 350,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 239,
+          "end": 252,
+          "object": {
+            "type": "Identifier",
+            "start": 239,
+            "end": 245,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 246,
+            "end": 252,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 253,
+            "end": 263,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 265,
+            "end": 349,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 271,
+              "end": 349,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 271,
+                "end": 298,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 271,
+                  "end": 293,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 271,
+                    "end": 279,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 280,
+                    "end": 293,
+                    "name": "ZonedDateTime"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 294,
+                  "end": 298,
+                  "name": "from"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 299,
+                  "end": 348,
+                  "value": "1976-11-18T15:23:30.123456789-08:00[-08:00]junk"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -222,7 +222,7 @@
               "type": "Literal",
               "start": 1189,
               "end": 1233,
-              "value": null,
+              "value": {},
               "regex": {
                 "pattern": "(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)",
                 "flags": ""
@@ -859,7 +859,7 @@
                     "type": "Literal",
                     "start": 1648,
                     "end": 1680,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
                       "flags": ""
@@ -960,7 +960,7 @@
                     "type": "Literal",
                     "start": 1751,
                     "end": 1783,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
                       "flags": ""
@@ -1061,7 +1061,7 @@
                     "type": "Literal",
                     "start": 1879,
                     "end": 1936,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
                       "flags": ""
@@ -1162,7 +1162,7 @@
                     "type": "Literal",
                     "start": 2007,
                     "end": 2064,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
                       "flags": ""
@@ -1263,7 +1263,7 @@
                     "type": "Literal",
                     "start": 2160,
                     "end": 2232,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
                       "flags": ""
@@ -1364,7 +1364,7 @@
                     "type": "Literal",
                     "start": 2303,
                     "end": 2375,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
                       "flags": ""
@@ -1465,7 +1465,7 @@
                     "type": "Literal",
                     "start": 2472,
                     "end": 2505,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": ""
@@ -1566,7 +1566,7 @@
                     "type": "Literal",
                     "start": 2578,
                     "end": 2616,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": ""
@@ -1667,7 +1667,7 @@
                     "type": "Literal",
                     "start": 2689,
                     "end": 2727,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": ""
@@ -1768,7 +1768,7 @@
                     "type": "Literal",
                     "start": 2800,
                     "end": 2843,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": ""
@@ -1869,7 +1869,7 @@
                     "type": "Literal",
                     "start": 2916,
                     "end": 2954,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": ""
@@ -1970,7 +1970,7 @@
                     "type": "Literal",
                     "start": 3027,
                     "end": 3070,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": ""
@@ -2071,7 +2071,7 @@
                     "type": "Literal",
                     "start": 3143,
                     "end": 3186,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": ""
@@ -2172,7 +2172,7 @@
                     "type": "Literal",
                     "start": 3259,
                     "end": 3307,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": ""
@@ -2273,7 +2273,7 @@
                     "type": "Literal",
                     "start": 3381,
                     "end": 3398,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<the𝟚>the)",
                       "flags": ""
@@ -2374,7 +2374,7 @@
                     "type": "Literal",
                     "start": 3454,
                     "end": 3476,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<the\\u{1d7da}>the)",
                       "flags": ""
@@ -2475,7 +2475,7 @@
                     "type": "Literal",
                     "start": 3532,
                     "end": 3557,
-                    "value": null,
+                    "value": {},
                     "regex": {
                       "pattern": "(?<the\\ud835\\udfda>the)",
                       "flags": ""
@@ -2850,7 +2850,7 @@
               "type": "Literal",
               "start": 3809,
               "end": 3854,
-              "value": null,
+              "value": {},
               "regex": {
                 "pattern": "(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)",
                 "flags": ""

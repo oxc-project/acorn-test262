@@ -1,0 +1,353 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 770,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 378,
+      "end": 581,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 384,
+          "end": 580,
+          "id": {
+            "type": "Identifier",
+            "start": 384,
+            "end": 392,
+            "name": "validIds"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 395,
+            "end": 580,
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "start": 399,
+                "end": 421,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 400,
+                    "end": 413,
+                    "value": "en-u-fw-mon"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 415,
+                    "end": 420,
+                    "value": "mon"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 425,
+                "end": 447,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 426,
+                    "end": 439,
+                    "value": "en-u-fw-tue"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 441,
+                    "end": 446,
+                    "value": "tue"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 451,
+                "end": 473,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 452,
+                    "end": 465,
+                    "value": "en-u-fw-wed"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 467,
+                    "end": 472,
+                    "value": "wed"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 477,
+                "end": 499,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 478,
+                    "end": 491,
+                    "value": "en-u-fw-thu"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 493,
+                    "end": 498,
+                    "value": "thu"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 503,
+                "end": 525,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 504,
+                    "end": 517,
+                    "value": "en-u-fw-fri"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 519,
+                    "end": 524,
+                    "value": "fri"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 529,
+                "end": 551,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 530,
+                    "end": 543,
+                    "value": "en-u-fw-sat"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 545,
+                    "end": 550,
+                    "value": "sat"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 555,
+                "end": 577,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 556,
+                    "end": 569,
+                    "value": "en-u-fw-sun"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 571,
+                    "end": 576,
+                    "value": "sun"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 582,
+      "end": 769,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 587,
+        "end": 607,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 593,
+            "end": 607,
+            "id": {
+              "type": "ArrayPattern",
+              "start": 593,
+              "end": 607,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 594,
+                  "end": 596,
+                  "name": "id"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 598,
+                  "end": 606,
+                  "name": "expected"
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 611,
+        "end": 619,
+        "name": "validIds"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 621,
+        "end": 769,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 625,
+            "end": 767,
+            "expression": {
+              "type": "CallExpression",
+              "start": 625,
+              "end": 766,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 625,
+                "end": 641,
+                "object": {
+                  "type": "Identifier",
+                  "start": 625,
+                  "end": 631,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 632,
+                  "end": 641,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 647,
+                  "end": 681,
+                  "object": {
+                    "type": "NewExpression",
+                    "start": 647,
+                    "end": 666,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 651,
+                      "end": 662,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 651,
+                        "end": 655,
+                        "name": "Intl"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 656,
+                        "end": 662,
+                        "name": "Locale"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 663,
+                        "end": 665,
+                        "name": "id"
+                      }
+                    ]
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 667,
+                    "end": 681,
+                    "name": "firstDayOfWeek"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 687,
+                  "end": 695,
+                  "name": "expected"
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 701,
+                  "end": 762,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 720,
+                      "end": 722,
+                      "name": "id"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 751,
+                      "end": 759,
+                      "name": "expected"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 702,
+                      "end": 718,
+                      "value": {
+                        "raw": "new Intl.Locale(",
+                        "cooked": "new Intl.Locale("
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 723,
+                      "end": 749,
+                      "value": {
+                        "raw": ").firstDayOfWeek returns \"",
+                        "cooked": ").firstDayOfWeek returns \""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 760,
+                      "end": 761,
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

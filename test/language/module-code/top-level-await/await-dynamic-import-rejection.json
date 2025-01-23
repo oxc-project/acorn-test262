@@ -20,7 +20,8 @@
             "start": 1919,
             "end": 1962,
             "value": "./module-import-rejection-body_FIXTURE.js"
-          }
+          },
+          "options": null
         }
       }
     },

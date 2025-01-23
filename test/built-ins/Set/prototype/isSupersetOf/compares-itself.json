@@ -1,0 +1,130 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 373,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 299,
+      "end": 326,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 305,
+          "end": 325,
+          "id": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 307,
+            "name": "s1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 310,
+            "end": 325,
+            "callee": {
+              "type": "Identifier",
+              "start": 314,
+              "end": 317,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 318,
+                "end": 324,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 319,
+                    "end": 320,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 322,
+                    "end": 323,
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 328,
+      "end": 372,
+      "expression": {
+        "type": "CallExpression",
+        "start": 328,
+        "end": 371,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 328,
+          "end": 344,
+          "object": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 334,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 335,
+            "end": 344,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 345,
+            "end": 364,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 345,
+              "end": 360,
+              "object": {
+                "type": "Identifier",
+                "start": 345,
+                "end": 347,
+                "name": "s1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 360,
+                "name": "isSupersetOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 361,
+                "end": 363,
+                "name": "s1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 366,
+            "end": 370,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

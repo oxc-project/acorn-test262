@@ -1,0 +1,407 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 677,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 267,
+      "end": 330,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 273,
+          "end": 329,
+          "id": {
+            "type": "Identifier",
+            "start": 273,
+            "end": 276,
+            "name": "ym1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 279,
+            "end": 329,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 283,
+              "end": 306,
+              "object": {
+                "type": "Identifier",
+                "start": 283,
+                "end": 291,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 292,
+                "end": 306,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 307,
+                "end": 311,
+                "value": 2000
+              },
+              {
+                "type": "Literal",
+                "start": 313,
+                "end": 314,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 316,
+                "end": 325,
+                "value": "iso8601"
+              },
+              {
+                "type": "Literal",
+                "start": 327,
+                "end": 328,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 331,
+      "end": 394,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 337,
+          "end": 393,
+          "id": {
+            "type": "Identifier",
+            "start": 337,
+            "end": 340,
+            "name": "ym2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 343,
+            "end": 393,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 347,
+              "end": 370,
+              "object": {
+                "type": "Identifier",
+                "start": 347,
+                "end": 355,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 356,
+                "end": 370,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 371,
+                "end": 375,
+                "value": 2000
+              },
+              {
+                "type": "Literal",
+                "start": 377,
+                "end": 378,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 380,
+                "end": 389,
+                "value": "iso8601"
+              },
+              {
+                "type": "Literal",
+                "start": 391,
+                "end": 392,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 395,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 395,
+        "end": 464,
+        "callee": {
+          "type": "Identifier",
+          "start": 395,
+          "end": 401,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 402,
+            "end": 417,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 402,
+              "end": 412,
+              "object": {
+                "type": "Identifier",
+                "start": 402,
+                "end": 405,
+                "name": "ym1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 406,
+                "end": 412,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 413,
+                "end": 416,
+                "name": "ym2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 419,
+            "end": 463,
+            "value": "Equal if calendars and ISO dates are equal"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 467,
+      "end": 530,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 473,
+          "end": 529,
+          "id": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 476,
+            "name": "ym3"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 479,
+            "end": 529,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 483,
+              "end": 506,
+              "object": {
+                "type": "Identifier",
+                "start": 483,
+                "end": 491,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 492,
+                "end": 506,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 507,
+                "end": 511,
+                "value": 2000
+              },
+              {
+                "type": "Literal",
+                "start": 513,
+                "end": 514,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 516,
+                "end": 525,
+                "value": "iso8601"
+              },
+              {
+                "type": "Literal",
+                "start": 527,
+                "end": 528,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 531,
+      "end": 594,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 537,
+          "end": 593,
+          "id": {
+            "type": "Identifier",
+            "start": 537,
+            "end": 540,
+            "name": "ym4"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 543,
+            "end": 593,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 547,
+              "end": 570,
+              "object": {
+                "type": "Identifier",
+                "start": 547,
+                "end": 555,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 556,
+                "end": 570,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 571,
+                "end": 575,
+                "value": 2000
+              },
+              {
+                "type": "Literal",
+                "start": 577,
+                "end": 578,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 580,
+                "end": 589,
+                "value": "gregory"
+              },
+              {
+                "type": "Literal",
+                "start": 591,
+                "end": 592,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 595,
+      "end": 676,
+      "expression": {
+        "type": "CallExpression",
+        "start": 595,
+        "end": 675,
+        "callee": {
+          "type": "Identifier",
+          "start": 595,
+          "end": 601,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 602,
+            "end": 618,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 603,
+              "end": 618,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 603,
+                "end": 613,
+                "object": {
+                  "type": "Identifier",
+                  "start": 603,
+                  "end": 606,
+                  "name": "ym3"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 607,
+                  "end": 613,
+                  "name": "equals"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 614,
+                  "end": 617,
+                  "name": "ym4"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 620,
+            "end": 674,
+            "value": "Unequal if ISO dates are equal but calendars are not"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

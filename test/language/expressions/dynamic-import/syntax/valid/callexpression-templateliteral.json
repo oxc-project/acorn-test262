@@ -68,7 +68,8 @@
                         "start": 479,
                         "end": 499,
                         "value": "./empty_FIXTURE.js"
-                      }
+                      },
+                      "options": null
                     },
                     "quasi": {
                       "type": "TemplateLiteral",
@@ -162,7 +163,8 @@
                         "start": 553,
                         "end": 573,
                         "value": "./empty_FIXTURE.js"
-                      }
+                      },
+                      "options": null
                     },
                     "quasi": {
                       "type": "TemplateLiteral",
@@ -256,7 +258,8 @@
                         "start": 636,
                         "end": 656,
                         "value": "./empty_FIXTURE.js"
-                      }
+                      },
+                      "options": null
                     },
                     "quasi": {
                       "type": "TemplateLiteral",

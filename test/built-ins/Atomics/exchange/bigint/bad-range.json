@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 799,
+  "end": 730,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -69,11 +69,11 @@
     {
       "type": "ExpressionStatement",
       "start": 479,
-      "end": 798,
+      "end": 729,
       "expression": {
         "type": "CallExpression",
         "start": 479,
-        "end": 797,
+        "end": 728,
         "callee": {
           "type": "Identifier",
           "start": 479,
@@ -84,7 +84,7 @@
           {
             "type": "FunctionExpression",
             "start": 516,
-            "end": 796,
+            "end": 727,
             "id": null,
             "expression": false,
             "generator": false,
@@ -100,7 +100,7 @@
             "body": {
               "type": "BlockStatement",
               "start": 529,
-              "end": 796,
+              "end": 727,
               "body": [
                 {
                   "type": "VariableDeclaration",
@@ -143,11 +143,11 @@
                 {
                   "type": "ExpressionStatement",
                   "start": 563,
-                  "end": 794,
+                  "end": 725,
                   "expression": {
                     "type": "CallExpression",
                     "start": 563,
-                    "end": 793,
+                    "end": 724,
                     "callee": {
                       "type": "Identifier",
                       "start": 563,
@@ -158,7 +158,7 @@
                       {
                         "type": "FunctionExpression",
                         "start": 597,
-                        "end": 792,
+                        "end": 723,
                         "id": null,
                         "expression": false,
                         "generator": false,
@@ -174,16 +174,16 @@
                         "body": {
                           "type": "BlockStatement",
                           "start": 614,
-                          "end": 792,
+                          "end": 723,
                           "body": [
                             {
                               "type": "ExpressionStatement",
                               "start": 620,
-                              "end": 788,
+                              "end": 719,
                               "expression": {
                                 "type": "CallExpression",
                                 "start": 620,
-                                "end": 787,
+                                "end": 718,
                                 "callee": {
                                   "type": "MemberExpression",
                                   "start": 620,
@@ -296,12 +296,6 @@
                                         }
                                       ]
                                     }
-                                  },
-                                  {
-                                    "type": "Literal",
-                                    "start": 719,
-                                    "end": 786,
-                                    "value": "`Atomics.exchange(view, IdxGen(view), 10n, 0n)` throws RangeError"
                                   }
                                 ],
                                 "optional": false

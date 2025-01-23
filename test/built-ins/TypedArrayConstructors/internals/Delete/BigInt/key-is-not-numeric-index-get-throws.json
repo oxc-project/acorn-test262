@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1114,
+  "end": 1078,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 837,
-      "end": 1113,
+      "end": 1077,
       "expression": {
         "type": "CallExpression",
         "start": 837,
-        "end": 1112,
+        "end": 1076,
         "callee": {
           "type": "Identifier",
           "start": 837,
@@ -21,7 +21,7 @@
           {
             "type": "FunctionExpression",
             "start": 874,
-            "end": 1111,
+            "end": 1075,
             "id": null,
             "expression": false,
             "generator": false,
@@ -37,7 +37,7 @@
             "body": {
               "type": "BlockStatement",
               "start": 887,
-              "end": 1111,
+              "end": 1075,
               "body": [
                 {
                   "type": "VariableDeclaration",
@@ -180,11 +180,11 @@
                 {
                   "type": "ExpressionStatement",
                   "start": 1016,
-                  "end": 1109,
+                  "end": 1073,
                   "expression": {
                     "type": "CallExpression",
                     "start": 1016,
-                    "end": 1108,
+                    "end": 1072,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 1016,
@@ -251,12 +251,6 @@
                             }
                           ]
                         }
-                      },
-                      {
-                        "type": "Literal",
-                        "start": 1073,
-                        "end": 1107,
-                        "value": "`sample.foo` throws Test262Error"
                       }
                     ],
                     "optional": false

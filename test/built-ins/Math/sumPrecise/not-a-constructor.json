@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 502,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 324,
+      "end": 432,
+      "expression": {
+        "type": "CallExpression",
+        "start": 324,
+        "end": 431,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 324,
+          "end": 340,
+          "object": {
+            "type": "Identifier",
+            "start": 324,
+            "end": 330,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 340,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 341,
+            "end": 371,
+            "callee": {
+              "type": "Identifier",
+              "start": 341,
+              "end": 354,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 355,
+                "end": 370,
+                "object": {
+                  "type": "Identifier",
+                  "start": 355,
+                  "end": 359,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 360,
+                  "end": 370,
+                  "name": "sumPrecise"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 373,
+            "end": 378,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 380,
+            "end": 430,
+            "value": "isConstructor(Math.sumPrecise) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 434,
+      "end": 501,
+      "expression": {
+        "type": "CallExpression",
+        "start": 434,
+        "end": 500,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 434,
+          "end": 447,
+          "object": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 440,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 441,
+            "end": 447,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 448,
+            "end": 457,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 459,
+            "end": 499,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 471,
+              "end": 499,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 475,
+                  "end": 497,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 475,
+                    "end": 496,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 479,
+                      "end": 494,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 479,
+                        "end": 483,
+                        "name": "Math"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 484,
+                        "end": 494,
+                        "name": "sumPrecise"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

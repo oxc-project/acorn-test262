@@ -1,0 +1,615 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1417,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 684,
+      "end": 755,
+      "expression": {
+        "type": "CallExpression",
+        "start": 684,
+        "end": 754,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 684,
+          "end": 700,
+          "object": {
+            "type": "Identifier",
+            "start": 684,
+            "end": 690,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 700,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 701,
+            "end": 741,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 708,
+              "end": 741,
+              "object": {
+                "type": "MemberExpression",
+                "start": 708,
+                "end": 733,
+                "object": {
+                  "type": "Identifier",
+                  "start": 708,
+                  "end": 723,
+                  "name": "DisposableStack"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 724,
+                  "end": 733,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 734,
+                "end": 741,
+                "name": "dispose"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 743,
+            "end": 753,
+            "value": "function"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 757,
+      "end": 805,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 761,
+          "end": 804,
+          "id": {
+            "type": "Identifier",
+            "start": 761,
+            "end": 768,
+            "name": "dispose"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 771,
+            "end": 804,
+            "object": {
+              "type": "MemberExpression",
+              "start": 771,
+              "end": 796,
+              "object": {
+                "type": "Identifier",
+                "start": 771,
+                "end": 786,
+                "name": "DisposableStack"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 787,
+                "end": 796,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 797,
+              "end": 804,
+              "name": "dispose"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 807,
+      "end": 944,
+      "expression": {
+        "type": "CallExpression",
+        "start": 807,
+        "end": 943,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 807,
+          "end": 820,
+          "object": {
+            "type": "Identifier",
+            "start": 807,
+            "end": 813,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 814,
+            "end": 820,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 821,
+            "end": 830,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 832,
+            "end": 895,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 843,
+              "end": 895,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 847,
+                  "end": 893,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 847,
+                    "end": 892,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 847,
+                      "end": 859,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 847,
+                        "end": 854,
+                        "name": "dispose"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 855,
+                        "end": 859,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 860,
+                        "end": 891,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 862,
+                            "end": 889,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true,
+                            "key": {
+                              "type": "Literal",
+                              "start": 863,
+                              "end": 884,
+                              "value": "[[DisposableState]]"
+                            },
+                            "value": {
+                              "type": "ObjectExpression",
+                              "start": 887,
+                              "end": 889,
+                              "properties": []
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 897,
+            "end": 942,
+            "value": "Ordinary object without [[DisposableState]]"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 946,
+      "end": 1109,
+      "expression": {
+        "type": "CallExpression",
+        "start": 946,
+        "end": 1108,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 946,
+          "end": 959,
+          "object": {
+            "type": "Identifier",
+            "start": 946,
+            "end": 952,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 953,
+            "end": 959,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 960,
+            "end": 969,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 971,
+            "end": 1028,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 982,
+              "end": 1028,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 986,
+                  "end": 1026,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 986,
+                    "end": 1025,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 986,
+                      "end": 998,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 986,
+                        "end": 993,
+                        "name": "dispose"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 994,
+                        "end": 998,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 999,
+                        "end": 1024,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 999,
+                          "end": 1014,
+                          "name": "DisposableStack"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1015,
+                          "end": 1024,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1030,
+            "end": 1107,
+            "value": "DisposableStack.prototype does not have a [[DisposableState]] internal slot"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1111,
+      "end": 1254,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1111,
+        "end": 1253,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1111,
+          "end": 1124,
+          "object": {
+            "type": "Identifier",
+            "start": 1111,
+            "end": 1117,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1118,
+            "end": 1124,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1125,
+            "end": 1134,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1136,
+            "end": 1183,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1147,
+              "end": 1183,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1151,
+                  "end": 1181,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1151,
+                    "end": 1180,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1151,
+                      "end": 1163,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1151,
+                        "end": 1158,
+                        "name": "dispose"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1159,
+                        "end": 1163,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1164,
+                        "end": 1179,
+                        "name": "DisposableStack"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1185,
+            "end": 1252,
+            "value": "DisposableStack does not have a [[DisposableState]] internal slot"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1256,
+      "end": 1313,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1260,
+          "end": 1312,
+          "id": {
+            "type": "Identifier",
+            "start": 1260,
+            "end": 1270,
+            "name": "asyncStack"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1273,
+            "end": 1312,
+            "callee": {
+              "type": "Identifier",
+              "start": 1277,
+              "end": 1297,
+              "name": "AsyncDisposableStack"
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 1298,
+                "end": 1311,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 1309,
+                  "end": 1311,
+                  "body": []
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1314,
+      "end": 1416,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1314,
+        "end": 1415,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1314,
+          "end": 1327,
+          "object": {
+            "type": "Identifier",
+            "start": 1314,
+            "end": 1320,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1321,
+            "end": 1327,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1328,
+            "end": 1337,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1339,
+            "end": 1381,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1350,
+              "end": 1381,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1354,
+                  "end": 1379,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1354,
+                    "end": 1378,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1354,
+                      "end": 1366,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1354,
+                        "end": 1361,
+                        "name": "dispose"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1362,
+                        "end": 1366,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1367,
+                        "end": 1377,
+                        "name": "asyncStack"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1383,
+            "end": 1414,
+            "value": "AsyncDisposableStack instance"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

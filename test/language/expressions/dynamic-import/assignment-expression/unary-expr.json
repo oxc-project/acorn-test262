@@ -83,7 +83,8 @@
             "computed": false,
             "optional": false
           }
-        }
+        },
+        "options": null
       }
     },
     {
@@ -106,7 +107,8 @@
             "end": 859,
             "value": 0
           }
-        }
+        },
+        "options": null
       }
     },
     {
@@ -129,7 +131,8 @@
             "end": 878,
             "properties": []
           }
-        }
+        },
+        "options": null
       }
     },
     {
@@ -159,7 +162,8 @@
               "value": 0
             }
           }
-        }
+        },
+        "options": null
       }
     },
     {
@@ -189,7 +193,8 @@
               "value": 0
             }
           }
-        }
+        },
+        "options": null
       }
     },
     {
@@ -219,7 +224,8 @@
               "value": 0
             }
           }
-        }
+        },
+        "options": null
       }
     },
     {
@@ -249,7 +255,8 @@
               "value": 0
             }
           }
-        }
+        },
+        "options": null
       }
     },
     {
@@ -314,7 +321,8 @@
               }
             }
           }
-        }
+        },
+        "options": null
       }
     }
   ],

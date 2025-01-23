@@ -25,7 +25,8 @@
         "start": 926,
         "end": 969,
         "value": "./object-hasOwnProperty-binding-uninit.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

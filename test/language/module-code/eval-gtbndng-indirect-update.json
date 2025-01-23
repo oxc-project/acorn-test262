@@ -31,7 +31,8 @@
         "start": 819,
         "end": 862,
         "value": "./eval-gtbndng-indirect-update_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

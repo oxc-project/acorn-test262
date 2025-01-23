@@ -1,0 +1,528 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 974,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 383,
+      "end": 407,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 387,
+          "end": 406,
+          "id": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 390,
+            "name": "map"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 393,
+            "end": 406,
+            "callee": {
+              "type": "Identifier",
+              "start": 397,
+              "end": 404,
+              "name": "WeakMap"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 409,
+      "end": 488,
+      "expression": {
+        "type": "CallExpression",
+        "start": 409,
+        "end": 487,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 409,
+          "end": 425,
+          "object": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 415,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 416,
+            "end": 425,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 426,
+            "end": 439,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 426,
+              "end": 433,
+              "object": {
+                "type": "Identifier",
+                "start": 426,
+                "end": 429,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 430,
+                "end": 433,
+                "name": "get"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 434,
+                "end": 438,
+                "value": null
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 441,
+            "end": 450,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 452,
+            "end": 486,
+            "value": "Returns undefined if key is null"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 490,
+      "end": 567,
+      "expression": {
+        "type": "CallExpression",
+        "start": 490,
+        "end": 566,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 490,
+          "end": 506,
+          "object": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 496,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 497,
+            "end": 506,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 507,
+            "end": 519,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 507,
+              "end": 514,
+              "object": {
+                "type": "Identifier",
+                "start": 507,
+                "end": 510,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 511,
+                "end": 514,
+                "name": "get"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 515,
+                "end": 518,
+                "name": "NaN"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 521,
+            "end": 530,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 532,
+            "end": 565,
+            "value": "Returns undefined if key is NaN"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 569,
+      "end": 659,
+      "expression": {
+        "type": "CallExpression",
+        "start": 569,
+        "end": 658,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 569,
+          "end": 585,
+          "object": {
+            "type": "Identifier",
+            "start": 569,
+            "end": 575,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 576,
+            "end": 585,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 589,
+            "end": 603,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 589,
+              "end": 596,
+              "object": {
+                "type": "Identifier",
+                "start": 589,
+                "end": 592,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 593,
+                "end": 596,
+                "name": "get"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 597,
+                "end": 602,
+                "value": "foo"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 605,
+            "end": 614,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 618,
+            "end": 656,
+            "value": "Returns undefined if key is a String"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 661,
+      "end": 747,
+      "expression": {
+        "type": "CallExpression",
+        "start": 661,
+        "end": 746,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 661,
+          "end": 677,
+          "object": {
+            "type": "Identifier",
+            "start": 661,
+            "end": 667,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 668,
+            "end": 677,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 681,
+            "end": 691,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 681,
+              "end": 688,
+              "object": {
+                "type": "Identifier",
+                "start": 681,
+                "end": 684,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 685,
+                "end": 688,
+                "name": "get"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 689,
+                "end": 690,
+                "value": 1
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 693,
+            "end": 702,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 706,
+            "end": 744,
+            "value": "Returns undefined if key is a Number"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 749,
+      "end": 844,
+      "expression": {
+        "type": "CallExpression",
+        "start": 749,
+        "end": 843,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 749,
+          "end": 765,
+          "object": {
+            "type": "Identifier",
+            "start": 749,
+            "end": 755,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 756,
+            "end": 765,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 769,
+            "end": 787,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 769,
+              "end": 776,
+              "object": {
+                "type": "Identifier",
+                "start": 769,
+                "end": 772,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 773,
+                "end": 776,
+                "name": "get"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 777,
+                "end": 786,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 789,
+            "end": 798,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 802,
+            "end": 841,
+            "value": "Returns undefined if key is undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 846,
+      "end": 973,
+      "expression": {
+        "type": "CallExpression",
+        "start": 846,
+        "end": 972,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 846,
+          "end": 862,
+          "object": {
+            "type": "Identifier",
+            "start": 846,
+            "end": 852,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 853,
+            "end": 862,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 866,
+            "end": 906,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 866,
+              "end": 873,
+              "object": {
+                "type": "Identifier",
+                "start": 866,
+                "end": 869,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 870,
+                "end": 873,
+                "name": "get"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 874,
+                "end": 905,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 874,
+                  "end": 884,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 874,
+                    "end": 880,
+                    "name": "Symbol"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 881,
+                    "end": 884,
+                    "name": "for"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 885,
+                    "end": 904,
+                    "value": "registered symbol"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 908,
+            "end": 917,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 921,
+            "end": 970,
+            "value": "Returns undefined if key is a registered Symbol"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

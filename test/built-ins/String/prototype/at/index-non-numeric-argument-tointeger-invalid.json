@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 499,
+  "end": 462,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -108,11 +108,11 @@
     {
       "type": "ExpressionStatement",
       "start": 407,
-      "end": 498,
+      "end": 461,
       "expression": {
         "type": "CallExpression",
         "start": 407,
-        "end": 497,
+        "end": 460,
         "callee": {
           "type": "MemberExpression",
           "start": 407,
@@ -200,12 +200,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 461,
-            "end": 496,
-            "value": "`s.at(Symbol())` throws TypeError"
           }
         ],
         "optional": false

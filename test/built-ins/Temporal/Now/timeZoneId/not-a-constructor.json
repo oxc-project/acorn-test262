@@ -1,0 +1,202 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 833,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 575,
+      "end": 699,
+      "expression": {
+        "type": "CallExpression",
+        "start": 575,
+        "end": 698,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 575,
+          "end": 591,
+          "object": {
+            "type": "Identifier",
+            "start": 575,
+            "end": 581,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 582,
+            "end": 591,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 592,
+            "end": 630,
+            "callee": {
+              "type": "Identifier",
+              "start": 592,
+              "end": 605,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 606,
+                "end": 629,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 606,
+                  "end": 618,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 606,
+                    "end": 614,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 615,
+                    "end": 618,
+                    "name": "Now"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 619,
+                  "end": 629,
+                  "name": "timeZoneId"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 632,
+            "end": 637,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 639,
+            "end": 697,
+            "value": "isConstructor(Temporal.Now.timeZoneId) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 701,
+      "end": 832,
+      "expression": {
+        "type": "CallExpression",
+        "start": 701,
+        "end": 831,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 701,
+          "end": 714,
+          "object": {
+            "type": "Identifier",
+            "start": 701,
+            "end": 707,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 714,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 715,
+            "end": 724,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 726,
+            "end": 768,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 732,
+              "end": 768,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 736,
+                  "end": 766,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 736,
+                    "end": 765,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 740,
+                      "end": 763,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 740,
+                        "end": 752,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 740,
+                          "end": 748,
+                          "name": "Temporal"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 749,
+                          "end": 752,
+                          "name": "Now"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 753,
+                        "end": 763,
+                        "name": "timeZoneId"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 770,
+            "end": 830,
+            "value": "new Temporal.Now.timeZoneId() throws a TypeError exception"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

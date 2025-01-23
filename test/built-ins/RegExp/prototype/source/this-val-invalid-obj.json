@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 866,
+  "end": 950,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -379,6 +379,115 @@
             "start": 845,
             "end": 863,
             "value": "arguments object"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 867,
+      "end": 949,
+      "expression": {
+        "type": "CallExpression",
+        "start": 867,
+        "end": 948,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 867,
+          "end": 880,
+          "object": {
+            "type": "Identifier",
+            "start": 867,
+            "end": 873,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 874,
+            "end": 880,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 881,
+            "end": 890,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 892,
+            "end": 928,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 903,
+              "end": 928,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 907,
+                  "end": 926,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 907,
+                    "end": 925,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 907,
+                      "end": 915,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 907,
+                        "end": 910,
+                        "name": "get"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 911,
+                        "end": 915,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 916,
+                        "end": 924,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 922,
+                          "end": 924,
+                          "body": []
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 930,
+            "end": 947,
+            "value": "function object"
           }
         ],
         "optional": false

@@ -113,7 +113,8 @@
                                 "start": 1172,
                                 "end": 1208,
                                 "value": "./dynamic-import-module_FIXTURE.js"
-                              }
+                              },
+                              "options": null
                             },
                             "property": {
                               "type": "Literal",

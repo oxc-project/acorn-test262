@@ -25,7 +25,8 @@
         "start": 378,
         "end": 405,
         "value": "./get-own-property-sym.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

@@ -1,0 +1,156 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 451,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 307,
+      "end": 450,
+      "expression": {
+        "type": "CallExpression",
+        "start": 307,
+        "end": 449,
+        "callee": {
+          "type": "Identifier",
+          "start": 307,
+          "end": 321,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 322,
+            "end": 351,
+            "object": {
+              "type": "MemberExpression",
+              "start": 322,
+              "end": 340,
+              "object": {
+                "type": "Identifier",
+                "start": 322,
+                "end": 330,
+                "name": "DataView"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 331,
+                "end": 340,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 341,
+              "end": 351,
+              "name": "setFloat16"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 353,
+            "end": 359,
+            "value": "name"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 361,
+            "end": 448,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 365,
+                "end": 384,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 365,
+                  "end": 370,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 372,
+                  "end": 384,
+                  "value": "setFloat16"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 388,
+                "end": 403,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 388,
+                  "end": 396,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 398,
+                  "end": 403,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 407,
+                "end": 424,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 407,
+                  "end": 417,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 419,
+                  "end": 424,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 428,
+                "end": 446,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 428,
+                  "end": 440,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 442,
+                  "end": 446,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 446,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 311,
+      "end": 445,
+      "expression": {
+        "type": "CallExpression",
+        "start": 311,
+        "end": 444,
+        "callee": {
+          "type": "Identifier",
+          "start": 311,
+          "end": 320,
+          "name": "asyncTest"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 321,
+            "end": 443,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 339,
+              "end": 443,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 343,
+                  "end": 388,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 349,
+                      "end": 387,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 349,
+                        "end": 355,
+                        "name": "result"
+                      },
+                      "init": {
+                        "type": "AwaitExpression",
+                        "start": 358,
+                        "end": 387,
+                        "argument": {
+                          "type": "CallExpression",
+                          "start": 364,
+                          "end": 387,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 364,
+                            "end": 379,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 364,
+                              "end": 369,
+                              "name": "Array"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 370,
+                              "end": 379,
+                              "name": "fromAsync"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 380,
+                              "end": 386,
+                              "value": "test"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 391,
+                  "end": 441,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 391,
+                    "end": 440,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 391,
+                      "end": 410,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 391,
+                        "end": 397,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 398,
+                        "end": 410,
+                        "name": "compareArray"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 411,
+                        "end": 417,
+                        "name": "result"
+                      },
+                      {
+                        "type": "ArrayExpression",
+                        "start": 419,
+                        "end": 439,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 420,
+                            "end": 423,
+                            "value": "t"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 425,
+                            "end": 428,
+                            "value": "e"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 430,
+                            "end": 433,
+                            "value": "s"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 435,
+                            "end": 438,
+                            "value": "t"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,100 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 645,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 542,
+      "end": 644,
+      "expression": {
+        "type": "CallExpression",
+        "start": 542,
+        "end": 643,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 542,
+          "end": 555,
+          "object": {
+            "type": "Identifier",
+            "start": 542,
+            "end": 548,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 549,
+            "end": 555,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 556,
+            "end": 567,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 569,
+            "end": 612,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 581,
+              "end": 612,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 585,
+                  "end": 610,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 585,
+                    "end": 609,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 585,
+                      "end": 591,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 592,
+                        "end": 604,
+                        "value": "(?-s﻿:a)"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 606,
+                        "end": 608,
+                        "value": ""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 614,
+            "end": 642,
+            "value": "RegExp(\"(?-s﻿:a)\", \"\"): "
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

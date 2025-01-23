@@ -1,0 +1,180 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 887,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 733,
+      "end": 886,
+      "expression": {
+        "type": "CallExpression",
+        "start": 733,
+        "end": 885,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 733,
+          "end": 764,
+          "object": {
+            "type": "Identifier",
+            "start": 733,
+            "end": 748,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 749,
+            "end": 764,
+            "name": "assertPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 770,
+            "end": 834,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 770,
+              "end": 793,
+              "object": {
+                "type": "MemberExpression",
+                "start": 770,
+                "end": 788,
+                "object": {
+                  "type": "Identifier",
+                  "start": 770,
+                  "end": 778,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 779,
+                  "end": 788,
+                  "name": "PlainDate"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 789,
+                "end": 793,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 794,
+                "end": 833,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 795,
+                    "end": 805,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 795,
+                      "end": 799,
+                      "name": "year"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 801,
+                      "end": 805,
+                      "value": 2021
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 807,
+                    "end": 823,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 807,
+                      "end": 816,
+                      "name": "monthCode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 818,
+                      "end": 823,
+                      "value": "M07"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 825,
+                    "end": 832,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 825,
+                      "end": 828,
+                      "name": "day"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 830,
+                      "end": 832,
+                      "value": 15
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 840,
+            "end": 844,
+            "value": 2021
+          },
+          {
+            "type": "Literal",
+            "start": 846,
+            "end": 847,
+            "value": 7
+          },
+          {
+            "type": "Literal",
+            "start": 849,
+            "end": 854,
+            "value": "M07"
+          },
+          {
+            "type": "Literal",
+            "start": 856,
+            "end": 858,
+            "value": 15
+          },
+          {
+            "type": "Literal",
+            "start": 864,
+            "end": 884,
+            "value": "year/monthCode/day"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

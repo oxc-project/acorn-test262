@@ -1,17 +1,17 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 823,
+  "end": 858,
   "body": [
     {
       "type": "VariableDeclaration",
       "start": 301,
-      "end": 385,
+      "end": 420,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 307,
-          "end": 384,
+          "end": 419,
           "id": {
             "type": "Identifier",
             "start": 307,
@@ -21,7 +21,7 @@
           "init": {
             "type": "ArrayExpression",
             "start": 324,
-            "end": 384,
+            "end": 419,
             "elements": [
               {
                 "type": "Literal",
@@ -34,6 +34,18 @@
                 "start": 354,
                 "end": 381,
                 "value": "2019-10-01T09:00:00Z[UTC]"
+              },
+              {
+                "type": "Literal",
+                "start": 385,
+                "end": 401,
+                "value": "09:00:00Z[UTC]"
+              },
+              {
+                "type": "Literal",
+                "start": 405,
+                "end": 416,
+                "value": "09:00:00Z"
               }
             ]
           }
@@ -43,37 +55,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 386,
-      "end": 429,
+      "start": 421,
+      "end": 464,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 392,
-          "end": 428,
+          "start": 427,
+          "end": 463,
           "id": {
             "type": "Identifier",
-            "start": 392,
-            "end": 401,
+            "start": 427,
+            "end": 436,
             "name": "plainTime"
           },
           "init": {
             "type": "NewExpression",
-            "start": 404,
-            "end": 428,
+            "start": 439,
+            "end": 463,
             "callee": {
               "type": "MemberExpression",
-              "start": 408,
-              "end": 426,
+              "start": 443,
+              "end": 461,
               "object": {
                 "type": "Identifier",
-                "start": 408,
-                "end": 416,
+                "start": 443,
+                "end": 451,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 417,
-                "end": 426,
+                "start": 452,
+                "end": 461,
                 "name": "PlainTime"
               },
               "computed": false,
@@ -87,26 +99,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 430,
-      "end": 822,
+      "start": 465,
+      "end": 857,
       "expression": {
         "type": "CallExpression",
-        "start": 430,
-        "end": 821,
+        "start": 465,
+        "end": 856,
         "callee": {
           "type": "MemberExpression",
-          "start": 430,
-          "end": 452,
+          "start": 465,
+          "end": 487,
           "object": {
             "type": "Identifier",
-            "start": 430,
-            "end": 444,
+            "start": 465,
+            "end": 479,
             "name": "invalidStrings"
           },
           "property": {
             "type": "Identifier",
-            "start": 445,
-            "end": 452,
+            "start": 480,
+            "end": 487,
             "name": "forEach"
           },
           "computed": false,
@@ -115,8 +127,8 @@
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 453,
-            "end": 820,
+            "start": 488,
+            "end": 855,
             "id": null,
             "expression": false,
             "generator": false,
@@ -124,38 +136,38 @@
             "params": [
               {
                 "type": "Identifier",
-                "start": 454,
-                "end": 457,
+                "start": 489,
+                "end": 492,
                 "name": "arg"
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 462,
-              "end": 820,
+              "start": 497,
+              "end": 855,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 466,
-                  "end": 640,
+                  "start": 501,
+                  "end": 675,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 466,
-                    "end": 639,
+                    "start": 501,
+                    "end": 674,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 466,
-                      "end": 479,
+                      "start": 501,
+                      "end": 514,
                       "object": {
                         "type": "Identifier",
-                        "start": 466,
-                        "end": 472,
+                        "start": 501,
+                        "end": 507,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 473,
-                        "end": 479,
+                        "start": 508,
+                        "end": 514,
                         "name": "throws"
                       },
                       "computed": false,
@@ -164,14 +176,14 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 485,
-                        "end": 495,
+                        "start": 520,
+                        "end": 530,
                         "name": "RangeError"
                       },
                       {
                         "type": "ArrowFunctionExpression",
-                        "start": 501,
-                        "end": 549,
+                        "start": 536,
+                        "end": 584,
                         "id": null,
                         "expression": true,
                         "generator": false,
@@ -179,26 +191,26 @@
                         "params": [],
                         "body": {
                           "type": "CallExpression",
-                          "start": 507,
-                          "end": 549,
+                          "start": 542,
+                          "end": 584,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 507,
-                            "end": 533,
+                            "start": 542,
+                            "end": 568,
                             "object": {
                               "type": "MemberExpression",
-                              "start": 507,
-                              "end": 525,
+                              "start": 542,
+                              "end": 560,
                               "object": {
                                 "type": "Identifier",
-                                "start": 507,
-                                "end": 515,
+                                "start": 542,
+                                "end": 550,
                                 "name": "Temporal"
                               },
                               "property": {
                                 "type": "Identifier",
-                                "start": 516,
-                                "end": 525,
+                                "start": 551,
+                                "end": 560,
                                 "name": "PlainTime"
                               },
                               "computed": false,
@@ -206,8 +218,8 @@
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 526,
-                              "end": 533,
+                              "start": 561,
+                              "end": 568,
                               "name": "compare"
                             },
                             "computed": false,
@@ -216,14 +228,14 @@
                           "arguments": [
                             {
                               "type": "Identifier",
-                              "start": 534,
-                              "end": 537,
+                              "start": 569,
+                              "end": 572,
                               "name": "arg"
                             },
                             {
                               "type": "Identifier",
-                              "start": 539,
-                              "end": 548,
+                              "start": 574,
+                              "end": 583,
                               "name": "plainTime"
                             }
                           ],
@@ -232,8 +244,8 @@
                       },
                       {
                         "type": "Literal",
-                        "start": 555,
-                        "end": 635,
+                        "start": 590,
+                        "end": 670,
                         "value": "String with UTC designator should not be valid as a PlainTime (first argument)"
                       }
                     ],
@@ -242,26 +254,26 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 643,
-                  "end": 818,
+                  "start": 678,
+                  "end": 853,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 643,
-                    "end": 817,
+                    "start": 678,
+                    "end": 852,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 643,
-                      "end": 656,
+                      "start": 678,
+                      "end": 691,
                       "object": {
                         "type": "Identifier",
-                        "start": 643,
-                        "end": 649,
+                        "start": 678,
+                        "end": 684,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 650,
-                        "end": 656,
+                        "start": 685,
+                        "end": 691,
                         "name": "throws"
                       },
                       "computed": false,
@@ -270,14 +282,14 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 662,
-                        "end": 672,
+                        "start": 697,
+                        "end": 707,
                         "name": "RangeError"
                       },
                       {
                         "type": "ArrowFunctionExpression",
-                        "start": 678,
-                        "end": 726,
+                        "start": 713,
+                        "end": 761,
                         "id": null,
                         "expression": true,
                         "generator": false,
@@ -285,26 +297,26 @@
                         "params": [],
                         "body": {
                           "type": "CallExpression",
-                          "start": 684,
-                          "end": 726,
+                          "start": 719,
+                          "end": 761,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 684,
-                            "end": 710,
+                            "start": 719,
+                            "end": 745,
                             "object": {
                               "type": "MemberExpression",
-                              "start": 684,
-                              "end": 702,
+                              "start": 719,
+                              "end": 737,
                               "object": {
                                 "type": "Identifier",
-                                "start": 684,
-                                "end": 692,
+                                "start": 719,
+                                "end": 727,
                                 "name": "Temporal"
                               },
                               "property": {
                                 "type": "Identifier",
-                                "start": 693,
-                                "end": 702,
+                                "start": 728,
+                                "end": 737,
                                 "name": "PlainTime"
                               },
                               "computed": false,
@@ -312,8 +324,8 @@
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 703,
-                              "end": 710,
+                              "start": 738,
+                              "end": 745,
                               "name": "compare"
                             },
                             "computed": false,
@@ -322,14 +334,14 @@
                           "arguments": [
                             {
                               "type": "Identifier",
-                              "start": 711,
-                              "end": 720,
+                              "start": 746,
+                              "end": 755,
                               "name": "plainTime"
                             },
                             {
                               "type": "Identifier",
-                              "start": 722,
-                              "end": 725,
+                              "start": 757,
+                              "end": 760,
                               "name": "arg"
                             }
                           ],
@@ -338,8 +350,8 @@
                       },
                       {
                         "type": "Literal",
-                        "start": 732,
-                        "end": 813,
+                        "start": 767,
+                        "end": 848,
                         "value": "String with UTC designator should not be valid as a PlainTime (second argument)"
                       }
                     ],

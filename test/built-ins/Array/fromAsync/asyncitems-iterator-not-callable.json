@@ -1,0 +1,290 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 543,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 322,
+      "end": 542,
+      "expression": {
+        "type": "CallExpression",
+        "start": 322,
+        "end": 541,
+        "callee": {
+          "type": "Identifier",
+          "start": 322,
+          "end": 331,
+          "name": "asyncTest"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 332,
+            "end": 540,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 350,
+              "end": 540,
+              "body": [
+                {
+                  "type": "ForOfStatement",
+                  "start": 354,
+                  "end": 538,
+                  "await": false,
+                  "left": {
+                    "type": "VariableDeclaration",
+                    "start": 359,
+                    "end": 366,
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "start": 365,
+                        "end": 366,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 365,
+                          "end": 366,
+                          "name": "v"
+                        },
+                        "init": null
+                      }
+                    ],
+                    "kind": "const"
+                  },
+                  "right": {
+                    "type": "ArrayExpression",
+                    "start": 370,
+                    "end": 401,
+                    "elements": [
+                      {
+                        "type": "Literal",
+                        "start": 371,
+                        "end": 375,
+                        "value": true
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 377,
+                        "end": 379,
+                        "value": ""
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 381,
+                        "end": 389,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 381,
+                          "end": 387,
+                          "name": "Symbol"
+                        },
+                        "arguments": [],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 391,
+                        "end": 392,
+                        "value": 1
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 394,
+                        "end": 396,
+                        "value": "1n"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 398,
+                        "end": 400,
+                        "properties": []
+                      }
+                    ]
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 403,
+                    "end": 538,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 409,
+                        "end": 534,
+                        "expression": {
+                          "type": "AwaitExpression",
+                          "start": 409,
+                          "end": 533,
+                          "argument": {
+                            "type": "CallExpression",
+                            "start": 415,
+                            "end": 533,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 415,
+                              "end": 433,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 415,
+                                "end": 421,
+                                "name": "assert"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 422,
+                                "end": 433,
+                                "name": "throwsAsync"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "start": 434,
+                                "end": 443,
+                                "name": "TypeError"
+                              },
+                              {
+                                "type": "ArrowFunctionExpression",
+                                "start": 451,
+                                "end": 498,
+                                "id": null,
+                                "expression": true,
+                                "generator": false,
+                                "async": false,
+                                "params": [],
+                                "body": {
+                                  "type": "CallExpression",
+                                  "start": 457,
+                                  "end": 498,
+                                  "callee": {
+                                    "type": "MemberExpression",
+                                    "start": 457,
+                                    "end": 472,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "start": 457,
+                                      "end": 462,
+                                      "name": "Array"
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "start": 463,
+                                      "end": 472,
+                                      "name": "fromAsync"
+                                    },
+                                    "computed": false,
+                                    "optional": false
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "ObjectExpression",
+                                      "start": 473,
+                                      "end": 497,
+                                      "properties": [
+                                        {
+                                          "type": "Property",
+                                          "start": 475,
+                                          "end": 495,
+                                          "method": false,
+                                          "shorthand": false,
+                                          "computed": true,
+                                          "key": {
+                                            "type": "MemberExpression",
+                                            "start": 476,
+                                            "end": 491,
+                                            "object": {
+                                              "type": "Identifier",
+                                              "start": 476,
+                                              "end": 482,
+                                              "name": "Symbol"
+                                            },
+                                            "property": {
+                                              "type": "Identifier",
+                                              "start": 483,
+                                              "end": 491,
+                                              "name": "iterator"
+                                            },
+                                            "computed": false,
+                                            "optional": false
+                                          },
+                                          "value": {
+                                            "type": "Identifier",
+                                            "start": 494,
+                                            "end": 495,
+                                            "name": "v"
+                                          },
+                                          "kind": "init"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "optional": false
+                                }
+                              },
+                              {
+                                "type": "TemplateLiteral",
+                                "start": 506,
+                                "end": 532,
+                                "expressions": [
+                                  {
+                                    "type": "UnaryExpression",
+                                    "start": 522,
+                                    "end": 530,
+                                    "operator": "typeof",
+                                    "prefix": true,
+                                    "argument": {
+                                      "type": "Identifier",
+                                      "start": 529,
+                                      "end": 530,
+                                      "name": "v"
+                                    }
+                                  }
+                                ],
+                                "quasis": [
+                                  {
+                                    "type": "TemplateElement",
+                                    "start": 507,
+                                    "end": 520,
+                                    "value": {
+                                      "raw": "@@iterator = ",
+                                      "cooked": "@@iterator = "
+                                    },
+                                    "tail": false
+                                  },
+                                  {
+                                    "type": "TemplateElement",
+                                    "start": 531,
+                                    "end": 531,
+                                    "value": {
+                                      "raw": "",
+                                      "cooked": ""
+                                    },
+                                    "tail": true
+                                  }
+                                ]
+                              }
+                            ],
+                            "optional": false
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

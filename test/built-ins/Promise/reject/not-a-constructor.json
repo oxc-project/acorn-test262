@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 899,
+  "end": 856,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -83,11 +83,11 @@
     {
       "type": "ExpressionStatement",
       "start": 794,
-      "end": 897,
+      "end": 854,
       "expression": {
         "type": "CallExpression",
         "start": 794,
-        "end": 896,
+        "end": 853,
         "callee": {
           "type": "MemberExpression",
           "start": 794,
@@ -160,12 +160,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 854,
-            "end": 895,
-            "value": "`new Promise.reject()` throws TypeError"
           }
         ],
         "optional": false

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 972,
+  "end": 916,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -96,11 +96,11 @@
     {
       "type": "ExpressionStatement",
       "start": 841,
-      "end": 970,
+      "end": 914,
       "expression": {
         "type": "CallExpression",
         "start": 841,
-        "end": 969,
+        "end": 913,
         "callee": {
           "type": "MemberExpression",
           "start": 841,
@@ -186,12 +186,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 914,
-            "end": 968,
-            "value": "`new String.prototype.charCodeAt()` throws TypeError"
           }
         ],
         "optional": false

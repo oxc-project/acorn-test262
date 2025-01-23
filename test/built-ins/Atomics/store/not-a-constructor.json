@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1068,
+  "end": 959,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -83,11 +83,11 @@
     {
       "type": "ExpressionStatement",
       "start": 831,
-      "end": 1066,
+      "end": 957,
       "expression": {
         "type": "CallExpression",
         "start": 831,
-        "end": 1065,
+        "end": 956,
         "callee": {
           "type": "MemberExpression",
           "start": 831,
@@ -206,12 +206,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 957,
-            "end": 1064,
-            "value": "`new Atomics.store(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT)))` throws TypeError"
           }
         ],
         "optional": false

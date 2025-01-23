@@ -1,0 +1,234 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 710,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 492,
+      "end": 590,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 498,
+          "end": 589,
+          "id": {
+            "type": "Identifier",
+            "start": 498,
+            "end": 515,
+            "name": "IteratorPrototype"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 518,
+            "end": 589,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 518,
+              "end": 539,
+              "object": {
+                "type": "Identifier",
+                "start": 518,
+                "end": 524,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 539,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 543,
+                "end": 587,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 543,
+                  "end": 564,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 543,
+                    "end": 549,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 550,
+                    "end": 564,
+                    "name": "getPrototypeOf"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "CallExpression",
+                    "start": 565,
+                    "end": 586,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 565,
+                      "end": 584,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 565,
+                        "end": 567,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "MemberExpression",
+                        "start": 568,
+                        "end": 583,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 568,
+                          "end": 574,
+                          "name": "Symbol"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 575,
+                          "end": 583,
+                          "name": "iterator"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "computed": true,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 592,
+      "end": 709,
+      "expression": {
+        "type": "CallExpression",
+        "start": 592,
+        "end": 708,
+        "callee": {
+          "type": "Identifier",
+          "start": 592,
+          "end": 606,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 607,
+            "end": 624,
+            "name": "IteratorPrototype"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 626,
+            "end": 641,
+            "object": {
+              "type": "Identifier",
+              "start": 626,
+              "end": 632,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 633,
+              "end": 641,
+              "name": "iterator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 643,
+            "end": 707,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 647,
+                "end": 661,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 647,
+                  "end": 655,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 657,
+                  "end": 661,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 665,
+                "end": 682,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 665,
+                  "end": 675,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 677,
+                  "end": 682,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 686,
+                "end": 704,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 686,
+                  "end": 698,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 700,
+                  "end": 704,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

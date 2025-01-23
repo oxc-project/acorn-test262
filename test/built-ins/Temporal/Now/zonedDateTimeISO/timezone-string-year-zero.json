@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 694,
+  "end": 542,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -44,11 +44,11 @@
     {
       "type": "ExpressionStatement",
       "start": 369,
-      "end": 693,
+      "end": 541,
       "expression": {
         "type": "CallExpression",
         "start": 369,
-        "end": 692,
+        "end": 540,
         "callee": {
           "type": "MemberExpression",
           "start": 369,
@@ -72,7 +72,7 @@
           {
             "type": "ArrowFunctionExpression",
             "start": 392,
-            "end": 691,
+            "end": 539,
             "id": null,
             "expression": false,
             "generator": false,
@@ -88,7 +88,7 @@
             "body": {
               "type": "BlockStatement",
               "start": 406,
-              "end": 691,
+              "end": 539,
               "body": [
                 {
                   "type": "ExpressionStatement",
@@ -185,128 +185,6 @@
                         "start": 496,
                         "end": 532,
                         "value": "reject minus zero as extended year"
-                      }
-                    ],
-                    "optional": false
-                  }
-                },
-                {
-                  "type": "ExpressionStatement",
-                  "start": 540,
-                  "end": 689,
-                  "expression": {
-                    "type": "CallExpression",
-                    "start": 540,
-                    "end": 688,
-                    "callee": {
-                      "type": "MemberExpression",
-                      "start": 540,
-                      "end": 553,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 540,
-                        "end": 546,
-                        "name": "assert"
-                      },
-                      "property": {
-                        "type": "Identifier",
-                        "start": 547,
-                        "end": 553,
-                        "name": "throws"
-                      },
-                      "computed": false,
-                      "optional": false
-                    },
-                    "arguments": [
-                      {
-                        "type": "Identifier",
-                        "start": 559,
-                        "end": 569,
-                        "name": "RangeError"
-                      },
-                      {
-                        "type": "ArrowFunctionExpression",
-                        "start": 575,
-                        "end": 624,
-                        "id": null,
-                        "expression": true,
-                        "generator": false,
-                        "async": false,
-                        "params": [],
-                        "body": {
-                          "type": "CallExpression",
-                          "start": 581,
-                          "end": 624,
-                          "callee": {
-                            "type": "MemberExpression",
-                            "start": 581,
-                            "end": 610,
-                            "object": {
-                              "type": "MemberExpression",
-                              "start": 581,
-                              "end": 593,
-                              "object": {
-                                "type": "Identifier",
-                                "start": 581,
-                                "end": 589,
-                                "name": "Temporal"
-                              },
-                              "property": {
-                                "type": "Identifier",
-                                "start": 590,
-                                "end": 593,
-                                "name": "Now"
-                              },
-                              "computed": false,
-                              "optional": false
-                            },
-                            "property": {
-                              "type": "Identifier",
-                              "start": 594,
-                              "end": 610,
-                              "name": "zonedDateTimeISO"
-                            },
-                            "computed": false,
-                            "optional": false
-                          },
-                          "arguments": [
-                            {
-                              "type": "ObjectExpression",
-                              "start": 611,
-                              "end": 623,
-                              "properties": [
-                                {
-                                  "type": "Property",
-                                  "start": 613,
-                                  "end": 621,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
-                                  "key": {
-                                    "type": "Identifier",
-                                    "start": 613,
-                                    "end": 621,
-                                    "name": "timeZone"
-                                  },
-                                  "kind": "init",
-                                  "value": {
-                                    "type": "Identifier",
-                                    "start": 613,
-                                    "end": 621,
-                                    "name": "timeZone"
-                                  }
-                                }
-                              ]
-                            }
-                          ],
-                          "optional": false
-                        }
-                      },
-                      {
-                        "type": "Literal",
-                        "start": 630,
-                        "end": 684,
-                        "value": "reject minus zero as extended year (nested property)"
                       }
                     ],
                     "optional": false

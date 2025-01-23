@@ -1,0 +1,262 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 860,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 344,
+      "end": 859,
+      "expression": {
+        "type": "CallExpression",
+        "start": 344,
+        "end": 858,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 344,
+          "end": 363,
+          "object": {
+            "type": "Identifier",
+            "start": 344,
+            "end": 350,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 363,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 369,
+            "end": 427,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 369,
+              "end": 380,
+              "object": {
+                "type": "Identifier",
+                "start": 369,
+                "end": 375,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 376,
+                "end": 380,
+                "name": "keys"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 381,
+                "end": 426,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 381,
+                  "end": 424,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 381,
+                    "end": 408,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 382,
+                      "end": 407,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 386,
+                        "end": 405,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 386,
+                          "end": 390,
+                          "name": "Intl"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 391,
+                          "end": 405,
+                          "name": "DurationFormat"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 409,
+                    "end": 424,
+                    "name": "resolvedOptions"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 433,
+            "end": 857,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 434,
+                "end": 442,
+                "value": "locale"
+              },
+              {
+                "type": "Literal",
+                "start": 448,
+                "end": 465,
+                "value": "numberingSystem"
+              },
+              {
+                "type": "Literal",
+                "start": 471,
+                "end": 478,
+                "value": "style"
+              },
+              {
+                "type": "Literal",
+                "start": 484,
+                "end": 491,
+                "value": "years"
+              },
+              {
+                "type": "Literal",
+                "start": 497,
+                "end": 511,
+                "value": "yearsDisplay"
+              },
+              {
+                "type": "Literal",
+                "start": 517,
+                "end": 525,
+                "value": "months"
+              },
+              {
+                "type": "Literal",
+                "start": 531,
+                "end": 546,
+                "value": "monthsDisplay"
+              },
+              {
+                "type": "Literal",
+                "start": 552,
+                "end": 559,
+                "value": "weeks"
+              },
+              {
+                "type": "Literal",
+                "start": 565,
+                "end": 579,
+                "value": "weeksDisplay"
+              },
+              {
+                "type": "Literal",
+                "start": 585,
+                "end": 591,
+                "value": "days"
+              },
+              {
+                "type": "Literal",
+                "start": 597,
+                "end": 610,
+                "value": "daysDisplay"
+              },
+              {
+                "type": "Literal",
+                "start": 616,
+                "end": 623,
+                "value": "hours"
+              },
+              {
+                "type": "Literal",
+                "start": 629,
+                "end": 643,
+                "value": "hoursDisplay"
+              },
+              {
+                "type": "Literal",
+                "start": 649,
+                "end": 658,
+                "value": "minutes"
+              },
+              {
+                "type": "Literal",
+                "start": 664,
+                "end": 680,
+                "value": "minutesDisplay"
+              },
+              {
+                "type": "Literal",
+                "start": 686,
+                "end": 695,
+                "value": "seconds"
+              },
+              {
+                "type": "Literal",
+                "start": 701,
+                "end": 717,
+                "value": "secondsDisplay"
+              },
+              {
+                "type": "Literal",
+                "start": 723,
+                "end": 737,
+                "value": "milliseconds"
+              },
+              {
+                "type": "Literal",
+                "start": 743,
+                "end": 764,
+                "value": "millisecondsDisplay"
+              },
+              {
+                "type": "Literal",
+                "start": 770,
+                "end": 784,
+                "value": "microseconds"
+              },
+              {
+                "type": "Literal",
+                "start": 790,
+                "end": 811,
+                "value": "microsecondsDisplay"
+              },
+              {
+                "type": "Literal",
+                "start": 817,
+                "end": 830,
+                "value": "nanoseconds"
+              },
+              {
+                "type": "Literal",
+                "start": 836,
+                "end": 856,
+                "value": "nanosecondsDisplay"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -215,7 +215,8 @@
         "start": 1849,
         "end": 1877,
         "value": "./instn-named-bndng-var.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

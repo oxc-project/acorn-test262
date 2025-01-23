@@ -1,0 +1,357 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 569,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 268,
+      "end": 324,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 274,
+          "end": 323,
+          "id": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 277,
+            "name": "mdA"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 280,
+            "end": 323,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 284,
+              "end": 306,
+              "object": {
+                "type": "Identifier",
+                "start": 284,
+                "end": 292,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 293,
+                "end": 306,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 307,
+                "end": 308,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 310,
+                "end": 311,
+                "value": 7
+              },
+              {
+                "type": "Literal",
+                "start": 313,
+                "end": 322,
+                "value": "iso8601"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 325,
+      "end": 381,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 331,
+          "end": 380,
+          "id": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 334,
+            "name": "mdB"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 337,
+            "end": 380,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 341,
+              "end": 363,
+              "object": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 349,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 350,
+                "end": 363,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 364,
+                "end": 365,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 367,
+                "end": 368,
+                "value": 7
+              },
+              {
+                "type": "Literal",
+                "start": 370,
+                "end": 379,
+                "value": "gregory"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 382,
+      "end": 444,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 388,
+          "end": 443,
+          "id": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 391,
+            "name": "mdC"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 394,
+            "end": 443,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 398,
+              "end": 420,
+              "object": {
+                "type": "Identifier",
+                "start": 398,
+                "end": 406,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 407,
+                "end": 420,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 421,
+                "end": 422,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 424,
+                "end": 425,
+                "value": 7
+              },
+              {
+                "type": "Literal",
+                "start": 427,
+                "end": 436,
+                "value": "iso8601"
+              },
+              {
+                "type": "Literal",
+                "start": 438,
+                "end": 442,
+                "value": 1974
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 445,
+      "end": 504,
+      "expression": {
+        "type": "CallExpression",
+        "start": 445,
+        "end": 503,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 445,
+          "end": 461,
+          "object": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 451,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 461,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 462,
+            "end": 477,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 462,
+              "end": 472,
+              "object": {
+                "type": "Identifier",
+                "start": 462,
+                "end": 465,
+                "name": "mdA"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 466,
+                "end": 472,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 473,
+                "end": 476,
+                "name": "mdC"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 479,
+            "end": 484,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 486,
+            "end": 502,
+            "value": "different year"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 505,
+      "end": 568,
+      "expression": {
+        "type": "CallExpression",
+        "start": 505,
+        "end": 567,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 505,
+          "end": 521,
+          "object": {
+            "type": "Identifier",
+            "start": 505,
+            "end": 511,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 521,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 522,
+            "end": 537,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 522,
+              "end": 532,
+              "object": {
+                "type": "Identifier",
+                "start": 522,
+                "end": 525,
+                "name": "mdA"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 526,
+                "end": 532,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 533,
+                "end": 536,
+                "name": "mdB"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 539,
+            "end": 544,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 546,
+            "end": 566,
+            "value": "different calendar"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 948,
+  "end": 866,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -62,7 +62,7 @@
     {
       "type": "ForOfStatement",
       "start": 689,
-      "end": 947,
+      "end": 865,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
@@ -93,16 +93,16 @@
       "body": {
         "type": "BlockStatement",
         "start": 751,
-        "end": 947,
+        "end": 865,
         "body": [
           {
             "type": "ExpressionStatement",
             "start": 755,
-            "end": 945,
+            "end": 863,
             "expression": {
               "type": "CallExpression",
               "start": 755,
-              "end": 944,
+              "end": 862,
               "callee": {
                 "type": "MemberExpression",
                 "start": 755,
@@ -210,12 +210,6 @@
                       }
                     ]
                   }
-                },
-                {
-                  "type": "Literal",
-                  "start": 863,
-                  "end": 943,
-                  "value": "`new Intl.Locale(\"en\", {collation: invalidCollationOption})` throws RangeError"
                 }
               ],
               "optional": false

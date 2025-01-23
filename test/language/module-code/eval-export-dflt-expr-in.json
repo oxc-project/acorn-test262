@@ -95,7 +95,8 @@
         "start": 583,
         "end": 614,
         "value": "./eval-export-dflt-expr-in.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

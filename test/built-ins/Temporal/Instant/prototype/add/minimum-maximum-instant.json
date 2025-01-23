@@ -1,0 +1,2119 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2774,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 259,
+      "end": 320,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 263,
+          "end": 319,
+          "id": {
+            "type": "Identifier",
+            "start": 263,
+            "end": 266,
+            "name": "min"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 269,
+            "end": 319,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 273,
+              "end": 289,
+              "object": {
+                "type": "Identifier",
+                "start": 273,
+                "end": 281,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 282,
+                "end": 289,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 290,
+                "end": 318,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 291,
+                  "end": 318,
+                  "value": "8640000000000000000000n"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 321,
+      "end": 381,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 325,
+          "end": 380,
+          "id": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 328,
+            "name": "max"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 331,
+            "end": 380,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 335,
+              "end": 351,
+              "object": {
+                "type": "Identifier",
+                "start": 335,
+                "end": 343,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 344,
+                "end": 351,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 352,
+                "end": 379,
+                "value": "8640000000000000000000n"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 383,
+      "end": 435,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 387,
+          "end": 434,
+          "id": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 391,
+            "name": "zero"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 394,
+            "end": 434,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 394,
+              "end": 416,
+              "object": {
+                "type": "MemberExpression",
+                "start": 394,
+                "end": 411,
+                "object": {
+                  "type": "Identifier",
+                  "start": 394,
+                  "end": 402,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 403,
+                  "end": 411,
+                  "name": "Duration"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 412,
+                "end": 416,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 417,
+                "end": 433,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 418,
+                    "end": 432,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 418,
+                      "end": 429,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 431,
+                      "end": 432,
+                      "value": 0
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 436,
+      "end": 487,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 440,
+          "end": 486,
+          "id": {
+            "type": "Identifier",
+            "start": 440,
+            "end": 443,
+            "name": "one"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 446,
+            "end": 486,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 446,
+              "end": 468,
+              "object": {
+                "type": "MemberExpression",
+                "start": 446,
+                "end": 463,
+                "object": {
+                  "type": "Identifier",
+                  "start": 446,
+                  "end": 454,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 455,
+                  "end": 463,
+                  "name": "Duration"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 464,
+                "end": 468,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 469,
+                "end": 485,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 470,
+                    "end": 484,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 470,
+                      "end": 481,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 483,
+                      "end": 484,
+                      "value": 1
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 488,
+      "end": 545,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 492,
+          "end": 544,
+          "id": {
+            "type": "Identifier",
+            "start": 492,
+            "end": 500,
+            "name": "minusOne"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 503,
+            "end": 544,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 503,
+              "end": 525,
+              "object": {
+                "type": "MemberExpression",
+                "start": 503,
+                "end": 520,
+                "object": {
+                  "type": "Identifier",
+                  "start": 503,
+                  "end": 511,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 512,
+                  "end": 520,
+                  "name": "Duration"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 521,
+                "end": 525,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 526,
+                "end": 543,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 527,
+                    "end": 542,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 527,
+                      "end": 538,
+                      "name": "nanoseconds"
+                    },
+                    "value": {
+                      "type": "UnaryExpression",
+                      "start": 540,
+                      "end": 542,
+                      "operator": "-",
+                      "prefix": true,
+                      "argument": {
+                        "type": "Literal",
+                        "start": 541,
+                        "end": 542,
+                        "value": 1
+                      }
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 547,
+      "end": 673,
+      "expression": {
+        "type": "CallExpression",
+        "start": 547,
+        "end": 672,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 547,
+          "end": 563,
+          "object": {
+            "type": "Identifier",
+            "start": 547,
+            "end": 553,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 563,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 564,
+            "end": 594,
+            "object": {
+              "type": "CallExpression",
+              "start": 564,
+              "end": 577,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 564,
+                "end": 571,
+                "object": {
+                  "type": "Identifier",
+                  "start": 564,
+                  "end": 567,
+                  "name": "min"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 568,
+                  "end": 571,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 572,
+                  "end": 576,
+                  "name": "zero"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 578,
+              "end": 594,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 596,
+            "end": 616,
+            "object": {
+              "type": "Identifier",
+              "start": 596,
+              "end": 599,
+              "name": "min"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 600,
+              "end": 616,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 635,
+            "end": 671,
+            "value": "Adding zero to the minimum instant"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 675,
+      "end": 801,
+      "expression": {
+        "type": "CallExpression",
+        "start": 675,
+        "end": 800,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 675,
+          "end": 691,
+          "object": {
+            "type": "Identifier",
+            "start": 675,
+            "end": 681,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 682,
+            "end": 691,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 692,
+            "end": 722,
+            "object": {
+              "type": "CallExpression",
+              "start": 692,
+              "end": 705,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 692,
+                "end": 699,
+                "object": {
+                  "type": "Identifier",
+                  "start": 692,
+                  "end": 695,
+                  "name": "max"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 696,
+                  "end": 699,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 700,
+                  "end": 704,
+                  "name": "zero"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 706,
+              "end": 722,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 724,
+            "end": 744,
+            "object": {
+              "type": "Identifier",
+              "start": 724,
+              "end": 727,
+              "name": "max"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 728,
+              "end": 744,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 763,
+            "end": 799,
+            "value": "Adding zero to the maximum instant"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 803,
+      "end": 912,
+      "expression": {
+        "type": "CallExpression",
+        "start": 803,
+        "end": 911,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 803,
+          "end": 816,
+          "object": {
+            "type": "Identifier",
+            "start": 803,
+            "end": 809,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 810,
+            "end": 816,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 817,
+            "end": 827,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 829,
+            "end": 852,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 835,
+              "end": 852,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 835,
+                "end": 842,
+                "object": {
+                  "type": "Identifier",
+                  "start": 835,
+                  "end": 838,
+                  "name": "min"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 839,
+                  "end": 842,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 843,
+                  "end": 851,
+                  "name": "minusOne"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 868,
+            "end": 910,
+            "value": "Subtracting one from the minimum instant"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 914,
+      "end": 1011,
+      "expression": {
+        "type": "CallExpression",
+        "start": 914,
+        "end": 1010,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 914,
+          "end": 927,
+          "object": {
+            "type": "Identifier",
+            "start": 914,
+            "end": 920,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 921,
+            "end": 927,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 928,
+            "end": 938,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 940,
+            "end": 958,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 946,
+              "end": 958,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 946,
+                "end": 953,
+                "object": {
+                  "type": "Identifier",
+                  "start": 946,
+                  "end": 949,
+                  "name": "max"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 950,
+                  "end": 953,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 954,
+                  "end": 957,
+                  "name": "one"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 974,
+            "end": 1009,
+            "value": "Adding one to the maximum instant"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1013,
+      "end": 1142,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1013,
+        "end": 1141,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1013,
+          "end": 1029,
+          "object": {
+            "type": "Identifier",
+            "start": 1013,
+            "end": 1019,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1020,
+            "end": 1029,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1030,
+            "end": 1059,
+            "object": {
+              "type": "CallExpression",
+              "start": 1030,
+              "end": 1042,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1030,
+                "end": 1037,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1030,
+                  "end": 1033,
+                  "name": "min"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1034,
+                  "end": 1037,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1038,
+                  "end": 1041,
+                  "name": "one"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1043,
+              "end": 1059,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 1061,
+            "end": 1086,
+            "left": {
+              "type": "MemberExpression",
+              "start": 1061,
+              "end": 1081,
+              "object": {
+                "type": "Identifier",
+                "start": 1061,
+                "end": 1064,
+                "name": "min"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1065,
+                "end": 1081,
+                "name": "epochNanoseconds"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 1084,
+              "end": 1086,
+              "value": "1n"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1105,
+            "end": 1140,
+            "value": "Adding one to the minimum instant"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1144,
+      "end": 1285,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1144,
+        "end": 1284,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1144,
+          "end": 1160,
+          "object": {
+            "type": "Identifier",
+            "start": 1144,
+            "end": 1150,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1151,
+            "end": 1160,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1161,
+            "end": 1195,
+            "object": {
+              "type": "CallExpression",
+              "start": 1161,
+              "end": 1178,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1161,
+                "end": 1168,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1161,
+                  "end": 1164,
+                  "name": "max"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1165,
+                  "end": 1168,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1169,
+                  "end": 1177,
+                  "name": "minusOne"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1179,
+              "end": 1195,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 1197,
+            "end": 1222,
+            "left": {
+              "type": "MemberExpression",
+              "start": 1197,
+              "end": 1217,
+              "object": {
+                "type": "Identifier",
+                "start": 1197,
+                "end": 1200,
+                "name": "max"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1201,
+                "end": 1217,
+                "name": "epochNanoseconds"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "-",
+            "right": {
+              "type": "Literal",
+              "start": 1220,
+              "end": 1222,
+              "value": "1n"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1241,
+            "end": 1283,
+            "value": "Subtracting one from the maximum instant"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1323,
+      "end": 1504,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1323,
+        "end": 1503,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1323,
+          "end": 1339,
+          "object": {
+            "type": "Identifier",
+            "start": 1323,
+            "end": 1329,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1330,
+            "end": 1339,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1340,
+            "end": 1411,
+            "object": {
+              "type": "CallExpression",
+              "start": 1340,
+              "end": 1394,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1340,
+                "end": 1347,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1340,
+                  "end": 1343,
+                  "name": "min"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1344,
+                  "end": 1347,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 1348,
+                  "end": 1393,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 1349,
+                      "end": 1392,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1349,
+                        "end": 1360,
+                        "name": "nanoseconds"
+                      },
+                      "value": {
+                        "type": "BinaryExpression",
+                        "start": 1362,
+                        "end": 1392,
+                        "left": {
+                          "type": "Literal",
+                          "start": 1362,
+                          "end": 1388,
+                          "value": 8.64e+21
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Literal",
+                          "start": 1391,
+                          "end": 1392,
+                          "value": 2
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1395,
+              "end": 1411,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1413,
+            "end": 1433,
+            "object": {
+              "type": "Identifier",
+              "start": 1413,
+              "end": 1416,
+              "name": "max"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1417,
+              "end": 1433,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1452,
+            "end": 1502,
+            "value": "Minimum to maximum instant by adding nanoseconds"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1506,
+      "end": 1685,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1506,
+        "end": 1684,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1506,
+          "end": 1522,
+          "object": {
+            "type": "Identifier",
+            "start": 1506,
+            "end": 1512,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1513,
+            "end": 1522,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1523,
+            "end": 1591,
+            "object": {
+              "type": "CallExpression",
+              "start": 1523,
+              "end": 1574,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1523,
+                "end": 1530,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1523,
+                  "end": 1526,
+                  "name": "min"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1527,
+                  "end": 1530,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 1531,
+                  "end": 1573,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 1532,
+                      "end": 1572,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1532,
+                        "end": 1544,
+                        "name": "microseconds"
+                      },
+                      "value": {
+                        "type": "BinaryExpression",
+                        "start": 1546,
+                        "end": 1572,
+                        "left": {
+                          "type": "Literal",
+                          "start": 1546,
+                          "end": 1568,
+                          "value": 8640000000000000000
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Literal",
+                          "start": 1571,
+                          "end": 1572,
+                          "value": 2
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1575,
+              "end": 1591,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1593,
+            "end": 1613,
+            "object": {
+              "type": "Identifier",
+              "start": 1593,
+              "end": 1596,
+              "name": "max"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1597,
+              "end": 1613,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1632,
+            "end": 1683,
+            "value": "Minimum to maximum instant by adding microseconds"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1687,
+      "end": 1863,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1687,
+        "end": 1862,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1687,
+          "end": 1703,
+          "object": {
+            "type": "Identifier",
+            "start": 1687,
+            "end": 1693,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1694,
+            "end": 1703,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1704,
+            "end": 1769,
+            "object": {
+              "type": "CallExpression",
+              "start": 1704,
+              "end": 1752,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1704,
+                "end": 1711,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1704,
+                  "end": 1707,
+                  "name": "min"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1708,
+                  "end": 1711,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 1712,
+                  "end": 1751,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 1713,
+                      "end": 1750,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1713,
+                        "end": 1725,
+                        "name": "milliseconds"
+                      },
+                      "value": {
+                        "type": "BinaryExpression",
+                        "start": 1727,
+                        "end": 1750,
+                        "left": {
+                          "type": "Literal",
+                          "start": 1727,
+                          "end": 1746,
+                          "value": 8640000000000000
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Literal",
+                          "start": 1749,
+                          "end": 1750,
+                          "value": 2
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1753,
+              "end": 1769,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1771,
+            "end": 1791,
+            "object": {
+              "type": "Identifier",
+              "start": 1771,
+              "end": 1774,
+              "name": "max"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1775,
+              "end": 1791,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1810,
+            "end": 1861,
+            "value": "Minimum to maximum instant by adding milliseconds"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1865,
+      "end": 2027,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1865,
+        "end": 2026,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1865,
+          "end": 1881,
+          "object": {
+            "type": "Identifier",
+            "start": 1865,
+            "end": 1871,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1872,
+            "end": 1881,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1882,
+            "end": 1938,
+            "object": {
+              "type": "CallExpression",
+              "start": 1882,
+              "end": 1921,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1882,
+                "end": 1889,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1882,
+                  "end": 1885,
+                  "name": "min"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1886,
+                  "end": 1889,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 1890,
+                  "end": 1920,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 1891,
+                      "end": 1919,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1891,
+                        "end": 1898,
+                        "name": "seconds"
+                      },
+                      "value": {
+                        "type": "BinaryExpression",
+                        "start": 1900,
+                        "end": 1919,
+                        "left": {
+                          "type": "Literal",
+                          "start": 1900,
+                          "end": 1915,
+                          "value": 8640000000000
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Literal",
+                          "start": 1918,
+                          "end": 1919,
+                          "value": 2
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1922,
+              "end": 1938,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1940,
+            "end": 1960,
+            "object": {
+              "type": "Identifier",
+              "start": 1940,
+              "end": 1943,
+              "name": "max"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1944,
+              "end": 1960,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1979,
+            "end": 2025,
+            "value": "Minimum to maximum instant by adding seconds"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2065,
+      "end": 2247,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2065,
+        "end": 2246,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2065,
+          "end": 2081,
+          "object": {
+            "type": "Identifier",
+            "start": 2065,
+            "end": 2071,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2072,
+            "end": 2081,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2082,
+            "end": 2154,
+            "object": {
+              "type": "CallExpression",
+              "start": 2082,
+              "end": 2137,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2082,
+                "end": 2089,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2082,
+                  "end": 2085,
+                  "name": "max"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2086,
+                  "end": 2089,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 2090,
+                  "end": 2136,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 2091,
+                      "end": 2135,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2091,
+                        "end": 2102,
+                        "name": "nanoseconds"
+                      },
+                      "value": {
+                        "type": "BinaryExpression",
+                        "start": 2104,
+                        "end": 2135,
+                        "left": {
+                          "type": "UnaryExpression",
+                          "start": 2104,
+                          "end": 2131,
+                          "operator": "-",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 2105,
+                            "end": 2131,
+                            "value": 8.64e+21
+                          }
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Literal",
+                          "start": 2134,
+                          "end": 2135,
+                          "value": 2
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2138,
+              "end": 2154,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 2156,
+            "end": 2176,
+            "object": {
+              "type": "Identifier",
+              "start": 2156,
+              "end": 2159,
+              "name": "min"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2160,
+              "end": 2176,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2195,
+            "end": 2245,
+            "value": "Maximum to minimum instant by adding nanoseconds"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2249,
+      "end": 2429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2249,
+        "end": 2428,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2249,
+          "end": 2265,
+          "object": {
+            "type": "Identifier",
+            "start": 2249,
+            "end": 2255,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2256,
+            "end": 2265,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2266,
+            "end": 2335,
+            "object": {
+              "type": "CallExpression",
+              "start": 2266,
+              "end": 2318,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2266,
+                "end": 2273,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2266,
+                  "end": 2269,
+                  "name": "max"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2270,
+                  "end": 2273,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 2274,
+                  "end": 2317,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 2275,
+                      "end": 2316,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2275,
+                        "end": 2287,
+                        "name": "microseconds"
+                      },
+                      "value": {
+                        "type": "BinaryExpression",
+                        "start": 2289,
+                        "end": 2316,
+                        "left": {
+                          "type": "UnaryExpression",
+                          "start": 2289,
+                          "end": 2312,
+                          "operator": "-",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 2290,
+                            "end": 2312,
+                            "value": 8640000000000000000
+                          }
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Literal",
+                          "start": 2315,
+                          "end": 2316,
+                          "value": 2
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2319,
+              "end": 2335,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 2337,
+            "end": 2357,
+            "object": {
+              "type": "Identifier",
+              "start": 2337,
+              "end": 2340,
+              "name": "min"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2341,
+              "end": 2357,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2376,
+            "end": 2427,
+            "value": "Maximum to minimum instant by adding microseconds"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2431,
+      "end": 2608,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2431,
+        "end": 2607,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2431,
+          "end": 2447,
+          "object": {
+            "type": "Identifier",
+            "start": 2431,
+            "end": 2437,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2438,
+            "end": 2447,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2448,
+            "end": 2514,
+            "object": {
+              "type": "CallExpression",
+              "start": 2448,
+              "end": 2497,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2448,
+                "end": 2455,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2448,
+                  "end": 2451,
+                  "name": "max"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2452,
+                  "end": 2455,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 2456,
+                  "end": 2496,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 2457,
+                      "end": 2495,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2457,
+                        "end": 2469,
+                        "name": "milliseconds"
+                      },
+                      "value": {
+                        "type": "BinaryExpression",
+                        "start": 2471,
+                        "end": 2495,
+                        "left": {
+                          "type": "UnaryExpression",
+                          "start": 2471,
+                          "end": 2491,
+                          "operator": "-",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 2472,
+                            "end": 2491,
+                            "value": 8640000000000000
+                          }
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Literal",
+                          "start": 2494,
+                          "end": 2495,
+                          "value": 2
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2498,
+              "end": 2514,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 2516,
+            "end": 2536,
+            "object": {
+              "type": "Identifier",
+              "start": 2516,
+              "end": 2519,
+              "name": "min"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2520,
+              "end": 2536,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2555,
+            "end": 2606,
+            "value": "Maximum to minimum instant by adding milliseconds"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2610,
+      "end": 2773,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2610,
+        "end": 2772,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2610,
+          "end": 2626,
+          "object": {
+            "type": "Identifier",
+            "start": 2610,
+            "end": 2616,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2617,
+            "end": 2626,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2627,
+            "end": 2684,
+            "object": {
+              "type": "CallExpression",
+              "start": 2627,
+              "end": 2667,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2627,
+                "end": 2634,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2627,
+                  "end": 2630,
+                  "name": "max"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2631,
+                  "end": 2634,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 2635,
+                  "end": 2666,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 2636,
+                      "end": 2665,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2636,
+                        "end": 2643,
+                        "name": "seconds"
+                      },
+                      "value": {
+                        "type": "BinaryExpression",
+                        "start": 2645,
+                        "end": 2665,
+                        "left": {
+                          "type": "UnaryExpression",
+                          "start": 2645,
+                          "end": 2661,
+                          "operator": "-",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 2646,
+                            "end": 2661,
+                            "value": 8640000000000
+                          }
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Literal",
+                          "start": 2664,
+                          "end": 2665,
+                          "value": 2
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2668,
+              "end": 2684,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 2686,
+            "end": 2706,
+            "object": {
+              "type": "Identifier",
+              "start": 2686,
+              "end": 2689,
+              "name": "min"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2690,
+              "end": 2706,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2725,
+            "end": 2771,
+            "value": "Maximum to minimum instant by adding seconds"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

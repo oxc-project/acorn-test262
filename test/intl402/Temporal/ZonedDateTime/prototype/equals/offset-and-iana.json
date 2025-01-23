@@ -1,0 +1,679 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 868,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 271,
+      "end": 337,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 277,
+          "end": 336,
+          "id": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 280,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 283,
+            "end": 336,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 287,
+              "end": 309,
+              "object": {
+                "type": "Identifier",
+                "start": 287,
+                "end": 295,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 296,
+                "end": 309,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 310,
+                "end": 312,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 314,
+                "end": 335,
+                "value": "America/Los_Angeles"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 338,
+      "end": 425,
+      "expression": {
+        "type": "CallExpression",
+        "start": 338,
+        "end": 424,
+        "callee": {
+          "type": "Identifier",
+          "start": 338,
+          "end": 344,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 345,
+            "end": 405,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 345,
+              "end": 378,
+              "object": {
+                "type": "CallExpression",
+                "start": 345,
+                "end": 371,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 345,
+                  "end": 361,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 345,
+                    "end": 348,
+                    "name": "zdt"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 349,
+                    "end": 361,
+                    "name": "withTimeZone"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 362,
+                    "end": 370,
+                    "value": "+05:30"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 372,
+                "end": 378,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 379,
+                "end": 404,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 379,
+                  "end": 395,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 379,
+                    "end": 382,
+                    "name": "zdt"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 383,
+                    "end": 395,
+                    "name": "withTimeZone"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 396,
+                    "end": 403,
+                    "value": "+0530"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 407,
+            "end": 423,
+            "value": "+05:30 = +0530"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 426,
+      "end": 513,
+      "expression": {
+        "type": "CallExpression",
+        "start": 426,
+        "end": 512,
+        "callee": {
+          "type": "Identifier",
+          "start": 426,
+          "end": 432,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 433,
+            "end": 493,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 433,
+              "end": 465,
+              "object": {
+                "type": "CallExpression",
+                "start": 433,
+                "end": 458,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 433,
+                  "end": 449,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 433,
+                    "end": 436,
+                    "name": "zdt"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 437,
+                    "end": 449,
+                    "name": "withTimeZone"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 450,
+                    "end": 457,
+                    "value": "+0530"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 459,
+                "end": 465,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 466,
+                "end": 492,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 466,
+                  "end": 482,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 466,
+                    "end": 469,
+                    "name": "zdt"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 470,
+                    "end": 482,
+                    "name": "withTimeZone"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 483,
+                    "end": 491,
+                    "value": "+05:30"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 495,
+            "end": 511,
+            "value": "+0530 = +05:30"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 514,
+      "end": 625,
+      "expression": {
+        "type": "CallExpression",
+        "start": 514,
+        "end": 624,
+        "callee": {
+          "type": "Identifier",
+          "start": 514,
+          "end": 520,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 521,
+            "end": 592,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 521,
+              "end": 554,
+              "object": {
+                "type": "CallExpression",
+                "start": 521,
+                "end": 547,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 521,
+                  "end": 537,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 521,
+                    "end": 524,
+                    "name": "zdt"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 525,
+                    "end": 537,
+                    "name": "withTimeZone"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 538,
+                    "end": 546,
+                    "value": "+05:30"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 548,
+                "end": 554,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 555,
+                "end": 591,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 555,
+                  "end": 589,
+                  "object": {
+                    "type": "CallExpression",
+                    "start": 555,
+                    "end": 580,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 555,
+                      "end": 571,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 555,
+                        "end": 558,
+                        "name": "zdt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 559,
+                        "end": 571,
+                        "name": "withTimeZone"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 572,
+                        "end": 579,
+                        "value": "+0530"
+                      }
+                    ],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 581,
+                    "end": 589,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 594,
+            "end": 623,
+            "value": "+05:30 = +0530 IXDTF string"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 626,
+      "end": 739,
+      "expression": {
+        "type": "CallExpression",
+        "start": 626,
+        "end": 738,
+        "callee": {
+          "type": "Identifier",
+          "start": 626,
+          "end": 632,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 633,
+            "end": 701,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 634,
+              "end": 701,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 634,
+                "end": 667,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 634,
+                  "end": 660,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 634,
+                    "end": 650,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 634,
+                      "end": 637,
+                      "name": "zdt"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 638,
+                      "end": 650,
+                      "name": "withTimeZone"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 651,
+                      "end": 659,
+                      "value": "+05:30"
+                    }
+                  ],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 661,
+                  "end": 667,
+                  "name": "equals"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 668,
+                  "end": 700,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 668,
+                    "end": 684,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 668,
+                      "end": 671,
+                      "name": "zdt"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 672,
+                      "end": 684,
+                      "name": "withTimeZone"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 685,
+                      "end": 699,
+                      "value": "Asia/Kolkata"
+                    }
+                  ],
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 703,
+            "end": 737,
+            "value": "+05:30 != Asia/Kolkata string ID"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 740,
+      "end": 867,
+      "expression": {
+        "type": "CallExpression",
+        "start": 740,
+        "end": 866,
+        "callee": {
+          "type": "Identifier",
+          "start": 740,
+          "end": 746,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 747,
+            "end": 826,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 748,
+              "end": 826,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 748,
+                "end": 781,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 748,
+                  "end": 774,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 748,
+                    "end": 764,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 748,
+                      "end": 751,
+                      "name": "zdt"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 752,
+                      "end": 764,
+                      "name": "withTimeZone"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 765,
+                      "end": 773,
+                      "value": "+05:30"
+                    }
+                  ],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 775,
+                  "end": 781,
+                  "name": "equals"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 782,
+                  "end": 825,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 782,
+                    "end": 823,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 782,
+                      "end": 814,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 782,
+                        "end": 798,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 782,
+                          "end": 785,
+                          "name": "zdt"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 786,
+                          "end": 798,
+                          "name": "withTimeZone"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 799,
+                          "end": 813,
+                          "value": "Asia/Kolkata"
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 815,
+                      "end": 823,
+                      "name": "toString"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 828,
+            "end": 865,
+            "value": "+05:30 != Asia/Kolkata IXDTF string"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,296 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 856,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 435,
+      "end": 460,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 439,
+          "end": 459,
+          "id": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 447,
+            "name": "calendar"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 450,
+            "end": 459,
+            "value": "gregory"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 564,
+      "end": 649,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 570,
+          "end": 648,
+          "id": {
+            "type": "Identifier",
+            "start": 570,
+            "end": 574,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 577,
+            "end": 648,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 581,
+              "end": 603,
+              "object": {
+                "type": "Identifier",
+                "start": 581,
+                "end": 589,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 590,
+                "end": 603,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 604,
+                "end": 630,
+                "value": "1704112496987654321n"
+              },
+              {
+                "type": "Literal",
+                "start": 632,
+                "end": 637,
+                "value": "UTC"
+              },
+              {
+                "type": "Identifier",
+                "start": 639,
+                "end": 647,
+                "name": "calendar"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 688,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 687,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 651,
+          "end": 667,
+          "object": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 657,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 667,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 668,
+            "end": 683,
+            "object": {
+              "type": "Identifier",
+              "start": 668,
+              "end": 672,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 673,
+              "end": 683,
+              "name": "weekOfYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 685,
+            "end": 686,
+            "value": 1
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 690,
+      "end": 710,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 690,
+        "end": 709,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 690,
+          "end": 698,
+          "name": "calendar"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 701,
+          "end": 709,
+          "value": "hebrew"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 711,
+      "end": 802,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 717,
+          "end": 801,
+          "id": {
+            "type": "Identifier",
+            "start": 717,
+            "end": 727,
+            "name": "nonisodate"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 730,
+            "end": 801,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 734,
+              "end": 756,
+              "object": {
+                "type": "Identifier",
+                "start": 734,
+                "end": 742,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 743,
+                "end": 756,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 757,
+                "end": 783,
+                "value": "1704112496987654321n"
+              },
+              {
+                "type": "Literal",
+                "start": 785,
+                "end": 790,
+                "value": "UTC"
+              },
+              {
+                "type": "Identifier",
+                "start": 792,
+                "end": 800,
+                "name": "calendar"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 804,
+      "end": 855,
+      "expression": {
+        "type": "CallExpression",
+        "start": 804,
+        "end": 854,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 804,
+          "end": 820,
+          "object": {
+            "type": "Identifier",
+            "start": 804,
+            "end": 810,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 811,
+            "end": 820,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 821,
+            "end": 842,
+            "object": {
+              "type": "Identifier",
+              "start": 821,
+              "end": 831,
+              "name": "nonisodate"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 832,
+              "end": 842,
+              "name": "weekOfYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 844,
+            "end": 853,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

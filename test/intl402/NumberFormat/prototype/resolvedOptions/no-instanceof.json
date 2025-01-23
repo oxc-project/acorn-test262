@@ -1,47 +1,81 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 570,
+  "end": 852,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 403,
-      "end": 438,
+      "start": 634,
+      "end": 688,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 409,
-          "end": 437,
+          "start": 640,
+          "end": 687,
           "id": {
             "type": "Identifier",
-            "start": 409,
-            "end": 411,
+            "start": 640,
+            "end": 642,
             "name": "nf"
           },
           "init": {
-            "type": "NewExpression",
-            "start": 414,
-            "end": 437,
+            "type": "CallExpression",
+            "start": 645,
+            "end": 687,
             "callee": {
               "type": "MemberExpression",
-              "start": 418,
-              "end": 435,
+              "start": 645,
+              "end": 658,
               "object": {
                 "type": "Identifier",
-                "start": 418,
-                "end": 422,
-                "name": "Intl"
+                "start": 645,
+                "end": 651,
+                "name": "Object"
               },
               "property": {
                 "type": "Identifier",
-                "start": 423,
-                "end": 435,
-                "name": "NumberFormat"
+                "start": 652,
+                "end": 658,
+                "name": "create"
               },
               "computed": false,
               "optional": false
             },
-            "arguments": []
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 659,
+                "end": 686,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 659,
+                  "end": 676,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 659,
+                    "end": 663,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 664,
+                    "end": 676,
+                    "name": "NumberFormat"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 677,
+                  "end": 686,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
           }
         }
       ],
@@ -49,26 +83,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 440,
-      "end": 546,
+      "start": 690,
+      "end": 796,
       "expression": {
         "type": "CallExpression",
-        "start": 440,
-        "end": 545,
+        "start": 690,
+        "end": 795,
         "callee": {
           "type": "MemberExpression",
-          "start": 440,
-          "end": 461,
+          "start": 690,
+          "end": 711,
           "object": {
             "type": "Identifier",
-            "start": 440,
-            "end": 446,
+            "start": 690,
+            "end": 696,
             "name": "Object"
           },
           "property": {
             "type": "Identifier",
-            "start": 447,
-            "end": 461,
+            "start": 697,
+            "end": 711,
             "name": "defineProperty"
           },
           "computed": false,
@@ -77,18 +111,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 462,
-            "end": 479,
+            "start": 712,
+            "end": 729,
             "object": {
               "type": "Identifier",
-              "start": 462,
-              "end": 466,
+              "start": 712,
+              "end": 716,
               "name": "Intl"
             },
             "property": {
               "type": "Identifier",
-              "start": 467,
-              "end": 479,
+              "start": 717,
+              "end": 729,
               "name": "NumberFormat"
             },
             "computed": false,
@@ -96,18 +130,18 @@
           },
           {
             "type": "MemberExpression",
-            "start": 481,
-            "end": 499,
+            "start": 731,
+            "end": 749,
             "object": {
               "type": "Identifier",
-              "start": 481,
-              "end": 487,
+              "start": 731,
+              "end": 737,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 488,
-              "end": 499,
+              "start": 738,
+              "end": 749,
               "name": "hasInstance"
             },
             "computed": false,
@@ -115,27 +149,27 @@
           },
           {
             "type": "ObjectExpression",
-            "start": 501,
-            "end": 544,
+            "start": 751,
+            "end": 794,
             "properties": [
               {
                 "type": "Property",
-                "start": 507,
-                "end": 542,
+                "start": 757,
+                "end": 792,
                 "method": true,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 507,
-                  "end": 510,
+                  "start": 757,
+                  "end": 760,
                   "name": "get"
                 },
                 "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 510,
-                  "end": 542,
+                  "start": 760,
+                  "end": 792,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -143,21 +177,21 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 513,
-                    "end": 542,
+                    "start": 763,
+                    "end": 792,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 515,
-                        "end": 540,
+                        "start": 765,
+                        "end": 790,
                         "argument": {
                           "type": "NewExpression",
-                          "start": 521,
-                          "end": 539,
+                          "start": 771,
+                          "end": 789,
                           "callee": {
                             "type": "Identifier",
-                            "start": 525,
-                            "end": 537,
+                            "start": 775,
+                            "end": 787,
                             "name": "Test262Error"
                           },
                           "arguments": []
@@ -175,32 +209,75 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 548,
-      "end": 569,
+      "start": 798,
+      "end": 851,
       "expression": {
         "type": "CallExpression",
-        "start": 548,
-        "end": 568,
+        "start": 798,
+        "end": 850,
         "callee": {
           "type": "MemberExpression",
-          "start": 548,
-          "end": 566,
+          "start": 798,
+          "end": 811,
           "object": {
             "type": "Identifier",
-            "start": 548,
-            "end": 550,
-            "name": "nf"
+            "start": 798,
+            "end": 804,
+            "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 551,
-            "end": 566,
-            "name": "resolvedOptions"
+            "start": 805,
+            "end": 811,
+            "name": "throws"
           },
           "computed": false,
           "optional": false
         },
-        "arguments": [],
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 812,
+            "end": 821,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 823,
+            "end": 849,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 829,
+              "end": 849,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 829,
+                "end": 847,
+                "object": {
+                  "type": "Identifier",
+                  "start": 829,
+                  "end": 831,
+                  "name": "nf"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 832,
+                  "end": 847,
+                  "name": "resolvedOptions"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ],
         "optional": false
       }
     }

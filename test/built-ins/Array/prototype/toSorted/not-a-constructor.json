@@ -1,0 +1,196 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 909,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 701,
+      "end": 835,
+      "expression": {
+        "type": "CallExpression",
+        "start": 701,
+        "end": 834,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 701,
+          "end": 717,
+          "object": {
+            "type": "Identifier",
+            "start": 701,
+            "end": 707,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 717,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 721,
+            "end": 760,
+            "callee": {
+              "type": "Identifier",
+              "start": 721,
+              "end": 734,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 735,
+                "end": 759,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 735,
+                  "end": 750,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 735,
+                    "end": 740,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 741,
+                    "end": 750,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 751,
+                  "end": 759,
+                  "name": "toSorted"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 764,
+            "end": 769,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 773,
+            "end": 832,
+            "value": "isConstructor(Array.prototype.toSorted) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 837,
+      "end": 907,
+      "expression": {
+        "type": "CallExpression",
+        "start": 837,
+        "end": 906,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 837,
+          "end": 850,
+          "object": {
+            "type": "Identifier",
+            "start": 837,
+            "end": 843,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 844,
+            "end": 850,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 851,
+            "end": 860,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 862,
+            "end": 905,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 868,
+              "end": 905,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 872,
+                  "end": 903,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 872,
+                    "end": 902,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 876,
+                      "end": 900,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 876,
+                        "end": 891,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 876,
+                          "end": 881,
+                          "name": "Array"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 882,
+                          "end": 891,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 892,
+                        "end": 900,
+                        "name": "toSorted"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

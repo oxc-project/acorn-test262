@@ -1,0 +1,130 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 591,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 486,
+      "end": 547,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 490,
+          "end": 546,
+          "id": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 495,
+            "name": "proto"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 498,
+            "end": 546,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 498,
+              "end": 519,
+              "object": {
+                "type": "Identifier",
+                "start": 498,
+                "end": 504,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 505,
+                "end": 519,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 520,
+                "end": 545,
+                "object": {
+                  "type": "Identifier",
+                  "start": 520,
+                  "end": 535,
+                  "name": "SuppressedError"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 536,
+                  "end": 545,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 549,
+      "end": 590,
+      "expression": {
+        "type": "CallExpression",
+        "start": 549,
+        "end": 589,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 549,
+          "end": 565,
+          "object": {
+            "type": "Identifier",
+            "start": 549,
+            "end": 555,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 565,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 566,
+            "end": 571,
+            "name": "proto"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 573,
+            "end": 588,
+            "object": {
+              "type": "Identifier",
+              "start": 573,
+              "end": 578,
+              "name": "Error"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 579,
+              "end": 588,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -127,7 +127,8 @@
         "start": 1840,
         "end": 1876,
         "value": "./instn-iee-bndng-const_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

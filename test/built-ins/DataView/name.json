@@ -1,159 +1,125 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 482,
+  "end": 395,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 274,
-      "end": 366,
+      "end": 394,
       "expression": {
         "type": "CallExpression",
         "start": 274,
-        "end": 365,
+        "end": 393,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 274,
-          "end": 290,
-          "object": {
-            "type": "Identifier",
-            "start": 274,
-            "end": 280,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 281,
-            "end": 290,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 291,
-            "end": 304,
-            "object": {
-              "type": "Identifier",
-              "start": 291,
-              "end": 299,
-              "name": "DataView"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 300,
-              "end": 304,
-              "name": "name"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 306,
-            "end": 316,
-            "value": "DataView"
-          },
-          {
-            "type": "Literal",
-            "start": 318,
-            "end": 364,
-            "value": "The value of `DataView.name` is `'DataView'`"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 368,
-      "end": 406,
-      "expression": {
-        "type": "CallExpression",
-        "start": 368,
-        "end": 405,
-        "callee": {
-          "type": "Identifier",
-          "start": 368,
-          "end": 387,
-          "name": "verifyNotEnumerable"
+          "end": 288,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 388,
-            "end": 396,
+            "start": 289,
+            "end": 297,
             "name": "DataView"
           },
           {
             "type": "Literal",
-            "start": 398,
-            "end": 404,
+            "start": 299,
+            "end": 305,
             "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 407,
-      "end": 443,
-      "expression": {
-        "type": "CallExpression",
-        "start": 407,
-        "end": 442,
-        "callee": {
-          "type": "Identifier",
-          "start": 407,
-          "end": 424,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 425,
-            "end": 433,
-            "name": "DataView"
           },
           {
-            "type": "Literal",
-            "start": 435,
-            "end": 441,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 444,
-      "end": 481,
-      "expression": {
-        "type": "CallExpression",
-        "start": 444,
-        "end": 480,
-        "callee": {
-          "type": "Identifier",
-          "start": 444,
-          "end": 462,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 463,
-            "end": 471,
-            "name": "DataView"
-          },
-          {
-            "type": "Literal",
-            "start": 473,
-            "end": 479,
-            "value": "name"
+            "type": "ObjectExpression",
+            "start": 307,
+            "end": 392,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 311,
+                "end": 328,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 311,
+                  "end": 316,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 318,
+                  "end": 328,
+                  "value": "DataView"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 332,
+                "end": 347,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 332,
+                  "end": 340,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 342,
+                  "end": 347,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 351,
+                "end": 368,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 351,
+                  "end": 361,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 363,
+                  "end": 368,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 372,
+                "end": 390,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 372,
+                  "end": 384,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 386,
+                  "end": 390,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

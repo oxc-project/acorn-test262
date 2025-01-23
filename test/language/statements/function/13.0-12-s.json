@@ -1,44 +1,44 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 571,
+  "end": 555,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 496,
-      "end": 546,
+      "start": 488,
+      "end": 538,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 500,
-          "end": 545,
+          "start": 492,
+          "end": 537,
           "id": {
             "type": "Identifier",
-            "start": 500,
-            "end": 512,
+            "start": 492,
+            "end": 504,
             "name": "_13_0_12_fun"
           },
           "init": {
             "type": "NewExpression",
-            "start": 515,
-            "end": 545,
+            "start": 507,
+            "end": 537,
             "callee": {
               "type": "Identifier",
-              "start": 519,
-              "end": 527,
+              "start": 511,
+              "end": 519,
               "name": "Function"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 528,
-                "end": 531,
+                "start": 520,
+                "end": 523,
                 "value": " "
               },
               {
                 "type": "Literal",
-                "start": 532,
-                "end": 544,
+                "start": 524,
+                "end": 536,
                 "value": "eval = 42;"
               }
             ]
@@ -49,16 +49,16 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 555,
-      "end": 570,
+      "start": 539,
+      "end": 554,
       "expression": {
         "type": "CallExpression",
-        "start": 555,
-        "end": 569,
+        "start": 539,
+        "end": 553,
         "callee": {
           "type": "Identifier",
-          "start": 555,
-          "end": 567,
+          "start": 539,
+          "end": 551,
           "name": "_13_0_12_fun"
         },
         "arguments": [],

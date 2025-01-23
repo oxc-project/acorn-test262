@@ -1,21 +1,21 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1151,
+  "end": 1147,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 328,
-      "end": 336,
+      "start": 324,
+      "end": 332,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 332,
-          "end": 335,
+          "start": 328,
+          "end": 331,
           "id": {
             "type": "Identifier",
-            "start": 332,
-            "end": 335,
+            "start": 328,
+            "end": 331,
             "name": "dtf"
           },
           "init": null
@@ -25,37 +25,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 338,
-      "end": 401,
+      "start": 334,
+      "end": 397,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 338,
-        "end": 400,
+        "start": 334,
+        "end": 396,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 338,
-          "end": 341,
+          "start": 334,
+          "end": 337,
           "name": "dtf"
         },
         "right": {
           "type": "NewExpression",
-          "start": 344,
-          "end": 400,
+          "start": 340,
+          "end": 396,
           "callee": {
             "type": "MemberExpression",
-            "start": 348,
-            "end": 367,
+            "start": 344,
+            "end": 363,
             "object": {
               "type": "Identifier",
-              "start": 348,
-              "end": 352,
+              "start": 344,
+              "end": 348,
               "name": "Intl"
             },
             "property": {
               "type": "Identifier",
-              "start": 353,
-              "end": 367,
+              "start": 349,
+              "end": 363,
               "name": "DateTimeFormat"
             },
             "computed": false,
@@ -64,32 +64,32 @@
           "arguments": [
             {
               "type": "Literal",
-              "start": 368,
-              "end": 372,
+              "start": 364,
+              "end": 368,
               "value": "en"
             },
             {
               "type": "ObjectExpression",
-              "start": 374,
-              "end": 399,
+              "start": 370,
+              "end": 395,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 376,
-                  "end": 397,
+                  "start": 372,
+                  "end": 393,
                   "method": false,
                   "shorthand": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 376,
-                    "end": 388,
+                    "start": 372,
+                    "end": 384,
                     "name": "timeZoneName"
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 390,
-                    "end": 397,
+                    "start": 386,
+                    "end": 393,
                     "value": "short"
                   },
                   "kind": "init"
@@ -102,26 +102,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 402,
-      "end": 464,
+      "start": 398,
+      "end": 460,
       "expression": {
         "type": "CallExpression",
-        "start": 402,
-        "end": 463,
+        "start": 398,
+        "end": 459,
         "callee": {
           "type": "MemberExpression",
-          "start": 402,
-          "end": 418,
+          "start": 398,
+          "end": 414,
           "object": {
             "type": "Identifier",
-            "start": 402,
-            "end": 408,
+            "start": 398,
+            "end": 404,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 409,
-            "end": 418,
+            "start": 405,
+            "end": 414,
             "name": "sameValue"
           },
           "computed": false,
@@ -130,26 +130,26 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 419,
-            "end": 453,
+            "start": 415,
+            "end": 449,
             "object": {
               "type": "CallExpression",
-              "start": 419,
-              "end": 440,
+              "start": 415,
+              "end": 436,
               "callee": {
                 "type": "MemberExpression",
-                "start": 419,
-                "end": 438,
+                "start": 415,
+                "end": 434,
                 "object": {
                   "type": "Identifier",
-                  "start": 419,
-                  "end": 422,
+                  "start": 415,
+                  "end": 418,
                   "name": "dtf"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 423,
-                  "end": 438,
+                  "start": 419,
+                  "end": 434,
                   "name": "resolvedOptions"
                 },
                 "computed": false,
@@ -160,8 +160,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 441,
-              "end": 453,
+              "start": 437,
+              "end": 449,
               "name": "timeZoneName"
             },
             "computed": false,
@@ -169,8 +169,8 @@
           },
           {
             "type": "Literal",
-            "start": 455,
-            "end": 462,
+            "start": 451,
+            "end": 458,
             "value": "short"
           }
         ],
@@ -179,37 +179,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 466,
-      "end": 528,
+      "start": 462,
+      "end": 524,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 466,
-        "end": 527,
+        "start": 462,
+        "end": 523,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 466,
-          "end": 469,
+          "start": 462,
+          "end": 465,
           "name": "dtf"
         },
         "right": {
           "type": "NewExpression",
-          "start": 472,
-          "end": 527,
+          "start": 468,
+          "end": 523,
           "callee": {
             "type": "MemberExpression",
-            "start": 476,
-            "end": 495,
+            "start": 472,
+            "end": 491,
             "object": {
               "type": "Identifier",
-              "start": 476,
-              "end": 480,
+              "start": 472,
+              "end": 476,
               "name": "Intl"
             },
             "property": {
               "type": "Identifier",
-              "start": 481,
-              "end": 495,
+              "start": 477,
+              "end": 491,
               "name": "DateTimeFormat"
             },
             "computed": false,
@@ -218,32 +218,32 @@
           "arguments": [
             {
               "type": "Literal",
-              "start": 496,
-              "end": 500,
+              "start": 492,
+              "end": 496,
               "value": "en"
             },
             {
               "type": "ObjectExpression",
-              "start": 502,
-              "end": 526,
+              "start": 498,
+              "end": 522,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 504,
-                  "end": 524,
+                  "start": 500,
+                  "end": 520,
                   "method": false,
                   "shorthand": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 504,
-                    "end": 516,
+                    "start": 500,
+                    "end": 512,
                     "name": "timeZoneName"
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 518,
-                    "end": 524,
+                    "start": 514,
+                    "end": 520,
                     "value": "long"
                   },
                   "kind": "init"
@@ -256,26 +256,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 529,
-      "end": 590,
+      "start": 525,
+      "end": 586,
       "expression": {
         "type": "CallExpression",
-        "start": 529,
-        "end": 589,
+        "start": 525,
+        "end": 585,
         "callee": {
           "type": "MemberExpression",
-          "start": 529,
-          "end": 545,
+          "start": 525,
+          "end": 541,
           "object": {
             "type": "Identifier",
-            "start": 529,
-            "end": 535,
+            "start": 525,
+            "end": 531,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 536,
-            "end": 545,
+            "start": 532,
+            "end": 541,
             "name": "sameValue"
           },
           "computed": false,
@@ -284,26 +284,26 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 546,
-            "end": 580,
+            "start": 542,
+            "end": 576,
             "object": {
               "type": "CallExpression",
-              "start": 546,
-              "end": 567,
+              "start": 542,
+              "end": 563,
               "callee": {
                 "type": "MemberExpression",
-                "start": 546,
-                "end": 565,
+                "start": 542,
+                "end": 561,
                 "object": {
                   "type": "Identifier",
-                  "start": 546,
-                  "end": 549,
+                  "start": 542,
+                  "end": 545,
                   "name": "dtf"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 550,
-                  "end": 565,
+                  "start": 546,
+                  "end": 561,
                   "name": "resolvedOptions"
                 },
                 "computed": false,
@@ -314,8 +314,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 568,
-              "end": 580,
+              "start": 564,
+              "end": 576,
               "name": "timeZoneName"
             },
             "computed": false,
@@ -323,8 +323,8 @@
           },
           {
             "type": "Literal",
-            "start": 582,
-            "end": 588,
+            "start": 578,
+            "end": 584,
             "value": "long"
           }
         ],
@@ -333,37 +333,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 592,
-      "end": 661,
+      "start": 588,
+      "end": 657,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 592,
-        "end": 660,
+        "start": 588,
+        "end": 656,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 592,
-          "end": 595,
+          "start": 588,
+          "end": 591,
           "name": "dtf"
         },
         "right": {
           "type": "NewExpression",
-          "start": 598,
-          "end": 660,
+          "start": 594,
+          "end": 656,
           "callee": {
             "type": "MemberExpression",
-            "start": 602,
-            "end": 621,
+            "start": 598,
+            "end": 617,
             "object": {
               "type": "Identifier",
-              "start": 602,
-              "end": 606,
+              "start": 598,
+              "end": 602,
               "name": "Intl"
             },
             "property": {
               "type": "Identifier",
-              "start": 607,
-              "end": 621,
+              "start": 603,
+              "end": 617,
               "name": "DateTimeFormat"
             },
             "computed": false,
@@ -372,32 +372,32 @@
           "arguments": [
             {
               "type": "Literal",
-              "start": 622,
-              "end": 626,
+              "start": 618,
+              "end": 622,
               "value": "en"
             },
             {
               "type": "ObjectExpression",
-              "start": 628,
-              "end": 659,
+              "start": 624,
+              "end": 655,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 630,
-                  "end": 657,
+                  "start": 626,
+                  "end": 653,
                   "method": false,
                   "shorthand": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 630,
-                    "end": 642,
+                    "start": 626,
+                    "end": 638,
                     "name": "timeZoneName"
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 644,
-                    "end": 657,
+                    "start": 640,
+                    "end": 653,
                     "value": "shortOffset"
                   },
                   "kind": "init"
@@ -410,26 +410,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 662,
-      "end": 730,
+      "start": 658,
+      "end": 726,
       "expression": {
         "type": "CallExpression",
-        "start": 662,
-        "end": 729,
+        "start": 658,
+        "end": 725,
         "callee": {
           "type": "MemberExpression",
-          "start": 662,
-          "end": 678,
+          "start": 658,
+          "end": 674,
           "object": {
             "type": "Identifier",
-            "start": 662,
-            "end": 668,
+            "start": 658,
+            "end": 664,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 669,
-            "end": 678,
+            "start": 665,
+            "end": 674,
             "name": "sameValue"
           },
           "computed": false,
@@ -438,26 +438,26 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 679,
-            "end": 713,
+            "start": 675,
+            "end": 709,
             "object": {
               "type": "CallExpression",
-              "start": 679,
-              "end": 700,
+              "start": 675,
+              "end": 696,
               "callee": {
                 "type": "MemberExpression",
-                "start": 679,
-                "end": 698,
+                "start": 675,
+                "end": 694,
                 "object": {
                   "type": "Identifier",
-                  "start": 679,
-                  "end": 682,
+                  "start": 675,
+                  "end": 678,
                   "name": "dtf"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 683,
-                  "end": 698,
+                  "start": 679,
+                  "end": 694,
                   "name": "resolvedOptions"
                 },
                 "computed": false,
@@ -468,8 +468,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 701,
-              "end": 713,
+              "start": 697,
+              "end": 709,
               "name": "timeZoneName"
             },
             "computed": false,
@@ -477,8 +477,8 @@
           },
           {
             "type": "Literal",
-            "start": 715,
-            "end": 728,
+            "start": 711,
+            "end": 724,
             "value": "shortOffset"
           }
         ],
@@ -487,37 +487,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 732,
-      "end": 800,
+      "start": 728,
+      "end": 796,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 732,
-        "end": 799,
+        "start": 728,
+        "end": 795,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 732,
-          "end": 735,
+          "start": 728,
+          "end": 731,
           "name": "dtf"
         },
         "right": {
           "type": "NewExpression",
-          "start": 738,
-          "end": 799,
+          "start": 734,
+          "end": 795,
           "callee": {
             "type": "MemberExpression",
-            "start": 742,
-            "end": 761,
+            "start": 738,
+            "end": 757,
             "object": {
               "type": "Identifier",
-              "start": 742,
-              "end": 746,
+              "start": 738,
+              "end": 742,
               "name": "Intl"
             },
             "property": {
               "type": "Identifier",
-              "start": 747,
-              "end": 761,
+              "start": 743,
+              "end": 757,
               "name": "DateTimeFormat"
             },
             "computed": false,
@@ -526,32 +526,32 @@
           "arguments": [
             {
               "type": "Literal",
-              "start": 762,
-              "end": 766,
+              "start": 758,
+              "end": 762,
               "value": "en"
             },
             {
               "type": "ObjectExpression",
-              "start": 768,
-              "end": 798,
+              "start": 764,
+              "end": 794,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 770,
-                  "end": 796,
+                  "start": 766,
+                  "end": 792,
                   "method": false,
                   "shorthand": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 770,
-                    "end": 782,
+                    "start": 766,
+                    "end": 778,
                     "name": "timeZoneName"
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 784,
-                    "end": 796,
+                    "start": 780,
+                    "end": 792,
                     "value": "longOffset"
                   },
                   "kind": "init"
@@ -564,26 +564,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 801,
-      "end": 868,
+      "start": 797,
+      "end": 864,
       "expression": {
         "type": "CallExpression",
-        "start": 801,
-        "end": 867,
+        "start": 797,
+        "end": 863,
         "callee": {
           "type": "MemberExpression",
-          "start": 801,
-          "end": 817,
+          "start": 797,
+          "end": 813,
           "object": {
             "type": "Identifier",
-            "start": 801,
-            "end": 807,
+            "start": 797,
+            "end": 803,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 808,
-            "end": 817,
+            "start": 804,
+            "end": 813,
             "name": "sameValue"
           },
           "computed": false,
@@ -592,26 +592,26 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 818,
-            "end": 852,
+            "start": 814,
+            "end": 848,
             "object": {
               "type": "CallExpression",
-              "start": 818,
-              "end": 839,
+              "start": 814,
+              "end": 835,
               "callee": {
                 "type": "MemberExpression",
-                "start": 818,
-                "end": 837,
+                "start": 814,
+                "end": 833,
                 "object": {
                   "type": "Identifier",
-                  "start": 818,
-                  "end": 821,
+                  "start": 814,
+                  "end": 817,
                   "name": "dtf"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 822,
-                  "end": 837,
+                  "start": 818,
+                  "end": 833,
                   "name": "resolvedOptions"
                 },
                 "computed": false,
@@ -622,8 +622,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 840,
-              "end": 852,
+              "start": 836,
+              "end": 848,
               "name": "timeZoneName"
             },
             "computed": false,
@@ -631,8 +631,8 @@
           },
           {
             "type": "Literal",
-            "start": 854,
-            "end": 866,
+            "start": 850,
+            "end": 862,
             "value": "longOffset"
           }
         ],
@@ -641,37 +641,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 870,
-      "end": 940,
+      "start": 866,
+      "end": 936,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 870,
-        "end": 939,
+        "start": 866,
+        "end": 935,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 870,
-          "end": 873,
+          "start": 866,
+          "end": 869,
           "name": "dtf"
         },
         "right": {
           "type": "NewExpression",
-          "start": 876,
-          "end": 939,
+          "start": 872,
+          "end": 935,
           "callee": {
             "type": "MemberExpression",
-            "start": 880,
-            "end": 899,
+            "start": 876,
+            "end": 895,
             "object": {
               "type": "Identifier",
-              "start": 880,
-              "end": 884,
+              "start": 876,
+              "end": 880,
               "name": "Intl"
             },
             "property": {
               "type": "Identifier",
-              "start": 885,
-              "end": 899,
+              "start": 881,
+              "end": 895,
               "name": "DateTimeFormat"
             },
             "computed": false,
@@ -680,32 +680,32 @@
           "arguments": [
             {
               "type": "Literal",
-              "start": 900,
-              "end": 904,
+              "start": 896,
+              "end": 900,
               "value": "en"
             },
             {
               "type": "ObjectExpression",
-              "start": 906,
-              "end": 938,
+              "start": 902,
+              "end": 934,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 908,
-                  "end": 936,
+                  "start": 904,
+                  "end": 932,
                   "method": false,
                   "shorthand": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 908,
-                    "end": 920,
+                    "start": 904,
+                    "end": 916,
                     "name": "timeZoneName"
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 922,
-                    "end": 936,
+                    "start": 918,
+                    "end": 932,
                     "value": "shortGeneric"
                   },
                   "kind": "init"
@@ -718,26 +718,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 941,
-      "end": 1010,
+      "start": 937,
+      "end": 1006,
       "expression": {
         "type": "CallExpression",
-        "start": 941,
-        "end": 1009,
+        "start": 937,
+        "end": 1005,
         "callee": {
           "type": "MemberExpression",
-          "start": 941,
-          "end": 957,
+          "start": 937,
+          "end": 953,
           "object": {
             "type": "Identifier",
-            "start": 941,
-            "end": 947,
+            "start": 937,
+            "end": 943,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 948,
-            "end": 957,
+            "start": 944,
+            "end": 953,
             "name": "sameValue"
           },
           "computed": false,
@@ -746,26 +746,26 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 958,
-            "end": 992,
+            "start": 954,
+            "end": 988,
             "object": {
               "type": "CallExpression",
-              "start": 958,
-              "end": 979,
+              "start": 954,
+              "end": 975,
               "callee": {
                 "type": "MemberExpression",
-                "start": 958,
-                "end": 977,
+                "start": 954,
+                "end": 973,
                 "object": {
                   "type": "Identifier",
-                  "start": 958,
-                  "end": 961,
+                  "start": 954,
+                  "end": 957,
                   "name": "dtf"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 962,
-                  "end": 977,
+                  "start": 958,
+                  "end": 973,
                   "name": "resolvedOptions"
                 },
                 "computed": false,
@@ -776,8 +776,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 980,
-              "end": 992,
+              "start": 976,
+              "end": 988,
               "name": "timeZoneName"
             },
             "computed": false,
@@ -785,8 +785,8 @@
           },
           {
             "type": "Literal",
-            "start": 994,
-            "end": 1008,
+            "start": 990,
+            "end": 1004,
             "value": "shortGeneric"
           }
         ],
@@ -795,37 +795,37 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1012,
-      "end": 1081,
+      "start": 1008,
+      "end": 1077,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1012,
-        "end": 1080,
+        "start": 1008,
+        "end": 1076,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 1012,
-          "end": 1015,
+          "start": 1008,
+          "end": 1011,
           "name": "dtf"
         },
         "right": {
           "type": "NewExpression",
-          "start": 1018,
-          "end": 1080,
+          "start": 1014,
+          "end": 1076,
           "callee": {
             "type": "MemberExpression",
-            "start": 1022,
-            "end": 1041,
+            "start": 1018,
+            "end": 1037,
             "object": {
               "type": "Identifier",
-              "start": 1022,
-              "end": 1026,
+              "start": 1018,
+              "end": 1022,
               "name": "Intl"
             },
             "property": {
               "type": "Identifier",
-              "start": 1027,
-              "end": 1041,
+              "start": 1023,
+              "end": 1037,
               "name": "DateTimeFormat"
             },
             "computed": false,
@@ -834,32 +834,32 @@
           "arguments": [
             {
               "type": "Literal",
-              "start": 1042,
-              "end": 1046,
+              "start": 1038,
+              "end": 1042,
               "value": "en"
             },
             {
               "type": "ObjectExpression",
-              "start": 1048,
-              "end": 1079,
+              "start": 1044,
+              "end": 1075,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 1050,
-                  "end": 1077,
+                  "start": 1046,
+                  "end": 1073,
                   "method": false,
                   "shorthand": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1050,
-                    "end": 1062,
+                    "start": 1046,
+                    "end": 1058,
                     "name": "timeZoneName"
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 1064,
-                    "end": 1077,
+                    "start": 1060,
+                    "end": 1073,
                     "value": "longGeneric"
                   },
                   "kind": "init"
@@ -872,26 +872,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1082,
-      "end": 1150,
+      "start": 1078,
+      "end": 1146,
       "expression": {
         "type": "CallExpression",
-        "start": 1082,
-        "end": 1149,
+        "start": 1078,
+        "end": 1145,
         "callee": {
           "type": "MemberExpression",
-          "start": 1082,
-          "end": 1098,
+          "start": 1078,
+          "end": 1094,
           "object": {
             "type": "Identifier",
-            "start": 1082,
-            "end": 1088,
+            "start": 1078,
+            "end": 1084,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1089,
-            "end": 1098,
+            "start": 1085,
+            "end": 1094,
             "name": "sameValue"
           },
           "computed": false,
@@ -900,26 +900,26 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1099,
-            "end": 1133,
+            "start": 1095,
+            "end": 1129,
             "object": {
               "type": "CallExpression",
-              "start": 1099,
-              "end": 1120,
+              "start": 1095,
+              "end": 1116,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1099,
-                "end": 1118,
+                "start": 1095,
+                "end": 1114,
                 "object": {
                   "type": "Identifier",
-                  "start": 1099,
-                  "end": 1102,
+                  "start": 1095,
+                  "end": 1098,
                   "name": "dtf"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1103,
-                  "end": 1118,
+                  "start": 1099,
+                  "end": 1114,
                   "name": "resolvedOptions"
                 },
                 "computed": false,
@@ -930,8 +930,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 1121,
-              "end": 1133,
+              "start": 1117,
+              "end": 1129,
               "name": "timeZoneName"
             },
             "computed": false,
@@ -939,8 +939,8 @@
           },
           {
             "type": "Literal",
-            "start": 1135,
-            "end": 1148,
+            "start": 1131,
+            "end": 1144,
             "value": "longGeneric"
           }
         ],

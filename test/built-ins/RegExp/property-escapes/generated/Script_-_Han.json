@@ -1,17 +1,17 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2338,
+  "end": 2442,
   "body": [
     {
       "type": "VariableDeclaration",
       "start": 448,
-      "end": 1021,
+      "end": 1073,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 454,
-          "end": 1020,
+          "end": 1072,
           "id": {
             "type": "Identifier",
             "start": 454,
@@ -21,7 +21,7 @@
           "init": {
             "type": "CallExpression",
             "start": 469,
-            "end": 1020,
+            "end": 1072,
             "callee": {
               "type": "Identifier",
               "start": 469,
@@ -32,7 +32,7 @@
               {
                 "type": "ObjectExpression",
                 "start": 481,
-                "end": 1019,
+                "end": 1071,
                 "properties": [
                   {
                     "type": "Property",
@@ -71,7 +71,7 @@
                   {
                     "type": "Property",
                     "start": 537,
-                    "end": 1017,
+                    "end": 1069,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
@@ -84,7 +84,7 @@
                     "value": {
                       "type": "ArrayExpression",
                       "start": 545,
-                      "end": 1017,
+                      "end": 1069,
                       "elements": [
                         {
                           "type": "ArrayExpression",
@@ -329,7 +329,7 @@
                               "type": "Literal",
                               "start": 874,
                               "end": 882,
-                              "value": 177976
+                              "value": 177977
                             }
                           ]
                         },
@@ -399,13 +399,13 @@
                               "type": "Literal",
                               "start": 968,
                               "end": 976,
-                              "value": 194560
+                              "value": 191472
                             },
                             {
                               "type": "Literal",
                               "start": 978,
                               "end": 986,
-                              "value": 195101
+                              "value": 192093
                             }
                           ]
                         },
@@ -418,13 +418,51 @@
                               "type": "Literal",
                               "start": 994,
                               "end": 1002,
-                              "value": 196608
+                              "value": 194560
                             },
                             {
                               "type": "Literal",
                               "start": 1004,
                               "end": 1012,
+                              "value": 195101
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ArrayExpression",
+                          "start": 1019,
+                          "end": 1039,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 1020,
+                              "end": 1028,
+                              "value": 196608
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 1030,
+                              "end": 1038,
                               "value": 201546
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ArrayExpression",
+                          "start": 1045,
+                          "end": 1065,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 1046,
+                              "end": 1054,
+                              "value": 201552
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 1056,
+                              "end": 1064,
+                              "value": 205743
                             }
                           ]
                         }
@@ -443,23 +481,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1022,
-      "end": 1105,
+      "start": 1074,
+      "end": 1157,
       "expression": {
         "type": "CallExpression",
-        "start": 1022,
-        "end": 1104,
+        "start": 1074,
+        "end": 1156,
         "callee": {
           "type": "Identifier",
-          "start": 1022,
-          "end": 1041,
+          "start": 1074,
+          "end": 1093,
           "name": "testPropertyEscapes"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1045,
-            "end": 1065,
+            "start": 1097,
+            "end": 1117,
             "value": {},
             "regex": {
               "pattern": "^\\p{Script=Han}+$",
@@ -468,14 +506,14 @@
           },
           {
             "type": "Identifier",
-            "start": 1069,
-            "end": 1081,
+            "start": 1121,
+            "end": 1133,
             "name": "matchSymbols"
           },
           {
             "type": "Literal",
-            "start": 1085,
-            "end": 1102,
+            "start": 1137,
+            "end": 1154,
             "value": "\\p{Script=Han}"
           }
         ],
@@ -484,23 +522,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1106,
-      "end": 1191,
+      "start": 1158,
+      "end": 1243,
       "expression": {
         "type": "CallExpression",
-        "start": 1106,
-        "end": 1190,
+        "start": 1158,
+        "end": 1242,
         "callee": {
           "type": "Identifier",
-          "start": 1106,
-          "end": 1125,
+          "start": 1158,
+          "end": 1177,
           "name": "testPropertyEscapes"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1129,
-            "end": 1150,
+            "start": 1181,
+            "end": 1202,
             "value": {},
             "regex": {
               "pattern": "^\\p{Script=Hani}+$",
@@ -509,14 +547,14 @@
           },
           {
             "type": "Identifier",
-            "start": 1154,
-            "end": 1166,
+            "start": 1206,
+            "end": 1218,
             "name": "matchSymbols"
           },
           {
             "type": "Literal",
-            "start": 1170,
-            "end": 1188,
+            "start": 1222,
+            "end": 1240,
             "value": "\\p{Script=Hani}"
           }
         ],
@@ -525,23 +563,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1192,
-      "end": 1267,
+      "start": 1244,
+      "end": 1319,
       "expression": {
         "type": "CallExpression",
-        "start": 1192,
-        "end": 1266,
+        "start": 1244,
+        "end": 1318,
         "callee": {
           "type": "Identifier",
-          "start": 1192,
-          "end": 1211,
+          "start": 1244,
+          "end": 1263,
           "name": "testPropertyEscapes"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1215,
-            "end": 1231,
+            "start": 1267,
+            "end": 1283,
             "value": {},
             "regex": {
               "pattern": "^\\p{sc=Han}+$",
@@ -550,14 +588,14 @@
           },
           {
             "type": "Identifier",
-            "start": 1235,
-            "end": 1247,
+            "start": 1287,
+            "end": 1299,
             "name": "matchSymbols"
           },
           {
             "type": "Literal",
-            "start": 1251,
-            "end": 1264,
+            "start": 1303,
+            "end": 1316,
             "value": "\\p{sc=Han}"
           }
         ],
@@ -566,23 +604,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1268,
-      "end": 1345,
+      "start": 1320,
+      "end": 1397,
       "expression": {
         "type": "CallExpression",
-        "start": 1268,
-        "end": 1344,
+        "start": 1320,
+        "end": 1396,
         "callee": {
           "type": "Identifier",
-          "start": 1268,
-          "end": 1287,
+          "start": 1320,
+          "end": 1339,
           "name": "testPropertyEscapes"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1291,
-            "end": 1308,
+            "start": 1343,
+            "end": 1360,
             "value": {},
             "regex": {
               "pattern": "^\\p{sc=Hani}+$",
@@ -591,14 +629,14 @@
           },
           {
             "type": "Identifier",
-            "start": 1312,
-            "end": 1324,
+            "start": 1364,
+            "end": 1376,
             "name": "matchSymbols"
           },
           {
             "type": "Literal",
-            "start": 1328,
-            "end": 1342,
+            "start": 1380,
+            "end": 1394,
             "value": "\\p{sc=Hani}"
           }
         ],
@@ -607,63 +645,63 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1347,
-      "end": 2001,
+      "start": 1399,
+      "end": 2105,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1353,
-          "end": 2000,
+          "start": 1405,
+          "end": 2104,
           "id": {
             "type": "Identifier",
-            "start": 1353,
-            "end": 1368,
+            "start": 1405,
+            "end": 1420,
             "name": "nonMatchSymbols"
           },
           "init": {
             "type": "CallExpression",
-            "start": 1371,
-            "end": 2000,
+            "start": 1423,
+            "end": 2104,
             "callee": {
               "type": "Identifier",
-              "start": 1371,
-              "end": 1382,
+              "start": 1423,
+              "end": 1434,
               "name": "buildString"
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 1383,
-                "end": 1999,
+                "start": 1435,
+                "end": 2103,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1387,
-                    "end": 1435,
+                    "start": 1439,
+                    "end": 1487,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 1387,
-                      "end": 1401,
+                      "start": 1439,
+                      "end": 1453,
                       "name": "loneCodePoints"
                     },
                     "value": {
                       "type": "ArrayExpression",
-                      "start": 1403,
-                      "end": 1435,
+                      "start": 1455,
+                      "end": 1487,
                       "elements": [
                         {
                           "type": "Literal",
-                          "start": 1409,
-                          "end": 1417,
+                          "start": 1461,
+                          "end": 1469,
                           "value": 11930
                         },
                         {
                           "type": "Literal",
-                          "start": 1423,
-                          "end": 1431,
+                          "start": 1475,
+                          "end": 1483,
                           "value": 12294
                         }
                       ]
@@ -672,60 +710,22 @@
                   },
                   {
                     "type": "Property",
-                    "start": 1439,
-                    "end": 1997,
+                    "start": 1491,
+                    "end": 2101,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 1439,
-                      "end": 1445,
+                      "start": 1491,
+                      "end": 1497,
                       "name": "ranges"
                     },
                     "value": {
                       "type": "ArrayExpression",
-                      "start": 1447,
-                      "end": 1997,
+                      "start": 1499,
+                      "end": 2101,
                       "elements": [
-                        {
-                          "type": "ArrayExpression",
-                          "start": 1453,
-                          "end": 1473,
-                          "elements": [
-                            {
-                              "type": "Literal",
-                              "start": 1454,
-                              "end": 1462,
-                              "value": 56320
-                            },
-                            {
-                              "type": "Literal",
-                              "start": 1464,
-                              "end": 1472,
-                              "value": 57343
-                            }
-                          ]
-                        },
-                        {
-                          "type": "ArrayExpression",
-                          "start": 1479,
-                          "end": 1499,
-                          "elements": [
-                            {
-                              "type": "Literal",
-                              "start": 1480,
-                              "end": 1488,
-                              "value": 0
-                            },
-                            {
-                              "type": "Literal",
-                              "start": 1490,
-                              "end": 1498,
-                              "value": 11903
-                            }
-                          ]
-                        },
                         {
                           "type": "ArrayExpression",
                           "start": 1505,
@@ -735,13 +735,13 @@
                               "type": "Literal",
                               "start": 1506,
                               "end": 1514,
-                              "value": 12020
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 1516,
                               "end": 1524,
-                              "value": 12031
+                              "value": 57343
                             }
                           ]
                         },
@@ -754,13 +754,13 @@
                               "type": "Literal",
                               "start": 1532,
                               "end": 1540,
-                              "value": 12246
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1542,
                               "end": 1550,
-                              "value": 12292
+                              "value": 11903
                             }
                           ]
                         },
@@ -773,13 +773,13 @@
                               "type": "Literal",
                               "start": 1558,
                               "end": 1566,
-                              "value": 12296
+                              "value": 12020
                             },
                             {
                               "type": "Literal",
                               "start": 1568,
                               "end": 1576,
-                              "value": 12320
+                              "value": 12031
                             }
                           ]
                         },
@@ -792,13 +792,13 @@
                               "type": "Literal",
                               "start": 1584,
                               "end": 1592,
-                              "value": 12330
+                              "value": 12246
                             },
                             {
                               "type": "Literal",
                               "start": 1594,
                               "end": 1602,
-                              "value": 12343
+                              "value": 12292
                             }
                           ]
                         },
@@ -811,13 +811,13 @@
                               "type": "Literal",
                               "start": 1610,
                               "end": 1618,
-                              "value": 12348
+                              "value": 12296
                             },
                             {
                               "type": "Literal",
                               "start": 1620,
                               "end": 1628,
-                              "value": 13311
+                              "value": 12320
                             }
                           ]
                         },
@@ -830,13 +830,13 @@
                               "type": "Literal",
                               "start": 1636,
                               "end": 1644,
-                              "value": 19904
+                              "value": 12330
                             },
                             {
                               "type": "Literal",
                               "start": 1646,
                               "end": 1654,
-                              "value": 19967
+                              "value": 12343
                             }
                           ]
                         },
@@ -849,13 +849,13 @@
                               "type": "Literal",
                               "start": 1662,
                               "end": 1670,
-                              "value": 40960
+                              "value": 12348
                             },
                             {
                               "type": "Literal",
                               "start": 1672,
                               "end": 1680,
-                              "value": 56319
+                              "value": 13311
                             }
                           ]
                         },
@@ -868,13 +868,13 @@
                               "type": "Literal",
                               "start": 1688,
                               "end": 1696,
-                              "value": 57344
+                              "value": 19904
                             },
                             {
                               "type": "Literal",
                               "start": 1698,
                               "end": 1706,
-                              "value": 63743
+                              "value": 19967
                             }
                           ]
                         },
@@ -887,13 +887,13 @@
                               "type": "Literal",
                               "start": 1714,
                               "end": 1722,
-                              "value": 64110
+                              "value": 40960
                             },
                             {
                               "type": "Literal",
                               "start": 1724,
                               "end": 1732,
-                              "value": 64111
+                              "value": 56319
                             }
                           ]
                         },
@@ -906,13 +906,13 @@
                               "type": "Literal",
                               "start": 1740,
                               "end": 1748,
-                              "value": 64218
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1750,
                               "end": 1758,
-                              "value": 94177
+                              "value": 63743
                             }
                           ]
                         },
@@ -925,13 +925,13 @@
                               "type": "Literal",
                               "start": 1766,
                               "end": 1774,
-                              "value": 94180
+                              "value": 64110
                             },
                             {
                               "type": "Literal",
                               "start": 1776,
                               "end": 1784,
-                              "value": 94191
+                              "value": 64111
                             }
                           ]
                         },
@@ -944,13 +944,13 @@
                               "type": "Literal",
                               "start": 1792,
                               "end": 1800,
-                              "value": 94194
+                              "value": 64218
                             },
                             {
                               "type": "Literal",
                               "start": 1802,
                               "end": 1810,
-                              "value": 131071
+                              "value": 94177
                             }
                           ]
                         },
@@ -963,13 +963,13 @@
                               "type": "Literal",
                               "start": 1818,
                               "end": 1826,
-                              "value": 173792
+                              "value": 94180
                             },
                             {
                               "type": "Literal",
                               "start": 1828,
                               "end": 1836,
-                              "value": 173823
+                              "value": 94191
                             }
                           ]
                         },
@@ -982,13 +982,13 @@
                               "type": "Literal",
                               "start": 1844,
                               "end": 1852,
-                              "value": 177977
+                              "value": 94194
                             },
                             {
                               "type": "Literal",
                               "start": 1854,
                               "end": 1862,
-                              "value": 177983
+                              "value": 131071
                             }
                           ]
                         },
@@ -1001,13 +1001,13 @@
                               "type": "Literal",
                               "start": 1870,
                               "end": 1878,
-                              "value": 178206
+                              "value": 173792
                             },
                             {
                               "type": "Literal",
                               "start": 1880,
                               "end": 1888,
-                              "value": 178207
+                              "value": 173823
                             }
                           ]
                         },
@@ -1020,13 +1020,13 @@
                               "type": "Literal",
                               "start": 1896,
                               "end": 1904,
-                              "value": 183970
+                              "value": 177978
                             },
                             {
                               "type": "Literal",
                               "start": 1906,
                               "end": 1914,
-                              "value": 183983
+                              "value": 177983
                             }
                           ]
                         },
@@ -1039,13 +1039,13 @@
                               "type": "Literal",
                               "start": 1922,
                               "end": 1930,
-                              "value": 191457
+                              "value": 178206
                             },
                             {
                               "type": "Literal",
                               "start": 1932,
                               "end": 1940,
-                              "value": 194559
+                              "value": 178207
                             }
                           ]
                         },
@@ -1058,13 +1058,13 @@
                               "type": "Literal",
                               "start": 1948,
                               "end": 1956,
-                              "value": 195102
+                              "value": 183970
                             },
                             {
                               "type": "Literal",
                               "start": 1958,
                               "end": 1966,
-                              "value": 196607
+                              "value": 183983
                             }
                           ]
                         },
@@ -1077,12 +1077,88 @@
                               "type": "Literal",
                               "start": 1974,
                               "end": 1982,
-                              "value": 201547
+                              "value": 191457
                             },
                             {
                               "type": "Literal",
                               "start": 1984,
                               "end": 1992,
+                              "value": 191471
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ArrayExpression",
+                          "start": 1999,
+                          "end": 2019,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 2000,
+                              "end": 2008,
+                              "value": 192094
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 2010,
+                              "end": 2018,
+                              "value": 194559
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ArrayExpression",
+                          "start": 2025,
+                          "end": 2045,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 2026,
+                              "end": 2034,
+                              "value": 195102
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 2036,
+                              "end": 2044,
+                              "value": 196607
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ArrayExpression",
+                          "start": 2051,
+                          "end": 2071,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 2052,
+                              "end": 2060,
+                              "value": 201547
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 2062,
+                              "end": 2070,
+                              "value": 201551
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ArrayExpression",
+                          "start": 2077,
+                          "end": 2097,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 2078,
+                              "end": 2086,
+                              "value": 205744
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 2088,
+                              "end": 2096,
                               "value": 1114111
                             }
                           ]
@@ -1102,23 +1178,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2002,
-      "end": 2088,
+      "start": 2106,
+      "end": 2192,
       "expression": {
         "type": "CallExpression",
-        "start": 2002,
-        "end": 2087,
+        "start": 2106,
+        "end": 2191,
         "callee": {
           "type": "Identifier",
-          "start": 2002,
-          "end": 2021,
+          "start": 2106,
+          "end": 2125,
           "name": "testPropertyEscapes"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2025,
-            "end": 2045,
+            "start": 2129,
+            "end": 2149,
             "value": {},
             "regex": {
               "pattern": "^\\P{Script=Han}+$",
@@ -1127,14 +1203,14 @@
           },
           {
             "type": "Identifier",
-            "start": 2049,
-            "end": 2064,
+            "start": 2153,
+            "end": 2168,
             "name": "nonMatchSymbols"
           },
           {
             "type": "Literal",
-            "start": 2068,
-            "end": 2085,
+            "start": 2172,
+            "end": 2189,
             "value": "\\P{Script=Han}"
           }
         ],
@@ -1143,23 +1219,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2089,
-      "end": 2177,
+      "start": 2193,
+      "end": 2281,
       "expression": {
         "type": "CallExpression",
-        "start": 2089,
-        "end": 2176,
+        "start": 2193,
+        "end": 2280,
         "callee": {
           "type": "Identifier",
-          "start": 2089,
-          "end": 2108,
+          "start": 2193,
+          "end": 2212,
           "name": "testPropertyEscapes"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2112,
-            "end": 2133,
+            "start": 2216,
+            "end": 2237,
             "value": {},
             "regex": {
               "pattern": "^\\P{Script=Hani}+$",
@@ -1168,14 +1244,14 @@
           },
           {
             "type": "Identifier",
-            "start": 2137,
-            "end": 2152,
+            "start": 2241,
+            "end": 2256,
             "name": "nonMatchSymbols"
           },
           {
             "type": "Literal",
-            "start": 2156,
-            "end": 2174,
+            "start": 2260,
+            "end": 2278,
             "value": "\\P{Script=Hani}"
           }
         ],
@@ -1184,23 +1260,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2178,
-      "end": 2256,
+      "start": 2282,
+      "end": 2360,
       "expression": {
         "type": "CallExpression",
-        "start": 2178,
-        "end": 2255,
+        "start": 2282,
+        "end": 2359,
         "callee": {
           "type": "Identifier",
-          "start": 2178,
-          "end": 2197,
+          "start": 2282,
+          "end": 2301,
           "name": "testPropertyEscapes"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2201,
-            "end": 2217,
+            "start": 2305,
+            "end": 2321,
             "value": {},
             "regex": {
               "pattern": "^\\P{sc=Han}+$",
@@ -1209,14 +1285,14 @@
           },
           {
             "type": "Identifier",
-            "start": 2221,
-            "end": 2236,
+            "start": 2325,
+            "end": 2340,
             "name": "nonMatchSymbols"
           },
           {
             "type": "Literal",
-            "start": 2240,
-            "end": 2253,
+            "start": 2344,
+            "end": 2357,
             "value": "\\P{sc=Han}"
           }
         ],
@@ -1225,23 +1301,23 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2257,
-      "end": 2337,
+      "start": 2361,
+      "end": 2441,
       "expression": {
         "type": "CallExpression",
-        "start": 2257,
-        "end": 2336,
+        "start": 2361,
+        "end": 2440,
         "callee": {
           "type": "Identifier",
-          "start": 2257,
-          "end": 2276,
+          "start": 2361,
+          "end": 2380,
           "name": "testPropertyEscapes"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2280,
-            "end": 2297,
+            "start": 2384,
+            "end": 2401,
             "value": {},
             "regex": {
               "pattern": "^\\P{sc=Hani}+$",
@@ -1250,14 +1326,14 @@
           },
           {
             "type": "Identifier",
-            "start": 2301,
-            "end": 2316,
+            "start": 2405,
+            "end": 2420,
             "name": "nonMatchSymbols"
           },
           {
             "type": "Literal",
-            "start": 2320,
-            "end": 2334,
+            "start": 2424,
+            "end": 2438,
             "value": "\\P{sc=Hani}"
           }
         ],

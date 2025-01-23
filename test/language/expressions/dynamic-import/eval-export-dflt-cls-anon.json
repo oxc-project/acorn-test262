@@ -101,7 +101,8 @@
                       "start": 1102,
                       "end": 1134,
                       "value": "./eval-export-dflt-cls-anon.js"
-                    }
+                    },
+                    "options": null
                   },
                   "property": {
                     "type": "Identifier",

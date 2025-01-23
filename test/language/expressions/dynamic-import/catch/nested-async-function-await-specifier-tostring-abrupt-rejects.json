@@ -124,7 +124,8 @@
                           "start": 1826,
                           "end": 1829,
                           "name": "obj"
-                        }
+                        },
+                        "options": null
                       },
                       "property": {
                         "type": "Identifier",

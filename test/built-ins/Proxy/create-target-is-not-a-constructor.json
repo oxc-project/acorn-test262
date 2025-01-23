@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 998,
+  "end": 964,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -132,11 +132,11 @@
     {
       "type": "ExpressionStatement",
       "start": 912,
-      "end": 997,
+      "end": 963,
       "expression": {
         "type": "CallExpression",
         "start": 912,
-        "end": 996,
+        "end": 962,
         "callee": {
           "type": "MemberExpression",
           "start": 912,
@@ -196,12 +196,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 963,
-            "end": 995,
-            "value": "`new proxy()` throws TypeError"
           }
         ],
         "optional": false

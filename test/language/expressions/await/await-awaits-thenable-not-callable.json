@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 489,
+  "end": 507,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 342,
-      "end": 460,
+      "start": 370,
+      "end": 488,
       "id": {
         "type": "Identifier",
-        "start": 357,
-        "end": 360,
+        "start": 385,
+        "end": 388,
         "name": "foo"
       },
       "expression": false,
@@ -19,46 +19,46 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 363,
-        "end": 460,
+        "start": 391,
+        "end": 488,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 367,
-            "end": 395,
+            "start": 395,
+            "end": 423,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 371,
-                "end": 394,
+                "start": 399,
+                "end": 422,
                 "id": {
                   "type": "Identifier",
-                  "start": 371,
-                  "end": 379,
+                  "start": 399,
+                  "end": 407,
                   "name": "thenable"
                 },
                 "init": {
                   "type": "ObjectExpression",
-                  "start": 382,
-                  "end": 394,
+                  "start": 410,
+                  "end": 422,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 384,
-                      "end": 392,
+                      "start": 412,
+                      "end": 420,
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 384,
-                        "end": 388,
+                        "start": 412,
+                        "end": 416,
                         "name": "then"
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 390,
-                        "end": 392,
+                        "start": 418,
+                        "end": 420,
                         "value": 42
                       },
                       "kind": "init"
@@ -71,27 +71,27 @@
           },
           {
             "type": "VariableDeclaration",
-            "start": 398,
-            "end": 423,
+            "start": 426,
+            "end": 451,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 402,
-                "end": 422,
+                "start": 430,
+                "end": 450,
                 "id": {
                   "type": "Identifier",
-                  "start": 402,
-                  "end": 405,
+                  "start": 430,
+                  "end": 433,
                   "name": "res"
                 },
                 "init": {
                   "type": "AwaitExpression",
-                  "start": 408,
-                  "end": 422,
+                  "start": 436,
+                  "end": 450,
                   "argument": {
                     "type": "Identifier",
-                    "start": 414,
-                    "end": 422,
+                    "start": 442,
+                    "end": 450,
                     "name": "thenable"
                   }
                 }
@@ -101,26 +101,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 426,
-            "end": 458,
+            "start": 454,
+            "end": 486,
             "expression": {
               "type": "CallExpression",
-              "start": 426,
-              "end": 457,
+              "start": 454,
+              "end": 485,
               "callee": {
                 "type": "MemberExpression",
-                "start": 426,
-                "end": 442,
+                "start": 454,
+                "end": 470,
                 "object": {
                   "type": "Identifier",
-                  "start": 426,
-                  "end": 432,
+                  "start": 454,
+                  "end": 460,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 433,
-                  "end": 442,
+                  "start": 461,
+                  "end": 470,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -129,14 +129,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 443,
-                  "end": 446,
+                  "start": 471,
+                  "end": 474,
                   "name": "res"
                 },
                 {
                   "type": "Identifier",
-                  "start": 448,
-                  "end": 456,
+                  "start": 476,
+                  "end": 484,
                   "name": "thenable"
                 }
               ],
@@ -148,50 +148,24 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 462,
-      "end": 487,
+      "start": 490,
+      "end": 505,
       "expression": {
         "type": "CallExpression",
-        "start": 462,
-        "end": 486,
+        "start": 490,
+        "end": 504,
         "callee": {
-          "type": "MemberExpression",
-          "start": 462,
-          "end": 472,
-          "object": {
-            "type": "CallExpression",
-            "start": 462,
-            "end": 467,
-            "callee": {
-              "type": "Identifier",
-              "start": 462,
-              "end": 465,
-              "name": "foo"
-            },
-            "arguments": [],
-            "optional": false
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 468,
-            "end": 472,
-            "name": "then"
-          },
-          "computed": false,
-          "optional": false
+          "type": "Identifier",
+          "start": 490,
+          "end": 499,
+          "name": "asyncTest"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 473,
-            "end": 478,
-            "name": "$DONE"
-          },
-          {
-            "type": "Identifier",
-            "start": 480,
-            "end": 485,
-            "name": "$DONE"
+            "start": 500,
+            "end": 503,
+            "name": "foo"
           }
         ],
         "optional": false

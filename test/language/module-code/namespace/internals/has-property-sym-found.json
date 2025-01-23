@@ -25,7 +25,8 @@
         "start": 466,
         "end": 495,
         "value": "./has-property-sym-found.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

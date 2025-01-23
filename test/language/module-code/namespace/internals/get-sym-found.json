@@ -25,7 +25,8 @@
         "start": 479,
         "end": 499,
         "value": "./get-sym-found.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

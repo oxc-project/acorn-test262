@@ -1,0 +1,806 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1093,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 302,
+      "end": 334,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 306,
+          "end": 333,
+          "id": {
+            "type": "Identifier",
+            "start": 306,
+            "end": 312,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 315,
+            "end": 333,
+            "callee": {
+              "type": "Identifier",
+              "start": 319,
+              "end": 330,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 331,
+                "end": 332,
+                "value": 8
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 335,
+      "end": 372,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 339,
+          "end": 371,
+          "id": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 345,
+            "name": "sample"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 348,
+            "end": 371,
+            "callee": {
+              "type": "Identifier",
+              "start": 352,
+              "end": 360,
+              "name": "DataView"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 361,
+                "end": 367,
+                "name": "buffer"
+              },
+              {
+                "type": "Literal",
+                "start": 369,
+                "end": 370,
+                "value": 0
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 374,
+      "end": 397,
+      "expression": {
+        "type": "CallExpression",
+        "start": 374,
+        "end": 396,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 374,
+          "end": 389,
+          "object": {
+            "type": "Identifier",
+            "start": 374,
+            "end": 380,
+            "name": "sample"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 389,
+            "name": "setUint8"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 390,
+            "end": 391,
+            "value": 4
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 395,
+            "value": 75
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 410,
+      "end": 433,
+      "expression": {
+        "type": "CallExpression",
+        "start": 410,
+        "end": 432,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 410,
+          "end": 425,
+          "object": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 416,
+            "name": "sample"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 425,
+            "name": "setUint8"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 426,
+            "end": 427,
+            "value": 5
+          },
+          {
+            "type": "Literal",
+            "start": 429,
+            "end": 431,
+            "value": 75
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 446,
+      "end": 469,
+      "expression": {
+        "type": "CallExpression",
+        "start": 446,
+        "end": 468,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 446,
+          "end": 461,
+          "object": {
+            "type": "Identifier",
+            "start": 446,
+            "end": 452,
+            "name": "sample"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 453,
+            "end": 461,
+            "name": "setUint8"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 462,
+            "end": 463,
+            "value": 6
+          },
+          {
+            "type": "Literal",
+            "start": 465,
+            "end": 467,
+            "value": 76
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 482,
+      "end": 505,
+      "expression": {
+        "type": "CallExpression",
+        "start": 482,
+        "end": 504,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 482,
+          "end": 497,
+          "object": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 488,
+            "name": "sample"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 497,
+            "name": "setUint8"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 498,
+            "end": 499,
+            "value": 7
+          },
+          {
+            "type": "Literal",
+            "start": 501,
+            "end": 503,
+            "value": 77
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 519,
+      "end": 552,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 519,
+        "end": 551,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 519,
+          "end": 525,
+          "name": "sample"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 528,
+          "end": 551,
+          "callee": {
+            "type": "Identifier",
+            "start": 532,
+            "end": 540,
+            "name": "DataView"
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 541,
+              "end": 547,
+              "name": "buffer"
+            },
+            {
+              "type": "Literal",
+              "start": 549,
+              "end": 550,
+              "value": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 554,
+      "end": 624,
+      "expression": {
+        "type": "CallExpression",
+        "start": 554,
+        "end": 623,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 554,
+          "end": 570,
+          "object": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 560,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 561,
+            "end": 570,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 571,
+            "end": 598,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 571,
+              "end": 588,
+              "object": {
+                "type": "Identifier",
+                "start": 571,
+                "end": 577,
+                "name": "sample"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 578,
+                "end": 588,
+                "name": "getFloat16"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 589,
+                "end": 590,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 592,
+                "end": 597,
+                "value": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 600,
+            "end": 610,
+            "value": 14.5859375
+          },
+          {
+            "type": "Literal",
+            "start": 612,
+            "end": 622,
+            "value": "0, false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 646,
+      "end": 714,
+      "expression": {
+        "type": "CallExpression",
+        "start": 646,
+        "end": 713,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 646,
+          "end": 662,
+          "object": {
+            "type": "Identifier",
+            "start": 646,
+            "end": 652,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 653,
+            "end": 662,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 663,
+            "end": 690,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 663,
+              "end": 680,
+              "object": {
+                "type": "Identifier",
+                "start": 663,
+                "end": 669,
+                "name": "sample"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 670,
+                "end": 680,
+                "name": "getFloat16"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 681,
+                "end": 682,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 684,
+                "end": 689,
+                "value": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 692,
+            "end": 700,
+            "value": 14.59375
+          },
+          {
+            "type": "Literal",
+            "start": 702,
+            "end": 712,
+            "value": "1, false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 736,
+      "end": 805,
+      "expression": {
+        "type": "CallExpression",
+        "start": 736,
+        "end": 804,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 736,
+          "end": 752,
+          "object": {
+            "type": "Identifier",
+            "start": 736,
+            "end": 742,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 743,
+            "end": 752,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 753,
+            "end": 780,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 753,
+              "end": 770,
+              "object": {
+                "type": "Identifier",
+                "start": 753,
+                "end": 759,
+                "name": "sample"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 760,
+                "end": 770,
+                "name": "getFloat16"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 771,
+                "end": 772,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 774,
+                "end": 779,
+                "value": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 782,
+            "end": 791,
+            "value": 17.203125
+          },
+          {
+            "type": "Literal",
+            "start": 793,
+            "end": 803,
+            "value": "2, false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 827,
+      "end": 895,
+      "expression": {
+        "type": "CallExpression",
+        "start": 827,
+        "end": 894,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 827,
+          "end": 843,
+          "object": {
+            "type": "Identifier",
+            "start": 827,
+            "end": 833,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 834,
+            "end": 843,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 844,
+            "end": 870,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 844,
+              "end": 861,
+              "object": {
+                "type": "Identifier",
+                "start": 844,
+                "end": 850,
+                "name": "sample"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 851,
+                "end": 861,
+                "name": "getFloat16"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 862,
+                "end": 863,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 865,
+                "end": 869,
+                "value": true
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 872,
+            "end": 882,
+            "value": 14.5859375
+          },
+          {
+            "type": "Literal",
+            "start": 884,
+            "end": 893,
+            "value": "0, true"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 917,
+      "end": 984,
+      "expression": {
+        "type": "CallExpression",
+        "start": 917,
+        "end": 983,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 917,
+          "end": 933,
+          "object": {
+            "type": "Identifier",
+            "start": 917,
+            "end": 923,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 924,
+            "end": 933,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 934,
+            "end": 960,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 934,
+              "end": 951,
+              "object": {
+                "type": "Identifier",
+                "start": 934,
+                "end": 940,
+                "name": "sample"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 941,
+                "end": 951,
+                "name": "getFloat16"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 952,
+                "end": 953,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 955,
+                "end": 959,
+                "value": true
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 962,
+            "end": 971,
+            "value": 17.171875
+          },
+          {
+            "type": "Literal",
+            "start": 973,
+            "end": 982,
+            "value": "1, true"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1006,
+      "end": 1071,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1006,
+        "end": 1070,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1006,
+          "end": 1022,
+          "object": {
+            "type": "Identifier",
+            "start": 1006,
+            "end": 1012,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1013,
+            "end": 1022,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1023,
+            "end": 1049,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1023,
+              "end": 1040,
+              "object": {
+                "type": "Identifier",
+                "start": 1023,
+                "end": 1029,
+                "name": "sample"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1030,
+                "end": 1040,
+                "name": "getFloat16"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1041,
+                "end": 1042,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 1044,
+                "end": 1048,
+                "value": true
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1051,
+            "end": 1058,
+            "value": 21.1875
+          },
+          {
+            "type": "Literal",
+            "start": 1060,
+            "end": 1069,
+            "value": "2, true"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

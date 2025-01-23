@@ -1,205 +1,138 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 830,
+  "end": 785,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 665,
-      "end": 708,
+      "end": 784,
       "expression": {
         "type": "CallExpression",
         "start": 665,
-        "end": 707,
+        "end": 783,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 665,
-          "end": 681,
-          "object": {
-            "type": "Identifier",
-            "start": 665,
-            "end": 671,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 672,
-            "end": 681,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 679,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 682,
-            "end": 697,
+            "start": 680,
+            "end": 690,
             "object": {
-              "type": "MemberExpression",
-              "start": 682,
-              "end": 692,
-              "object": {
-                "type": "Identifier",
-                "start": 682,
-                "end": 686,
-                "name": "Math"
+              "type": "Identifier",
+              "start": 680,
+              "end": 684,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 685,
+              "end": 690,
+              "name": "atan2"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 692,
+            "end": 698,
+            "value": "name"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 700,
+            "end": 782,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 704,
+                "end": 718,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 704,
+                  "end": 709,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 711,
+                  "end": 718,
+                  "value": "atan2"
+                },
+                "kind": "init"
               },
-              "property": {
-                "type": "Identifier",
-                "start": 687,
-                "end": 692,
-                "name": "atan2"
+              {
+                "type": "Property",
+                "start": 722,
+                "end": 737,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 722,
+                  "end": 730,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 732,
+                  "end": 737,
+                  "value": false
+                },
+                "kind": "init"
               },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 693,
-              "end": 697,
-              "name": "name"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 699,
-            "end": 706,
-            "value": "atan2"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 710,
-      "end": 750,
-      "expression": {
-        "type": "CallExpression",
-        "start": 710,
-        "end": 749,
-        "callee": {
-          "type": "Identifier",
-          "start": 710,
-          "end": 729,
-          "name": "verifyNotEnumerable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 730,
-            "end": 740,
-            "object": {
-              "type": "Identifier",
-              "start": 730,
-              "end": 734,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 735,
-              "end": 740,
-              "name": "atan2"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 742,
-            "end": 748,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 751,
-      "end": 789,
-      "expression": {
-        "type": "CallExpression",
-        "start": 751,
-        "end": 788,
-        "callee": {
-          "type": "Identifier",
-          "start": 751,
-          "end": 768,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 769,
-            "end": 779,
-            "object": {
-              "type": "Identifier",
-              "start": 769,
-              "end": 773,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 774,
-              "end": 779,
-              "name": "atan2"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 781,
-            "end": 787,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 790,
-      "end": 829,
-      "expression": {
-        "type": "CallExpression",
-        "start": 790,
-        "end": 828,
-        "callee": {
-          "type": "Identifier",
-          "start": 790,
-          "end": 808,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 809,
-            "end": 819,
-            "object": {
-              "type": "Identifier",
-              "start": 809,
-              "end": 813,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 814,
-              "end": 819,
-              "name": "atan2"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 821,
-            "end": 827,
-            "value": "name"
+              {
+                "type": "Property",
+                "start": 741,
+                "end": 758,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 741,
+                  "end": 751,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 753,
+                  "end": 758,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 762,
+                "end": 780,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 762,
+                  "end": 774,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 776,
+                  "end": 780,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

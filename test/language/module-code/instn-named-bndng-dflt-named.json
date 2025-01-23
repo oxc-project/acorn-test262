@@ -197,7 +197,8 @@
         "start": 636,
         "end": 671,
         "value": "./instn-named-bndng-dflt-named.js"
-      }
+      },
+      "attributes": []
     }
   ],
   "sourceType": "module"

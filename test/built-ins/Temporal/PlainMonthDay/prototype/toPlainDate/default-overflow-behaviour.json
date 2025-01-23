@@ -1,0 +1,207 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 577,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 325,
+      "end": 375,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 331,
+          "end": 374,
+          "id": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 338,
+            "name": "leapDay"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 341,
+            "end": 374,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 345,
+              "end": 367,
+              "object": {
+                "type": "Identifier",
+                "start": 345,
+                "end": 353,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 354,
+                "end": 367,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 368,
+                "end": 369,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 371,
+                "end": 373,
+                "value": 29
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 376,
+      "end": 427,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 382,
+          "end": 426,
+          "id": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 388,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 391,
+            "end": 426,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 391,
+              "end": 410,
+              "object": {
+                "type": "Identifier",
+                "start": 391,
+                "end": 398,
+                "name": "leapDay"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 399,
+                "end": 410,
+                "name": "toPlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 411,
+                "end": 425,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 413,
+                    "end": 423,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 413,
+                      "end": 417,
+                      "name": "year"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 419,
+                      "end": 423,
+                      "value": 2023
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 487,
+      "end": 576,
+      "expression": {
+        "type": "CallExpression",
+        "start": 487,
+        "end": 575,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 487,
+          "end": 518,
+          "object": {
+            "type": "Identifier",
+            "start": 487,
+            "end": 502,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 518,
+            "name": "assertPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 519,
+            "end": 525,
+            "name": "result"
+          },
+          {
+            "type": "Literal",
+            "start": 527,
+            "end": 531,
+            "value": 2023
+          },
+          {
+            "type": "Literal",
+            "start": 533,
+            "end": 534,
+            "value": 2
+          },
+          {
+            "type": "Literal",
+            "start": 536,
+            "end": 541,
+            "value": "M02"
+          },
+          {
+            "type": "Literal",
+            "start": 543,
+            "end": 545,
+            "value": 28
+          },
+          {
+            "type": "Literal",
+            "start": 547,
+            "end": 574,
+            "value": "2023 + 02-29 = 2023-02-28"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

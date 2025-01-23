@@ -110,7 +110,8 @@
         "start": 1819,
         "end": 1849,
         "value": "./instn-named-bndng-const.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

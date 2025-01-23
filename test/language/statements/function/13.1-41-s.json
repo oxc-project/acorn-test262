@@ -1,27 +1,27 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 474,
+  "end": 459,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 334,
-      "end": 354,
+      "start": 326,
+      "end": 346,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 338,
-          "end": 353,
+          "start": 330,
+          "end": 345,
           "id": {
             "type": "Identifier",
-            "start": 338,
-            "end": 348,
+            "start": 330,
+            "end": 340,
             "name": "_13_1_41_s"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 351,
-            "end": 353,
+            "start": 343,
+            "end": 345,
             "properties": []
           }
         }
@@ -30,26 +30,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 355,
-      "end": 473,
+      "start": 348,
+      "end": 458,
       "expression": {
         "type": "CallExpression",
-        "start": 355,
-        "end": 472,
+        "start": 348,
+        "end": 457,
         "callee": {
           "type": "MemberExpression",
-          "start": 355,
-          "end": 368,
+          "start": 348,
+          "end": 361,
           "object": {
             "type": "Identifier",
-            "start": 355,
-            "end": 361,
+            "start": 348,
+            "end": 354,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 362,
-            "end": 368,
+            "start": 355,
+            "end": 361,
             "name": "throws"
           },
           "computed": false,
@@ -58,14 +58,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 369,
-            "end": 380,
+            "start": 362,
+            "end": 373,
             "name": "SyntaxError"
           },
           {
             "type": "FunctionExpression",
-            "start": 382,
-            "end": 471,
+            "start": 375,
+            "end": 456,
             "id": null,
             "expression": false,
             "generator": false,
@@ -73,28 +73,28 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 393,
-              "end": 471,
+              "start": 386,
+              "end": 456,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 407,
-                  "end": 469,
+                  "start": 392,
+                  "end": 454,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 407,
-                    "end": 468,
+                    "start": 392,
+                    "end": 453,
                     "callee": {
                       "type": "Identifier",
-                      "start": 407,
-                      "end": 411,
+                      "start": 392,
+                      "end": 396,
                       "name": "eval"
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 412,
-                        "end": 467,
+                        "start": 397,
+                        "end": 452,
                         "value": "'use strict'; _13_1_41_s.x = function arguments() {};"
                       }
                     ],

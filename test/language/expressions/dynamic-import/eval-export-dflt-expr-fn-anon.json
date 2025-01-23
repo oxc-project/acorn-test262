@@ -78,7 +78,8 @@
                       "start": 1091,
                       "end": 1127,
                       "value": "./eval-export-dflt-expr-fn-anon.js"
-                    }
+                    },
+                    "options": null
                   },
                   "property": {
                     "type": "Identifier",

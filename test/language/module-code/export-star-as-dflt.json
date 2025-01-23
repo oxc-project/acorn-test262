@@ -18,7 +18,8 @@
         "start": 747,
         "end": 781,
         "value": "./export-star-as-dflt_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -42,7 +43,8 @@
         "start": 800,
         "end": 826,
         "value": "./export-star-as-dflt.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -72,7 +74,8 @@
         "start": 861,
         "end": 887,
         "value": "./export-star-as-dflt.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -96,7 +99,8 @@
         "start": 909,
         "end": 935,
         "value": "./export-star-as-dflt.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 7503,
+  "end": 7519,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 260,
-      "end": 1543,
+      "start": 276,
+      "end": 1559,
       "expression": {
         "type": "CallExpression",
-        "start": 260,
-        "end": 1542,
+        "start": 276,
+        "end": 1558,
         "callee": {
           "type": "MemberExpression",
-          "start": 260,
-          "end": 276,
+          "start": 276,
+          "end": 292,
           "object": {
             "type": "Identifier",
-            "start": 260,
-            "end": 266,
+            "start": 276,
+            "end": 282,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 267,
-            "end": 276,
+            "start": 283,
+            "end": 292,
             "name": "sameValue"
           },
           "computed": false,
@@ -33,32 +33,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 280,
-            "end": 296,
+            "start": 296,
+            "end": 312,
             "left": {
               "type": "Literal",
-              "start": 280,
-              "end": 286,
+              "start": 296,
+              "end": 302,
               "value": "291n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 290,
-              "end": 296,
+              "start": 306,
+              "end": 312,
               "value": "291n"
             }
           },
           {
             "type": "Literal",
-            "start": 300,
-            "end": 899,
+            "start": 316,
+            "end": 915,
             "value": "983693484619384723221233769764576884330168579405219615249831697652724463326876900643392062566490035183278931241293543503507832583705713613588931102212547599939752402681482637591732291625510074256256330423657207032665153987577788707088375449815379605541803266331282191256522844644836390946334296556372228042171131756406620367921269590300293218106904355369268208751354320601863869632673263053497081796251827606621313326426757602347770850634433706275482598402973283795149715734962968651315669667092962863034388004465506516916492575519381242405333220436117589364212975685031932625882464059631916269437529873755040882698620874623287583678700884215006479131429768685761887725448485960557846083936816147426493103796914448891n"
           },
           {
             "type": "Literal",
-            "start": 903,
-            "end": 1540,
+            "start": 919,
+            "end": 1556,
             "value": "The result of (0x123n ** 0x123n) is 0x37AA7FAA38F2F6026AABEFE979EA730BA9EA4CB99E2E3F645D515D3BBE2D84BCD89F8A034BADF3E3DC0CF417258371B31F4555DC0883DA96760AB157DB7DFFF5E3E97A3EAAB8328B2B178060B5A5E4C4DD8BC8D66B7F4D9F0E0B1AC3A566FDE0A15EBF8DBDBD0565C5FBDB7C123CF250E271DF5C38BC6746A1327F09C7FB4B96E0EDA45C429799CA80B1DB039692C70DFFE4E66F1D9CAB4270863B09A7918F774D686F685F560FEDC6B7B85CB45DE5EEEF6A5FE2FC8B5037FB421204641909347C91F2DC252F49B8F310E867E56D1CA2E81EE9A3AA568682C7B8B41D709A2E7F8D9A8D8C56D6BE78B6CA8365E362B81A64974C315FB8FA50CED4F7944F28FA3ECA77B8BCB56DC69814328F891E6065D108EEE7B8E695038090CCA10C0E68DD7A36CFAA1C26CDFEC369FBn"
           }
         ],
@@ -67,26 +67,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1545,
-      "end": 2678,
+      "start": 1561,
+      "end": 2694,
       "expression": {
         "type": "CallExpression",
-        "start": 1545,
-        "end": 2677,
+        "start": 1561,
+        "end": 2693,
         "callee": {
           "type": "MemberExpression",
-          "start": 1545,
-          "end": 1561,
+          "start": 1561,
+          "end": 1577,
           "object": {
             "type": "Identifier",
-            "start": 1545,
-            "end": 1551,
+            "start": 1561,
+            "end": 1567,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1552,
-            "end": 1561,
+            "start": 1568,
+            "end": 1577,
             "name": "sameValue"
           },
           "computed": false,
@@ -95,32 +95,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1565,
-            "end": 1580,
+            "start": 1581,
+            "end": 1596,
             "left": {
               "type": "Literal",
-              "start": 1565,
-              "end": 1571,
+              "start": 1581,
+              "end": 1587,
               "value": "291n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 1575,
-              "end": 1580,
+              "start": 1591,
+              "end": 1596,
               "value": "255n"
             }
           },
           {
             "type": "Literal",
-            "start": 1584,
-            "end": 2109,
+            "start": 1600,
+            "end": 2125,
             "value": "19620595815997067158349810211292831910139536015067830266922706521424765877265965530512781071070108803591281548412210764167641524531441079821790711574097542477967447293426682231836030555988092783988120362212265419418777570324026985444799021426308840096805647714011509229931430652181622619073310009701777126982127093086079229640471171505171711659897263315866459093983460788897446114085703141445874423427915314768498667026418249919358073235854270078121599467039376044386406366081330370711072557820396263166550692871661408587291393210630250179168396920291807585615241163483738966583314755149849861302461132033097593759900312039117451n"
           },
           {
             "type": "Literal",
-            "start": 2113,
-            "end": 2675,
+            "start": 2129,
+            "end": 2691,
             "value": "The result of (0x123n ** 0xFFn) is 0x8D5BB75861377EC967BF78FDF39CE51696FBD34722999943F8865938772B517167CD5ED775A78987F5106831F4978E0709032B26ED8F13F814699DB8AB3ACD5CF631F2D8B8B706FCF5EF441AAEE745A795EC5CB86A5E8D87D09F648EFC557B98F73E750FEC9AED061D47806F269CCCDFB6D513912A82AE79B171D76AF6D926BC4F4C4DA43A6EFB4D9D1672E356CC1F74A29AF80D53A8F27592F6191AB9B3D57FA2C435CB2CE8F18A3B3448F88F4BAD3606A9878DA9528B569BADAC0C1EC0B1A2B06CD4C64DEEC940807DFD05C56E3E17ADB1A88EDAF0D67C87C1F871BFB5C47CAE8365FE33538317EE2DF4EE52636CE1BDA9E41C7DA72826E4C097A53BD73D8D697E10D28Bn"
           }
         ],
@@ -129,26 +129,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2680,
-      "end": 2773,
+      "start": 2696,
+      "end": 2789,
       "expression": {
         "type": "CallExpression",
-        "start": 2680,
-        "end": 2772,
+        "start": 2696,
+        "end": 2788,
         "callee": {
           "type": "MemberExpression",
-          "start": 2680,
-          "end": 2696,
+          "start": 2696,
+          "end": 2712,
           "object": {
             "type": "Identifier",
-            "start": 2680,
-            "end": 2686,
+            "start": 2696,
+            "end": 2702,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2687,
-            "end": 2696,
+            "start": 2703,
+            "end": 2712,
             "name": "sameValue"
           },
           "computed": false,
@@ -157,32 +157,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2697,
-            "end": 2711,
+            "start": 2713,
+            "end": 2727,
             "left": {
               "type": "Literal",
-              "start": 2697,
-              "end": 2703,
+              "start": 2713,
+              "end": 2719,
               "value": "291n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 2707,
-              "end": 2711,
+              "start": 2723,
+              "end": 2727,
               "value": "3n"
             }
           },
           {
             "type": "Literal",
-            "start": 2713,
-            "end": 2723,
+            "start": 2729,
+            "end": 2739,
             "value": "24642171n"
           },
           {
             "type": "Literal",
-            "start": 2725,
-            "end": 2771,
+            "start": 2741,
+            "end": 2787,
             "value": "The result of (0x123n ** 0x3n) is 0x178027Bn"
           }
         ],
@@ -191,26 +191,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2774,
-      "end": 2863,
+      "start": 2790,
+      "end": 2879,
       "expression": {
         "type": "CallExpression",
-        "start": 2774,
-        "end": 2862,
+        "start": 2790,
+        "end": 2878,
         "callee": {
           "type": "MemberExpression",
-          "start": 2774,
-          "end": 2790,
+          "start": 2790,
+          "end": 2806,
           "object": {
             "type": "Identifier",
-            "start": 2774,
-            "end": 2780,
+            "start": 2790,
+            "end": 2796,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2781,
-            "end": 2790,
+            "start": 2797,
+            "end": 2806,
             "name": "sameValue"
           },
           "computed": false,
@@ -219,32 +219,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2791,
-            "end": 2805,
+            "start": 2807,
+            "end": 2821,
             "left": {
               "type": "Literal",
-              "start": 2791,
-              "end": 2797,
+              "start": 2807,
+              "end": 2813,
               "value": "291n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 2801,
-              "end": 2805,
+              "start": 2817,
+              "end": 2821,
               "value": "2n"
             }
           },
           {
             "type": "Literal",
-            "start": 2807,
-            "end": 2815,
+            "start": 2823,
+            "end": 2831,
             "value": "84681n"
           },
           {
             "type": "Literal",
-            "start": 2817,
-            "end": 2861,
+            "start": 2833,
+            "end": 2877,
             "value": "The result of (0x123n ** 0x2n) is 0x14AC9n"
           }
         ],
@@ -253,26 +253,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2864,
-      "end": 2949,
+      "start": 2880,
+      "end": 2965,
       "expression": {
         "type": "CallExpression",
-        "start": 2864,
-        "end": 2948,
+        "start": 2880,
+        "end": 2964,
         "callee": {
           "type": "MemberExpression",
-          "start": 2864,
-          "end": 2880,
+          "start": 2880,
+          "end": 2896,
           "object": {
             "type": "Identifier",
-            "start": 2864,
-            "end": 2870,
+            "start": 2880,
+            "end": 2886,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2871,
-            "end": 2880,
+            "start": 2887,
+            "end": 2896,
             "name": "sameValue"
           },
           "computed": false,
@@ -281,32 +281,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2881,
-            "end": 2895,
+            "start": 2897,
+            "end": 2911,
             "left": {
               "type": "Literal",
-              "start": 2881,
-              "end": 2887,
+              "start": 2897,
+              "end": 2903,
               "value": "291n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 2891,
-              "end": 2895,
+              "start": 2907,
+              "end": 2911,
               "value": "1n"
             }
           },
           {
             "type": "Literal",
-            "start": 2897,
-            "end": 2903,
+            "start": 2913,
+            "end": 2919,
             "value": "291n"
           },
           {
             "type": "Literal",
-            "start": 2905,
-            "end": 2947,
+            "start": 2921,
+            "end": 2963,
             "value": "The result of (0x123n ** 0x1n) is 0x123n"
           }
         ],
@@ -315,26 +315,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2951,
-      "end": 4204,
+      "start": 2967,
+      "end": 4220,
       "expression": {
         "type": "CallExpression",
-        "start": 2951,
-        "end": 4203,
+        "start": 2967,
+        "end": 4219,
         "callee": {
           "type": "MemberExpression",
-          "start": 2951,
-          "end": 2967,
+          "start": 2967,
+          "end": 2983,
           "object": {
             "type": "Identifier",
-            "start": 2951,
-            "end": 2957,
+            "start": 2967,
+            "end": 2973,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2958,
-            "end": 2967,
+            "start": 2974,
+            "end": 2983,
             "name": "sameValue"
           },
           "computed": false,
@@ -343,32 +343,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2971,
-            "end": 2986,
+            "start": 2987,
+            "end": 3002,
             "left": {
               "type": "Literal",
-              "start": 2971,
-              "end": 2976,
+              "start": 2987,
+              "end": 2992,
               "value": "255n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 2980,
-              "end": 2986,
+              "start": 2996,
+              "end": 3002,
               "value": "291n"
             }
           },
           {
             "type": "Literal",
-            "start": 2990,
-            "end": 3575,
+            "start": 3006,
+            "end": 3591,
             "value": "20099835646972753683517849298905424643144759636638120095800574955774563582072843964572180780310508099045469698287698104030451391334683128750958771610509519842836795998242791226644066774958658467987980743405579313649065905512703991486972973842213820411052388913630372861958701538785524182365783657810759080657234106564352966637824589939733448063148201635355550190695401305522254101844210133860047568465794758599179838804950651464113925733390287401405809423388787410390280218519597253516528457132717524775626757262847634878488732567200189947950958402974881648518496371441775854411369268475969337936572687703432617388054253361738941168072767560927558603021402818498974962579950442886911332607269287109375n"
           },
           {
             "type": "Literal",
-            "start": 3579,
-            "end": 4201,
+            "start": 3595,
+            "end": 4217,
             "value": "The result of (0xFFn ** 0x123n) is 0x51F5CA2E1A36F5FF1ED3D393D76FBC3612B38EB64E00EDAC5E95ADE0D16D0B044C8E9F2B77B3F31AF9159F482205541E9D3BE9D248FF39CE6524874EBCA60E06302E8B505D11EEEEE869C7F801A82B9739C197E6D63A1EB2D29B5AD5EED4773C762106E9F66BFCB6C11450218973C69DED3FE51FF881AD0430675BF54320513EA766117C50C554E86E22A5ACFD8047D5470B4FCBCB9EFC86196CA77C58F1BEB09F76160D641B82E2481BEDAE089207D49FE0FB7DE14B6C4BC82E9C58140746AC8E74C3353AAF5F9CF47ED1F87C52F463C053DB63CD08CC9866EBA274D39B6B357ADADAD4D210167EF7363453D42BC225D90070336861F2D259489D78B7F04B05FE65E29151ADD2B8F4D318011988550CE590DBA4C868AC65AA325051DF613D6C2E22FFn"
           }
         ],
@@ -377,26 +377,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 4206,
-      "end": 5313,
+      "start": 4222,
+      "end": 5329,
       "expression": {
         "type": "CallExpression",
-        "start": 4206,
-        "end": 5312,
+        "start": 4222,
+        "end": 5328,
         "callee": {
           "type": "MemberExpression",
-          "start": 4206,
-          "end": 4222,
+          "start": 4222,
+          "end": 4238,
           "object": {
             "type": "Identifier",
-            "start": 4206,
-            "end": 4212,
+            "start": 4222,
+            "end": 4228,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 4213,
-            "end": 4222,
+            "start": 4229,
+            "end": 4238,
             "name": "sameValue"
           },
           "computed": false,
@@ -405,32 +405,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 4226,
-            "end": 4240,
+            "start": 4242,
+            "end": 4256,
             "left": {
               "type": "Literal",
-              "start": 4226,
-              "end": 4231,
+              "start": 4242,
+              "end": 4247,
               "value": "255n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 4235,
-              "end": 4240,
+              "start": 4251,
+              "end": 4256,
               "value": "255n"
             }
           },
           {
             "type": "Literal",
-            "start": 4244,
-            "end": 4757,
+            "start": 4260,
+            "end": 4773,
             "value": "46531388344983681457769984555620005635274427815488751368772861643065273360461098097690597702647394229975161523887729348709679192202790820272357752329882392140552515610822058736740145045150003072264722464746837070302159356661765043244993104360887623976285955058200326531849137668562738184397385361179287309286327712528995820702180594566008294593820621769951491324907014215176509758404760451335847252744697820515292329680698271481385779516652518207263143889034764775414387732372812840456880885163361037485452406176311868267428358492408075197688911053603714883403374930891951109790394269793978310190141201019287109375n"
           },
           {
             "type": "Literal",
-            "start": 4761,
-            "end": 5310,
+            "start": 4777,
+            "end": 5326,
             "value": "The result of (0xFFn ** 0xFFn) is 0x5E5C8B0EB95AB08F9D37EF127FC01BD0E33DE52647528396D78D5F8DA31989E67814F6BBA1FB0F0207010FF5F2347B19D5F6598FC91BF5A88F77DAA3D7B382FEC484F3D205C06A34445384C0E7AB0D883788C68C012CB433055EDDA746A48409444EA91147273B79FC3EABB70ECA552AF650C234BB01ED404427F17CDDDD71D08E39EF9C3982E3CE44E670456AA8154C1FDBD9C35947F494636A425C69BF89E9C75AD3B7A0A559AF0F5DA9947C8DEBA64417310713B23E7EF4DE50BB2A3E90BC2AC3DA5201CCA8D6E5DFEA887C4F7A4E92175D9F88BD2779B57F9EB35BE7528F965A06DA0AC41DCB3A34F1D8AB7D8FEE620A94FAA42C395997756B007FFEFFn"
           }
         ],
@@ -439,26 +439,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 5315,
-      "end": 5404,
+      "start": 5331,
+      "end": 5420,
       "expression": {
         "type": "CallExpression",
-        "start": 5315,
-        "end": 5403,
+        "start": 5331,
+        "end": 5419,
         "callee": {
           "type": "MemberExpression",
-          "start": 5315,
-          "end": 5331,
+          "start": 5331,
+          "end": 5347,
           "object": {
             "type": "Identifier",
-            "start": 5315,
-            "end": 5321,
+            "start": 5331,
+            "end": 5337,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 5322,
-            "end": 5331,
+            "start": 5338,
+            "end": 5347,
             "name": "sameValue"
           },
           "computed": false,
@@ -467,32 +467,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 5332,
-            "end": 5345,
+            "start": 5348,
+            "end": 5361,
             "left": {
               "type": "Literal",
-              "start": 5332,
-              "end": 5337,
+              "start": 5348,
+              "end": 5353,
               "value": "255n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 5341,
-              "end": 5345,
+              "start": 5357,
+              "end": 5361,
               "value": "3n"
             }
           },
           {
             "type": "Literal",
-            "start": 5347,
-            "end": 5356,
+            "start": 5363,
+            "end": 5372,
             "value": "16581375n"
           },
           {
             "type": "Literal",
-            "start": 5358,
-            "end": 5402,
+            "start": 5374,
+            "end": 5418,
             "value": "The result of (0xFFn ** 0x3n) is 0xFD02FFn"
           }
         ],
@@ -501,26 +501,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 5405,
-      "end": 5490,
+      "start": 5421,
+      "end": 5506,
       "expression": {
         "type": "CallExpression",
-        "start": 5405,
-        "end": 5489,
+        "start": 5421,
+        "end": 5505,
         "callee": {
           "type": "MemberExpression",
-          "start": 5405,
-          "end": 5421,
+          "start": 5421,
+          "end": 5437,
           "object": {
             "type": "Identifier",
-            "start": 5405,
-            "end": 5411,
+            "start": 5421,
+            "end": 5427,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 5412,
-            "end": 5421,
+            "start": 5428,
+            "end": 5437,
             "name": "sameValue"
           },
           "computed": false,
@@ -529,32 +529,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 5422,
-            "end": 5435,
+            "start": 5438,
+            "end": 5451,
             "left": {
               "type": "Literal",
-              "start": 5422,
-              "end": 5427,
+              "start": 5438,
+              "end": 5443,
               "value": "255n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 5431,
-              "end": 5435,
+              "start": 5447,
+              "end": 5451,
               "value": "2n"
             }
           },
           {
             "type": "Literal",
-            "start": 5437,
-            "end": 5444,
+            "start": 5453,
+            "end": 5460,
             "value": "65025n"
           },
           {
             "type": "Literal",
-            "start": 5446,
-            "end": 5488,
+            "start": 5462,
+            "end": 5504,
             "value": "The result of (0xFFn ** 0x2n) is 0xFE01n"
           }
         ],
@@ -563,26 +563,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 5491,
-      "end": 5572,
+      "start": 5507,
+      "end": 5588,
       "expression": {
         "type": "CallExpression",
-        "start": 5491,
-        "end": 5571,
+        "start": 5507,
+        "end": 5587,
         "callee": {
           "type": "MemberExpression",
-          "start": 5491,
-          "end": 5507,
+          "start": 5507,
+          "end": 5523,
           "object": {
             "type": "Identifier",
-            "start": 5491,
-            "end": 5497,
+            "start": 5507,
+            "end": 5513,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 5498,
-            "end": 5507,
+            "start": 5514,
+            "end": 5523,
             "name": "sameValue"
           },
           "computed": false,
@@ -591,32 +591,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 5508,
-            "end": 5521,
+            "start": 5524,
+            "end": 5537,
             "left": {
               "type": "Literal",
-              "start": 5508,
-              "end": 5513,
+              "start": 5524,
+              "end": 5529,
               "value": "255n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 5517,
-              "end": 5521,
+              "start": 5533,
+              "end": 5537,
               "value": "1n"
             }
           },
           {
             "type": "Literal",
-            "start": 5523,
-            "end": 5528,
+            "start": 5539,
+            "end": 5544,
             "value": "255n"
           },
           {
             "type": "Literal",
-            "start": 5530,
-            "end": 5570,
+            "start": 5546,
+            "end": 5586,
             "value": "The result of (0xFFn ** 0x1n) is 0xFFn"
           }
         ],
@@ -625,26 +625,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 5574,
-      "end": 5893,
+      "start": 5590,
+      "end": 5909,
       "expression": {
         "type": "CallExpression",
-        "start": 5574,
-        "end": 5892,
+        "start": 5590,
+        "end": 5908,
         "callee": {
           "type": "MemberExpression",
-          "start": 5574,
-          "end": 5590,
+          "start": 5590,
+          "end": 5606,
           "object": {
             "type": "Identifier",
-            "start": 5574,
-            "end": 5580,
+            "start": 5590,
+            "end": 5596,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 5581,
-            "end": 5590,
+            "start": 5597,
+            "end": 5606,
             "name": "sameValue"
           },
           "computed": false,
@@ -653,32 +653,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 5594,
-            "end": 5608,
+            "start": 5610,
+            "end": 5624,
             "left": {
               "type": "Literal",
-              "start": 5594,
-              "end": 5598,
+              "start": 5610,
+              "end": 5614,
               "value": "3n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 5602,
-              "end": 5608,
+              "start": 5618,
+              "end": 5624,
               "value": "291n"
             }
           },
           {
             "type": "Literal",
-            "start": 5612,
-            "end": 5731,
+            "start": 5628,
+            "end": 5747,
             "value": "6954807654249269724702841405379683786336620211621065715159284157819895197759440969049443995106891296461438014560686584505081173234044392347n"
           },
           {
             "type": "Literal",
-            "start": 5735,
-            "end": 5890,
+            "start": 5751,
+            "end": 5906,
             "value": "The result of (0x3n ** 0x123n) is 0x25609213623D7D6219085CF49D306450BF6519835586C19D3A4F3A2C5F35B44A300C8A76E11708B5495B9C3EE756BBF19E3FD15CE625D3C0539Bn"
           }
         ],
@@ -687,26 +687,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 5895,
-      "end": 6184,
+      "start": 5911,
+      "end": 6200,
       "expression": {
         "type": "CallExpression",
-        "start": 5895,
-        "end": 6183,
+        "start": 5911,
+        "end": 6199,
         "callee": {
           "type": "MemberExpression",
-          "start": 5895,
-          "end": 5911,
+          "start": 5911,
+          "end": 5927,
           "object": {
             "type": "Identifier",
-            "start": 5895,
-            "end": 5901,
+            "start": 5911,
+            "end": 5917,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 5902,
-            "end": 5911,
+            "start": 5918,
+            "end": 5927,
             "name": "sameValue"
           },
           "computed": false,
@@ -715,32 +715,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 5915,
-            "end": 5928,
+            "start": 5931,
+            "end": 5944,
             "left": {
               "type": "Literal",
-              "start": 5915,
-              "end": 5919,
+              "start": 5931,
+              "end": 5935,
               "value": "3n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 5923,
-              "end": 5928,
+              "start": 5939,
+              "end": 5944,
               "value": "255n"
             }
           },
           {
             "type": "Literal",
-            "start": 5932,
-            "end": 6037,
+            "start": 5948,
+            "end": 6053,
             "value": "46336150792381577588313262263220434371406283602843045997201608143345357543255478647000589718036536507270555180182966478507n"
           },
           {
             "type": "Literal",
-            "start": 6041,
-            "end": 6181,
+            "start": 6057,
+            "end": 6197,
             "value": "The result of (0x3n ** 0xFFn) is 0x11F1B08E87EC42C5D83C3218FC83C41DCFD9F4428F4F92AF1AAA80AA46162B1F71E981273601F4AD1DD4709B5ACA650265A6ABn"
           }
         ],
@@ -749,26 +749,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 6186,
-      "end": 6265,
+      "start": 6202,
+      "end": 6281,
       "expression": {
         "type": "CallExpression",
-        "start": 6186,
-        "end": 6264,
+        "start": 6202,
+        "end": 6280,
         "callee": {
           "type": "MemberExpression",
-          "start": 6186,
-          "end": 6202,
+          "start": 6202,
+          "end": 6218,
           "object": {
             "type": "Identifier",
-            "start": 6186,
-            "end": 6192,
+            "start": 6202,
+            "end": 6208,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 6193,
-            "end": 6202,
+            "start": 6209,
+            "end": 6218,
             "name": "sameValue"
           },
           "computed": false,
@@ -777,32 +777,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6203,
-            "end": 6215,
+            "start": 6219,
+            "end": 6231,
             "left": {
               "type": "Literal",
-              "start": 6203,
-              "end": 6207,
+              "start": 6219,
+              "end": 6223,
               "value": "3n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6211,
-              "end": 6215,
+              "start": 6227,
+              "end": 6231,
               "value": "3n"
             }
           },
           {
             "type": "Literal",
-            "start": 6217,
-            "end": 6222,
+            "start": 6233,
+            "end": 6238,
             "value": "27n"
           },
           {
             "type": "Literal",
-            "start": 6224,
-            "end": 6263,
+            "start": 6240,
+            "end": 6279,
             "value": "The result of (0x3n ** 0x3n) is 0x1Bn"
           }
         ],
@@ -811,26 +811,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 6266,
-      "end": 6343,
+      "start": 6282,
+      "end": 6359,
       "expression": {
         "type": "CallExpression",
-        "start": 6266,
-        "end": 6342,
+        "start": 6282,
+        "end": 6358,
         "callee": {
           "type": "MemberExpression",
-          "start": 6266,
-          "end": 6282,
+          "start": 6282,
+          "end": 6298,
           "object": {
             "type": "Identifier",
-            "start": 6266,
-            "end": 6272,
+            "start": 6282,
+            "end": 6288,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 6273,
-            "end": 6282,
+            "start": 6289,
+            "end": 6298,
             "name": "sameValue"
           },
           "computed": false,
@@ -839,32 +839,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6283,
-            "end": 6295,
+            "start": 6299,
+            "end": 6311,
             "left": {
               "type": "Literal",
-              "start": 6283,
-              "end": 6287,
+              "start": 6299,
+              "end": 6303,
               "value": "3n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6291,
-              "end": 6295,
+              "start": 6307,
+              "end": 6311,
               "value": "2n"
             }
           },
           {
             "type": "Literal",
-            "start": 6297,
-            "end": 6301,
+            "start": 6313,
+            "end": 6317,
             "value": "9n"
           },
           {
             "type": "Literal",
-            "start": 6303,
-            "end": 6341,
+            "start": 6319,
+            "end": 6357,
             "value": "The result of (0x3n ** 0x2n) is 0x9n"
           }
         ],
@@ -873,26 +873,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 6344,
-      "end": 6421,
+      "start": 6360,
+      "end": 6437,
       "expression": {
         "type": "CallExpression",
-        "start": 6344,
-        "end": 6420,
+        "start": 6360,
+        "end": 6436,
         "callee": {
           "type": "MemberExpression",
-          "start": 6344,
-          "end": 6360,
+          "start": 6360,
+          "end": 6376,
           "object": {
             "type": "Identifier",
-            "start": 6344,
-            "end": 6350,
+            "start": 6360,
+            "end": 6366,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 6351,
-            "end": 6360,
+            "start": 6367,
+            "end": 6376,
             "name": "sameValue"
           },
           "computed": false,
@@ -901,32 +901,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6361,
-            "end": 6373,
+            "start": 6377,
+            "end": 6389,
             "left": {
               "type": "Literal",
-              "start": 6361,
-              "end": 6365,
+              "start": 6377,
+              "end": 6381,
               "value": "3n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6369,
-              "end": 6373,
+              "start": 6385,
+              "end": 6389,
               "value": "1n"
             }
           },
           {
             "type": "Literal",
-            "start": 6375,
-            "end": 6379,
+            "start": 6391,
+            "end": 6395,
             "value": "3n"
           },
           {
             "type": "Literal",
-            "start": 6381,
-            "end": 6419,
+            "start": 6397,
+            "end": 6435,
             "value": "The result of (0x3n ** 0x1n) is 0x3n"
           }
         ],
@@ -935,26 +935,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 6423,
-      "end": 6656,
+      "start": 6439,
+      "end": 6672,
       "expression": {
         "type": "CallExpression",
-        "start": 6423,
-        "end": 6655,
+        "start": 6439,
+        "end": 6671,
         "callee": {
           "type": "MemberExpression",
-          "start": 6423,
-          "end": 6439,
+          "start": 6439,
+          "end": 6455,
           "object": {
             "type": "Identifier",
-            "start": 6423,
-            "end": 6429,
+            "start": 6439,
+            "end": 6445,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 6430,
-            "end": 6439,
+            "start": 6446,
+            "end": 6455,
             "name": "sameValue"
           },
           "computed": false,
@@ -963,32 +963,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6443,
-            "end": 6457,
+            "start": 6459,
+            "end": 6473,
             "left": {
               "type": "Literal",
-              "start": 6443,
-              "end": 6447,
+              "start": 6459,
+              "end": 6463,
               "value": "2n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6451,
-              "end": 6457,
+              "start": 6467,
+              "end": 6473,
               "value": "291n"
             }
           },
           {
             "type": "Literal",
-            "start": 6461,
-            "end": 6537,
+            "start": 6477,
+            "end": 6553,
             "value": "3978585891278293137243057985174566720803649206378781739523711815145275976100267004264448n"
           },
           {
             "type": "Literal",
-            "start": 6541,
-            "end": 6653,
+            "start": 6557,
+            "end": 6669,
             "value": "The result of (0x2n ** 0x123n) is 0x8000000000000000000000000000000000000000000000000000000000000000000000000n"
           }
         ],
@@ -997,26 +997,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 6658,
-      "end": 6871,
+      "start": 6674,
+      "end": 6887,
       "expression": {
         "type": "CallExpression",
-        "start": 6658,
-        "end": 6870,
+        "start": 6674,
+        "end": 6886,
         "callee": {
           "type": "MemberExpression",
-          "start": 6658,
-          "end": 6674,
+          "start": 6674,
+          "end": 6690,
           "object": {
             "type": "Identifier",
-            "start": 6658,
-            "end": 6664,
+            "start": 6674,
+            "end": 6680,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 6665,
-            "end": 6674,
+            "start": 6681,
+            "end": 6690,
             "name": "sameValue"
           },
           "computed": false,
@@ -1025,32 +1025,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6678,
-            "end": 6691,
+            "start": 6694,
+            "end": 6707,
             "left": {
               "type": "Literal",
-              "start": 6678,
-              "end": 6682,
+              "start": 6694,
+              "end": 6698,
               "value": "2n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6686,
-              "end": 6691,
+              "start": 6702,
+              "end": 6707,
               "value": "255n"
             }
           },
           {
             "type": "Literal",
-            "start": 6695,
-            "end": 6762,
+            "start": 6711,
+            "end": 6778,
             "value": "57896044618658097711785492504343953926634992332820282019728792003956564819968n"
           },
           {
             "type": "Literal",
-            "start": 6766,
-            "end": 6868,
+            "start": 6782,
+            "end": 6884,
             "value": "The result of (0x2n ** 0xFFn) is 0x8000000000000000000000000000000000000000000000000000000000000000n"
           }
         ],
@@ -1059,26 +1059,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 6873,
-      "end": 6950,
+      "start": 6889,
+      "end": 6966,
       "expression": {
         "type": "CallExpression",
-        "start": 6873,
-        "end": 6949,
+        "start": 6889,
+        "end": 6965,
         "callee": {
           "type": "MemberExpression",
-          "start": 6873,
-          "end": 6889,
+          "start": 6889,
+          "end": 6905,
           "object": {
             "type": "Identifier",
-            "start": 6873,
-            "end": 6879,
+            "start": 6889,
+            "end": 6895,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 6880,
-            "end": 6889,
+            "start": 6896,
+            "end": 6905,
             "name": "sameValue"
           },
           "computed": false,
@@ -1087,32 +1087,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6890,
-            "end": 6902,
+            "start": 6906,
+            "end": 6918,
             "left": {
               "type": "Literal",
-              "start": 6890,
-              "end": 6894,
+              "start": 6906,
+              "end": 6910,
               "value": "2n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6898,
-              "end": 6902,
+              "start": 6914,
+              "end": 6918,
               "value": "3n"
             }
           },
           {
             "type": "Literal",
-            "start": 6904,
-            "end": 6908,
+            "start": 6920,
+            "end": 6924,
             "value": "8n"
           },
           {
             "type": "Literal",
-            "start": 6910,
-            "end": 6948,
+            "start": 6926,
+            "end": 6964,
             "value": "The result of (0x2n ** 0x3n) is 0x8n"
           }
         ],
@@ -1121,26 +1121,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 6951,
-      "end": 7028,
+      "start": 6967,
+      "end": 7044,
       "expression": {
         "type": "CallExpression",
-        "start": 6951,
-        "end": 7027,
+        "start": 6967,
+        "end": 7043,
         "callee": {
           "type": "MemberExpression",
-          "start": 6951,
-          "end": 6967,
+          "start": 6967,
+          "end": 6983,
           "object": {
             "type": "Identifier",
-            "start": 6951,
-            "end": 6957,
+            "start": 6967,
+            "end": 6973,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 6958,
-            "end": 6967,
+            "start": 6974,
+            "end": 6983,
             "name": "sameValue"
           },
           "computed": false,
@@ -1149,32 +1149,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6968,
-            "end": 6980,
+            "start": 6984,
+            "end": 6996,
             "left": {
               "type": "Literal",
-              "start": 6968,
-              "end": 6972,
+              "start": 6984,
+              "end": 6988,
               "value": "2n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6976,
-              "end": 6980,
+              "start": 6992,
+              "end": 6996,
               "value": "2n"
             }
           },
           {
             "type": "Literal",
-            "start": 6982,
-            "end": 6986,
+            "start": 6998,
+            "end": 7002,
             "value": "4n"
           },
           {
             "type": "Literal",
-            "start": 6988,
-            "end": 7026,
+            "start": 7004,
+            "end": 7042,
             "value": "The result of (0x2n ** 0x2n) is 0x4n"
           }
         ],
@@ -1183,26 +1183,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 7029,
-      "end": 7106,
+      "start": 7045,
+      "end": 7122,
       "expression": {
         "type": "CallExpression",
-        "start": 7029,
-        "end": 7105,
+        "start": 7045,
+        "end": 7121,
         "callee": {
           "type": "MemberExpression",
-          "start": 7029,
-          "end": 7045,
+          "start": 7045,
+          "end": 7061,
           "object": {
             "type": "Identifier",
-            "start": 7029,
-            "end": 7035,
+            "start": 7045,
+            "end": 7051,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 7036,
-            "end": 7045,
+            "start": 7052,
+            "end": 7061,
             "name": "sameValue"
           },
           "computed": false,
@@ -1211,32 +1211,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7046,
-            "end": 7058,
+            "start": 7062,
+            "end": 7074,
             "left": {
               "type": "Literal",
-              "start": 7046,
-              "end": 7050,
+              "start": 7062,
+              "end": 7066,
               "value": "2n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7054,
-              "end": 7058,
+              "start": 7070,
+              "end": 7074,
               "value": "1n"
             }
           },
           {
             "type": "Literal",
-            "start": 7060,
-            "end": 7064,
+            "start": 7076,
+            "end": 7080,
             "value": "2n"
           },
           {
             "type": "Literal",
-            "start": 7066,
-            "end": 7104,
+            "start": 7082,
+            "end": 7120,
             "value": "The result of (0x2n ** 0x1n) is 0x2n"
           }
         ],
@@ -1245,26 +1245,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 7107,
-      "end": 7188,
+      "start": 7123,
+      "end": 7204,
       "expression": {
         "type": "CallExpression",
-        "start": 7107,
-        "end": 7187,
+        "start": 7123,
+        "end": 7203,
         "callee": {
           "type": "MemberExpression",
-          "start": 7107,
-          "end": 7123,
+          "start": 7123,
+          "end": 7139,
           "object": {
             "type": "Identifier",
-            "start": 7107,
-            "end": 7113,
+            "start": 7123,
+            "end": 7129,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 7114,
-            "end": 7123,
+            "start": 7130,
+            "end": 7139,
             "name": "sameValue"
           },
           "computed": false,
@@ -1273,32 +1273,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7124,
-            "end": 7138,
+            "start": 7140,
+            "end": 7154,
             "left": {
               "type": "Literal",
-              "start": 7124,
-              "end": 7128,
+              "start": 7140,
+              "end": 7144,
               "value": "1n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7132,
-              "end": 7138,
+              "start": 7148,
+              "end": 7154,
               "value": "291n"
             }
           },
           {
             "type": "Literal",
-            "start": 7140,
-            "end": 7144,
+            "start": 7156,
+            "end": 7160,
             "value": "1n"
           },
           {
             "type": "Literal",
-            "start": 7146,
-            "end": 7186,
+            "start": 7162,
+            "end": 7202,
             "value": "The result of (0x1n ** 0x123n) is 0x1n"
           }
         ],
@@ -1307,26 +1307,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 7189,
-      "end": 7268,
+      "start": 7205,
+      "end": 7284,
       "expression": {
         "type": "CallExpression",
-        "start": 7189,
-        "end": 7267,
+        "start": 7205,
+        "end": 7283,
         "callee": {
           "type": "MemberExpression",
-          "start": 7189,
-          "end": 7205,
+          "start": 7205,
+          "end": 7221,
           "object": {
             "type": "Identifier",
-            "start": 7189,
-            "end": 7195,
+            "start": 7205,
+            "end": 7211,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 7196,
-            "end": 7205,
+            "start": 7212,
+            "end": 7221,
             "name": "sameValue"
           },
           "computed": false,
@@ -1335,32 +1335,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7206,
-            "end": 7219,
+            "start": 7222,
+            "end": 7235,
             "left": {
               "type": "Literal",
-              "start": 7206,
-              "end": 7210,
+              "start": 7222,
+              "end": 7226,
               "value": "1n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7214,
-              "end": 7219,
+              "start": 7230,
+              "end": 7235,
               "value": "255n"
             }
           },
           {
             "type": "Literal",
-            "start": 7221,
-            "end": 7225,
+            "start": 7237,
+            "end": 7241,
             "value": "1n"
           },
           {
             "type": "Literal",
-            "start": 7227,
-            "end": 7266,
+            "start": 7243,
+            "end": 7282,
             "value": "The result of (0x1n ** 0xFFn) is 0x1n"
           }
         ],
@@ -1369,26 +1369,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 7269,
-      "end": 7346,
+      "start": 7285,
+      "end": 7362,
       "expression": {
         "type": "CallExpression",
-        "start": 7269,
-        "end": 7345,
+        "start": 7285,
+        "end": 7361,
         "callee": {
           "type": "MemberExpression",
-          "start": 7269,
-          "end": 7285,
+          "start": 7285,
+          "end": 7301,
           "object": {
             "type": "Identifier",
-            "start": 7269,
-            "end": 7275,
+            "start": 7285,
+            "end": 7291,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 7276,
-            "end": 7285,
+            "start": 7292,
+            "end": 7301,
             "name": "sameValue"
           },
           "computed": false,
@@ -1397,32 +1397,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7286,
-            "end": 7298,
+            "start": 7302,
+            "end": 7314,
             "left": {
               "type": "Literal",
-              "start": 7286,
-              "end": 7290,
+              "start": 7302,
+              "end": 7306,
               "value": "1n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7294,
-              "end": 7298,
+              "start": 7310,
+              "end": 7314,
               "value": "3n"
             }
           },
           {
             "type": "Literal",
-            "start": 7300,
-            "end": 7304,
+            "start": 7316,
+            "end": 7320,
             "value": "1n"
           },
           {
             "type": "Literal",
-            "start": 7306,
-            "end": 7344,
+            "start": 7322,
+            "end": 7360,
             "value": "The result of (0x1n ** 0x3n) is 0x1n"
           }
         ],
@@ -1431,26 +1431,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 7347,
-      "end": 7424,
+      "start": 7363,
+      "end": 7440,
       "expression": {
         "type": "CallExpression",
-        "start": 7347,
-        "end": 7423,
+        "start": 7363,
+        "end": 7439,
         "callee": {
           "type": "MemberExpression",
-          "start": 7347,
-          "end": 7363,
+          "start": 7363,
+          "end": 7379,
           "object": {
             "type": "Identifier",
-            "start": 7347,
-            "end": 7353,
+            "start": 7363,
+            "end": 7369,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 7354,
-            "end": 7363,
+            "start": 7370,
+            "end": 7379,
             "name": "sameValue"
           },
           "computed": false,
@@ -1459,32 +1459,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7364,
-            "end": 7376,
+            "start": 7380,
+            "end": 7392,
             "left": {
               "type": "Literal",
-              "start": 7364,
-              "end": 7368,
+              "start": 7380,
+              "end": 7384,
               "value": "1n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7372,
-              "end": 7376,
+              "start": 7388,
+              "end": 7392,
               "value": "2n"
             }
           },
           {
             "type": "Literal",
-            "start": 7378,
-            "end": 7382,
+            "start": 7394,
+            "end": 7398,
             "value": "1n"
           },
           {
             "type": "Literal",
-            "start": 7384,
-            "end": 7422,
+            "start": 7400,
+            "end": 7438,
             "value": "The result of (0x1n ** 0x2n) is 0x1n"
           }
         ],
@@ -1493,26 +1493,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 7425,
-      "end": 7502,
+      "start": 7441,
+      "end": 7518,
       "expression": {
         "type": "CallExpression",
-        "start": 7425,
-        "end": 7501,
+        "start": 7441,
+        "end": 7517,
         "callee": {
           "type": "MemberExpression",
-          "start": 7425,
-          "end": 7441,
+          "start": 7441,
+          "end": 7457,
           "object": {
             "type": "Identifier",
-            "start": 7425,
-            "end": 7431,
+            "start": 7441,
+            "end": 7447,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 7432,
-            "end": 7441,
+            "start": 7448,
+            "end": 7457,
             "name": "sameValue"
           },
           "computed": false,
@@ -1521,32 +1521,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7442,
-            "end": 7454,
+            "start": 7458,
+            "end": 7470,
             "left": {
               "type": "Literal",
-              "start": 7442,
-              "end": 7446,
+              "start": 7458,
+              "end": 7462,
               "value": "1n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7450,
-              "end": 7454,
+              "start": 7466,
+              "end": 7470,
               "value": "1n"
             }
           },
           {
             "type": "Literal",
-            "start": 7456,
-            "end": 7460,
+            "start": 7472,
+            "end": 7476,
             "value": "1n"
           },
           {
             "type": "Literal",
-            "start": 7462,
-            "end": 7500,
+            "start": 7478,
+            "end": 7516,
             "value": "The result of (0x1n ** 0x1n) is 0x1n"
           }
         ],

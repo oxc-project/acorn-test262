@@ -1,0 +1,316 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 911,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 464,
+      "end": 550,
+      "expression": {
+        "type": "CallExpression",
+        "start": 464,
+        "end": 549,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 464,
+          "end": 480,
+          "object": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 470,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 471,
+            "end": 480,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 481,
+            "end": 499,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 481,
+              "end": 494,
+              "object": {
+                "type": "Identifier",
+                "start": 481,
+                "end": 487,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 488,
+                "end": 494,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 495,
+                "end": 498,
+                "value": "/"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 501,
+            "end": 506,
+            "value": "\\/"
+          },
+          {
+            "type": "Literal",
+            "start": 508,
+            "end": 548,
+            "value": "solidus character is escaped correctly"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 551,
+      "end": 666,
+      "expression": {
+        "type": "CallExpression",
+        "start": 551,
+        "end": 665,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 551,
+          "end": 567,
+          "object": {
+            "type": "Identifier",
+            "start": 551,
+            "end": 557,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 558,
+            "end": 567,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 568,
+            "end": 587,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 568,
+              "end": 581,
+              "object": {
+                "type": "Identifier",
+                "start": 568,
+                "end": 574,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 575,
+                "end": 581,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 582,
+                "end": 586,
+                "value": "//"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 589,
+            "end": 597,
+            "value": "\\/\\/"
+          },
+          {
+            "type": "Literal",
+            "start": 599,
+            "end": 664,
+            "value": "solidus character is escaped correctly - multiple occurrences 1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 667,
+      "end": 786,
+      "expression": {
+        "type": "CallExpression",
+        "start": 667,
+        "end": 785,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 667,
+          "end": 683,
+          "object": {
+            "type": "Identifier",
+            "start": 667,
+            "end": 673,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 674,
+            "end": 683,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 684,
+            "end": 704,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 684,
+              "end": 697,
+              "object": {
+                "type": "Identifier",
+                "start": 684,
+                "end": 690,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 691,
+                "end": 697,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 698,
+                "end": 703,
+                "value": "///"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 706,
+            "end": 717,
+            "value": "\\/\\/\\/"
+          },
+          {
+            "type": "Literal",
+            "start": 719,
+            "end": 784,
+            "value": "solidus character is escaped correctly - multiple occurrences 2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 787,
+      "end": 910,
+      "expression": {
+        "type": "CallExpression",
+        "start": 787,
+        "end": 909,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 787,
+          "end": 803,
+          "object": {
+            "type": "Identifier",
+            "start": 787,
+            "end": 793,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 794,
+            "end": 803,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 804,
+            "end": 825,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 804,
+              "end": 817,
+              "object": {
+                "type": "Identifier",
+                "start": 804,
+                "end": 810,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 811,
+                "end": 817,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 818,
+                "end": 824,
+                "value": "////"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 827,
+            "end": 841,
+            "value": "\\/\\/\\/\\/"
+          },
+          {
+            "type": "Literal",
+            "start": 843,
+            "end": 908,
+            "value": "solidus character is escaped correctly - multiple occurrences 3"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

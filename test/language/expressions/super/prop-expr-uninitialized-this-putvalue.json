@@ -1,0 +1,238 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 730,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 516,
+      "end": 600,
+      "id": {
+        "type": "Identifier",
+        "start": 522,
+        "end": 526,
+        "name": "Base"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 527,
+        "end": 600,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 531,
+            "end": 598,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 531,
+              "end": 542,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 542,
+              "end": 598,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 545,
+                "end": 598,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 551,
+                    "end": 594,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 557,
+                      "end": 593,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 561,
+                        "end": 573,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 574,
+                          "end": 592,
+                          "value": "base constructor"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 602,
+      "end": 678,
+      "id": {
+        "type": "Identifier",
+        "start": 608,
+        "end": 615,
+        "name": "Derived"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 624,
+        "end": 628,
+        "name": "Base"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 629,
+        "end": 678,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 633,
+            "end": 676,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 633,
+              "end": 644,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 644,
+              "end": 676,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 647,
+                "end": 676,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 653,
+                    "end": 672,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 653,
+                      "end": 671,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 653,
+                        "end": 667,
+                        "object": {
+                          "type": "Super",
+                          "start": 653,
+                          "end": 658
+                        },
+                        "property": {
+                          "type": "CallExpression",
+                          "start": 659,
+                          "end": 666,
+                          "callee": {
+                            "type": "Super",
+                            "start": 659,
+                            "end": 664
+                          },
+                          "arguments": [],
+                          "optional": false
+                        },
+                        "computed": true,
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 670,
+                        "end": 671,
+                        "value": 0
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 680,
+      "end": 729,
+      "expression": {
+        "type": "CallExpression",
+        "start": 680,
+        "end": 728,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 680,
+          "end": 693,
+          "object": {
+            "type": "Identifier",
+            "start": 680,
+            "end": 686,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 687,
+            "end": 693,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 694,
+            "end": 708,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 710,
+            "end": 727,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "NewExpression",
+              "start": 716,
+              "end": 727,
+              "callee": {
+                "type": "Identifier",
+                "start": 720,
+                "end": 727,
+                "name": "Derived"
+              },
+              "arguments": []
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,648 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1141,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 318,
+      "end": 382,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 322,
+          "end": 381,
+          "id": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 325,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 328,
+            "end": 381,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 332,
+              "end": 354,
+              "object": {
+                "type": "Identifier",
+                "start": 332,
+                "end": 340,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 354,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 355,
+                "end": 357,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 359,
+                "end": 380,
+                "value": "America/Los_Angeles"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ForStatement",
+      "start": 383,
+      "end": 712,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 388,
+        "end": 401,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 392,
+            "end": 401,
+            "id": {
+              "type": "Identifier",
+              "start": 392,
+              "end": 397,
+              "name": "count"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 400,
+              "end": 401,
+              "value": 0
+            }
+          }
+        ],
+        "kind": "let"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 403,
+        "end": 412,
+        "left": {
+          "type": "Identifier",
+          "start": 403,
+          "end": 408,
+          "name": "count"
+        },
+        "operator": "<",
+        "right": {
+          "type": "Literal",
+          "start": 411,
+          "end": 412,
+          "value": 4
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 414,
+        "end": 421,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 414,
+          "end": 419,
+          "name": "count"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 423,
+        "end": 712,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 427,
+            "end": 480,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 433,
+                "end": 479,
+                "id": {
+                  "type": "Identifier",
+                  "start": 433,
+                  "end": 443,
+                  "name": "transition"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 446,
+                  "end": 479,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 446,
+                    "end": 471,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 446,
+                      "end": 449,
+                      "name": "zdt"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 450,
+                      "end": 471,
+                      "name": "getTimeZoneTransition"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 472,
+                      "end": 478,
+                      "value": "next"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 483,
+            "end": 598,
+            "expression": {
+              "type": "CallExpression",
+              "start": 483,
+              "end": 597,
+              "callee": {
+                "type": "Identifier",
+                "start": 483,
+                "end": 489,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 490,
+                  "end": 534,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 490,
+                    "end": 500,
+                    "name": "transition"
+                  },
+                  "operator": "instanceof",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 512,
+                    "end": 534,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 512,
+                      "end": 520,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 521,
+                      "end": 534,
+                      "name": "ZonedDateTime"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 536,
+                  "end": 596,
+                  "value": "getTimeZoneTransition(next) returns Temporal.ZonedDateTime"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 601,
+            "end": 690,
+            "expression": {
+              "type": "CallExpression",
+              "start": 601,
+              "end": 689,
+              "callee": {
+                "type": "Identifier",
+                "start": 601,
+                "end": 607,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 608,
+                  "end": 631,
+                  "operator": "!",
+                  "prefix": true,
+                  "argument": {
+                    "type": "CallExpression",
+                    "start": 609,
+                    "end": 631,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 609,
+                      "end": 626,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 609,
+                        "end": 619,
+                        "name": "transition"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 620,
+                        "end": 626,
+                        "name": "equals"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 627,
+                        "end": 630,
+                        "name": "zdt"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 633,
+                  "end": 688,
+                  "value": "getTimeZoneTransition(next) does not return its input"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 693,
+            "end": 710,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 693,
+              "end": 709,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 693,
+                "end": 696,
+                "name": "zdt"
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 699,
+                "end": 709,
+                "name": "transition"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 714,
+      "end": 798,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 714,
+        "end": 797,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 714,
+          "end": 717,
+          "name": "zdt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 720,
+          "end": 797,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 724,
+            "end": 746,
+            "object": {
+              "type": "Identifier",
+              "start": 724,
+              "end": 732,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 733,
+              "end": 746,
+              "name": "ZonedDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 747,
+              "end": 773,
+              "value": "1000000000000000000n"
+            },
+            {
+              "type": "Literal",
+              "start": 775,
+              "end": 796,
+              "value": "America/Los_Angeles"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ForStatement",
+      "start": 799,
+      "end": 1140,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 804,
+        "end": 817,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 808,
+            "end": 817,
+            "id": {
+              "type": "Identifier",
+              "start": 808,
+              "end": 813,
+              "name": "count"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 816,
+              "end": 817,
+              "value": 0
+            }
+          }
+        ],
+        "kind": "let"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 819,
+        "end": 828,
+        "left": {
+          "type": "Identifier",
+          "start": 819,
+          "end": 824,
+          "name": "count"
+        },
+        "operator": "<",
+        "right": {
+          "type": "Literal",
+          "start": 827,
+          "end": 828,
+          "value": 4
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 830,
+        "end": 837,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 830,
+          "end": 835,
+          "name": "count"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 839,
+        "end": 1140,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 843,
+            "end": 900,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 849,
+                "end": 899,
+                "id": {
+                  "type": "Identifier",
+                  "start": 849,
+                  "end": 859,
+                  "name": "transition"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 862,
+                  "end": 899,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 862,
+                    "end": 887,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 862,
+                      "end": 865,
+                      "name": "zdt"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 866,
+                      "end": 887,
+                      "name": "getTimeZoneTransition"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 888,
+                      "end": 898,
+                      "value": "previous"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 903,
+            "end": 1022,
+            "expression": {
+              "type": "CallExpression",
+              "start": 903,
+              "end": 1021,
+              "callee": {
+                "type": "Identifier",
+                "start": 903,
+                "end": 909,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 910,
+                  "end": 954,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 910,
+                    "end": 920,
+                    "name": "transition"
+                  },
+                  "operator": "instanceof",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 932,
+                    "end": 954,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 932,
+                      "end": 940,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 941,
+                      "end": 954,
+                      "name": "ZonedDateTime"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 956,
+                  "end": 1020,
+                  "value": "getTimeZoneTransition(previous) returns Temporal.ZonedDateTime"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1025,
+            "end": 1118,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1025,
+              "end": 1117,
+              "callee": {
+                "type": "Identifier",
+                "start": 1025,
+                "end": 1031,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 1032,
+                  "end": 1055,
+                  "operator": "!",
+                  "prefix": true,
+                  "argument": {
+                    "type": "CallExpression",
+                    "start": 1033,
+                    "end": 1055,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1033,
+                      "end": 1050,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1033,
+                        "end": 1043,
+                        "name": "transition"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1044,
+                        "end": 1050,
+                        "name": "equals"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1051,
+                        "end": 1054,
+                        "name": "zdt"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 1057,
+                  "end": 1116,
+                  "value": "getTimeZoneTransition(previous) does not return its input"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1121,
+            "end": 1138,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1121,
+              "end": 1137,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 1121,
+                "end": 1124,
+                "name": "zdt"
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 1127,
+                "end": 1137,
+                "name": "transition"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

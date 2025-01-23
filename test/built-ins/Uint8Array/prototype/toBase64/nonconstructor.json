@@ -1,0 +1,209 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 567,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 350,
+      "end": 458,
+      "expression": {
+        "type": "CallExpression",
+        "start": 350,
+        "end": 457,
+        "callee": {
+          "type": "Identifier",
+          "start": 350,
+          "end": 356,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 357,
+            "end": 402,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 358,
+              "end": 402,
+              "callee": {
+                "type": "Identifier",
+                "start": 358,
+                "end": 371,
+                "name": "isConstructor"
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 372,
+                  "end": 401,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 372,
+                    "end": 392,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 372,
+                      "end": 382,
+                      "name": "Uint8Array"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 383,
+                      "end": 392,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 393,
+                    "end": 401,
+                    "name": "toBase64"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 404,
+            "end": 456,
+            "value": "Uint8Array.prototype.toBase64 is not a constructor"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 460,
+      "end": 495,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 464,
+          "end": 494,
+          "id": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 474,
+            "name": "uint8Array"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 477,
+            "end": 494,
+            "callee": {
+              "type": "Identifier",
+              "start": 481,
+              "end": 491,
+              "name": "Uint8Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 492,
+                "end": 493,
+                "value": 8
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 496,
+      "end": 566,
+      "expression": {
+        "type": "CallExpression",
+        "start": 496,
+        "end": 565,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 496,
+          "end": 509,
+          "object": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 502,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 509,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 510,
+            "end": 519,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 521,
+            "end": 564,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 532,
+              "end": 564,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 536,
+                  "end": 562,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 536,
+                    "end": 561,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 540,
+                      "end": 559,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 540,
+                        "end": 550,
+                        "name": "uint8Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 551,
+                        "end": 559,
+                        "name": "toBase64"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

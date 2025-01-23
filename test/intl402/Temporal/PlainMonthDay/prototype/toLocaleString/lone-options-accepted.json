@@ -1,0 +1,446 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 859,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 309,
+      "end": 340,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 315,
+          "end": 339,
+          "id": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 322,
+            "name": "epochMs"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 325,
+            "end": 339,
+            "value": 1735213600321
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 370,
+      "end": 407,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 376,
+          "end": 406,
+          "id": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 386,
+            "name": "legacyDate"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 389,
+            "end": 406,
+            "callee": {
+              "type": "Identifier",
+              "start": 393,
+              "end": 397,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 398,
+                "end": 405,
+                "name": "epochMs"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 408,
+      "end": 465,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 414,
+          "end": 464,
+          "id": {
+            "type": "Identifier",
+            "start": 414,
+            "end": 427,
+            "name": "plainMonthDay"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 430,
+            "end": 464,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 434,
+              "end": 456,
+              "object": {
+                "type": "Identifier",
+                "start": 434,
+                "end": 442,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 443,
+                "end": 456,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 457,
+                "end": 459,
+                "value": 12
+              },
+              {
+                "type": "Literal",
+                "start": 461,
+                "end": 463,
+                "value": 26
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 467,
+      "end": 858,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 472,
+        "end": 485,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 478,
+            "end": 485,
+            "id": {
+              "type": "Identifier",
+              "start": 478,
+              "end": 485,
+              "name": "options"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 489,
+        "end": 539,
+        "elements": [
+          {
+            "type": "ObjectExpression",
+            "start": 493,
+            "end": 512,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 495,
+                "end": 510,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 495,
+                  "end": 502,
+                  "value": "month"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 504,
+                  "end": 510,
+                  "value": "long"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 516,
+            "end": 536,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 518,
+                "end": 534,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 518,
+                  "end": 523,
+                  "value": "day"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 525,
+                  "end": 534,
+                  "value": "numeric"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 541,
+        "end": 858,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 545,
+            "end": 630,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 551,
+                "end": 629,
+                "id": {
+                  "type": "Identifier",
+                  "start": 551,
+                  "end": 570,
+                  "name": "plainMonthDayResult"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 573,
+                  "end": 629,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 573,
+                    "end": 601,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 573,
+                      "end": 586,
+                      "name": "plainMonthDay"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 587,
+                      "end": 601,
+                      "name": "toLocaleString"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 602,
+                      "end": 619,
+                      "value": "en-u-ca-iso8601"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 621,
+                      "end": 628,
+                      "name": "options"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 633,
+            "end": 712,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 639,
+                "end": 711,
+                "id": {
+                  "type": "Identifier",
+                  "start": 639,
+                  "end": 655,
+                  "name": "legacyDateResult"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 658,
+                  "end": 711,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 658,
+                    "end": 683,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 658,
+                      "end": 668,
+                      "name": "legacyDate"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 669,
+                      "end": 683,
+                      "name": "toLocaleString"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 684,
+                      "end": 701,
+                      "value": "en-u-ca-iso8601"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 703,
+                      "end": 710,
+                      "name": "options"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 715,
+            "end": 856,
+            "expression": {
+              "type": "CallExpression",
+              "start": 715,
+              "end": 855,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 715,
+                "end": 731,
+                "object": {
+                  "type": "Identifier",
+                  "start": 715,
+                  "end": 721,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 722,
+                  "end": 731,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 732,
+                  "end": 751,
+                  "name": "plainMonthDayResult"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 753,
+                  "end": 769,
+                  "name": "legacyDateResult"
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 771,
+                  "end": 854,
+                  "expressions": [
+                    {
+                      "type": "CallExpression",
+                      "start": 829,
+                      "end": 852,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 829,
+                        "end": 843,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 829,
+                          "end": 833,
+                          "name": "JSON"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 834,
+                          "end": 843,
+                          "name": "stringify"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 844,
+                          "end": 851,
+                          "name": "options"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 772,
+                      "end": 827,
+                      "value": {
+                        "raw": "PlainMonthDay.toLocaleString should format lone option ",
+                        "cooked": "PlainMonthDay.toLocaleString should format lone option "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 853,
+                      "end": 853,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

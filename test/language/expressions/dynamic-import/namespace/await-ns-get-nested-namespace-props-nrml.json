@@ -155,7 +155,8 @@
                       "start": 4861,
                       "end": 4909,
                       "value": "./get-nested-namespace-props-nrml-1_FIXTURE.js"
-                    }
+                    },
+                    "options": null
                   }
                 }
               }

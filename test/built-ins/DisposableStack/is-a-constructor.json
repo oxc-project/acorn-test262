@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 878,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 748,
+      "end": 854,
+      "expression": {
+        "type": "CallExpression",
+        "start": 748,
+        "end": 853,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 748,
+          "end": 764,
+          "object": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 754,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 755,
+            "end": 764,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 765,
+            "end": 795,
+            "callee": {
+              "type": "Identifier",
+              "start": 765,
+              "end": 778,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 779,
+                "end": 794,
+                "name": "DisposableStack"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 797,
+            "end": 801,
+            "value": true
+          },
+          {
+            "type": "Literal",
+            "start": 803,
+            "end": 852,
+            "value": "isConstructor(DisposableStack) must return true"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 855,
+      "end": 877,
+      "expression": {
+        "type": "NewExpression",
+        "start": 855,
+        "end": 876,
+        "callee": {
+          "type": "Identifier",
+          "start": 859,
+          "end": 874,
+          "name": "DisposableStack"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

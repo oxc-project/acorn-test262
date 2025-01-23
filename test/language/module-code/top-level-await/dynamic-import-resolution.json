@@ -32,7 +32,8 @@
                   "start": 1882,
                   "end": 1921,
                   "value": "./module-import-resolution_FIXTURE.js"
-                }
+                },
+                "options": null
               },
               "property": {
                 "type": "Identifier",

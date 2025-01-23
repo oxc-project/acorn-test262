@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 874,
+  "end": 836,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -83,11 +83,11 @@
     {
       "type": "ExpressionStatement",
       "start": 779,
-      "end": 872,
+      "end": 834,
       "expression": {
         "type": "CallExpression",
         "start": 779,
-        "end": 871,
+        "end": 833,
         "callee": {
           "type": "MemberExpression",
           "start": 779,
@@ -160,12 +160,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 834,
-            "end": 870,
-            "value": "`new Math.tanh()` throws TypeError"
           }
         ],
         "optional": false

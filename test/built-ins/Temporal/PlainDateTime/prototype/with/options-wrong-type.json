@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 591,
+  "end": 721,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -138,7 +138,7 @@
     {
       "type": "ForOfStatement",
       "start": 431,
-      "end": 589,
+      "end": 719,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
@@ -169,7 +169,7 @@
       "body": {
         "type": "BlockStatement",
         "start": 463,
-        "end": 589,
+        "end": 719,
         "body": [
           {
             "type": "ExpressionStatement",
@@ -321,14 +321,136 @@
               ],
               "optional": false
             }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 590,
+            "end": 717,
+            "expression": {
+              "type": "CallExpression",
+              "start": 590,
+              "end": 716,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 590,
+                "end": 603,
+                "object": {
+                  "type": "Identifier",
+                  "start": 590,
+                  "end": 596,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 597,
+                  "end": 603,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 604,
+                  "end": 614,
+                  "name": "RangeError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 616,
+                  "end": 655,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 622,
+                    "end": 655,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 622,
+                      "end": 635,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 622,
+                        "end": 630,
+                        "name": "instance"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 631,
+                        "end": 635,
+                        "name": "with"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 636,
+                        "end": 647,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 638,
+                            "end": 645,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 638,
+                              "end": 641,
+                              "name": "day"
+                            },
+                            "value": {
+                              "type": "UnaryExpression",
+                              "start": 643,
+                              "end": 645,
+                              "operator": "-",
+                              "prefix": true,
+                              "argument": {
+                                "type": "Literal",
+                                "start": 644,
+                                "end": 645,
+                                "value": 1
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 649,
+                        "end": 654,
+                        "name": "value"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 661,
+                  "end": 715,
+                  "value": "Partial datetime processed before throwing TypeError"
+                }
+              ],
+              "optional": false
+            }
           }
         ]
       }
     },
     {
       "type": "EmptyStatement",
-      "start": 589,
-      "end": 590
+      "start": 719,
+      "end": 720
     }
   ],
   "sourceType": "script"

@@ -1,38 +1,57 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 985,
+  "end": 1007,
   "body": [
     {
+      "type": "ExpressionStatement",
+      "start": 915,
+      "end": 932,
+      "expression": {
+        "type": "CallExpression",
+        "start": 915,
+        "end": 931,
+        "callee": {
+          "type": "Identifier",
+          "start": 915,
+          "end": 929,
+          "name": "$DONOTEVALUATE"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
       "type": "ExportNamedDeclaration",
-      "start": 912,
-      "end": 984,
+      "start": 934,
+      "end": 1006,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 921,
-          "end": 928,
+          "start": 943,
+          "end": 950,
           "local": {
             "type": "Identifier",
-            "start": 921,
-            "end": 928,
+            "start": 943,
+            "end": 950,
             "name": "default"
           },
           "exported": {
             "type": "Identifier",
-            "start": 921,
-            "end": 928,
+            "start": 943,
+            "end": 950,
             "name": "default"
           }
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 936,
-        "end": 983,
+        "start": 958,
+        "end": 1005,
         "value": "./instn-iee-err-dflt-thru-star-int_FIXTURE.js"
-      }
+      },
+      "attributes": []
     }
   ],
   "sourceType": "module"

@@ -97,7 +97,8 @@
                         "start": 1498,
                         "end": 1524,
                         "value": "./script-code_FIXTURE.js"
-                      }
+                      },
+                      "options": null
                     },
                     "property": {
                       "type": "Identifier",

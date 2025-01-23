@@ -1,0 +1,130 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 393,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 276,
+      "end": 392,
+      "expression": {
+        "type": "CallExpression",
+        "start": 276,
+        "end": 391,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 276,
+          "end": 289,
+          "object": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 282,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 283,
+            "end": 289,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 290,
+            "end": 300,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 302,
+            "end": 390,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 308,
+              "end": 390,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 308,
+                "end": 335,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 308,
+                  "end": 330,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 308,
+                    "end": 316,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 317,
+                    "end": 330,
+                    "name": "ZonedDateTime"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 331,
+                  "end": 335,
+                  "name": "from"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 336,
+                  "end": 362,
+                  "value": "2020-13-34T24:60[-08:00]"
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 364,
+                  "end": 389,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 366,
+                      "end": 387,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 366,
+                        "end": 374,
+                        "name": "overflow"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 376,
+                        "end": 387,
+                        "value": "constrain"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2141,
+  "end": 2098,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 1938,
-      "end": 2140,
+      "end": 2097,
       "expression": {
         "type": "CallExpression",
         "start": 1938,
-        "end": 2139,
+        "end": 2096,
         "callee": {
           "type": "Identifier",
           "start": 1938,
@@ -21,7 +21,7 @@
           {
             "type": "FunctionExpression",
             "start": 1975,
-            "end": 2138,
+            "end": 2095,
             "id": null,
             "expression": false,
             "generator": false,
@@ -37,7 +37,7 @@
             "body": {
               "type": "BlockStatement",
               "start": 1988,
-              "end": 2138,
+              "end": 2095,
               "body": [
                 {
                   "type": "VariableDeclaration",
@@ -80,11 +80,11 @@
                 {
                   "type": "ExpressionStatement",
                   "start": 2023,
-                  "end": 2135,
+                  "end": 2092,
                   "expression": {
                     "type": "CallExpression",
                     "start": 2023,
-                    "end": 2134,
+                    "end": 2091,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 2023,
@@ -163,12 +163,6 @@
                             }
                           ]
                         }
-                      },
-                      {
-                        "type": "Literal",
-                        "start": 2092,
-                        "end": 2133,
-                        "value": "`typedArray[0] = null` throws TypeError"
                       }
                     ],
                     "optional": false

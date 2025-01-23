@@ -1,0 +1,573 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1034,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 400,
+      "end": 482,
+      "expression": {
+        "type": "CallExpression",
+        "start": 400,
+        "end": 481,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 400,
+          "end": 416,
+          "object": {
+            "type": "Identifier",
+            "start": 400,
+            "end": 406,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 407,
+            "end": 416,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 417,
+            "end": 437,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 424,
+              "end": 437,
+              "object": {
+                "type": "Identifier",
+                "start": 424,
+                "end": 430,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 431,
+                "end": 437,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 439,
+            "end": 449,
+            "value": "function"
+          },
+          {
+            "type": "Literal",
+            "start": 451,
+            "end": 480,
+            "value": "RegExp.escape is a function"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 484,
+      "end": 592,
+      "expression": {
+        "type": "CallExpression",
+        "start": 484,
+        "end": 591,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 484,
+          "end": 497,
+          "object": {
+            "type": "Identifier",
+            "start": 484,
+            "end": 490,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 491,
+            "end": 497,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 498,
+            "end": 507,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 509,
+            "end": 544,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 521,
+              "end": 544,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 523,
+                  "end": 542,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 523,
+                    "end": 541,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 523,
+                      "end": 536,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 523,
+                        "end": 529,
+                        "name": "RegExp"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 530,
+                        "end": 536,
+                        "name": "escape"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 537,
+                        "end": 540,
+                        "value": 123
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 546,
+            "end": 590,
+            "value": "non-string input (number) throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 593,
+      "end": 700,
+      "expression": {
+        "type": "CallExpression",
+        "start": 593,
+        "end": 699,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 593,
+          "end": 606,
+          "object": {
+            "type": "Identifier",
+            "start": 593,
+            "end": 599,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 600,
+            "end": 606,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 607,
+            "end": 616,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 618,
+            "end": 652,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 630,
+              "end": 652,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 632,
+                  "end": 650,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 632,
+                    "end": 649,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 632,
+                      "end": 645,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 632,
+                        "end": 638,
+                        "name": "RegExp"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 639,
+                        "end": 645,
+                        "name": "escape"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 646,
+                        "end": 648,
+                        "properties": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 654,
+            "end": 698,
+            "value": "non-string input (object) throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 701,
+      "end": 807,
+      "expression": {
+        "type": "CallExpression",
+        "start": 701,
+        "end": 806,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 701,
+          "end": 714,
+          "object": {
+            "type": "Identifier",
+            "start": 701,
+            "end": 707,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 714,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 715,
+            "end": 724,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 726,
+            "end": 760,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 738,
+              "end": 760,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 740,
+                  "end": 758,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 740,
+                    "end": 757,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 740,
+                      "end": 753,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 740,
+                        "end": 746,
+                        "name": "RegExp"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 747,
+                        "end": 753,
+                        "name": "escape"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrayExpression",
+                        "start": 754,
+                        "end": 756,
+                        "elements": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 762,
+            "end": 805,
+            "value": "non-string input (array) throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 808,
+      "end": 915,
+      "expression": {
+        "type": "CallExpression",
+        "start": 808,
+        "end": 914,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 808,
+          "end": 821,
+          "object": {
+            "type": "Identifier",
+            "start": 808,
+            "end": 814,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 815,
+            "end": 821,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 822,
+            "end": 831,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 833,
+            "end": 869,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 845,
+              "end": 869,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 847,
+                  "end": 867,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 847,
+                    "end": 866,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 847,
+                      "end": 860,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 847,
+                        "end": 853,
+                        "name": "RegExp"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 854,
+                        "end": 860,
+                        "name": "escape"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 861,
+                        "end": 865,
+                        "value": null
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 871,
+            "end": 913,
+            "value": "non-string input (null) throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 916,
+      "end": 1033,
+      "expression": {
+        "type": "CallExpression",
+        "start": 916,
+        "end": 1032,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 916,
+          "end": 929,
+          "object": {
+            "type": "Identifier",
+            "start": 916,
+            "end": 922,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 923,
+            "end": 929,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 930,
+            "end": 939,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 941,
+            "end": 982,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 953,
+              "end": 982,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 955,
+                  "end": 980,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 955,
+                    "end": 979,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 955,
+                      "end": 968,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 955,
+                        "end": 961,
+                        "name": "RegExp"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 962,
+                        "end": 968,
+                        "name": "escape"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 969,
+                        "end": 978,
+                        "name": "undefined"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 984,
+            "end": 1031,
+            "value": "non-string input (undefined) throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

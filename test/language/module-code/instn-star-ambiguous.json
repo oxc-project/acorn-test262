@@ -25,7 +25,8 @@
         "start": 1170,
         "end": 1205,
         "value": "./instn-star-ambiguous_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

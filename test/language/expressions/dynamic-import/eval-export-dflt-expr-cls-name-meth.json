@@ -106,7 +106,8 @@
                       "start": 1215,
                       "end": 1257,
                       "value": "./eval-export-dflt-expr-cls-name-meth.js"
-                    }
+                    },
+                    "options": null
                   },
                   "property": {
                     "type": "Identifier",

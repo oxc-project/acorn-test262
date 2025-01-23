@@ -25,7 +25,8 @@
         "start": 634,
         "end": 674,
         "value": "./get-own-property-str-found-uninit.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -1083,7 +1084,8 @@
         "start": 1839,
         "end": 1879,
         "value": "./get-own-property-str-found-uninit.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

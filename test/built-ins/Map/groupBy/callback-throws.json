@@ -1,0 +1,174 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 655,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 501,
+      "end": 654,
+      "expression": {
+        "type": "CallExpression",
+        "start": 501,
+        "end": 653,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 501,
+          "end": 514,
+          "object": {
+            "type": "Identifier",
+            "start": 501,
+            "end": 507,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 508,
+            "end": 514,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 515,
+            "end": 527,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 529,
+            "end": 652,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 540,
+              "end": 652,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 544,
+                  "end": 562,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 550,
+                      "end": 561,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 550,
+                        "end": 555,
+                        "name": "array"
+                      },
+                      "init": {
+                        "type": "ArrayExpression",
+                        "start": 558,
+                        "end": 561,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 559,
+                            "end": 560,
+                            "value": 1
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 565,
+                  "end": 650,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 565,
+                    "end": 650,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 565,
+                      "end": 576,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 565,
+                        "end": 568,
+                        "name": "Map"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 569,
+                        "end": 576,
+                        "name": "groupBy"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 577,
+                        "end": 582,
+                        "name": "array"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 584,
+                        "end": 649,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 595,
+                          "end": 649,
+                          "body": [
+                            {
+                              "type": "ThrowStatement",
+                              "start": 601,
+                              "end": 645,
+                              "argument": {
+                                "type": "NewExpression",
+                                "start": 607,
+                                "end": 644,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 611,
+                                  "end": 623,
+                                  "name": "Test262Error"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Literal",
+                                    "start": 624,
+                                    "end": 643,
+                                    "value": "throw in callback"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

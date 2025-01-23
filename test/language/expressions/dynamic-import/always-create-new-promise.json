@@ -27,7 +27,8 @@
               "start": 934,
               "end": 970,
               "value": "./dynamic-import-module_FIXTURE.js"
-            }
+            },
+            "options": null
           }
         }
       ],
@@ -57,7 +58,8 @@
               "start": 991,
               "end": 1027,
               "value": "./dynamic-import-module_FIXTURE.js"
-            }
+            },
+            "options": null
           }
         }
       ],

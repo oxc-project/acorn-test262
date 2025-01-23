@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 363,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 294,
+      "end": 362,
+      "expression": {
+        "type": "CallExpression",
+        "start": 294,
+        "end": 361,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 294,
+          "end": 307,
+          "object": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 300,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 301,
+            "end": 307,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 308,
+            "end": 319,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 321,
+            "end": 360,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 332,
+              "end": 360,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 336,
+                  "end": 358,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 336,
+                    "end": 357,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 340,
+                      "end": 346,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 347,
+                        "end": 350,
+                        "value": "."
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 352,
+                        "end": 356,
+                        "value": "uv"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,476 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 853,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 365,
+      "end": 496,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 371,
+          "end": 495,
+          "id": {
+            "type": "Identifier",
+            "start": 371,
+            "end": 380,
+            "name": "dayBefore"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 383,
+            "end": 495,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 383,
+              "end": 410,
+              "object": {
+                "type": "MemberExpression",
+                "start": 383,
+                "end": 405,
+                "object": {
+                  "type": "Identifier",
+                  "start": 383,
+                  "end": 391,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 392,
+                  "end": 405,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 406,
+                "end": 410,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 411,
+                "end": 494,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 415,
+                    "end": 425,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 415,
+                      "end": 419,
+                      "name": "year"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 421,
+                      "end": 425,
+                      "value": 1919
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 429,
+                    "end": 437,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 429,
+                      "end": 434,
+                      "name": "month"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 436,
+                      "end": 437,
+                      "value": 3
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 441,
+                    "end": 448,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 441,
+                      "end": 444,
+                      "name": "day"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 446,
+                      "end": 448,
+                      "value": 30
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 452,
+                    "end": 460,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 452,
+                      "end": 456,
+                      "name": "hour"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 458,
+                      "end": 460,
+                      "value": 12
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 464,
+                    "end": 491,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 464,
+                      "end": 472,
+                      "name": "timeZone"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 474,
+                      "end": 491,
+                      "value": "America/Toronto"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 497,
+      "end": 590,
+      "expression": {
+        "type": "CallExpression",
+        "start": 497,
+        "end": 589,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 497,
+          "end": 513,
+          "object": {
+            "type": "Identifier",
+            "start": 497,
+            "end": 503,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 504,
+            "end": 513,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 514,
+            "end": 534,
+            "object": {
+              "type": "Identifier",
+              "start": 514,
+              "end": 523,
+              "name": "dayBefore"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 524,
+              "end": 534,
+              "name": "hoursInDay"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 536,
+            "end": 540,
+            "value": 23.5
+          },
+          {
+            "type": "Literal",
+            "start": 542,
+            "end": 588,
+            "value": "1919-03-30 had 23.5 hours in America/Toronto"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 629,
+      "end": 759,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 635,
+          "end": 758,
+          "id": {
+            "type": "Identifier",
+            "start": 635,
+            "end": 643,
+            "name": "dayAfter"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 646,
+            "end": 758,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 646,
+              "end": 673,
+              "object": {
+                "type": "MemberExpression",
+                "start": 646,
+                "end": 668,
+                "object": {
+                  "type": "Identifier",
+                  "start": 646,
+                  "end": 654,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 655,
+                  "end": 668,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 669,
+                "end": 673,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 674,
+                "end": 757,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 678,
+                    "end": 688,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 678,
+                      "end": 682,
+                      "name": "year"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 684,
+                      "end": 688,
+                      "value": 1919
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 692,
+                    "end": 700,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 692,
+                      "end": 697,
+                      "name": "month"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 699,
+                      "end": 700,
+                      "value": 3
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 704,
+                    "end": 711,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 704,
+                      "end": 707,
+                      "name": "day"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 709,
+                      "end": 711,
+                      "value": 31
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 715,
+                    "end": 723,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 715,
+                      "end": 719,
+                      "name": "hour"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 721,
+                      "end": 723,
+                      "value": 12
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 727,
+                    "end": 754,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 727,
+                      "end": 735,
+                      "name": "timeZone"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 737,
+                      "end": 754,
+                      "value": "America/Toronto"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 760,
+      "end": 852,
+      "expression": {
+        "type": "CallExpression",
+        "start": 760,
+        "end": 851,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 760,
+          "end": 776,
+          "object": {
+            "type": "Identifier",
+            "start": 760,
+            "end": 766,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 767,
+            "end": 776,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 777,
+            "end": 796,
+            "object": {
+              "type": "Identifier",
+              "start": 777,
+              "end": 785,
+              "name": "dayAfter"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 786,
+              "end": 796,
+              "name": "hoursInDay"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 798,
+            "end": 802,
+            "value": 23.5
+          },
+          {
+            "type": "Literal",
+            "start": 804,
+            "end": 850,
+            "value": "1919-03-31 had 23.5 hours in America/Toronto"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

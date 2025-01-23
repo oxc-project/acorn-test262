@@ -25,7 +25,8 @@
         "start": 724,
         "end": 764,
         "value": "./trap-is-undefined-target-is-proxy.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

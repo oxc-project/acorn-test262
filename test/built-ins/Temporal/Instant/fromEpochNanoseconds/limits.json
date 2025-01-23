@@ -1,0 +1,252 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 682,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 475,
+      "end": 511,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 479,
+          "end": 510,
+          "id": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 484,
+            "name": "limit"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 487,
+            "end": 510,
+            "value": "8640000000000000000000n"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 513,
+      "end": 597,
+      "expression": {
+        "type": "CallExpression",
+        "start": 513,
+        "end": 596,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 513,
+          "end": 526,
+          "object": {
+            "type": "Identifier",
+            "start": 513,
+            "end": 519,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 520,
+            "end": 526,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 527,
+            "end": 537,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 539,
+            "end": 595,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 545,
+              "end": 595,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 545,
+                "end": 582,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 545,
+                  "end": 561,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 545,
+                    "end": 553,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 554,
+                    "end": 561,
+                    "name": "Instant"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 562,
+                  "end": 582,
+                  "name": "fromEpochNanoseconds"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 583,
+                  "end": 594,
+                  "left": {
+                    "type": "UnaryExpression",
+                    "start": 583,
+                    "end": 589,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 584,
+                      "end": 589,
+                      "name": "limit"
+                    }
+                  },
+                  "operator": "-",
+                  "right": {
+                    "type": "Literal",
+                    "start": 592,
+                    "end": 594,
+                    "value": "1n"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 598,
+      "end": 681,
+      "expression": {
+        "type": "CallExpression",
+        "start": 598,
+        "end": 680,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 598,
+          "end": 611,
+          "object": {
+            "type": "Identifier",
+            "start": 598,
+            "end": 604,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 605,
+            "end": 611,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 612,
+            "end": 622,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 624,
+            "end": 679,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 630,
+              "end": 679,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 630,
+                "end": 667,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 630,
+                  "end": 646,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 630,
+                    "end": 638,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 639,
+                    "end": 646,
+                    "name": "Instant"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 647,
+                  "end": 667,
+                  "name": "fromEpochNanoseconds"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 668,
+                  "end": 678,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 668,
+                    "end": 673,
+                    "name": "limit"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 676,
+                    "end": 678,
+                    "value": "1n"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

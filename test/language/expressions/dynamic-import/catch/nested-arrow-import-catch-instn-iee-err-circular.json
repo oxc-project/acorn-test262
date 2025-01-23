@@ -61,7 +61,8 @@
                               "start": 1702,
                               "end": 1741,
                               "value": "./instn-iee-err-circular-1_FIXTURE.js"
-                            }
+                            },
+                            "options": null
                           },
                           "property": {
                             "type": "Identifier",

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 836,
+  "end": 777,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -157,11 +157,11 @@
     {
       "type": "ExpressionStatement",
       "start": 693,
-      "end": 833,
+      "end": 774,
       "expression": {
         "type": "CallExpression",
         "start": 693,
-        "end": 832,
+        "end": 773,
         "callee": {
           "type": "MemberExpression",
           "start": 693,
@@ -254,12 +254,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 774,
-            "end": 831,
-            "value": "`Atomics.notify(i32a, poisoned, 0)` throws Test262Error"
           }
         ],
         "optional": false

@@ -1012,7 +1012,7 @@
             "type": "Literal",
             "start": 1075,
             "end": 1079,
-            "value": "1T"
+            "value": "1K"
           },
           {
             "type": "Literal",
@@ -1089,7 +1089,7 @@
             "type": "Literal",
             "start": 1140,
             "end": 1145,
-            "value": "10T"
+            "value": "10K"
           },
           {
             "type": "Literal",

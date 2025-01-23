@@ -25,7 +25,8 @@
         "start": 761,
         "end": 809,
         "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

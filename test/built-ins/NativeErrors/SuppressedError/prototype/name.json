@@ -1,0 +1,143 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 766,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 622,
+      "end": 765,
+      "expression": {
+        "type": "CallExpression",
+        "start": 622,
+        "end": 764,
+        "callee": {
+          "type": "Identifier",
+          "start": 622,
+          "end": 636,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 637,
+            "end": 662,
+            "object": {
+              "type": "Identifier",
+              "start": 637,
+              "end": 652,
+              "name": "SuppressedError"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 653,
+              "end": 662,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 664,
+            "end": 670,
+            "value": "name"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 672,
+            "end": 763,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 676,
+                "end": 700,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 676,
+                  "end": 681,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 683,
+                  "end": 700,
+                  "value": "SuppressedError"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 704,
+                "end": 721,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 704,
+                  "end": 714,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 716,
+                  "end": 721,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 725,
+                "end": 739,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 725,
+                  "end": 733,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 735,
+                  "end": 739,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 743,
+                "end": 761,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 743,
+                  "end": 755,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 757,
+                  "end": 761,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,218 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 773,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 562,
+      "end": 772,
+      "expression": {
+        "type": "CallExpression",
+        "start": 562,
+        "end": 771,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 562,
+          "end": 575,
+          "object": {
+            "type": "Identifier",
+            "start": 562,
+            "end": 568,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 569,
+            "end": 575,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 576,
+            "end": 588,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 590,
+            "end": 770,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 602,
+              "end": 770,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 606,
+                  "end": 624,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 612,
+                      "end": 623,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 612,
+                        "end": 617,
+                        "name": "array"
+                      },
+                      "init": {
+                        "type": "ArrayExpression",
+                        "start": 620,
+                        "end": 623,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 621,
+                            "end": 622,
+                            "value": 1
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 627,
+                  "end": 768,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 627,
+                    "end": 768,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 627,
+                      "end": 641,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 627,
+                        "end": 633,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 634,
+                        "end": 641,
+                        "name": "groupBy"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 642,
+                        "end": 647,
+                        "name": "array"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 649,
+                        "end": 767,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 661,
+                          "end": 767,
+                          "body": [
+                            {
+                              "type": "ReturnStatement",
+                              "start": 667,
+                              "end": 763,
+                              "argument": {
+                                "type": "ObjectExpression",
+                                "start": 674,
+                                "end": 762,
+                                "properties": [
+                                  {
+                                    "type": "Property",
+                                    "start": 682,
+                                    "end": 756,
+                                    "method": true,
+                                    "shorthand": false,
+                                    "computed": false,
+                                    "key": {
+                                      "type": "Identifier",
+                                      "start": 682,
+                                      "end": 690,
+                                      "name": "toString"
+                                    },
+                                    "kind": "init",
+                                    "value": {
+                                      "type": "FunctionExpression",
+                                      "start": 690,
+                                      "end": 756,
+                                      "id": null,
+                                      "expression": false,
+                                      "generator": false,
+                                      "async": false,
+                                      "params": [],
+                                      "body": {
+                                        "type": "BlockStatement",
+                                        "start": 693,
+                                        "end": 756,
+                                        "body": [
+                                          {
+                                            "type": "ThrowStatement",
+                                            "start": 703,
+                                            "end": 748,
+                                            "argument": {
+                                              "type": "NewExpression",
+                                              "start": 709,
+                                              "end": 747,
+                                              "callee": {
+                                                "type": "Identifier",
+                                                "start": 713,
+                                                "end": 725,
+                                                "name": "Test262Error"
+                                              },
+                                              "arguments": [
+                                                {
+                                                  "type": "Literal",
+                                                  "start": 726,
+                                                  "end": 746,
+                                                  "value": "not a property key"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

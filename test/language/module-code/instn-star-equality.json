@@ -25,7 +25,8 @@
         "start": 1017,
         "end": 1043,
         "value": "./instn-star-equality.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -49,7 +50,8 @@
         "start": 1068,
         "end": 1094,
         "value": "./instn-star-equality.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -73,7 +75,8 @@
         "start": 1120,
         "end": 1160,
         "value": "./instn-star-equality-other_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -97,7 +100,8 @@
         "start": 1185,
         "end": 1211,
         "value": "./instn-star-equality.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -121,7 +125,8 @@
         "start": 1237,
         "end": 1277,
         "value": "./instn-star-equality-other_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -151,7 +156,8 @@
         "start": 1302,
         "end": 1342,
         "value": "./instn-star-equality-other_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

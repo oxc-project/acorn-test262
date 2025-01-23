@@ -1,0 +1,78 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 316,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 266,
+      "end": 314,
+      "expression": {
+        "type": "CallExpression",
+        "start": 266,
+        "end": 313,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 266,
+          "end": 282,
+          "object": {
+            "type": "Identifier",
+            "start": 266,
+            "end": 272,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 273,
+            "end": 282,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 283,
+            "end": 301,
+            "object": {
+              "type": "MemberExpression",
+              "start": 283,
+              "end": 296,
+              "object": {
+                "type": "Identifier",
+                "start": 283,
+                "end": 288,
+                "name": "Error"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 289,
+                "end": 296,
+                "name": "isError"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 297,
+              "end": 301,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 303,
+            "end": 312,
+            "value": "isError"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

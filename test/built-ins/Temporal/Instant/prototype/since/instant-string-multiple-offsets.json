@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 614,
+  "end": 601,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -57,12 +57,12 @@
     {
       "type": "VariableDeclaration",
       "start": 383,
-      "end": 454,
+      "end": 441,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 389,
-          "end": 453,
+          "end": 440,
           "id": {
             "type": "Identifier",
             "start": 389,
@@ -72,8 +72,8 @@
           "init": {
             "type": "Literal",
             "start": 395,
-            "end": 453,
-            "value": "1970-01-01T00:02:00.000000000+00:02[+00:01:30.987654321]"
+            "end": 440,
+            "value": "1970-01-01T00:02:00.000000000+00:02[+01:30]"
           }
         }
       ],
@@ -81,37 +81,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 456,
-      "end": 491,
+      "start": 443,
+      "end": 478,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 462,
-          "end": 490,
+          "start": 449,
+          "end": 477,
           "id": {
             "type": "Identifier",
-            "start": 462,
-            "end": 468,
+            "start": 449,
+            "end": 455,
             "name": "result"
           },
           "init": {
             "type": "CallExpression",
-            "start": 471,
-            "end": 490,
+            "start": 458,
+            "end": 477,
             "callee": {
               "type": "MemberExpression",
-              "start": 471,
-              "end": 485,
+              "start": 458,
+              "end": 472,
               "object": {
                 "type": "Identifier",
-                "start": 471,
-                "end": 479,
+                "start": 458,
+                "end": 466,
                 "name": "instance"
               },
               "property": {
                 "type": "Identifier",
-                "start": 480,
-                "end": 485,
+                "start": 467,
+                "end": 472,
                 "name": "since"
               },
               "computed": false,
@@ -120,8 +120,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 486,
-                "end": 489,
+                "start": 473,
+                "end": 476,
                 "name": "str"
               }
             ],
@@ -133,26 +133,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 492,
-      "end": 613,
+      "start": 479,
+      "end": 600,
       "expression": {
         "type": "CallExpression",
-        "start": 492,
-        "end": 612,
+        "start": 479,
+        "end": 599,
         "callee": {
           "type": "MemberExpression",
-          "start": 492,
-          "end": 522,
+          "start": 479,
+          "end": 509,
           "object": {
             "type": "Identifier",
-            "start": 492,
-            "end": 507,
+            "start": 479,
+            "end": 494,
             "name": "TemporalHelpers"
           },
           "property": {
             "type": "Identifier",
-            "start": 508,
-            "end": 522,
+            "start": 495,
+            "end": 509,
             "name": "assertDuration"
           },
           "computed": false,
@@ -161,74 +161,74 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 523,
-            "end": 529,
+            "start": 510,
+            "end": 516,
             "name": "result"
           },
           {
             "type": "Literal",
-            "start": 531,
-            "end": 532,
+            "start": 518,
+            "end": 519,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 534,
-            "end": 535,
+            "start": 521,
+            "end": 522,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 537,
-            "end": 538,
+            "start": 524,
+            "end": 525,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 540,
-            "end": 541,
+            "start": 527,
+            "end": 528,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 543,
-            "end": 544,
+            "start": 530,
+            "end": 531,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 546,
-            "end": 547,
+            "start": 533,
+            "end": 534,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 549,
-            "end": 550,
+            "start": 536,
+            "end": 537,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 552,
-            "end": 553,
+            "start": 539,
+            "end": 540,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 555,
-            "end": 556,
+            "start": 542,
+            "end": 543,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 558,
-            "end": 559,
+            "start": 545,
+            "end": 546,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 561,
-            "end": 611,
+            "start": 548,
+            "end": 598,
             "value": "UTC offset determined from offset part of string"
           }
         ],

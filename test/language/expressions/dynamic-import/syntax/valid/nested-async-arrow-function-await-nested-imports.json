@@ -50,9 +50,12 @@
                           "start": 1135,
                           "end": 1155,
                           "value": "./empty_FIXTURE.js"
-                        }
-                      }
-                    }
+                        },
+                        "options": null
+                      },
+                      "options": null
+                    },
+                    "options": null
                   }
                 }
               }

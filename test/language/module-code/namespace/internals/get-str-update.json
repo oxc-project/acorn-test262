@@ -25,7 +25,8 @@
         "start": 468,
         "end": 489,
         "value": "./get-str-update.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -139,7 +140,8 @@
         "start": 599,
         "end": 620,
         "value": "./get-str-update.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 438,
+  "end": 459,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -119,29 +119,57 @@
     {
       "type": "ExpressionStatement",
       "start": 402,
-      "end": 437,
+      "end": 458,
       "expression": {
         "type": "CallExpression",
         "start": 402,
-        "end": 436,
+        "end": 457,
         "callee": {
           "type": "Identifier",
           "start": 402,
-          "end": 419,
-          "name": "verifyNotWritable"
+          "end": 416,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 420,
-            "end": 423,
+            "start": 417,
+            "end": 420,
             "name": "obj"
           },
           {
             "type": "Literal",
-            "start": 425,
-            "end": 435,
+            "start": 422,
+            "end": 432,
             "value": "property"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 434,
+            "end": 456,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 438,
+                "end": 453,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 438,
+                  "end": 446,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 448,
+                  "end": 453,
+                  "value": false
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

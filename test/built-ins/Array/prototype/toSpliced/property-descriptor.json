@@ -1,0 +1,252 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 774,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 551,
+      "end": 624,
+      "expression": {
+        "type": "CallExpression",
+        "start": 551,
+        "end": 623,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 551,
+          "end": 567,
+          "object": {
+            "type": "Identifier",
+            "start": 551,
+            "end": 557,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 558,
+            "end": 567,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 568,
+            "end": 600,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 575,
+              "end": 600,
+              "object": {
+                "type": "MemberExpression",
+                "start": 575,
+                "end": 590,
+                "object": {
+                  "type": "Identifier",
+                  "start": 575,
+                  "end": 580,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 581,
+                  "end": 590,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 591,
+                "end": 600,
+                "name": "toSpliced"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 602,
+            "end": 612,
+            "value": "function"
+          },
+          {
+            "type": "Literal",
+            "start": 614,
+            "end": 622,
+            "value": "typeof"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 626,
+      "end": 773,
+      "expression": {
+        "type": "CallExpression",
+        "start": 626,
+        "end": 772,
+        "callee": {
+          "type": "Identifier",
+          "start": 626,
+          "end": 640,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 641,
+            "end": 656,
+            "object": {
+              "type": "Identifier",
+              "start": 641,
+              "end": 646,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 647,
+              "end": 656,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 658,
+            "end": 669,
+            "value": "toSpliced"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 671,
+            "end": 771,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 675,
+                "end": 707,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 675,
+                  "end": 680,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "MemberExpression",
+                  "start": 682,
+                  "end": 707,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 682,
+                    "end": 697,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 682,
+                      "end": 687,
+                      "name": "Array"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 688,
+                      "end": 697,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 698,
+                    "end": 707,
+                    "name": "toSpliced"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 711,
+                "end": 725,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 711,
+                  "end": 719,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 721,
+                  "end": 725,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 729,
+                "end": 746,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 729,
+                  "end": 739,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 741,
+                  "end": 746,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 750,
+                "end": 768,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 750,
+                  "end": 762,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 764,
+                  "end": 768,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

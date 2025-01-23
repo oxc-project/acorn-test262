@@ -25,7 +25,8 @@
         "start": 864,
         "end": 913,
         "value": "./object-propertyIsEnumerable-binding-uninit.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

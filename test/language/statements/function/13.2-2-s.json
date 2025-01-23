@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 448,
+  "end": 424,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 327,
-      "end": 447,
+      "end": 423,
       "expression": {
         "type": "CallExpression",
         "start": 327,
-        "end": 446,
+        "end": 422,
         "callee": {
           "type": "MemberExpression",
           "start": 327,
@@ -40,7 +40,7 @@
           {
             "type": "FunctionExpression",
             "start": 352,
-            "end": 445,
+            "end": 421,
             "id": null,
             "expression": false,
             "generator": false,
@@ -49,27 +49,27 @@
             "body": {
               "type": "BlockStatement",
               "start": 363,
-              "end": 445,
+              "end": 421,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 377,
-                  "end": 414,
+                  "start": 369,
+                  "end": 398,
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 381,
-                      "end": 414,
+                      "start": 373,
+                      "end": 398,
                       "id": {
                         "type": "Identifier",
-                        "start": 381,
-                        "end": 384,
+                        "start": 373,
+                        "end": 376,
                         "name": "foo"
                       },
                       "init": {
                         "type": "FunctionExpression",
-                        "start": 387,
-                        "end": 414,
+                        "start": 379,
+                        "end": 398,
                         "id": null,
                         "expression": false,
                         "generator": false,
@@ -77,8 +77,8 @@
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 399,
-                          "end": 414,
+                          "start": 391,
+                          "end": 398,
                           "body": []
                         }
                       }
@@ -88,27 +88,27 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 427,
-                  "end": 443,
+                  "start": 403,
+                  "end": 419,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 427,
-                    "end": 442,
+                    "start": 403,
+                    "end": 418,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 427,
-                      "end": 437,
+                      "start": 403,
+                      "end": 413,
                       "object": {
                         "type": "Identifier",
-                        "start": 427,
-                        "end": 430,
+                        "start": 403,
+                        "end": 406,
                         "name": "foo"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 431,
-                        "end": 437,
+                        "start": 407,
+                        "end": 413,
                         "name": "caller"
                       },
                       "computed": false,
@@ -116,8 +116,8 @@
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 440,
-                      "end": 442,
+                      "start": 416,
+                      "end": 418,
                       "value": 20
                     }
                   }

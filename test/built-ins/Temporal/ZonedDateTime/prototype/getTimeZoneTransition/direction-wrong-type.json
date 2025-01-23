@@ -1,0 +1,386 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 766,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 380,
+      "end": 430,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 386,
+          "end": 429,
+          "id": {
+            "type": "Identifier",
+            "start": 386,
+            "end": 389,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 392,
+            "end": 429,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 396,
+              "end": 418,
+              "object": {
+                "type": "Identifier",
+                "start": 396,
+                "end": 404,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 405,
+                "end": 418,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 419,
+                "end": 421,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 423,
+                "end": 428,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 432,
+      "end": 480,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 438,
+          "end": 479,
+          "id": {
+            "type": "Identifier",
+            "start": 438,
+            "end": 454,
+            "name": "rangeErrorValues"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 457,
+            "end": 479,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 458,
+                "end": 463,
+                "value": false
+              },
+              {
+                "type": "Literal",
+                "start": 465,
+                "end": 467,
+                "value": 42
+              },
+              {
+                "type": "Literal",
+                "start": 469,
+                "end": 472,
+                "value": "55n"
+              },
+              {
+                "type": "Literal",
+                "start": 474,
+                "end": 478,
+                "value": null
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 481,
+      "end": 646,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 486,
+        "end": 500,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 492,
+            "end": 500,
+            "id": {
+              "type": "Identifier",
+              "start": 492,
+              "end": 500,
+              "name": "badValue"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 504,
+        "end": 520,
+        "name": "rangeErrorValues"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 522,
+        "end": 646,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 526,
+            "end": 644,
+            "expression": {
+              "type": "CallExpression",
+              "start": 526,
+              "end": 643,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 526,
+                "end": 539,
+                "object": {
+                  "type": "Identifier",
+                  "start": 526,
+                  "end": 532,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 533,
+                  "end": 539,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 540,
+                  "end": 550,
+                  "name": "RangeError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 552,
+                  "end": 608,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 558,
+                    "end": 608,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 558,
+                      "end": 583,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 558,
+                        "end": 561,
+                        "name": "zdt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 562,
+                        "end": 583,
+                        "name": "getTimeZoneTransition"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 584,
+                        "end": 607,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 586,
+                            "end": 605,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 586,
+                              "end": 595,
+                              "name": "direction"
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "start": 597,
+                              "end": 605,
+                              "name": "badValue"
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 610,
+                  "end": 642,
+                  "value": "Non-Symbol throws a RangeError"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 647,
+      "end": 765,
+      "expression": {
+        "type": "CallExpression",
+        "start": 647,
+        "end": 764,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 647,
+          "end": 660,
+          "object": {
+            "type": "Identifier",
+            "start": 647,
+            "end": 653,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 654,
+            "end": 660,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 661,
+            "end": 670,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 672,
+            "end": 734,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 678,
+              "end": 734,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 678,
+                "end": 703,
+                "object": {
+                  "type": "Identifier",
+                  "start": 678,
+                  "end": 681,
+                  "name": "zdt"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 682,
+                  "end": 703,
+                  "name": "getTimeZoneTransition"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 704,
+                  "end": 733,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 706,
+                      "end": 731,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 706,
+                        "end": 715,
+                        "name": "direction"
+                      },
+                      "value": {
+                        "type": "CallExpression",
+                        "start": 717,
+                        "end": 731,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 717,
+                          "end": 723,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 724,
+                            "end": 730,
+                            "value": "next"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 736,
+            "end": 763,
+            "value": "Symbol throws a TypeError"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

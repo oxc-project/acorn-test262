@@ -25,7 +25,8 @@
         "start": 743,
         "end": 781,
         "value": "./get-own-property-str-found-init.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -139,7 +140,8 @@
         "start": 891,
         "end": 929,
         "value": "./get-own-property-str-found-init.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

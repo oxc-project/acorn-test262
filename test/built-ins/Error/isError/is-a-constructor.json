@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 873,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 703,
+      "end": 807,
+      "expression": {
+        "type": "CallExpression",
+        "start": 703,
+        "end": 806,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 703,
+          "end": 719,
+          "object": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 709,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 719,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 720,
+            "end": 748,
+            "callee": {
+              "type": "Identifier",
+              "start": 720,
+              "end": 733,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 734,
+                "end": 747,
+                "object": {
+                  "type": "Identifier",
+                  "start": 734,
+                  "end": 739,
+                  "name": "Error"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 740,
+                  "end": 747,
+                  "name": "isError"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 750,
+            "end": 755,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 757,
+            "end": 805,
+            "value": "isConstructor(Error.isError) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 808,
+      "end": 871,
+      "expression": {
+        "type": "CallExpression",
+        "start": 808,
+        "end": 870,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 808,
+          "end": 821,
+          "object": {
+            "type": "Identifier",
+            "start": 808,
+            "end": 814,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 815,
+            "end": 821,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 822,
+            "end": 831,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 833,
+            "end": 869,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 845,
+              "end": 869,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 847,
+                  "end": 867,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 847,
+                    "end": 866,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 851,
+                      "end": 864,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 851,
+                        "end": 856,
+                        "name": "Error"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 857,
+                        "end": 864,
+                        "name": "isError"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -25,7 +25,8 @@
         "start": 308,
         "end": 328,
         "value": "./is-extensible.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

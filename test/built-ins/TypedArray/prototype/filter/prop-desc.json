@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 745,
+  "end": 707,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -44,91 +44,99 @@
     {
       "type": "ExpressionStatement",
       "start": 595,
-      "end": 646,
+      "end": 706,
       "expression": {
         "type": "CallExpression",
         "start": 595,
-        "end": 645,
+        "end": 705,
         "callee": {
           "type": "Identifier",
           "start": 595,
-          "end": 614,
-          "name": "verifyNotEnumerable"
+          "end": 609,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 615,
-            "end": 634,
+            "start": 610,
+            "end": 629,
             "name": "TypedArrayPrototype"
           },
           {
             "type": "Literal",
-            "start": 636,
-            "end": 644,
+            "start": 631,
+            "end": 639,
             "value": "filter"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 647,
-      "end": 693,
-      "expression": {
-        "type": "CallExpression",
-        "start": 647,
-        "end": 692,
-        "callee": {
-          "type": "Identifier",
-          "start": 647,
-          "end": 661,
-          "name": "verifyWritable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 662,
-            "end": 681,
-            "name": "TypedArrayPrototype"
           },
           {
-            "type": "Literal",
-            "start": 683,
-            "end": 691,
-            "value": "filter"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 694,
-      "end": 744,
-      "expression": {
-        "type": "CallExpression",
-        "start": 694,
-        "end": 743,
-        "callee": {
-          "type": "Identifier",
-          "start": 694,
-          "end": 712,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 713,
-            "end": 732,
-            "name": "TypedArrayPrototype"
-          },
-          {
-            "type": "Literal",
-            "start": 734,
-            "end": 742,
-            "value": "filter"
+            "type": "ObjectExpression",
+            "start": 641,
+            "end": 704,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 645,
+                "end": 659,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 645,
+                  "end": 653,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 655,
+                  "end": 659,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 663,
+                "end": 680,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 663,
+                  "end": 673,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 675,
+                  "end": 680,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 684,
+                "end": 702,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 684,
+                  "end": 696,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 698,
+                  "end": 702,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

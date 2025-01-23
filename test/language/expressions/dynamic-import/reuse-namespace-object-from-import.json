@@ -25,7 +25,8 @@
         "start": 1169,
         "end": 1195,
         "value": "./module-code_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -85,7 +86,8 @@
                           "start": 1223,
                           "end": 1249,
                           "value": "./module-code_FIXTURE.js"
-                        }
+                        },
+                        "options": null
                       },
                       {
                         "type": "ImportExpression",
@@ -96,7 +98,8 @@
                           "start": 1263,
                           "end": 1289,
                           "value": "./module-code_FIXTURE.js"
-                        }
+                        },
+                        "options": null
                       }
                     ]
                   }

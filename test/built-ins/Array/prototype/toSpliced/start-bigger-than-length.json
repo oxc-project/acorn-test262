@@ -1,0 +1,196 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 804,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 699,
+      "end": 751,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 703,
+          "end": 750,
+          "id": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 709,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 712,
+            "end": 750,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 712,
+              "end": 737,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 712,
+                "end": 727,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 713,
+                    "end": 714,
+                    "value": 0
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 716,
+                    "end": 717,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 719,
+                    "end": 720,
+                    "value": 2
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 722,
+                    "end": 723,
+                    "value": 3
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 725,
+                    "end": 726,
+                    "value": 4
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 728,
+                "end": 737,
+                "name": "toSpliced"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 738,
+                "end": 740,
+                "value": 10
+              },
+              {
+                "type": "Literal",
+                "start": 742,
+                "end": 743,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 745,
+                "end": 746,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 748,
+                "end": 749,
+                "value": 6
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 752,
+      "end": 803,
+      "expression": {
+        "type": "CallExpression",
+        "start": 752,
+        "end": 802,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 752,
+          "end": 771,
+          "object": {
+            "type": "Identifier",
+            "start": 752,
+            "end": 758,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 759,
+            "end": 771,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 772,
+            "end": 778,
+            "name": "result"
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 780,
+            "end": 801,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 781,
+                "end": 782,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 784,
+                "end": 785,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 787,
+                "end": 788,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 790,
+                "end": 791,
+                "value": 3
+              },
+              {
+                "type": "Literal",
+                "start": 793,
+                "end": 794,
+                "value": 4
+              },
+              {
+                "type": "Literal",
+                "start": 796,
+                "end": 797,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 799,
+                "end": 800,
+                "value": 6
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -86,7 +86,8 @@
                     "start": 1003,
                     "end": 1050,
                     "value": "./for-await-resolution-and-error-a_FIXTURE.js"
-                  }
+                  },
+                  "options": null
                 },
                 {
                   "type": "ImportExpression",
@@ -97,7 +98,8 @@
                     "start": 1066,
                     "end": 1113,
                     "value": "./for-await-resolution-and-error-b_FIXTURE.js"
-                  }
+                  },
+                  "options": null
                 },
                 {
                   "type": "ImportExpression",
@@ -108,7 +110,8 @@
                     "start": 1129,
                     "end": 1183,
                     "value": "./for-await-resolution-and-error-poisoned_FIXTURE.js"
-                  }
+                  },
+                  "options": null
                 },
                 {
                   "type": "ImportExpression",
@@ -119,7 +122,8 @@
                     "start": 1199,
                     "end": 1246,
                     "value": "./for-await-resolution-and-error-a_FIXTURE.js"
-                  }
+                  },
+                  "options": null
                 }
               ]
             },

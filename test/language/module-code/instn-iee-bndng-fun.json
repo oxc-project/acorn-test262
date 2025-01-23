@@ -246,7 +246,8 @@
         "start": 1941,
         "end": 1975,
         "value": "./instn-iee-bndng-fun_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 464,
+  "end": 460,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -98,7 +98,7 @@
     {
       "type": "IfStatement",
       "start": 361,
-      "end": 463,
+      "end": 459,
       "test": {
         "type": "LogicalExpression",
         "start": 365,
@@ -187,16 +187,16 @@
       "consequent": {
         "type": "BlockStatement",
         "start": 415,
-        "end": 463,
+        "end": 459,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 425,
-            "end": 461,
+            "start": 421,
+            "end": 457,
             "argument": {
               "type": "Literal",
-              "start": 431,
-              "end": 460,
+              "start": 427,
+              "end": 456,
               "value": "'this' had incorrect value!"
             }
           }

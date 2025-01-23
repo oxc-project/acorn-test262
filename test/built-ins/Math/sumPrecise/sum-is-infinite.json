@@ -1,0 +1,367 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 495,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 242,
+      "end": 298,
+      "expression": {
+        "type": "CallExpression",
+        "start": 242,
+        "end": 297,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 242,
+          "end": 258,
+          "object": {
+            "type": "Identifier",
+            "start": 242,
+            "end": 248,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 249,
+            "end": 258,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 259,
+            "end": 286,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 259,
+              "end": 274,
+              "object": {
+                "type": "Identifier",
+                "start": 259,
+                "end": 263,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 264,
+                "end": 274,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 275,
+                "end": 285,
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "start": 276,
+                    "end": 284,
+                    "name": "Infinity"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 288,
+            "end": 296,
+            "name": "Infinity"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 299,
+      "end": 365,
+      "expression": {
+        "type": "CallExpression",
+        "start": 299,
+        "end": 364,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 299,
+          "end": 315,
+          "object": {
+            "type": "Identifier",
+            "start": 299,
+            "end": 305,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 306,
+            "end": 315,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 316,
+            "end": 353,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 316,
+              "end": 331,
+              "object": {
+                "type": "Identifier",
+                "start": 316,
+                "end": 320,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 321,
+                "end": 331,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 332,
+                "end": 352,
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "start": 333,
+                    "end": 341,
+                    "name": "Infinity"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 343,
+                    "end": 351,
+                    "name": "Infinity"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 355,
+            "end": 363,
+            "name": "Infinity"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 366,
+      "end": 424,
+      "expression": {
+        "type": "CallExpression",
+        "start": 366,
+        "end": 423,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 366,
+          "end": 382,
+          "object": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 372,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 382,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 383,
+            "end": 411,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 383,
+              "end": 398,
+              "object": {
+                "type": "Identifier",
+                "start": 383,
+                "end": 387,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 388,
+                "end": 398,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 399,
+                "end": 410,
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "start": 400,
+                    "end": 409,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 401,
+                      "end": 409,
+                      "name": "Infinity"
+                    }
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 413,
+            "end": 422,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 414,
+              "end": 422,
+              "name": "Infinity"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 425,
+      "end": 494,
+      "expression": {
+        "type": "CallExpression",
+        "start": 425,
+        "end": 493,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 425,
+          "end": 441,
+          "object": {
+            "type": "Identifier",
+            "start": 425,
+            "end": 431,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 441,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 442,
+            "end": 481,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 442,
+              "end": 457,
+              "object": {
+                "type": "Identifier",
+                "start": 442,
+                "end": 446,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 447,
+                "end": 457,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 458,
+                "end": 480,
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "start": 459,
+                    "end": 468,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 460,
+                      "end": 468,
+                      "name": "Infinity"
+                    }
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "start": 470,
+                    "end": 479,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 471,
+                      "end": 479,
+                      "name": "Infinity"
+                    }
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 483,
+            "end": 492,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 484,
+              "end": 492,
+              "name": "Infinity"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

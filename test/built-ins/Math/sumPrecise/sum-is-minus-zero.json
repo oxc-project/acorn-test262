@@ -1,0 +1,374 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 456,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 272,
+      "end": 314,
+      "expression": {
+        "type": "CallExpression",
+        "start": 272,
+        "end": 313,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 272,
+          "end": 288,
+          "object": {
+            "type": "Identifier",
+            "start": 272,
+            "end": 278,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 279,
+            "end": 288,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 289,
+            "end": 308,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 289,
+              "end": 304,
+              "object": {
+                "type": "Identifier",
+                "start": 289,
+                "end": 293,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 294,
+                "end": 304,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 305,
+                "end": 307,
+                "elements": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 310,
+            "end": 312,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 311,
+              "end": 312,
+              "value": 0
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 315,
+      "end": 359,
+      "expression": {
+        "type": "CallExpression",
+        "start": 315,
+        "end": 358,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 315,
+          "end": 331,
+          "object": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 321,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 331,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 332,
+            "end": 353,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 332,
+              "end": 347,
+              "object": {
+                "type": "Identifier",
+                "start": 332,
+                "end": 336,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 337,
+                "end": 347,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 348,
+                "end": 352,
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "start": 349,
+                    "end": 351,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 350,
+                      "end": 351,
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 355,
+            "end": 357,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 356,
+              "end": 357,
+              "value": 0
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 360,
+      "end": 408,
+      "expression": {
+        "type": "CallExpression",
+        "start": 360,
+        "end": 407,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 360,
+          "end": 376,
+          "object": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 366,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 376,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 377,
+            "end": 402,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 377,
+              "end": 392,
+              "object": {
+                "type": "Identifier",
+                "start": 377,
+                "end": 381,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 382,
+                "end": 392,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 393,
+                "end": 401,
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "start": 394,
+                    "end": 396,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 395,
+                      "end": 396,
+                      "value": 0
+                    }
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "start": 398,
+                    "end": 400,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 399,
+                      "end": 400,
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 404,
+            "end": 406,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 405,
+              "end": 406,
+              "value": 0
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 409,
+      "end": 455,
+      "expression": {
+        "type": "CallExpression",
+        "start": 409,
+        "end": 454,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 409,
+          "end": 425,
+          "object": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 415,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 416,
+            "end": 425,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 426,
+            "end": 450,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 426,
+              "end": 441,
+              "object": {
+                "type": "Identifier",
+                "start": 426,
+                "end": 430,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 431,
+                "end": 441,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 442,
+                "end": 449,
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "start": 443,
+                    "end": 445,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 444,
+                      "end": 445,
+                      "value": 0
+                    }
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 447,
+                    "end": 448,
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 452,
+            "end": 453,
+            "value": 0
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

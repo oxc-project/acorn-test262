@@ -31,7 +31,8 @@
         "start": 407,
         "end": 436,
         "value": "./export-expname_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

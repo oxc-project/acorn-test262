@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 365,
+  "end": 435,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -76,88 +76,95 @@
     {
       "type": "ExpressionStatement",
       "start": 291,
-      "end": 364,
+      "end": 434,
       "expression": {
         "type": "CallExpression",
         "start": 291,
-        "end": 363,
+        "end": 433,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 291,
-          "end": 307,
-          "object": {
-            "type": "Identifier",
-            "start": 291,
-            "end": 297,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 298,
-            "end": 307,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 297,
+          "name": "assert"
         },
         "arguments": [
           {
-            "type": "CallExpression",
-            "start": 308,
-            "end": 355,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 308,
-              "end": 334,
-              "object": {
+            "type": "UnaryExpression",
+            "start": 301,
+            "end": 359,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 302,
+              "end": 359,
+              "callee": {
                 "type": "MemberExpression",
-                "start": 308,
-                "end": 329,
+                "start": 302,
+                "end": 338,
                 "object": {
-                  "type": "Identifier",
-                  "start": 308,
-                  "end": 314,
-                  "name": "Object"
+                  "type": "MemberExpression",
+                  "start": 302,
+                  "end": 333,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 302,
+                    "end": 318,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 302,
+                      "end": 308,
+                      "name": "Object"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 309,
+                      "end": 318,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 319,
+                    "end": 333,
+                    "name": "hasOwnProperty"
+                  },
+                  "computed": false,
+                  "optional": false
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 315,
-                  "end": 329,
-                  "name": "hasOwnProperty"
+                  "start": 334,
+                  "end": 338,
+                  "name": "call"
                 },
                 "computed": false,
                 "optional": false
               },
-              "property": {
-                "type": "Identifier",
-                "start": 330,
-                "end": 334,
-                "name": "call"
-              },
-              "computed": false,
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 339,
+                  "end": 345,
+                  "name": "method"
+                },
+                {
+                  "type": "Literal",
+                  "start": 347,
+                  "end": 358,
+                  "value": "prototype"
+                }
+              ],
               "optional": false
-            },
-            "arguments": [
-              {
-                "type": "Identifier",
-                "start": 335,
-                "end": 341,
-                "name": "method"
-              },
-              {
-                "type": "Literal",
-                "start": 343,
-                "end": 354,
-                "value": "prototype"
-              }
-            ],
-            "optional": false
+            }
           },
           {
             "type": "Literal",
-            "start": 357,
-            "end": 362,
-            "value": false
+            "start": 363,
+            "end": 431,
+            "value": "Functions declared as methods do not define a 'prototype' property"
           }
         ],
         "optional": false

@@ -1,0 +1,118 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 434,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 345,
+      "end": 433,
+      "expression": {
+        "type": "CallExpression",
+        "start": 345,
+        "end": 432,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 345,
+          "end": 361,
+          "object": {
+            "type": "Identifier",
+            "start": 345,
+            "end": 351,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 361,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 362,
+            "end": 411,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 362,
+              "end": 383,
+              "object": {
+                "type": "Identifier",
+                "start": 362,
+                "end": 368,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 369,
+                "end": 383,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 384,
+                "end": 410,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 384,
+                  "end": 402,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 384,
+                    "end": 392,
+                    "name": "Iterator"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 393,
+                    "end": 402,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 403,
+                  "end": 410,
+                  "name": "flatMap"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 413,
+            "end": 431,
+            "object": {
+              "type": "Identifier",
+              "start": 413,
+              "end": 421,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 422,
+              "end": 431,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

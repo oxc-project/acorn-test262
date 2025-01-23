@@ -32,7 +32,8 @@
                   "start": 920,
                   "end": 956,
                   "value": "./indirect-resolution-1_FIXTURE.js"
-                }
+                },
+                "options": null
               },
               "property": {
                 "type": "Identifier",

@@ -25,7 +25,8 @@
         "start": 585,
         "end": 622,
         "value": "./get-own-property-str-not-found.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 917,
+  "end": 921,
   "body": [
     {
       "type": "ClassDeclaration",
@@ -60,11 +60,11 @@
     {
       "type": "ExpressionStatement",
       "start": 786,
-      "end": 843,
+      "end": 844,
       "expression": {
         "type": "CallExpression",
         "start": 786,
-        "end": 842,
+        "end": 843,
         "callee": {
           "type": "MemberExpression",
           "start": 786,
@@ -94,7 +94,7 @@
           {
             "type": "FunctionExpression",
             "start": 816,
-            "end": 841,
+            "end": 842,
             "id": null,
             "expression": false,
             "generator": false,
@@ -103,23 +103,30 @@
             "body": {
               "type": "BlockStatement",
               "start": 827,
-              "end": 841,
+              "end": 842,
               "body": [
                 {
                   "type": "ExpressionStatement",
                   "start": 831,
-                  "end": 839,
+                  "end": 840,
                   "expression": {
                     "type": "NewExpression",
                     "start": 831,
-                    "end": 838,
+                    "end": 839,
                     "callee": {
                       "type": "Identifier",
                       "start": 835,
                       "end": 836,
                       "name": "D"
                     },
-                    "arguments": []
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 837,
+                        "end": 838,
+                        "value": 0
+                      }
+                    ]
                   }
                 }
               ]
@@ -131,66 +138,80 @@
     },
     {
       "type": "ClassDeclaration",
-      "start": 845,
-      "end": 905,
+      "start": 846,
+      "end": 908,
       "id": {
         "type": "Identifier",
-        "start": 851,
-        "end": 853,
+        "start": 852,
+        "end": 854,
         "name": "D2"
       },
       "superClass": {
         "type": "Identifier",
-        "start": 862,
-        "end": 866,
+        "start": 863,
+        "end": 867,
         "name": "Date"
       },
       "body": {
         "type": "ClassBody",
-        "start": 867,
-        "end": 905,
+        "start": 868,
+        "end": 908,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 871,
-            "end": 903,
+            "start": 872,
+            "end": 906,
             "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 871,
-              "end": 882,
+              "start": 872,
+              "end": 883,
               "name": "constructor"
             },
             "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
-              "start": 882,
-              "end": 903,
+              "start": 883,
+              "end": 906,
               "id": null,
               "expression": false,
               "generator": false,
               "async": false,
-              "params": [],
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 884,
+                  "end": 885,
+                  "name": "d"
+                }
+              ],
               "body": {
                 "type": "BlockStatement",
-                "start": 885,
-                "end": 903,
+                "start": 887,
+                "end": 906,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 891,
-                    "end": 899,
+                    "start": 893,
+                    "end": 902,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 891,
-                      "end": 898,
+                      "start": 893,
+                      "end": 901,
                       "callee": {
                         "type": "Super",
-                        "start": 891,
-                        "end": 896
+                        "start": 893,
+                        "end": 898
                       },
-                      "arguments": [],
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 899,
+                          "end": 900,
+                          "name": "d"
+                        }
+                      ],
                       "optional": false
                     }
                   }
@@ -203,19 +224,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 907,
-      "end": 916,
+      "start": 910,
+      "end": 920,
       "expression": {
         "type": "NewExpression",
-        "start": 907,
-        "end": 915,
+        "start": 910,
+        "end": 919,
         "callee": {
           "type": "Identifier",
-          "start": 911,
-          "end": 913,
+          "start": 914,
+          "end": 916,
           "name": "D2"
         },
-        "arguments": []
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 917,
+            "end": 918,
+            "value": 0
+          }
+        ]
       }
     }
   ],

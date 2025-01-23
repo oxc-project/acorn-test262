@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 494,
+  "end": 475,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -119,81 +119,57 @@
     {
       "type": "ExpressionStatement",
       "start": 418,
-      "end": 457,
+      "end": 474,
       "expression": {
         "type": "CallExpression",
         "start": 418,
-        "end": 456,
+        "end": 473,
         "callee": {
           "type": "Identifier",
           "start": 418,
-          "end": 424,
-          "name": "assert"
-        },
-        "arguments": [
-          {
-            "type": "CallExpression",
-            "start": 425,
-            "end": 455,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 425,
-              "end": 443,
-              "object": {
-                "type": "Identifier",
-                "start": 425,
-                "end": 428,
-                "name": "obj"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 429,
-                "end": 443,
-                "name": "hasOwnProperty"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 444,
-                "end": 454,
-                "value": "property"
-              }
-            ],
-            "optional": false
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 458,
-      "end": 493,
-      "expression": {
-        "type": "CallExpression",
-        "start": 458,
-        "end": 492,
-        "callee": {
-          "type": "Identifier",
-          "start": 458,
-          "end": 475,
-          "name": "verifyNotWritable"
+          "end": 432,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 476,
-            "end": 479,
+            "start": 433,
+            "end": 436,
             "name": "obj"
           },
           {
             "type": "Literal",
-            "start": 481,
-            "end": 491,
+            "start": 438,
+            "end": 448,
             "value": "property"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 450,
+            "end": 472,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 454,
+                "end": 469,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 454,
+                  "end": 462,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 464,
+                  "end": 469,
+                  "value": false
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

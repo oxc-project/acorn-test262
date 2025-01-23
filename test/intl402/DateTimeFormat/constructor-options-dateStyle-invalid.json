@@ -1,62 +1,62 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 837,
+  "end": 849,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 522,
-      "end": 613,
+      "start": 534,
+      "end": 625,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 528,
-          "end": 612,
+          "start": 540,
+          "end": 624,
           "id": {
             "type": "Identifier",
-            "start": 528,
-            "end": 542,
+            "start": 540,
+            "end": 554,
             "name": "invalidOptions"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 545,
-            "end": 612,
+            "start": 557,
+            "end": 624,
             "elements": [
               {
                 "type": "Literal",
-                "start": 549,
-                "end": 551,
+                "start": 561,
+                "end": 563,
                 "value": ""
               },
               {
                 "type": "Literal",
-                "start": 555,
-                "end": 561,
+                "start": 567,
+                "end": 573,
                 "value": "FULL"
               },
               {
                 "type": "Literal",
-                "start": 565,
-                "end": 572,
-                "value": " long"
-              },
-              {
-                "type": "Literal",
-                "start": 576,
+                "start": 577,
                 "end": 584,
-                "value": "short "
+                "value": " long"
               },
               {
                 "type": "Literal",
                 "start": 588,
                 "end": 596,
-                "value": "narrow"
+                "value": "short "
               },
               {
                 "type": "Literal",
                 "start": 600,
-                "end": 609,
+                "end": 608,
+                "value": "narrow"
+              },
+              {
+                "type": "Literal",
+                "start": 612,
+                "end": 621,
                 "value": "numeric"
               }
             ]
@@ -67,22 +67,22 @@
     },
     {
       "type": "ForOfStatement",
-      "start": 614,
-      "end": 836,
+      "start": 626,
+      "end": 848,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 619,
-        "end": 634,
+        "start": 631,
+        "end": 646,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 625,
-            "end": 634,
+            "start": 637,
+            "end": 646,
             "id": {
               "type": "Identifier",
-              "start": 625,
-              "end": 634,
+              "start": 637,
+              "end": 646,
               "name": "dateStyle"
             },
             "init": null
@@ -92,37 +92,37 @@
       },
       "right": {
         "type": "Identifier",
-        "start": 638,
-        "end": 652,
+        "start": 650,
+        "end": 664,
         "name": "invalidOptions"
       },
       "body": {
         "type": "BlockStatement",
-        "start": 654,
-        "end": 836,
+        "start": 666,
+        "end": 848,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 658,
-            "end": 834,
+            "start": 670,
+            "end": 846,
             "expression": {
               "type": "CallExpression",
-              "start": 658,
-              "end": 833,
+              "start": 670,
+              "end": 845,
               "callee": {
                 "type": "MemberExpression",
-                "start": 658,
-                "end": 671,
+                "start": 670,
+                "end": 683,
                 "object": {
                   "type": "Identifier",
-                  "start": 658,
-                  "end": 664,
+                  "start": 670,
+                  "end": 676,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 665,
-                  "end": 671,
+                  "start": 677,
+                  "end": 683,
                   "name": "throws"
                 },
                 "computed": false,
@@ -131,14 +131,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 672,
-                  "end": 682,
+                  "start": 684,
+                  "end": 694,
                   "name": "RangeError"
                 },
                 {
                   "type": "FunctionExpression",
-                  "start": 684,
-                  "end": 750,
+                  "start": 696,
+                  "end": 762,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -146,31 +146,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 695,
-                    "end": 750,
+                    "start": 707,
+                    "end": 762,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 701,
-                        "end": 746,
+                        "start": 713,
+                        "end": 758,
                         "expression": {
                           "type": "NewExpression",
-                          "start": 701,
-                          "end": 745,
+                          "start": 713,
+                          "end": 757,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 705,
-                            "end": 724,
+                            "start": 717,
+                            "end": 736,
                             "object": {
                               "type": "Identifier",
-                              "start": 705,
-                              "end": 709,
+                              "start": 717,
+                              "end": 721,
                               "name": "Intl"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 710,
-                              "end": 724,
+                              "start": 722,
+                              "end": 736,
                               "name": "DateTimeFormat"
                             },
                             "computed": false,
@@ -179,33 +179,33 @@
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 725,
-                              "end": 729,
+                              "start": 737,
+                              "end": 741,
                               "value": "en"
                             },
                             {
                               "type": "ObjectExpression",
-                              "start": 731,
-                              "end": 744,
+                              "start": 743,
+                              "end": 756,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 733,
-                                  "end": 742,
+                                  "start": 745,
+                                  "end": 754,
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 733,
-                                    "end": 742,
+                                    "start": 745,
+                                    "end": 754,
                                     "name": "dateStyle"
                                   },
                                   "kind": "init",
                                   "value": {
                                     "type": "Identifier",
-                                    "start": 733,
-                                    "end": 742,
+                                    "start": 745,
+                                    "end": 754,
                                     "name": "dateStyle"
                                   }
                                 }
@@ -219,21 +219,21 @@
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 752,
-                  "end": 832,
+                  "start": 764,
+                  "end": 844,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 799,
-                      "end": 808,
+                      "start": 811,
+                      "end": 820,
                       "name": "dateStyle"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 753,
-                      "end": 797,
+                      "start": 765,
+                      "end": 809,
                       "value": {
                         "raw": "new Intl.DateTimeFormat(\"en\", { dateStyle: \"",
                         "cooked": "new Intl.DateTimeFormat(\"en\", { dateStyle: \""
@@ -242,8 +242,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 809,
-                      "end": 831,
+                      "start": 821,
+                      "end": 843,
                       "value": {
                         "raw": "\" }) throws RangeError",
                         "cooked": "\" }) throws RangeError"

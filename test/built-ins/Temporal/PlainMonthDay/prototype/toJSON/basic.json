@@ -1,0 +1,436 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 686,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 254,
+      "end": 368,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 260,
+          "end": 367,
+          "id": {
+            "type": "Identifier",
+            "start": 260,
+            "end": 265,
+            "name": "tests"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 268,
+            "end": 367,
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "start": 272,
+                "end": 315,
+                "elements": [
+                  {
+                    "type": "NewExpression",
+                    "start": 273,
+                    "end": 305,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 277,
+                      "end": 299,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 277,
+                        "end": 285,
+                        "name": "Temporal"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 286,
+                        "end": 299,
+                        "name": "PlainMonthDay"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 300,
+                        "end": 301,
+                        "value": 1
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 303,
+                        "end": 304,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 307,
+                    "end": 314,
+                    "value": "01-01"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 319,
+                "end": 364,
+                "elements": [
+                  {
+                    "type": "NewExpression",
+                    "start": 320,
+                    "end": 354,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 324,
+                      "end": 346,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 324,
+                        "end": 332,
+                        "name": "Temporal"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 333,
+                        "end": 346,
+                        "name": "PlainMonthDay"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 347,
+                        "end": 349,
+                        "value": 12
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 351,
+                        "end": 353,
+                        "value": 31
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 356,
+                    "end": 363,
+                    "value": "12-31"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 370,
+      "end": 482,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 376,
+          "end": 481,
+          "id": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 383,
+            "name": "options"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 386,
+            "end": 481,
+            "callee": {
+              "type": "Identifier",
+              "start": 390,
+              "end": 395,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 396,
+                "end": 398,
+                "properties": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 400,
+                "end": 480,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 404,
+                    "end": 478,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 404,
+                      "end": 407,
+                      "name": "get"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 407,
+                      "end": 478,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 410,
+                        "end": 478,
+                        "body": [
+                          {
+                            "type": "ThrowStatement",
+                            "start": 412,
+                            "end": 476,
+                            "argument": {
+                              "type": "NewExpression",
+                              "start": 418,
+                              "end": 476,
+                              "callee": {
+                                "type": "Identifier",
+                                "start": 422,
+                                "end": 434,
+                                "name": "Test262Error"
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "start": 435,
+                                  "end": 475,
+                                  "value": "should not get properties off argument"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 484,
+      "end": 685,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 489,
+        "end": 515,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 495,
+            "end": 515,
+            "id": {
+              "type": "ArrayPattern",
+              "start": 495,
+              "end": 515,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 496,
+                  "end": 504,
+                  "name": "monthDay"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 506,
+                  "end": 514,
+                  "name": "expected"
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 519,
+        "end": 524,
+        "name": "tests"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 526,
+        "end": 685,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 530,
+            "end": 603,
+            "expression": {
+              "type": "CallExpression",
+              "start": 530,
+              "end": 602,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 530,
+                "end": 546,
+                "object": {
+                  "type": "Identifier",
+                  "start": 530,
+                  "end": 536,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 537,
+                  "end": 546,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 547,
+                  "end": 564,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 547,
+                    "end": 562,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 547,
+                      "end": 555,
+                      "name": "monthDay"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 556,
+                      "end": 562,
+                      "name": "toJSON"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 566,
+                  "end": 574,
+                  "name": "expected"
+                },
+                {
+                  "type": "Literal",
+                  "start": 576,
+                  "end": 601,
+                  "value": "toJSON without argument"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 606,
+            "end": 683,
+            "expression": {
+              "type": "CallExpression",
+              "start": 606,
+              "end": 682,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 606,
+                "end": 622,
+                "object": {
+                  "type": "Identifier",
+                  "start": 606,
+                  "end": 612,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 613,
+                  "end": 622,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 623,
+                  "end": 647,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 623,
+                    "end": 638,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 623,
+                      "end": 631,
+                      "name": "monthDay"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 632,
+                      "end": 638,
+                      "name": "toJSON"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 639,
+                      "end": 646,
+                      "name": "options"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 649,
+                  "end": 657,
+                  "name": "expected"
+                },
+                {
+                  "type": "Literal",
+                  "start": 659,
+                  "end": 681,
+                  "value": "toJSON with argument"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

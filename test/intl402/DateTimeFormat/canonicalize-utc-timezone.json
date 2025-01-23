@@ -1,0 +1,252 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 978,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 722,
+      "end": 775,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 728,
+          "end": 774,
+          "id": {
+            "type": "Identifier",
+            "start": 728,
+            "end": 742,
+            "name": "utcIdentifiers"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 745,
+            "end": 774,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 746,
+                "end": 755,
+                "value": "Etc/GMT"
+              },
+              {
+                "type": "Literal",
+                "start": 757,
+                "end": 766,
+                "value": "Etc/UTC"
+              },
+              {
+                "type": "Literal",
+                "start": 768,
+                "end": 773,
+                "value": "GMT"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 777,
+      "end": 977,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 782,
+        "end": 796,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 788,
+            "end": 796,
+            "id": {
+              "type": "Identifier",
+              "start": 788,
+              "end": 796,
+              "name": "timeZone"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 800,
+        "end": 814,
+        "name": "utcIdentifiers"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 816,
+        "end": 977,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 820,
+            "end": 975,
+            "expression": {
+              "type": "CallExpression",
+              "start": 820,
+              "end": 974,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 820,
+                "end": 836,
+                "object": {
+                  "type": "Identifier",
+                  "start": 820,
+                  "end": 826,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 827,
+                  "end": 836,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 837,
+                  "end": 903,
+                  "object": {
+                    "type": "CallExpression",
+                    "start": 837,
+                    "end": 894,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 837,
+                      "end": 892,
+                      "object": {
+                        "type": "NewExpression",
+                        "start": 837,
+                        "end": 876,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 841,
+                          "end": 860,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 841,
+                            "end": 845,
+                            "name": "Intl"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 846,
+                            "end": 860,
+                            "name": "DateTimeFormat"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "ArrayExpression",
+                            "start": 861,
+                            "end": 863,
+                            "elements": []
+                          },
+                          {
+                            "type": "ObjectExpression",
+                            "start": 865,
+                            "end": 875,
+                            "properties": [
+                              {
+                                "type": "Property",
+                                "start": 866,
+                                "end": 874,
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false,
+                                "key": {
+                                  "type": "Identifier",
+                                  "start": 866,
+                                  "end": 874,
+                                  "name": "timeZone"
+                                },
+                                "kind": "init",
+                                "value": {
+                                  "type": "Identifier",
+                                  "start": 866,
+                                  "end": 874,
+                                  "name": "timeZone"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 877,
+                        "end": 892,
+                        "name": "resolvedOptions"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 895,
+                    "end": 903,
+                    "name": "timeZone"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 905,
+                  "end": 910,
+                  "value": "UTC"
+                },
+                {
+                  "type": "BinaryExpression",
+                  "start": 912,
+                  "end": 973,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 912,
+                    "end": 940,
+                    "left": {
+                      "type": "Literal",
+                      "start": 912,
+                      "end": 929,
+                      "value": "Time zone name "
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 932,
+                      "end": 940,
+                      "name": "timeZone"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 943,
+                    "end": 973,
+                    "value": " not canonicalized to 'UTC'."
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,446 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 682,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 290,
+      "end": 480,
+      "expression": {
+        "type": "CallExpression",
+        "start": 290,
+        "end": 479,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 290,
+          "end": 325,
+          "object": {
+            "type": "Identifier",
+            "start": 290,
+            "end": 305,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 306,
+            "end": 325,
+            "name": "assertPlainDateTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 329,
+            "end": 396,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 329,
+              "end": 356,
+              "object": {
+                "type": "MemberExpression",
+                "start": 329,
+                "end": 351,
+                "object": {
+                  "type": "Identifier",
+                  "start": 329,
+                  "end": 337,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 338,
+                  "end": 351,
+                  "name": "PlainDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 352,
+                "end": 356,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 357,
+                "end": 391,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 359,
+                    "end": 369,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 359,
+                      "end": 363,
+                      "name": "year"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 365,
+                      "end": 369,
+                      "value": 1976
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 371,
+                    "end": 380,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 371,
+                      "end": 376,
+                      "name": "month"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 378,
+                      "end": 380,
+                      "value": 11
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 382,
+                    "end": 389,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 382,
+                      "end": 385,
+                      "name": "day"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 387,
+                      "end": 389,
+                      "value": 18
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 393,
+                "end": 395,
+                "properties": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 398,
+            "end": 402,
+            "value": 1976
+          },
+          {
+            "type": "Literal",
+            "start": 404,
+            "end": 406,
+            "value": 11
+          },
+          {
+            "type": "Literal",
+            "start": 408,
+            "end": 413,
+            "value": "M11"
+          },
+          {
+            "type": "Literal",
+            "start": 415,
+            "end": 417,
+            "value": 18
+          },
+          {
+            "type": "Literal",
+            "start": 419,
+            "end": 420,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 423,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 425,
+            "end": 426,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 429,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 431,
+            "end": 432,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 434,
+            "end": 435,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 439,
+            "end": 477,
+            "value": "options may be an empty plain object"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 482,
+      "end": 681,
+      "expression": {
+        "type": "CallExpression",
+        "start": 482,
+        "end": 680,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 482,
+          "end": 517,
+          "object": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 497,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 498,
+            "end": 517,
+            "name": "assertPlainDateTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 521,
+            "end": 594,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 521,
+              "end": 548,
+              "object": {
+                "type": "MemberExpression",
+                "start": 521,
+                "end": 543,
+                "object": {
+                  "type": "Identifier",
+                  "start": 521,
+                  "end": 529,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 530,
+                  "end": 543,
+                  "name": "PlainDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 544,
+                "end": 548,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 549,
+                "end": 583,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 551,
+                    "end": 561,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 551,
+                      "end": 555,
+                      "name": "year"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 557,
+                      "end": 561,
+                      "value": 1976
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 563,
+                    "end": 572,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 563,
+                      "end": 568,
+                      "name": "month"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 570,
+                      "end": 572,
+                      "value": 11
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 574,
+                    "end": 581,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 574,
+                      "end": 577,
+                      "name": "day"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 579,
+                      "end": 581,
+                      "value": 18
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 585,
+                "end": 593,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 591,
+                  "end": 593,
+                  "body": []
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 596,
+            "end": 600,
+            "value": 1976
+          },
+          {
+            "type": "Literal",
+            "start": 602,
+            "end": 604,
+            "value": 11
+          },
+          {
+            "type": "Literal",
+            "start": 606,
+            "end": 611,
+            "value": "M11"
+          },
+          {
+            "type": "Literal",
+            "start": 613,
+            "end": 615,
+            "value": 18
+          },
+          {
+            "type": "Literal",
+            "start": 617,
+            "end": 618,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 620,
+            "end": 621,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 623,
+            "end": 624,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 626,
+            "end": 627,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 629,
+            "end": 630,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 632,
+            "end": 633,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 637,
+            "end": 678,
+            "value": "options may be an empty function object"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

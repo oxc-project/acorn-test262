@@ -1,0 +1,475 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 579,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 286,
+      "end": 309,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 292,
+          "end": 308,
+          "id": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 294,
+            "name": "s1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 297,
+            "end": 308,
+            "callee": {
+              "type": "Identifier",
+              "start": 301,
+              "end": 304,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 305,
+                "end": 307,
+                "elements": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 310,
+      "end": 337,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 316,
+          "end": 336,
+          "id": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 318,
+            "name": "s2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 321,
+            "end": 336,
+            "callee": {
+              "type": "Identifier",
+              "start": 325,
+              "end": 328,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 329,
+                "end": 335,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 330,
+                    "end": 331,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 333,
+                    "end": 334,
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 339,
+      "end": 384,
+      "expression": {
+        "type": "CallExpression",
+        "start": 339,
+        "end": 383,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 339,
+          "end": 355,
+          "object": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 345,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 346,
+            "end": 355,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 356,
+            "end": 375,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 356,
+              "end": 371,
+              "object": {
+                "type": "Identifier",
+                "start": 356,
+                "end": 358,
+                "name": "s1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 359,
+                "end": 371,
+                "name": "isSupersetOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 372,
+                "end": 374,
+                "name": "s2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 377,
+            "end": 382,
+            "value": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 386,
+      "end": 413,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 392,
+          "end": 412,
+          "id": {
+            "type": "Identifier",
+            "start": 392,
+            "end": 394,
+            "name": "s3"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 397,
+            "end": 412,
+            "callee": {
+              "type": "Identifier",
+              "start": 401,
+              "end": 404,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 405,
+                "end": 411,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 406,
+                    "end": 407,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 409,
+                    "end": 410,
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 414,
+      "end": 437,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 420,
+          "end": 436,
+          "id": {
+            "type": "Identifier",
+            "start": 420,
+            "end": 422,
+            "name": "s4"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 425,
+            "end": 436,
+            "callee": {
+              "type": "Identifier",
+              "start": 429,
+              "end": 432,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 433,
+                "end": 435,
+                "elements": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 439,
+      "end": 483,
+      "expression": {
+        "type": "CallExpression",
+        "start": 439,
+        "end": 482,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 439,
+          "end": 455,
+          "object": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 445,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 446,
+            "end": 455,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 456,
+            "end": 475,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 456,
+              "end": 471,
+              "object": {
+                "type": "Identifier",
+                "start": 456,
+                "end": 458,
+                "name": "s3"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 459,
+                "end": 471,
+                "name": "isSupersetOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 472,
+                "end": 474,
+                "name": "s4"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 477,
+            "end": 481,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 485,
+      "end": 508,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 491,
+          "end": 507,
+          "id": {
+            "type": "Identifier",
+            "start": 491,
+            "end": 493,
+            "name": "s5"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 496,
+            "end": 507,
+            "callee": {
+              "type": "Identifier",
+              "start": 500,
+              "end": 503,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 504,
+                "end": 506,
+                "elements": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 509,
+      "end": 532,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 515,
+          "end": 531,
+          "id": {
+            "type": "Identifier",
+            "start": 515,
+            "end": 517,
+            "name": "s6"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 520,
+            "end": 531,
+            "callee": {
+              "type": "Identifier",
+              "start": 524,
+              "end": 527,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 528,
+                "end": 530,
+                "elements": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 534,
+      "end": 578,
+      "expression": {
+        "type": "CallExpression",
+        "start": 534,
+        "end": 577,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 534,
+          "end": 550,
+          "object": {
+            "type": "Identifier",
+            "start": 534,
+            "end": 540,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 541,
+            "end": 550,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 551,
+            "end": 570,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 551,
+              "end": 566,
+              "object": {
+                "type": "Identifier",
+                "start": 551,
+                "end": 553,
+                "name": "s5"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 554,
+                "end": 566,
+                "name": "isSupersetOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 567,
+                "end": 569,
+                "name": "s6"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 572,
+            "end": 576,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

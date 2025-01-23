@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 822,
+  "end": 909,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -379,6 +379,115 @@
             "start": 801,
             "end": 819,
             "value": "arguments object"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 823,
+      "end": 908,
+      "expression": {
+        "type": "CallExpression",
+        "start": 823,
+        "end": 907,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 823,
+          "end": 836,
+          "object": {
+            "type": "Identifier",
+            "start": 823,
+            "end": 829,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 830,
+            "end": 836,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 837,
+            "end": 846,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 848,
+            "end": 887,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 859,
+              "end": 887,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 863,
+                  "end": 885,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 863,
+                    "end": 884,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 863,
+                      "end": 874,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 863,
+                        "end": 869,
+                        "name": "sticky"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 870,
+                        "end": 874,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 875,
+                        "end": 883,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 881,
+                          "end": 883,
+                          "body": []
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 889,
+            "end": 906,
+            "value": "function object"
           }
         ],
         "optional": false

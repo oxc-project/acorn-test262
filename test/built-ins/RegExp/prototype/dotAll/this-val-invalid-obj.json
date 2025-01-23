@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 948,
+  "end": 1035,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -379,6 +379,115 @@
             "start": 927,
             "end": 945,
             "value": "arguments object"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 949,
+      "end": 1034,
+      "expression": {
+        "type": "CallExpression",
+        "start": 949,
+        "end": 1033,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 949,
+          "end": 962,
+          "object": {
+            "type": "Identifier",
+            "start": 949,
+            "end": 955,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 956,
+            "end": 962,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 963,
+            "end": 972,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 974,
+            "end": 1013,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 985,
+              "end": 1013,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 989,
+                  "end": 1011,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 989,
+                    "end": 1010,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 989,
+                      "end": 1000,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 989,
+                        "end": 995,
+                        "name": "dotAll"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 996,
+                        "end": 1000,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 1001,
+                        "end": 1009,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 1007,
+                          "end": 1009,
+                          "body": []
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1015,
+            "end": 1032,
+            "value": "function object"
           }
         ],
         "optional": false

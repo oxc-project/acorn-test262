@@ -370,7 +370,8 @@
         "start": 859,
         "end": 884,
         "value": "./instn-star-id-name.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

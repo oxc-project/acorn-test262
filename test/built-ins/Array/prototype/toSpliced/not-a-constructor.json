@@ -1,0 +1,196 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 912,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 702,
+      "end": 838,
+      "expression": {
+        "type": "CallExpression",
+        "start": 702,
+        "end": 837,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 702,
+          "end": 718,
+          "object": {
+            "type": "Identifier",
+            "start": 702,
+            "end": 708,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 709,
+            "end": 718,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 722,
+            "end": 762,
+            "callee": {
+              "type": "Identifier",
+              "start": 722,
+              "end": 735,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 736,
+                "end": 761,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 736,
+                  "end": 751,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 736,
+                    "end": 741,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 742,
+                    "end": 751,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 752,
+                  "end": 761,
+                  "name": "toSpliced"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 766,
+            "end": 771,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 775,
+            "end": 835,
+            "value": "isConstructor(Array.prototype.toSpliced) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 840,
+      "end": 911,
+      "expression": {
+        "type": "CallExpression",
+        "start": 840,
+        "end": 910,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 840,
+          "end": 853,
+          "object": {
+            "type": "Identifier",
+            "start": 840,
+            "end": 846,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 847,
+            "end": 853,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 854,
+            "end": 863,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 865,
+            "end": 909,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 871,
+              "end": 909,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 875,
+                  "end": 907,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 875,
+                    "end": 906,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 879,
+                      "end": 904,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 879,
+                        "end": 894,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 879,
+                          "end": 884,
+                          "name": "Array"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 885,
+                          "end": 894,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 895,
+                        "end": 904,
+                        "name": "toSpliced"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

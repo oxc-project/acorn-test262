@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 983,
+  "end": 920,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -96,11 +96,11 @@
     {
       "type": "ExpressionStatement",
       "start": 838,
-      "end": 981,
+      "end": 918,
       "expression": {
         "type": "CallExpression",
         "start": 838,
-        "end": 980,
+        "end": 917,
         "callee": {
           "type": "MemberExpression",
           "start": 838,
@@ -211,12 +211,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 918,
-            "end": 979,
-            "value": "`let wr = new WeakRef({}); new wr.deref()` throws TypeError"
           }
         ],
         "optional": false

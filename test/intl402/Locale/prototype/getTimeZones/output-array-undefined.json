@@ -1,0 +1,98 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 605,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 538,
+      "end": 604,
+      "expression": {
+        "type": "CallExpression",
+        "start": 538,
+        "end": 603,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 538,
+          "end": 554,
+          "object": {
+            "type": "Identifier",
+            "start": 538,
+            "end": 544,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 545,
+            "end": 554,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 555,
+            "end": 591,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 555,
+              "end": 589,
+              "object": {
+                "type": "NewExpression",
+                "start": 555,
+                "end": 576,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 559,
+                  "end": 570,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 559,
+                    "end": 563,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 564,
+                    "end": 570,
+                    "name": "Locale"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 571,
+                    "end": 575,
+                    "value": "en"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 577,
+                "end": 589,
+                "name": "getTimeZones"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 593,
+            "end": 602,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 634,
+  "end": 591,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -81,91 +81,99 @@
     {
       "type": "ExpressionStatement",
       "start": 475,
-      "end": 527,
+      "end": 590,
       "expression": {
         "type": "CallExpression",
         "start": 475,
-        "end": 526,
+        "end": 589,
         "callee": {
           "type": "Identifier",
           "start": 475,
-          "end": 494,
-          "name": "verifyNotEnumerable"
+          "end": 489,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 495,
-            "end": 512,
+            "start": 490,
+            "end": 507,
             "name": "GeneratorFunction"
           },
           {
             "type": "Literal",
-            "start": 514,
-            "end": 525,
+            "start": 509,
+            "end": 520,
             "value": "prototype"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 528,
-      "end": 578,
-      "expression": {
-        "type": "CallExpression",
-        "start": 528,
-        "end": 577,
-        "callee": {
-          "type": "Identifier",
-          "start": 528,
-          "end": 545,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 546,
-            "end": 563,
-            "name": "GeneratorFunction"
           },
           {
-            "type": "Literal",
-            "start": 565,
-            "end": 576,
-            "value": "prototype"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 579,
-      "end": 633,
-      "expression": {
-        "type": "CallExpression",
-        "start": 579,
-        "end": 632,
-        "callee": {
-          "type": "Identifier",
-          "start": 579,
-          "end": 600,
-          "name": "verifyNotConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 601,
-            "end": 618,
-            "name": "GeneratorFunction"
-          },
-          {
-            "type": "Literal",
-            "start": 620,
-            "end": 631,
-            "value": "prototype"
+            "type": "ObjectExpression",
+            "start": 522,
+            "end": 588,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 526,
+                "end": 541,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 526,
+                  "end": 534,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 536,
+                  "end": 541,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 545,
+                "end": 562,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 545,
+                  "end": 555,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 557,
+                  "end": 562,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 566,
+                "end": 585,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 566,
+                  "end": 578,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 580,
+                  "end": 585,
+                  "value": false
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

@@ -1,0 +1,200 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 593,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 327,
+      "end": 391,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 333,
+          "end": 391,
+          "id": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 336,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 339,
+            "end": 391,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 343,
+              "end": 365,
+              "object": {
+                "type": "Identifier",
+                "start": 343,
+                "end": 351,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 352,
+                "end": 365,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 366,
+                "end": 383,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 367,
+                  "end": 383,
+                  "value": "560174321098766n"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 385,
+                "end": 390,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 438,
+      "end": 507,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 444,
+          "end": 506,
+          "id": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 452,
+            "name": "expected"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 455,
+            "end": 506,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 459,
+              "end": 481,
+              "object": {
+                "type": "Identifier",
+                "start": 459,
+                "end": 467,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 468,
+                "end": 481,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 482,
+                "end": 498,
+                "value": "303825678902034n"
+              },
+              {
+                "type": "Literal",
+                "start": 500,
+                "end": 505,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 509,
+      "end": 592,
+      "expression": {
+        "type": "CallExpression",
+        "start": 509,
+        "end": 591,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 509,
+          "end": 550,
+          "object": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 524,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 525,
+            "end": 550,
+            "name": "assertZonedDateTimesEqual"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 551,
+            "end": 580,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 551,
+              "end": 558,
+              "object": {
+                "type": "Identifier",
+                "start": 551,
+                "end": 554,
+                "name": "zdt"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 555,
+                "end": 558,
+                "name": "add"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 559,
+                "end": 579,
+                "value": "PT240H0.000000800S"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 582,
+            "end": 590,
+            "name": "expected"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -446,7 +446,8 @@
         "start": 944,
         "end": 973,
         "value": "./own-property-keys-sort.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

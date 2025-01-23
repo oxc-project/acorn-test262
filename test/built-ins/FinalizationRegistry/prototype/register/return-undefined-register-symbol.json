@@ -1,0 +1,1518 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2526,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 440,
+      "end": 463,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 444,
+          "end": 462,
+          "id": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 446,
+            "name": "fn"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 449,
+            "end": 462,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 460,
+              "end": 462,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 464,
+      "end": 503,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 468,
+          "end": 502,
+          "id": {
+            "type": "Identifier",
+            "start": 468,
+            "end": 471,
+            "name": "reg"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 474,
+            "end": 502,
+            "callee": {
+              "type": "Identifier",
+              "start": 478,
+              "end": 498,
+              "name": "FinalizationRegistry"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 499,
+                "end": 501,
+                "name": "fn"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 505,
+      "end": 542,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 509,
+          "end": 541,
+          "id": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 515,
+            "name": "target"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 518,
+            "end": 541,
+            "callee": {
+              "type": "Identifier",
+              "start": 518,
+              "end": 524,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 525,
+                "end": 540,
+                "value": "a description"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 543,
+      "end": 622,
+      "expression": {
+        "type": "CallExpression",
+        "start": 543,
+        "end": 621,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 543,
+          "end": 559,
+          "object": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 549,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 559,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 560,
+            "end": 580,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 560,
+              "end": 572,
+              "object": {
+                "type": "Identifier",
+                "start": 560,
+                "end": 563,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 564,
+                "end": 572,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 573,
+                "end": 579,
+                "name": "target"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 582,
+            "end": 591,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 593,
+            "end": 620,
+            "value": "Register a regular symbol"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 623,
+      "end": 707,
+      "expression": {
+        "type": "CallExpression",
+        "start": 623,
+        "end": 706,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 623,
+          "end": 639,
+          "object": {
+            "type": "Identifier",
+            "start": 623,
+            "end": 629,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 630,
+            "end": 639,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 640,
+            "end": 660,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 640,
+              "end": 652,
+              "object": {
+                "type": "Identifier",
+                "start": 640,
+                "end": 643,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 644,
+                "end": 652,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 653,
+                "end": 659,
+                "name": "target"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 662,
+            "end": 671,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 673,
+            "end": 705,
+            "value": "Register the same symbol again"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 708,
+      "end": 799,
+      "expression": {
+        "type": "CallExpression",
+        "start": 708,
+        "end": 798,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 708,
+          "end": 724,
+          "object": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 714,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 724,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 725,
+            "end": 745,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 725,
+              "end": 737,
+              "object": {
+                "type": "Identifier",
+                "start": 725,
+                "end": 728,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 729,
+                "end": 737,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 738,
+                "end": 744,
+                "name": "target"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 747,
+            "end": 756,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 758,
+            "end": 797,
+            "value": "Register the same symbol a third time"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 801,
+      "end": 929,
+      "expression": {
+        "type": "CallExpression",
+        "start": 801,
+        "end": 928,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 801,
+          "end": 817,
+          "object": {
+            "type": "Identifier",
+            "start": 801,
+            "end": 807,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 808,
+            "end": 817,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 821,
+            "end": 858,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 821,
+              "end": 833,
+              "object": {
+                "type": "Identifier",
+                "start": 821,
+                "end": 824,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 825,
+                "end": 833,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 834,
+                "end": 857,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 834,
+                  "end": 840,
+                  "name": "Symbol"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 841,
+                    "end": 856,
+                    "value": "a description"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 862,
+            "end": 871,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 875,
+            "end": 926,
+            "value": "Register another symbol with the same description"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 930,
+      "end": 1067,
+      "expression": {
+        "type": "CallExpression",
+        "start": 930,
+        "end": 1066,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 930,
+          "end": 946,
+          "object": {
+            "type": "Identifier",
+            "start": 930,
+            "end": 936,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 937,
+            "end": 946,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 950,
+            "end": 997,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 950,
+              "end": 962,
+              "object": {
+                "type": "Identifier",
+                "start": 950,
+                "end": 953,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 954,
+                "end": 962,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 963,
+                "end": 996,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 963,
+                  "end": 969,
+                  "name": "Symbol"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 970,
+                    "end": 995,
+                    "value": "a different description"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1001,
+            "end": 1010,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1014,
+            "end": 1064,
+            "value": "Register another symbol with another description"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1069,
+      "end": 1226,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1069,
+        "end": 1225,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1069,
+          "end": 1085,
+          "object": {
+            "type": "Identifier",
+            "start": 1069,
+            "end": 1075,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1076,
+            "end": 1085,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1089,
+            "end": 1148,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1089,
+              "end": 1101,
+              "object": {
+                "type": "Identifier",
+                "start": 1089,
+                "end": 1092,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1093,
+                "end": 1101,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1102,
+                "end": 1108,
+                "name": "target"
+              },
+              {
+                "type": "Identifier",
+                "start": 1110,
+                "end": 1119,
+                "name": "undefined"
+              },
+              {
+                "type": "CallExpression",
+                "start": 1121,
+                "end": 1147,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1121,
+                  "end": 1127,
+                  "name": "Symbol"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1128,
+                    "end": 1146,
+                    "value": "unregister token"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1152,
+            "end": 1161,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1165,
+            "end": 1223,
+            "value": "Register a regular symbol with a symbol unregister token"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1227,
+      "end": 1369,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1227,
+        "end": 1368,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1227,
+          "end": 1243,
+          "object": {
+            "type": "Identifier",
+            "start": 1227,
+            "end": 1233,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1234,
+            "end": 1243,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1247,
+            "end": 1286,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1247,
+              "end": 1259,
+              "object": {
+                "type": "Identifier",
+                "start": 1247,
+                "end": 1250,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1251,
+                "end": 1259,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1260,
+                "end": 1266,
+                "name": "target"
+              },
+              {
+                "type": "Identifier",
+                "start": 1268,
+                "end": 1277,
+                "name": "undefined"
+              },
+              {
+                "type": "Identifier",
+                "start": 1279,
+                "end": 1285,
+                "name": "target"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1290,
+            "end": 1299,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1303,
+            "end": 1366,
+            "value": "Register a regular symbol with itself as the unregister token"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1371,
+      "end": 1521,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1371,
+        "end": 1520,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1371,
+          "end": 1387,
+          "object": {
+            "type": "Identifier",
+            "start": 1371,
+            "end": 1377,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1378,
+            "end": 1387,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1391,
+            "end": 1433,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1391,
+              "end": 1403,
+              "object": {
+                "type": "Identifier",
+                "start": 1391,
+                "end": 1394,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1395,
+                "end": 1403,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1404,
+                "end": 1410,
+                "name": "target"
+              },
+              {
+                "type": "Identifier",
+                "start": 1412,
+                "end": 1421,
+                "name": "undefined"
+              },
+              {
+                "type": "Identifier",
+                "start": 1423,
+                "end": 1432,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1437,
+            "end": 1446,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1450,
+            "end": 1518,
+            "value": "Register a regular symbol with explicit undefined unregister token"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1523,
+      "end": 1617,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1523,
+        "end": 1616,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1523,
+          "end": 1539,
+          "object": {
+            "type": "Identifier",
+            "start": 1523,
+            "end": 1529,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1530,
+            "end": 1539,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1540,
+            "end": 1572,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1540,
+              "end": 1552,
+              "object": {
+                "type": "Identifier",
+                "start": 1540,
+                "end": 1543,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1544,
+                "end": 1552,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 1553,
+                "end": 1571,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1553,
+                  "end": 1559,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1560,
+                  "end": 1571,
+                  "name": "hasInstance"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1574,
+            "end": 1583,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1585,
+            "end": 1615,
+            "value": "Register a well-known symbol"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1618,
+      "end": 1725,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1618,
+        "end": 1724,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1618,
+          "end": 1634,
+          "object": {
+            "type": "Identifier",
+            "start": 1618,
+            "end": 1624,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1625,
+            "end": 1634,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1635,
+            "end": 1667,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1635,
+              "end": 1647,
+              "object": {
+                "type": "Identifier",
+                "start": 1635,
+                "end": 1638,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1639,
+                "end": 1647,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 1648,
+                "end": 1666,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1648,
+                  "end": 1654,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1655,
+                  "end": 1666,
+                  "name": "hasInstance"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1669,
+            "end": 1678,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1680,
+            "end": 1723,
+            "value": "Register the same well-known symbol again"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1726,
+      "end": 1840,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1726,
+        "end": 1839,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1726,
+          "end": 1742,
+          "object": {
+            "type": "Identifier",
+            "start": 1726,
+            "end": 1732,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1733,
+            "end": 1742,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1743,
+            "end": 1775,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1743,
+              "end": 1755,
+              "object": {
+                "type": "Identifier",
+                "start": 1743,
+                "end": 1746,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1747,
+                "end": 1755,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 1756,
+                "end": 1774,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1756,
+                  "end": 1762,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1763,
+                  "end": 1774,
+                  "name": "hasInstance"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1777,
+            "end": 1786,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1788,
+            "end": 1838,
+            "value": "Register the same well-known symbol a third time"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1842,
+      "end": 2002,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1842,
+        "end": 2001,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1842,
+          "end": 1858,
+          "object": {
+            "type": "Identifier",
+            "start": 1842,
+            "end": 1848,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1849,
+            "end": 1858,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1862,
+            "end": 1913,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1862,
+              "end": 1874,
+              "object": {
+                "type": "Identifier",
+                "start": 1862,
+                "end": 1865,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1866,
+                "end": 1874,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1875,
+                "end": 1881,
+                "name": "target"
+              },
+              {
+                "type": "Identifier",
+                "start": 1883,
+                "end": 1892,
+                "name": "undefined"
+              },
+              {
+                "type": "MemberExpression",
+                "start": 1894,
+                "end": 1912,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1894,
+                  "end": 1900,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1901,
+                  "end": 1912,
+                  "name": "hasInstance"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1917,
+            "end": 1926,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1930,
+            "end": 1999,
+            "value": "Register a regular symbol with a well-known symbol unregister token"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2003,
+      "end": 2188,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2003,
+        "end": 2187,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2003,
+          "end": 2019,
+          "object": {
+            "type": "Identifier",
+            "start": 2003,
+            "end": 2009,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2010,
+            "end": 2019,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2023,
+            "end": 2083,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2023,
+              "end": 2035,
+              "object": {
+                "type": "Identifier",
+                "start": 2023,
+                "end": 2026,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2027,
+                "end": 2035,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 2036,
+                "end": 2054,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2036,
+                  "end": 2042,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2043,
+                  "end": 2054,
+                  "name": "hasInstance"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 2056,
+                "end": 2065,
+                "name": "undefined"
+              },
+              {
+                "type": "MemberExpression",
+                "start": 2067,
+                "end": 2082,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2067,
+                  "end": 2073,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2074,
+                  "end": 2082,
+                  "name": "iterator"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 2087,
+            "end": 2096,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 2100,
+            "end": 2185,
+            "value": "Register a well-known symbol with a different well-known symbol as unregister token"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2189,
+      "end": 2358,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2189,
+        "end": 2357,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2189,
+          "end": 2205,
+          "object": {
+            "type": "Identifier",
+            "start": 2189,
+            "end": 2195,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2196,
+            "end": 2205,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2209,
+            "end": 2272,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2209,
+              "end": 2221,
+              "object": {
+                "type": "Identifier",
+                "start": 2209,
+                "end": 2212,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2213,
+                "end": 2221,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 2222,
+                "end": 2240,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2222,
+                  "end": 2228,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2229,
+                  "end": 2240,
+                  "name": "hasInstance"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 2242,
+                "end": 2251,
+                "name": "undefined"
+              },
+              {
+                "type": "MemberExpression",
+                "start": 2253,
+                "end": 2271,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2253,
+                  "end": 2259,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2260,
+                  "end": 2271,
+                  "name": "hasInstance"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 2276,
+            "end": 2285,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 2289,
+            "end": 2355,
+            "value": "Register a well-known symbol with itself as the unregister token"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2360,
+      "end": 2525,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2360,
+        "end": 2524,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2360,
+          "end": 2376,
+          "object": {
+            "type": "Identifier",
+            "start": 2360,
+            "end": 2366,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2367,
+            "end": 2376,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2380,
+            "end": 2434,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2380,
+              "end": 2392,
+              "object": {
+                "type": "Identifier",
+                "start": 2380,
+                "end": 2383,
+                "name": "reg"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2384,
+                "end": 2392,
+                "name": "register"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 2393,
+                "end": 2411,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2393,
+                  "end": 2399,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2400,
+                  "end": 2411,
+                  "name": "hasInstance"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 2413,
+                "end": 2422,
+                "name": "undefined"
+              },
+              {
+                "type": "Identifier",
+                "start": 2424,
+                "end": 2433,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 2438,
+            "end": 2447,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 2451,
+            "end": 2522,
+            "value": "Register a well-known symbol with explicit undefined unregister token"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

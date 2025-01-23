@@ -1,0 +1,268 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 456,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 283,
+      "end": 329,
+      "expression": {
+        "type": "CallExpression",
+        "start": 283,
+        "end": 328,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 283,
+          "end": 299,
+          "object": {
+            "type": "Identifier",
+            "start": 283,
+            "end": 289,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 290,
+            "end": 299,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 300,
+            "end": 322,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 300,
+              "end": 315,
+              "object": {
+                "type": "Identifier",
+                "start": 300,
+                "end": 304,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 305,
+                "end": 315,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 316,
+                "end": 321,
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "start": 317,
+                    "end": 320,
+                    "name": "NaN"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 324,
+            "end": 327,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 330,
+      "end": 392,
+      "expression": {
+        "type": "CallExpression",
+        "start": 330,
+        "end": 391,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 330,
+          "end": 346,
+          "object": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 336,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 337,
+            "end": 346,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 347,
+            "end": 385,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 347,
+              "end": 362,
+              "object": {
+                "type": "Identifier",
+                "start": 347,
+                "end": 351,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 352,
+                "end": 362,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 363,
+                "end": 384,
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "start": 364,
+                    "end": 372,
+                    "name": "Infinity"
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "start": 374,
+                    "end": 383,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 375,
+                      "end": 383,
+                      "name": "Infinity"
+                    }
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 387,
+            "end": 390,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 393,
+      "end": 455,
+      "expression": {
+        "type": "CallExpression",
+        "start": 393,
+        "end": 454,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 393,
+          "end": 409,
+          "object": {
+            "type": "Identifier",
+            "start": 393,
+            "end": 399,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 400,
+            "end": 409,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 410,
+            "end": 448,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 410,
+              "end": 425,
+              "object": {
+                "type": "Identifier",
+                "start": 410,
+                "end": 414,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 415,
+                "end": 425,
+                "name": "sumPrecise"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 426,
+                "end": 447,
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "start": 427,
+                    "end": 436,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 428,
+                      "end": 436,
+                      "name": "Infinity"
+                    }
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 438,
+                    "end": 446,
+                    "name": "Infinity"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 450,
+            "end": 453,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

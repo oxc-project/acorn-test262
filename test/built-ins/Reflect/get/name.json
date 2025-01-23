@@ -1,211 +1,138 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 609,
+  "end": 509,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 390,
-      "end": 484,
+      "end": 508,
       "expression": {
         "type": "CallExpression",
         "start": 390,
-        "end": 483,
+        "end": 507,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 390,
-          "end": 406,
-          "object": {
-            "type": "Identifier",
-            "start": 390,
-            "end": 396,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 397,
-            "end": 406,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 404,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 410,
-            "end": 426,
+            "start": 405,
+            "end": 416,
             "object": {
-              "type": "MemberExpression",
-              "start": 410,
-              "end": 421,
-              "object": {
-                "type": "Identifier",
-                "start": 410,
-                "end": 417,
-                "name": "Reflect"
+              "type": "Identifier",
+              "start": 405,
+              "end": 412,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 413,
+              "end": 416,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 418,
+            "end": 424,
+            "value": "name"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 426,
+            "end": 506,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 430,
+                "end": 442,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 430,
+                  "end": 435,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 437,
+                  "end": 442,
+                  "value": "get"
+                },
+                "kind": "init"
               },
-              "property": {
-                "type": "Identifier",
-                "start": 418,
-                "end": 421,
-                "name": "get"
+              {
+                "type": "Property",
+                "start": 446,
+                "end": 461,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 446,
+                  "end": 454,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 456,
+                  "end": 461,
+                  "value": false
+                },
+                "kind": "init"
               },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 422,
-              "end": 426,
-              "name": "name"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 428,
-            "end": 433,
-            "value": "get"
-          },
-          {
-            "type": "Literal",
-            "start": 437,
-            "end": 481,
-            "value": "The value of `Reflect.get.name` is `\"get\"`"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 486,
-      "end": 527,
-      "expression": {
-        "type": "CallExpression",
-        "start": 486,
-        "end": 526,
-        "callee": {
-          "type": "Identifier",
-          "start": 486,
-          "end": 505,
-          "name": "verifyNotEnumerable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 506,
-            "end": 517,
-            "object": {
-              "type": "Identifier",
-              "start": 506,
-              "end": 513,
-              "name": "Reflect"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 514,
-              "end": 517,
-              "name": "get"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 519,
-            "end": 525,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 528,
-      "end": 567,
-      "expression": {
-        "type": "CallExpression",
-        "start": 528,
-        "end": 566,
-        "callee": {
-          "type": "Identifier",
-          "start": 528,
-          "end": 545,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 546,
-            "end": 557,
-            "object": {
-              "type": "Identifier",
-              "start": 546,
-              "end": 553,
-              "name": "Reflect"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 554,
-              "end": 557,
-              "name": "get"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 559,
-            "end": 565,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 568,
-      "end": 608,
-      "expression": {
-        "type": "CallExpression",
-        "start": 568,
-        "end": 607,
-        "callee": {
-          "type": "Identifier",
-          "start": 568,
-          "end": 586,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 587,
-            "end": 598,
-            "object": {
-              "type": "Identifier",
-              "start": 587,
-              "end": 594,
-              "name": "Reflect"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 595,
-              "end": 598,
-              "name": "get"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 600,
-            "end": 606,
-            "value": "name"
+              {
+                "type": "Property",
+                "start": 465,
+                "end": 482,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 465,
+                  "end": 475,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 477,
+                  "end": 482,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 486,
+                "end": 504,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 486,
+                  "end": 498,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 500,
+                  "end": 504,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

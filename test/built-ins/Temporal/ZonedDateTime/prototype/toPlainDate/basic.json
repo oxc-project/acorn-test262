@@ -1,0 +1,155 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 450,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 294,
+      "end": 375,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 300,
+          "end": 374,
+          "id": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 303,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 306,
+            "end": 374,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 306,
+              "end": 333,
+              "object": {
+                "type": "MemberExpression",
+                "start": 306,
+                "end": 328,
+                "object": {
+                  "type": "Identifier",
+                  "start": 306,
+                  "end": 314,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 315,
+                  "end": 328,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 329,
+                "end": 333,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 334,
+                "end": 373,
+                "value": "2019-10-29T09:46:38.271986102[-07:00]"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 377,
+      "end": 449,
+      "expression": {
+        "type": "CallExpression",
+        "start": 377,
+        "end": 448,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 377,
+          "end": 408,
+          "object": {
+            "type": "Identifier",
+            "start": 377,
+            "end": 392,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 393,
+            "end": 408,
+            "name": "assertPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 409,
+            "end": 426,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 409,
+              "end": 424,
+              "object": {
+                "type": "Identifier",
+                "start": 409,
+                "end": 412,
+                "name": "zdt"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 413,
+                "end": 424,
+                "name": "toPlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 432,
+            "value": 2019
+          },
+          {
+            "type": "Literal",
+            "start": 434,
+            "end": 436,
+            "value": 10
+          },
+          {
+            "type": "Literal",
+            "start": 438,
+            "end": 443,
+            "value": "M10"
+          },
+          {
+            "type": "Literal",
+            "start": 445,
+            "end": 447,
+            "value": 29
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

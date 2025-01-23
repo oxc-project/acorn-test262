@@ -1,0 +1,457 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 595,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 284,
+      "end": 346,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 290,
+          "end": 345,
+          "id": {
+            "type": "Identifier",
+            "start": 290,
+            "end": 291,
+            "name": "d"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 294,
+            "end": 345,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 298,
+              "end": 315,
+              "object": {
+                "type": "Identifier",
+                "start": 298,
+                "end": 306,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 307,
+                "end": 315,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 316,
+                "end": 317,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 319,
+                "end": 320,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 322,
+                "end": 323,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 325,
+                "end": 326,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 328,
+                "end": 329,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 331,
+                "end": 332,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 334,
+                "end": 335,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 337,
+                "end": 338,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 340,
+                "end": 341,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 343,
+                "end": 344,
+                "value": 5
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 347,
+      "end": 402,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 353,
+          "end": 401,
+          "id": {
+            "type": "Identifier",
+            "start": 353,
+            "end": 362,
+            "name": "hoursOnly"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 365,
+            "end": 401,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 369,
+              "end": 386,
+              "object": {
+                "type": "Identifier",
+                "start": 369,
+                "end": 377,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 386,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 387,
+                "end": 388,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 390,
+                "end": 391,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 393,
+                "end": 394,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 396,
+                "end": 397,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 399,
+                "end": 400,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 404,
+      "end": 594,
+      "expression": {
+        "type": "CallExpression",
+        "start": 404,
+        "end": 593,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 404,
+          "end": 463,
+          "object": {
+            "type": "ArrayExpression",
+            "start": 404,
+            "end": 455,
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "start": 408,
+                "end": 410,
+                "properties": []
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 414,
+                "end": 425,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 420,
+                  "end": 425,
+                  "body": []
+                }
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 429,
+                "end": 453,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 431,
+                    "end": 451,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 431,
+                      "end": 443,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 445,
+                      "end": 451,
+                      "value": "ceil"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 456,
+            "end": 463,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 464,
+            "end": 592,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 464,
+                "end": 471,
+                "name": "roundTo"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 475,
+              "end": 592,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 479,
+                  "end": 529,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 479,
+                    "end": 528,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 479,
+                      "end": 492,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 479,
+                        "end": 485,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 486,
+                        "end": 492,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 493,
+                        "end": 503,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 505,
+                        "end": 527,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 511,
+                          "end": 527,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 511,
+                            "end": 518,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 511,
+                              "end": 512,
+                              "name": "d"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 513,
+                              "end": 518,
+                              "name": "round"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 519,
+                              "end": 526,
+                              "name": "roundTo"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 532,
+                  "end": 590,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 532,
+                    "end": 589,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 532,
+                      "end": 545,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 532,
+                        "end": 538,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 539,
+                        "end": 545,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 546,
+                        "end": 556,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 558,
+                        "end": 588,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 564,
+                          "end": 588,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 564,
+                            "end": 579,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 564,
+                              "end": 573,
+                              "name": "hoursOnly"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 574,
+                              "end": 579,
+                              "name": "round"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 580,
+                              "end": 587,
+                              "name": "roundTo"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

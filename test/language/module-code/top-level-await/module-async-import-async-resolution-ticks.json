@@ -130,7 +130,8 @@
         "start": 2787,
         "end": 2826,
         "value": "./module-import-resolution_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

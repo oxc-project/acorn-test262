@@ -32,7 +32,8 @@
         "start": 501,
         "end": 537,
         "value": "./instn-iee-trlng-comma_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -63,7 +64,8 @@
         "start": 564,
         "end": 600,
         "value": "./instn-iee-trlng-comma_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -110,7 +112,8 @@
         "start": 624,
         "end": 652,
         "value": "./instn-iee-trlng-comma.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

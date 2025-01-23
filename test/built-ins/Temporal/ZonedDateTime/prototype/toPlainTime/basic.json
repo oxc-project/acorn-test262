@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 456,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 294,
+      "end": 376,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 300,
+          "end": 375,
+          "id": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 303,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 306,
+            "end": 375,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 306,
+              "end": 333,
+              "object": {
+                "type": "MemberExpression",
+                "start": 306,
+                "end": 328,
+                "object": {
+                  "type": "Identifier",
+                  "start": 306,
+                  "end": 314,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 315,
+                  "end": 328,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 329,
+                "end": 333,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 334,
+                "end": 374,
+                "value": "2019-10-29T09:46:38.271986102Z[-07:00]"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 378,
+      "end": 455,
+      "expression": {
+        "type": "CallExpression",
+        "start": 378,
+        "end": 454,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 378,
+          "end": 409,
+          "object": {
+            "type": "Identifier",
+            "start": 378,
+            "end": 393,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 394,
+            "end": 409,
+            "name": "assertPlainTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 410,
+            "end": 427,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 410,
+              "end": 425,
+              "object": {
+                "type": "Identifier",
+                "start": 410,
+                "end": 413,
+                "name": "zdt"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 414,
+                "end": 425,
+                "name": "toPlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 429,
+            "end": 430,
+            "value": 2
+          },
+          {
+            "type": "Literal",
+            "start": 432,
+            "end": 434,
+            "value": 46
+          },
+          {
+            "type": "Literal",
+            "start": 436,
+            "end": 438,
+            "value": 38
+          },
+          {
+            "type": "Literal",
+            "start": 440,
+            "end": 443,
+            "value": 271
+          },
+          {
+            "type": "Literal",
+            "start": 445,
+            "end": 448,
+            "value": 986
+          },
+          {
+            "type": "Literal",
+            "start": 450,
+            "end": 453,
+            "value": 102
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

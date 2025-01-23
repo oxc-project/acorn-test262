@@ -25,7 +25,8 @@
         "start": 337,
         "end": 362,
         "value": "./prevent-extensions.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

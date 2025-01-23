@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1242,
+  "end": 1241,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -68,7 +68,7 @@
     {
       "type": "ForStatement",
       "start": 744,
-      "end": 1241,
+      "end": 1240,
       "init": {
         "type": "VariableDeclaration",
         "start": 749,
@@ -141,7 +141,7 @@
       "body": {
         "type": "BlockStatement",
         "start": 790,
-        "end": 1241,
+        "end": 1240,
         "body": [
           {
             "type": "VariableDeclaration",
@@ -322,11 +322,11 @@
           {
             "type": "ExpressionStatement",
             "start": 953,
-            "end": 1077,
+            "end": 1076,
             "expression": {
               "type": "CallExpression",
               "start": 953,
-              "end": 1076,
+              "end": 1075,
               "callee": {
                 "type": "Identifier",
                 "start": 953,
@@ -349,7 +349,7 @@
                 {
                   "type": "ObjectExpression",
                   "start": 984,
-                  "end": 1075,
+                  "end": 1074,
                   "properties": [
                     {
                       "type": "Property",
@@ -396,41 +396,41 @@
                     {
                       "type": "Property",
                       "start": 1037,
-                      "end": 1052,
+                      "end": 1051,
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
                         "start": 1037,
-                        "end": 1046,
-                        "name": "writeable"
+                        "end": 1045,
+                        "name": "writable"
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 1048,
-                        "end": 1052,
+                        "start": 1047,
+                        "end": 1051,
                         "value": true
                       },
                       "kind": "init"
                     },
                     {
                       "type": "Property",
-                      "start": 1058,
-                      "end": 1070,
+                      "start": 1057,
+                      "end": 1069,
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 1058,
-                        "end": 1063,
+                        "start": 1057,
+                        "end": 1062,
                         "name": "value"
                       },
                       "value": {
                         "type": "Identifier",
-                        "start": 1065,
-                        "end": 1070,
+                        "start": 1064,
+                        "end": 1069,
                         "name": "cause"
                       },
                       "kind": "init"
@@ -443,48 +443,48 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1081,
-            "end": 1142,
+            "start": 1080,
+            "end": 1141,
             "expression": {
               "type": "CallExpression",
-              "start": 1081,
-              "end": 1141,
+              "start": 1080,
+              "end": 1140,
               "callee": {
                 "type": "Identifier",
-                "start": 1081,
-                "end": 1095,
+                "start": 1080,
+                "end": 1094,
                 "name": "verifyProperty"
               },
               "arguments": [
                 {
                   "type": "NewExpression",
-                  "start": 1096,
-                  "end": 1120,
+                  "start": 1095,
+                  "end": 1119,
                   "callee": {
                     "type": "Identifier",
-                    "start": 1100,
-                    "end": 1111,
+                    "start": 1099,
+                    "end": 1110,
                     "name": "nativeError"
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 1112,
-                      "end": 1119,
+                      "start": 1111,
+                      "end": 1118,
                       "name": "message"
                     }
                   ]
                 },
                 {
                   "type": "Literal",
-                  "start": 1122,
-                  "end": 1129,
+                  "start": 1121,
+                  "end": 1128,
                   "value": "cause"
                 },
                 {
                   "type": "Identifier",
-                  "start": 1131,
-                  "end": 1140,
+                  "start": 1130,
+                  "end": 1139,
                   "name": "undefined"
                 }
               ],
@@ -493,58 +493,58 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 1145,
-            "end": 1239,
+            "start": 1144,
+            "end": 1238,
             "expression": {
               "type": "CallExpression",
-              "start": 1145,
-              "end": 1238,
+              "start": 1144,
+              "end": 1237,
               "callee": {
                 "type": "Identifier",
-                "start": 1145,
-                "end": 1159,
+                "start": 1144,
+                "end": 1158,
                 "name": "verifyProperty"
               },
               "arguments": [
                 {
                   "type": "NewExpression",
-                  "start": 1160,
-                  "end": 1206,
+                  "start": 1159,
+                  "end": 1205,
                   "callee": {
                     "type": "Identifier",
-                    "start": 1164,
-                    "end": 1175,
+                    "start": 1163,
+                    "end": 1174,
                     "name": "nativeError"
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 1176,
-                      "end": 1183,
+                      "start": 1175,
+                      "end": 1182,
                       "name": "message"
                     },
                     {
                       "type": "ObjectExpression",
-                      "start": 1185,
-                      "end": 1205,
+                      "start": 1184,
+                      "end": 1204,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 1187,
-                          "end": 1203,
+                          "start": 1186,
+                          "end": 1202,
                           "method": false,
                           "shorthand": false,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 1187,
-                            "end": 1192,
+                            "start": 1186,
+                            "end": 1191,
                             "name": "cause"
                           },
                           "value": {
                             "type": "Identifier",
-                            "start": 1194,
-                            "end": 1203,
+                            "start": 1193,
+                            "end": 1202,
                             "name": "undefined"
                           },
                           "kind": "init"
@@ -555,32 +555,32 @@
                 },
                 {
                   "type": "Literal",
-                  "start": 1208,
-                  "end": 1215,
+                  "start": 1207,
+                  "end": 1214,
                   "value": "cause"
                 },
                 {
                   "type": "ObjectExpression",
-                  "start": 1217,
-                  "end": 1237,
+                  "start": 1216,
+                  "end": 1236,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 1219,
-                      "end": 1235,
+                      "start": 1218,
+                      "end": 1234,
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 1219,
-                        "end": 1224,
+                        "start": 1218,
+                        "end": 1223,
                         "name": "value"
                       },
                       "value": {
                         "type": "Identifier",
-                        "start": 1226,
-                        "end": 1235,
+                        "start": 1225,
+                        "end": 1234,
                         "name": "undefined"
                       },
                       "kind": "init"

@@ -1,0 +1,363 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 537,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 288,
+      "end": 366,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 292,
+          "end": 365,
+          "id": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 300,
+            "name": "duration"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 303,
+            "end": 365,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 303,
+              "end": 325,
+              "object": {
+                "type": "MemberExpression",
+                "start": 303,
+                "end": 320,
+                "object": {
+                  "type": "Identifier",
+                  "start": 303,
+                  "end": 311,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 312,
+                  "end": 320,
+                  "name": "Duration"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 321,
+                "end": 325,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 326,
+                "end": 364,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 330,
+                    "end": 338,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 330,
+                      "end": 335,
+                      "name": "weeks"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 337,
+                      "end": 338,
+                      "value": 1
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 342,
+                    "end": 349,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 342,
+                      "end": 346,
+                      "name": "days"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 348,
+                      "end": 349,
+                      "value": 0
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 353,
+                    "end": 361,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 353,
+                      "end": 358,
+                      "name": "hours"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 360,
+                      "end": 361,
+                      "value": 1
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 368,
+      "end": 427,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 372,
+          "end": 426,
+          "id": {
+            "type": "Identifier",
+            "start": 372,
+            "end": 375,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 378,
+            "end": 426,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 382,
+              "end": 404,
+              "object": {
+                "type": "Identifier",
+                "start": 382,
+                "end": 390,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 391,
+                "end": 404,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 405,
+                "end": 407,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 409,
+                "end": 414,
+                "value": "UTC"
+              },
+              {
+                "type": "Literal",
+                "start": 416,
+                "end": 425,
+                "value": "iso8601"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 429,
+      "end": 497,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 433,
+          "end": 496,
+          "id": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 439,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 442,
+            "end": 496,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 442,
+              "end": 456,
+              "object": {
+                "type": "Identifier",
+                "start": 442,
+                "end": 450,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 451,
+                "end": 456,
+                "name": "total"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 457,
+                "end": 495,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 461,
+                    "end": 476,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 461,
+                      "end": 471,
+                      "name": "relativeTo"
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "start": 473,
+                      "end": 476,
+                      "name": "zdt"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 480,
+                    "end": 492,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 480,
+                      "end": 484,
+                      "name": "unit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 486,
+                      "end": 492,
+                      "value": "days"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 499,
+      "end": 536,
+      "expression": {
+        "type": "CallExpression",
+        "start": 499,
+        "end": 535,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 499,
+          "end": 515,
+          "object": {
+            "type": "Identifier",
+            "start": 499,
+            "end": 505,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 506,
+            "end": 515,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 516,
+            "end": 522,
+            "name": "result"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 524,
+            "end": 534,
+            "left": {
+              "type": "Literal",
+              "start": 524,
+              "end": 525,
+              "value": 7
+            },
+            "operator": "+",
+            "right": {
+              "type": "BinaryExpression",
+              "start": 528,
+              "end": 534,
+              "left": {
+                "type": "Literal",
+                "start": 528,
+                "end": 529,
+                "value": 1
+              },
+              "operator": "/",
+              "right": {
+                "type": "Literal",
+                "start": 532,
+                "end": 534,
+                "value": 24
+              }
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

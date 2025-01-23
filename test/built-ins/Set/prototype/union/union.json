@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 493,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 272,
+      "end": 385,
+      "expression": {
+        "type": "CallExpression",
+        "start": 272,
+        "end": 384,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 272,
+          "end": 288,
+          "object": {
+            "type": "Identifier",
+            "start": 272,
+            "end": 278,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 279,
+            "end": 288,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 292,
+            "end": 318,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 299,
+              "end": 318,
+              "object": {
+                "type": "MemberExpression",
+                "start": 299,
+                "end": 312,
+                "object": {
+                  "type": "Identifier",
+                  "start": 299,
+                  "end": 302,
+                  "name": "Set"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 303,
+                  "end": 312,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 313,
+                "end": 318,
+                "name": "union"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 322,
+            "end": 332,
+            "value": "function"
+          },
+          {
+            "type": "Literal",
+            "start": 336,
+            "end": 382,
+            "value": "`typeof Set.prototype.union` is `'function'`"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 387,
+      "end": 492,
+      "expression": {
+        "type": "CallExpression",
+        "start": 387,
+        "end": 491,
+        "callee": {
+          "type": "Identifier",
+          "start": 387,
+          "end": 401,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 402,
+            "end": 415,
+            "object": {
+              "type": "Identifier",
+              "start": 402,
+              "end": 405,
+              "name": "Set"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 406,
+              "end": 415,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 417,
+            "end": 424,
+            "value": "union"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 426,
+            "end": 490,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 430,
+                "end": 447,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 430,
+                  "end": 440,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 442,
+                  "end": 447,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 451,
+                "end": 465,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 451,
+                  "end": 459,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 461,
+                  "end": 465,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 469,
+                "end": 487,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 469,
+                  "end": 481,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 483,
+                  "end": 487,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

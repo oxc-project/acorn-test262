@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 503,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 356,
+      "end": 377,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 360,
+          "end": 376,
+          "id": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 371,
+            "name": "nonCallable"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 374,
+            "end": 376,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 378,
+      "end": 425,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 382,
+          "end": 424,
+          "id": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 390,
+            "name": "iterator"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 393,
+            "end": 424,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 393,
+              "end": 422,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 394,
+                "end": 421,
+                "id": null,
+                "expression": false,
+                "generator": true,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 407,
+                  "end": 421,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 411,
+                      "end": 419,
+                      "expression": {
+                        "type": "YieldExpression",
+                        "start": 411,
+                        "end": 418,
+                        "delegate": false,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 417,
+                          "end": 418,
+                          "value": 1
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 427,
+      "end": 502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 427,
+        "end": 501,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 427,
+          "end": 440,
+          "object": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 433,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 440,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 441,
+            "end": 450,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 452,
+            "end": 500,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 464,
+              "end": 500,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 468,
+                  "end": 498,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 468,
+                    "end": 497,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 468,
+                      "end": 484,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 468,
+                        "end": 476,
+                        "name": "iterator"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 477,
+                        "end": 484,
+                        "name": "forEach"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 485,
+                        "end": 496,
+                        "name": "nonCallable"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

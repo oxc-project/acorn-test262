@@ -60,7 +60,8 @@
                       "start": 3948,
                       "end": 3974,
                       "value": "./module-code_FIXTURE.js"
-                    }
+                    },
+                    "options": null
                   },
                   "property": {
                     "type": "Identifier",

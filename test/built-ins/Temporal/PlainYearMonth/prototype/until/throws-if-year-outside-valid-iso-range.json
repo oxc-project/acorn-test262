@@ -1,0 +1,491 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1241,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 688,
+      "end": 749,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 694,
+          "end": 748,
+          "id": {
+            "type": "Identifier",
+            "start": 694,
+            "end": 706,
+            "name": "minYearMonth"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 709,
+            "end": 748,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 713,
+              "end": 736,
+              "object": {
+                "type": "Identifier",
+                "start": 713,
+                "end": 721,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 722,
+                "end": 736,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 737,
+                "end": 744,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 738,
+                  "end": 744,
+                  "value": 271821
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 746,
+                "end": 747,
+                "value": 4
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 750,
+      "end": 810,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 756,
+          "end": 809,
+          "id": {
+            "type": "Identifier",
+            "start": 756,
+            "end": 768,
+            "name": "maxYearMonth"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 771,
+            "end": 809,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 775,
+              "end": 798,
+              "object": {
+                "type": "Identifier",
+                "start": 775,
+                "end": 783,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 784,
+                "end": 798,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 799,
+                "end": 805,
+                "value": 275760
+              },
+              {
+                "type": "Literal",
+                "start": 807,
+                "end": 808,
+                "value": 9
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 811,
+      "end": 871,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 817,
+          "end": 870,
+          "id": {
+            "type": "Identifier",
+            "start": 817,
+            "end": 831,
+            "name": "epochYearMonth"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 834,
+            "end": 870,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 838,
+              "end": 861,
+              "object": {
+                "type": "Identifier",
+                "start": 838,
+                "end": 846,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 847,
+                "end": 861,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 862,
+                "end": 866,
+                "value": 1970
+              },
+              {
+                "type": "Literal",
+                "start": 868,
+                "end": 869,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 873,
+      "end": 1012,
+      "expression": {
+        "type": "CallExpression",
+        "start": 873,
+        "end": 1011,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 873,
+          "end": 903,
+          "object": {
+            "type": "Identifier",
+            "start": 873,
+            "end": 888,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 889,
+            "end": 903,
+            "name": "assertDuration"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 907,
+            "end": 939,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 907,
+              "end": 925,
+              "object": {
+                "type": "Identifier",
+                "start": 907,
+                "end": 919,
+                "name": "minYearMonth"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 920,
+                "end": 925,
+                "name": "until"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 926,
+                "end": 938,
+                "name": "minYearMonth"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 943,
+            "end": 944,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 946,
+            "end": 947,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 949,
+            "end": 950,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 952,
+            "end": 953,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 955,
+            "end": 956,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 958,
+            "end": 959,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 961,
+            "end": 962,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 964,
+            "end": 965,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 967,
+            "end": 968,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 970,
+            "end": 971,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 975,
+            "end": 1009,
+            "value": "minYearMonth.until(minYearMonth)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1014,
+      "end": 1124,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1014,
+        "end": 1123,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1014,
+          "end": 1027,
+          "object": {
+            "type": "Identifier",
+            "start": 1014,
+            "end": 1020,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1021,
+            "end": 1027,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1031,
+            "end": 1041,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 1045,
+            "end": 1083,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 1051,
+              "end": 1083,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1051,
+                "end": 1069,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1051,
+                  "end": 1063,
+                  "name": "minYearMonth"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1064,
+                  "end": 1069,
+                  "name": "until"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1070,
+                  "end": 1082,
+                  "name": "maxYearMonth"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1087,
+            "end": 1121,
+            "value": "minYearMonth.until(maxYearMonth)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1126,
+      "end": 1240,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1126,
+        "end": 1239,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1126,
+          "end": 1139,
+          "object": {
+            "type": "Identifier",
+            "start": 1126,
+            "end": 1132,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1133,
+            "end": 1139,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1143,
+            "end": 1153,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 1157,
+            "end": 1197,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 1163,
+              "end": 1197,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1163,
+                "end": 1181,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1163,
+                  "end": 1175,
+                  "name": "minYearMonth"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1176,
+                  "end": 1181,
+                  "name": "until"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1182,
+                  "end": 1196,
+                  "name": "epochYearMonth"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1201,
+            "end": 1237,
+            "value": "minYearMonth.until(epochYearMonth)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

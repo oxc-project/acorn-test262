@@ -1,0 +1,198 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 522,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 311,
+      "end": 341,
+      "id": {
+        "type": "Identifier",
+        "start": 327,
+        "end": 336,
+        "name": "generator"
+      },
+      "expression": false,
+      "generator": true,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 339,
+        "end": 341,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 342,
+      "end": 438,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 348,
+          "end": 438,
+          "id": {
+            "type": "Identifier",
+            "start": 348,
+            "end": 370,
+            "name": "AsyncIteratorPrototype"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 373,
+            "end": 438,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 373,
+              "end": 394,
+              "object": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 379,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 380,
+                "end": 394,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 395,
+                "end": 437,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 395,
+                  "end": 416,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 395,
+                    "end": 401,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 402,
+                    "end": 416,
+                    "name": "getPrototypeOf"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "MemberExpression",
+                    "start": 417,
+                    "end": 436,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 417,
+                      "end": 426,
+                      "name": "generator"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 427,
+                      "end": 436,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 440,
+      "end": 521,
+      "expression": {
+        "type": "CallExpression",
+        "start": 440,
+        "end": 520,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 440,
+          "end": 456,
+          "object": {
+            "type": "Identifier",
+            "start": 440,
+            "end": 446,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 447,
+            "end": 456,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 457,
+            "end": 507,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 464,
+              "end": 507,
+              "object": {
+                "type": "Identifier",
+                "start": 464,
+                "end": 486,
+                "name": "AsyncIteratorPrototype"
+              },
+              "property": {
+                "type": "MemberExpression",
+                "start": 487,
+                "end": 506,
+                "object": {
+                  "type": "Identifier",
+                  "start": 487,
+                  "end": 493,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 494,
+                  "end": 506,
+                  "name": "asyncDispose"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "computed": true,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 509,
+            "end": 519,
+            "value": "function"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,138 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 305,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 236,
+      "end": 252,
+      "id": {
+        "type": "Identifier",
+        "start": 246,
+        "end": 247,
+        "name": "g"
+      },
+      "expression": false,
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 250,
+        "end": 252,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 254,
+      "end": 273,
+      "expression": {
+        "type": "CallExpression",
+        "start": 254,
+        "end": 272,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 254,
+          "end": 267,
+          "object": {
+            "type": "Identifier",
+            "start": 254,
+            "end": 262,
+            "name": "Iterator"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 263,
+            "end": 267,
+            "name": "from"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 268,
+            "end": 271,
+            "callee": {
+              "type": "Identifier",
+              "start": 268,
+              "end": 269,
+              "name": "g"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 274,
+      "end": 304,
+      "expression": {
+        "type": "CallExpression",
+        "start": 274,
+        "end": 303,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 274,
+          "end": 292,
+          "object": {
+            "type": "MemberExpression",
+            "start": 274,
+            "end": 287,
+            "object": {
+              "type": "Identifier",
+              "start": 274,
+              "end": 282,
+              "name": "Iterator"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 283,
+              "end": 287,
+              "name": "from"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 292,
+            "name": "call"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 293,
+            "end": 297,
+            "value": null
+          },
+          {
+            "type": "CallExpression",
+            "start": 299,
+            "end": 302,
+            "callee": {
+              "type": "Identifier",
+              "start": 299,
+              "end": 300,
+              "name": "g"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

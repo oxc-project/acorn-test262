@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 654,
+  "end": 645,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 551,
-      "end": 653,
+      "start": 550,
+      "end": 644,
       "expression": {
         "type": "CallExpression",
-        "start": 551,
-        "end": 652,
+        "start": 550,
+        "end": 643,
         "callee": {
           "type": "MemberExpression",
-          "start": 551,
-          "end": 564,
+          "start": 550,
+          "end": 563,
           "object": {
             "type": "Identifier",
-            "start": 551,
-            "end": 557,
+            "start": 550,
+            "end": 556,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 558,
-            "end": 564,
+            "start": 557,
+            "end": 563,
             "name": "throws"
           },
           "computed": false,
@@ -33,14 +33,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 565,
-            "end": 576,
+            "start": 564,
+            "end": 575,
             "name": "SyntaxError"
           },
           {
             "type": "FunctionExpression",
-            "start": 578,
-            "end": 651,
+            "start": 577,
+            "end": 642,
             "id": null,
             "expression": false,
             "generator": false,
@@ -48,28 +48,28 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 589,
-              "end": 651,
+              "start": 588,
+              "end": 642,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 603,
-                  "end": 649,
+                  "start": 594,
+                  "end": 640,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 603,
-                    "end": 648,
+                    "start": 594,
+                    "end": 639,
                     "callee": {
                       "type": "Identifier",
-                      "start": 603,
-                      "end": 607,
+                      "start": 594,
+                      "end": 598,
                       "name": "eval"
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 608,
-                        "end": 647,
+                        "start": 599,
+                        "end": 638,
                         "value": "var _13_1_2_fun = function (eval) { }"
                       }
                     ],

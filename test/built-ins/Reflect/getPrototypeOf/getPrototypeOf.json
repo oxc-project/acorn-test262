@@ -1,96 +1,104 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 534,
+  "end": 504,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 396,
-      "end": 443,
+      "end": 503,
       "expression": {
         "type": "CallExpression",
         "start": 396,
-        "end": 442,
+        "end": 502,
         "callee": {
           "type": "Identifier",
           "start": 396,
-          "end": 415,
-          "name": "verifyNotEnumerable"
+          "end": 410,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 416,
-            "end": 423,
+            "start": 411,
+            "end": 418,
             "name": "Reflect"
           },
           {
             "type": "Literal",
-            "start": 425,
-            "end": 441,
+            "start": 420,
+            "end": 436,
             "value": "getPrototypeOf"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 444,
-      "end": 486,
-      "expression": {
-        "type": "CallExpression",
-        "start": 444,
-        "end": 485,
-        "callee": {
-          "type": "Identifier",
-          "start": 444,
-          "end": 458,
-          "name": "verifyWritable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 459,
-            "end": 466,
-            "name": "Reflect"
           },
           {
-            "type": "Literal",
-            "start": 468,
-            "end": 484,
-            "value": "getPrototypeOf"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 487,
-      "end": 533,
-      "expression": {
-        "type": "CallExpression",
-        "start": 487,
-        "end": 532,
-        "callee": {
-          "type": "Identifier",
-          "start": 487,
-          "end": 505,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 506,
-            "end": 513,
-            "name": "Reflect"
-          },
-          {
-            "type": "Literal",
-            "start": 515,
-            "end": 531,
-            "value": "getPrototypeOf"
+            "type": "ObjectExpression",
+            "start": 438,
+            "end": 501,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 442,
+                "end": 456,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 442,
+                  "end": 450,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 452,
+                  "end": 456,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 460,
+                "end": 477,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 460,
+                  "end": 470,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 472,
+                  "end": 477,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 481,
+                "end": 499,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 481,
+                  "end": 493,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 495,
+                  "end": 499,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

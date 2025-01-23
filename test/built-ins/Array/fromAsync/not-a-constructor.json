@@ -1,0 +1,152 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 676,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 496,
+      "end": 576,
+      "expression": {
+        "type": "CallExpression",
+        "start": 496,
+        "end": 575,
+        "callee": {
+          "type": "Identifier",
+          "start": 496,
+          "end": 502,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 503,
+            "end": 534,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 504,
+              "end": 534,
+              "callee": {
+                "type": "Identifier",
+                "start": 504,
+                "end": 517,
+                "name": "isConstructor"
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 518,
+                  "end": 533,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 518,
+                    "end": 523,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 524,
+                    "end": 533,
+                    "name": "fromAsync"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 536,
+            "end": 574,
+            "value": "Array.fromAsync is not a constructor"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 578,
+      "end": 675,
+      "expression": {
+        "type": "CallExpression",
+        "start": 578,
+        "end": 674,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 578,
+          "end": 591,
+          "object": {
+            "type": "Identifier",
+            "start": 578,
+            "end": 584,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 585,
+            "end": 591,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 592,
+            "end": 601,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 603,
+            "end": 630,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "NewExpression",
+              "start": 609,
+              "end": 630,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 613,
+                "end": 628,
+                "object": {
+                  "type": "Identifier",
+                  "start": 613,
+                  "end": 618,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 619,
+                  "end": 628,
+                  "name": "fromAsync"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": []
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 632,
+            "end": 673,
+            "value": "Array.fromAsync throws when constructed"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

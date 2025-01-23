@@ -1,0 +1,224 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 956,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 694,
+      "end": 839,
+      "expression": {
+        "type": "CallExpression",
+        "start": 694,
+        "end": 838,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 694,
+          "end": 710,
+          "object": {
+            "type": "Identifier",
+            "start": 694,
+            "end": 700,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 701,
+            "end": 710,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 714,
+            "end": 742,
+            "object": {
+              "type": "MemberExpression",
+              "start": 714,
+              "end": 737,
+              "object": {
+                "type": "MemberExpression",
+                "start": 714,
+                "end": 726,
+                "object": {
+                  "type": "Identifier",
+                  "start": 714,
+                  "end": 722,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 723,
+                  "end": 726,
+                  "name": "Now"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 727,
+                "end": 737,
+                "name": "timeZoneId"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 738,
+              "end": 742,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 758,
+            "value": "timeZoneId"
+          },
+          {
+            "type": "Literal",
+            "start": 762,
+            "end": 836,
+            "value": "The value of Temporal.Now.timeZoneId.name is expected to be \"timeZoneId\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 841,
+      "end": 955,
+      "expression": {
+        "type": "CallExpression",
+        "start": 841,
+        "end": 954,
+        "callee": {
+          "type": "Identifier",
+          "start": 841,
+          "end": 855,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 856,
+            "end": 879,
+            "object": {
+              "type": "MemberExpression",
+              "start": 856,
+              "end": 868,
+              "object": {
+                "type": "Identifier",
+                "start": 856,
+                "end": 864,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 865,
+                "end": 868,
+                "name": "Now"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 869,
+              "end": 879,
+              "name": "timeZoneId"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 881,
+            "end": 887,
+            "value": "name"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 889,
+            "end": 953,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 893,
+                "end": 910,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 893,
+                  "end": 903,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 905,
+                  "end": 910,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 914,
+                "end": 929,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 914,
+                  "end": 922,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 924,
+                  "end": 929,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 933,
+                "end": 951,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 933,
+                  "end": 945,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 947,
+                  "end": 951,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

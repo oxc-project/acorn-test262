@@ -96,7 +96,8 @@
         "start": 1014,
         "end": 1052,
         "value": "./eval-export-dflt-expr-cls-named.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

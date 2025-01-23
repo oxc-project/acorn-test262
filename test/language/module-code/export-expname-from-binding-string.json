@@ -25,7 +25,8 @@
         "start": 466,
         "end": 507,
         "value": "./export-expname-from-binding-string.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -56,7 +57,8 @@
         "start": 542,
         "end": 571,
         "value": "./export-expname_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

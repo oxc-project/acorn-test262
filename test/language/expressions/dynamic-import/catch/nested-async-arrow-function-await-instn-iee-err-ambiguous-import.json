@@ -49,7 +49,8 @@
                         "start": 2372,
                         "end": 2417,
                         "value": "./instn-iee-err-ambiguous-export_FIXTURE.js"
-                      }
+                      },
+                      "options": null
                     }
                   }
                 }

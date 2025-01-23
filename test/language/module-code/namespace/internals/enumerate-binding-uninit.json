@@ -25,7 +25,8 @@
         "start": 1024,
         "end": 1055,
         "value": "./enumerate-binding-uninit.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

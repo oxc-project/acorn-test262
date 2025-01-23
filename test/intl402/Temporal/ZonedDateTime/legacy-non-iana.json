@@ -1,0 +1,339 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 797,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 384,
+      "end": 638,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 390,
+          "end": 637,
+          "id": {
+            "type": "Identifier",
+            "start": 390,
+            "end": 406,
+            "name": "invalidTimeZones"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 409,
+            "end": 637,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 413,
+                "end": 418,
+                "value": "ACT"
+              },
+              {
+                "type": "Literal",
+                "start": 422,
+                "end": 427,
+                "value": "AET"
+              },
+              {
+                "type": "Literal",
+                "start": 431,
+                "end": 436,
+                "value": "AGT"
+              },
+              {
+                "type": "Literal",
+                "start": 440,
+                "end": 445,
+                "value": "ART"
+              },
+              {
+                "type": "Literal",
+                "start": 449,
+                "end": 454,
+                "value": "AST"
+              },
+              {
+                "type": "Literal",
+                "start": 458,
+                "end": 463,
+                "value": "BET"
+              },
+              {
+                "type": "Literal",
+                "start": 467,
+                "end": 472,
+                "value": "BST"
+              },
+              {
+                "type": "Literal",
+                "start": 476,
+                "end": 481,
+                "value": "CAT"
+              },
+              {
+                "type": "Literal",
+                "start": 485,
+                "end": 490,
+                "value": "CNT"
+              },
+              {
+                "type": "Literal",
+                "start": 494,
+                "end": 499,
+                "value": "CST"
+              },
+              {
+                "type": "Literal",
+                "start": 503,
+                "end": 508,
+                "value": "CTT"
+              },
+              {
+                "type": "Literal",
+                "start": 512,
+                "end": 517,
+                "value": "EAT"
+              },
+              {
+                "type": "Literal",
+                "start": 521,
+                "end": 526,
+                "value": "ECT"
+              },
+              {
+                "type": "Literal",
+                "start": 530,
+                "end": 535,
+                "value": "IET"
+              },
+              {
+                "type": "Literal",
+                "start": 539,
+                "end": 544,
+                "value": "IST"
+              },
+              {
+                "type": "Literal",
+                "start": 548,
+                "end": 553,
+                "value": "JST"
+              },
+              {
+                "type": "Literal",
+                "start": 557,
+                "end": 562,
+                "value": "MIT"
+              },
+              {
+                "type": "Literal",
+                "start": 566,
+                "end": 571,
+                "value": "NET"
+              },
+              {
+                "type": "Literal",
+                "start": 575,
+                "end": 580,
+                "value": "NST"
+              },
+              {
+                "type": "Literal",
+                "start": 584,
+                "end": 589,
+                "value": "PLT"
+              },
+              {
+                "type": "Literal",
+                "start": 593,
+                "end": 598,
+                "value": "PNT"
+              },
+              {
+                "type": "Literal",
+                "start": 602,
+                "end": 607,
+                "value": "PRT"
+              },
+              {
+                "type": "Literal",
+                "start": 611,
+                "end": 616,
+                "value": "PST"
+              },
+              {
+                "type": "Literal",
+                "start": 620,
+                "end": 625,
+                "value": "SST"
+              },
+              {
+                "type": "Literal",
+                "start": 629,
+                "end": 634,
+                "value": "VST"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 640,
+      "end": 796,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 645,
+        "end": 657,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 649,
+            "end": 657,
+            "id": {
+              "type": "Identifier",
+              "start": 649,
+              "end": 657,
+              "name": "timeZone"
+            },
+            "init": null
+          }
+        ],
+        "kind": "let"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 661,
+        "end": 677,
+        "name": "invalidTimeZones"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 679,
+        "end": 796,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 683,
+            "end": 794,
+            "expression": {
+              "type": "CallExpression",
+              "start": 683,
+              "end": 793,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 683,
+                "end": 696,
+                "object": {
+                  "type": "Identifier",
+                  "start": 683,
+                  "end": 689,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 690,
+                  "end": 696,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 697,
+                  "end": 707,
+                  "name": "RangeError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 709,
+                  "end": 766,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 715,
+                    "end": 766,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 721,
+                        "end": 762,
+                        "expression": {
+                          "type": "NewExpression",
+                          "start": 721,
+                          "end": 761,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 725,
+                            "end": 747,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 725,
+                              "end": 733,
+                              "name": "Temporal"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 734,
+                              "end": 747,
+                              "name": "ZonedDateTime"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 748,
+                              "end": 750,
+                              "value": "0n"
+                            },
+                            {
+                              "type": "Identifier",
+                              "start": 752,
+                              "end": 760,
+                              "name": "timeZone"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "BinaryExpression",
+                  "start": 768,
+                  "end": 792,
+                  "left": {
+                    "type": "Literal",
+                    "start": 768,
+                    "end": 781,
+                    "value": "Time zone: "
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 784,
+                    "end": 792,
+                    "name": "timeZone"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

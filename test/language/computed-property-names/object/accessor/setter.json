@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 509,
+  "end": 633,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -31,41 +31,73 @@
     {
       "type": "VariableDeclaration",
       "start": 362,
-      "end": 408,
+      "end": 379,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 366,
-          "end": 407,
+          "end": 378,
           "id": {
             "type": "Identifier",
             "start": 366,
             "end": 367,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 370,
+            "end": 378,
+            "callee": {
+              "type": "Identifier",
+              "start": 370,
+              "end": 376,
+              "name": "Symbol"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 380,
+      "end": 492,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 384,
+          "end": 491,
+          "id": {
+            "type": "Identifier",
+            "start": 384,
+            "end": 385,
             "name": "A"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 370,
-            "end": 407,
+            "start": 388,
+            "end": 491,
             "properties": [
               {
                 "type": "Property",
-                "start": 374,
-                "end": 405,
+                "start": 392,
+                "end": 423,
                 "method": false,
                 "shorthand": false,
                 "computed": true,
                 "key": {
                   "type": "Literal",
-                  "start": 379,
-                  "end": 382,
+                  "start": 397,
+                  "end": 400,
                   "value": "a"
                 },
                 "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 383,
-                  "end": 405,
+                  "start": 401,
+                  "end": 423,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -73,30 +105,144 @@
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 384,
-                      "end": 385,
+                      "start": 402,
+                      "end": 403,
                       "name": "_"
                     }
                   ],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 387,
-                    "end": 405,
+                    "start": 405,
+                    "end": 423,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 393,
-                        "end": 401,
+                        "start": 411,
+                        "end": 419,
                         "expression": {
                           "type": "UpdateExpression",
-                          "start": 393,
-                          "end": 400,
+                          "start": 411,
+                          "end": 418,
                           "operator": "++",
                           "prefix": false,
                           "argument": {
                             "type": "Identifier",
-                            "start": 393,
-                            "end": 398,
+                            "start": 411,
+                            "end": 416,
+                            "name": "calls"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "Property",
+                "start": 427,
+                "end": 456,
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "key": {
+                  "type": "Literal",
+                  "start": 432,
+                  "end": 433,
+                  "value": 1
+                },
+                "kind": "set",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 434,
+                  "end": 456,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 435,
+                      "end": 436,
+                      "name": "_"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 438,
+                    "end": 456,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 444,
+                        "end": 452,
+                        "expression": {
+                          "type": "UpdateExpression",
+                          "start": 444,
+                          "end": 451,
+                          "operator": "++",
+                          "prefix": false,
+                          "argument": {
+                            "type": "Identifier",
+                            "start": 444,
+                            "end": 449,
+                            "name": "calls"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "Property",
+                "start": 460,
+                "end": 489,
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "key": {
+                  "type": "Identifier",
+                  "start": 465,
+                  "end": 466,
+                  "name": "s"
+                },
+                "kind": "set",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 467,
+                  "end": 489,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 468,
+                      "end": 469,
+                      "name": "_"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 471,
+                    "end": 489,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 477,
+                        "end": 485,
+                        "expression": {
+                          "type": "UpdateExpression",
+                          "start": 477,
+                          "end": 484,
+                          "operator": "++",
+                          "prefix": false,
+                          "argument": {
+                            "type": "Identifier",
+                            "start": 477,
+                            "end": 482,
                             "name": "calls"
                           }
                         }
@@ -113,27 +259,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 409,
-      "end": 419,
+      "start": 493,
+      "end": 503,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 409,
-        "end": 418,
+        "start": 493,
+        "end": 502,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 409,
-          "end": 412,
+          "start": 493,
+          "end": 496,
           "object": {
             "type": "Identifier",
-            "start": 409,
-            "end": 410,
+            "start": 493,
+            "end": 494,
             "name": "A"
           },
           "property": {
             "type": "Identifier",
-            "start": 411,
-            "end": 412,
+            "start": 495,
+            "end": 496,
             "name": "a"
           },
           "computed": false,
@@ -141,34 +287,106 @@
         },
         "right": {
           "type": "Literal",
-          "start": 415,
-          "end": 418,
+          "start": 499,
+          "end": 502,
           "value": "A"
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 420,
-      "end": 508,
+      "start": 504,
+      "end": 513,
       "expression": {
-        "type": "CallExpression",
-        "start": 420,
-        "end": 507,
-        "callee": {
+        "type": "AssignmentExpression",
+        "start": 504,
+        "end": 512,
+        "operator": "=",
+        "left": {
           "type": "MemberExpression",
-          "start": 420,
-          "end": 436,
+          "start": 504,
+          "end": 508,
           "object": {
             "type": "Identifier",
-            "start": 420,
-            "end": 426,
+            "start": 504,
+            "end": 505,
+            "name": "A"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 506,
+            "end": 507,
+            "value": 1
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 511,
+          "end": 512,
+          "value": 1
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 514,
+      "end": 523,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 514,
+        "end": 522,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 514,
+          "end": 518,
+          "object": {
+            "type": "Identifier",
+            "start": 514,
+            "end": 515,
+            "name": "A"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 516,
+            "end": 517,
+            "name": "s"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 521,
+          "end": 522,
+          "name": "s"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 524,
+      "end": 632,
+      "expression": {
+        "type": "CallExpression",
+        "start": 524,
+        "end": 631,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 524,
+          "end": 540,
+          "object": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 530,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 427,
-            "end": 436,
+            "start": 531,
+            "end": 540,
             "name": "sameValue"
           },
           "computed": false,
@@ -177,21 +395,21 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 437,
-            "end": 442,
+            "start": 541,
+            "end": 546,
             "name": "calls"
           },
           {
             "type": "Literal",
-            "start": 444,
-            "end": 445,
-            "value": 1
+            "start": 548,
+            "end": 549,
+            "value": 3
           },
           {
             "type": "Literal",
-            "start": 447,
-            "end": 506,
-            "value": "The value of `calls` is `1`, after executing `A.a = 'A';`"
+            "start": 551,
+            "end": 630,
+            "value": "The value of `calls` is `1`, after executing `A.a = 'A'; A[1] = 1; A[s] = s;`"
           }
         ],
         "optional": false

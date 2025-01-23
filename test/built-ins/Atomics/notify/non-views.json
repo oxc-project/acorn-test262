@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 569,
+  "end": 517,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 359,
-      "end": 568,
+      "end": 516,
       "expression": {
         "type": "CallExpression",
         "start": 359,
-        "end": 567,
+        "end": 515,
         "callee": {
           "type": "Identifier",
           "start": 359,
@@ -21,7 +21,7 @@
           {
             "type": "FunctionExpression",
             "start": 388,
-            "end": 566,
+            "end": 514,
             "id": null,
             "expression": false,
             "generator": false,
@@ -37,16 +37,16 @@
             "body": {
               "type": "BlockStatement",
               "start": 406,
-              "end": 566,
+              "end": 514,
               "body": [
                 {
                   "type": "ExpressionStatement",
                   "start": 410,
-                  "end": 540,
+                  "end": 488,
                   "expression": {
                     "type": "CallExpression",
                     "start": 410,
-                    "end": 539,
+                    "end": 487,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 410,
@@ -139,12 +139,6 @@
                             }
                           ]
                         }
-                      },
-                      {
-                        "type": "Literal",
-                        "start": 488,
-                        "end": 538,
-                        "value": "`Atomics.notify(nonView, 0, 0)` throws TypeError"
                       }
                     ],
                     "optional": false

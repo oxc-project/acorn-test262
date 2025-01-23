@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2205,
+  "end": 3228,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -1439,6 +1439,651 @@
             "start": 2118,
             "end": 2202,
             "value": "date-time + offset + IANA annotation ignores the IANA annotation (second argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2206,
+      "end": 2245,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2206,
+        "end": 2244,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2206,
+          "end": 2209,
+          "name": "str"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 2212,
+          "end": 2244,
+          "value": "1970-01-01T00:00Z[u-ca=hebrew]"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2246,
+      "end": 2370,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2246,
+        "end": 2369,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2246,
+          "end": 2262,
+          "object": {
+            "type": "Identifier",
+            "start": 2246,
+            "end": 2252,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2253,
+            "end": 2262,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2263,
+            "end": 2299,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2263,
+              "end": 2287,
+              "object": {
+                "type": "MemberExpression",
+                "start": 2263,
+                "end": 2279,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2263,
+                  "end": 2271,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2272,
+                  "end": 2279,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2280,
+                "end": 2287,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2288,
+                "end": 2291,
+                "name": "str"
+              },
+              {
+                "type": "Identifier",
+                "start": 2293,
+                "end": 2298,
+                "name": "epoch"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2301,
+            "end": 2302,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 2304,
+            "end": 2368,
+            "value": "date-time + Z + Calendar ignores the Calendar (first argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2371,
+      "end": 2496,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2371,
+        "end": 2495,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2371,
+          "end": 2387,
+          "object": {
+            "type": "Identifier",
+            "start": 2371,
+            "end": 2377,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2378,
+            "end": 2387,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2388,
+            "end": 2424,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2388,
+              "end": 2412,
+              "object": {
+                "type": "MemberExpression",
+                "start": 2388,
+                "end": 2404,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2388,
+                  "end": 2396,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2397,
+                  "end": 2404,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2405,
+                "end": 2412,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2413,
+                "end": 2418,
+                "name": "epoch"
+              },
+              {
+                "type": "Identifier",
+                "start": 2420,
+                "end": 2423,
+                "name": "str"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2426,
+            "end": 2427,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 2429,
+            "end": 2494,
+            "value": "date-time + Z + Calendar ignores the Calendar (second argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2498,
+      "end": 2542,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2498,
+        "end": 2541,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2498,
+          "end": 2501,
+          "name": "str"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 2504,
+          "end": 2541,
+          "value": "1970-01-01T00:00+01:00[u-ca=hebrew]"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2543,
+      "end": 2677,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2543,
+        "end": 2676,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2543,
+          "end": 2559,
+          "object": {
+            "type": "Identifier",
+            "start": 2543,
+            "end": 2549,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2550,
+            "end": 2559,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2560,
+            "end": 2601,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2560,
+              "end": 2584,
+              "object": {
+                "type": "MemberExpression",
+                "start": 2560,
+                "end": 2576,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2560,
+                  "end": 2568,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2569,
+                  "end": 2576,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2577,
+                "end": 2584,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2585,
+                "end": 2588,
+                "name": "str"
+              },
+              {
+                "type": "Identifier",
+                "start": 2590,
+                "end": 2600,
+                "name": "hourBefore"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2603,
+            "end": 2604,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 2606,
+            "end": 2675,
+            "value": "date-time + offset + Calendar ignores the Calendar (first argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2678,
+      "end": 2813,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2678,
+        "end": 2812,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2678,
+          "end": 2694,
+          "object": {
+            "type": "Identifier",
+            "start": 2678,
+            "end": 2684,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2685,
+            "end": 2694,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2695,
+            "end": 2736,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2695,
+              "end": 2719,
+              "object": {
+                "type": "MemberExpression",
+                "start": 2695,
+                "end": 2711,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2695,
+                  "end": 2703,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2704,
+                  "end": 2711,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2712,
+                "end": 2719,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2720,
+                "end": 2730,
+                "name": "hourBefore"
+              },
+              {
+                "type": "Identifier",
+                "start": 2732,
+                "end": 2735,
+                "name": "str"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2738,
+            "end": 2739,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 2741,
+            "end": 2811,
+            "value": "date-time + offset + Calendar ignores the Calendar (second argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2815,
+      "end": 2872,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2815,
+        "end": 2871,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2815,
+          "end": 2818,
+          "name": "str"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 2821,
+          "end": 2871,
+          "value": "1970-01-01T00:00+01:00[Etc/Ignored][u-ca=hebrew]"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2873,
+      "end": 3049,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2873,
+        "end": 3048,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2873,
+          "end": 2889,
+          "object": {
+            "type": "Identifier",
+            "start": 2873,
+            "end": 2879,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2880,
+            "end": 2889,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2890,
+            "end": 2931,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2890,
+              "end": 2914,
+              "object": {
+                "type": "MemberExpression",
+                "start": 2890,
+                "end": 2906,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2890,
+                  "end": 2898,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2899,
+                  "end": 2906,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2907,
+                "end": 2914,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2915,
+                "end": 2918,
+                "name": "str"
+              },
+              {
+                "type": "Identifier",
+                "start": 2920,
+                "end": 2930,
+                "name": "hourBefore"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2933,
+            "end": 2934,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 2936,
+            "end": 3047,
+            "value": "date-time + offset + IANA annotation + Calendar ignores the IANA annotation and the Calendar (first argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3050,
+      "end": 3227,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3050,
+        "end": 3226,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3050,
+          "end": 3066,
+          "object": {
+            "type": "Identifier",
+            "start": 3050,
+            "end": 3056,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3057,
+            "end": 3066,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3067,
+            "end": 3108,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3067,
+              "end": 3091,
+              "object": {
+                "type": "MemberExpression",
+                "start": 3067,
+                "end": 3083,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3067,
+                  "end": 3075,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 3076,
+                  "end": 3083,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3084,
+                "end": 3091,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 3092,
+                "end": 3102,
+                "name": "hourBefore"
+              },
+              {
+                "type": "Identifier",
+                "start": 3104,
+                "end": 3107,
+                "name": "str"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3110,
+            "end": 3111,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 3113,
+            "end": 3225,
+            "value": "date-time + offset + IANA annotation + Calendar ignores the IANA annotation and the Calendar (second argument)"
           }
         ],
         "optional": false

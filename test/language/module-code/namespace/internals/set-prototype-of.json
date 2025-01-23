@@ -25,7 +25,8 @@
         "start": 312,
         "end": 335,
         "value": "./set-prototype-of.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

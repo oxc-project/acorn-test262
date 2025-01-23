@@ -1,0 +1,233 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 758,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 525,
+      "end": 588,
+      "expression": {
+        "type": "CallExpression",
+        "start": 525,
+        "end": 587,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 525,
+          "end": 541,
+          "object": {
+            "type": "Identifier",
+            "start": 525,
+            "end": 531,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 532,
+            "end": 541,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 542,
+            "end": 574,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 549,
+              "end": 574,
+              "object": {
+                "type": "Identifier",
+                "start": 549,
+                "end": 553,
+                "name": "$262"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 554,
+                "end": 574,
+                "name": "AbstractModuleSource"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 576,
+            "end": 586,
+            "value": "function"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 589,
+      "end": 757,
+      "expression": {
+        "type": "CallExpression",
+        "start": 589,
+        "end": 756,
+        "callee": {
+          "type": "Identifier",
+          "start": 589,
+          "end": 603,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 604,
+            "end": 639,
+            "object": {
+              "type": "MemberExpression",
+              "start": 604,
+              "end": 629,
+              "object": {
+                "type": "Identifier",
+                "start": 604,
+                "end": 608,
+                "name": "$262"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 609,
+                "end": 629,
+                "name": "AbstractModuleSource"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 630,
+              "end": 639,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 641,
+            "end": 654,
+            "value": "constructor"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 656,
+            "end": 755,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 660,
+                "end": 692,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 660,
+                  "end": 665,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "MemberExpression",
+                  "start": 667,
+                  "end": 692,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 667,
+                    "end": 671,
+                    "name": "$262"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 672,
+                    "end": 692,
+                    "name": "AbstractModuleSource"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 696,
+                "end": 710,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 696,
+                  "end": 704,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 706,
+                  "end": 710,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 714,
+                "end": 731,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 714,
+                  "end": 724,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 726,
+                  "end": 731,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 735,
+                "end": 753,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 735,
+                  "end": 747,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 749,
+                  "end": 753,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

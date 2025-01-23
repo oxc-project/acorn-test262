@@ -1,33 +1,33 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 899,
+  "end": 925,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 806,
-      "end": 820,
+      "start": 832,
+      "end": 846,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 810,
-          "end": 819,
+          "start": 836,
+          "end": 845,
           "id": {
             "type": "Identifier",
-            "start": 810,
-            "end": 814,
+            "start": 836,
+            "end": 840,
             "name": "base"
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 817,
-            "end": 819,
+            "start": 843,
+            "end": 845,
             "operator": "-",
             "prefix": true,
             "argument": {
               "type": "Literal",
-              "start": 818,
-              "end": 819,
+              "start": 844,
+              "end": 845,
               "value": 3
             }
           }
@@ -37,26 +37,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 822,
-      "end": 898,
+      "start": 848,
+      "end": 924,
       "expression": {
         "type": "CallExpression",
-        "start": 822,
-        "end": 897,
+        "start": 848,
+        "end": 923,
         "callee": {
           "type": "MemberExpression",
-          "start": 822,
-          "end": 838,
+          "start": 848,
+          "end": 864,
           "object": {
             "type": "Identifier",
-            "start": 822,
-            "end": 828,
+            "start": 848,
+            "end": 854,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 829,
-            "end": 838,
+            "start": 855,
+            "end": 864,
             "name": "sameValue"
           },
           "computed": false,
@@ -65,39 +65,39 @@
         "arguments": [
           {
             "type": "AssignmentExpression",
-            "start": 839,
-            "end": 849,
+            "start": 865,
+            "end": 875,
             "operator": "**=",
             "left": {
               "type": "Identifier",
-              "start": 839,
-              "end": 843,
+              "start": 865,
+              "end": 869,
               "name": "base"
             },
             "right": {
               "type": "Literal",
-              "start": 848,
-              "end": 849,
+              "start": 874,
+              "end": 875,
               "value": 3
             }
           },
           {
             "type": "UnaryExpression",
-            "start": 851,
-            "end": 854,
+            "start": 877,
+            "end": 880,
             "operator": "-",
             "prefix": true,
             "argument": {
               "type": "Literal",
-              "start": 852,
-              "end": 854,
+              "start": 878,
+              "end": 880,
               "value": 27
             }
           },
           {
             "type": "Literal",
-            "start": 856,
-            "end": 896,
+            "start": 882,
+            "end": 922,
             "value": "(base **= 3) === -27; where base is -3"
           }
         ],

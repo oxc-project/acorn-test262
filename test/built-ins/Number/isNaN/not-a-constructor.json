@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 889,
+  "end": 848,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -83,11 +83,11 @@
     {
       "type": "ExpressionStatement",
       "start": 788,
-      "end": 887,
+      "end": 846,
       "expression": {
         "type": "CallExpression",
         "start": 788,
-        "end": 886,
+        "end": 845,
         "callee": {
           "type": "MemberExpression",
           "start": 788,
@@ -160,12 +160,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 846,
-            "end": 885,
-            "value": "`new Number.isNaN()` throws TypeError"
           }
         ],
         "optional": false

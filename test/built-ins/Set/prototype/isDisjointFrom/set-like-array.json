@@ -1,0 +1,412 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 777,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 321,
+      "end": 348,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 327,
+          "end": 347,
+          "id": {
+            "type": "Identifier",
+            "start": 327,
+            "end": 329,
+            "name": "s1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 332,
+            "end": 347,
+            "callee": {
+              "type": "Identifier",
+              "start": 336,
+              "end": 339,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 340,
+                "end": 346,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 341,
+                    "end": 342,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 344,
+                    "end": 345,
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 349,
+      "end": 367,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 355,
+          "end": 366,
+          "id": {
+            "type": "Identifier",
+            "start": 355,
+            "end": 357,
+            "name": "s2"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 360,
+            "end": 366,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 361,
+                "end": 362,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 364,
+                "end": 365,
+                "value": 6
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 368,
+      "end": 380,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 368,
+        "end": 379,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 368,
+          "end": 375,
+          "object": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 370,
+            "name": "s2"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 371,
+            "end": 375,
+            "name": "size"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 378,
+          "end": 379,
+          "value": 3
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 381,
+      "end": 569,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 381,
+        "end": 568,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 381,
+          "end": 387,
+          "object": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 383,
+            "name": "s2"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 384,
+            "end": 387,
+            "name": "has"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 390,
+          "end": 568,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 400,
+              "end": 401,
+              "name": "v"
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 403,
+            "end": 568,
+            "body": [
+              {
+                "type": "IfStatement",
+                "start": 407,
+                "end": 443,
+                "test": {
+                  "type": "LogicalExpression",
+                  "start": 411,
+                  "end": 429,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 411,
+                    "end": 418,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 411,
+                      "end": 412,
+                      "name": "v"
+                    },
+                    "operator": "===",
+                    "right": {
+                      "type": "Literal",
+                      "start": 417,
+                      "end": 418,
+                      "value": 1
+                    }
+                  },
+                  "operator": "||",
+                  "right": {
+                    "type": "BinaryExpression",
+                    "start": 422,
+                    "end": 429,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 422,
+                      "end": 423,
+                      "name": "v"
+                    },
+                    "operator": "===",
+                    "right": {
+                      "type": "Literal",
+                      "start": 428,
+                      "end": 429,
+                      "value": 2
+                    }
+                  }
+                },
+                "consequent": {
+                  "type": "ReturnStatement",
+                  "start": 431,
+                  "end": 443,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 438,
+                    "end": 442,
+                    "value": true
+                  }
+                },
+                "alternate": null
+              },
+              {
+                "type": "ThrowStatement",
+                "start": 446,
+                "end": 566,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 452,
+                  "end": 565,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 456,
+                    "end": 468,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 469,
+                      "end": 564,
+                      "value": "Set.prototype.isDisjointFrom should only call its argument's has method with contents of this"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 570,
+      "end": 727,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 570,
+        "end": 726,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 570,
+          "end": 577,
+          "object": {
+            "type": "Identifier",
+            "start": 570,
+            "end": 572,
+            "name": "s2"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 577,
+            "name": "keys"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 580,
+          "end": 726,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 592,
+            "end": 726,
+            "body": [
+              {
+                "type": "ThrowStatement",
+                "start": 596,
+                "end": 724,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 602,
+                  "end": 723,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 606,
+                    "end": 618,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 619,
+                      "end": 722,
+                      "value": "Set.prototype.isDisjointFrom should not call its argument's keys iterator when this.size ≤ arg.size"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 729,
+      "end": 776,
+      "expression": {
+        "type": "CallExpression",
+        "start": 729,
+        "end": 775,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 729,
+          "end": 745,
+          "object": {
+            "type": "Identifier",
+            "start": 729,
+            "end": 735,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 736,
+            "end": 745,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 746,
+            "end": 767,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 746,
+              "end": 763,
+              "object": {
+                "type": "Identifier",
+                "start": 746,
+                "end": 748,
+                "name": "s1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 749,
+                "end": 763,
+                "name": "isDisjointFrom"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 764,
+                "end": 766,
+                "name": "s2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 769,
+            "end": 774,
+            "value": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

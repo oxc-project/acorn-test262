@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 512,
+  "end": 487,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 228,
-      "end": 293,
+      "start": 226,
+      "end": 283,
       "id": {
         "type": "Identifier",
-        "start": 237,
-        "end": 240,
+        "start": 235,
+        "end": 238,
         "name": "foo"
       },
       "expression": false,
@@ -19,39 +19,39 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 245,
-        "end": 293,
+        "start": 241,
+        "end": 283,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 251,
-            "end": 264,
+            "start": 245,
+            "end": 258,
             "expression": {
               "type": "Literal",
-              "start": 251,
-              "end": 263,
+              "start": 245,
+              "end": 257,
               "value": "use strict"
             },
             "directive": "use strict"
           },
           {
             "type": "ReturnStatement",
-            "start": 269,
-            "end": 289,
+            "start": 261,
+            "end": 281,
             "argument": {
               "type": "UnaryExpression",
-              "start": 276,
-              "end": 288,
+              "start": 268,
+              "end": 280,
               "operator": "typeof",
               "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
-                "start": 282,
-                "end": 288,
+                "start": 274,
+                "end": 280,
                 "expression": {
                   "type": "ThisExpression",
-                  "start": 283,
-                  "end": 287
+                  "start": 275,
+                  "end": 279
                 }
               }
             }
@@ -61,12 +61,12 @@
     },
     {
       "type": "FunctionDeclaration",
-      "start": 298,
-      "end": 345,
+      "start": 285,
+      "end": 326,
       "id": {
         "type": "Identifier",
-        "start": 307,
-        "end": 310,
+        "start": 294,
+        "end": 297,
         "name": "bar"
       },
       "expression": false,
@@ -75,27 +75,27 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 315,
-        "end": 345,
+        "start": 300,
+        "end": 326,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 321,
-            "end": 341,
+            "start": 304,
+            "end": 324,
             "argument": {
               "type": "UnaryExpression",
-              "start": 328,
-              "end": 340,
+              "start": 311,
+              "end": 323,
               "operator": "typeof",
               "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
-                "start": 334,
-                "end": 340,
+                "start": 317,
+                "end": 323,
                 "expression": {
                   "type": "ThisExpression",
-                  "start": 335,
-                  "end": 339
+                  "start": 318,
+                  "end": 322
                 }
               }
             }
@@ -105,12 +105,12 @@
     },
     {
       "type": "FunctionDeclaration",
-      "start": 349,
-      "end": 374,
+      "start": 328,
+      "end": 349,
       "id": {
         "type": "Identifier",
-        "start": 358,
-        "end": 364,
+        "start": 337,
+        "end": 343,
         "name": "foobar"
       },
       "expression": false,
@@ -119,33 +119,33 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 369,
-        "end": 374,
+        "start": 346,
+        "end": 349,
         "body": []
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 376,
-      "end": 443,
+      "start": 351,
+      "end": 418,
       "expression": {
         "type": "CallExpression",
-        "start": 376,
-        "end": 442,
+        "start": 351,
+        "end": 417,
         "callee": {
           "type": "MemberExpression",
-          "start": 376,
-          "end": 392,
+          "start": 351,
+          "end": 367,
           "object": {
             "type": "Identifier",
-            "start": 376,
-            "end": 382,
+            "start": 351,
+            "end": 357,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 383,
-            "end": 392,
+            "start": 358,
+            "end": 367,
             "name": "sameValue"
           },
           "computed": false,
@@ -154,22 +154,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 393,
-            "end": 409,
+            "start": 368,
+            "end": 384,
             "callee": {
               "type": "MemberExpression",
-              "start": 393,
-              "end": 401,
+              "start": 368,
+              "end": 376,
               "object": {
                 "type": "Identifier",
-                "start": 393,
-                "end": 396,
+                "start": 368,
+                "end": 371,
                 "name": "foo"
               },
               "property": {
                 "type": "Identifier",
-                "start": 397,
-                "end": 401,
+                "start": 372,
+                "end": 376,
                 "name": "call"
               },
               "computed": false,
@@ -178,8 +178,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 402,
-                "end": 408,
+                "start": 377,
+                "end": 383,
                 "name": "foobar"
               }
             ],
@@ -187,14 +187,14 @@
           },
           {
             "type": "Literal",
-            "start": 411,
-            "end": 421,
+            "start": 386,
+            "end": 396,
             "value": "function"
           },
           {
             "type": "Literal",
-            "start": 423,
-            "end": 441,
+            "start": 398,
+            "end": 416,
             "value": "foo.call(foobar)"
           }
         ],
@@ -203,26 +203,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 444,
-      "end": 511,
+      "start": 419,
+      "end": 486,
       "expression": {
         "type": "CallExpression",
-        "start": 444,
-        "end": 510,
+        "start": 419,
+        "end": 485,
         "callee": {
           "type": "MemberExpression",
-          "start": 444,
-          "end": 460,
+          "start": 419,
+          "end": 435,
           "object": {
             "type": "Identifier",
-            "start": 444,
-            "end": 450,
+            "start": 419,
+            "end": 425,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 451,
-            "end": 460,
+            "start": 426,
+            "end": 435,
             "name": "sameValue"
           },
           "computed": false,
@@ -231,22 +231,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 461,
-            "end": 477,
+            "start": 436,
+            "end": 452,
             "callee": {
               "type": "MemberExpression",
-              "start": 461,
-              "end": 469,
+              "start": 436,
+              "end": 444,
               "object": {
                 "type": "Identifier",
-                "start": 461,
-                "end": 464,
+                "start": 436,
+                "end": 439,
                 "name": "bar"
               },
               "property": {
                 "type": "Identifier",
-                "start": 465,
-                "end": 469,
+                "start": 440,
+                "end": 444,
                 "name": "call"
               },
               "computed": false,
@@ -255,8 +255,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 470,
-                "end": 476,
+                "start": 445,
+                "end": 451,
                 "name": "foobar"
               }
             ],
@@ -264,14 +264,14 @@
           },
           {
             "type": "Literal",
-            "start": 479,
-            "end": 489,
+            "start": 454,
+            "end": 464,
             "value": "function"
           },
           {
             "type": "Literal",
-            "start": 491,
-            "end": 509,
+            "start": 466,
+            "end": 484,
             "value": "bar.call(foobar)"
           }
         ],

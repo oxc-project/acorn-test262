@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 435,
+  "end": 420,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 317,
-      "end": 357,
+      "start": 309,
+      "end": 349,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 321,
-          "end": 356,
+          "start": 313,
+          "end": 348,
           "id": {
             "type": "Identifier",
-            "start": 321,
-            "end": 324,
+            "start": 313,
+            "end": 316,
             "name": "foo"
           },
           "init": {
             "type": "NewExpression",
-            "start": 327,
-            "end": 356,
+            "start": 319,
+            "end": 348,
             "callee": {
               "type": "Identifier",
-              "start": 331,
-              "end": 339,
+              "start": 323,
+              "end": 331,
               "name": "Function"
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 340,
-                "end": 355,
+                "start": 332,
+                "end": 347,
                 "value": "'use strict';"
               }
             ]
@@ -43,26 +43,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 358,
-      "end": 434,
+      "start": 351,
+      "end": 419,
       "expression": {
         "type": "CallExpression",
-        "start": 358,
-        "end": 433,
+        "start": 351,
+        "end": 418,
         "callee": {
           "type": "MemberExpression",
-          "start": 358,
-          "end": 371,
+          "start": 351,
+          "end": 364,
           "object": {
             "type": "Identifier",
-            "start": 358,
-            "end": 364,
+            "start": 351,
+            "end": 357,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 365,
-            "end": 371,
+            "start": 358,
+            "end": 364,
             "name": "throws"
           },
           "computed": false,
@@ -71,14 +71,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 372,
-            "end": 381,
+            "start": 365,
+            "end": 374,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 383,
-            "end": 432,
+            "start": 376,
+            "end": 417,
             "id": null,
             "expression": false,
             "generator": false,
@@ -86,38 +86,38 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 394,
-              "end": 432,
+              "start": 387,
+              "end": 417,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 408,
-                  "end": 430,
+                  "start": 393,
+                  "end": 415,
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 412,
-                      "end": 429,
+                      "start": 397,
+                      "end": 414,
                       "id": {
                         "type": "Identifier",
-                        "start": 412,
-                        "end": 416,
+                        "start": 397,
+                        "end": 401,
                         "name": "temp"
                       },
                       "init": {
                         "type": "MemberExpression",
-                        "start": 419,
-                        "end": 429,
+                        "start": 404,
+                        "end": 414,
                         "object": {
                           "type": "Identifier",
-                          "start": 419,
-                          "end": 422,
+                          "start": 404,
+                          "end": 407,
                           "name": "foo"
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 423,
-                          "end": 429,
+                          "start": 408,
+                          "end": 414,
                           "name": "caller"
                         },
                         "computed": false,

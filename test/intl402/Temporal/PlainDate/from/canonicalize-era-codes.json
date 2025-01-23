@@ -1,0 +1,566 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 812,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 275,
+      "end": 406,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 281,
+          "end": 405,
+          "id": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 286,
+            "name": "date1"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 289,
+            "end": 405,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 289,
+              "end": 312,
+              "object": {
+                "type": "MemberExpression",
+                "start": 289,
+                "end": 307,
+                "object": {
+                  "type": "Identifier",
+                  "start": 289,
+                  "end": 297,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 298,
+                  "end": 307,
+                  "name": "PlainDate"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 308,
+                "end": 312,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 313,
+                "end": 404,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 317,
+                    "end": 336,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 317,
+                      "end": 325,
+                      "name": "calendar"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 327,
+                      "end": 336,
+                      "value": "gregory"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 340,
+                    "end": 349,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 340,
+                      "end": 343,
+                      "name": "era"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 345,
+                      "end": 349,
+                      "value": "ce"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 353,
+                    "end": 366,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 353,
+                      "end": 360,
+                      "name": "eraYear"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 362,
+                      "end": 366,
+                      "value": 2024
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 370,
+                    "end": 380,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 370,
+                      "end": 374,
+                      "name": "year"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 376,
+                      "end": 380,
+                      "value": 2024
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 384,
+                    "end": 392,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 384,
+                      "end": 389,
+                      "name": "month"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 391,
+                      "end": 392,
+                      "value": 1
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 396,
+                    "end": 402,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 396,
+                      "end": 399,
+                      "name": "day"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 401,
+                      "end": 402,
+                      "value": 1
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 407,
+      "end": 535,
+      "expression": {
+        "type": "CallExpression",
+        "start": 407,
+        "end": 534,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 407,
+          "end": 438,
+          "object": {
+            "type": "Identifier",
+            "start": 407,
+            "end": 422,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 423,
+            "end": 438,
+            "name": "assertPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 442,
+            "end": 447,
+            "name": "date1"
+          },
+          {
+            "type": "Literal",
+            "start": 451,
+            "end": 455,
+            "value": 2024
+          },
+          {
+            "type": "Literal",
+            "start": 457,
+            "end": 458,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 460,
+            "end": 465,
+            "value": "M01"
+          },
+          {
+            "type": "Literal",
+            "start": 467,
+            "end": 468,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 472,
+            "end": 513,
+            "value": "'ce' is accepted as alias for 'gregory'"
+          },
+          {
+            "type": "Literal",
+            "start": 517,
+            "end": 526,
+            "value": "gregory"
+          },
+          {
+            "type": "Literal",
+            "start": 528,
+            "end": 532,
+            "value": 2024
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 537,
+      "end": 667,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 543,
+          "end": 666,
+          "id": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 548,
+            "name": "date2"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 551,
+            "end": 666,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 551,
+              "end": 574,
+              "object": {
+                "type": "MemberExpression",
+                "start": 551,
+                "end": 569,
+                "object": {
+                  "type": "Identifier",
+                  "start": 551,
+                  "end": 559,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 560,
+                  "end": 569,
+                  "name": "PlainDate"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 570,
+                "end": 574,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 575,
+                "end": 665,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 579,
+                    "end": 598,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 579,
+                      "end": 587,
+                      "name": "calendar"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 589,
+                      "end": 598,
+                      "value": "gregory"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 602,
+                    "end": 612,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 602,
+                      "end": 605,
+                      "name": "era"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 607,
+                      "end": 612,
+                      "value": "bce"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 616,
+                    "end": 627,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 616,
+                      "end": 623,
+                      "name": "eraYear"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 625,
+                      "end": 627,
+                      "value": 44
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 631,
+                    "end": 640,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 631,
+                      "end": 635,
+                      "name": "year"
+                    },
+                    "value": {
+                      "type": "UnaryExpression",
+                      "start": 637,
+                      "end": 640,
+                      "operator": "-",
+                      "prefix": true,
+                      "argument": {
+                        "type": "Literal",
+                        "start": 638,
+                        "end": 640,
+                        "value": 43
+                      }
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 644,
+                    "end": 652,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 644,
+                      "end": 649,
+                      "name": "month"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 651,
+                      "end": 652,
+                      "value": 3
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 656,
+                    "end": 663,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 656,
+                      "end": 659,
+                      "name": "day"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 661,
+                      "end": 663,
+                      "value": 15
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 668,
+      "end": 811,
+      "expression": {
+        "type": "CallExpression",
+        "start": 668,
+        "end": 810,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 668,
+          "end": 699,
+          "object": {
+            "type": "Identifier",
+            "start": 668,
+            "end": 683,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 684,
+            "end": 699,
+            "name": "assertPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 703,
+            "end": 708,
+            "name": "date2"
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 712,
+            "end": 715,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 713,
+              "end": 715,
+              "value": 43
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 717,
+            "end": 718,
+            "value": 3
+          },
+          {
+            "type": "Literal",
+            "start": 720,
+            "end": 725,
+            "value": "M03"
+          },
+          {
+            "type": "Literal",
+            "start": 727,
+            "end": 729,
+            "value": 15
+          },
+          {
+            "type": "Literal",
+            "start": 733,
+            "end": 783,
+            "value": "'bce' is accepted as alias for 'gregory-inverse'"
+          },
+          {
+            "type": "Literal",
+            "start": 787,
+            "end": 804,
+            "value": "gregory-inverse"
+          },
+          {
+            "type": "Literal",
+            "start": 806,
+            "end": 808,
+            "value": 44
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

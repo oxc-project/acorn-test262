@@ -1,0 +1,384 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 720,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 312,
+      "end": 394,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 318,
+          "end": 393,
+          "id": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 321,
+            "name": "min"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 324,
+            "end": 393,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 328,
+              "end": 350,
+              "object": {
+                "type": "Identifier",
+                "start": 328,
+                "end": 336,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 337,
+                "end": 350,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 351,
+                "end": 382,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 352,
+                  "end": 382,
+                  "value": "8640000000000000000000n"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 384,
+                "end": 392,
+                "value": "-23:59"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 395,
+      "end": 476,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 401,
+          "end": 475,
+          "id": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 404,
+            "name": "max"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 407,
+            "end": 475,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 411,
+              "end": 433,
+              "object": {
+                "type": "Identifier",
+                "start": 411,
+                "end": 419,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 420,
+                "end": 433,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 434,
+                "end": 464,
+                "value": "8640000000000000000000n"
+              },
+              {
+                "type": "Literal",
+                "start": 466,
+                "end": 474,
+                "value": "+23:59"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 478,
+      "end": 597,
+      "expression": {
+        "type": "CallExpression",
+        "start": 478,
+        "end": 596,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 478,
+          "end": 513,
+          "object": {
+            "type": "Identifier",
+            "start": 478,
+            "end": 493,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 494,
+            "end": 513,
+            "name": "assertPlainDateTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 517,
+            "end": 538,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 517,
+              "end": 536,
+              "object": {
+                "type": "Identifier",
+                "start": 517,
+                "end": 520,
+                "name": "min"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 521,
+                "end": 536,
+                "name": "toPlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 542,
+            "end": 549,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 543,
+              "end": 549,
+              "value": 271821
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 551,
+            "end": 552,
+            "value": 4
+          },
+          {
+            "type": "Literal",
+            "start": 554,
+            "end": 559,
+            "value": "M04"
+          },
+          {
+            "type": "Literal",
+            "start": 561,
+            "end": 563,
+            "value": 19
+          },
+          {
+            "type": "Literal",
+            "start": 565,
+            "end": 566,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 568,
+            "end": 569,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 571,
+            "end": 572,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 574,
+            "end": 575,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 577,
+            "end": 578,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 580,
+            "end": 581,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 585,
+            "end": 594,
+            "value": "minimum"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 599,
+      "end": 719,
+      "expression": {
+        "type": "CallExpression",
+        "start": 599,
+        "end": 718,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 599,
+          "end": 634,
+          "object": {
+            "type": "Identifier",
+            "start": 599,
+            "end": 614,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 634,
+            "name": "assertPlainDateTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 638,
+            "end": 659,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 638,
+              "end": 657,
+              "object": {
+                "type": "Identifier",
+                "start": 638,
+                "end": 641,
+                "name": "max"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 642,
+                "end": 657,
+                "name": "toPlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 663,
+            "end": 669,
+            "value": 275760
+          },
+          {
+            "type": "Literal",
+            "start": 671,
+            "end": 672,
+            "value": 9
+          },
+          {
+            "type": "Literal",
+            "start": 674,
+            "end": 679,
+            "value": "M09"
+          },
+          {
+            "type": "Literal",
+            "start": 681,
+            "end": 683,
+            "value": 13
+          },
+          {
+            "type": "Literal",
+            "start": 685,
+            "end": 687,
+            "value": 23
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 691,
+            "value": 59
+          },
+          {
+            "type": "Literal",
+            "start": 693,
+            "end": 694,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 696,
+            "end": 697,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 699,
+            "end": 700,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 702,
+            "end": 703,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 707,
+            "end": 716,
+            "value": "maximum"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

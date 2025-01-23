@@ -1,0 +1,737 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1169,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 506,
+      "end": 1168,
+      "expression": {
+        "type": "CallExpression",
+        "start": 506,
+        "end": 1167,
+        "callee": {
+          "type": "Identifier",
+          "start": 506,
+          "end": 515,
+          "name": "asyncTest"
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 516,
+            "end": 1166,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 528,
+              "end": 1166,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 532,
+                  "end": 615,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 532,
+                    "end": 614,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 538,
+                      "end": 614,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 538,
+                        "end": 556,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 538,
+                          "end": 544,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 545,
+                          "end": 556,
+                          "name": "throwsAsync"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 557,
+                          "end": 566,
+                          "name": "TypeError"
+                        },
+                        {
+                          "type": "ArrowFunctionExpression",
+                          "start": 568,
+                          "end": 599,
+                          "id": null,
+                          "expression": true,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "CallExpression",
+                            "start": 574,
+                            "end": 599,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 574,
+                              "end": 589,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 574,
+                                "end": 579,
+                                "name": "Array"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 580,
+                                "end": 589,
+                                "name": "fromAsync"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "ArrayExpression",
+                                "start": 590,
+                                "end": 592,
+                                "elements": []
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 594,
+                                "end": 598,
+                                "value": null
+                              }
+                            ],
+                            "optional": false
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 601,
+                          "end": 613,
+                          "value": "null mapfn"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 618,
+                  "end": 714,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 618,
+                    "end": 713,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 624,
+                      "end": 713,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 624,
+                        "end": 642,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 624,
+                          "end": 630,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 631,
+                          "end": 642,
+                          "name": "throwsAsync"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 643,
+                          "end": 652,
+                          "name": "TypeError"
+                        },
+                        {
+                          "type": "ArrowFunctionExpression",
+                          "start": 654,
+                          "end": 683,
+                          "id": null,
+                          "expression": true,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "CallExpression",
+                            "start": 660,
+                            "end": 683,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 660,
+                              "end": 675,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 660,
+                                "end": 665,
+                                "name": "Array"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 666,
+                                "end": 675,
+                                "name": "fromAsync"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "ArrayExpression",
+                                "start": 676,
+                                "end": 678,
+                                "elements": []
+                              },
+                              {
+                                "type": "ObjectExpression",
+                                "start": 680,
+                                "end": 682,
+                                "properties": []
+                              }
+                            ],
+                            "optional": false
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 685,
+                          "end": 712,
+                          "value": "non-callable object mapfn"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 717,
+                  "end": 806,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 717,
+                    "end": 805,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 723,
+                      "end": 805,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 723,
+                        "end": 741,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 723,
+                          "end": 729,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 730,
+                          "end": 741,
+                          "name": "throwsAsync"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 742,
+                          "end": 751,
+                          "name": "TypeError"
+                        },
+                        {
+                          "type": "ArrowFunctionExpression",
+                          "start": 753,
+                          "end": 788,
+                          "id": null,
+                          "expression": true,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "CallExpression",
+                            "start": 759,
+                            "end": 788,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 759,
+                              "end": 774,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 759,
+                                "end": 764,
+                                "name": "Array"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 765,
+                                "end": 774,
+                                "name": "fromAsync"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "ArrayExpression",
+                                "start": 775,
+                                "end": 777,
+                                "elements": []
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 779,
+                                "end": 787,
+                                "value": "String"
+                              }
+                            ],
+                            "optional": false
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 790,
+                          "end": 804,
+                          "value": "string mapfn"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 809,
+                  "end": 895,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 809,
+                    "end": 894,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 815,
+                      "end": 894,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 815,
+                        "end": 833,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 815,
+                          "end": 821,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 822,
+                          "end": 833,
+                          "name": "throwsAsync"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 834,
+                          "end": 843,
+                          "name": "TypeError"
+                        },
+                        {
+                          "type": "ArrowFunctionExpression",
+                          "start": 845,
+                          "end": 876,
+                          "id": null,
+                          "expression": true,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "CallExpression",
+                            "start": 851,
+                            "end": 876,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 851,
+                              "end": 866,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 851,
+                                "end": 856,
+                                "name": "Array"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 857,
+                                "end": 866,
+                                "name": "fromAsync"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "ArrayExpression",
+                                "start": 867,
+                                "end": 869,
+                                "elements": []
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 871,
+                                "end": 875,
+                                "value": true
+                              }
+                            ],
+                            "optional": false
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 878,
+                          "end": 893,
+                          "value": "boolean mapfn"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 898,
+                  "end": 985,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 898,
+                    "end": 984,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 904,
+                      "end": 984,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 904,
+                        "end": 922,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 904,
+                          "end": 910,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 911,
+                          "end": 922,
+                          "name": "throwsAsync"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 923,
+                          "end": 932,
+                          "name": "TypeError"
+                        },
+                        {
+                          "type": "ArrowFunctionExpression",
+                          "start": 934,
+                          "end": 967,
+                          "id": null,
+                          "expression": true,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "CallExpression",
+                            "start": 940,
+                            "end": 967,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 940,
+                              "end": 955,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 940,
+                                "end": 945,
+                                "name": "Array"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 946,
+                                "end": 955,
+                                "name": "fromAsync"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "ArrayExpression",
+                                "start": 956,
+                                "end": 958,
+                                "elements": []
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 960,
+                                "end": 966,
+                                "value": 3.1416
+                              }
+                            ],
+                            "optional": false
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 969,
+                          "end": 983,
+                          "value": "number mapfn"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 988,
+                  "end": 1072,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 988,
+                    "end": 1071,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 994,
+                      "end": 1071,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 994,
+                        "end": 1012,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 994,
+                          "end": 1000,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1001,
+                          "end": 1012,
+                          "name": "throwsAsync"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 1013,
+                          "end": 1022,
+                          "name": "TypeError"
+                        },
+                        {
+                          "type": "ArrowFunctionExpression",
+                          "start": 1024,
+                          "end": 1054,
+                          "id": null,
+                          "expression": true,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "CallExpression",
+                            "start": 1030,
+                            "end": 1054,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 1030,
+                              "end": 1045,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 1030,
+                                "end": 1035,
+                                "name": "Array"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 1036,
+                                "end": 1045,
+                                "name": "fromAsync"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "ArrayExpression",
+                                "start": 1046,
+                                "end": 1048,
+                                "elements": []
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 1050,
+                                "end": 1053,
+                                "value": "42n"
+                              }
+                            ],
+                            "optional": false
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 1056,
+                          "end": 1070,
+                          "value": "bigint mapfn"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1075,
+                  "end": 1164,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 1075,
+                    "end": 1163,
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 1081,
+                      "end": 1163,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1081,
+                        "end": 1099,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1081,
+                          "end": 1087,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1088,
+                          "end": 1099,
+                          "name": "throwsAsync"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 1100,
+                          "end": 1109,
+                          "name": "TypeError"
+                        },
+                        {
+                          "type": "ArrowFunctionExpression",
+                          "start": 1111,
+                          "end": 1146,
+                          "id": null,
+                          "expression": true,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "CallExpression",
+                            "start": 1117,
+                            "end": 1146,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 1117,
+                              "end": 1132,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 1117,
+                                "end": 1122,
+                                "name": "Array"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 1123,
+                                "end": 1132,
+                                "name": "fromAsync"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "ArrayExpression",
+                                "start": 1133,
+                                "end": 1135,
+                                "elements": []
+                              },
+                              {
+                                "type": "CallExpression",
+                                "start": 1137,
+                                "end": 1145,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 1137,
+                                  "end": 1143,
+                                  "name": "Symbol"
+                                },
+                                "arguments": [],
+                                "optional": false
+                              }
+                            ],
+                            "optional": false
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 1148,
+                          "end": 1162,
+                          "value": "symbol mapfn"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

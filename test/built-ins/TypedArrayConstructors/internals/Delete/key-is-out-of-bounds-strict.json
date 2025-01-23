@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1783,
+  "end": 1703,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 850,
-      "end": 1782,
+      "end": 1702,
       "expression": {
         "type": "CallExpression",
         "start": 850,
-        "end": 1781,
+        "end": 1701,
         "callee": {
           "type": "Identifier",
           "start": 850,
@@ -21,7 +21,7 @@
           {
             "type": "FunctionExpression",
             "start": 881,
-            "end": 1780,
+            "end": 1700,
             "id": null,
             "expression": false,
             "generator": false,
@@ -37,7 +37,7 @@
             "body": {
               "type": "BlockStatement",
               "start": 894,
-              "end": 1780,
+              "end": 1700,
               "body": [
                 {
                   "type": "VariableDeclaration",
@@ -455,11 +455,11 @@
                 {
                   "type": "ExpressionStatement",
                   "start": 1393,
-                  "end": 1496,
+                  "end": 1455,
                   "expression": {
                     "type": "CallExpression",
                     "start": 1393,
-                    "end": 1495,
+                    "end": 1454,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 1393,
@@ -533,12 +533,6 @@
                             }
                           ]
                         }
-                      },
-                      {
-                        "type": "Literal",
-                        "start": 1455,
-                        "end": 1494,
-                        "value": "`delete sample[\"0\"]` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -546,26 +540,26 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1500,
-                  "end": 1599,
+                  "start": 1459,
+                  "end": 1519,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1500,
-                    "end": 1598,
+                    "start": 1459,
+                    "end": 1518,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1500,
-                      "end": 1513,
+                      "start": 1459,
+                      "end": 1472,
                       "object": {
                         "type": "Identifier",
-                        "start": 1500,
-                        "end": 1506,
+                        "start": 1459,
+                        "end": 1465,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1507,
-                        "end": 1513,
+                        "start": 1466,
+                        "end": 1472,
                         "name": "throws"
                       },
                       "computed": false,
@@ -574,14 +568,14 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 1514,
-                        "end": 1523,
+                        "start": 1473,
+                        "end": 1482,
                         "name": "TypeError"
                       },
                       {
                         "type": "ArrowFunctionExpression",
-                        "start": 1525,
-                        "end": 1558,
+                        "start": 1484,
+                        "end": 1517,
                         "id": null,
                         "expression": false,
                         "generator": false,
@@ -589,33 +583,33 @@
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 1531,
-                          "end": 1558,
+                          "start": 1490,
+                          "end": 1517,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 1537,
-                              "end": 1554,
+                              "start": 1496,
+                              "end": 1513,
                               "expression": {
                                 "type": "UnaryExpression",
-                                "start": 1537,
-                                "end": 1553,
+                                "start": 1496,
+                                "end": 1512,
                                 "operator": "delete",
                                 "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
-                                  "start": 1544,
-                                  "end": 1553,
+                                  "start": 1503,
+                                  "end": 1512,
                                   "object": {
                                     "type": "Identifier",
-                                    "start": 1544,
-                                    "end": 1550,
+                                    "start": 1503,
+                                    "end": 1509,
                                     "name": "sample"
                                   },
                                   "property": {
                                     "type": "Literal",
-                                    "start": 1551,
-                                    "end": 1552,
+                                    "start": 1510,
+                                    "end": 1511,
                                     "value": 0
                                   },
                                   "computed": true,
@@ -625,12 +619,6 @@
                             }
                           ]
                         }
-                      },
-                      {
-                        "type": "Literal",
-                        "start": 1560,
-                        "end": 1597,
-                        "value": "`delete sample[0]` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -638,26 +626,26 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1603,
-                  "end": 1691,
+                  "start": 1523,
+                  "end": 1611,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1603,
-                    "end": 1690,
+                    "start": 1523,
+                    "end": 1610,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1603,
-                      "end": 1619,
+                      "start": 1523,
+                      "end": 1539,
                       "object": {
                         "type": "Identifier",
-                        "start": 1603,
-                        "end": 1609,
+                        "start": 1523,
+                        "end": 1529,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1610,
-                        "end": 1619,
+                        "start": 1530,
+                        "end": 1539,
                         "name": "sameValue"
                       },
                       "computed": false,
@@ -666,24 +654,24 @@
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 1620,
-                        "end": 1638,
+                        "start": 1540,
+                        "end": 1558,
                         "operator": "delete",
                         "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
-                          "start": 1627,
-                          "end": 1638,
+                          "start": 1547,
+                          "end": 1558,
                           "object": {
                             "type": "Identifier",
-                            "start": 1627,
-                            "end": 1633,
+                            "start": 1547,
+                            "end": 1553,
                             "name": "sample"
                           },
                           "property": {
                             "type": "Literal",
-                            "start": 1634,
-                            "end": 1637,
+                            "start": 1554,
+                            "end": 1557,
                             "value": "1"
                           },
                           "computed": true,
@@ -692,14 +680,14 @@
                       },
                       {
                         "type": "Literal",
-                        "start": 1640,
-                        "end": 1644,
+                        "start": 1560,
+                        "end": 1564,
                         "value": true
                       },
                       {
                         "type": "Literal",
-                        "start": 1646,
-                        "end": 1689,
+                        "start": 1566,
+                        "end": 1609,
                         "value": "The value of `delete sample[\"1\"]` is true"
                       }
                     ],
@@ -708,26 +696,26 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1694,
-                  "end": 1778,
+                  "start": 1614,
+                  "end": 1698,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1694,
-                    "end": 1777,
+                    "start": 1614,
+                    "end": 1697,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1694,
-                      "end": 1710,
+                      "start": 1614,
+                      "end": 1630,
                       "object": {
                         "type": "Identifier",
-                        "start": 1694,
-                        "end": 1700,
+                        "start": 1614,
+                        "end": 1620,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1701,
-                        "end": 1710,
+                        "start": 1621,
+                        "end": 1630,
                         "name": "sameValue"
                       },
                       "computed": false,
@@ -736,24 +724,24 @@
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 1711,
-                        "end": 1727,
+                        "start": 1631,
+                        "end": 1647,
                         "operator": "delete",
                         "prefix": true,
                         "argument": {
                           "type": "MemberExpression",
-                          "start": 1718,
-                          "end": 1727,
+                          "start": 1638,
+                          "end": 1647,
                           "object": {
                             "type": "Identifier",
-                            "start": 1718,
-                            "end": 1724,
+                            "start": 1638,
+                            "end": 1644,
                             "name": "sample"
                           },
                           "property": {
                             "type": "Literal",
-                            "start": 1725,
-                            "end": 1726,
+                            "start": 1645,
+                            "end": 1646,
                             "value": 1
                           },
                           "computed": true,
@@ -762,14 +750,14 @@
                       },
                       {
                         "type": "Literal",
-                        "start": 1729,
-                        "end": 1733,
+                        "start": 1649,
+                        "end": 1653,
                         "value": true
                       },
                       {
                         "type": "Literal",
-                        "start": 1735,
-                        "end": 1776,
+                        "start": 1655,
+                        "end": 1696,
                         "value": "The value of `delete sample[1]` is true"
                       }
                     ],

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1603,
+  "end": 1109,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -151,11 +151,11 @@
     {
       "type": "ExpressionStatement",
       "start": 472,
-      "end": 656,
+      "end": 575,
       "expression": {
         "type": "CallExpression",
         "start": 472,
-        "end": 655,
+        "end": 574,
         "callee": {
           "type": "MemberExpression",
           "start": 472,
@@ -261,12 +261,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 575,
-            "end": 654,
-            "value": "`Atomics.notify(new Int16Array(nonsab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -274,26 +268,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 658,
-      "end": 840,
+      "start": 577,
+      "end": 679,
       "expression": {
         "type": "CallExpression",
-        "start": 658,
-        "end": 839,
+        "start": 577,
+        "end": 678,
         "callee": {
           "type": "MemberExpression",
-          "start": 658,
-          "end": 671,
+          "start": 577,
+          "end": 590,
           "object": {
             "type": "Identifier",
-            "start": 658,
-            "end": 664,
+            "start": 577,
+            "end": 583,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 665,
-            "end": 671,
+            "start": 584,
+            "end": 590,
             "name": "throws"
           },
           "computed": false,
@@ -302,14 +296,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 672,
-            "end": 681,
+            "start": 591,
+            "end": 600,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 683,
-            "end": 758,
+            "start": 602,
+            "end": 677,
             "id": null,
             "expression": false,
             "generator": false,
@@ -317,31 +311,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 694,
-              "end": 758,
+              "start": 613,
+              "end": 677,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 698,
-                  "end": 756,
+                  "start": 617,
+                  "end": 675,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 698,
-                    "end": 755,
+                    "start": 617,
+                    "end": 674,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 698,
-                      "end": 712,
+                      "start": 617,
+                      "end": 631,
                       "object": {
                         "type": "Identifier",
-                        "start": 698,
-                        "end": 705,
+                        "start": 617,
+                        "end": 624,
                         "name": "Atomics"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 706,
-                        "end": 712,
+                        "start": 625,
+                        "end": 631,
                         "name": "notify"
                       },
                       "computed": false,
@@ -350,33 +344,33 @@
                     "arguments": [
                       {
                         "type": "NewExpression",
-                        "start": 713,
-                        "end": 734,
+                        "start": 632,
+                        "end": 653,
                         "callee": {
                           "type": "Identifier",
-                          "start": 717,
-                          "end": 726,
+                          "start": 636,
+                          "end": 645,
                           "name": "Int8Array"
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
-                            "start": 727,
-                            "end": 733,
+                            "start": 646,
+                            "end": 652,
                             "name": "nonsab"
                           }
                         ]
                       },
                       {
                         "type": "Identifier",
-                        "start": 736,
-                        "end": 744,
+                        "start": 655,
+                        "end": 663,
                         "name": "poisoned"
                       },
                       {
                         "type": "Identifier",
-                        "start": 746,
-                        "end": 754,
+                        "start": 665,
+                        "end": 673,
                         "name": "poisoned"
                       }
                     ],
@@ -385,12 +379,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 760,
-            "end": 838,
-            "value": "`Atomics.notify(new Int8Array(nonsab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -398,26 +386,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 842,
-      "end": 1028,
+      "start": 681,
+      "end": 785,
       "expression": {
         "type": "CallExpression",
-        "start": 842,
-        "end": 1027,
+        "start": 681,
+        "end": 784,
         "callee": {
           "type": "MemberExpression",
-          "start": 842,
-          "end": 855,
+          "start": 681,
+          "end": 694,
           "object": {
             "type": "Identifier",
-            "start": 842,
-            "end": 848,
+            "start": 681,
+            "end": 687,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 849,
-            "end": 855,
+            "start": 688,
+            "end": 694,
             "name": "throws"
           },
           "computed": false,
@@ -426,14 +414,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 856,
-            "end": 865,
+            "start": 695,
+            "end": 704,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 867,
-            "end": 944,
+            "start": 706,
+            "end": 783,
             "id": null,
             "expression": false,
             "generator": false,
@@ -441,31 +429,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 878,
-              "end": 944,
+              "start": 717,
+              "end": 783,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 882,
-                  "end": 942,
+                  "start": 721,
+                  "end": 781,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 882,
-                    "end": 941,
+                    "start": 721,
+                    "end": 780,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 882,
-                      "end": 896,
+                      "start": 721,
+                      "end": 735,
                       "object": {
                         "type": "Identifier",
-                        "start": 882,
-                        "end": 889,
+                        "start": 721,
+                        "end": 728,
                         "name": "Atomics"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 890,
-                        "end": 896,
+                        "start": 729,
+                        "end": 735,
                         "name": "notify"
                       },
                       "computed": false,
@@ -474,33 +462,33 @@
                     "arguments": [
                       {
                         "type": "NewExpression",
-                        "start": 897,
-                        "end": 920,
+                        "start": 736,
+                        "end": 759,
                         "callee": {
                           "type": "Identifier",
-                          "start": 901,
-                          "end": 912,
+                          "start": 740,
+                          "end": 751,
                           "name": "Uint32Array"
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
-                            "start": 913,
-                            "end": 919,
+                            "start": 752,
+                            "end": 758,
                             "name": "nonsab"
                           }
                         ]
                       },
                       {
                         "type": "Identifier",
-                        "start": 922,
-                        "end": 930,
+                        "start": 761,
+                        "end": 769,
                         "name": "poisoned"
                       },
                       {
                         "type": "Identifier",
-                        "start": 932,
-                        "end": 940,
+                        "start": 771,
+                        "end": 779,
                         "name": "poisoned"
                       }
                     ],
@@ -509,12 +497,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 946,
-            "end": 1026,
-            "value": "`Atomics.notify(new Uint32Array(nonsab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -522,26 +504,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1030,
-      "end": 1216,
+      "start": 787,
+      "end": 891,
       "expression": {
         "type": "CallExpression",
-        "start": 1030,
-        "end": 1215,
+        "start": 787,
+        "end": 890,
         "callee": {
           "type": "MemberExpression",
-          "start": 1030,
-          "end": 1043,
+          "start": 787,
+          "end": 800,
           "object": {
             "type": "Identifier",
-            "start": 1030,
-            "end": 1036,
+            "start": 787,
+            "end": 793,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1037,
-            "end": 1043,
+            "start": 794,
+            "end": 800,
             "name": "throws"
           },
           "computed": false,
@@ -550,14 +532,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1044,
-            "end": 1053,
+            "start": 801,
+            "end": 810,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 1055,
-            "end": 1132,
+            "start": 812,
+            "end": 889,
             "id": null,
             "expression": false,
             "generator": false,
@@ -565,31 +547,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1066,
-              "end": 1132,
+              "start": 823,
+              "end": 889,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1070,
-                  "end": 1130,
+                  "start": 827,
+                  "end": 887,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1070,
-                    "end": 1129,
+                    "start": 827,
+                    "end": 886,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1070,
-                      "end": 1084,
+                      "start": 827,
+                      "end": 841,
                       "object": {
                         "type": "Identifier",
-                        "start": 1070,
-                        "end": 1077,
+                        "start": 827,
+                        "end": 834,
                         "name": "Atomics"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1078,
-                        "end": 1084,
+                        "start": 835,
+                        "end": 841,
                         "name": "notify"
                       },
                       "computed": false,
@@ -598,33 +580,33 @@
                     "arguments": [
                       {
                         "type": "NewExpression",
-                        "start": 1085,
-                        "end": 1108,
+                        "start": 842,
+                        "end": 865,
                         "callee": {
                           "type": "Identifier",
-                          "start": 1089,
-                          "end": 1100,
+                          "start": 846,
+                          "end": 857,
                           "name": "Uint16Array"
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
-                            "start": 1101,
-                            "end": 1107,
+                            "start": 858,
+                            "end": 864,
                             "name": "nonsab"
                           }
                         ]
                       },
                       {
                         "type": "Identifier",
-                        "start": 1110,
-                        "end": 1118,
+                        "start": 867,
+                        "end": 875,
                         "name": "poisoned"
                       },
                       {
                         "type": "Identifier",
-                        "start": 1120,
-                        "end": 1128,
+                        "start": 877,
+                        "end": 885,
                         "name": "poisoned"
                       }
                     ],
@@ -633,12 +615,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 1134,
-            "end": 1214,
-            "value": "`Atomics.notify(new Uint16Array(nonsab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -646,26 +622,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1218,
-      "end": 1402,
+      "start": 893,
+      "end": 996,
       "expression": {
         "type": "CallExpression",
-        "start": 1218,
-        "end": 1401,
+        "start": 893,
+        "end": 995,
         "callee": {
           "type": "MemberExpression",
-          "start": 1218,
-          "end": 1231,
+          "start": 893,
+          "end": 906,
           "object": {
             "type": "Identifier",
-            "start": 1218,
-            "end": 1224,
+            "start": 893,
+            "end": 899,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1225,
-            "end": 1231,
+            "start": 900,
+            "end": 906,
             "name": "throws"
           },
           "computed": false,
@@ -674,14 +650,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1232,
-            "end": 1241,
+            "start": 907,
+            "end": 916,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 1243,
-            "end": 1319,
+            "start": 918,
+            "end": 994,
             "id": null,
             "expression": false,
             "generator": false,
@@ -689,31 +665,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1254,
-              "end": 1319,
+              "start": 929,
+              "end": 994,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1258,
-                  "end": 1317,
+                  "start": 933,
+                  "end": 992,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1258,
-                    "end": 1316,
+                    "start": 933,
+                    "end": 991,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1258,
-                      "end": 1272,
+                      "start": 933,
+                      "end": 947,
                       "object": {
                         "type": "Identifier",
-                        "start": 1258,
-                        "end": 1265,
+                        "start": 933,
+                        "end": 940,
                         "name": "Atomics"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1266,
-                        "end": 1272,
+                        "start": 941,
+                        "end": 947,
                         "name": "notify"
                       },
                       "computed": false,
@@ -722,33 +698,33 @@
                     "arguments": [
                       {
                         "type": "NewExpression",
-                        "start": 1273,
-                        "end": 1295,
+                        "start": 948,
+                        "end": 970,
                         "callee": {
                           "type": "Identifier",
-                          "start": 1277,
-                          "end": 1287,
+                          "start": 952,
+                          "end": 962,
                           "name": "Uint8Array"
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
-                            "start": 1288,
-                            "end": 1294,
+                            "start": 963,
+                            "end": 969,
                             "name": "nonsab"
                           }
                         ]
                       },
                       {
                         "type": "Identifier",
-                        "start": 1297,
-                        "end": 1305,
+                        "start": 972,
+                        "end": 980,
                         "name": "poisoned"
                       },
                       {
                         "type": "Identifier",
-                        "start": 1307,
-                        "end": 1315,
+                        "start": 982,
+                        "end": 990,
                         "name": "poisoned"
                       }
                     ],
@@ -757,12 +733,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 1321,
-            "end": 1400,
-            "value": "`Atomics.notify(new Uint8Array(nonsab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -770,26 +740,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1404,
-      "end": 1602,
+      "start": 998,
+      "end": 1108,
       "expression": {
         "type": "CallExpression",
-        "start": 1404,
-        "end": 1601,
+        "start": 998,
+        "end": 1107,
         "callee": {
           "type": "MemberExpression",
-          "start": 1404,
-          "end": 1417,
+          "start": 998,
+          "end": 1011,
           "object": {
             "type": "Identifier",
-            "start": 1404,
-            "end": 1410,
+            "start": 998,
+            "end": 1004,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1411,
-            "end": 1417,
+            "start": 1005,
+            "end": 1011,
             "name": "throws"
           },
           "computed": false,
@@ -798,14 +768,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1418,
-            "end": 1427,
+            "start": 1012,
+            "end": 1021,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 1429,
-            "end": 1512,
+            "start": 1023,
+            "end": 1106,
             "id": null,
             "expression": false,
             "generator": false,
@@ -813,31 +783,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1440,
-              "end": 1512,
+              "start": 1034,
+              "end": 1106,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1444,
-                  "end": 1510,
+                  "start": 1038,
+                  "end": 1104,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1444,
-                    "end": 1509,
+                    "start": 1038,
+                    "end": 1103,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1444,
-                      "end": 1458,
+                      "start": 1038,
+                      "end": 1052,
                       "object": {
                         "type": "Identifier",
-                        "start": 1444,
-                        "end": 1451,
+                        "start": 1038,
+                        "end": 1045,
                         "name": "Atomics"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1452,
-                        "end": 1458,
+                        "start": 1046,
+                        "end": 1052,
                         "name": "notify"
                       },
                       "computed": false,
@@ -846,33 +816,33 @@
                     "arguments": [
                       {
                         "type": "NewExpression",
-                        "start": 1459,
-                        "end": 1488,
+                        "start": 1053,
+                        "end": 1082,
                         "callee": {
                           "type": "Identifier",
-                          "start": 1463,
-                          "end": 1480,
+                          "start": 1057,
+                          "end": 1074,
                           "name": "Uint8ClampedArray"
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
-                            "start": 1481,
-                            "end": 1487,
+                            "start": 1075,
+                            "end": 1081,
                             "name": "nonsab"
                           }
                         ]
                       },
                       {
                         "type": "Identifier",
-                        "start": 1490,
-                        "end": 1498,
+                        "start": 1084,
+                        "end": 1092,
                         "name": "poisoned"
                       },
                       {
                         "type": "Identifier",
-                        "start": 1500,
-                        "end": 1508,
+                        "start": 1094,
+                        "end": 1102,
                         "name": "poisoned"
                       }
                     ],
@@ -881,12 +851,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 1514,
-            "end": 1600,
-            "value": "`Atomics.notify(new Uint8ClampedArray(nonsab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

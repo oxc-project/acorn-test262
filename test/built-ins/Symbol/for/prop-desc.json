@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 621,
+  "end": 615,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -70,91 +70,99 @@
     {
       "type": "ExpressionStatement",
       "start": 519,
-      "end": 554,
+      "end": 614,
       "expression": {
         "type": "CallExpression",
         "start": 519,
-        "end": 553,
+        "end": 613,
         "callee": {
           "type": "Identifier",
           "start": 519,
-          "end": 538,
-          "name": "verifyNotEnumerable"
+          "end": 533,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 539,
-            "end": 545,
+            "start": 534,
+            "end": 540,
             "name": "Symbol"
           },
           {
             "type": "Literal",
-            "start": 547,
-            "end": 552,
+            "start": 542,
+            "end": 547,
             "value": "for"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 555,
-      "end": 585,
-      "expression": {
-        "type": "CallExpression",
-        "start": 555,
-        "end": 584,
-        "callee": {
-          "type": "Identifier",
-          "start": 555,
-          "end": 569,
-          "name": "verifyWritable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 570,
-            "end": 576,
-            "name": "Symbol"
           },
           {
-            "type": "Literal",
-            "start": 578,
-            "end": 583,
-            "value": "for"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 586,
-      "end": 620,
-      "expression": {
-        "type": "CallExpression",
-        "start": 586,
-        "end": 619,
-        "callee": {
-          "type": "Identifier",
-          "start": 586,
-          "end": 604,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 605,
-            "end": 611,
-            "name": "Symbol"
-          },
-          {
-            "type": "Literal",
-            "start": 613,
-            "end": 618,
-            "value": "for"
+            "type": "ObjectExpression",
+            "start": 549,
+            "end": 612,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 553,
+                "end": 567,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 553,
+                  "end": 561,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 563,
+                  "end": 567,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 571,
+                "end": 588,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 571,
+                  "end": 581,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 583,
+                  "end": 588,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 592,
+                "end": 610,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 592,
+                  "end": 604,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 606,
+                  "end": 610,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

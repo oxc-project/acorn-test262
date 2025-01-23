@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2300,
+  "end": 2229,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -980,11 +980,11 @@
     {
       "type": "ExpressionStatement",
       "start": 1538,
-      "end": 1627,
+      "end": 1591,
       "expression": {
         "type": "CallExpression",
         "start": 1538,
-        "end": 1626,
+        "end": 1590,
         "callee": {
           "type": "MemberExpression",
           "start": 1538,
@@ -1044,12 +1044,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 1591,
-            "end": 1625,
-            "value": "`new resolve()` throws TypeError"
           }
         ],
         "optional": false
@@ -1057,26 +1051,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1630,
-      "end": 1728,
+      "start": 1594,
+      "end": 1692,
       "expression": {
         "type": "CallExpression",
-        "start": 1630,
-        "end": 1727,
+        "start": 1594,
+        "end": 1691,
         "callee": {
           "type": "MemberExpression",
-          "start": 1630,
-          "end": 1646,
+          "start": 1594,
+          "end": 1610,
           "object": {
             "type": "Identifier",
-            "start": 1630,
-            "end": 1636,
+            "start": 1594,
+            "end": 1600,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1637,
-            "end": 1646,
+            "start": 1601,
+            "end": 1610,
             "name": "sameValue"
           },
           "computed": false,
@@ -1085,27 +1079,27 @@
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1650,
-            "end": 1663,
+            "start": 1614,
+            "end": 1627,
             "operator": "typeof",
             "prefix": true,
             "argument": {
               "type": "Identifier",
-              "start": 1657,
-              "end": 1663,
+              "start": 1621,
+              "end": 1627,
               "name": "reject"
             }
           },
           {
             "type": "Literal",
-            "start": 1667,
-            "end": 1677,
+            "start": 1631,
+            "end": 1641,
             "value": "function"
           },
           {
             "type": "Literal",
-            "start": 1681,
-            "end": 1725,
+            "start": 1645,
+            "end": 1689,
             "value": "The value of `typeof reject` is \"function\""
           }
         ],
@@ -1114,26 +1108,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1729,
-      "end": 1869,
+      "start": 1693,
+      "end": 1833,
       "expression": {
         "type": "CallExpression",
-        "start": 1729,
-        "end": 1868,
+        "start": 1693,
+        "end": 1832,
         "callee": {
           "type": "MemberExpression",
-          "start": 1729,
-          "end": 1748,
+          "start": 1693,
+          "end": 1712,
           "object": {
             "type": "Identifier",
-            "start": 1729,
-            "end": 1735,
+            "start": 1693,
+            "end": 1699,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1736,
-            "end": 1748,
+            "start": 1700,
+            "end": 1712,
             "name": "notSameValue"
           },
           "computed": false,
@@ -1142,20 +1136,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1749,
-            "end": 1755,
+            "start": 1713,
+            "end": 1719,
             "name": "reject"
           },
           {
             "type": "Identifier",
-            "start": 1757,
-            "end": 1779,
+            "start": 1721,
+            "end": 1743,
             "name": "originalFinallyHandler"
           },
           {
             "type": "Literal",
-            "start": 1781,
-            "end": 1867,
+            "start": 1745,
+            "end": 1831,
             "value": "The value of `reject` is expected to not equal the value of `originalFinallyHandler`"
           }
         ],
@@ -1164,26 +1158,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1870,
-      "end": 1940,
+      "start": 1834,
+      "end": 1904,
       "expression": {
         "type": "CallExpression",
-        "start": 1870,
-        "end": 1939,
+        "start": 1834,
+        "end": 1903,
         "callee": {
           "type": "MemberExpression",
-          "start": 1870,
-          "end": 1886,
+          "start": 1834,
+          "end": 1850,
           "object": {
             "type": "Identifier",
-            "start": 1870,
-            "end": 1876,
+            "start": 1834,
+            "end": 1840,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1877,
-            "end": 1886,
+            "start": 1841,
+            "end": 1850,
             "name": "sameValue"
           },
           "computed": false,
@@ -1192,18 +1186,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1887,
-            "end": 1900,
+            "start": 1851,
+            "end": 1864,
             "object": {
               "type": "Identifier",
-              "start": 1887,
-              "end": 1893,
+              "start": 1851,
+              "end": 1857,
               "name": "reject"
             },
             "property": {
               "type": "Identifier",
-              "start": 1894,
-              "end": 1900,
+              "start": 1858,
+              "end": 1864,
               "name": "length"
             },
             "computed": false,
@@ -1211,14 +1205,14 @@
           },
           {
             "type": "Literal",
-            "start": 1902,
-            "end": 1903,
+            "start": 1866,
+            "end": 1867,
             "value": 1
           },
           {
             "type": "Literal",
-            "start": 1905,
-            "end": 1938,
+            "start": 1869,
+            "end": 1902,
             "value": "The value of reject.length is 1"
           }
         ],
@@ -1227,26 +1221,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1941,
-      "end": 2009,
+      "start": 1905,
+      "end": 1973,
       "expression": {
         "type": "CallExpression",
-        "start": 1941,
-        "end": 2008,
+        "start": 1905,
+        "end": 1972,
         "callee": {
           "type": "MemberExpression",
-          "start": 1941,
-          "end": 1957,
+          "start": 1905,
+          "end": 1921,
           "object": {
             "type": "Identifier",
-            "start": 1941,
-            "end": 1947,
+            "start": 1905,
+            "end": 1911,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1948,
-            "end": 1957,
+            "start": 1912,
+            "end": 1921,
             "name": "sameValue"
           },
           "computed": false,
@@ -1255,18 +1249,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1958,
-            "end": 1969,
+            "start": 1922,
+            "end": 1933,
             "object": {
               "type": "Identifier",
-              "start": 1958,
-              "end": 1964,
+              "start": 1922,
+              "end": 1928,
               "name": "reject"
             },
             "property": {
               "type": "Identifier",
-              "start": 1965,
-              "end": 1969,
+              "start": 1929,
+              "end": 1933,
               "name": "name"
             },
             "computed": false,
@@ -1274,14 +1268,14 @@
           },
           {
             "type": "Literal",
-            "start": 1971,
-            "end": 1973,
+            "start": 1935,
+            "end": 1937,
             "value": ""
           },
           {
             "type": "Literal",
-            "start": 1975,
-            "end": 2007,
+            "start": 1939,
+            "end": 1971,
             "value": "The value of reject.name is \"\""
           }
         ],
@@ -1290,26 +1284,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2010,
-      "end": 2100,
+      "start": 1974,
+      "end": 2064,
       "expression": {
         "type": "CallExpression",
-        "start": 2010,
-        "end": 2099,
+        "start": 1974,
+        "end": 2063,
         "callee": {
           "type": "MemberExpression",
-          "start": 2010,
-          "end": 2026,
+          "start": 1974,
+          "end": 1990,
           "object": {
             "type": "Identifier",
-            "start": 2010,
-            "end": 2016,
+            "start": 1974,
+            "end": 1980,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2017,
-            "end": 2026,
+            "start": 1981,
+            "end": 1990,
             "name": "sameValue"
           },
           "computed": false,
@@ -1318,19 +1312,19 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2027,
-            "end": 2048,
+            "start": 1991,
+            "end": 2012,
             "callee": {
               "type": "Identifier",
-              "start": 2027,
-              "end": 2040,
+              "start": 1991,
+              "end": 2004,
               "name": "isConstructor"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2041,
-                "end": 2047,
+                "start": 2005,
+                "end": 2011,
                 "name": "reject"
               }
             ],
@@ -1338,14 +1332,14 @@
           },
           {
             "type": "Literal",
-            "start": 2050,
-            "end": 2055,
+            "start": 2014,
+            "end": 2019,
             "value": false
           },
           {
             "type": "Literal",
-            "start": 2057,
-            "end": 2098,
+            "start": 2021,
+            "end": 2062,
             "value": "isConstructor(reject) must return false"
           }
         ],
@@ -1354,26 +1348,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2101,
-      "end": 2188,
+      "start": 2065,
+      "end": 2117,
       "expression": {
         "type": "CallExpression",
-        "start": 2101,
-        "end": 2187,
+        "start": 2065,
+        "end": 2116,
         "callee": {
           "type": "MemberExpression",
-          "start": 2101,
-          "end": 2114,
+          "start": 2065,
+          "end": 2078,
           "object": {
             "type": "Identifier",
-            "start": 2101,
-            "end": 2107,
+            "start": 2065,
+            "end": 2071,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2108,
-            "end": 2114,
+            "start": 2072,
+            "end": 2078,
             "name": "throws"
           },
           "computed": false,
@@ -1382,14 +1376,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2115,
-            "end": 2124,
+            "start": 2079,
+            "end": 2088,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 2126,
-            "end": 2151,
+            "start": 2090,
+            "end": 2115,
             "id": null,
             "expression": false,
             "generator": false,
@@ -1397,21 +1391,21 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2132,
-              "end": 2151,
+              "start": 2096,
+              "end": 2115,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2136,
-                  "end": 2149,
+                  "start": 2100,
+                  "end": 2113,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 2136,
-                    "end": 2148,
+                    "start": 2100,
+                    "end": 2112,
                     "callee": {
                       "type": "Identifier",
-                      "start": 2140,
-                      "end": 2146,
+                      "start": 2104,
+                      "end": 2110,
                       "name": "reject"
                     },
                     "arguments": []
@@ -1419,12 +1413,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 2153,
-            "end": 2186,
-            "value": "`new reject()` throws TypeError"
           }
         ],
         "optional": false
@@ -1432,26 +1420,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2190,
-      "end": 2299,
+      "start": 2119,
+      "end": 2228,
       "expression": {
         "type": "CallExpression",
-        "start": 2190,
-        "end": 2298,
+        "start": 2119,
+        "end": 2227,
         "callee": {
           "type": "MemberExpression",
-          "start": 2190,
-          "end": 2206,
+          "start": 2119,
+          "end": 2135,
           "object": {
             "type": "Identifier",
-            "start": 2190,
-            "end": 2196,
+            "start": 2119,
+            "end": 2125,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2197,
-            "end": 2206,
+            "start": 2126,
+            "end": 2135,
             "name": "sameValue"
           },
           "computed": false,
@@ -1460,20 +1448,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2207,
-            "end": 2213,
+            "start": 2136,
+            "end": 2142,
             "name": "result"
           },
           {
             "type": "Identifier",
-            "start": 2215,
-            "end": 2226,
+            "start": 2144,
+            "end": 2155,
             "name": "returnValue"
           },
           {
             "type": "Literal",
-            "start": 2228,
-            "end": 2297,
+            "start": 2157,
+            "end": 2226,
             "value": "The value of `result` is expected to equal the value of returnValue"
           }
         ],

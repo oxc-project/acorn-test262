@@ -1,0 +1,227 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 637,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 448,
+      "end": 498,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 452,
+          "end": 497,
+          "id": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 460,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 463,
+            "end": 497,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 467,
+              "end": 485,
+              "object": {
+                "type": "Identifier",
+                "start": 467,
+                "end": 475,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 476,
+                "end": 485,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 486,
+                "end": 490,
+                "value": 1970
+              },
+              {
+                "type": "Literal",
+                "start": 492,
+                "end": 493,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 495,
+                "end": 496,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 500,
+      "end": 568,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 504,
+          "end": 567,
+          "id": {
+            "type": "Identifier",
+            "start": 504,
+            "end": 508,
+            "name": "item"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 511,
+            "end": 567,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 515,
+                "end": 565,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 519,
+                  "end": 527,
+                  "name": "timeZone"
+                },
+                "kind": "get",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 527,
+                  "end": 565,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 530,
+                    "end": 565,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 536,
+                        "end": 561,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 542,
+                          "end": 560,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 546,
+                            "end": 558,
+                            "name": "Test262Error"
+                          },
+                          "arguments": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 570,
+      "end": 636,
+      "expression": {
+        "type": "CallExpression",
+        "start": 570,
+        "end": 635,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 570,
+          "end": 583,
+          "object": {
+            "type": "Identifier",
+            "start": 570,
+            "end": 576,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 577,
+            "end": 583,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 584,
+            "end": 596,
+            "name": "Test262Error"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 598,
+            "end": 634,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 604,
+              "end": 634,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 604,
+                "end": 628,
+                "object": {
+                  "type": "Identifier",
+                  "start": 604,
+                  "end": 612,
+                  "name": "instance"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 613,
+                  "end": 628,
+                  "name": "toZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 629,
+                  "end": 633,
+                  "name": "item"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

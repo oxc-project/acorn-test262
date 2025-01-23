@@ -1,0 +1,189 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 441,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 270,
+      "end": 320,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 276,
+          "end": 319,
+          "id": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 279,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 282,
+            "end": 319,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 286,
+              "end": 308,
+              "object": {
+                "type": "Identifier",
+                "start": 286,
+                "end": 294,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 295,
+                "end": 308,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 309,
+                "end": 311,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 313,
+                "end": 318,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 360,
+      "end": 440,
+      "expression": {
+        "type": "CallExpression",
+        "start": 360,
+        "end": 439,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 360,
+          "end": 373,
+          "object": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 366,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 373,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 374,
+            "end": 383,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 385,
+            "end": 438,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 391,
+              "end": 438,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 391,
+                "end": 399,
+                "object": {
+                  "type": "Identifier",
+                  "start": 391,
+                  "end": 394,
+                  "name": "zdt"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 395,
+                  "end": 399,
+                  "name": "with"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 400,
+                  "end": 437,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 404,
+                      "end": 412,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 404,
+                        "end": 409,
+                        "name": "month"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 411,
+                        "end": 412,
+                        "value": 2
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 416,
+                      "end": 435,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 416,
+                        "end": 424,
+                        "name": "calendar"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 426,
+                        "end": 435,
+                        "value": "iso8601"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

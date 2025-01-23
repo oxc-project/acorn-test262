@@ -1,33 +1,33 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 612,
+  "end": 639,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 295,
-      "end": 325,
+      "start": 322,
+      "end": 352,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 301,
-          "end": 324,
+          "start": 328,
+          "end": 351,
           "id": {
             "type": "Identifier",
-            "start": 301,
-            "end": 310,
+            "start": 328,
+            "end": 337,
             "name": "INT32_MIN"
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 313,
-            "end": 324,
+            "start": 340,
+            "end": 351,
             "operator": "-",
             "prefix": true,
             "argument": {
               "type": "Literal",
-              "start": 314,
-              "end": 324,
+              "start": 341,
+              "end": 351,
               "value": 2147483648
             }
           }
@@ -37,26 +37,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 327,
-      "end": 510,
+      "start": 354,
+      "end": 537,
       "expression": {
         "type": "CallExpression",
-        "start": 327,
-        "end": 509,
+        "start": 354,
+        "end": 536,
         "callee": {
           "type": "MemberExpression",
-          "start": 327,
-          "end": 343,
+          "start": 354,
+          "end": 370,
           "object": {
             "type": "Identifier",
-            "start": 327,
-            "end": 333,
+            "start": 354,
+            "end": 360,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 334,
-            "end": 343,
+            "start": 361,
+            "end": 370,
             "name": "sameValue"
           },
           "computed": false,
@@ -65,50 +65,50 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 344,
-            "end": 356,
+            "start": 371,
+            "end": 383,
             "left": {
               "type": "Literal",
-              "start": 344,
-              "end": 345,
+              "start": 371,
+              "end": 372,
               "value": 2
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
-              "start": 347,
-              "end": 356,
+              "start": 374,
+              "end": 383,
               "name": "INT32_MIN"
             }
           },
           {
             "type": "UnaryExpression",
-            "start": 358,
-            "end": 362,
+            "start": 385,
+            "end": 389,
             "operator": "+",
             "prefix": true,
             "argument": {
               "type": "Literal",
-              "start": 359,
-              "end": 362,
+              "start": 386,
+              "end": 389,
               "value": 0
             }
           },
           {
             "type": "BinaryExpression",
-            "start": 381,
-            "end": 508,
+            "start": 408,
+            "end": 535,
             "left": {
               "type": "Literal",
-              "start": 381,
-              "end": 437,
+              "start": 408,
+              "end": 464,
               "value": "2**-(gonzo huge exponent > 1074) should be +0 because "
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 457,
-              "end": 508,
+              "start": 484,
+              "end": 535,
               "value": "2**-1074 is the smallest positive IEEE-754 number"
             }
           }
@@ -118,26 +118,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 512,
-      "end": 611,
+      "start": 539,
+      "end": 638,
       "expression": {
         "type": "CallExpression",
-        "start": 512,
-        "end": 610,
+        "start": 539,
+        "end": 637,
         "callee": {
           "type": "MemberExpression",
-          "start": 512,
-          "end": 528,
+          "start": 539,
+          "end": 555,
           "object": {
             "type": "Identifier",
-            "start": 512,
-            "end": 518,
+            "start": 539,
+            "end": 545,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 519,
-            "end": 528,
+            "start": 546,
+            "end": 555,
             "name": "sameValue"
           },
           "computed": false,
@@ -146,32 +146,32 @@
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 529,
-            "end": 541,
+            "start": 556,
+            "end": 568,
             "left": {
               "type": "Literal",
-              "start": 529,
-              "end": 530,
+              "start": 556,
+              "end": 557,
               "value": 1
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
-              "start": 532,
-              "end": 541,
+              "start": 559,
+              "end": 568,
               "name": "INT32_MIN"
             }
           },
           {
             "type": "Literal",
-            "start": 543,
-            "end": 544,
+            "start": 570,
+            "end": 571,
             "value": 1
           },
           {
             "type": "Literal",
-            "start": 563,
-            "end": 609,
+            "start": 590,
+            "end": 636,
             "value": "1**-(gonzo huge exponent > 1074) should be 1"
           }
         ],

@@ -1,0 +1,176 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 488,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 314,
+      "end": 410,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 320,
+          "end": 409,
+          "id": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 328,
+            "name": "datetime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 331,
+            "end": 409,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 335,
+              "end": 357,
+              "object": {
+                "type": "Identifier",
+                "start": 335,
+                "end": 343,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 344,
+                "end": 357,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 358,
+                "end": 362,
+                "value": 1976
+              },
+              {
+                "type": "Literal",
+                "start": 364,
+                "end": 366,
+                "value": 11
+              },
+              {
+                "type": "Literal",
+                "start": 368,
+                "end": 370,
+                "value": 18
+              },
+              {
+                "type": "Literal",
+                "start": 372,
+                "end": 374,
+                "value": 15
+              },
+              {
+                "type": "Literal",
+                "start": 376,
+                "end": 378,
+                "value": 23
+              },
+              {
+                "type": "Literal",
+                "start": 380,
+                "end": 382,
+                "value": 30
+              },
+              {
+                "type": "Literal",
+                "start": 384,
+                "end": 387,
+                "value": 123
+              },
+              {
+                "type": "Literal",
+                "start": 389,
+                "end": 392,
+                "value": 456
+              },
+              {
+                "type": "Literal",
+                "start": 394,
+                "end": 397,
+                "value": 789
+              },
+              {
+                "type": "Literal",
+                "start": 399,
+                "end": 408,
+                "value": "iso8601"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 411,
+      "end": 487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 411,
+        "end": 486,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 411,
+          "end": 427,
+          "object": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 417,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 427,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 428,
+            "end": 447,
+            "object": {
+              "type": "Identifier",
+              "start": 428,
+              "end": 436,
+              "name": "datetime"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 437,
+              "end": 447,
+              "name": "yearOfWeek"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 449,
+            "end": 453,
+            "value": 1976
+          },
+          {
+            "type": "Literal",
+            "start": 455,
+            "end": 485,
+            "value": "check yearOfWeek information"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

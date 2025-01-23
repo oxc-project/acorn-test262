@@ -1,0 +1,2207 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3333,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 641,
+      "end": 880,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 645,
+          "end": 879,
+          "id": {
+            "type": "Identifier",
+            "start": 645,
+            "end": 654,
+            "name": "languages"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 657,
+            "end": 879,
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "start": 659,
+                "end": 716,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 661,
+                    "end": 673,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 661,
+                      "end": 667,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 669,
+                      "end": 673,
+                      "value": "ab"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 675,
+                    "end": 714,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 675,
+                      "end": 686,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 688,
+                      "end": 714,
+                      "value": "2 letter language_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 737,
+                "end": 795,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 739,
+                    "end": 752,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 739,
+                      "end": 745,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 747,
+                      "end": 752,
+                      "value": "cde"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 754,
+                    "end": 793,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 754,
+                      "end": 765,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 767,
+                      "end": 793,
+                      "value": "3 letter language_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 815,
+                "end": 877,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 817,
+                    "end": 835,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 817,
+                      "end": 823,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 825,
+                      "end": 835,
+                      "value": "zzzzzzzz"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 837,
+                    "end": 876,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 837,
+                      "end": 848,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 850,
+                      "end": 876,
+                      "value": "8 letter language_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 920,
+      "end": 1044,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 924,
+          "end": 1043,
+          "id": {
+            "type": "Identifier",
+            "start": 924,
+            "end": 931,
+            "name": "scripts"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 934,
+            "end": 1043,
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "start": 937,
+                "end": 993,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 938,
+                    "end": 952,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 938,
+                      "end": 944,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 946,
+                      "end": 952,
+                      "value": "abcd"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 954,
+                    "end": 991,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 954,
+                      "end": 965,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 967,
+                      "end": 991,
+                      "value": "4 letter script_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1012,
+                "end": 1041,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1013,
+                    "end": 1023,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1013,
+                      "end": 1019,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1021,
+                      "end": 1023,
+                      "value": ""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1025,
+                    "end": 1040,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1025,
+                      "end": 1036,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1038,
+                      "end": 1040,
+                      "value": ""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1097,
+      "end": 1288,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1101,
+          "end": 1287,
+          "id": {
+            "type": "Identifier",
+            "start": 1101,
+            "end": 1108,
+            "name": "regions"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 1111,
+            "end": 1287,
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "start": 1113,
+                "end": 1167,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1114,
+                    "end": 1126,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1114,
+                      "end": 1120,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1122,
+                      "end": 1126,
+                      "value": "ab"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1128,
+                    "end": 1165,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1128,
+                      "end": 1139,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1141,
+                      "end": 1165,
+                      "value": "2 letter region_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1185,
+                "end": 1238,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1186,
+                    "end": 1199,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1186,
+                      "end": 1192,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1194,
+                      "end": 1199,
+                      "value": "123"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1201,
+                    "end": 1237,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1201,
+                      "end": 1212,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1214,
+                      "end": 1237,
+                      "value": "3 digit region_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1256,
+                "end": 1285,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1257,
+                    "end": 1267,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1257,
+                      "end": 1263,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1265,
+                      "end": 1267,
+                      "value": ""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1269,
+                    "end": 1284,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1269,
+                      "end": 1280,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1282,
+                      "end": 1284,
+                      "value": ""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1355,
+      "end": 2191,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1359,
+          "end": 2190,
+          "id": {
+            "type": "Identifier",
+            "start": 1359,
+            "end": 1367,
+            "name": "variants"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 1370,
+            "end": 2190,
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "start": 1373,
+                "end": 1430,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1374,
+                    "end": 1389,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1374,
+                      "end": 1380,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1382,
+                      "end": 1389,
+                      "value": "abcde"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1391,
+                    "end": 1429,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1391,
+                      "end": 1402,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1404,
+                      "end": 1429,
+                      "value": "5 letter variant_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1451,
+                "end": 1511,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1452,
+                    "end": 1470,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1452,
+                      "end": 1458,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1460,
+                      "end": 1470,
+                      "value": "fghijklm"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1472,
+                    "end": 1510,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1472,
+                      "end": 1483,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1485,
+                      "end": 1510,
+                      "value": "8 letter variant_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1532,
+                "end": 1588,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1533,
+                    "end": 1548,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1533,
+                      "end": 1539,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1541,
+                      "end": 1548,
+                      "value": "12345"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1550,
+                    "end": 1587,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1550,
+                      "end": 1561,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1563,
+                      "end": 1587,
+                      "value": "5 digit variant_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1608,
+                "end": 1683,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1609,
+                    "end": 1624,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1609,
+                      "end": 1615,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1617,
+                      "end": 1624,
+                      "value": "1nopq"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1626,
+                    "end": 1682,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1626,
+                      "end": 1637,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1639,
+                      "end": 1682,
+                      "value": "5 chararcter leading digit variant_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1703,
+                "end": 1762,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1704,
+                    "end": 1722,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1704,
+                      "end": 1710,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1712,
+                      "end": 1722,
+                      "value": "12345678"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1724,
+                    "end": 1761,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1724,
+                      "end": 1735,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1737,
+                      "end": 1761,
+                      "value": "8 digit variant_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1783,
+                "end": 1861,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1784,
+                    "end": 1802,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1784,
+                      "end": 1790,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1792,
+                      "end": 1802,
+                      "value": "a2345678"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1804,
+                    "end": 1860,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1804,
+                      "end": 1815,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1817,
+                      "end": 1860,
+                      "value": "8 character trailing digit variant_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1882,
+                "end": 1956,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1883,
+                    "end": 1897,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1883,
+                      "end": 1889,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1891,
+                      "end": 1897,
+                      "value": "1abc"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1899,
+                    "end": 1954,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1899,
+                      "end": 1910,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1912,
+                      "end": 1954,
+                      "value": "leading digit 4 character variant_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1976,
+                "end": 2031,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1977,
+                    "end": 1991,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1977,
+                      "end": 1983,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1985,
+                      "end": 1991,
+                      "value": "2345"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1993,
+                    "end": 2030,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1993,
+                      "end": 2004,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2006,
+                      "end": 2030,
+                      "value": "4 digit variant_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 2051,
+                "end": 2139,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 2052,
+                    "end": 2066,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2052,
+                      "end": 2058,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2060,
+                      "end": 2066,
+                      "value": "6d7e"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 2068,
+                    "end": 2138,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2068,
+                      "end": 2079,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2081,
+                      "end": 2138,
+                      "value": "leading digit 4 character mixed alphanum variant_subtag"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 2159,
+                "end": 2188,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 2160,
+                    "end": 2170,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2160,
+                      "end": 2166,
+                      "name": "subtag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2168,
+                      "end": 2170,
+                      "value": ""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 2172,
+                    "end": 2187,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2172,
+                      "end": 2183,
+                      "name": "description"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2185,
+                      "end": 2187,
+                      "value": ""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 2194,
+      "end": 2247,
+      "id": {
+        "type": "Identifier",
+        "start": 2203,
+        "end": 2211,
+        "name": "notEmpty"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 2212,
+          "end": 2218,
+          "name": "subtag"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 2220,
+        "end": 2247,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 2224,
+            "end": 2245,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 2231,
+              "end": 2244,
+              "left": {
+                "type": "Identifier",
+                "start": 2231,
+                "end": 2237,
+                "name": "subtag"
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "start": 2242,
+                "end": 2244,
+                "value": ""
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2249,
+      "end": 2321,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2253,
+          "end": 2320,
+          "id": {
+            "type": "Identifier",
+            "start": 2253,
+            "end": 2265,
+            "name": "displayNames"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2268,
+            "end": 2320,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2272,
+              "end": 2289,
+              "object": {
+                "type": "Identifier",
+                "start": 2272,
+                "end": 2276,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2277,
+                "end": 2289,
+                "name": "DisplayNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2290,
+                "end": 2299,
+                "name": "undefined"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 2301,
+                "end": 2319,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 2302,
+                    "end": 2318,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2302,
+                      "end": 2306,
+                      "name": "type"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 2308,
+                      "end": 2318,
+                      "value": "language"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForInStatement",
+      "start": 2323,
+      "end": 3332,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 2328,
+        "end": 2333,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2332,
+            "end": 2333,
+            "id": {
+              "type": "Identifier",
+              "start": 2332,
+              "end": 2333,
+              "name": "l"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 2337,
+        "end": 2346,
+        "name": "languages"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 2348,
+        "end": 3332,
+        "body": [
+          {
+            "type": "ForInStatement",
+            "start": 2352,
+            "end": 3330,
+            "left": {
+              "type": "VariableDeclaration",
+              "start": 2357,
+              "end": 2362,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 2361,
+                  "end": 2362,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 2361,
+                    "end": 2362,
+                    "name": "s"
+                  },
+                  "init": null
+                }
+              ],
+              "kind": "var"
+            },
+            "right": {
+              "type": "Identifier",
+              "start": 2366,
+              "end": 2373,
+              "name": "scripts"
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 2375,
+              "end": 3330,
+              "body": [
+                {
+                  "type": "ForInStatement",
+                  "start": 2381,
+                  "end": 3326,
+                  "left": {
+                    "type": "VariableDeclaration",
+                    "start": 2386,
+                    "end": 2391,
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "start": 2390,
+                        "end": 2391,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 2390,
+                          "end": 2391,
+                          "name": "r"
+                        },
+                        "init": null
+                      }
+                    ],
+                    "kind": "var"
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 2395,
+                    "end": 2402,
+                    "name": "regions"
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 2404,
+                    "end": 3326,
+                    "body": [
+                      {
+                        "type": "ForInStatement",
+                        "start": 2412,
+                        "end": 3320,
+                        "left": {
+                          "type": "VariableDeclaration",
+                          "start": 2417,
+                          "end": 2422,
+                          "declarations": [
+                            {
+                              "type": "VariableDeclarator",
+                              "start": 2421,
+                              "end": 2422,
+                              "id": {
+                                "type": "Identifier",
+                                "start": 2421,
+                                "end": 2422,
+                                "name": "v"
+                              },
+                              "init": null
+                            }
+                          ],
+                          "kind": "var"
+                        },
+                        "right": {
+                          "type": "Identifier",
+                          "start": 2426,
+                          "end": 2434,
+                          "name": "variants"
+                        },
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 2436,
+                          "end": 3320,
+                          "body": [
+                            {
+                              "type": "VariableDeclaration",
+                              "start": 2446,
+                              "end": 2571,
+                              "declarations": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "start": 2450,
+                                  "end": 2570,
+                                  "id": {
+                                    "type": "Identifier",
+                                    "start": 2450,
+                                    "end": 2461,
+                                    "name": "languageTag"
+                                  },
+                                  "init": {
+                                    "type": "CallExpression",
+                                    "start": 2464,
+                                    "end": 2570,
+                                    "callee": {
+                                      "type": "MemberExpression",
+                                      "start": 2464,
+                                      "end": 2565,
+                                      "object": {
+                                        "type": "CallExpression",
+                                        "start": 2464,
+                                        "end": 2560,
+                                        "callee": {
+                                          "type": "MemberExpression",
+                                          "start": 2464,
+                                          "end": 2550,
+                                          "object": {
+                                            "type": "ArrayExpression",
+                                            "start": 2464,
+                                            "end": 2543,
+                                            "elements": [
+                                              {
+                                                "type": "MemberExpression",
+                                                "start": 2465,
+                                                "end": 2484,
+                                                "object": {
+                                                  "type": "MemberExpression",
+                                                  "start": 2465,
+                                                  "end": 2477,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "start": 2465,
+                                                    "end": 2474,
+                                                    "name": "languages"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "start": 2475,
+                                                    "end": 2476,
+                                                    "name": "l"
+                                                  },
+                                                  "computed": true,
+                                                  "optional": false
+                                                },
+                                                "property": {
+                                                  "type": "Identifier",
+                                                  "start": 2478,
+                                                  "end": 2484,
+                                                  "name": "subtag"
+                                                },
+                                                "computed": false,
+                                                "optional": false
+                                              },
+                                              {
+                                                "type": "MemberExpression",
+                                                "start": 2486,
+                                                "end": 2503,
+                                                "object": {
+                                                  "type": "MemberExpression",
+                                                  "start": 2486,
+                                                  "end": 2496,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "start": 2486,
+                                                    "end": 2493,
+                                                    "name": "scripts"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "start": 2494,
+                                                    "end": 2495,
+                                                    "name": "s"
+                                                  },
+                                                  "computed": true,
+                                                  "optional": false
+                                                },
+                                                "property": {
+                                                  "type": "Identifier",
+                                                  "start": 2497,
+                                                  "end": 2503,
+                                                  "name": "subtag"
+                                                },
+                                                "computed": false,
+                                                "optional": false
+                                              },
+                                              {
+                                                "type": "MemberExpression",
+                                                "start": 2505,
+                                                "end": 2522,
+                                                "object": {
+                                                  "type": "MemberExpression",
+                                                  "start": 2505,
+                                                  "end": 2515,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "start": 2505,
+                                                    "end": 2512,
+                                                    "name": "regions"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "start": 2513,
+                                                    "end": 2514,
+                                                    "name": "r"
+                                                  },
+                                                  "computed": true,
+                                                  "optional": false
+                                                },
+                                                "property": {
+                                                  "type": "Identifier",
+                                                  "start": 2516,
+                                                  "end": 2522,
+                                                  "name": "subtag"
+                                                },
+                                                "computed": false,
+                                                "optional": false
+                                              },
+                                              {
+                                                "type": "MemberExpression",
+                                                "start": 2524,
+                                                "end": 2542,
+                                                "object": {
+                                                  "type": "MemberExpression",
+                                                  "start": 2524,
+                                                  "end": 2535,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "start": 2524,
+                                                    "end": 2532,
+                                                    "name": "variants"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "start": 2533,
+                                                    "end": 2534,
+                                                    "name": "v"
+                                                  },
+                                                  "computed": true,
+                                                  "optional": false
+                                                },
+                                                "property": {
+                                                  "type": "Identifier",
+                                                  "start": 2536,
+                                                  "end": 2542,
+                                                  "name": "subtag"
+                                                },
+                                                "computed": false,
+                                                "optional": false
+                                              }
+                                            ]
+                                          },
+                                          "property": {
+                                            "type": "Identifier",
+                                            "start": 2544,
+                                            "end": 2550,
+                                            "name": "filter"
+                                          },
+                                          "computed": false,
+                                          "optional": false
+                                        },
+                                        "arguments": [
+                                          {
+                                            "type": "Identifier",
+                                            "start": 2551,
+                                            "end": 2559,
+                                            "name": "notEmpty"
+                                          }
+                                        ],
+                                        "optional": false
+                                      },
+                                      "property": {
+                                        "type": "Identifier",
+                                        "start": 2561,
+                                        "end": 2565,
+                                        "name": "join"
+                                      },
+                                      "computed": false,
+                                      "optional": false
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "Literal",
+                                        "start": 2566,
+                                        "end": 2569,
+                                        "value": "-"
+                                      }
+                                    ],
+                                    "optional": false
+                                  }
+                                }
+                              ],
+                              "kind": "var"
+                            },
+                            {
+                              "type": "VariableDeclaration",
+                              "start": 2580,
+                              "end": 2734,
+                              "declarations": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "start": 2584,
+                                  "end": 2733,
+                                  "id": {
+                                    "type": "Identifier",
+                                    "start": 2584,
+                                    "end": 2603,
+                                    "name": "languageDescription"
+                                  },
+                                  "init": {
+                                    "type": "CallExpression",
+                                    "start": 2606,
+                                    "end": 2733,
+                                    "callee": {
+                                      "type": "MemberExpression",
+                                      "start": 2606,
+                                      "end": 2727,
+                                      "object": {
+                                        "type": "CallExpression",
+                                        "start": 2606,
+                                        "end": 2722,
+                                        "callee": {
+                                          "type": "MemberExpression",
+                                          "start": 2606,
+                                          "end": 2712,
+                                          "object": {
+                                            "type": "ArrayExpression",
+                                            "start": 2606,
+                                            "end": 2705,
+                                            "elements": [
+                                              {
+                                                "type": "MemberExpression",
+                                                "start": 2607,
+                                                "end": 2631,
+                                                "object": {
+                                                  "type": "MemberExpression",
+                                                  "start": 2607,
+                                                  "end": 2619,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "start": 2607,
+                                                    "end": 2616,
+                                                    "name": "languages"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "start": 2617,
+                                                    "end": 2618,
+                                                    "name": "l"
+                                                  },
+                                                  "computed": true,
+                                                  "optional": false
+                                                },
+                                                "property": {
+                                                  "type": "Identifier",
+                                                  "start": 2620,
+                                                  "end": 2631,
+                                                  "name": "description"
+                                                },
+                                                "computed": false,
+                                                "optional": false
+                                              },
+                                              {
+                                                "type": "MemberExpression",
+                                                "start": 2633,
+                                                "end": 2655,
+                                                "object": {
+                                                  "type": "MemberExpression",
+                                                  "start": 2633,
+                                                  "end": 2643,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "start": 2633,
+                                                    "end": 2640,
+                                                    "name": "scripts"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "start": 2641,
+                                                    "end": 2642,
+                                                    "name": "s"
+                                                  },
+                                                  "computed": true,
+                                                  "optional": false
+                                                },
+                                                "property": {
+                                                  "type": "Identifier",
+                                                  "start": 2644,
+                                                  "end": 2655,
+                                                  "name": "description"
+                                                },
+                                                "computed": false,
+                                                "optional": false
+                                              },
+                                              {
+                                                "type": "MemberExpression",
+                                                "start": 2657,
+                                                "end": 2679,
+                                                "object": {
+                                                  "type": "MemberExpression",
+                                                  "start": 2657,
+                                                  "end": 2667,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "start": 2657,
+                                                    "end": 2664,
+                                                    "name": "regions"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "start": 2665,
+                                                    "end": 2666,
+                                                    "name": "r"
+                                                  },
+                                                  "computed": true,
+                                                  "optional": false
+                                                },
+                                                "property": {
+                                                  "type": "Identifier",
+                                                  "start": 2668,
+                                                  "end": 2679,
+                                                  "name": "description"
+                                                },
+                                                "computed": false,
+                                                "optional": false
+                                              },
+                                              {
+                                                "type": "MemberExpression",
+                                                "start": 2681,
+                                                "end": 2704,
+                                                "object": {
+                                                  "type": "MemberExpression",
+                                                  "start": 2681,
+                                                  "end": 2692,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "start": 2681,
+                                                    "end": 2689,
+                                                    "name": "variants"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "start": 2690,
+                                                    "end": 2691,
+                                                    "name": "v"
+                                                  },
+                                                  "computed": true,
+                                                  "optional": false
+                                                },
+                                                "property": {
+                                                  "type": "Identifier",
+                                                  "start": 2693,
+                                                  "end": 2704,
+                                                  "name": "description"
+                                                },
+                                                "computed": false,
+                                                "optional": false
+                                              }
+                                            ]
+                                          },
+                                          "property": {
+                                            "type": "Identifier",
+                                            "start": 2706,
+                                            "end": 2712,
+                                            "name": "filter"
+                                          },
+                                          "computed": false,
+                                          "optional": false
+                                        },
+                                        "arguments": [
+                                          {
+                                            "type": "Identifier",
+                                            "start": 2713,
+                                            "end": 2721,
+                                            "name": "notEmpty"
+                                          }
+                                        ],
+                                        "optional": false
+                                      },
+                                      "property": {
+                                        "type": "Identifier",
+                                        "start": 2723,
+                                        "end": 2727,
+                                        "name": "join"
+                                      },
+                                      "computed": false,
+                                      "optional": false
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "Literal",
+                                        "start": 2728,
+                                        "end": 2732,
+                                        "value": ", "
+                                      }
+                                    ],
+                                    "optional": false
+                                  }
+                                }
+                              ],
+                              "kind": "var"
+                            },
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 2745,
+                              "end": 2851,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 2745,
+                                "end": 2850,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 2745,
+                                  "end": 2761,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 2745,
+                                    "end": 2751,
+                                    "name": "assert"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 2752,
+                                    "end": 2761,
+                                    "name": "sameValue"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "UnaryExpression",
+                                    "start": 2762,
+                                    "end": 2797,
+                                    "operator": "typeof",
+                                    "prefix": true,
+                                    "argument": {
+                                      "type": "CallExpression",
+                                      "start": 2769,
+                                      "end": 2797,
+                                      "callee": {
+                                        "type": "MemberExpression",
+                                        "start": 2769,
+                                        "end": 2784,
+                                        "object": {
+                                          "type": "Identifier",
+                                          "start": 2769,
+                                          "end": 2781,
+                                          "name": "displayNames"
+                                        },
+                                        "property": {
+                                          "type": "Identifier",
+                                          "start": 2782,
+                                          "end": 2784,
+                                          "name": "of"
+                                        },
+                                        "computed": false,
+                                        "optional": false
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Identifier",
+                                          "start": 2785,
+                                          "end": 2796,
+                                          "name": "languageTag"
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 2799,
+                                    "end": 2807,
+                                    "value": "string"
+                                  },
+                                  {
+                                    "type": "BinaryExpression",
+                                    "start": 2809,
+                                    "end": 2849,
+                                    "left": {
+                                      "type": "BinaryExpression",
+                                      "start": 2809,
+                                      "end": 2835,
+                                      "left": {
+                                        "type": "Identifier",
+                                        "start": 2809,
+                                        "end": 2828,
+                                        "name": "languageDescription"
+                                      },
+                                      "operator": "+",
+                                      "right": {
+                                        "type": "Literal",
+                                        "start": 2831,
+                                        "end": 2835,
+                                        "value": ": "
+                                      }
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "type": "Identifier",
+                                      "start": 2838,
+                                      "end": 2849,
+                                      "name": "languageTag"
+                                    }
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            },
+                            {
+                              "type": "IfStatement",
+                              "start": 2860,
+                              "end": 3312,
+                              "test": {
+                                "type": "BinaryExpression",
+                                "start": 2864,
+                                "end": 2889,
+                                "left": {
+                                  "type": "MemberExpression",
+                                  "start": 2864,
+                                  "end": 2882,
+                                  "object": {
+                                    "type": "MemberExpression",
+                                    "start": 2864,
+                                    "end": 2875,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "start": 2864,
+                                      "end": 2872,
+                                      "name": "variants"
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "start": 2873,
+                                      "end": 2874,
+                                      "name": "v"
+                                    },
+                                    "computed": true,
+                                    "optional": false
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 2876,
+                                    "end": 2882,
+                                    "name": "subtag"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "operator": "!==",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 2887,
+                                  "end": 2889,
+                                  "value": ""
+                                }
+                              },
+                              "consequent": {
+                                "type": "BlockStatement",
+                                "start": 2890,
+                                "end": 3312,
+                                "body": [
+                                  {
+                                    "type": "ForInStatement",
+                                    "start": 2902,
+                                    "end": 3302,
+                                    "left": {
+                                      "type": "VariableDeclaration",
+                                      "start": 2907,
+                                      "end": 2922,
+                                      "declarations": [
+                                        {
+                                          "type": "VariableDeclarator",
+                                          "start": 2911,
+                                          "end": 2922,
+                                          "id": {
+                                            "type": "Identifier",
+                                            "start": 2911,
+                                            "end": 2922,
+                                            "name": "vAdditional"
+                                          },
+                                          "init": null
+                                        }
+                                      ],
+                                      "kind": "var"
+                                    },
+                                    "right": {
+                                      "type": "Identifier",
+                                      "start": 2926,
+                                      "end": 2934,
+                                      "name": "variants"
+                                    },
+                                    "body": {
+                                      "type": "BlockStatement",
+                                      "start": 2935,
+                                      "end": 3302,
+                                      "body": [
+                                        {
+                                          "type": "IfStatement",
+                                          "start": 2949,
+                                          "end": 3290,
+                                          "test": {
+                                            "type": "LogicalExpression",
+                                            "start": 2953,
+                                            "end": 3009,
+                                            "left": {
+                                              "type": "BinaryExpression",
+                                              "start": 2953,
+                                              "end": 2988,
+                                              "left": {
+                                                "type": "MemberExpression",
+                                                "start": 2953,
+                                                "end": 2981,
+                                                "object": {
+                                                  "type": "MemberExpression",
+                                                  "start": 2953,
+                                                  "end": 2974,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "start": 2953,
+                                                    "end": 2961,
+                                                    "name": "variants"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "start": 2962,
+                                                    "end": 2973,
+                                                    "name": "vAdditional"
+                                                  },
+                                                  "computed": true,
+                                                  "optional": false
+                                                },
+                                                "property": {
+                                                  "type": "Identifier",
+                                                  "start": 2975,
+                                                  "end": 2981,
+                                                  "name": "subtag"
+                                                },
+                                                "computed": false,
+                                                "optional": false
+                                              },
+                                              "operator": "!==",
+                                              "right": {
+                                                "type": "Literal",
+                                                "start": 2986,
+                                                "end": 2988,
+                                                "value": ""
+                                              }
+                                            },
+                                            "operator": "&&",
+                                            "right": {
+                                              "type": "BinaryExpression",
+                                              "start": 2992,
+                                              "end": 3009,
+                                              "left": {
+                                                "type": "Identifier",
+                                                "start": 2992,
+                                                "end": 3003,
+                                                "name": "vAdditional"
+                                              },
+                                              "operator": "!==",
+                                              "right": {
+                                                "type": "Identifier",
+                                                "start": 3008,
+                                                "end": 3009,
+                                                "name": "v"
+                                              }
+                                            }
+                                          },
+                                          "consequent": {
+                                            "type": "BlockStatement",
+                                            "start": 3010,
+                                            "end": 3290,
+                                            "body": [
+                                              {
+                                                "type": "ExpressionStatement",
+                                                "start": 3026,
+                                                "end": 3076,
+                                                "expression": {
+                                                  "type": "AssignmentExpression",
+                                                  "start": 3026,
+                                                  "end": 3075,
+                                                  "operator": "+=",
+                                                  "left": {
+                                                    "type": "Identifier",
+                                                    "start": 3026,
+                                                    "end": 3037,
+                                                    "name": "languageTag"
+                                                  },
+                                                  "right": {
+                                                    "type": "BinaryExpression",
+                                                    "start": 3041,
+                                                    "end": 3075,
+                                                    "left": {
+                                                      "type": "Literal",
+                                                      "start": 3041,
+                                                      "end": 3044,
+                                                      "value": "-"
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "type": "MemberExpression",
+                                                      "start": 3047,
+                                                      "end": 3075,
+                                                      "object": {
+                                                        "type": "MemberExpression",
+                                                        "start": 3047,
+                                                        "end": 3068,
+                                                        "object": {
+                                                          "type": "Identifier",
+                                                          "start": 3047,
+                                                          "end": 3055,
+                                                          "name": "variants"
+                                                        },
+                                                        "property": {
+                                                          "type": "Identifier",
+                                                          "start": 3056,
+                                                          "end": 3067,
+                                                          "name": "vAdditional"
+                                                        },
+                                                        "computed": true,
+                                                        "optional": false
+                                                      },
+                                                      "property": {
+                                                        "type": "Identifier",
+                                                        "start": 3069,
+                                                        "end": 3075,
+                                                        "name": "subtag"
+                                                      },
+                                                      "computed": false,
+                                                      "optional": false
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "type": "ExpressionStatement",
+                                                "start": 3091,
+                                                "end": 3155,
+                                                "expression": {
+                                                  "type": "AssignmentExpression",
+                                                  "start": 3091,
+                                                  "end": 3154,
+                                                  "operator": "+=",
+                                                  "left": {
+                                                    "type": "Identifier",
+                                                    "start": 3091,
+                                                    "end": 3110,
+                                                    "name": "languageDescription"
+                                                  },
+                                                  "right": {
+                                                    "type": "BinaryExpression",
+                                                    "start": 3114,
+                                                    "end": 3154,
+                                                    "left": {
+                                                      "type": "Literal",
+                                                      "start": 3114,
+                                                      "end": 3118,
+                                                      "value": ", "
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "type": "MemberExpression",
+                                                      "start": 3121,
+                                                      "end": 3154,
+                                                      "object": {
+                                                        "type": "MemberExpression",
+                                                        "start": 3121,
+                                                        "end": 3142,
+                                                        "object": {
+                                                          "type": "Identifier",
+                                                          "start": 3121,
+                                                          "end": 3129,
+                                                          "name": "variants"
+                                                        },
+                                                        "property": {
+                                                          "type": "Identifier",
+                                                          "start": 3130,
+                                                          "end": 3141,
+                                                          "name": "vAdditional"
+                                                        },
+                                                        "computed": true,
+                                                        "optional": false
+                                                      },
+                                                      "property": {
+                                                        "type": "Identifier",
+                                                        "start": 3143,
+                                                        "end": 3154,
+                                                        "name": "description"
+                                                      },
+                                                      "computed": false,
+                                                      "optional": false
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "type": "ExpressionStatement",
+                                                "start": 3170,
+                                                "end": 3276,
+                                                "expression": {
+                                                  "type": "CallExpression",
+                                                  "start": 3170,
+                                                  "end": 3275,
+                                                  "callee": {
+                                                    "type": "MemberExpression",
+                                                    "start": 3170,
+                                                    "end": 3186,
+                                                    "object": {
+                                                      "type": "Identifier",
+                                                      "start": 3170,
+                                                      "end": 3176,
+                                                      "name": "assert"
+                                                    },
+                                                    "property": {
+                                                      "type": "Identifier",
+                                                      "start": 3177,
+                                                      "end": 3186,
+                                                      "name": "sameValue"
+                                                    },
+                                                    "computed": false,
+                                                    "optional": false
+                                                  },
+                                                  "arguments": [
+                                                    {
+                                                      "type": "UnaryExpression",
+                                                      "start": 3187,
+                                                      "end": 3222,
+                                                      "operator": "typeof",
+                                                      "prefix": true,
+                                                      "argument": {
+                                                        "type": "CallExpression",
+                                                        "start": 3194,
+                                                        "end": 3222,
+                                                        "callee": {
+                                                          "type": "MemberExpression",
+                                                          "start": 3194,
+                                                          "end": 3209,
+                                                          "object": {
+                                                            "type": "Identifier",
+                                                            "start": 3194,
+                                                            "end": 3206,
+                                                            "name": "displayNames"
+                                                          },
+                                                          "property": {
+                                                            "type": "Identifier",
+                                                            "start": 3207,
+                                                            "end": 3209,
+                                                            "name": "of"
+                                                          },
+                                                          "computed": false,
+                                                          "optional": false
+                                                        },
+                                                        "arguments": [
+                                                          {
+                                                            "type": "Identifier",
+                                                            "start": 3210,
+                                                            "end": 3221,
+                                                            "name": "languageTag"
+                                                          }
+                                                        ],
+                                                        "optional": false
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "Literal",
+                                                      "start": 3224,
+                                                      "end": 3232,
+                                                      "value": "string"
+                                                    },
+                                                    {
+                                                      "type": "BinaryExpression",
+                                                      "start": 3234,
+                                                      "end": 3274,
+                                                      "left": {
+                                                        "type": "BinaryExpression",
+                                                        "start": 3234,
+                                                        "end": 3260,
+                                                        "left": {
+                                                          "type": "Identifier",
+                                                          "start": 3234,
+                                                          "end": 3253,
+                                                          "name": "languageDescription"
+                                                        },
+                                                        "operator": "+",
+                                                        "right": {
+                                                          "type": "Literal",
+                                                          "start": 3256,
+                                                          "end": 3260,
+                                                          "value": ": "
+                                                        }
+                                                      },
+                                                      "operator": "+",
+                                                      "right": {
+                                                        "type": "Identifier",
+                                                        "start": 3263,
+                                                        "end": 3274,
+                                                        "name": "languageTag"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "optional": false
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          "alternate": null
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              },
+                              "alternate": null
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

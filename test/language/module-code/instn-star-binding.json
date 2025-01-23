@@ -241,7 +241,8 @@
         "start": 1036,
         "end": 1061,
         "value": "./instn-star-binding.js"
-      }
+      },
+      "attributes": []
     }
   ],
   "sourceType": "module"

@@ -91,7 +91,8 @@
         "start": 1131,
         "end": 1173,
         "value": "./eval-export-dflt-expr-cls-name-meth.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

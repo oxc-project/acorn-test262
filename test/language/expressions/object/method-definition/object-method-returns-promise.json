@@ -1,46 +1,46 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 403,
+  "end": 431,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 272,
-      "end": 305,
+      "start": 300,
+      "end": 333,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 276,
-          "end": 305,
+          "start": 304,
+          "end": 333,
           "id": {
             "type": "Identifier",
-            "start": 276,
-            "end": 279,
+            "start": 304,
+            "end": 307,
             "name": "obj"
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 282,
-            "end": 305,
+            "start": 310,
+            "end": 333,
             "properties": [
               {
                 "type": "Property",
-                "start": 286,
-                "end": 303,
+                "start": 314,
+                "end": 331,
                 "method": true,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 292,
-                  "end": 298,
+                  "start": 320,
+                  "end": 326,
                   "name": "method"
                 },
                 "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 298,
-                  "end": 303,
+                  "start": 326,
+                  "end": 331,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -48,8 +48,8 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 301,
-                    "end": 303,
+                    "start": 329,
+                    "end": 331,
                     "body": []
                   }
                 }
@@ -62,37 +62,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 306,
-      "end": 327,
+      "start": 334,
+      "end": 355,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 310,
-          "end": 326,
+          "start": 338,
+          "end": 354,
           "id": {
             "type": "Identifier",
-            "start": 310,
-            "end": 311,
+            "start": 338,
+            "end": 339,
             "name": "p"
           },
           "init": {
             "type": "CallExpression",
-            "start": 314,
-            "end": 326,
+            "start": 342,
+            "end": 354,
             "callee": {
               "type": "MemberExpression",
-              "start": 314,
-              "end": 324,
+              "start": 342,
+              "end": 352,
               "object": {
                 "type": "Identifier",
-                "start": 314,
-                "end": 317,
+                "start": 342,
+                "end": 345,
                 "name": "obj"
               },
               "property": {
                 "type": "Identifier",
-                "start": 318,
-                "end": 324,
+                "start": 346,
+                "end": 352,
                 "name": "method"
               },
               "computed": false,
@@ -107,41 +107,41 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 328,
-      "end": 401,
+      "start": 356,
+      "end": 429,
       "expression": {
         "type": "CallExpression",
-        "start": 328,
-        "end": 400,
+        "start": 356,
+        "end": 428,
         "callee": {
           "type": "Identifier",
-          "start": 328,
-          "end": 334,
+          "start": 356,
+          "end": 362,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 335,
-            "end": 355,
+            "start": 363,
+            "end": 383,
             "left": {
               "type": "Identifier",
-              "start": 335,
-              "end": 336,
+              "start": 363,
+              "end": 364,
               "name": "p"
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
-              "start": 348,
-              "end": 355,
+              "start": 376,
+              "end": 383,
               "name": "Promise"
             }
           },
           {
             "type": "Literal",
-            "start": 357,
-            "end": 399,
+            "start": 385,
+            "end": 427,
             "value": "async functions return promise instances"
           }
         ],

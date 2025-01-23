@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 660,
+  "end": 737,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -202,15 +202,15 @@
     {
       "type": "ExpressionStatement",
       "start": 530,
-      "end": 659,
+      "end": 605,
       "expression": {
         "type": "CallExpression",
         "start": 530,
-        "end": 658,
+        "end": 604,
         "callee": {
           "type": "MemberExpression",
           "start": 530,
-          "end": 549,
+          "end": 546,
           "object": {
             "type": "Identifier",
             "start": 530,
@@ -220,7 +220,83 @@
           "property": {
             "type": "Identifier",
             "start": 537,
-            "end": 549,
+            "end": 546,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 547,
+            "end": 564,
+            "object": {
+              "type": "Identifier",
+              "start": 547,
+              "end": 553,
+              "name": "result"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 554,
+              "end": 564,
+              "name": "calendarId"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 566,
+            "end": 581,
+            "object": {
+              "type": "Identifier",
+              "start": 566,
+              "end": 570,
+              "name": "orig"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 571,
+              "end": 581,
+              "name": "calendarId"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 583,
+            "end": 603,
+            "value": "Calendar is copied"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 607,
+      "end": 736,
+      "expression": {
+        "type": "CallExpression",
+        "start": 607,
+        "end": 735,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 607,
+          "end": 626,
+          "object": {
+            "type": "Identifier",
+            "start": 607,
+            "end": 613,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 614,
+            "end": 626,
             "name": "notSameValue"
           },
           "computed": false,
@@ -229,20 +305,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 553,
-            "end": 559,
+            "start": 630,
+            "end": 636,
             "name": "result"
           },
           {
             "type": "Identifier",
-            "start": 563,
-            "end": 567,
+            "start": 640,
+            "end": 644,
             "name": "orig"
           },
           {
             "type": "Literal",
-            "start": 571,
-            "end": 656,
+            "start": 648,
+            "end": 733,
             "value": "When a PlainMonthDay is given, the returned value is not the original PlainMonthDay"
           }
         ],

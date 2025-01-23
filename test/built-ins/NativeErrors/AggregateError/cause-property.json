@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1112,
+  "end": 1111,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -175,11 +175,11 @@
     {
       "type": "ExpressionStatement",
       "start": 817,
-      "end": 931,
+      "end": 930,
       "expression": {
         "type": "CallExpression",
         "start": 817,
-        "end": 930,
+        "end": 929,
         "callee": {
           "type": "Identifier",
           "start": 817,
@@ -202,7 +202,7 @@
           {
             "type": "ObjectExpression",
             "start": 848,
-            "end": 929,
+            "end": 928,
             "properties": [
               {
                 "type": "Property",
@@ -249,41 +249,41 @@
               {
                 "type": "Property",
                 "start": 895,
-                "end": 910,
+                "end": 909,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 895,
-                  "end": 904,
-                  "name": "writeable"
+                  "end": 903,
+                  "name": "writable"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 906,
-                  "end": 910,
+                  "start": 905,
+                  "end": 909,
                   "value": true
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 914,
-                "end": 926,
+                "start": 913,
+                "end": 925,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 914,
-                  "end": 919,
+                  "start": 913,
+                  "end": 918,
                   "name": "value"
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 921,
-                  "end": 926,
+                  "start": 920,
+                  "end": 925,
                   "name": "cause"
                 },
                 "kind": "init"
@@ -296,54 +296,54 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 933,
-      "end": 1005,
+      "start": 932,
+      "end": 1004,
       "expression": {
         "type": "CallExpression",
-        "start": 933,
-        "end": 1004,
+        "start": 932,
+        "end": 1003,
         "callee": {
           "type": "Identifier",
-          "start": 933,
-          "end": 947,
+          "start": 932,
+          "end": 946,
           "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "NewExpression",
-            "start": 948,
-            "end": 983,
+            "start": 947,
+            "end": 982,
             "callee": {
               "type": "Identifier",
-              "start": 952,
-              "end": 966,
+              "start": 951,
+              "end": 965,
               "name": "AggregateError"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 967,
-                "end": 973,
+                "start": 966,
+                "end": 972,
                 "name": "errors"
               },
               {
                 "type": "Identifier",
-                "start": 975,
-                "end": 982,
+                "start": 974,
+                "end": 981,
                 "name": "message"
               }
             ]
           },
           {
             "type": "Literal",
-            "start": 985,
-            "end": 992,
+            "start": 984,
+            "end": 991,
             "value": "cause"
           },
           {
             "type": "Identifier",
-            "start": 994,
-            "end": 1003,
+            "start": 993,
+            "end": 1002,
             "name": "undefined"
           }
         ],
@@ -352,64 +352,64 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1006,
-      "end": 1111,
+      "start": 1005,
+      "end": 1110,
       "expression": {
         "type": "CallExpression",
-        "start": 1006,
-        "end": 1110,
+        "start": 1005,
+        "end": 1109,
         "callee": {
           "type": "Identifier",
-          "start": 1006,
-          "end": 1020,
+          "start": 1005,
+          "end": 1019,
           "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "NewExpression",
-            "start": 1021,
-            "end": 1078,
+            "start": 1020,
+            "end": 1077,
             "callee": {
               "type": "Identifier",
-              "start": 1025,
-              "end": 1039,
+              "start": 1024,
+              "end": 1038,
               "name": "AggregateError"
             },
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 1040,
-                "end": 1046,
+                "start": 1039,
+                "end": 1045,
                 "name": "errors"
               },
               {
                 "type": "Identifier",
-                "start": 1048,
-                "end": 1055,
+                "start": 1047,
+                "end": 1054,
                 "name": "message"
               },
               {
                 "type": "ObjectExpression",
-                "start": 1057,
-                "end": 1077,
+                "start": 1056,
+                "end": 1076,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1059,
-                    "end": 1075,
+                    "start": 1058,
+                    "end": 1074,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 1059,
-                      "end": 1064,
+                      "start": 1058,
+                      "end": 1063,
                       "name": "cause"
                     },
                     "value": {
                       "type": "Identifier",
-                      "start": 1066,
-                      "end": 1075,
+                      "start": 1065,
+                      "end": 1074,
                       "name": "undefined"
                     },
                     "kind": "init"
@@ -420,32 +420,32 @@
           },
           {
             "type": "Literal",
-            "start": 1080,
-            "end": 1087,
+            "start": 1079,
+            "end": 1086,
             "value": "cause"
           },
           {
             "type": "ObjectExpression",
-            "start": 1089,
-            "end": 1109,
+            "start": 1088,
+            "end": 1108,
             "properties": [
               {
                 "type": "Property",
-                "start": 1091,
-                "end": 1107,
+                "start": 1090,
+                "end": 1106,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1091,
-                  "end": 1096,
+                  "start": 1090,
+                  "end": 1095,
                   "name": "value"
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 1098,
-                  "end": 1107,
+                  "start": 1097,
+                  "end": 1106,
                   "name": "undefined"
                 },
                 "kind": "init"

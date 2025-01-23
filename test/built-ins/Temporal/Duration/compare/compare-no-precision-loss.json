@@ -1,0 +1,272 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 530,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 310,
+      "end": 362,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 316,
+          "end": 361,
+          "id": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 323,
+            "name": "days200"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 326,
+            "end": 361,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 330,
+              "end": 347,
+              "object": {
+                "type": "Identifier",
+                "start": 330,
+                "end": 338,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 339,
+                "end": 347,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 348,
+                "end": 349,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 351,
+                "end": 352,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 354,
+                "end": 355,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 357,
+                "end": 360,
+                "value": 200
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 363,
+      "end": 446,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 369,
+          "end": 445,
+          "id": {
+            "type": "Identifier",
+            "start": 369,
+            "end": 389,
+            "name": "days200oneNanosecond"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 392,
+            "end": 445,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 396,
+              "end": 413,
+              "object": {
+                "type": "Identifier",
+                "start": 396,
+                "end": 404,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 405,
+                "end": 413,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 414,
+                "end": 415,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 417,
+                "end": 418,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 420,
+                "end": 421,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 423,
+                "end": 426,
+                "value": 200
+              },
+              {
+                "type": "Literal",
+                "start": 428,
+                "end": 429,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 431,
+                "end": 432,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 434,
+                "end": 435,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 437,
+                "end": 438,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 440,
+                "end": 441,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 443,
+                "end": 444,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 448,
+      "end": 529,
+      "expression": {
+        "type": "CallExpression",
+        "start": 448,
+        "end": 528,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 448,
+          "end": 467,
+          "object": {
+            "type": "Identifier",
+            "start": 448,
+            "end": 454,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 455,
+            "end": 467,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 468,
+            "end": 524,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 468,
+              "end": 493,
+              "object": {
+                "type": "MemberExpression",
+                "start": 468,
+                "end": 485,
+                "object": {
+                  "type": "Identifier",
+                  "start": 468,
+                  "end": 476,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 477,
+                  "end": 485,
+                  "name": "Duration"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 486,
+                "end": 493,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 494,
+                "end": 501,
+                "name": "days200"
+              },
+              {
+                "type": "Identifier",
+                "start": 503,
+                "end": 523,
+                "name": "days200oneNanosecond"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 526,
+            "end": 527,
+            "value": 0
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

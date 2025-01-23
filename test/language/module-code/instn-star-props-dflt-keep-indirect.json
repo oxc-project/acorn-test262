@@ -25,7 +25,8 @@
         "start": 1066,
         "end": 1125,
         "value": "./instn-star-props-dflt-keep-indirect-reexport_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

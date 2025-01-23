@@ -495,7 +495,8 @@
         "start": 890,
         "end": 916,
         "value": "./instn-named-id-name.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

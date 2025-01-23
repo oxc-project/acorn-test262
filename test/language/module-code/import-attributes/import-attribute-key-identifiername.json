@@ -1,0 +1,188 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 964,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 681,
+      "end": 698,
+      "expression": {
+        "type": "CallExpression",
+        "start": 681,
+        "end": 697,
+        "callee": {
+          "type": "Identifier",
+          "start": 681,
+          "end": 695,
+          "name": "$DONOTEVALUATE"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 700,
+      "end": 754,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 707,
+        "end": 753,
+        "value": "../resources/ensure-linking-error_FIXTURE.js"
+      },
+      "attributes": []
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 756,
+      "end": 817,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 763,
+          "end": 764,
+          "local": {
+            "type": "Identifier",
+            "start": 763,
+            "end": 764,
+            "name": "x"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 770,
+        "end": 803,
+        "value": "./import-attribute-1_FIXTURE.js"
+      },
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 810,
+          "end": 815,
+          "key": {
+            "type": "Identifier",
+            "start": 810,
+            "end": 812,
+            "name": "if"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 813,
+            "end": 815,
+            "value": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 818,
+      "end": 872,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 825,
+        "end": 858,
+        "value": "./import-attribute-2_FIXTURE.js"
+      },
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 865,
+          "end": 870,
+          "key": {
+            "type": "Identifier",
+            "start": 865,
+            "end": 867,
+            "name": "if"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 868,
+            "end": 870,
+            "value": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportAllDeclaration",
+      "start": 873,
+      "end": 934,
+      "exported": null,
+      "source": {
+        "type": "Literal",
+        "start": 887,
+        "end": 920,
+        "value": "./import-attribute-3_FIXTURE.js"
+      },
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 927,
+          "end": 932,
+          "key": {
+            "type": "Identifier",
+            "start": 927,
+            "end": 929,
+            "name": "if"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 930,
+            "end": 932,
+            "value": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 936,
+      "end": 963,
+      "expression": {
+        "type": "CallExpression",
+        "start": 936,
+        "end": 962,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 936,
+          "end": 952,
+          "object": {
+            "type": "Identifier",
+            "start": 936,
+            "end": 942,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 943,
+            "end": 952,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 953,
+            "end": 954,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 956,
+            "end": 961,
+            "value": 262.1
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

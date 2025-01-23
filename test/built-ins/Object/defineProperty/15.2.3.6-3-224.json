@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 551,
+  "end": 552,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -31,12 +31,12 @@
     {
       "type": "VariableDeclaration",
       "start": 348,
-      "end": 373,
+      "end": 374,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 352,
-          "end": 372,
+          "end": 373,
           "id": {
             "type": "Identifier",
             "start": 352,
@@ -46,14 +46,21 @@
           "init": {
             "type": "NewExpression",
             "start": 362,
-            "end": 372,
+            "end": 373,
             "callee": {
               "type": "Identifier",
               "start": 366,
               "end": 370,
               "name": "Date"
             },
-            "arguments": []
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 371,
+                "end": 372,
+                "value": 0
+              }
+            ]
           }
         }
       ],
@@ -61,27 +68,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 375,
-      "end": 432,
+      "start": 376,
+      "end": 433,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 375,
-        "end": 431,
+        "start": 376,
+        "end": 432,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 375,
-          "end": 386,
+          "start": 376,
+          "end": 387,
           "object": {
             "type": "Identifier",
-            "start": 375,
-            "end": 382,
+            "start": 376,
+            "end": 383,
             "name": "dateObj"
           },
           "property": {
             "type": "Identifier",
-            "start": 383,
-            "end": 386,
+            "start": 384,
+            "end": 387,
             "name": "get"
           },
           "computed": false,
@@ -89,8 +96,8 @@
         },
         "right": {
           "type": "FunctionExpression",
-          "start": 389,
-          "end": 431,
+          "start": 390,
+          "end": 432,
           "id": null,
           "expression": false,
           "generator": false,
@@ -98,17 +105,17 @@
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 400,
-            "end": 431,
+            "start": 401,
+            "end": 432,
             "body": [
               {
                 "type": "ReturnStatement",
-                "start": 404,
-                "end": 429,
+                "start": 405,
+                "end": 430,
                 "argument": {
                   "type": "Literal",
-                  "start": 411,
-                  "end": 428,
+                  "start": 412,
+                  "end": 429,
                   "value": "dateGetProperty"
                 }
               }
@@ -119,26 +126,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 434,
-      "end": 482,
+      "start": 435,
+      "end": 483,
       "expression": {
         "type": "CallExpression",
-        "start": 434,
-        "end": 481,
+        "start": 435,
+        "end": 482,
         "callee": {
           "type": "MemberExpression",
-          "start": 434,
-          "end": 455,
+          "start": 435,
+          "end": 456,
           "object": {
             "type": "Identifier",
-            "start": 434,
-            "end": 440,
+            "start": 435,
+            "end": 441,
             "name": "Object"
           },
           "property": {
             "type": "Identifier",
-            "start": 441,
-            "end": 455,
+            "start": 442,
+            "end": 456,
             "name": "defineProperty"
           },
           "computed": false,
@@ -147,20 +154,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 456,
-            "end": 459,
+            "start": 457,
+            "end": 460,
             "name": "obj"
           },
           {
             "type": "Literal",
-            "start": 461,
-            "end": 471,
+            "start": 462,
+            "end": 472,
             "value": "property"
           },
           {
             "type": "Identifier",
-            "start": 473,
-            "end": 480,
+            "start": 474,
+            "end": 481,
             "name": "dateObj"
           }
         ],
@@ -169,26 +176,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 484,
-      "end": 550,
+      "start": 485,
+      "end": 551,
       "expression": {
         "type": "CallExpression",
-        "start": 484,
-        "end": 549,
+        "start": 485,
+        "end": 550,
         "callee": {
           "type": "MemberExpression",
-          "start": 484,
-          "end": 500,
+          "start": 485,
+          "end": 501,
           "object": {
             "type": "Identifier",
-            "start": 484,
-            "end": 490,
+            "start": 485,
+            "end": 491,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 491,
-            "end": 500,
+            "start": 492,
+            "end": 501,
             "name": "sameValue"
           },
           "computed": false,
@@ -197,18 +204,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 501,
-            "end": 513,
+            "start": 502,
+            "end": 514,
             "object": {
               "type": "Identifier",
-              "start": 501,
-              "end": 504,
+              "start": 502,
+              "end": 505,
               "name": "obj"
             },
             "property": {
               "type": "Identifier",
-              "start": 505,
-              "end": 513,
+              "start": 506,
+              "end": 514,
               "name": "property"
             },
             "computed": false,
@@ -216,14 +223,14 @@
           },
           {
             "type": "Literal",
-            "start": 515,
-            "end": 532,
+            "start": 516,
+            "end": 533,
             "value": "dateGetProperty"
           },
           {
             "type": "Literal",
-            "start": 534,
-            "end": 548,
+            "start": 535,
+            "end": 549,
             "value": "obj.property"
           }
         ],

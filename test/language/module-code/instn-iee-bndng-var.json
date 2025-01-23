@@ -232,7 +232,8 @@
         "start": 1945,
         "end": 1979,
         "value": "./instn-iee-bndng-var_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

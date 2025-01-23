@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 911,
+  "end": 863,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -83,11 +83,11 @@
     {
       "type": "ExpressionStatement",
       "start": 797,
-      "end": 910,
+      "end": 862,
       "expression": {
         "type": "CallExpression",
         "start": 797,
-        "end": 909,
+        "end": 861,
         "callee": {
           "type": "MemberExpression",
           "start": 797,
@@ -173,12 +173,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 862,
-            "end": 908,
-            "value": "`new BigInt.asIntN(64, 1n)` throws TypeError"
           }
         ],
         "optional": false

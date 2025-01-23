@@ -1,0 +1,165 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 503,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 334,
+      "end": 426,
+      "expression": {
+        "type": "CallExpression",
+        "start": 334,
+        "end": 425,
+        "callee": {
+          "type": "Identifier",
+          "start": 334,
+          "end": 340,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 341,
+            "end": 378,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 342,
+              "end": 378,
+              "callee": {
+                "type": "Identifier",
+                "start": 342,
+                "end": 355,
+                "name": "isConstructor"
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 356,
+                  "end": 377,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 356,
+                    "end": 366,
+                    "name": "Uint8Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 367,
+                    "end": 377,
+                    "name": "fromBase64"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 380,
+            "end": 424,
+            "value": "Uint8Array.fromBase64 is not a constructor"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 428,
+      "end": 502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 428,
+        "end": 501,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 428,
+          "end": 441,
+          "object": {
+            "type": "Identifier",
+            "start": 428,
+            "end": 434,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 435,
+            "end": 441,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 442,
+            "end": 451,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 453,
+            "end": 500,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 464,
+              "end": 500,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 468,
+                  "end": 498,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 468,
+                    "end": 497,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 472,
+                      "end": 493,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 472,
+                        "end": 482,
+                        "name": "Uint8Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 483,
+                        "end": 493,
+                        "name": "fromBase64"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 494,
+                        "end": 496,
+                        "value": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,273 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2094,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 1641,
+      "end": 1686,
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 1650,
+          "end": 1654,
+          "imported": {
+            "type": "Identifier",
+            "start": 1650,
+            "end": 1654,
+            "name": "done"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 1650,
+            "end": 1654,
+            "name": "done"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 1662,
+        "end": 1685,
+        "value": "./promises_FIXTURE.js"
+      },
+      "attributes": []
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 1687,
+      "end": 1719,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 1694,
+        "end": 1718,
+        "value": "./dep-1-tla_FIXTURE.js"
+      },
+      "attributes": []
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1721,
+      "end": 2093,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1721,
+        "end": 2092,
+        "callee": {
+          "type": "Identifier",
+          "start": 1721,
+          "end": 1730,
+          "name": "asyncTest"
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 1731,
+            "end": 2091,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1743,
+              "end": 2091,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1747,
+                  "end": 1758,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 1747,
+                    "end": 1757,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 1753,
+                      "end": 1757,
+                      "name": "done"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1761,
+                  "end": 1883,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1761,
+                    "end": 1882,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1761,
+                      "end": 1767,
+                      "name": "assert"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 1768,
+                        "end": 1835,
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 1768,
+                          "end": 1814,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1768,
+                            "end": 1778,
+                            "name": "globalThis"
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "start": 1779,
+                            "end": 1813,
+                            "value": "error on ns.foo while evaluating"
+                          },
+                          "computed": true,
+                          "optional": false
+                        },
+                        "operator": "instanceof",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 1826,
+                          "end": 1835,
+                          "name": "TypeError"
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1837,
+                        "end": 1881,
+                        "value": "ns.foo while evaluating throws a TypeError"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1886,
+                  "end": 2020,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1886,
+                    "end": 2019,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1886,
+                      "end": 1892,
+                      "name": "assert"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 1893,
+                        "end": 1966,
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 1893,
+                          "end": 1945,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1893,
+                            "end": 1903,
+                            "name": "globalThis"
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "start": 1904,
+                            "end": 1944,
+                            "value": "error on ns.foo while evaluating-async"
+                          },
+                          "computed": true,
+                          "optional": false
+                        },
+                        "operator": "instanceof",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 1957,
+                          "end": 1966,
+                          "name": "TypeError"
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1968,
+                        "end": 2018,
+                        "value": "ns.foo while evaluating-async throws a TypeError"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2023,
+                  "end": 2089,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2023,
+                    "end": 2088,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2023,
+                      "end": 2039,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2023,
+                        "end": 2029,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2030,
+                        "end": 2039,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 2040,
+                        "end": 2084,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 2040,
+                          "end": 2050,
+                          "name": "globalThis"
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 2051,
+                          "end": 2083,
+                          "value": "value of ns.foo when evaluated"
+                        },
+                        "computed": true,
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2086,
+                        "end": 2087,
+                        "value": 1
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

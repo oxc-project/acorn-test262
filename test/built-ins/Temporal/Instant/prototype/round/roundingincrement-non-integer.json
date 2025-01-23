@@ -1,41 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 630,
+  "end": 1005,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 370,
-      "end": 435,
+      "start": 718,
+      "end": 783,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 376,
-          "end": 434,
+          "start": 724,
+          "end": 782,
           "id": {
             "type": "Identifier",
-            "start": 376,
-            "end": 383,
+            "start": 724,
+            "end": 731,
             "name": "instant"
           },
           "init": {
             "type": "NewExpression",
-            "start": 386,
-            "end": 434,
+            "start": 734,
+            "end": 782,
             "callee": {
               "type": "MemberExpression",
-              "start": 390,
-              "end": 406,
+              "start": 738,
+              "end": 754,
               "object": {
                 "type": "Identifier",
-                "start": 390,
-                "end": 398,
+                "start": 738,
+                "end": 746,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 399,
-                "end": 406,
+                "start": 747,
+                "end": 754,
                 "name": "Instant"
               },
               "computed": false,
@@ -44,8 +44,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 407,
-                "end": 433,
+                "start": 755,
+                "end": 781,
                 "value": "1000000000000000005n"
               }
             ]
@@ -56,37 +56,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 436,
-      "end": 521,
+      "start": 784,
+      "end": 893,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 442,
-          "end": 520,
+          "start": 790,
+          "end": 892,
           "id": {
             "type": "Identifier",
-            "start": 442,
-            "end": 448,
+            "start": 790,
+            "end": 796,
             "name": "result"
           },
           "init": {
             "type": "CallExpression",
-            "start": 451,
-            "end": 520,
+            "start": 799,
+            "end": 892,
             "callee": {
               "type": "MemberExpression",
-              "start": 451,
-              "end": 464,
+              "start": 799,
+              "end": 812,
               "object": {
                 "type": "Identifier",
-                "start": 451,
-                "end": 458,
+                "start": 799,
+                "end": 806,
                 "name": "instant"
               },
               "property": {
                 "type": "Identifier",
-                "start": 459,
-                "end": 464,
+                "start": 807,
+                "end": 812,
                 "name": "round"
               },
               "computed": false,
@@ -95,48 +95,69 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 465,
-                "end": 519,
+                "start": 813,
+                "end": 891,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 467,
-                    "end": 493,
+                    "start": 815,
+                    "end": 841,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 467,
-                      "end": 479,
+                      "start": 815,
+                      "end": 827,
                       "name": "smallestUnit"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 481,
-                      "end": 493,
+                      "start": 829,
+                      "end": 841,
                       "value": "nanosecond"
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 495,
-                    "end": 517,
+                    "start": 843,
+                    "end": 865,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 495,
-                      "end": 512,
+                      "start": 843,
+                      "end": 860,
                       "name": "roundingIncrement"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 514,
-                      "end": 517,
+                      "start": 862,
+                      "end": 865,
                       "value": 2.5
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 867,
+                    "end": 889,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 867,
+                      "end": 879,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 881,
+                      "end": 889,
+                      "value": "expand"
                     },
                     "kind": "init"
                   }
@@ -151,26 +172,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 522,
-      "end": 629,
+      "start": 894,
+      "end": 1004,
       "expression": {
         "type": "CallExpression",
-        "start": 522,
-        "end": 628,
+        "start": 894,
+        "end": 1003,
         "callee": {
           "type": "MemberExpression",
-          "start": 522,
-          "end": 538,
+          "start": 894,
+          "end": 910,
           "object": {
             "type": "Identifier",
-            "start": 522,
-            "end": 528,
+            "start": 894,
+            "end": 900,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 529,
-            "end": 538,
+            "start": 901,
+            "end": 910,
             "name": "sameValue"
           },
           "computed": false,
@@ -179,18 +200,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 539,
-            "end": 562,
+            "start": 911,
+            "end": 934,
             "object": {
               "type": "Identifier",
-              "start": 539,
-              "end": 545,
+              "start": 911,
+              "end": 917,
               "name": "result"
             },
             "property": {
               "type": "Identifier",
-              "start": 546,
-              "end": 562,
+              "start": 918,
+              "end": 934,
               "name": "epochNanoseconds"
             },
             "computed": false,
@@ -198,15 +219,15 @@
           },
           {
             "type": "Literal",
-            "start": 564,
-            "end": 590,
+            "start": 936,
+            "end": 962,
             "value": "1000000000000000006n"
           },
           {
             "type": "Literal",
-            "start": 592,
-            "end": 627,
-            "value": "roundingIncrement 2.5 floors to 2"
+            "start": 964,
+            "end": 1002,
+            "value": "roundingIncrement 2.5 truncates to 2"
           }
         ],
         "optional": false

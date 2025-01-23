@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 433,
+  "end": 418,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 321,
-      "end": 352,
+      "start": 313,
+      "end": 344,
       "id": {
         "type": "Identifier",
-        "start": 330,
-        "end": 333,
+        "start": 322,
+        "end": 325,
         "name": "foo"
       },
       "expression": false,
@@ -19,17 +19,17 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 337,
-        "end": 352,
+        "start": 329,
+        "end": 344,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 338,
-            "end": 351,
+            "start": 330,
+            "end": 343,
             "expression": {
               "type": "Literal",
-              "start": 338,
-              "end": 350,
+              "start": 330,
+              "end": 342,
               "value": "use strict"
             },
             "directive": "use strict"
@@ -39,26 +39,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 353,
-      "end": 432,
+      "start": 346,
+      "end": 417,
       "expression": {
         "type": "CallExpression",
-        "start": 353,
-        "end": 431,
+        "start": 346,
+        "end": 416,
         "callee": {
           "type": "MemberExpression",
-          "start": 353,
-          "end": 366,
+          "start": 346,
+          "end": 359,
           "object": {
             "type": "Identifier",
-            "start": 353,
-            "end": 359,
+            "start": 346,
+            "end": 352,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 360,
-            "end": 366,
+            "start": 353,
+            "end": 359,
             "name": "throws"
           },
           "computed": false,
@@ -67,14 +67,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 367,
-            "end": 376,
+            "start": 360,
+            "end": 369,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 378,
-            "end": 430,
+            "start": 371,
+            "end": 415,
             "id": null,
             "expression": false,
             "generator": false,
@@ -82,38 +82,38 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 389,
-              "end": 430,
+              "start": 382,
+              "end": 415,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 403,
-                  "end": 428,
+                  "start": 388,
+                  "end": 413,
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 407,
-                      "end": 427,
+                      "start": 392,
+                      "end": 412,
                       "id": {
                         "type": "Identifier",
-                        "start": 407,
-                        "end": 411,
+                        "start": 392,
+                        "end": 396,
                         "name": "temp"
                       },
                       "init": {
                         "type": "MemberExpression",
-                        "start": 414,
-                        "end": 427,
+                        "start": 399,
+                        "end": 412,
                         "object": {
                           "type": "Identifier",
-                          "start": 414,
-                          "end": 417,
+                          "start": 399,
+                          "end": 402,
                           "name": "foo"
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 418,
-                          "end": 427,
+                          "start": 403,
+                          "end": 412,
                           "name": "arguments"
                         },
                         "computed": false,

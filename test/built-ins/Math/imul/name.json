@@ -1,205 +1,138 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 823,
+  "end": 781,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 663,
-      "end": 704,
+      "end": 780,
       "expression": {
         "type": "CallExpression",
         "start": 663,
-        "end": 703,
+        "end": 779,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 663,
-          "end": 679,
-          "object": {
-            "type": "Identifier",
-            "start": 663,
-            "end": 669,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 670,
-            "end": 679,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 677,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 680,
-            "end": 694,
+            "start": 678,
+            "end": 687,
             "object": {
-              "type": "MemberExpression",
-              "start": 680,
-              "end": 689,
-              "object": {
-                "type": "Identifier",
-                "start": 680,
-                "end": 684,
-                "name": "Math"
+              "type": "Identifier",
+              "start": 678,
+              "end": 682,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 683,
+              "end": 687,
+              "name": "imul"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 695,
+            "value": "name"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 697,
+            "end": 778,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 701,
+                "end": 714,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 701,
+                  "end": 706,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 708,
+                  "end": 714,
+                  "value": "imul"
+                },
+                "kind": "init"
               },
-              "property": {
-                "type": "Identifier",
-                "start": 685,
-                "end": 689,
-                "name": "imul"
+              {
+                "type": "Property",
+                "start": 718,
+                "end": 733,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 718,
+                  "end": 726,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 728,
+                  "end": 733,
+                  "value": false
+                },
+                "kind": "init"
               },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 690,
-              "end": 694,
-              "name": "name"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 696,
-            "end": 702,
-            "value": "imul"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 706,
-      "end": 745,
-      "expression": {
-        "type": "CallExpression",
-        "start": 706,
-        "end": 744,
-        "callee": {
-          "type": "Identifier",
-          "start": 706,
-          "end": 725,
-          "name": "verifyNotEnumerable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 726,
-            "end": 735,
-            "object": {
-              "type": "Identifier",
-              "start": 726,
-              "end": 730,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 731,
-              "end": 735,
-              "name": "imul"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 737,
-            "end": 743,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 746,
-      "end": 783,
-      "expression": {
-        "type": "CallExpression",
-        "start": 746,
-        "end": 782,
-        "callee": {
-          "type": "Identifier",
-          "start": 746,
-          "end": 763,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 764,
-            "end": 773,
-            "object": {
-              "type": "Identifier",
-              "start": 764,
-              "end": 768,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 769,
-              "end": 773,
-              "name": "imul"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 775,
-            "end": 781,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 784,
-      "end": 822,
-      "expression": {
-        "type": "CallExpression",
-        "start": 784,
-        "end": 821,
-        "callee": {
-          "type": "Identifier",
-          "start": 784,
-          "end": 802,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 803,
-            "end": 812,
-            "object": {
-              "type": "Identifier",
-              "start": 803,
-              "end": 807,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 808,
-              "end": 812,
-              "name": "imul"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 814,
-            "end": 820,
-            "value": "name"
+              {
+                "type": "Property",
+                "start": 737,
+                "end": 754,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 737,
+                  "end": 747,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 749,
+                  "end": 754,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 758,
+                "end": 776,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 758,
+                  "end": 770,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 772,
+                  "end": 776,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

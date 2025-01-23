@@ -174,7 +174,8 @@
                             "start": 1809,
                             "end": 1812,
                             "name": "obj"
-                          }
+                          },
+                          "options": null
                         },
                         "property": {
                           "type": "Identifier",

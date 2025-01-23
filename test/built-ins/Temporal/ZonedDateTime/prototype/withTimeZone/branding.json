@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1213,
+  "end": 1190,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -121,12 +121,12 @@
     {
       "type": "VariableDeclaration",
       "start": 405,
-      "end": 449,
+      "end": 426,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 411,
-          "end": 448,
+          "end": 425,
           "id": {
             "type": "Identifier",
             "start": 411,
@@ -136,39 +136,13 @@
           "init": {
             "type": "ArrayExpression",
             "start": 418,
-            "end": 448,
+            "end": 425,
             "elements": [
               {
-                "type": "NewExpression",
+                "type": "Literal",
                 "start": 419,
-                "end": 447,
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 423,
-                  "end": 440,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 423,
-                    "end": 431,
-                    "name": "Temporal"
-                  },
-                  "property": {
-                    "type": "Identifier",
-                    "start": 432,
-                    "end": 440,
-                    "name": "TimeZone"
-                  },
-                  "computed": false,
-                  "optional": false
-                },
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 441,
-                    "end": 446,
-                    "value": "UTC"
-                  }
-                ]
+                "end": 424,
+                "value": "UTC"
               }
             ]
           }
@@ -178,26 +152,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 451,
-      "end": 532,
+      "start": 428,
+      "end": 509,
       "expression": {
         "type": "CallExpression",
-        "start": 451,
-        "end": 531,
+        "start": 428,
+        "end": 508,
         "callee": {
           "type": "MemberExpression",
-          "start": 451,
-          "end": 464,
+          "start": 428,
+          "end": 441,
           "object": {
             "type": "Identifier",
-            "start": 451,
-            "end": 457,
+            "start": 428,
+            "end": 434,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 458,
-            "end": 464,
+            "start": 435,
+            "end": 441,
             "name": "throws"
           },
           "computed": false,
@@ -206,14 +180,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 465,
-            "end": 474,
+            "start": 442,
+            "end": 451,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 476,
-            "end": 517,
+            "start": 453,
+            "end": 494,
             "id": null,
             "expression": true,
             "generator": false,
@@ -221,22 +195,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 482,
-              "end": 517,
+              "start": 459,
+              "end": 494,
               "callee": {
                 "type": "MemberExpression",
-                "start": 482,
-                "end": 500,
+                "start": 459,
+                "end": 477,
                 "object": {
                   "type": "Identifier",
-                  "start": 482,
-                  "end": 494,
+                  "start": 459,
+                  "end": 471,
                   "name": "withTimeZone"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 495,
-                  "end": 500,
+                  "start": 472,
+                  "end": 477,
                   "name": "apply"
                 },
                 "computed": false,
@@ -245,14 +219,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 501,
-                  "end": 510,
+                  "start": 478,
+                  "end": 487,
                   "name": "undefined"
                 },
                 {
                   "type": "Identifier",
-                  "start": 512,
-                  "end": 516,
+                  "start": 489,
+                  "end": 493,
                   "name": "args"
                 }
               ],
@@ -261,8 +235,8 @@
           },
           {
             "type": "Literal",
-            "start": 519,
-            "end": 530,
+            "start": 496,
+            "end": 507,
             "value": "undefined"
           }
         ],
@@ -271,26 +245,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 533,
-      "end": 604,
+      "start": 510,
+      "end": 581,
       "expression": {
         "type": "CallExpression",
-        "start": 533,
-        "end": 603,
+        "start": 510,
+        "end": 580,
         "callee": {
           "type": "MemberExpression",
-          "start": 533,
-          "end": 546,
+          "start": 510,
+          "end": 523,
           "object": {
             "type": "Identifier",
-            "start": 533,
-            "end": 539,
+            "start": 510,
+            "end": 516,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 540,
-            "end": 546,
+            "start": 517,
+            "end": 523,
             "name": "throws"
           },
           "computed": false,
@@ -299,14 +273,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 547,
-            "end": 556,
+            "start": 524,
+            "end": 533,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 558,
-            "end": 594,
+            "start": 535,
+            "end": 571,
             "id": null,
             "expression": true,
             "generator": false,
@@ -314,22 +288,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 564,
-              "end": 594,
+              "start": 541,
+              "end": 571,
               "callee": {
                 "type": "MemberExpression",
-                "start": 564,
-                "end": 582,
+                "start": 541,
+                "end": 559,
                 "object": {
                   "type": "Identifier",
-                  "start": 564,
-                  "end": 576,
+                  "start": 541,
+                  "end": 553,
                   "name": "withTimeZone"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 577,
-                  "end": 582,
+                  "start": 554,
+                  "end": 559,
                   "name": "apply"
                 },
                 "computed": false,
@@ -338,14 +312,14 @@
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 583,
-                  "end": 587,
+                  "start": 560,
+                  "end": 564,
                   "value": null
                 },
                 {
                   "type": "Identifier",
-                  "start": 589,
-                  "end": 593,
+                  "start": 566,
+                  "end": 570,
                   "name": "args"
                 }
               ],
@@ -354,8 +328,8 @@
           },
           {
             "type": "Literal",
-            "start": 596,
-            "end": 602,
+            "start": 573,
+            "end": 579,
             "value": "null"
           }
         ],
@@ -364,26 +338,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 605,
-      "end": 676,
+      "start": 582,
+      "end": 653,
       "expression": {
         "type": "CallExpression",
-        "start": 605,
-        "end": 675,
+        "start": 582,
+        "end": 652,
         "callee": {
           "type": "MemberExpression",
-          "start": 605,
-          "end": 618,
+          "start": 582,
+          "end": 595,
           "object": {
             "type": "Identifier",
-            "start": 605,
-            "end": 611,
+            "start": 582,
+            "end": 588,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 612,
-            "end": 618,
+            "start": 589,
+            "end": 595,
             "name": "throws"
           },
           "computed": false,
@@ -392,14 +366,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 619,
-            "end": 628,
+            "start": 596,
+            "end": 605,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 630,
-            "end": 666,
+            "start": 607,
+            "end": 643,
             "id": null,
             "expression": true,
             "generator": false,
@@ -407,22 +381,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 636,
-              "end": 666,
+              "start": 613,
+              "end": 643,
               "callee": {
                 "type": "MemberExpression",
-                "start": 636,
-                "end": 654,
+                "start": 613,
+                "end": 631,
                 "object": {
                   "type": "Identifier",
-                  "start": 636,
-                  "end": 648,
+                  "start": 613,
+                  "end": 625,
                   "name": "withTimeZone"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 649,
-                  "end": 654,
+                  "start": 626,
+                  "end": 631,
                   "name": "apply"
                 },
                 "computed": false,
@@ -431,14 +405,14 @@
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 655,
-                  "end": 659,
+                  "start": 632,
+                  "end": 636,
                   "value": true
                 },
                 {
                   "type": "Identifier",
-                  "start": 661,
-                  "end": 665,
+                  "start": 638,
+                  "end": 642,
                   "name": "args"
                 }
               ],
@@ -447,8 +421,8 @@
           },
           {
             "type": "Literal",
-            "start": 668,
-            "end": 674,
+            "start": 645,
+            "end": 651,
             "value": "true"
           }
         ],
@@ -457,26 +431,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 677,
-      "end": 754,
+      "start": 654,
+      "end": 731,
       "expression": {
         "type": "CallExpression",
-        "start": 677,
-        "end": 753,
+        "start": 654,
+        "end": 730,
         "callee": {
           "type": "MemberExpression",
-          "start": 677,
-          "end": 690,
+          "start": 654,
+          "end": 667,
           "object": {
             "type": "Identifier",
-            "start": 677,
-            "end": 683,
+            "start": 654,
+            "end": 660,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 684,
-            "end": 690,
+            "start": 661,
+            "end": 667,
             "name": "throws"
           },
           "computed": false,
@@ -485,14 +459,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 691,
-            "end": 700,
+            "start": 668,
+            "end": 677,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 702,
-            "end": 736,
+            "start": 679,
+            "end": 713,
             "id": null,
             "expression": true,
             "generator": false,
@@ -500,22 +474,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 708,
-              "end": 736,
+              "start": 685,
+              "end": 713,
               "callee": {
                 "type": "MemberExpression",
-                "start": 708,
-                "end": 726,
+                "start": 685,
+                "end": 703,
                 "object": {
                   "type": "Identifier",
-                  "start": 708,
-                  "end": 720,
+                  "start": 685,
+                  "end": 697,
                   "name": "withTimeZone"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 721,
-                  "end": 726,
+                  "start": 698,
+                  "end": 703,
                   "name": "apply"
                 },
                 "computed": false,
@@ -524,14 +498,14 @@
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 727,
-                  "end": 729,
+                  "start": 704,
+                  "end": 706,
                   "value": ""
                 },
                 {
                   "type": "Identifier",
-                  "start": 731,
-                  "end": 735,
+                  "start": 708,
+                  "end": 712,
                   "name": "args"
                 }
               ],
@@ -540,8 +514,8 @@
           },
           {
             "type": "Literal",
-            "start": 738,
-            "end": 752,
+            "start": 715,
+            "end": 729,
             "value": "empty string"
           }
         ],
@@ -550,26 +524,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 755,
-      "end": 832,
+      "start": 732,
+      "end": 809,
       "expression": {
         "type": "CallExpression",
-        "start": 755,
-        "end": 831,
+        "start": 732,
+        "end": 808,
         "callee": {
           "type": "MemberExpression",
-          "start": 755,
-          "end": 768,
+          "start": 732,
+          "end": 745,
           "object": {
             "type": "Identifier",
-            "start": 755,
-            "end": 761,
+            "start": 732,
+            "end": 738,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 762,
-            "end": 768,
+            "start": 739,
+            "end": 745,
             "name": "throws"
           },
           "computed": false,
@@ -578,14 +552,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 769,
-            "end": 778,
+            "start": 746,
+            "end": 755,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 780,
-            "end": 820,
+            "start": 757,
+            "end": 797,
             "id": null,
             "expression": true,
             "generator": false,
@@ -593,22 +567,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 786,
-              "end": 820,
+              "start": 763,
+              "end": 797,
               "callee": {
                 "type": "MemberExpression",
-                "start": 786,
-                "end": 804,
+                "start": 763,
+                "end": 781,
                 "object": {
                   "type": "Identifier",
-                  "start": 786,
-                  "end": 798,
+                  "start": 763,
+                  "end": 775,
                   "name": "withTimeZone"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 799,
-                  "end": 804,
+                  "start": 776,
+                  "end": 781,
                   "name": "apply"
                 },
                 "computed": false,
@@ -617,12 +591,12 @@
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 805,
-                  "end": 813,
+                  "start": 782,
+                  "end": 790,
                   "callee": {
                     "type": "Identifier",
-                    "start": 805,
-                    "end": 811,
+                    "start": 782,
+                    "end": 788,
                     "name": "Symbol"
                   },
                   "arguments": [],
@@ -630,8 +604,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 815,
-                  "end": 819,
+                  "start": 792,
+                  "end": 796,
                   "name": "args"
                 }
               ],
@@ -640,8 +614,8 @@
           },
           {
             "type": "Literal",
-            "start": 822,
-            "end": 830,
+            "start": 799,
+            "end": 807,
             "value": "symbol"
           }
         ],
@@ -650,26 +624,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 833,
-      "end": 898,
+      "start": 810,
+      "end": 875,
       "expression": {
         "type": "CallExpression",
-        "start": 833,
-        "end": 897,
+        "start": 810,
+        "end": 874,
         "callee": {
           "type": "MemberExpression",
-          "start": 833,
-          "end": 846,
+          "start": 810,
+          "end": 823,
           "object": {
             "type": "Identifier",
-            "start": 833,
-            "end": 839,
+            "start": 810,
+            "end": 816,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 840,
-            "end": 846,
+            "start": 817,
+            "end": 823,
             "name": "throws"
           },
           "computed": false,
@@ -678,14 +652,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 847,
-            "end": 856,
+            "start": 824,
+            "end": 833,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 858,
-            "end": 891,
+            "start": 835,
+            "end": 868,
             "id": null,
             "expression": true,
             "generator": false,
@@ -693,22 +667,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 864,
-              "end": 891,
+              "start": 841,
+              "end": 868,
               "callee": {
                 "type": "MemberExpression",
-                "start": 864,
-                "end": 882,
+                "start": 841,
+                "end": 859,
                 "object": {
                   "type": "Identifier",
-                  "start": 864,
-                  "end": 876,
+                  "start": 841,
+                  "end": 853,
                   "name": "withTimeZone"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 877,
-                  "end": 882,
+                  "start": 854,
+                  "end": 859,
                   "name": "apply"
                 },
                 "computed": false,
@@ -717,14 +691,14 @@
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 883,
-                  "end": 884,
+                  "start": 860,
+                  "end": 861,
                   "value": 1
                 },
                 {
                   "type": "Identifier",
-                  "start": 886,
-                  "end": 890,
+                  "start": 863,
+                  "end": 867,
                   "name": "args"
                 }
               ],
@@ -733,8 +707,8 @@
           },
           {
             "type": "Literal",
-            "start": 893,
-            "end": 896,
+            "start": 870,
+            "end": 873,
             "value": "1"
           }
         ],
@@ -743,26 +717,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 899,
-      "end": 976,
+      "start": 876,
+      "end": 953,
       "expression": {
         "type": "CallExpression",
-        "start": 899,
-        "end": 975,
+        "start": 876,
+        "end": 952,
         "callee": {
           "type": "MemberExpression",
-          "start": 899,
-          "end": 912,
+          "start": 876,
+          "end": 889,
           "object": {
             "type": "Identifier",
-            "start": 899,
-            "end": 905,
+            "start": 876,
+            "end": 882,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 906,
-            "end": 912,
+            "start": 883,
+            "end": 889,
             "name": "throws"
           },
           "computed": false,
@@ -771,14 +745,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 913,
-            "end": 922,
+            "start": 890,
+            "end": 899,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 924,
-            "end": 958,
+            "start": 901,
+            "end": 935,
             "id": null,
             "expression": true,
             "generator": false,
@@ -786,22 +760,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 930,
-              "end": 958,
+              "start": 907,
+              "end": 935,
               "callee": {
                 "type": "MemberExpression",
-                "start": 930,
-                "end": 948,
+                "start": 907,
+                "end": 925,
                 "object": {
                   "type": "Identifier",
-                  "start": 930,
-                  "end": 942,
+                  "start": 907,
+                  "end": 919,
                   "name": "withTimeZone"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 943,
-                  "end": 948,
+                  "start": 920,
+                  "end": 925,
                   "name": "apply"
                 },
                 "computed": false,
@@ -810,14 +784,14 @@
               "arguments": [
                 {
                   "type": "ObjectExpression",
-                  "start": 949,
-                  "end": 951,
+                  "start": 926,
+                  "end": 928,
                   "properties": []
                 },
                 {
                   "type": "Identifier",
-                  "start": 953,
-                  "end": 957,
+                  "start": 930,
+                  "end": 934,
                   "name": "args"
                 }
               ],
@@ -826,8 +800,8 @@
           },
           {
             "type": "Literal",
-            "start": 960,
-            "end": 974,
+            "start": 937,
+            "end": 951,
             "value": "plain object"
           }
         ],
@@ -836,26 +810,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 977,
-      "end": 1084,
+      "start": 954,
+      "end": 1061,
       "expression": {
         "type": "CallExpression",
-        "start": 977,
-        "end": 1083,
+        "start": 954,
+        "end": 1060,
         "callee": {
           "type": "MemberExpression",
-          "start": 977,
-          "end": 990,
+          "start": 954,
+          "end": 967,
           "object": {
             "type": "Identifier",
-            "start": 977,
-            "end": 983,
+            "start": 954,
+            "end": 960,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 984,
-            "end": 990,
+            "start": 961,
+            "end": 967,
             "name": "throws"
           },
           "computed": false,
@@ -864,14 +838,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 991,
-            "end": 1000,
+            "start": 968,
+            "end": 977,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 1002,
-            "end": 1056,
+            "start": 979,
+            "end": 1033,
             "id": null,
             "expression": true,
             "generator": false,
@@ -879,22 +853,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 1008,
-              "end": 1056,
+              "start": 985,
+              "end": 1033,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1008,
-                "end": 1026,
+                "start": 985,
+                "end": 1003,
                 "object": {
                   "type": "Identifier",
-                  "start": 1008,
-                  "end": 1020,
+                  "start": 985,
+                  "end": 997,
                   "name": "withTimeZone"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1021,
-                  "end": 1026,
+                  "start": 998,
+                  "end": 1003,
                   "name": "apply"
                 },
                 "computed": false,
@@ -903,18 +877,18 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 1027,
-                  "end": 1049,
+                  "start": 1004,
+                  "end": 1026,
                   "object": {
                     "type": "Identifier",
-                    "start": 1027,
-                    "end": 1035,
+                    "start": 1004,
+                    "end": 1012,
                     "name": "Temporal"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1036,
-                    "end": 1049,
+                    "start": 1013,
+                    "end": 1026,
                     "name": "ZonedDateTime"
                   },
                   "computed": false,
@@ -922,8 +896,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 1051,
-                  "end": 1055,
+                  "start": 1028,
+                  "end": 1032,
                   "name": "args"
                 }
               ],
@@ -932,8 +906,8 @@
           },
           {
             "type": "Literal",
-            "start": 1058,
-            "end": 1082,
+            "start": 1035,
+            "end": 1059,
             "value": "Temporal.ZonedDateTime"
           }
         ],
@@ -942,26 +916,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1085,
-      "end": 1212,
+      "start": 1062,
+      "end": 1189,
       "expression": {
         "type": "CallExpression",
-        "start": 1085,
-        "end": 1211,
+        "start": 1062,
+        "end": 1188,
         "callee": {
           "type": "MemberExpression",
-          "start": 1085,
-          "end": 1098,
+          "start": 1062,
+          "end": 1075,
           "object": {
             "type": "Identifier",
-            "start": 1085,
-            "end": 1091,
+            "start": 1062,
+            "end": 1068,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1092,
-            "end": 1098,
+            "start": 1069,
+            "end": 1075,
             "name": "throws"
           },
           "computed": false,
@@ -970,14 +944,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1099,
-            "end": 1108,
+            "start": 1076,
+            "end": 1085,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 1110,
-            "end": 1174,
+            "start": 1087,
+            "end": 1151,
             "id": null,
             "expression": true,
             "generator": false,
@@ -985,22 +959,22 @@
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 1116,
-              "end": 1174,
+              "start": 1093,
+              "end": 1151,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1116,
-                "end": 1134,
+                "start": 1093,
+                "end": 1111,
                 "object": {
                   "type": "Identifier",
-                  "start": 1116,
-                  "end": 1128,
+                  "start": 1093,
+                  "end": 1105,
                   "name": "withTimeZone"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 1129,
-                  "end": 1134,
+                  "start": 1106,
+                  "end": 1111,
                   "name": "apply"
                 },
                 "computed": false,
@@ -1009,22 +983,22 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 1135,
-                  "end": 1167,
+                  "start": 1112,
+                  "end": 1144,
                   "object": {
                     "type": "MemberExpression",
-                    "start": 1135,
-                    "end": 1157,
+                    "start": 1112,
+                    "end": 1134,
                     "object": {
                       "type": "Identifier",
-                      "start": 1135,
-                      "end": 1143,
+                      "start": 1112,
+                      "end": 1120,
                       "name": "Temporal"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 1144,
-                      "end": 1157,
+                      "start": 1121,
+                      "end": 1134,
                       "name": "ZonedDateTime"
                     },
                     "computed": false,
@@ -1032,8 +1006,8 @@
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1158,
-                    "end": 1167,
+                    "start": 1135,
+                    "end": 1144,
                     "name": "prototype"
                   },
                   "computed": false,
@@ -1041,8 +1015,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 1169,
-                  "end": 1173,
+                  "start": 1146,
+                  "end": 1150,
                   "name": "args"
                 }
               ],
@@ -1051,8 +1025,8 @@
           },
           {
             "type": "Literal",
-            "start": 1176,
-            "end": 1210,
+            "start": 1153,
+            "end": 1187,
             "value": "Temporal.ZonedDateTime.prototype"
           }
         ],

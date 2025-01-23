@@ -1,0 +1,216 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 474,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 289,
+      "end": 377,
+      "expression": {
+        "type": "CallExpression",
+        "start": 289,
+        "end": 376,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 289,
+          "end": 302,
+          "object": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 295,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 296,
+            "end": 302,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 306,
+            "end": 316,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 320,
+            "end": 358,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "NewExpression",
+              "start": 326,
+              "end": 358,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 330,
+                "end": 346,
+                "object": {
+                  "type": "Identifier",
+                  "start": 330,
+                  "end": 338,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 339,
+                  "end": 346,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 347,
+                  "end": 357,
+                  "left": {
+                    "type": "Literal",
+                    "start": 347,
+                    "end": 349,
+                    "value": "2n"
+                  },
+                  "operator": "**",
+                  "right": {
+                    "type": "Literal",
+                    "start": 353,
+                    "end": 357,
+                    "value": "128n"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 362,
+            "end": 374,
+            "value": "2n ** 128n"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 379,
+      "end": 473,
+      "expression": {
+        "type": "CallExpression",
+        "start": 379,
+        "end": 472,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 379,
+          "end": 392,
+          "object": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 385,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 386,
+            "end": 392,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 396,
+            "end": 406,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 410,
+            "end": 451,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "NewExpression",
+              "start": 416,
+              "end": 451,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 420,
+                "end": 436,
+                "object": {
+                  "type": "Identifier",
+                  "start": 420,
+                  "end": 428,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 429,
+                  "end": 436,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 437,
+                  "end": 450,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "ParenthesizedExpression",
+                    "start": 438,
+                    "end": 450,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 439,
+                      "end": 449,
+                      "left": {
+                        "type": "Literal",
+                        "start": 439,
+                        "end": 441,
+                        "value": "2n"
+                      },
+                      "operator": "**",
+                      "right": {
+                        "type": "Literal",
+                        "start": 445,
+                        "end": 449,
+                        "value": "128n"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 455,
+            "end": 470,
+            "value": "-(2n ** 128n)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

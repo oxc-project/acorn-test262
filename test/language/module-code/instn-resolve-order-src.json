@@ -31,7 +31,8 @@
         "start": 352,
         "end": 396,
         "value": "./instn-resolve-order-src-valid_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -43,7 +44,8 @@
         "start": 405,
         "end": 453,
         "value": "./instn-resolve-order-src-reference_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -55,7 +57,8 @@
         "start": 462,
         "end": 507,
         "value": "./instn-resolve-order-src-syntax_FIXTURE.js"
-      }
+      },
+      "attributes": []
     }
   ],
   "sourceType": "module"

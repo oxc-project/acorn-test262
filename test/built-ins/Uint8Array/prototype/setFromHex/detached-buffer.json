@@ -1,0 +1,196 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 477,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 332,
+      "end": 377,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 336,
+          "end": 376,
+          "id": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 342,
+            "name": "target"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 345,
+            "end": 376,
+            "callee": {
+              "type": "Identifier",
+              "start": 349,
+              "end": 359,
+              "name": "Uint8Array"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 360,
+                "end": 375,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 361,
+                    "end": 364,
+                    "value": 255
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 366,
+                    "end": 369,
+                    "value": 255
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 371,
+                    "end": 374,
+                    "value": 255
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 378,
+      "end": 407,
+      "expression": {
+        "type": "CallExpression",
+        "start": 378,
+        "end": 406,
+        "callee": {
+          "type": "Identifier",
+          "start": 378,
+          "end": 391,
+          "name": "$DETACHBUFFER"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 392,
+            "end": 405,
+            "object": {
+              "type": "Identifier",
+              "start": 392,
+              "end": 398,
+              "name": "target"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 399,
+              "end": 405,
+              "name": "buffer"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 408,
+      "end": 476,
+      "expression": {
+        "type": "CallExpression",
+        "start": 408,
+        "end": 475,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 408,
+          "end": 421,
+          "object": {
+            "type": "Identifier",
+            "start": 408,
+            "end": 414,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 415,
+            "end": 421,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 422,
+            "end": 431,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 433,
+            "end": 474,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 444,
+              "end": 474,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 448,
+                  "end": 472,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 448,
+                    "end": 471,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 448,
+                      "end": 465,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 448,
+                        "end": 454,
+                        "name": "target"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 455,
+                        "end": 465,
+                        "name": "setFromHex"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 466,
+                        "end": 470,
+                        "value": "aa"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

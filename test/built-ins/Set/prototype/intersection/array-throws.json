@@ -1,0 +1,190 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 451,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 288,
+      "end": 315,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 294,
+          "end": 314,
+          "id": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 296,
+            "name": "s1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 299,
+            "end": 314,
+            "callee": {
+              "type": "Identifier",
+              "start": 303,
+              "end": 306,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 307,
+                "end": 313,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 308,
+                    "end": 309,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 311,
+                    "end": 312,
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 316,
+      "end": 331,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 322,
+          "end": 330,
+          "id": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 324,
+            "name": "s2"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 327,
+            "end": 330,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 328,
+                "end": 329,
+                "value": 3
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 332,
+      "end": 450,
+      "expression": {
+        "type": "CallExpression",
+        "start": 332,
+        "end": 449,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 332,
+          "end": 345,
+          "object": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 338,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 345,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 349,
+            "end": 358,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 362,
+            "end": 404,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 374,
+              "end": 404,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 380,
+                  "end": 400,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 380,
+                    "end": 399,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 380,
+                      "end": 395,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 380,
+                        "end": 382,
+                        "name": "s1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 383,
+                        "end": 395,
+                        "name": "intersection"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 396,
+                        "end": 398,
+                        "name": "s2"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 408,
+            "end": 447,
+            "value": "Throws an error when an array is used"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

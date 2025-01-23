@@ -86,7 +86,8 @@
         "start": 1028,
         "end": 1060,
         "value": "./eval-export-dflt-cls-anon.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

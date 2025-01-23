@@ -25,7 +25,8 @@
         "start": 2659,
         "end": 2702,
         "value": "./module-import-rejection-tick_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ThrowStatement",

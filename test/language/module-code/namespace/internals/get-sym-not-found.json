@@ -25,7 +25,8 @@
         "start": 470,
         "end": 494,
         "value": "./get-sym-not-found.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

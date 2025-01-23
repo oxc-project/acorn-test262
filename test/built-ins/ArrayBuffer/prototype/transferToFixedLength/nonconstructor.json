@@ -1,0 +1,209 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 943,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 695,
+      "end": 831,
+      "expression": {
+        "type": "CallExpression",
+        "start": 695,
+        "end": 830,
+        "callee": {
+          "type": "Identifier",
+          "start": 695,
+          "end": 701,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 702,
+            "end": 761,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 703,
+              "end": 761,
+              "callee": {
+                "type": "Identifier",
+                "start": 703,
+                "end": 716,
+                "name": "isConstructor"
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 717,
+                  "end": 760,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 717,
+                    "end": 738,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 717,
+                      "end": 728,
+                      "name": "ArrayBuffer"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 729,
+                      "end": 738,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 739,
+                    "end": 760,
+                    "name": "transferToFixedLength"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 763,
+            "end": 829,
+            "value": "ArrayBuffer.prototype.transferToFixedLength is not a constructor"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 833,
+      "end": 870,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 837,
+          "end": 869,
+          "id": {
+            "type": "Identifier",
+            "start": 837,
+            "end": 848,
+            "name": "arrayBuffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 851,
+            "end": 869,
+            "callee": {
+              "type": "Identifier",
+              "start": 855,
+              "end": 866,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 867,
+                "end": 868,
+                "value": 8
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 871,
+      "end": 942,
+      "expression": {
+        "type": "CallExpression",
+        "start": 871,
+        "end": 941,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 871,
+          "end": 884,
+          "object": {
+            "type": "Identifier",
+            "start": 871,
+            "end": 877,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 878,
+            "end": 884,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 885,
+            "end": 894,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 896,
+            "end": 940,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 907,
+              "end": 940,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 911,
+                  "end": 938,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 911,
+                    "end": 937,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 915,
+                      "end": 935,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 915,
+                        "end": 926,
+                        "name": "arrayBuffer"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 927,
+                        "end": 935,
+                        "name": "transfer"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

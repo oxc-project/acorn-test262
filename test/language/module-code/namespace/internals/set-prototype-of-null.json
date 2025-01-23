@@ -25,7 +25,8 @@
         "start": 336,
         "end": 364,
         "value": "./set-prototype-of-null.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

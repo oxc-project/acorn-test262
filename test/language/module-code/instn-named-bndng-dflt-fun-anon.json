@@ -145,7 +145,8 @@
         "start": 1751,
         "end": 1789,
         "value": "./instn-named-bndng-dflt-fun-anon.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

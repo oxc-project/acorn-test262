@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 815,
+  "end": 754,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -82,11 +82,11 @@
     {
       "type": "ExpressionStatement",
       "start": 607,
-      "end": 814,
+      "end": 753,
       "expression": {
         "type": "CallExpression",
         "start": 607,
-        "end": 813,
+        "end": 752,
         "callee": {
           "type": "Identifier",
           "start": 607,
@@ -97,7 +97,7 @@
           {
             "type": "FunctionExpression",
             "start": 641,
-            "end": 812,
+            "end": 751,
             "id": null,
             "expression": false,
             "generator": false,
@@ -113,16 +113,16 @@
             "body": {
               "type": "BlockStatement",
               "start": 658,
-              "end": 812,
+              "end": 751,
               "body": [
                 {
                   "type": "ExpressionStatement",
                   "start": 662,
-                  "end": 810,
+                  "end": 749,
                   "expression": {
                     "type": "CallExpression",
                     "start": 662,
-                    "end": 809,
+                    "end": 748,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 662,
@@ -229,12 +229,6 @@
                             }
                           ]
                         }
-                      },
-                      {
-                        "type": "Literal",
-                        "start": 749,
-                        "end": 808,
-                        "value": "`Atomics.notify(i64a, IdxGen(i64a), 0)` throws RangeError"
                       }
                     ],
                     "optional": false

@@ -1,0 +1,193 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 414,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 257,
+      "end": 321,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 263,
+          "end": 320,
+          "id": {
+            "type": "Identifier",
+            "start": 263,
+            "end": 266,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 269,
+            "end": 320,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 273,
+              "end": 295,
+              "object": {
+                "type": "Identifier",
+                "start": 273,
+                "end": 281,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 282,
+                "end": 295,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 296,
+                "end": 298,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 300,
+                "end": 308,
+                "value": "-05:00"
+              },
+              {
+                "type": "Literal",
+                "start": 310,
+                "end": 319,
+                "value": "iso8601"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 322,
+      "end": 384,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 328,
+          "end": 383,
+          "id": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 332,
+            "name": "zdt2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 335,
+            "end": 383,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 339,
+              "end": 361,
+              "object": {
+                "type": "Identifier",
+                "start": 339,
+                "end": 347,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 361,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 362,
+                "end": 364,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 366,
+                "end": 371,
+                "value": "UTC"
+              },
+              {
+                "type": "Literal",
+                "start": 373,
+                "end": 382,
+                "value": "iso8601"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 386,
+      "end": 412,
+      "expression": {
+        "type": "CallExpression",
+        "start": 386,
+        "end": 411,
+        "callee": {
+          "type": "Identifier",
+          "start": 386,
+          "end": 392,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 393,
+            "end": 410,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 394,
+              "end": 410,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 394,
+                "end": 404,
+                "object": {
+                  "type": "Identifier",
+                  "start": 394,
+                  "end": 397,
+                  "name": "zdt"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 398,
+                  "end": 404,
+                  "name": "equals"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 405,
+                  "end": 409,
+                  "name": "zdt2"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

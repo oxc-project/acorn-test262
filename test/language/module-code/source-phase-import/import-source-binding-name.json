@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 566,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 415,
+      "end": 432,
+      "expression": {
+        "type": "CallExpression",
+        "start": 415,
+        "end": 431,
+        "callee": {
+          "type": "Identifier",
+          "start": 415,
+          "end": 429,
+          "name": "$DONOTEVALUATE"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 434,
+      "end": 488,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 441,
+        "end": 487,
+        "value": "../resources/ensure-linking-error_FIXTURE.js"
+      },
+      "attributes": []
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 490,
+      "end": 528,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 497,
+          "end": 503,
+          "local": {
+            "type": "Identifier",
+            "start": 497,
+            "end": 503,
+            "name": "source"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 509,
+        "end": 527,
+        "value": "<do not resolve>"
+      },
+      "attributes": []
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 529,
+      "end": 565,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 536,
+          "end": 540,
+          "local": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 540,
+            "name": "from"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 546,
+        "end": 564,
+        "value": "<do not resolve>"
+      },
+      "attributes": []
+    }
+  ],
+  "sourceType": "module"
+}

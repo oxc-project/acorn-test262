@@ -1,0 +1,245 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 850,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 513,
+      "end": 530,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 517,
+          "end": 529,
+          "id": {
+            "type": "Identifier",
+            "start": 517,
+            "end": 522,
+            "name": "first"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 525,
+            "end": 529,
+            "value": true
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 531,
+      "end": 726,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 535,
+          "end": 725,
+          "id": {
+            "type": "Identifier",
+            "start": 535,
+            "end": 536,
+            "name": "v"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 539,
+            "end": 725,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 543,
+                "end": 722,
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "key": {
+                  "type": "MemberExpression",
+                  "start": 544,
+                  "end": 562,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 544,
+                    "end": 550,
+                    "name": "Symbol"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 551,
+                    "end": 562,
+                    "name": "toPrimitive"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 565,
+                  "end": 722,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 576,
+                    "end": 722,
+                    "body": [
+                      {
+                        "type": "IfStatement",
+                        "start": 582,
+                        "end": 640,
+                        "test": {
+                          "type": "Identifier",
+                          "start": 586,
+                          "end": 591,
+                          "name": "first"
+                        },
+                        "consequent": {
+                          "type": "BlockStatement",
+                          "start": 593,
+                          "end": 640,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 601,
+                              "end": 615,
+                              "expression": {
+                                "type": "AssignmentExpression",
+                                "start": 601,
+                                "end": 614,
+                                "operator": "=",
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 601,
+                                  "end": 606,
+                                  "name": "first"
+                                },
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 609,
+                                  "end": 614,
+                                  "value": false
+                                }
+                              }
+                            },
+                            {
+                              "type": "ReturnStatement",
+                              "start": 622,
+                              "end": 634,
+                              "argument": {
+                                "type": "Literal",
+                                "start": 629,
+                                "end": 633,
+                                "value": "42"
+                              }
+                            }
+                          ]
+                        },
+                        "alternate": null
+                      },
+                      {
+                        "type": "ThrowStatement",
+                        "start": 645,
+                        "end": 718,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 651,
+                          "end": 717,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 655,
+                            "end": 667,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 668,
+                              "end": 716,
+                              "value": "Symbol.toPrimitive should only be invoked once"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 728,
+      "end": 849,
+      "expression": {
+        "type": "CallExpression",
+        "start": 728,
+        "end": 848,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 728,
+          "end": 744,
+          "object": {
+            "type": "Identifier",
+            "start": 728,
+            "end": 734,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 735,
+            "end": 744,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 745,
+            "end": 754,
+            "callee": {
+              "type": "Identifier",
+              "start": 745,
+              "end": 751,
+              "name": "BigInt"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 752,
+                "end": 753,
+                "name": "v"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 756,
+            "end": 759,
+            "value": "42n"
+          },
+          {
+            "type": "Literal",
+            "start": 761,
+            "end": 847,
+            "value": "BigInt constructor should use the post-ToPrimitive value as the argument to ToBigInt"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

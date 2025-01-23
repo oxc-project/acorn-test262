@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2322,
+  "end": 2153,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -931,46 +931,34 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1872,
-      "end": 2003,
+      "start": 1758,
+      "end": 1834,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1878,
-          "end": 2002,
+          "start": 1764,
+          "end": 1833,
           "id": {
             "type": "Identifier",
-            "start": 1878,
-            "end": 1886,
+            "start": 1764,
+            "end": 1772,
             "name": "expected"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 1889,
-            "end": 2002,
+            "start": 1775,
+            "end": 1833,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1893,
-                "end": 1916,
+                "start": 1779,
+                "end": 1802,
                 "value": "get overflow.toString"
               },
               {
                 "type": "Literal",
-                "start": 1920,
-                "end": 1944,
-                "value": "call overflow.toString"
-              },
-              {
-                "type": "Literal",
-                "start": 1948,
-                "end": 1971,
-                "value": "get overflow.toString"
-              },
-              {
-                "type": "Literal",
-                "start": 1975,
-                "end": 1999,
+                "start": 1806,
+                "end": 1830,
                 "value": "call overflow.toString"
               }
             ]
@@ -981,23 +969,23 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2004,
-      "end": 2022,
+      "start": 1835,
+      "end": 1853,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2010,
-          "end": 2021,
+          "start": 1841,
+          "end": 1852,
           "id": {
             "type": "Identifier",
-            "start": 2010,
-            "end": 2016,
+            "start": 1841,
+            "end": 1847,
             "name": "actual"
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 2019,
-            "end": 2021,
+            "start": 1850,
+            "end": 1852,
             "elements": []
           }
         }
@@ -1006,37 +994,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2023,
-      "end": 2109,
+      "start": 1854,
+      "end": 1940,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2029,
-          "end": 2108,
+          "start": 1860,
+          "end": 1939,
           "id": {
             "type": "Identifier",
-            "start": 2029,
-            "end": 2037,
+            "start": 1860,
+            "end": 1868,
             "name": "observer"
           },
           "init": {
             "type": "CallExpression",
-            "start": 2040,
-            "end": 2108,
+            "start": 1871,
+            "end": 1939,
             "callee": {
               "type": "MemberExpression",
-              "start": 2040,
-              "end": 2075,
+              "start": 1871,
+              "end": 1906,
               "object": {
                 "type": "Identifier",
-                "start": 2040,
-                "end": 2055,
+                "start": 1871,
+                "end": 1886,
                 "name": "TemporalHelpers"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2056,
-                "end": 2075,
+                "start": 1887,
+                "end": 1906,
                 "name": "toPrimitiveObserver"
               },
               "computed": false,
@@ -1045,20 +1033,20 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2076,
-                "end": 2082,
+                "start": 1907,
+                "end": 1913,
                 "name": "actual"
               },
               {
                 "type": "Literal",
-                "start": 2084,
-                "end": 2095,
+                "start": 1915,
+                "end": 1926,
                 "value": "constrain"
               },
               {
                 "type": "Literal",
-                "start": 2097,
-                "end": 2107,
+                "start": 1928,
+                "end": 1938,
                 "value": "overflow"
               }
             ],
@@ -1070,37 +1058,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2110,
-      "end": 2173,
+      "start": 1941,
+      "end": 2004,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2116,
-          "end": 2172,
+          "start": 1947,
+          "end": 2003,
           "id": {
             "type": "Identifier",
-            "start": 2116,
-            "end": 2122,
+            "start": 1947,
+            "end": 1953,
             "name": "result"
           },
           "init": {
             "type": "CallExpression",
-            "start": 2125,
-            "end": 2172,
+            "start": 1956,
+            "end": 2003,
             "callee": {
               "type": "MemberExpression",
-              "start": 2125,
-              "end": 2138,
+              "start": 1956,
+              "end": 1969,
               "object": {
                 "type": "Identifier",
-                "start": 2125,
-                "end": 2134,
+                "start": 1956,
+                "end": 1965,
                 "name": "yearmonth"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2135,
-                "end": 2138,
+                "start": 1966,
+                "end": 1969,
                 "name": "add"
               },
               "computed": false,
@@ -1109,32 +1097,32 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2139,
-                "end": 2147,
+                "start": 1970,
+                "end": 1978,
                 "name": "duration"
               },
               {
                 "type": "ObjectExpression",
-                "start": 2149,
-                "end": 2171,
+                "start": 1980,
+                "end": 2002,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 2151,
-                    "end": 2169,
+                    "start": 1982,
+                    "end": 2000,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 2151,
-                      "end": 2159,
+                      "start": 1982,
+                      "end": 1990,
                       "name": "overflow"
                     },
                     "value": {
                       "type": "Identifier",
-                      "start": 2161,
-                      "end": 2169,
+                      "start": 1992,
+                      "end": 2000,
                       "name": "observer"
                     },
                     "kind": "init"
@@ -1150,26 +1138,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2174,
-      "end": 2259,
+      "start": 2005,
+      "end": 2090,
       "expression": {
         "type": "CallExpression",
-        "start": 2174,
-        "end": 2258,
+        "start": 2005,
+        "end": 2089,
         "callee": {
           "type": "MemberExpression",
-          "start": 2174,
-          "end": 2210,
+          "start": 2005,
+          "end": 2041,
           "object": {
             "type": "Identifier",
-            "start": 2174,
-            "end": 2189,
+            "start": 2005,
+            "end": 2020,
             "name": "TemporalHelpers"
           },
           "property": {
             "type": "Identifier",
-            "start": 2190,
-            "end": 2210,
+            "start": 2021,
+            "end": 2041,
             "name": "assertPlainYearMonth"
           },
           "computed": false,
@@ -1178,32 +1166,32 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2211,
-            "end": 2217,
+            "start": 2042,
+            "end": 2048,
             "name": "result"
           },
           {
             "type": "Literal",
-            "start": 2219,
-            "end": 2223,
+            "start": 2050,
+            "end": 2054,
             "value": 2001
           },
           {
             "type": "Literal",
-            "start": 2225,
-            "end": 2226,
+            "start": 2056,
+            "end": 2057,
             "value": 6
           },
           {
             "type": "Literal",
-            "start": 2228,
-            "end": 2233,
+            "start": 2059,
+            "end": 2064,
             "value": "M06"
           },
           {
             "type": "Literal",
-            "start": 2235,
-            "end": 2257,
+            "start": 2066,
+            "end": 2088,
             "value": "object with toString"
           }
         ],
@@ -1212,26 +1200,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2260,
-      "end": 2321,
+      "start": 2091,
+      "end": 2152,
       "expression": {
         "type": "CallExpression",
-        "start": 2260,
-        "end": 2320,
+        "start": 2091,
+        "end": 2151,
         "callee": {
           "type": "MemberExpression",
-          "start": 2260,
-          "end": 2279,
+          "start": 2091,
+          "end": 2110,
           "object": {
             "type": "Identifier",
-            "start": 2260,
-            "end": 2266,
+            "start": 2091,
+            "end": 2097,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 2267,
-            "end": 2279,
+            "start": 2098,
+            "end": 2110,
             "name": "compareArray"
           },
           "computed": false,
@@ -1240,20 +1228,20 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2280,
-            "end": 2286,
+            "start": 2111,
+            "end": 2117,
             "name": "actual"
           },
           {
             "type": "Identifier",
-            "start": 2288,
-            "end": 2296,
+            "start": 2119,
+            "end": 2127,
             "name": "expected"
           },
           {
             "type": "Literal",
-            "start": 2298,
-            "end": 2319,
+            "start": 2129,
+            "end": 2150,
             "value": "order of operations"
           }
         ],

@@ -1,0 +1,282 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 706,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 411,
+      "end": 552,
+      "expression": {
+        "type": "CallExpression",
+        "start": 411,
+        "end": 551,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 411,
+          "end": 424,
+          "object": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 417,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 424,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 425,
+            "end": 434,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 436,
+            "end": 491,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 442,
+              "end": 491,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 446,
+                  "end": 489,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 446,
+                    "end": 488,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 446,
+                      "end": 476,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 446,
+                        "end": 471,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 446,
+                          "end": 461,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 446,
+                            "end": 451,
+                            "name": "Array"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 452,
+                            "end": 461,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 462,
+                          "end": 471,
+                          "name": "toSpliced"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 472,
+                        "end": 476,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 477,
+                        "end": 481,
+                        "value": null
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 483,
+                        "end": 484,
+                        "value": 0
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 486,
+                        "end": 487,
+                        "value": 0
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 493,
+            "end": 550,
+            "value": "`Array.prototype.toSpliced.call(null)` throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 554,
+      "end": 705,
+      "expression": {
+        "type": "CallExpression",
+        "start": 554,
+        "end": 704,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 554,
+          "end": 567,
+          "object": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 560,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 561,
+            "end": 567,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 568,
+            "end": 577,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 579,
+            "end": 639,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 585,
+              "end": 639,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 589,
+                  "end": 637,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 589,
+                    "end": 636,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 589,
+                      "end": 619,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 589,
+                        "end": 614,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 589,
+                          "end": 604,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 589,
+                            "end": 594,
+                            "name": "Array"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 595,
+                            "end": 604,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 605,
+                          "end": 614,
+                          "name": "toSpliced"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 615,
+                        "end": 619,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 620,
+                        "end": 629,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 631,
+                        "end": 632,
+                        "value": 0
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 634,
+                        "end": 635,
+                        "value": 0
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 641,
+            "end": 703,
+            "value": "`Array.prototype.toSpliced.call(undefined)` throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

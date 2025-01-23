@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 659,
+  "end": 574,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -151,11 +151,11 @@
     {
       "type": "ExpressionStatement",
       "start": 466,
-      "end": 658,
+      "end": 573,
       "expression": {
         "type": "CallExpression",
         "start": 466,
-        "end": 657,
+        "end": 572,
         "callee": {
           "type": "MemberExpression",
           "start": 466,
@@ -261,12 +261,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 573,
-            "end": 656,
-            "value": "`Atomics.notify(new BigUint64Array(nonsab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

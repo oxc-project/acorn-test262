@@ -93,7 +93,8 @@
                           "start": 701,
                           "end": 731,
                           "value": "./eval-rqstd-once_FIXTURE.js"
-                        }
+                        },
+                        "options": null
                       },
                       {
                         "type": "ImportExpression",
@@ -104,7 +105,8 @@
                           "start": 743,
                           "end": 773,
                           "value": "./eval-rqstd-once_FIXTURE.js"
-                        }
+                        },
+                        "options": null
                       }
                     ]
                   }
@@ -152,7 +154,8 @@
                             "start": 849,
                             "end": 879,
                             "value": "./eval-rqstd-once_FIXTURE.js"
-                          }
+                          },
+                          "options": null
                         }
                       }
                     },
@@ -173,7 +176,8 @@
                             "start": 897,
                             "end": 927,
                             "value": "./eval-rqstd-once_FIXTURE.js"
-                          }
+                          },
+                          "options": null
                         }
                       }
                     },

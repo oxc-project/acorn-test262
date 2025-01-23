@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 469,
+  "end": 471,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 260,
-      "end": 381,
+      "end": 383,
       "expression": {
         "type": "CallExpression",
         "start": 260,
-        "end": 380,
+        "end": 382,
         "callee": {
           "type": "Identifier",
           "start": 260,
@@ -19,57 +19,75 @@
         },
         "arguments": [
           {
-            "type": "UnaryExpression",
+            "type": "CallExpression",
             "start": 270,
-            "end": 303,
-            "operator": "!",
-            "prefix": true,
-            "argument": {
-              "type": "UnaryExpression",
-              "start": 271,
-              "end": 303,
-              "operator": "!",
-              "prefix": true,
-              "argument": {
-                "type": "CallExpression",
-                "start": 272,
-                "end": 303,
-                "callee": {
+            "end": 324,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 270,
+              "end": 306,
+              "object": {
+                "type": "MemberExpression",
+                "start": 270,
+                "end": 301,
+                "object": {
                   "type": "MemberExpression",
-                  "start": 272,
-                  "end": 293,
+                  "start": 270,
+                  "end": 286,
                   "object": {
                     "type": "Identifier",
-                    "start": 272,
-                    "end": 278,
+                    "start": 270,
+                    "end": 276,
                     "name": "Object"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 279,
-                    "end": 293,
-                    "name": "hasOwnProperty"
+                    "start": 277,
+                    "end": 286,
+                    "name": "prototype"
                   },
                   "computed": false,
                   "optional": false
                 },
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 294,
-                    "end": 302,
-                    "value": "length"
-                  }
-                ],
+                "property": {
+                  "type": "Identifier",
+                  "start": 287,
+                  "end": 301,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
                 "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 302,
+                "end": 306,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 307,
+                "end": 313,
+                "name": "Object"
+              },
+              {
+                "type": "Literal",
+                "start": 315,
+                "end": 323,
+                "value": "length"
               }
-            }
+            ],
+            "optional": false
           },
           {
             "type": "Literal",
-            "start": 307,
-            "end": 378,
-            "value": "The value of !!Object.hasOwnProperty(\"length\") is expected to be true"
+            "start": 328,
+            "end": 380,
+            "value": "The Object constructor has a 'length' own property"
           }
         ],
         "optional": false
@@ -77,26 +95,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 383,
-      "end": 468,
+      "start": 385,
+      "end": 470,
       "expression": {
         "type": "CallExpression",
-        "start": 383,
-        "end": 467,
+        "start": 385,
+        "end": 469,
         "callee": {
           "type": "MemberExpression",
-          "start": 383,
-          "end": 399,
+          "start": 385,
+          "end": 401,
           "object": {
             "type": "Identifier",
-            "start": 383,
-            "end": 389,
+            "start": 385,
+            "end": 391,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 390,
-            "end": 399,
+            "start": 392,
+            "end": 401,
             "name": "sameValue"
           },
           "computed": false,
@@ -105,18 +123,18 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 400,
-            "end": 413,
+            "start": 402,
+            "end": 415,
             "object": {
               "type": "Identifier",
-              "start": 400,
-              "end": 406,
+              "start": 402,
+              "end": 408,
               "name": "Object"
             },
             "property": {
               "type": "Identifier",
-              "start": 407,
-              "end": 413,
+              "start": 409,
+              "end": 415,
               "name": "length"
             },
             "computed": false,
@@ -124,14 +142,14 @@
           },
           {
             "type": "Literal",
-            "start": 415,
-            "end": 416,
+            "start": 417,
+            "end": 418,
             "value": 1
           },
           {
             "type": "Literal",
-            "start": 418,
-            "end": 466,
+            "start": 420,
+            "end": 468,
             "value": "The value of Object.length is expected to be 1"
           }
         ],

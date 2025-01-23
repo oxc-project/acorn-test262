@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 848,
+  "end": 873,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -117,7 +117,7 @@
     {
       "type": "TryStatement",
       "start": 355,
-      "end": 749,
+      "end": 774,
       "block": {
         "type": "BlockStatement",
         "start": 359,
@@ -187,7 +187,7 @@
       "handler": {
         "type": "CatchClause",
         "start": 417,
-        "end": 749,
+        "end": 774,
         "param": {
           "type": "Identifier",
           "start": 423,
@@ -197,7 +197,7 @@
         "body": {
           "type": "BlockStatement",
           "start": 428,
-          "end": 749,
+          "end": 774,
           "body": [
             {
               "type": "ExpressionStatement",
@@ -343,11 +343,11 @@
             {
               "type": "IfStatement",
               "start": 611,
-              "end": 747,
+              "end": 772,
               "test": {
                 "type": "BinaryExpression",
                 "start": 615,
-                "end": 661,
+                "end": 687,
                 "left": {
                   "type": "MemberExpression",
                   "start": 615,
@@ -371,35 +371,35 @@
                 "right": {
                   "type": "Literal",
                   "start": 631,
-                  "end": 661,
-                  "value": "descriptor value should be 2"
+                  "end": 687,
+                  "value": "descriptor value should be 2; object value should be 2"
                 }
               },
               "consequent": {
                 "type": "BlockStatement",
-                "start": 663,
-                "end": 747,
+                "start": 689,
+                "end": 772,
                 "body": [
                   {
                     "type": "ThrowStatement",
-                    "start": 669,
-                    "end": 743,
+                    "start": 695,
+                    "end": 768,
                     "argument": {
                       "type": "NewExpression",
-                      "start": 675,
-                      "end": 742,
+                      "start": 701,
+                      "end": 767,
                       "callee": {
                         "type": "Identifier",
-                        "start": 679,
-                        "end": 684,
+                        "start": 705,
+                        "end": 710,
                         "name": "Error"
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 685,
-                          "end": 741,
-                          "value": "The error thrown did not define the specified message."
+                          "start": 711,
+                          "end": 766,
+                          "value": "The error thrown did not define the specified message"
                         }
                       ]
                     }
@@ -415,50 +415,50 @@
     },
     {
       "type": "IfStatement",
-      "start": 751,
-      "end": 847,
+      "start": 776,
+      "end": 872,
       "test": {
         "type": "BinaryExpression",
-        "start": 755,
-        "end": 770,
+        "start": 780,
+        "end": 795,
         "left": {
           "type": "Identifier",
-          "start": 755,
-          "end": 760,
+          "start": 780,
+          "end": 785,
           "name": "threw"
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 765,
-          "end": 770,
+          "start": 790,
+          "end": 795,
           "value": false
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 772,
-        "end": 847,
+        "start": 797,
+        "end": 872,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 776,
-            "end": 845,
+            "start": 801,
+            "end": 870,
             "argument": {
               "type": "NewExpression",
-              "start": 782,
-              "end": 844,
+              "start": 807,
+              "end": 869,
               "callee": {
                 "type": "Identifier",
-                "start": 786,
-                "end": 791,
+                "start": 811,
+                "end": 816,
                 "name": "Error"
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 792,
-                  "end": 843,
+                  "start": 817,
+                  "end": 868,
                   "value": "Expected a Test262Error, but no error was thrown."
                 }
               ]

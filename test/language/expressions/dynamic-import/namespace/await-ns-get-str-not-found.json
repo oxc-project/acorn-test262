@@ -70,7 +70,8 @@
                       "start": 3963,
                       "end": 3989,
                       "value": "./module-code_FIXTURE.js"
-                    }
+                    },
+                    "options": null
                   }
                 }
               }

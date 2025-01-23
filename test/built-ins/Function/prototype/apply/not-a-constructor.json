@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1077,
+  "end": 973,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -96,11 +96,11 @@
     {
       "type": "ExpressionStatement",
       "start": 832,
-      "end": 951,
+      "end": 900,
       "expression": {
         "type": "CallExpression",
         "start": 832,
-        "end": 950,
+        "end": 899,
         "callee": {
           "type": "MemberExpression",
           "start": 832,
@@ -186,12 +186,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 900,
-            "end": 949,
-            "value": "`new Function.prototype.apply` throws TypeError"
           }
         ],
         "optional": false
@@ -199,26 +193,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 953,
-      "end": 1076,
+      "start": 902,
+      "end": 972,
       "expression": {
         "type": "CallExpression",
-        "start": 953,
-        "end": 1075,
+        "start": 902,
+        "end": 971,
         "callee": {
           "type": "MemberExpression",
-          "start": 953,
-          "end": 966,
+          "start": 902,
+          "end": 915,
           "object": {
             "type": "Identifier",
-            "start": 953,
-            "end": 959,
+            "start": 902,
+            "end": 908,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 960,
-            "end": 966,
+            "start": 909,
+            "end": 915,
             "name": "throws"
           },
           "computed": false,
@@ -227,14 +221,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 967,
-            "end": 976,
+            "start": 916,
+            "end": 925,
             "name": "TypeError"
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 978,
-            "end": 1021,
+            "start": 927,
+            "end": 970,
             "id": null,
             "expression": false,
             "generator": false,
@@ -242,35 +236,35 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 984,
-              "end": 1021,
+              "start": 933,
+              "end": 970,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 988,
-                  "end": 1019,
+                  "start": 937,
+                  "end": 968,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 988,
-                    "end": 1018,
+                    "start": 937,
+                    "end": 967,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 992,
-                      "end": 1016,
+                      "start": 941,
+                      "end": 965,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 992,
-                        "end": 1010,
+                        "start": 941,
+                        "end": 959,
                         "object": {
                           "type": "Identifier",
-                          "start": 992,
-                          "end": 1000,
+                          "start": 941,
+                          "end": 949,
                           "name": "Function"
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 1001,
-                          "end": 1010,
+                          "start": 950,
+                          "end": 959,
                           "name": "prototype"
                         },
                         "computed": false,
@@ -278,8 +272,8 @@
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1011,
-                        "end": 1016,
+                        "start": 960,
+                        "end": 965,
                         "name": "apply"
                       },
                       "computed": false,
@@ -290,12 +284,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 1023,
-            "end": 1074,
-            "value": "`new Function.prototype.apply()` throws TypeError"
           }
         ],
         "optional": false

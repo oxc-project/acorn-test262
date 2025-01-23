@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 689,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 501,
+      "end": 585,
+      "expression": {
+        "type": "CallExpression",
+        "start": 501,
+        "end": 584,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 501,
+          "end": 517,
+          "object": {
+            "type": "Identifier",
+            "start": 501,
+            "end": 507,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 508,
+            "end": 517,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 518,
+            "end": 540,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 525,
+              "end": 540,
+              "object": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 530,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 531,
+                "end": 540,
+                "name": "fromAsync"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 542,
+            "end": 552,
+            "value": "function"
+          },
+          {
+            "type": "Literal",
+            "start": 554,
+            "end": 583,
+            "value": "Array.fromAsync is callable"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 587,
+      "end": 688,
+      "expression": {
+        "type": "CallExpression",
+        "start": 587,
+        "end": 687,
+        "callee": {
+          "type": "Identifier",
+          "start": 587,
+          "end": 601,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 602,
+            "end": 607,
+            "name": "Array"
+          },
+          {
+            "type": "Literal",
+            "start": 609,
+            "end": 620,
+            "value": "fromAsync"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 622,
+            "end": 686,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 626,
+                "end": 640,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 626,
+                  "end": 634,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 636,
+                  "end": 640,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 644,
+                "end": 661,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 644,
+                  "end": 654,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 656,
+                  "end": 661,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 665,
+                "end": 683,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 665,
+                  "end": 677,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 679,
+                  "end": 683,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

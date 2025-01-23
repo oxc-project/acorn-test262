@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1849,
+  "end": 1527,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -259,11 +259,11 @@
     {
       "type": "ExpressionStatement",
       "start": 1110,
-      "end": 1292,
+      "end": 1212,
       "expression": {
         "type": "CallExpression",
         "start": 1110,
-        "end": 1291,
+        "end": 1211,
         "callee": {
           "type": "MemberExpression",
           "start": 1110,
@@ -356,12 +356,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 1212,
-            "end": 1290,
-            "value": "`Atomics.notify(i32a, poisonedValueOf, poisonedValueOf)` throws Test262Error"
           }
         ],
         "optional": false
@@ -369,26 +363,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1294,
-      "end": 1492,
+      "start": 1214,
+      "end": 1324,
       "expression": {
         "type": "CallExpression",
-        "start": 1294,
-        "end": 1491,
+        "start": 1214,
+        "end": 1323,
         "callee": {
           "type": "MemberExpression",
-          "start": 1294,
-          "end": 1307,
+          "start": 1214,
+          "end": 1227,
           "object": {
             "type": "Identifier",
-            "start": 1294,
-            "end": 1300,
+            "start": 1214,
+            "end": 1220,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1301,
-            "end": 1307,
+            "start": 1221,
+            "end": 1227,
             "name": "throws"
           },
           "computed": false,
@@ -397,14 +391,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1308,
-            "end": 1320,
+            "start": 1228,
+            "end": 1240,
             "name": "Test262Error"
           },
           {
             "type": "FunctionExpression",
-            "start": 1322,
-            "end": 1402,
+            "start": 1242,
+            "end": 1322,
             "id": null,
             "expression": false,
             "generator": false,
@@ -412,31 +406,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1333,
-              "end": 1402,
+              "start": 1253,
+              "end": 1322,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1337,
-                  "end": 1400,
+                  "start": 1257,
+                  "end": 1320,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1337,
-                    "end": 1399,
+                    "start": 1257,
+                    "end": 1319,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1337,
-                      "end": 1351,
+                      "start": 1257,
+                      "end": 1271,
                       "object": {
                         "type": "Identifier",
-                        "start": 1337,
-                        "end": 1344,
+                        "start": 1257,
+                        "end": 1264,
                         "name": "Atomics"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1345,
-                        "end": 1351,
+                        "start": 1265,
+                        "end": 1271,
                         "name": "notify"
                       },
                       "computed": false,
@@ -445,20 +439,20 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 1352,
-                        "end": 1356,
+                        "start": 1272,
+                        "end": 1276,
                         "name": "i32a"
                       },
                       {
                         "type": "Identifier",
-                        "start": 1358,
-                        "end": 1377,
+                        "start": 1278,
+                        "end": 1297,
                         "name": "poisonedToPrimitive"
                       },
                       {
                         "type": "Identifier",
-                        "start": 1379,
-                        "end": 1398,
+                        "start": 1299,
+                        "end": 1318,
                         "name": "poisonedToPrimitive"
                       }
                     ],
@@ -467,12 +461,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 1404,
-            "end": 1490,
-            "value": "`Atomics.notify(i32a, poisonedToPrimitive, poisonedToPrimitive)` throws Test262Error"
           }
         ],
         "optional": false
@@ -480,26 +468,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1494,
-      "end": 1666,
+      "start": 1326,
+      "end": 1423,
       "expression": {
         "type": "CallExpression",
-        "start": 1494,
-        "end": 1665,
+        "start": 1326,
+        "end": 1422,
         "callee": {
           "type": "MemberExpression",
-          "start": 1494,
-          "end": 1507,
+          "start": 1326,
+          "end": 1339,
           "object": {
             "type": "Identifier",
-            "start": 1494,
-            "end": 1500,
+            "start": 1326,
+            "end": 1332,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1501,
-            "end": 1507,
+            "start": 1333,
+            "end": 1339,
             "name": "throws"
           },
           "computed": false,
@@ -508,14 +496,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1508,
-            "end": 1517,
+            "start": 1340,
+            "end": 1349,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 1519,
-            "end": 1589,
+            "start": 1351,
+            "end": 1421,
             "id": null,
             "expression": false,
             "generator": false,
@@ -523,31 +511,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1530,
-              "end": 1589,
+              "start": 1362,
+              "end": 1421,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1534,
-                  "end": 1587,
+                  "start": 1366,
+                  "end": 1419,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1534,
-                    "end": 1586,
+                    "start": 1366,
+                    "end": 1418,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1534,
-                      "end": 1548,
+                      "start": 1366,
+                      "end": 1380,
                       "object": {
                         "type": "Identifier",
-                        "start": 1534,
-                        "end": 1541,
+                        "start": 1366,
+                        "end": 1373,
                         "name": "Atomics"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1542,
-                        "end": 1548,
+                        "start": 1374,
+                        "end": 1380,
                         "name": "notify"
                       },
                       "computed": false,
@@ -556,25 +544,25 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 1549,
-                        "end": 1553,
+                        "start": 1381,
+                        "end": 1385,
                         "name": "i32a"
                       },
                       {
                         "type": "CallExpression",
-                        "start": 1555,
-                        "end": 1568,
+                        "start": 1387,
+                        "end": 1400,
                         "callee": {
                           "type": "Identifier",
-                          "start": 1555,
-                          "end": 1561,
+                          "start": 1387,
+                          "end": 1393,
                           "name": "Symbol"
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 1562,
-                            "end": 1567,
+                            "start": 1394,
+                            "end": 1399,
                             "value": "foo"
                           }
                         ],
@@ -582,8 +570,8 @@
                       },
                       {
                         "type": "Identifier",
-                        "start": 1570,
-                        "end": 1585,
+                        "start": 1402,
+                        "end": 1417,
                         "name": "poisonedValueOf"
                       }
                     ],
@@ -592,12 +580,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 1591,
-            "end": 1664,
-            "value": "`Atomics.notify(i32a, Symbol(\"foo\"), poisonedValueOf)` throws TypeError"
           }
         ],
         "optional": false
@@ -605,26 +587,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1668,
-      "end": 1848,
+      "start": 1425,
+      "end": 1526,
       "expression": {
         "type": "CallExpression",
-        "start": 1668,
-        "end": 1847,
+        "start": 1425,
+        "end": 1525,
         "callee": {
           "type": "MemberExpression",
-          "start": 1668,
-          "end": 1681,
+          "start": 1425,
+          "end": 1438,
           "object": {
             "type": "Identifier",
-            "start": 1668,
-            "end": 1674,
+            "start": 1425,
+            "end": 1431,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 1675,
-            "end": 1681,
+            "start": 1432,
+            "end": 1438,
             "name": "throws"
           },
           "computed": false,
@@ -633,14 +615,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1682,
-            "end": 1691,
+            "start": 1439,
+            "end": 1448,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 1693,
-            "end": 1767,
+            "start": 1450,
+            "end": 1524,
             "id": null,
             "expression": false,
             "generator": false,
@@ -648,31 +630,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1704,
-              "end": 1767,
+              "start": 1461,
+              "end": 1524,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1708,
-                  "end": 1765,
+                  "start": 1465,
+                  "end": 1522,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1708,
-                    "end": 1764,
+                    "start": 1465,
+                    "end": 1521,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1708,
-                      "end": 1722,
+                      "start": 1465,
+                      "end": 1479,
                       "object": {
                         "type": "Identifier",
-                        "start": 1708,
-                        "end": 1715,
+                        "start": 1465,
+                        "end": 1472,
                         "name": "Atomics"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1716,
-                        "end": 1722,
+                        "start": 1473,
+                        "end": 1479,
                         "name": "notify"
                       },
                       "computed": false,
@@ -681,25 +663,25 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 1723,
-                        "end": 1727,
+                        "start": 1480,
+                        "end": 1484,
                         "name": "i32a"
                       },
                       {
                         "type": "CallExpression",
-                        "start": 1729,
-                        "end": 1742,
+                        "start": 1486,
+                        "end": 1499,
                         "callee": {
                           "type": "Identifier",
-                          "start": 1729,
-                          "end": 1735,
+                          "start": 1486,
+                          "end": 1492,
                           "name": "Symbol"
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 1736,
-                            "end": 1741,
+                            "start": 1493,
+                            "end": 1498,
                             "value": "foo"
                           }
                         ],
@@ -707,8 +689,8 @@
                       },
                       {
                         "type": "Identifier",
-                        "start": 1744,
-                        "end": 1763,
+                        "start": 1501,
+                        "end": 1520,
                         "name": "poisonedToPrimitive"
                       }
                     ],
@@ -717,12 +699,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 1769,
-            "end": 1846,
-            "value": "`Atomics.notify(i32a, Symbol(\"foo\"), poisonedToPrimitive)` throws TypeError"
           }
         ],
         "optional": false

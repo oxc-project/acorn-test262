@@ -1,38 +1,38 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 276,
+  "end": 270,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 260,
-      "end": 275,
+      "start": 254,
+      "end": 269,
       "expression": {
         "type": "ParenthesizedExpression",
-        "start": 260,
-        "end": 274,
+        "start": 254,
+        "end": 268,
         "expression": {
           "type": "ObjectExpression",
-          "start": 261,
-          "end": 273,
+          "start": 255,
+          "end": 267,
           "properties": [
             {
               "type": "Property",
-              "start": 263,
-              "end": 271,
+              "start": 257,
+              "end": 265,
               "method": false,
               "shorthand": false,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 263,
-                "end": 268,
+                "start": 257,
+                "end": 262,
                 "name": "yield"
               },
               "value": {
                 "type": "Literal",
-                "start": 270,
-                "end": 271,
+                "start": 264,
+                "end": 265,
                 "value": 1
               },
               "kind": "init"

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 411,
+  "end": 393,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -64,88 +64,25 @@
     {
       "type": "ExpressionStatement",
       "start": 308,
-      "end": 361,
+      "end": 392,
       "expression": {
         "type": "CallExpression",
         "start": 308,
-        "end": 360,
-        "callee": {
-          "type": "Identifier",
-          "start": 308,
-          "end": 314,
-          "name": "assert"
-        },
-        "arguments": [
-          {
-            "type": "BinaryExpression",
-            "start": 315,
-            "end": 359,
-            "left": {
-              "type": "MemberExpression",
-              "start": 315,
-              "end": 330,
-              "object": {
-                "type": "Identifier",
-                "start": 315,
-                "end": 321,
-                "name": "result"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 322,
-                "end": 330,
-                "name": "calendar"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "operator": "instanceof",
-            "right": {
-              "type": "MemberExpression",
-              "start": 342,
-              "end": 359,
-              "object": {
-                "type": "Identifier",
-                "start": 342,
-                "end": 350,
-                "name": "Temporal"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 351,
-                "end": 359,
-                "name": "Calendar"
-              },
-              "computed": false,
-              "optional": false
-            }
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 362,
-      "end": 410,
-      "expression": {
-        "type": "CallExpression",
-        "start": 362,
-        "end": 409,
+        "end": 391,
         "callee": {
           "type": "MemberExpression",
-          "start": 362,
-          "end": 378,
+          "start": 308,
+          "end": 324,
           "object": {
             "type": "Identifier",
-            "start": 362,
-            "end": 368,
+            "start": 308,
+            "end": 314,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 369,
-            "end": 378,
+            "start": 315,
+            "end": 324,
             "name": "sameValue"
           },
           "computed": false,
@@ -154,41 +91,34 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 379,
-            "end": 397,
+            "start": 325,
+            "end": 342,
             "object": {
-              "type": "MemberExpression",
-              "start": 379,
-              "end": 394,
-              "object": {
-                "type": "Identifier",
-                "start": 379,
-                "end": 385,
-                "name": "result"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 386,
-                "end": 394,
-                "name": "calendar"
-              },
-              "computed": false,
-              "optional": false
+              "type": "Identifier",
+              "start": 325,
+              "end": 331,
+              "name": "result"
             },
             "property": {
               "type": "Identifier",
-              "start": 395,
-              "end": 397,
-              "name": "id"
+              "start": 332,
+              "end": 342,
+              "name": "calendarId"
             },
             "computed": false,
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 399,
-            "end": 408,
+            "start": 344,
+            "end": 353,
             "value": "iso8601"
+          },
+          {
+            "type": "Literal",
+            "start": 355,
+            "end": 390,
+            "value": "calendar string should be iso8601"
           }
         ],
         "optional": false

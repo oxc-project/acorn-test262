@@ -1,0 +1,185 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 696,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 570,
+      "end": 598,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 574,
+          "end": 597,
+          "id": {
+            "type": "Identifier",
+            "start": 574,
+            "end": 576,
+            "name": "ab"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 579,
+            "end": 597,
+            "callee": {
+              "type": "Identifier",
+              "start": 583,
+              "end": 594,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 595,
+                "end": 596,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 600,
+      "end": 637,
+      "expression": {
+        "type": "CallExpression",
+        "start": 600,
+        "end": 636,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 600,
+          "end": 616,
+          "object": {
+            "type": "Identifier",
+            "start": 600,
+            "end": 606,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 607,
+            "end": 616,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 617,
+            "end": 628,
+            "object": {
+              "type": "Identifier",
+              "start": 617,
+              "end": 619,
+              "name": "ab"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 620,
+              "end": 628,
+              "name": "detached"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 630,
+            "end": 635,
+            "value": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 639,
+      "end": 657,
+      "expression": {
+        "type": "CallExpression",
+        "start": 639,
+        "end": 656,
+        "callee": {
+          "type": "Identifier",
+          "start": 639,
+          "end": 652,
+          "name": "$DETACHBUFFER"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 653,
+            "end": 655,
+            "name": "ab"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 659,
+      "end": 695,
+      "expression": {
+        "type": "CallExpression",
+        "start": 659,
+        "end": 694,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 659,
+          "end": 675,
+          "object": {
+            "type": "Identifier",
+            "start": 659,
+            "end": 665,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 666,
+            "end": 675,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 676,
+            "end": 687,
+            "object": {
+              "type": "Identifier",
+              "start": 676,
+              "end": 678,
+              "name": "ab"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 679,
+              "end": 687,
+              "name": "detached"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 693,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

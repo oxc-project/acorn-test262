@@ -1,0 +1,187 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 476,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 295,
+      "end": 395,
+      "expression": {
+        "type": "CallExpression",
+        "start": 295,
+        "end": 394,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 295,
+          "end": 311,
+          "object": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 301,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 311,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 312,
+            "end": 338,
+            "callee": {
+              "type": "Identifier",
+              "start": 312,
+              "end": 325,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 326,
+                "end": 337,
+                "object": {
+                  "type": "Identifier",
+                  "start": 326,
+                  "end": 333,
+                  "name": "Promise"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 334,
+                  "end": 337,
+                  "name": "try"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 340,
+            "end": 345,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 347,
+            "end": 393,
+            "value": "isConstructor(Promise.all) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 397,
+      "end": 474,
+      "expression": {
+        "type": "CallExpression",
+        "start": 397,
+        "end": 473,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 397,
+          "end": 410,
+          "object": {
+            "type": "Identifier",
+            "start": 397,
+            "end": 403,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 404,
+            "end": 410,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 411,
+            "end": 420,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 422,
+            "end": 472,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 434,
+              "end": 472,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 438,
+                  "end": 470,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 438,
+                    "end": 469,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 442,
+                      "end": 453,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 442,
+                        "end": 449,
+                        "name": "Promise"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 450,
+                        "end": 453,
+                        "name": "try"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "FunctionExpression",
+                        "start": 454,
+                        "end": 468,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 466,
+                          "end": 468,
+                          "body": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

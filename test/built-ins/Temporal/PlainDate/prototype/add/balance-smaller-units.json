@@ -1,326 +1,41 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2472,
+  "end": 1365,
   "body": [
     {
       "type": "VariableDeclaration",
       "start": 335,
-      "end": 353,
+      "end": 383,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 341,
-          "end": 352,
+          "end": 382,
           "id": {
             "type": "Identifier",
             "start": 341,
-            "end": 347,
-            "name": "actual"
-          },
-          "init": {
-            "type": "ArrayExpression",
-            "start": 350,
-            "end": 352,
-            "elements": []
-          }
-        }
-      ],
-      "kind": "const"
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 355,
-      "end": 570,
-      "id": {
-        "type": "Identifier",
-        "start": 361,
-        "end": 376,
-        "name": "DateAddCalendar"
-      },
-      "superClass": {
-        "type": "MemberExpression",
-        "start": 385,
-        "end": 402,
-        "object": {
-          "type": "Identifier",
-          "start": 385,
-          "end": 393,
-          "name": "Temporal"
-        },
-        "property": {
-          "type": "Identifier",
-          "start": 394,
-          "end": 402,
-          "name": "Calendar"
-        },
-        "computed": false,
-        "optional": false
-      },
-      "body": {
-        "type": "ClassBody",
-        "start": 403,
-        "end": 570,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 407,
-            "end": 448,
-            "static": false,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 407,
-              "end": 418,
-              "name": "constructor"
-            },
-            "kind": "constructor",
-            "value": {
-              "type": "FunctionExpression",
-              "start": 418,
-              "end": 448,
-              "id": null,
-              "expression": false,
-              "generator": false,
-              "async": false,
-              "params": [],
-              "body": {
-                "type": "BlockStatement",
-                "start": 421,
-                "end": 448,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 427,
-                    "end": 444,
-                    "expression": {
-                      "type": "CallExpression",
-                      "start": 427,
-                      "end": 443,
-                      "callee": {
-                        "type": "Super",
-                        "start": 427,
-                        "end": 432
-                      },
-                      "arguments": [
-                        {
-                          "type": "Literal",
-                          "start": 433,
-                          "end": 442,
-                          "value": "iso8601"
-                        }
-                      ],
-                      "optional": false
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "type": "MethodDefinition",
-            "start": 452,
-            "end": 568,
-            "static": false,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 452,
-              "end": 459,
-              "name": "dateAdd"
-            },
-            "kind": "method",
-            "value": {
-              "type": "FunctionExpression",
-              "start": 459,
-              "end": 568,
-              "id": null,
-              "expression": false,
-              "generator": false,
-              "async": false,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 460,
-                  "end": 464,
-                  "name": "date"
-                },
-                {
-                  "type": "Identifier",
-                  "start": 466,
-                  "end": 474,
-                  "name": "duration"
-                },
-                {
-                  "type": "Identifier",
-                  "start": 476,
-                  "end": 483,
-                  "name": "options"
-                }
-              ],
-              "body": {
-                "type": "BlockStatement",
-                "start": 485,
-                "end": 568,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 491,
-                    "end": 513,
-                    "expression": {
-                      "type": "CallExpression",
-                      "start": 491,
-                      "end": 512,
-                      "callee": {
-                        "type": "MemberExpression",
-                        "start": 491,
-                        "end": 502,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 491,
-                          "end": 497,
-                          "name": "actual"
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "start": 498,
-                          "end": 502,
-                          "name": "push"
-                        },
-                        "computed": false,
-                        "optional": false
-                      },
-                      "arguments": [
-                        {
-                          "type": "Identifier",
-                          "start": 503,
-                          "end": 511,
-                          "name": "duration"
-                        }
-                      ],
-                      "optional": false
-                    }
-                  },
-                  {
-                    "type": "ReturnStatement",
-                    "start": 518,
-                    "end": 564,
-                    "argument": {
-                      "type": "CallExpression",
-                      "start": 525,
-                      "end": 563,
-                      "callee": {
-                        "type": "MemberExpression",
-                        "start": 525,
-                        "end": 538,
-                        "object": {
-                          "type": "Super",
-                          "start": 525,
-                          "end": 530
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "start": 531,
-                          "end": 538,
-                          "name": "dateAdd"
-                        },
-                        "computed": false,
-                        "optional": false
-                      },
-                      "arguments": [
-                        {
-                          "type": "Identifier",
-                          "start": 539,
-                          "end": 543,
-                          "name": "date"
-                        },
-                        {
-                          "type": "Identifier",
-                          "start": 545,
-                          "end": 553,
-                          "name": "duration"
-                        },
-                        {
-                          "type": "Identifier",
-                          "start": 555,
-                          "end": 562,
-                          "name": "options"
-                        }
-                      ],
-                      "optional": false
-                    }
-                  }
-                ]
-              }
-            }
-          }
-        ]
-      }
-    },
-    {
-      "type": "VariableDeclaration",
-      "start": 572,
-      "end": 611,
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 578,
-          "end": 610,
-          "id": {
-            "type": "Identifier",
-            "start": 578,
-            "end": 586,
-            "name": "calendar"
-          },
-          "init": {
-            "type": "NewExpression",
-            "start": 589,
-            "end": 610,
-            "callee": {
-              "type": "Identifier",
-              "start": 593,
-              "end": 608,
-              "name": "DateAddCalendar"
-            },
-            "arguments": []
-          }
-        }
-      ],
-      "kind": "const"
-    },
-    {
-      "type": "VariableDeclaration",
-      "start": 612,
-      "end": 670,
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 618,
-          "end": 669,
-          "id": {
-            "type": "Identifier",
-            "start": 618,
-            "end": 622,
+            "end": 345,
             "name": "date"
           },
           "init": {
             "type": "NewExpression",
-            "start": 625,
-            "end": 669,
+            "start": 348,
+            "end": 382,
             "callee": {
               "type": "MemberExpression",
-              "start": 629,
-              "end": 647,
+              "start": 352,
+              "end": 370,
               "object": {
                 "type": "Identifier",
-                "start": 629,
-                "end": 637,
+                "start": 352,
+                "end": 360,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 638,
-                "end": 647,
+                "start": 361,
+                "end": 370,
                 "name": "PlainDate"
               },
               "computed": false,
@@ -329,27 +44,21 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 648,
-                "end": 652,
+                "start": 371,
+                "end": 375,
                 "value": 2000
               },
               {
                 "type": "Literal",
-                "start": 654,
-                "end": 655,
+                "start": 377,
+                "end": 378,
                 "value": 5
               },
               {
                 "type": "Literal",
-                "start": 657,
-                "end": 658,
+                "start": 380,
+                "end": 381,
                 "value": 2
-              },
-              {
-                "type": "Identifier",
-                "start": 660,
-                "end": 668,
-                "name": "calendar"
               }
             ]
           }
@@ -359,37 +68,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 671,
-      "end": 784,
+      "start": 384,
+      "end": 497,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 677,
-          "end": 783,
+          "start": 390,
+          "end": 496,
           "id": {
             "type": "Identifier",
-            "start": 677,
-            "end": 685,
+            "start": 390,
+            "end": 398,
             "name": "duration"
           },
           "init": {
             "type": "NewExpression",
-            "start": 688,
-            "end": 783,
+            "start": 401,
+            "end": 496,
             "callee": {
               "type": "MemberExpression",
-              "start": 692,
-              "end": 709,
+              "start": 405,
+              "end": 422,
               "object": {
                 "type": "Identifier",
-                "start": 692,
-                "end": 700,
+                "start": 405,
+                "end": 413,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 701,
-                "end": 709,
+                "start": 414,
+                "end": 422,
                 "name": "Duration"
               },
               "computed": false,
@@ -398,62 +107,62 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 710,
-                "end": 711,
+                "start": 423,
+                "end": 424,
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 713,
-                "end": 714,
+                "start": 426,
+                "end": 427,
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 716,
-                "end": 717,
+                "start": 429,
+                "end": 430,
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 719,
-                "end": 720,
+                "start": 432,
+                "end": 433,
                 "value": 1
               },
               {
                 "type": "Literal",
-                "start": 722,
-                "end": 724,
+                "start": 435,
+                "end": 437,
                 "value": 24
               },
               {
                 "type": "Literal",
-                "start": 726,
-                "end": 730,
+                "start": 439,
+                "end": 443,
                 "value": 1440
               },
               {
                 "type": "Literal",
-                "start": 732,
-                "end": 737,
+                "start": 445,
+                "end": 450,
                 "value": 86400
               },
               {
                 "type": "Literal",
-                "start": 739,
-                "end": 748,
+                "start": 452,
+                "end": 461,
                 "value": 86400000
               },
               {
                 "type": "Literal",
-                "start": 750,
-                "end": 763,
+                "start": 463,
+                "end": 476,
                 "value": 86400000000
               },
               {
                 "type": "Literal",
-                "start": 765,
-                "end": 782,
+                "start": 478,
+                "end": 495,
                 "value": 86400000000000
               }
             ]
@@ -464,37 +173,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 786,
-      "end": 820,
+      "start": 499,
+      "end": 533,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 792,
-          "end": 819,
+          "start": 505,
+          "end": 532,
           "id": {
             "type": "Identifier",
-            "start": 792,
-            "end": 798,
+            "start": 505,
+            "end": 511,
             "name": "result"
           },
           "init": {
             "type": "CallExpression",
-            "start": 801,
-            "end": 819,
+            "start": 514,
+            "end": 532,
             "callee": {
               "type": "MemberExpression",
-              "start": 801,
-              "end": 809,
+              "start": 514,
+              "end": 522,
               "object": {
                 "type": "Identifier",
-                "start": 801,
-                "end": 805,
+                "start": 514,
+                "end": 518,
                 "name": "date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 806,
-                "end": 809,
+                "start": 519,
+                "end": 522,
                 "name": "add"
               },
               "computed": false,
@@ -503,8 +212,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 810,
-                "end": 818,
+                "start": 523,
+                "end": 531,
                 "name": "duration"
               }
             ],
@@ -516,26 +225,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 821,
-      "end": 920,
+      "start": 534,
+      "end": 633,
       "expression": {
         "type": "CallExpression",
-        "start": 821,
-        "end": 919,
+        "start": 534,
+        "end": 632,
         "callee": {
           "type": "MemberExpression",
-          "start": 821,
-          "end": 852,
+          "start": 534,
+          "end": 565,
           "object": {
             "type": "Identifier",
-            "start": 821,
-            "end": 836,
+            "start": 534,
+            "end": 549,
             "name": "TemporalHelpers"
           },
           "property": {
             "type": "Identifier",
-            "start": 837,
-            "end": 852,
+            "start": 550,
+            "end": 565,
             "name": "assertPlainDate"
           },
           "computed": false,
@@ -544,38 +253,38 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 853,
-            "end": 859,
+            "start": 566,
+            "end": 572,
             "name": "result"
           },
           {
             "type": "Literal",
-            "start": 861,
-            "end": 865,
+            "start": 574,
+            "end": 578,
             "value": 2000
           },
           {
             "type": "Literal",
-            "start": 867,
-            "end": 868,
+            "start": 580,
+            "end": 581,
             "value": 5
           },
           {
             "type": "Literal",
-            "start": 870,
-            "end": 875,
+            "start": 583,
+            "end": 588,
             "value": "M05"
           },
           {
             "type": "Literal",
-            "start": 877,
-            "end": 878,
+            "start": 590,
+            "end": 591,
             "value": 9
           },
           {
             "type": "Literal",
-            "start": 880,
-            "end": 918,
+            "start": 593,
+            "end": 631,
             "value": "units smaller than days are balanced"
           }
         ],
@@ -583,164 +292,38 @@
       }
     },
     {
-      "type": "ExpressionStatement",
-      "start": 922,
-      "end": 997,
-      "expression": {
-        "type": "CallExpression",
-        "start": 922,
-        "end": 996,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 922,
-          "end": 938,
-          "object": {
-            "type": "Identifier",
-            "start": 922,
-            "end": 928,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 929,
-            "end": 938,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 939,
-            "end": 952,
-            "object": {
-              "type": "Identifier",
-              "start": 939,
-              "end": 945,
-              "name": "actual"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 946,
-              "end": 952,
-              "name": "length"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 954,
-            "end": 955,
-            "value": 1
-          },
-          {
-            "type": "Literal",
-            "start": 957,
-            "end": 995,
-            "value": "calendar.dateAdd called exactly once"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 998,
-      "end": 1087,
-      "expression": {
-        "type": "CallExpression",
-        "start": 998,
-        "end": 1086,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 998,
-          "end": 1014,
-          "object": {
-            "type": "Identifier",
-            "start": 998,
-            "end": 1004,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 1005,
-            "end": 1014,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1015,
-            "end": 1024,
-            "object": {
-              "type": "Identifier",
-              "start": 1015,
-              "end": 1021,
-              "name": "actual"
-            },
-            "property": {
-              "type": "Literal",
-              "start": 1022,
-              "end": 1023,
-              "value": 0
-            },
-            "computed": true,
-            "optional": false
-          },
-          {
-            "type": "Identifier",
-            "start": 1026,
-            "end": 1034,
-            "name": "duration"
-          },
-          {
-            "type": "Literal",
-            "start": 1036,
-            "end": 1085,
-            "value": "the duration is passed directly to the calendar"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
       "type": "VariableDeclaration",
-      "start": 1089,
-      "end": 1141,
+      "start": 635,
+      "end": 687,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1095,
-          "end": 1140,
+          "start": 641,
+          "end": 686,
           "id": {
             "type": "Identifier",
-            "start": 1095,
-            "end": 1107,
+            "start": 641,
+            "end": 653,
             "name": "resultString"
           },
           "init": {
             "type": "CallExpression",
-            "start": 1110,
-            "end": 1140,
+            "start": 656,
+            "end": 686,
             "callee": {
               "type": "MemberExpression",
-              "start": 1110,
-              "end": 1118,
+              "start": 656,
+              "end": 664,
               "object": {
                 "type": "Identifier",
-                "start": 1110,
-                "end": 1114,
+                "start": 656,
+                "end": 660,
                 "name": "date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1115,
-                "end": 1118,
+                "start": 661,
+                "end": 664,
                 "name": "add"
               },
               "computed": false,
@@ -749,8 +332,8 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1119,
-                "end": 1139,
+                "start": 665,
+                "end": 685,
                 "value": "P1DT24H1440M86400S"
               }
             ],
@@ -762,26 +345,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1142,
-      "end": 1247,
+      "start": 688,
+      "end": 793,
       "expression": {
         "type": "CallExpression",
-        "start": 1142,
-        "end": 1246,
+        "start": 688,
+        "end": 792,
         "callee": {
           "type": "MemberExpression",
-          "start": 1142,
-          "end": 1173,
+          "start": 688,
+          "end": 719,
           "object": {
             "type": "Identifier",
-            "start": 1142,
-            "end": 1157,
+            "start": 688,
+            "end": 703,
             "name": "TemporalHelpers"
           },
           "property": {
             "type": "Identifier",
-            "start": 1158,
-            "end": 1173,
+            "start": 704,
+            "end": 719,
             "name": "assertPlainDate"
           },
           "computed": false,
@@ -790,38 +373,38 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1174,
-            "end": 1186,
+            "start": 720,
+            "end": 732,
             "name": "resultString"
           },
           {
             "type": "Literal",
-            "start": 1188,
-            "end": 1192,
+            "start": 734,
+            "end": 738,
             "value": 2000
           },
           {
             "type": "Literal",
-            "start": 1194,
-            "end": 1195,
+            "start": 740,
+            "end": 741,
             "value": 5
           },
           {
             "type": "Literal",
-            "start": 1197,
-            "end": 1202,
+            "start": 743,
+            "end": 748,
             "value": "M05"
           },
           {
             "type": "Literal",
-            "start": 1204,
-            "end": 1205,
+            "start": 750,
+            "end": 751,
             "value": 6
           },
           {
             "type": "Literal",
-            "start": 1207,
-            "end": 1245,
+            "start": 753,
+            "end": 791,
             "value": "units smaller than days are balanced"
           }
         ],
@@ -829,218 +412,38 @@
       }
     },
     {
-      "type": "ExpressionStatement",
-      "start": 1249,
-      "end": 1324,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1249,
-        "end": 1323,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 1249,
-          "end": 1265,
-          "object": {
-            "type": "Identifier",
-            "start": 1249,
-            "end": 1255,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 1256,
-            "end": 1265,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1266,
-            "end": 1279,
-            "object": {
-              "type": "Identifier",
-              "start": 1266,
-              "end": 1272,
-              "name": "actual"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 1273,
-              "end": 1279,
-              "name": "length"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1281,
-            "end": 1282,
-            "value": 2
-          },
-          {
-            "type": "Literal",
-            "start": 1284,
-            "end": 1322,
-            "value": "calendar.dateAdd called exactly once"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 1325,
-      "end": 1468,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1325,
-        "end": 1467,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 1325,
-          "end": 1355,
-          "object": {
-            "type": "Identifier",
-            "start": 1325,
-            "end": 1340,
-            "name": "TemporalHelpers"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 1341,
-            "end": 1355,
-            "name": "assertDuration"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1356,
-            "end": 1365,
-            "object": {
-              "type": "Identifier",
-              "start": 1356,
-              "end": 1362,
-              "name": "actual"
-            },
-            "property": {
-              "type": "Literal",
-              "start": 1363,
-              "end": 1364,
-              "value": 1
-            },
-            "computed": true,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1367,
-            "end": 1368,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 1370,
-            "end": 1371,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 1373,
-            "end": 1374,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 1376,
-            "end": 1377,
-            "value": 1
-          },
-          {
-            "type": "Literal",
-            "start": 1379,
-            "end": 1381,
-            "value": 24
-          },
-          {
-            "type": "Literal",
-            "start": 1383,
-            "end": 1387,
-            "value": 1440
-          },
-          {
-            "type": "Literal",
-            "start": 1389,
-            "end": 1394,
-            "value": 86400
-          },
-          {
-            "type": "Literal",
-            "start": 1396,
-            "end": 1397,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 1399,
-            "end": 1400,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 1402,
-            "end": 1403,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 1405,
-            "end": 1466,
-            "value": "the duration is not balanced before passing to the calendar"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
       "type": "VariableDeclaration",
-      "start": 1470,
-      "end": 1642,
+      "start": 795,
+      "end": 967,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1476,
-          "end": 1641,
+          "start": 801,
+          "end": 966,
           "id": {
             "type": "Identifier",
-            "start": 1476,
-            "end": 1489,
+            "start": 801,
+            "end": 814,
             "name": "resultPropBag"
           },
           "init": {
             "type": "CallExpression",
-            "start": 1492,
-            "end": 1641,
+            "start": 817,
+            "end": 966,
             "callee": {
               "type": "MemberExpression",
-              "start": 1492,
-              "end": 1500,
+              "start": 817,
+              "end": 825,
               "object": {
                 "type": "Identifier",
-                "start": 1492,
-                "end": 1496,
+                "start": 817,
+                "end": 821,
                 "name": "date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 1497,
-                "end": 1500,
+                "start": 822,
+                "end": 825,
                 "name": "add"
               },
               "computed": false,
@@ -1049,152 +452,152 @@
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 1501,
-                "end": 1640,
+                "start": 826,
+                "end": 965,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1503,
-                    "end": 1510,
+                    "start": 828,
+                    "end": 835,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 1503,
-                      "end": 1507,
+                      "start": 828,
+                      "end": 832,
                       "name": "days"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 1509,
-                      "end": 1510,
+                      "start": 834,
+                      "end": 835,
                       "value": 1
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 1512,
-                    "end": 1521,
+                    "start": 837,
+                    "end": 846,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 1512,
-                      "end": 1517,
+                      "start": 837,
+                      "end": 842,
                       "name": "hours"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 1519,
-                      "end": 1521,
+                      "start": 844,
+                      "end": 846,
                       "value": 24
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 1523,
-                    "end": 1536,
+                    "start": 848,
+                    "end": 861,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 1523,
-                      "end": 1530,
+                      "start": 848,
+                      "end": 855,
                       "name": "minutes"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 1532,
-                      "end": 1536,
+                      "start": 857,
+                      "end": 861,
                       "value": 1440
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 1538,
-                    "end": 1552,
+                    "start": 863,
+                    "end": 877,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 1538,
-                      "end": 1545,
+                      "start": 863,
+                      "end": 870,
                       "name": "seconds"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 1547,
-                      "end": 1552,
+                      "start": 872,
+                      "end": 877,
                       "value": 86400
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 1554,
-                    "end": 1577,
+                    "start": 879,
+                    "end": 902,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 1554,
-                      "end": 1566,
+                      "start": 879,
+                      "end": 891,
                       "name": "milliseconds"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 1568,
-                      "end": 1577,
+                      "start": 893,
+                      "end": 902,
                       "value": 86400000
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 1579,
-                    "end": 1606,
+                    "start": 904,
+                    "end": 931,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 1579,
-                      "end": 1591,
+                      "start": 904,
+                      "end": 916,
                       "name": "microseconds"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 1593,
-                      "end": 1606,
+                      "start": 918,
+                      "end": 931,
                       "value": 86400000000
                     },
                     "kind": "init"
                   },
                   {
                     "type": "Property",
-                    "start": 1608,
-                    "end": 1638,
+                    "start": 933,
+                    "end": 963,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 1608,
-                      "end": 1619,
+                      "start": 933,
+                      "end": 944,
                       "name": "nanoseconds"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 1621,
-                      "end": 1638,
+                      "start": 946,
+                      "end": 963,
                       "value": 86400000000000
                     },
                     "kind": "init"
@@ -1210,26 +613,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1643,
-      "end": 1749,
+      "start": 968,
+      "end": 1074,
       "expression": {
         "type": "CallExpression",
-        "start": 1643,
-        "end": 1748,
+        "start": 968,
+        "end": 1073,
         "callee": {
           "type": "MemberExpression",
-          "start": 1643,
-          "end": 1674,
+          "start": 968,
+          "end": 999,
           "object": {
             "type": "Identifier",
-            "start": 1643,
-            "end": 1658,
+            "start": 968,
+            "end": 983,
             "name": "TemporalHelpers"
           },
           "property": {
             "type": "Identifier",
-            "start": 1659,
-            "end": 1674,
+            "start": 984,
+            "end": 999,
             "name": "assertPlainDate"
           },
           "computed": false,
@@ -1238,38 +641,38 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 1675,
-            "end": 1688,
+            "start": 1000,
+            "end": 1013,
             "name": "resultPropBag"
           },
           {
             "type": "Literal",
-            "start": 1690,
-            "end": 1694,
+            "start": 1015,
+            "end": 1019,
             "value": 2000
           },
           {
             "type": "Literal",
-            "start": 1696,
-            "end": 1697,
+            "start": 1021,
+            "end": 1022,
             "value": 5
           },
           {
             "type": "Literal",
-            "start": 1699,
-            "end": 1704,
+            "start": 1024,
+            "end": 1029,
             "value": "M05"
           },
           {
             "type": "Literal",
-            "start": 1706,
-            "end": 1707,
+            "start": 1031,
+            "end": 1032,
             "value": 9
           },
           {
             "type": "Literal",
-            "start": 1709,
-            "end": 1747,
+            "start": 1034,
+            "end": 1072,
             "value": "units smaller than days are balanced"
           }
         ],
@@ -1277,218 +680,38 @@
       }
     },
     {
-      "type": "ExpressionStatement",
-      "start": 1751,
-      "end": 1826,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1751,
-        "end": 1825,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 1751,
-          "end": 1767,
-          "object": {
-            "type": "Identifier",
-            "start": 1751,
-            "end": 1757,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 1758,
-            "end": 1767,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1768,
-            "end": 1781,
-            "object": {
-              "type": "Identifier",
-              "start": 1768,
-              "end": 1774,
-              "name": "actual"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 1775,
-              "end": 1781,
-              "name": "length"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1783,
-            "end": 1784,
-            "value": 3
-          },
-          {
-            "type": "Literal",
-            "start": 1786,
-            "end": 1824,
-            "value": "calendar.dateAdd called exactly once"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 1827,
-      "end": 2006,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1827,
-        "end": 2005,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 1827,
-          "end": 1857,
-          "object": {
-            "type": "Identifier",
-            "start": 1827,
-            "end": 1842,
-            "name": "TemporalHelpers"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 1843,
-            "end": 1857,
-            "name": "assertDuration"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1858,
-            "end": 1867,
-            "object": {
-              "type": "Identifier",
-              "start": 1858,
-              "end": 1864,
-              "name": "actual"
-            },
-            "property": {
-              "type": "Literal",
-              "start": 1865,
-              "end": 1866,
-              "value": 2
-            },
-            "computed": true,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1869,
-            "end": 1870,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 1872,
-            "end": 1873,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 1875,
-            "end": 1876,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 1878,
-            "end": 1879,
-            "value": 1
-          },
-          {
-            "type": "Literal",
-            "start": 1881,
-            "end": 1883,
-            "value": 24
-          },
-          {
-            "type": "Literal",
-            "start": 1885,
-            "end": 1889,
-            "value": 1440
-          },
-          {
-            "type": "Literal",
-            "start": 1891,
-            "end": 1896,
-            "value": 86400
-          },
-          {
-            "type": "Literal",
-            "start": 1898,
-            "end": 1907,
-            "value": 86400000
-          },
-          {
-            "type": "Literal",
-            "start": 1909,
-            "end": 1922,
-            "value": 86400000000
-          },
-          {
-            "type": "Literal",
-            "start": 1924,
-            "end": 1941,
-            "value": 86400000000000
-          },
-          {
-            "type": "Literal",
-            "start": 1943,
-            "end": 2004,
-            "value": "the duration is not balanced before passing to the calendar"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
       "type": "VariableDeclaration",
-      "start": 2008,
-      "end": 2136,
+      "start": 1076,
+      "end": 1204,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2014,
-          "end": 2135,
+          "start": 1082,
+          "end": 1203,
           "id": {
             "type": "Identifier",
-            "start": 2014,
-            "end": 2030,
+            "start": 1082,
+            "end": 1098,
             "name": "negativeDuration"
           },
           "init": {
             "type": "NewExpression",
-            "start": 2033,
-            "end": 2135,
+            "start": 1101,
+            "end": 1203,
             "callee": {
               "type": "MemberExpression",
-              "start": 2037,
-              "end": 2054,
+              "start": 1105,
+              "end": 1122,
               "object": {
                 "type": "Identifier",
-                "start": 2037,
-                "end": 2045,
+                "start": 1105,
+                "end": 1113,
                 "name": "Temporal"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2046,
-                "end": 2054,
+                "start": 1114,
+                "end": 1122,
                 "name": "Duration"
               },
               "computed": false,
@@ -1497,110 +720,110 @@
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2055,
-                "end": 2056,
+                "start": 1123,
+                "end": 1124,
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 2058,
-                "end": 2059,
+                "start": 1126,
+                "end": 1127,
                 "value": 0
               },
               {
                 "type": "Literal",
-                "start": 2061,
-                "end": 2062,
+                "start": 1129,
+                "end": 1130,
                 "value": 0
               },
               {
                 "type": "UnaryExpression",
-                "start": 2064,
-                "end": 2066,
+                "start": 1132,
+                "end": 1134,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 2065,
-                  "end": 2066,
+                  "start": 1133,
+                  "end": 1134,
                   "value": 1
                 }
               },
               {
                 "type": "UnaryExpression",
-                "start": 2068,
-                "end": 2071,
+                "start": 1136,
+                "end": 1139,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 2069,
-                  "end": 2071,
+                  "start": 1137,
+                  "end": 1139,
                   "value": 24
                 }
               },
               {
                 "type": "UnaryExpression",
-                "start": 2073,
-                "end": 2078,
+                "start": 1141,
+                "end": 1146,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 2074,
-                  "end": 2078,
+                  "start": 1142,
+                  "end": 1146,
                   "value": 1440
                 }
               },
               {
                 "type": "UnaryExpression",
-                "start": 2080,
-                "end": 2086,
+                "start": 1148,
+                "end": 1154,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 2081,
-                  "end": 2086,
+                  "start": 1149,
+                  "end": 1154,
                   "value": 86400
                 }
               },
               {
                 "type": "UnaryExpression",
-                "start": 2088,
-                "end": 2098,
+                "start": 1156,
+                "end": 1166,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 2089,
-                  "end": 2098,
+                  "start": 1157,
+                  "end": 1166,
                   "value": 86400000
                 }
               },
               {
                 "type": "UnaryExpression",
-                "start": 2100,
-                "end": 2114,
+                "start": 1168,
+                "end": 1182,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 2101,
-                  "end": 2114,
+                  "start": 1169,
+                  "end": 1182,
                   "value": 86400000000
                 }
               },
               {
                 "type": "UnaryExpression",
-                "start": 2116,
-                "end": 2134,
+                "start": 1184,
+                "end": 1202,
                 "operator": "-",
                 "prefix": true,
                 "argument": {
                   "type": "Literal",
-                  "start": 2117,
-                  "end": 2134,
+                  "start": 1185,
+                  "end": 1202,
                   "value": 86400000000000
                 }
               }
@@ -1612,37 +835,37 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 2137,
-      "end": 2187,
+      "start": 1205,
+      "end": 1255,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2143,
-          "end": 2186,
+          "start": 1211,
+          "end": 1254,
           "id": {
             "type": "Identifier",
-            "start": 2143,
-            "end": 2157,
+            "start": 1211,
+            "end": 1225,
             "name": "resultNegative"
           },
           "init": {
             "type": "CallExpression",
-            "start": 2160,
-            "end": 2186,
+            "start": 1228,
+            "end": 1254,
             "callee": {
               "type": "MemberExpression",
-              "start": 2160,
-              "end": 2168,
+              "start": 1228,
+              "end": 1236,
               "object": {
                 "type": "Identifier",
-                "start": 2160,
-                "end": 2164,
+                "start": 1228,
+                "end": 1232,
                 "name": "date"
               },
               "property": {
                 "type": "Identifier",
-                "start": 2165,
-                "end": 2168,
+                "start": 1233,
+                "end": 1236,
                 "name": "add"
               },
               "computed": false,
@@ -1651,8 +874,8 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 2169,
-                "end": 2185,
+                "start": 1237,
+                "end": 1253,
                 "name": "negativeDuration"
               }
             ],
@@ -1664,26 +887,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 2188,
-      "end": 2296,
+      "start": 1256,
+      "end": 1364,
       "expression": {
         "type": "CallExpression",
-        "start": 2188,
-        "end": 2295,
+        "start": 1256,
+        "end": 1363,
         "callee": {
           "type": "MemberExpression",
-          "start": 2188,
-          "end": 2219,
+          "start": 1256,
+          "end": 1287,
           "object": {
             "type": "Identifier",
-            "start": 2188,
-            "end": 2203,
+            "start": 1256,
+            "end": 1271,
             "name": "TemporalHelpers"
           },
           "property": {
             "type": "Identifier",
-            "start": 2204,
-            "end": 2219,
+            "start": 1272,
+            "end": 1287,
             "name": "assertPlainDate"
           },
           "computed": false,
@@ -1692,165 +915,39 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 2220,
-            "end": 2234,
+            "start": 1288,
+            "end": 1302,
             "name": "resultNegative"
           },
           {
             "type": "Literal",
-            "start": 2236,
-            "end": 2240,
+            "start": 1304,
+            "end": 1308,
             "value": 2000
           },
           {
             "type": "Literal",
-            "start": 2242,
-            "end": 2243,
+            "start": 1310,
+            "end": 1311,
             "value": 4
           },
           {
             "type": "Literal",
-            "start": 2245,
-            "end": 2250,
+            "start": 1313,
+            "end": 1318,
             "value": "M04"
           },
           {
             "type": "Literal",
-            "start": 2252,
-            "end": 2254,
+            "start": 1320,
+            "end": 1322,
             "value": 25
           },
           {
             "type": "Literal",
-            "start": 2256,
-            "end": 2294,
+            "start": 1324,
+            "end": 1362,
             "value": "units smaller than days are balanced"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 2298,
-      "end": 2373,
-      "expression": {
-        "type": "CallExpression",
-        "start": 2298,
-        "end": 2372,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 2298,
-          "end": 2314,
-          "object": {
-            "type": "Identifier",
-            "start": 2298,
-            "end": 2304,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 2305,
-            "end": 2314,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 2315,
-            "end": 2328,
-            "object": {
-              "type": "Identifier",
-              "start": 2315,
-              "end": 2321,
-              "name": "actual"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 2322,
-              "end": 2328,
-              "name": "length"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 2330,
-            "end": 2331,
-            "value": 4
-          },
-          {
-            "type": "Literal",
-            "start": 2333,
-            "end": 2371,
-            "value": "calendar.dateAdd called exactly once"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 2374,
-      "end": 2471,
-      "expression": {
-        "type": "CallExpression",
-        "start": 2374,
-        "end": 2470,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 2374,
-          "end": 2390,
-          "object": {
-            "type": "Identifier",
-            "start": 2374,
-            "end": 2380,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 2381,
-            "end": 2390,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 2391,
-            "end": 2400,
-            "object": {
-              "type": "Identifier",
-              "start": 2391,
-              "end": 2397,
-              "name": "actual"
-            },
-            "property": {
-              "type": "Literal",
-              "start": 2398,
-              "end": 2399,
-              "value": 3
-            },
-            "computed": true,
-            "optional": false
-          },
-          {
-            "type": "Identifier",
-            "start": 2402,
-            "end": 2418,
-            "name": "negativeDuration"
-          },
-          {
-            "type": "Literal",
-            "start": 2420,
-            "end": 2469,
-            "value": "the duration is passed directly to the calendar"
           }
         ],
         "optional": false

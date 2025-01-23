@@ -40,7 +40,8 @@
                       "start": 4773,
                       "end": 4824,
                       "value": "./get-nested-namespace-dflt-skip-named_FIXTURE.js"
-                    }
+                    },
+                    "options": null
                   },
                   "property": {
                     "type": "Identifier",

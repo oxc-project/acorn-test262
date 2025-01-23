@@ -25,7 +25,8 @@
         "start": 494,
         "end": 521,
         "value": "./delete-exported-init.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -139,7 +140,8 @@
         "start": 631,
         "end": 658,
         "value": "./delete-exported-init.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

@@ -40,7 +40,8 @@
                       "start": 3733,
                       "end": 3753,
                       "value": "./empty_FIXTURE.js"
-                    }
+                    },
+                    "options": null
                   },
                   "property": {
                     "type": "Identifier",

@@ -32,7 +32,8 @@
         "start": 1114,
         "end": 1155,
         "value": "./instn-resolve-empty-export_FIXTURE.js"
-      }
+      },
+      "attributes": []
     }
   ],
   "sourceType": "module"

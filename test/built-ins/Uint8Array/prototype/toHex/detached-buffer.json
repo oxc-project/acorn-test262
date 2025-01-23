@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 452,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 332,
+      "end": 362,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 336,
+          "end": 361,
+          "id": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 341,
+            "name": "array"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 344,
+            "end": 361,
+            "callee": {
+              "type": "Identifier",
+              "start": 348,
+              "end": 358,
+              "name": "Uint8Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 359,
+                "end": 360,
+                "value": 2
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 363,
+      "end": 391,
+      "expression": {
+        "type": "CallExpression",
+        "start": 363,
+        "end": 390,
+        "callee": {
+          "type": "Identifier",
+          "start": 363,
+          "end": 376,
+          "name": "$DETACHBUFFER"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 377,
+            "end": 389,
+            "object": {
+              "type": "Identifier",
+              "start": 377,
+              "end": 382,
+              "name": "array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 383,
+              "end": 389,
+              "name": "buffer"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 392,
+      "end": 450,
+      "expression": {
+        "type": "CallExpression",
+        "start": 392,
+        "end": 449,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 392,
+          "end": 405,
+          "object": {
+            "type": "Identifier",
+            "start": 392,
+            "end": 398,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 405,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 406,
+            "end": 415,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 417,
+            "end": 448,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 428,
+              "end": 448,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 432,
+                  "end": 446,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 432,
+                    "end": 445,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 432,
+                      "end": 443,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 432,
+                        "end": 437,
+                        "name": "array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 438,
+                        "end": 443,
+                        "name": "toHex"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

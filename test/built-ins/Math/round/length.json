@@ -1,205 +1,138 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1071,
+  "end": 1020,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 904,
-      "end": 943,
+      "end": 1019,
       "expression": {
         "type": "CallExpression",
         "start": 904,
-        "end": 942,
+        "end": 1018,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 904,
-          "end": 920,
-          "object": {
-            "type": "Identifier",
-            "start": 904,
-            "end": 910,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 911,
-            "end": 920,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 918,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 921,
-            "end": 938,
+            "start": 919,
+            "end": 929,
             "object": {
-              "type": "MemberExpression",
-              "start": 921,
-              "end": 931,
-              "object": {
-                "type": "Identifier",
-                "start": 921,
-                "end": 925,
-                "name": "Math"
+              "type": "Identifier",
+              "start": 919,
+              "end": 923,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 924,
+              "end": 929,
+              "name": "round"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 931,
+            "end": 939,
+            "value": "length"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 941,
+            "end": 1017,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 945,
+                "end": 953,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 945,
+                  "end": 950,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 952,
+                  "end": 953,
+                  "value": 1
+                },
+                "kind": "init"
               },
-              "property": {
-                "type": "Identifier",
-                "start": 926,
-                "end": 931,
-                "name": "round"
+              {
+                "type": "Property",
+                "start": 957,
+                "end": 972,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 957,
+                  "end": 965,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 967,
+                  "end": 972,
+                  "value": false
+                },
+                "kind": "init"
               },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 932,
-              "end": 938,
-              "name": "length"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 940,
-            "end": 941,
-            "value": 1
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 945,
-      "end": 987,
-      "expression": {
-        "type": "CallExpression",
-        "start": 945,
-        "end": 986,
-        "callee": {
-          "type": "Identifier",
-          "start": 945,
-          "end": 964,
-          "name": "verifyNotEnumerable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 965,
-            "end": 975,
-            "object": {
-              "type": "Identifier",
-              "start": 965,
-              "end": 969,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 970,
-              "end": 975,
-              "name": "round"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 977,
-            "end": 985,
-            "value": "length"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 988,
-      "end": 1028,
-      "expression": {
-        "type": "CallExpression",
-        "start": 988,
-        "end": 1027,
-        "callee": {
-          "type": "Identifier",
-          "start": 988,
-          "end": 1005,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1006,
-            "end": 1016,
-            "object": {
-              "type": "Identifier",
-              "start": 1006,
-              "end": 1010,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 1011,
-              "end": 1016,
-              "name": "round"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1018,
-            "end": 1026,
-            "value": "length"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 1029,
-      "end": 1070,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1029,
-        "end": 1069,
-        "callee": {
-          "type": "Identifier",
-          "start": 1029,
-          "end": 1047,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1048,
-            "end": 1058,
-            "object": {
-              "type": "Identifier",
-              "start": 1048,
-              "end": 1052,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 1053,
-              "end": 1058,
-              "name": "round"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1060,
-            "end": 1068,
-            "value": "length"
+              {
+                "type": "Property",
+                "start": 976,
+                "end": 993,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 976,
+                  "end": 986,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 988,
+                  "end": 993,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 997,
+                "end": 1015,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 997,
+                  "end": 1009,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1011,
+                  "end": 1015,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 716,
+  "end": 687,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -190,304 +190,162 @@
       }
     },
     {
-      "type": "VariableDeclaration",
+      "type": "ExpressionStatement",
       "start": 473,
-      "end": 518,
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 479,
-          "end": 517,
-          "id": {
+      "end": 565,
+      "expression": {
+        "type": "CallExpression",
+        "start": 473,
+        "end": 564,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 473,
+          "end": 489,
+          "object": {
             "type": "Identifier",
-            "start": 479,
-            "end": 485,
-            "name": "fields"
+            "start": 473,
+            "end": 479,
+            "name": "assert"
           },
-          "init": {
+          "property": {
+            "type": "Identifier",
+            "start": 480,
+            "end": 489,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 490,
+            "end": 515,
+            "object": {
+              "type": "Identifier",
+              "start": 490,
+              "end": 504,
+              "name": "plainYearMonth"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 505,
+              "end": 515,
+              "name": "calendarId"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 517,
+            "end": 526,
+            "value": "iso8601"
+          },
+          {
+            "type": "Literal",
+            "start": 528,
+            "end": 563,
+            "value": "calendar string should be iso8601"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 566,
+      "end": 686,
+      "expression": {
+        "type": "CallExpression",
+        "start": 566,
+        "end": 685,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 566,
+          "end": 582,
+          "object": {
+            "type": "Identifier",
+            "start": 566,
+            "end": 572,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 582,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
             "type": "CallExpression",
-            "start": 488,
-            "end": 517,
+            "start": 583,
+            "end": 634,
             "callee": {
               "type": "MemberExpression",
-              "start": 488,
-              "end": 515,
+              "start": 583,
+              "end": 606,
               "object": {
                 "type": "Identifier",
-                "start": 488,
-                "end": 502,
+                "start": 583,
+                "end": 597,
                 "name": "plainYearMonth"
               },
               "property": {
                 "type": "Identifier",
-                "start": 503,
-                "end": 515,
-                "name": "getISOFields"
+                "start": 598,
+                "end": 606,
+                "name": "toString"
               },
               "computed": false,
               "optional": false
             },
-            "arguments": [],
-            "optional": false
-          }
-        }
-      ],
-      "kind": "const"
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 519,
-      "end": 567,
-      "expression": {
-        "type": "CallExpression",
-        "start": 519,
-        "end": 566,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 519,
-          "end": 535,
-          "object": {
-            "type": "Identifier",
-            "start": 519,
-            "end": 525,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 526,
-            "end": 535,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 536,
-            "end": 554,
-            "object": {
-              "type": "MemberExpression",
-              "start": 536,
-              "end": 551,
-              "object": {
-                "type": "Identifier",
-                "start": 536,
-                "end": 542,
-                "name": "fields"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 543,
-                "end": 551,
-                "name": "calendar"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 552,
-              "end": 554,
-              "name": "id"
-            },
-            "computed": false,
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 607,
+                "end": 633,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 609,
+                    "end": 631,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 609,
+                      "end": 621,
+                      "name": "calendarName"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 623,
+                      "end": 631,
+                      "value": "always"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 556,
-            "end": 565,
-            "value": "iso8601"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 568,
-      "end": 613,
-      "expression": {
-        "type": "CallExpression",
-        "start": 568,
-        "end": 612,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 568,
-          "end": 584,
-          "object": {
-            "type": "Identifier",
-            "start": 568,
-            "end": 574,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 575,
-            "end": 584,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 585,
-            "end": 598,
-            "object": {
-              "type": "Identifier",
-              "start": 585,
-              "end": 591,
-              "name": "fields"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 592,
-              "end": 598,
-              "name": "isoDay"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 600,
-            "end": 601,
-            "value": 1
-          },
-          {
-            "type": "Literal",
-            "start": 603,
-            "end": 611,
-            "value": "isoDay"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 614,
-      "end": 664,
-      "expression": {
-        "type": "CallExpression",
-        "start": 614,
-        "end": 663,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 614,
-          "end": 630,
-          "object": {
-            "type": "Identifier",
-            "start": 614,
-            "end": 620,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 621,
-            "end": 630,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 631,
-            "end": 646,
-            "object": {
-              "type": "Identifier",
-              "start": 631,
-              "end": 637,
-              "name": "fields"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 638,
-              "end": 646,
-              "name": "isoMonth"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 648,
-            "end": 650,
-            "value": 11
-          },
-          {
-            "type": "Literal",
-            "start": 652,
+            "start": 636,
             "end": 662,
-            "value": "isoMonth"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 665,
-      "end": 715,
-      "expression": {
-        "type": "CallExpression",
-        "start": 665,
-        "end": 714,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 665,
-          "end": 681,
-          "object": {
-            "type": "Identifier",
-            "start": 665,
-            "end": 671,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 672,
-            "end": 681,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 682,
-            "end": 696,
-            "object": {
-              "type": "Identifier",
-              "start": 682,
-              "end": 688,
-              "name": "fields"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 689,
-              "end": 696,
-              "name": "isoYear"
-            },
-            "computed": false,
-            "optional": false
+            "value": "1976-11-01[u-ca=iso8601]"
           },
           {
             "type": "Literal",
-            "start": 698,
-            "end": 702,
-            "value": 1976
-          },
-          {
-            "type": "Literal",
-            "start": 704,
-            "end": 713,
-            "value": "isoYear"
+            "start": 664,
+            "end": 684,
+            "value": "iso reference date"
           }
         ],
         "optional": false

@@ -1,0 +1,359 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 692,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 364,
+      "end": 386,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 370,
+          "end": 385,
+          "id": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 375,
+            "name": "style"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 378,
+            "end": 385,
+            "value": "short"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 388,
+      "end": 436,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 394,
+          "end": 435,
+          "id": {
+            "type": "Identifier",
+            "start": 394,
+            "end": 402,
+            "name": "duration"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 405,
+            "end": 435,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 409,
+                "end": 417,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 409,
+                  "end": 414,
+                  "name": "hours"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 416,
+                  "end": 417,
+                  "value": 0
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 421,
+                "end": 432,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 421,
+                  "end": 428,
+                  "name": "seconds"
+                },
+                "value": {
+                  "type": "UnaryExpression",
+                  "start": 430,
+                  "end": 432,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 431,
+                    "end": 432,
+                    "value": 1
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 438,
+      "end": 512,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 444,
+          "end": 511,
+          "id": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 446,
+            "name": "df"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 449,
+            "end": 511,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 453,
+              "end": 472,
+              "object": {
+                "type": "Identifier",
+                "start": 453,
+                "end": 457,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 458,
+                "end": 472,
+                "name": "DurationFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 473,
+                "end": 477,
+                "value": "en"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 479,
+                "end": 510,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 480,
+                    "end": 485,
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 480,
+                      "end": 485,
+                      "name": "style"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "Identifier",
+                      "start": 480,
+                      "end": 485,
+                      "name": "style"
+                    }
+                  },
+                  {
+                    "type": "Property",
+                    "start": 487,
+                    "end": 509,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 487,
+                      "end": 499,
+                      "name": "hoursDisplay"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 501,
+                      "end": 509,
+                      "value": "always"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 514,
+      "end": 573,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 520,
+          "end": 572,
+          "id": {
+            "type": "Identifier",
+            "start": 520,
+            "end": 528,
+            "name": "expected"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 531,
+            "end": 572,
+            "callee": {
+              "type": "Identifier",
+              "start": 531,
+              "end": 558,
+              "name": "formatDurationFormatPattern"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 559,
+                "end": 561,
+                "name": "df"
+              },
+              {
+                "type": "Identifier",
+                "start": 563,
+                "end": 571,
+                "name": "duration"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 575,
+      "end": 691,
+      "expression": {
+        "type": "CallExpression",
+        "start": 575,
+        "end": 690,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 575,
+          "end": 591,
+          "object": {
+            "type": "Identifier",
+            "start": 575,
+            "end": 581,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 582,
+            "end": 591,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 595,
+            "end": 614,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 595,
+              "end": 604,
+              "object": {
+                "type": "Identifier",
+                "start": 595,
+                "end": 597,
+                "name": "df"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 598,
+                "end": 604,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 605,
+                "end": 613,
+                "name": "duration"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 618,
+            "end": 626,
+            "name": "expected"
+          },
+          {
+            "type": "TemplateLiteral",
+            "start": 630,
+            "end": 688,
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 668,
+                "end": 673,
+                "name": "style"
+              }
+            ],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 631,
+                "end": 666,
+                "value": {
+                  "raw": "DurationFormat format output using ",
+                  "cooked": "DurationFormat format output using "
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 674,
+                "end": 687,
+                "value": {
+                  "raw": " style option",
+                  "cooked": " style option"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,1077 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1468,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 271,
+      "end": 335,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 277,
+          "end": 334,
+          "id": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 287,
+            "name": "neverEqual"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 290,
+            "end": 334,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 294,
+              "end": 316,
+              "object": {
+                "type": "Identifier",
+                "start": 294,
+                "end": 302,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 303,
+                "end": 316,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 317,
+                "end": 319,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 321,
+                "end": 333,
+                "value": "Asia/Tokyo"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 336,
+      "end": 402,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 342,
+          "end": 401,
+          "id": {
+            "type": "Identifier",
+            "start": 342,
+            "end": 345,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 348,
+            "end": 401,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 352,
+              "end": 374,
+              "object": {
+                "type": "Identifier",
+                "start": 352,
+                "end": 360,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 361,
+                "end": 374,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 375,
+                "end": 377,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 379,
+                "end": 400,
+                "value": "America/Los_Angeles"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 403,
+      "end": 765,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 409,
+          "end": 764,
+          "id": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 412,
+            "name": "ids"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 415,
+            "end": 764,
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "start": 419,
+                "end": 451,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 420,
+                    "end": 434,
+                    "value": "America/Atka"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 436,
+                    "end": 450,
+                    "value": "America/Adak"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 455,
+                "end": 498,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 456,
+                    "end": 473,
+                    "value": "America/Knox_IN"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 475,
+                    "end": 497,
+                    "value": "America/Indiana/Knox"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 502,
+                "end": 537,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 503,
+                    "end": 519,
+                    "value": "Asia/Ashkhabad"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 521,
+                    "end": 536,
+                    "value": "Asia/Ashgabat"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 541,
+                "end": 569,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 542,
+                    "end": 554,
+                    "value": "Asia/Dacca"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 556,
+                    "end": 568,
+                    "value": "Asia/Dhaka"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 573,
+                "end": 609,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 574,
+                    "end": 589,
+                    "value": "Asia/Istanbul"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 591,
+                    "end": 608,
+                    "value": "Europe/Istanbul"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 613,
+                "end": 641,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 614,
+                    "end": 626,
+                    "value": "Asia/Macao"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 628,
+                    "end": 640,
+                    "value": "Asia/Macau"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 645,
+                "end": 676,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 646,
+                    "end": 659,
+                    "value": "Asia/Thimbu"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 661,
+                    "end": 675,
+                    "value": "Asia/Thimphu"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 680,
+                "end": 719,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 681,
+                    "end": 701,
+                    "value": "Asia/Ujung_Pandang"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 703,
+                    "end": 718,
+                    "value": "Asia/Makassar"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 723,
+                "end": 762,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 724,
+                    "end": 741,
+                    "value": "Asia/Ulan_Bator"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 743,
+                    "end": 761,
+                    "value": "Asia/Ulaanbaatar"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 767,
+      "end": 1467,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 772,
+        "end": 809,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 778,
+            "end": 809,
+            "id": {
+              "type": "ArrayPattern",
+              "start": 778,
+              "end": 809,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 779,
+                  "end": 789,
+                  "name": "identifier"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 791,
+                  "end": 808,
+                  "name": "primaryIdentifier"
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 813,
+        "end": 816,
+        "name": "ids"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 818,
+        "end": 1467,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 822,
+            "end": 862,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 828,
+                "end": 861,
+                "id": {
+                  "type": "Identifier",
+                  "start": 828,
+                  "end": 830,
+                  "name": "z1"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 833,
+                  "end": 861,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 833,
+                    "end": 849,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 833,
+                      "end": 836,
+                      "name": "zdt"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 837,
+                      "end": 849,
+                      "name": "withTimeZone"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 850,
+                      "end": 860,
+                      "name": "identifier"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 865,
+            "end": 912,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 871,
+                "end": 911,
+                "id": {
+                  "type": "Identifier",
+                  "start": 871,
+                  "end": 873,
+                  "name": "z2"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 876,
+                  "end": 911,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 876,
+                    "end": 892,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 876,
+                      "end": 879,
+                      "name": "zdt"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 880,
+                      "end": 892,
+                      "name": "withTimeZone"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 893,
+                      "end": 910,
+                      "name": "primaryIdentifier"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 937,
+            "end": 1011,
+            "expression": {
+              "type": "CallExpression",
+              "start": 937,
+              "end": 1010,
+              "callee": {
+                "type": "Identifier",
+                "start": 937,
+                "end": 943,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 944,
+                  "end": 957,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 944,
+                    "end": 953,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 944,
+                      "end": 946,
+                      "name": "z1"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 947,
+                      "end": 953,
+                      "name": "equals"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 954,
+                      "end": 956,
+                      "name": "z2"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 959,
+                  "end": 1009,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 962,
+                      "end": 972,
+                      "name": "identifier"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 983,
+                      "end": 1000,
+                      "name": "primaryIdentifier"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 960,
+                      "end": 960,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 973,
+                      "end": 981,
+                      "value": {
+                        "raw": " equals ",
+                        "cooked": " equals "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1001,
+                      "end": 1008,
+                      "value": {
+                        "raw": " object",
+                        "cooked": " object"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1014,
+            "end": 1088,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1014,
+              "end": 1087,
+              "callee": {
+                "type": "Identifier",
+                "start": 1014,
+                "end": 1020,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 1021,
+                  "end": 1034,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 1021,
+                    "end": 1030,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1021,
+                      "end": 1023,
+                      "name": "z2"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1024,
+                      "end": 1030,
+                      "name": "equals"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 1031,
+                      "end": 1033,
+                      "name": "z1"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 1036,
+                  "end": 1086,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1039,
+                      "end": 1056,
+                      "name": "primaryIdentifier"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1067,
+                      "end": 1077,
+                      "name": "identifier"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 1037,
+                      "end": 1037,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1057,
+                      "end": 1065,
+                      "value": {
+                        "raw": " equals ",
+                        "cooked": " equals "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1078,
+                      "end": 1085,
+                      "value": {
+                        "raw": " object",
+                        "cooked": " object"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1091,
+            "end": 1165,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1091,
+              "end": 1164,
+              "callee": {
+                "type": "Identifier",
+                "start": 1091,
+                "end": 1097,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 1098,
+                  "end": 1120,
+                  "operator": "!",
+                  "prefix": true,
+                  "argument": {
+                    "type": "CallExpression",
+                    "start": 1099,
+                    "end": 1120,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1099,
+                      "end": 1108,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1099,
+                        "end": 1101,
+                        "name": "z1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1102,
+                        "end": 1108,
+                        "name": "equals"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1109,
+                        "end": 1119,
+                        "name": "neverEqual"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 1122,
+                  "end": 1163,
+                  "value": "not equal to unrelated time zone object"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1196,
+            "end": 1287,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1196,
+              "end": 1286,
+              "callee": {
+                "type": "Identifier",
+                "start": 1196,
+                "end": 1202,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 1203,
+                  "end": 1227,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 1203,
+                    "end": 1212,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1203,
+                      "end": 1205,
+                      "name": "z1"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1206,
+                      "end": 1212,
+                      "name": "equals"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "CallExpression",
+                      "start": 1213,
+                      "end": 1226,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1213,
+                        "end": 1224,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1213,
+                          "end": 1215,
+                          "name": "z2"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1216,
+                          "end": 1224,
+                          "name": "toString"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 1229,
+                  "end": 1285,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1232,
+                      "end": 1242,
+                      "name": "identifier"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1253,
+                      "end": 1270,
+                      "name": "primaryIdentifier"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 1230,
+                      "end": 1230,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1243,
+                      "end": 1251,
+                      "value": {
+                        "raw": " equals ",
+                        "cooked": " equals "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1271,
+                      "end": 1284,
+                      "value": {
+                        "raw": " IXDTF string",
+                        "cooked": " IXDTF string"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1290,
+            "end": 1381,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1290,
+              "end": 1380,
+              "callee": {
+                "type": "Identifier",
+                "start": 1290,
+                "end": 1296,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 1297,
+                  "end": 1321,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 1297,
+                    "end": 1306,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1297,
+                      "end": 1299,
+                      "name": "z2"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1300,
+                      "end": 1306,
+                      "name": "equals"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "CallExpression",
+                      "start": 1307,
+                      "end": 1320,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1307,
+                        "end": 1318,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1307,
+                          "end": 1309,
+                          "name": "z1"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1310,
+                          "end": 1318,
+                          "name": "toString"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 1323,
+                  "end": 1379,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1326,
+                      "end": 1343,
+                      "name": "primaryIdentifier"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1354,
+                      "end": 1364,
+                      "name": "identifier"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 1324,
+                      "end": 1324,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1344,
+                      "end": 1352,
+                      "value": {
+                        "raw": " equals ",
+                        "cooked": " equals "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1365,
+                      "end": 1378,
+                      "value": {
+                        "raw": " IXDTF string",
+                        "cooked": " IXDTF string"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1384,
+            "end": 1465,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1384,
+              "end": 1464,
+              "callee": {
+                "type": "Identifier",
+                "start": 1384,
+                "end": 1390,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 1391,
+                  "end": 1424,
+                  "operator": "!",
+                  "prefix": true,
+                  "argument": {
+                    "type": "CallExpression",
+                    "start": 1392,
+                    "end": 1424,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1392,
+                      "end": 1401,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1392,
+                        "end": 1394,
+                        "name": "z1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1395,
+                        "end": 1401,
+                        "name": "equals"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1402,
+                        "end": 1423,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1402,
+                          "end": 1421,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1402,
+                            "end": 1412,
+                            "name": "neverEqual"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1413,
+                            "end": 1421,
+                            "name": "toString"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 1426,
+                  "end": 1463,
+                  "value": "not equal to unrelated IXDTF string"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -25,7 +25,8 @@
         "start": 335,
         "end": 366,
         "value": "./export-expname-from-star.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -37,7 +38,8 @@
         "start": 382,
         "end": 411,
         "value": "./export-expname_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

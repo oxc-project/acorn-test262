@@ -50,7 +50,8 @@
                       "start": 4025,
                       "end": 4053,
                       "value": "./own-keys-sort_FIXTURE.js"
-                    }
+                    },
+                    "options": null
                   }
                 }
               }

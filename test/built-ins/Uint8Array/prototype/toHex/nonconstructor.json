@@ -1,0 +1,209 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 552,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 344,
+      "end": 446,
+      "expression": {
+        "type": "CallExpression",
+        "start": 344,
+        "end": 445,
+        "callee": {
+          "type": "Identifier",
+          "start": 344,
+          "end": 350,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 351,
+            "end": 393,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 352,
+              "end": 393,
+              "callee": {
+                "type": "Identifier",
+                "start": 352,
+                "end": 365,
+                "name": "isConstructor"
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 366,
+                  "end": 392,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 366,
+                    "end": 386,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 366,
+                      "end": 376,
+                      "name": "Uint8Array"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 377,
+                      "end": 386,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 387,
+                    "end": 392,
+                    "name": "toHex"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 395,
+            "end": 444,
+            "value": "Uint8Array.prototype.toHex is not a constructor"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 448,
+      "end": 483,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 452,
+          "end": 482,
+          "id": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 462,
+            "name": "uint8Array"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 465,
+            "end": 482,
+            "callee": {
+              "type": "Identifier",
+              "start": 469,
+              "end": 479,
+              "name": "Uint8Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 480,
+                "end": 481,
+                "value": 8
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 484,
+      "end": 551,
+      "expression": {
+        "type": "CallExpression",
+        "start": 484,
+        "end": 550,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 484,
+          "end": 497,
+          "object": {
+            "type": "Identifier",
+            "start": 484,
+            "end": 490,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 491,
+            "end": 497,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 498,
+            "end": 507,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 509,
+            "end": 549,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 520,
+              "end": 549,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 524,
+                  "end": 547,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 524,
+                    "end": 546,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 528,
+                      "end": 544,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 528,
+                        "end": 538,
+                        "name": "uint8Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 539,
+                        "end": 544,
+                        "name": "toHex"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

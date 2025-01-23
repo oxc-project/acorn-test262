@@ -1,12 +1,12 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 790,
+  "end": 650,
   "body": [
     {
       "type": "FunctionDeclaration",
       "start": 293,
-      "end": 560,
+      "end": 508,
       "id": {
         "type": "Identifier",
         "start": 302,
@@ -39,31 +39,31 @@
       "body": {
         "type": "BlockStatement",
         "start": 362,
-        "end": 560,
+        "end": 508,
         "body": [
           {
             "type": "VariableDeclaration",
             "start": 366,
-            "end": 425,
+            "end": 434,
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 372,
-                "end": 424,
+                "end": 433,
                 "id": {
                   "type": "Identifier",
                   "start": 372,
                   "end": 380,
-                  "name": "timeZone"
+                  "name": "datetime"
                 },
                 "init": {
                   "type": "NewExpression",
                   "start": 383,
-                  "end": 424,
+                  "end": 433,
                   "callee": {
                     "type": "MemberExpression",
                     "start": 387,
-                    "end": 404,
+                    "end": 409,
                     "object": {
                       "type": "Identifier",
                       "start": 387,
@@ -73,17 +73,23 @@
                     "property": {
                       "type": "Identifier",
                       "start": 396,
-                      "end": 404,
-                      "name": "TimeZone"
+                      "end": 409,
+                      "name": "ZonedDateTime"
                     },
                     "computed": false,
                     "optional": false
                   },
                   "arguments": [
                     {
+                      "type": "Literal",
+                      "start": 410,
+                      "end": 412,
+                      "value": "0n"
+                    },
+                    {
                       "type": "Identifier",
-                      "start": 405,
-                      "end": 423,
+                      "start": 414,
+                      "end": 432,
                       "name": "timeZoneIdentifier"
                     }
                   ]
@@ -93,84 +99,27 @@
             "kind": "const"
           },
           {
-            "type": "VariableDeclaration",
-            "start": 428,
-            "end": 486,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 434,
-                "end": 485,
-                "id": {
-                  "type": "Identifier",
-                  "start": 434,
-                  "end": 442,
-                  "name": "datetime"
-                },
-                "init": {
-                  "type": "NewExpression",
-                  "start": 445,
-                  "end": 485,
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 449,
-                    "end": 471,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 449,
-                      "end": 457,
-                      "name": "Temporal"
-                    },
-                    "property": {
-                      "type": "Identifier",
-                      "start": 458,
-                      "end": 471,
-                      "name": "ZonedDateTime"
-                    },
-                    "computed": false,
-                    "optional": false
-                  },
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 472,
-                      "end": 474,
-                      "value": "0n"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 476,
-                      "end": 484,
-                      "name": "timeZone"
-                    }
-                  ]
-                }
-              }
-            ],
-            "kind": "const"
-          },
-          {
             "type": "ExpressionStatement",
-            "start": 489,
-            "end": 558,
+            "start": 437,
+            "end": 506,
             "expression": {
               "type": "CallExpression",
-              "start": 489,
-              "end": 557,
+              "start": 437,
+              "end": 505,
               "callee": {
                 "type": "MemberExpression",
-                "start": 489,
-                "end": 505,
+                "start": 437,
+                "end": 453,
                 "object": {
                   "type": "Identifier",
-                  "start": 489,
-                  "end": 495,
+                  "start": 437,
+                  "end": 443,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 496,
-                  "end": 505,
+                  "start": 444,
+                  "end": 453,
                   "name": "sameValue"
                 },
                 "computed": false,
@@ -179,18 +128,18 @@
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 506,
-                  "end": 521,
+                  "start": 454,
+                  "end": 469,
                   "object": {
                     "type": "Identifier",
-                    "start": 506,
-                    "end": 514,
+                    "start": 454,
+                    "end": 462,
                     "name": "datetime"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 515,
-                    "end": 521,
+                    "start": 463,
+                    "end": 469,
                     "name": "offset"
                   },
                   "computed": false,
@@ -198,14 +147,14 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 523,
-                  "end": 543,
+                  "start": 471,
+                  "end": 491,
                   "name": "expectedOffsetString"
                 },
                 {
                   "type": "Identifier",
-                  "start": 545,
-                  "end": 556,
+                  "start": 493,
+                  "end": 504,
                   "name": "description"
                 }
               ],
@@ -217,35 +166,35 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 562,
-      "end": 611,
+      "start": 510,
+      "end": 559,
       "expression": {
         "type": "CallExpression",
-        "start": 562,
-        "end": 610,
+        "start": 510,
+        "end": 558,
         "callee": {
           "type": "Identifier",
-          "start": 562,
-          "end": 566,
+          "start": 510,
+          "end": 514,
           "name": "test"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 567,
-            "end": 572,
+            "start": 515,
+            "end": 520,
             "value": "UTC"
           },
           {
             "type": "Literal",
-            "start": 574,
-            "end": 582,
+            "start": 522,
+            "end": 530,
             "value": "+00:00"
           },
           {
             "type": "Literal",
-            "start": 584,
-            "end": 609,
+            "start": 532,
+            "end": 557,
             "value": "offset of UTC is +00:00"
           }
         ],
@@ -254,35 +203,35 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 612,
-      "end": 656,
+      "start": 560,
+      "end": 604,
       "expression": {
         "type": "CallExpression",
-        "start": 612,
-        "end": 655,
+        "start": 560,
+        "end": 603,
         "callee": {
           "type": "Identifier",
-          "start": 612,
-          "end": 616,
+          "start": 560,
+          "end": 564,
           "name": "test"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 617,
-            "end": 625,
+            "start": 565,
+            "end": 573,
             "value": "+01:00"
           },
           {
             "type": "Literal",
-            "start": 627,
-            "end": 635,
+            "start": 575,
+            "end": 583,
             "value": "+01:00"
           },
           {
             "type": "Literal",
-            "start": 637,
-            "end": 654,
+            "start": 585,
+            "end": 602,
             "value": "positive offset"
           }
         ],
@@ -291,73 +240,36 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 657,
-      "end": 701,
+      "start": 605,
+      "end": 649,
       "expression": {
         "type": "CallExpression",
-        "start": 657,
-        "end": 700,
+        "start": 605,
+        "end": 648,
         "callee": {
           "type": "Identifier",
-          "start": 657,
-          "end": 661,
+          "start": 605,
+          "end": 609,
           "name": "test"
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 662,
-            "end": 670,
+            "start": 610,
+            "end": 618,
             "value": "-05:00"
           },
           {
             "type": "Literal",
-            "start": 672,
-            "end": 680,
+            "start": 620,
+            "end": 628,
             "value": "-05:00"
           },
           {
             "type": "Literal",
-            "start": 682,
-            "end": 699,
+            "start": 630,
+            "end": 647,
             "value": "negative offset"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 702,
-      "end": 789,
-      "expression": {
-        "type": "CallExpression",
-        "start": 702,
-        "end": 788,
-        "callee": {
-          "type": "Identifier",
-          "start": 702,
-          "end": 706,
-          "name": "test"
-        },
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 707,
-            "end": 728,
-            "value": "+00:44:59.123456789"
-          },
-          {
-            "type": "Literal",
-            "start": 730,
-            "end": 751,
-            "value": "+00:44:59.123456789"
-          },
-          {
-            "type": "Literal",
-            "start": 753,
-            "end": 787,
-            "value": "sub-minute offset is not rounded"
           }
         ],
         "optional": false

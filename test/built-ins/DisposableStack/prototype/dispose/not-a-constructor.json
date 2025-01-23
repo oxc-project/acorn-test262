@@ -1,0 +1,227 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1061,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 731,
+      "end": 883,
+      "expression": {
+        "type": "CallExpression",
+        "start": 731,
+        "end": 882,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 731,
+          "end": 747,
+          "object": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 737,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 738,
+            "end": 747,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 751,
+            "end": 799,
+            "callee": {
+              "type": "Identifier",
+              "start": 751,
+              "end": 764,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 765,
+                "end": 798,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 765,
+                  "end": 790,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 765,
+                    "end": 780,
+                    "name": "DisposableStack"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 781,
+                    "end": 790,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 791,
+                  "end": 798,
+                  "name": "dispose"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 803,
+            "end": 808,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 812,
+            "end": 880,
+            "value": "isConstructor(DisposableStack.prototype.dispose) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 885,
+      "end": 1060,
+      "expression": {
+        "type": "CallExpression",
+        "start": 885,
+        "end": 1059,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 885,
+          "end": 898,
+          "object": {
+            "type": "Identifier",
+            "start": 885,
+            "end": 891,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 892,
+            "end": 898,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 899,
+            "end": 908,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 910,
+            "end": 979,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 916,
+              "end": 979,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 920,
+                  "end": 956,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 924,
+                      "end": 955,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 924,
+                        "end": 929,
+                        "name": "stack"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 932,
+                        "end": 955,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 936,
+                          "end": 951,
+                          "name": "DisposableStack"
+                        },
+                        "arguments": [
+                          {
+                            "type": "ObjectExpression",
+                            "start": 952,
+                            "end": 954,
+                            "properties": []
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 957,
+                  "end": 977,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 957,
+                    "end": 976,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 961,
+                      "end": 974,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 961,
+                        "end": 966,
+                        "name": "stack"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 967,
+                        "end": 974,
+                        "name": "dispose"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 981,
+            "end": 1058,
+            "value": "`let stack = new DisposableStack({}); new stack.dispose()` throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

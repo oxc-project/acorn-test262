@@ -1,0 +1,341 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 609,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 304,
+      "end": 345,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 310,
+          "end": 344,
+          "id": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 317,
+            "name": "earlier"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 320,
+            "end": 344,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 324,
+              "end": 342,
+              "object": {
+                "type": "Identifier",
+                "start": 324,
+                "end": 332,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 333,
+                "end": 342,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 346,
+      "end": 394,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 352,
+          "end": 393,
+          "id": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 357,
+            "name": "later"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 360,
+            "end": 393,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 364,
+              "end": 382,
+              "object": {
+                "type": "Identifier",
+                "start": 364,
+                "end": 372,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 382,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 383,
+                "end": 384,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 386,
+                "end": 388,
+                "value": 59
+              },
+              {
+                "type": "Literal",
+                "start": 390,
+                "end": 392,
+                "value": 59
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 395,
+      "end": 508,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 401,
+          "end": 507,
+          "id": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 409,
+            "name": "duration"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 412,
+            "end": 507,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 412,
+              "end": 425,
+              "object": {
+                "type": "Identifier",
+                "start": 412,
+                "end": 419,
+                "name": "earlier"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 420,
+                "end": 425,
+                "name": "until"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 426,
+                "end": 431,
+                "name": "later"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 433,
+                "end": 506,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 435,
+                    "end": 455,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 435,
+                      "end": 446,
+                      "name": "largestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 448,
+                      "end": 455,
+                      "value": "hours"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 457,
+                    "end": 480,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 457,
+                      "end": 469,
+                      "name": "smallestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 471,
+                      "end": 480,
+                      "value": "minutes"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 482,
+                    "end": 504,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 482,
+                      "end": 494,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 496,
+                      "end": 504,
+                      "value": "expand"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 509,
+      "end": 608,
+      "expression": {
+        "type": "CallExpression",
+        "start": 509,
+        "end": 607,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 509,
+          "end": 539,
+          "object": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 524,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 525,
+            "end": 539,
+            "name": "assertDuration"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 540,
+            "end": 548,
+            "name": "duration"
+          },
+          {
+            "type": "Literal",
+            "start": 550,
+            "end": 551,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 553,
+            "end": 554,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 556,
+            "end": 557,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 559,
+            "end": 560,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 562,
+            "end": 563,
+            "value": 2
+          },
+          {
+            "type": "Literal",
+            "start": 565,
+            "end": 566,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 568,
+            "end": 569,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 571,
+            "end": 572,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 574,
+            "end": 575,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 577,
+            "end": 578,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 580,
+            "end": 606,
+            "value": "1:60 balances to 2 hours"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

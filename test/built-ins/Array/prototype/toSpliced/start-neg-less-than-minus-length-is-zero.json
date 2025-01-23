@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 735,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 647,
+      "end": 694,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 651,
+          "end": 693,
+          "id": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 657,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 660,
+            "end": 693,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 660,
+              "end": 685,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 660,
+                "end": 675,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 661,
+                    "end": 662,
+                    "value": 0
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 664,
+                    "end": 665,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 667,
+                    "end": 668,
+                    "value": 2
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 670,
+                    "end": 671,
+                    "value": 3
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 673,
+                    "end": 674,
+                    "value": 4
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 676,
+                "end": 685,
+                "name": "toSpliced"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 686,
+                "end": 689,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 687,
+                  "end": 689,
+                  "value": 20
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 691,
+                "end": 692,
+                "value": 2
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 695,
+      "end": 734,
+      "expression": {
+        "type": "CallExpression",
+        "start": 695,
+        "end": 733,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 695,
+          "end": 714,
+          "object": {
+            "type": "Identifier",
+            "start": 695,
+            "end": 701,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 702,
+            "end": 714,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 715,
+            "end": 721,
+            "name": "result"
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 723,
+            "end": 732,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 724,
+                "end": 725,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 727,
+                "end": 728,
+                "value": 3
+              },
+              {
+                "type": "Literal",
+                "start": 730,
+                "end": 731,
+                "value": 4
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

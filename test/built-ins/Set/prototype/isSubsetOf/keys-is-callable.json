@@ -1,0 +1,392 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 797,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 426,
+      "end": 453,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 432,
+          "end": 452,
+          "id": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 434,
+            "name": "s1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 437,
+            "end": 452,
+            "callee": {
+              "type": "Identifier",
+              "start": 441,
+              "end": 444,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 445,
+                "end": 451,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 446,
+                    "end": 447,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 449,
+                    "end": 450,
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 454,
+      "end": 516,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 460,
+          "end": 515,
+          "id": {
+            "type": "Identifier",
+            "start": 460,
+            "end": 462,
+            "name": "s2"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 465,
+            "end": 515,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 469,
+                "end": 476,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 469,
+                  "end": 473,
+                  "name": "size"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 475,
+                  "end": 476,
+                  "value": 2
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 480,
+                "end": 493,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 480,
+                  "end": 483,
+                  "name": "has"
+                },
+                "value": {
+                  "type": "ArrowFunctionExpression",
+                  "start": 485,
+                  "end": 493,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 491,
+                    "end": 493,
+                    "body": []
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 497,
+                "end": 512,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 497,
+                  "end": 501,
+                  "name": "keys"
+                },
+                "value": {
+                  "type": "Identifier",
+                  "start": 503,
+                  "end": 512,
+                  "name": "undefined"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 517,
+      "end": 647,
+      "expression": {
+        "type": "CallExpression",
+        "start": 517,
+        "end": 646,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 517,
+          "end": 530,
+          "object": {
+            "type": "Identifier",
+            "start": 517,
+            "end": 523,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 530,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 534,
+            "end": 543,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 547,
+            "end": 587,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 559,
+              "end": 587,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 565,
+                  "end": 583,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 565,
+                    "end": 582,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 565,
+                      "end": 578,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 565,
+                        "end": 567,
+                        "name": "s1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 568,
+                        "end": 578,
+                        "name": "isSubsetOf"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 579,
+                        "end": 581,
+                        "name": "s2"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 591,
+            "end": 644,
+            "value": "GetSetRecord throws an error when keys is undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 649,
+      "end": 662,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 649,
+        "end": 661,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 649,
+          "end": 656,
+          "object": {
+            "type": "Identifier",
+            "start": 649,
+            "end": 651,
+            "name": "s2"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 652,
+            "end": 656,
+            "name": "keys"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 659,
+          "end": 661,
+          "properties": []
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 663,
+      "end": 796,
+      "expression": {
+        "type": "CallExpression",
+        "start": 663,
+        "end": 795,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 663,
+          "end": 676,
+          "object": {
+            "type": "Identifier",
+            "start": 663,
+            "end": 669,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 670,
+            "end": 676,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 680,
+            "end": 689,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 693,
+            "end": 733,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 705,
+              "end": 733,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 711,
+                  "end": 729,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 711,
+                    "end": 728,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 711,
+                      "end": 724,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 711,
+                        "end": 713,
+                        "name": "s1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 714,
+                        "end": 724,
+                        "name": "isSubsetOf"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 725,
+                        "end": 727,
+                        "name": "s2"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 737,
+            "end": 793,
+            "value": "GetSetRecord throws an error when keys is not callable"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

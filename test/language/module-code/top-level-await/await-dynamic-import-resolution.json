@@ -31,7 +31,8 @@
                 "start": 1890,
                 "end": 1929,
                 "value": "./module-import-resolution_FIXTURE.js"
-              }
+              },
+              "options": null
             }
           }
         }

@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1000,
+  "end": 892,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -164,11 +164,11 @@
     {
       "type": "ExpressionStatement",
       "start": 737,
-      "end": 853,
+      "end": 806,
       "expression": {
         "type": "CallExpression",
         "start": 737,
-        "end": 852,
+        "end": 805,
         "callee": {
           "type": "MemberExpression",
           "start": 737,
@@ -261,12 +261,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 806,
-            "end": 851,
-            "value": "`Atomics.wait(i64a, 0, 0)` throws TypeError"
           }
         ],
         "optional": false
@@ -274,26 +268,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 855,
-      "end": 999,
+      "start": 808,
+      "end": 891,
       "expression": {
         "type": "CallExpression",
-        "start": 855,
-        "end": 998,
+        "start": 808,
+        "end": 890,
         "callee": {
           "type": "MemberExpression",
-          "start": 855,
-          "end": 868,
+          "start": 808,
+          "end": 821,
           "object": {
             "type": "Identifier",
-            "start": 855,
-            "end": 861,
+            "start": 808,
+            "end": 814,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 862,
-            "end": 868,
+            "start": 815,
+            "end": 821,
             "name": "throws"
           },
           "computed": false,
@@ -302,14 +296,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 869,
-            "end": 878,
+            "start": 822,
+            "end": 831,
             "name": "TypeError"
           },
           {
             "type": "FunctionExpression",
-            "start": 880,
-            "end": 936,
+            "start": 833,
+            "end": 889,
             "id": null,
             "expression": false,
             "generator": false,
@@ -317,31 +311,31 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 891,
-              "end": 936,
+              "start": 844,
+              "end": 889,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 895,
-                  "end": 934,
+                  "start": 848,
+                  "end": 887,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 895,
-                    "end": 933,
+                    "start": 848,
+                    "end": 886,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 895,
-                      "end": 907,
+                      "start": 848,
+                      "end": 860,
                       "object": {
                         "type": "Identifier",
-                        "start": 895,
-                        "end": 902,
+                        "start": 848,
+                        "end": 855,
                         "name": "Atomics"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 903,
-                        "end": 907,
+                        "start": 856,
+                        "end": 860,
                         "name": "wait"
                       },
                       "computed": false,
@@ -350,20 +344,20 @@
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 908,
-                        "end": 912,
+                        "start": 861,
+                        "end": 865,
                         "name": "i64a"
                       },
                       {
                         "type": "Identifier",
-                        "start": 914,
-                        "end": 922,
+                        "start": 867,
+                        "end": 875,
                         "name": "poisoned"
                       },
                       {
                         "type": "Identifier",
-                        "start": 924,
-                        "end": 932,
+                        "start": 877,
+                        "end": 885,
                         "name": "poisoned"
                       }
                     ],
@@ -372,12 +366,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 938,
-            "end": 997,
-            "value": "`Atomics.wait(i64a, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

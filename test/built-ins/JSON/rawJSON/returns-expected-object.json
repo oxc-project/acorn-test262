@@ -1,0 +1,698 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1324,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 514,
+      "end": 1097,
+      "id": {
+        "type": "Identifier",
+        "start": 523,
+        "end": 538,
+        "name": "assertIsRawJSON"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 539,
+          "end": 546,
+          "name": "rawJSON"
+        },
+        {
+          "type": "Identifier",
+          "start": 548,
+          "end": 568,
+          "name": "expectedRawJSONValue"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 570,
+        "end": 1097,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 574,
+            "end": 674,
+            "expression": {
+              "type": "CallExpression",
+              "start": 574,
+              "end": 673,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 574,
+                "end": 590,
+                "object": {
+                  "type": "Identifier",
+                  "start": 574,
+                  "end": 580,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 581,
+                  "end": 590,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 591,
+                  "end": 621,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 591,
+                    "end": 612,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 591,
+                      "end": 597,
+                      "name": "Object"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 598,
+                      "end": 612,
+                      "name": "getPrototypeOf"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 613,
+                      "end": 620,
+                      "name": "rawJSON"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 623,
+                  "end": 627,
+                  "value": null
+                },
+                {
+                  "type": "Literal",
+                  "start": 629,
+                  "end": 672,
+                  "value": "RawJSON object should have null prototype"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 677,
+            "end": 770,
+            "expression": {
+              "type": "CallExpression",
+              "start": 677,
+              "end": 769,
+              "callee": {
+                "type": "Identifier",
+                "start": 677,
+                "end": 683,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 684,
+                  "end": 717,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 684,
+                    "end": 697,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 684,
+                      "end": 690,
+                      "name": "Object"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 691,
+                      "end": 697,
+                      "name": "hasOwn"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 698,
+                      "end": 705,
+                      "name": "rawJSON"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 707,
+                      "end": 716,
+                      "value": "rawJSON"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 719,
+                  "end": 768,
+                  "value": "RawJSON object should have rawJSON own property"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 773,
+            "end": 899,
+            "expression": {
+              "type": "CallExpression",
+              "start": 773,
+              "end": 898,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 773,
+                "end": 792,
+                "object": {
+                  "type": "Identifier",
+                  "start": 773,
+                  "end": 779,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 780,
+                  "end": 792,
+                  "name": "compareArray"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 793,
+                  "end": 828,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 793,
+                    "end": 819,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 793,
+                      "end": 799,
+                      "name": "Object"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 800,
+                      "end": 819,
+                      "name": "getOwnPropertyNames"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 820,
+                      "end": 827,
+                      "name": "rawJSON"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "ArrayExpression",
+                  "start": 830,
+                  "end": 841,
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "start": 831,
+                      "end": 840,
+                      "value": "rawJSON"
+                    }
+                  ]
+                },
+                {
+                  "type": "Literal",
+                  "start": 843,
+                  "end": 897,
+                  "value": "RawJSON object should have only rawJSON own property"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 902,
+            "end": 1019,
+            "expression": {
+              "type": "CallExpression",
+              "start": 902,
+              "end": 1018,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 902,
+                "end": 921,
+                "object": {
+                  "type": "Identifier",
+                  "start": 902,
+                  "end": 908,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 909,
+                  "end": 921,
+                  "name": "compareArray"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 922,
+                  "end": 959,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 922,
+                    "end": 950,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 922,
+                      "end": 928,
+                      "name": "Object"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 929,
+                      "end": 950,
+                      "name": "getOwnPropertySymbols"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 951,
+                      "end": 958,
+                      "name": "rawJSON"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "ArrayExpression",
+                  "start": 961,
+                  "end": 963,
+                  "elements": []
+                },
+                {
+                  "type": "Literal",
+                  "start": 965,
+                  "end": 1017,
+                  "value": "RawJSON object should have no own property symbols"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1022,
+            "end": 1095,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1022,
+              "end": 1094,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1022,
+                "end": 1038,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1022,
+                  "end": 1028,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1029,
+                  "end": 1038,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 1039,
+                  "end": 1054,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1039,
+                    "end": 1046,
+                    "name": "rawJSON"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1047,
+                    "end": 1054,
+                    "name": "rawJSON"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1056,
+                  "end": 1076,
+                  "name": "expectedRawJSONValue"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1078,
+                  "end": 1093,
+                  "value": "rawJSON value"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1099,
+      "end": 1137,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1099,
+        "end": 1136,
+        "callee": {
+          "type": "Identifier",
+          "start": 1099,
+          "end": 1114,
+          "name": "assertIsRawJSON"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1115,
+            "end": 1130,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1115,
+              "end": 1127,
+              "object": {
+                "type": "Identifier",
+                "start": 1115,
+                "end": 1119,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1120,
+                "end": 1127,
+                "name": "rawJSON"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1128,
+                "end": 1129,
+                "value": 1
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1132,
+            "end": 1135,
+            "value": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1138,
+      "end": 1182,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1138,
+        "end": 1181,
+        "callee": {
+          "type": "Identifier",
+          "start": 1138,
+          "end": 1153,
+          "name": "assertIsRawJSON"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1154,
+            "end": 1172,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1154,
+              "end": 1166,
+              "object": {
+                "type": "Identifier",
+                "start": 1154,
+                "end": 1158,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1159,
+                "end": 1166,
+                "name": "rawJSON"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1167,
+                "end": 1171,
+                "value": null
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1174,
+            "end": 1180,
+            "value": "null"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1183,
+      "end": 1227,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1183,
+        "end": 1226,
+        "callee": {
+          "type": "Identifier",
+          "start": 1183,
+          "end": 1198,
+          "name": "assertIsRawJSON"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1199,
+            "end": 1217,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1199,
+              "end": 1211,
+              "object": {
+                "type": "Identifier",
+                "start": 1199,
+                "end": 1203,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1204,
+                "end": 1211,
+                "name": "rawJSON"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1212,
+                "end": 1216,
+                "value": true
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1219,
+            "end": 1225,
+            "value": "true"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1228,
+      "end": 1274,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1228,
+        "end": 1273,
+        "callee": {
+          "type": "Identifier",
+          "start": 1228,
+          "end": 1243,
+          "name": "assertIsRawJSON"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1244,
+            "end": 1263,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1244,
+              "end": 1256,
+              "object": {
+                "type": "Identifier",
+                "start": 1244,
+                "end": 1248,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1249,
+                "end": 1256,
+                "name": "rawJSON"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1257,
+                "end": 1262,
+                "value": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1265,
+            "end": 1272,
+            "value": "false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1275,
+      "end": 1323,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1275,
+        "end": 1322,
+        "callee": {
+          "type": "Identifier",
+          "start": 1275,
+          "end": 1290,
+          "name": "assertIsRawJSON"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1291,
+            "end": 1312,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1291,
+              "end": 1303,
+              "object": {
+                "type": "Identifier",
+                "start": 1291,
+                "end": 1295,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1296,
+                "end": 1303,
+                "name": "rawJSON"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1304,
+                "end": 1311,
+                "value": "\"foo\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1314,
+            "end": 1321,
+            "value": "\"foo\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

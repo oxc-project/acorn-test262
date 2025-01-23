@@ -1,0 +1,171 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 413,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 270,
+      "end": 316,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 276,
+          "end": 315,
+          "id": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 279,
+            "name": "pym"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 282,
+            "end": 315,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 286,
+              "end": 309,
+              "object": {
+                "type": "Identifier",
+                "start": 286,
+                "end": 294,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 295,
+                "end": 309,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 310,
+                "end": 311,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 313,
+                "end": 314,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 318,
+      "end": 412,
+      "expression": {
+        "type": "CallExpression",
+        "start": 318,
+        "end": 411,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 318,
+          "end": 334,
+          "object": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 324,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 334,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 338,
+            "end": 397,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 345,
+              "end": 397,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 345,
+                "end": 363,
+                "object": {
+                  "type": "Identifier",
+                  "start": 345,
+                  "end": 348,
+                  "name": "pym"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 349,
+                  "end": 363,
+                  "name": "toLocaleString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 364,
+                  "end": 373,
+                  "name": "undefined"
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 375,
+                  "end": 396,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 376,
+                      "end": 395,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 376,
+                        "end": 384,
+                        "name": "calendar"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 386,
+                        "end": 395,
+                        "value": "iso8601"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 401,
+            "end": 409,
+            "value": "string"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

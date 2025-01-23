@@ -215,7 +215,8 @@
         "start": 1899,
         "end": 1935,
         "value": "./instn-named-bndng-trlng-comma.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

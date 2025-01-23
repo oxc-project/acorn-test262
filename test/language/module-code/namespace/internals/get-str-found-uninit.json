@@ -25,7 +25,8 @@
         "start": 538,
         "end": 565,
         "value": "./get-str-found-uninit.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -455,7 +456,8 @@
         "start": 919,
         "end": 946,
         "value": "./get-str-found-uninit.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

@@ -1,0 +1,130 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 494,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 373,
+      "end": 395,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 377,
+          "end": 394,
+          "id": {
+            "type": "Identifier",
+            "start": 377,
+            "end": 378,
+            "name": "s"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 381,
+            "end": 394,
+            "callee": {
+              "type": "Identifier",
+              "start": 385,
+              "end": 392,
+              "name": "WeakSet"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 397,
+      "end": 493,
+      "expression": {
+        "type": "CallExpression",
+        "start": 397,
+        "end": 492,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 397,
+          "end": 413,
+          "object": {
+            "type": "Identifier",
+            "start": 397,
+            "end": 403,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 404,
+            "end": 413,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 414,
+            "end": 442,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 414,
+              "end": 419,
+              "object": {
+                "type": "Identifier",
+                "start": 414,
+                "end": 415,
+                "name": "s"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 416,
+                "end": 419,
+                "name": "add"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 420,
+                "end": 441,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 420,
+                  "end": 426,
+                  "name": "Symbol"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 427,
+                    "end": 440,
+                    "value": "description"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 444,
+            "end": 445,
+            "name": "s"
+          },
+          {
+            "type": "Literal",
+            "start": 447,
+            "end": 491,
+            "value": "`s.add(Symbol(\"description\"))` returns `s`"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

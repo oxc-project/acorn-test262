@@ -53,7 +53,8 @@
                         "start": 1262,
                         "end": 1293,
                         "value": "./THIS_FILE_DOES_NOT_EXIST.js"
-                      }
+                      },
+                      "options": null
                     },
                     "property": {
                       "type": "Identifier",

@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 641,
+  "end": 625,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 505,
-      "end": 640,
+      "end": 624,
       "expression": {
         "type": "CallExpression",
         "start": 505,
-        "end": 639,
+        "end": 623,
         "callee": {
           "type": "MemberExpression",
           "start": 505,
@@ -40,7 +40,7 @@
           {
             "type": "FunctionExpression",
             "start": 532,
-            "end": 638,
+            "end": 622,
             "id": null,
             "expression": false,
             "generator": false,
@@ -49,27 +49,27 @@
             "body": {
               "type": "BlockStatement",
               "start": 543,
-              "end": 638,
+              "end": 622,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 557,
-                  "end": 609,
+                  "start": 549,
+                  "end": 601,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 557,
-                    "end": 608,
+                    "start": 549,
+                    "end": 600,
                     "callee": {
                       "type": "Identifier",
-                      "start": 557,
-                      "end": 561,
+                      "start": 549,
+                      "end": 553,
                       "name": "eval"
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 562,
-                        "end": 607,
+                        "start": 554,
+                        "end": 599,
                         "value": "var _13_0_8_fun = function () {eval = 42;};"
                       }
                     ],
@@ -78,16 +78,16 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 622,
-                  "end": 636,
+                  "start": 606,
+                  "end": 620,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 622,
-                    "end": 635,
+                    "start": 606,
+                    "end": 619,
                     "callee": {
                       "type": "Identifier",
-                      "start": 622,
-                      "end": 633,
+                      "start": 606,
+                      "end": 617,
                       "name": "_13_0_8_fun"
                     },
                     "arguments": [],

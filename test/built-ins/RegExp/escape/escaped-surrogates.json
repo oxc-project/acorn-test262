@@ -1,0 +1,3580 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 12470,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 839,
+      "end": 939,
+      "expression": {
+        "type": "CallExpression",
+        "start": 839,
+        "end": 938,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 839,
+          "end": 855,
+          "object": {
+            "type": "Identifier",
+            "start": 839,
+            "end": 845,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 846,
+            "end": 855,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 856,
+            "end": 879,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 856,
+              "end": 869,
+              "object": {
+                "type": "Identifier",
+                "start": 856,
+                "end": 862,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 863,
+                "end": 869,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 870,
+                "end": 878,
+                "value": "\ud800"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 881,
+            "end": 890,
+            "value": "\\ud800"
+          },
+          {
+            "type": "Literal",
+            "start": 892,
+            "end": 937,
+            "value": "High surrogate \\uD800 is correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 940,
+      "end": 1040,
+      "expression": {
+        "type": "CallExpression",
+        "start": 940,
+        "end": 1039,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 940,
+          "end": 956,
+          "object": {
+            "type": "Identifier",
+            "start": 940,
+            "end": 946,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 947,
+            "end": 956,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 957,
+            "end": 980,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 957,
+              "end": 970,
+              "object": {
+                "type": "Identifier",
+                "start": 957,
+                "end": 963,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 964,
+                "end": 970,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 971,
+                "end": 979,
+                "value": "\udbff"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 982,
+            "end": 991,
+            "value": "\\udbff"
+          },
+          {
+            "type": "Literal",
+            "start": 993,
+            "end": 1038,
+            "value": "High surrogate \\uDBFF is correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1041,
+      "end": 1140,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1041,
+        "end": 1139,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1041,
+          "end": 1057,
+          "object": {
+            "type": "Identifier",
+            "start": 1041,
+            "end": 1047,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1048,
+            "end": 1057,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1058,
+            "end": 1081,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1058,
+              "end": 1071,
+              "object": {
+                "type": "Identifier",
+                "start": 1058,
+                "end": 1064,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1065,
+                "end": 1071,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1072,
+                "end": 1080,
+                "value": "\udc00"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1083,
+            "end": 1092,
+            "value": "\\udc00"
+          },
+          {
+            "type": "Literal",
+            "start": 1094,
+            "end": 1138,
+            "value": "Low surrogate \\uDC00 is correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1141,
+      "end": 1240,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1141,
+        "end": 1239,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1141,
+          "end": 1157,
+          "object": {
+            "type": "Identifier",
+            "start": 1141,
+            "end": 1147,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1148,
+            "end": 1157,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1158,
+            "end": 1181,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1158,
+              "end": 1171,
+              "object": {
+                "type": "Identifier",
+                "start": 1158,
+                "end": 1164,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1165,
+                "end": 1171,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1172,
+                "end": 1180,
+                "value": "\udfff"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1183,
+            "end": 1192,
+            "value": "\\udfff"
+          },
+          {
+            "type": "Literal",
+            "start": 1194,
+            "end": 1238,
+            "value": "Low surrogate \\uDFFF is correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1264,
+      "end": 1392,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1270,
+          "end": 1391,
+          "id": {
+            "type": "Identifier",
+            "start": 1270,
+            "end": 1290,
+            "name": "highSurrogatesGroup1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1293,
+            "end": 1391,
+            "value": "\ud800\ud801\ud802\ud803\ud804\ud805\ud806\ud807\ud808\ud809\ud80a\ud80b\ud80c\ud80d\ud80e\ud80f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1393,
+      "end": 1521,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1399,
+          "end": 1520,
+          "id": {
+            "type": "Identifier",
+            "start": 1399,
+            "end": 1419,
+            "name": "highSurrogatesGroup2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1422,
+            "end": 1520,
+            "value": "\ud810\ud811\ud812\ud813\ud814\ud815\ud816\ud817\ud818\ud819\ud81a\ud81b\ud81c\ud81d\ud81e\ud81f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1522,
+      "end": 1650,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1528,
+          "end": 1649,
+          "id": {
+            "type": "Identifier",
+            "start": 1528,
+            "end": 1548,
+            "name": "highSurrogatesGroup3"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1551,
+            "end": 1649,
+            "value": "\ud820\ud821\ud822\ud823\ud824\ud825\ud826\ud827\ud828\ud829\ud82a\ud82b\ud82c\ud82d\ud82e\ud82f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1651,
+      "end": 1779,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1657,
+          "end": 1778,
+          "id": {
+            "type": "Identifier",
+            "start": 1657,
+            "end": 1677,
+            "name": "highSurrogatesGroup4"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1680,
+            "end": 1778,
+            "value": "\ud830\ud831\ud832\ud833\ud834\ud835\ud836\ud837\ud838\ud839\ud83a\ud83b\ud83c\ud83d\ud83e\ud83f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1780,
+      "end": 1908,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1786,
+          "end": 1907,
+          "id": {
+            "type": "Identifier",
+            "start": 1786,
+            "end": 1806,
+            "name": "highSurrogatesGroup5"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1809,
+            "end": 1907,
+            "value": "\ud840\ud841\ud842\ud843\ud844\ud845\ud846\ud847\ud848\ud849\ud84a\ud84b\ud84c\ud84d\ud84e\ud84f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1909,
+      "end": 2037,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1915,
+          "end": 2036,
+          "id": {
+            "type": "Identifier",
+            "start": 1915,
+            "end": 1935,
+            "name": "highSurrogatesGroup6"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1938,
+            "end": 2036,
+            "value": "\ud850\ud851\ud852\ud853\ud854\ud855\ud856\ud857\ud858\ud859\ud85a\ud85b\ud85c\ud85d\ud85e\ud85f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2038,
+      "end": 2166,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2044,
+          "end": 2165,
+          "id": {
+            "type": "Identifier",
+            "start": 2044,
+            "end": 2064,
+            "name": "highSurrogatesGroup7"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2067,
+            "end": 2165,
+            "value": "\ud860\ud861\ud862\ud863\ud864\ud865\ud866\ud867\ud868\ud869\ud86a\ud86b\ud86c\ud86d\ud86e\ud86f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2167,
+      "end": 2295,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2173,
+          "end": 2294,
+          "id": {
+            "type": "Identifier",
+            "start": 2173,
+            "end": 2193,
+            "name": "highSurrogatesGroup8"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2196,
+            "end": 2294,
+            "value": "\ud870\ud871\ud872\ud873\ud874\ud875\ud876\ud877\ud878\ud879\ud87a\ud87b\ud87c\ud87d\ud87e\ud87f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2296,
+      "end": 2424,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2302,
+          "end": 2423,
+          "id": {
+            "type": "Identifier",
+            "start": 2302,
+            "end": 2322,
+            "name": "highSurrogatesGroup9"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2325,
+            "end": 2423,
+            "value": "\ud880\ud881\ud882\ud883\ud884\ud885\ud886\ud887\ud888\ud889\ud88a\ud88b\ud88c\ud88d\ud88e\ud88f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2425,
+      "end": 2554,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2431,
+          "end": 2553,
+          "id": {
+            "type": "Identifier",
+            "start": 2431,
+            "end": 2452,
+            "name": "highSurrogatesGroup10"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2455,
+            "end": 2553,
+            "value": "\ud890\ud891\ud892\ud893\ud894\ud895\ud896\ud897\ud898\ud899\ud89a\ud89b\ud89c\ud89d\ud89e\ud89f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2555,
+      "end": 2684,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2561,
+          "end": 2683,
+          "id": {
+            "type": "Identifier",
+            "start": 2561,
+            "end": 2582,
+            "name": "highSurrogatesGroup11"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2585,
+            "end": 2683,
+            "value": "\ud8a0\ud8a1\ud8a2\ud8a3\ud8a4\ud8a5\ud8a6\ud8a7\ud8a8\ud8a9\ud8aa\ud8ab\ud8ac\ud8ad\ud8ae\ud8af"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2685,
+      "end": 2814,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2691,
+          "end": 2813,
+          "id": {
+            "type": "Identifier",
+            "start": 2691,
+            "end": 2712,
+            "name": "highSurrogatesGroup12"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2715,
+            "end": 2813,
+            "value": "\ud8b0\ud8b1\ud8b2\ud8b3\ud8b4\ud8b5\ud8b6\ud8b7\ud8b8\ud8b9\ud8ba\ud8bb\ud8bc\ud8bd\ud8be\ud8bf"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2815,
+      "end": 2944,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2821,
+          "end": 2943,
+          "id": {
+            "type": "Identifier",
+            "start": 2821,
+            "end": 2842,
+            "name": "highSurrogatesGroup13"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2845,
+            "end": 2943,
+            "value": "\ud8c0\ud8c1\ud8c2\ud8c3\ud8c4\ud8c5\ud8c6\ud8c7\ud8c8\ud8c9\ud8ca\ud8cb\ud8cc\ud8cd\ud8ce\ud8cf"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2945,
+      "end": 3074,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2951,
+          "end": 3073,
+          "id": {
+            "type": "Identifier",
+            "start": 2951,
+            "end": 2972,
+            "name": "highSurrogatesGroup14"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2975,
+            "end": 3073,
+            "value": "\ud8d0\ud8d1\ud8d2\ud8d3\ud8d4\ud8d5\ud8d6\ud8d7\ud8d8\ud8d9\ud8da\ud8db\ud8dc\ud8dd\ud8de\ud8df"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 3075,
+      "end": 3204,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 3081,
+          "end": 3203,
+          "id": {
+            "type": "Identifier",
+            "start": 3081,
+            "end": 3102,
+            "name": "highSurrogatesGroup15"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 3105,
+            "end": 3203,
+            "value": "\ud8e0\ud8e1\ud8e2\ud8e3\ud8e4\ud8e5\ud8e6\ud8e7\ud8e8\ud8e9\ud8ea\ud8eb\ud8ec\ud8ed\ud8ee\ud8ef"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 3205,
+      "end": 3334,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 3211,
+          "end": 3333,
+          "id": {
+            "type": "Identifier",
+            "start": 3211,
+            "end": 3232,
+            "name": "highSurrogatesGroup16"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 3235,
+            "end": 3333,
+            "value": "\ud8f0\ud8f1\ud8f2\ud8f3\ud8f4\ud8f5\ud8f6\ud8f7\ud8f8\ud8f9\ud8fa\ud8fb\ud8fc\ud8fd\ud8fe\ud8ff"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3336,
+      "end": 3556,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3336,
+        "end": 3555,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3336,
+          "end": 3352,
+          "object": {
+            "type": "Identifier",
+            "start": 3336,
+            "end": 3342,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3343,
+            "end": 3352,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3353,
+            "end": 3388,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3353,
+              "end": 3366,
+              "object": {
+                "type": "Identifier",
+                "start": 3353,
+                "end": 3359,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3360,
+                "end": 3366,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 3367,
+                "end": 3387,
+                "name": "highSurrogatesGroup1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3391,
+            "end": 3505,
+            "value": "\\ud800\\ud801\\ud802\\ud803\\ud804\\ud805\\ud806\\ud807\\ud808\\ud809\\ud80a\\ud80b\\ud80c\\ud80d\\ud80e\\ud80f"
+          },
+          {
+            "type": "Literal",
+            "start": 3507,
+            "end": 3554,
+            "value": "High surrogates group 1 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3557,
+      "end": 3777,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3557,
+        "end": 3776,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3557,
+          "end": 3573,
+          "object": {
+            "type": "Identifier",
+            "start": 3557,
+            "end": 3563,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3564,
+            "end": 3573,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3574,
+            "end": 3609,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3574,
+              "end": 3587,
+              "object": {
+                "type": "Identifier",
+                "start": 3574,
+                "end": 3580,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3581,
+                "end": 3587,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 3588,
+                "end": 3608,
+                "name": "highSurrogatesGroup2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3612,
+            "end": 3726,
+            "value": "\\ud810\\ud811\\ud812\\ud813\\ud814\\ud815\\ud816\\ud817\\ud818\\ud819\\ud81a\\ud81b\\ud81c\\ud81d\\ud81e\\ud81f"
+          },
+          {
+            "type": "Literal",
+            "start": 3728,
+            "end": 3775,
+            "value": "High surrogates group 2 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3778,
+      "end": 3998,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3778,
+        "end": 3997,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3778,
+          "end": 3794,
+          "object": {
+            "type": "Identifier",
+            "start": 3778,
+            "end": 3784,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3785,
+            "end": 3794,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3795,
+            "end": 3830,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3795,
+              "end": 3808,
+              "object": {
+                "type": "Identifier",
+                "start": 3795,
+                "end": 3801,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3802,
+                "end": 3808,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 3809,
+                "end": 3829,
+                "name": "highSurrogatesGroup3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3833,
+            "end": 3947,
+            "value": "\\ud820\\ud821\\ud822\\ud823\\ud824\\ud825\\ud826\\ud827\\ud828\\ud829\\ud82a\\ud82b\\ud82c\\ud82d\\ud82e\\ud82f"
+          },
+          {
+            "type": "Literal",
+            "start": 3949,
+            "end": 3996,
+            "value": "High surrogates group 3 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3999,
+      "end": 4219,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3999,
+        "end": 4218,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3999,
+          "end": 4015,
+          "object": {
+            "type": "Identifier",
+            "start": 3999,
+            "end": 4005,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4006,
+            "end": 4015,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4016,
+            "end": 4051,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4016,
+              "end": 4029,
+              "object": {
+                "type": "Identifier",
+                "start": 4016,
+                "end": 4022,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4023,
+                "end": 4029,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4030,
+                "end": 4050,
+                "name": "highSurrogatesGroup4"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4054,
+            "end": 4168,
+            "value": "\\ud830\\ud831\\ud832\\ud833\\ud834\\ud835\\ud836\\ud837\\ud838\\ud839\\ud83a\\ud83b\\ud83c\\ud83d\\ud83e\\ud83f"
+          },
+          {
+            "type": "Literal",
+            "start": 4170,
+            "end": 4217,
+            "value": "High surrogates group 4 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4220,
+      "end": 4440,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4220,
+        "end": 4439,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4220,
+          "end": 4236,
+          "object": {
+            "type": "Identifier",
+            "start": 4220,
+            "end": 4226,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4227,
+            "end": 4236,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4237,
+            "end": 4272,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4237,
+              "end": 4250,
+              "object": {
+                "type": "Identifier",
+                "start": 4237,
+                "end": 4243,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4244,
+                "end": 4250,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4251,
+                "end": 4271,
+                "name": "highSurrogatesGroup5"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4275,
+            "end": 4389,
+            "value": "\\ud840\\ud841\\ud842\\ud843\\ud844\\ud845\\ud846\\ud847\\ud848\\ud849\\ud84a\\ud84b\\ud84c\\ud84d\\ud84e\\ud84f"
+          },
+          {
+            "type": "Literal",
+            "start": 4391,
+            "end": 4438,
+            "value": "High surrogates group 5 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4441,
+      "end": 4661,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4441,
+        "end": 4660,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4441,
+          "end": 4457,
+          "object": {
+            "type": "Identifier",
+            "start": 4441,
+            "end": 4447,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4448,
+            "end": 4457,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4458,
+            "end": 4493,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4458,
+              "end": 4471,
+              "object": {
+                "type": "Identifier",
+                "start": 4458,
+                "end": 4464,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4465,
+                "end": 4471,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4472,
+                "end": 4492,
+                "name": "highSurrogatesGroup6"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4496,
+            "end": 4610,
+            "value": "\\ud850\\ud851\\ud852\\ud853\\ud854\\ud855\\ud856\\ud857\\ud858\\ud859\\ud85a\\ud85b\\ud85c\\ud85d\\ud85e\\ud85f"
+          },
+          {
+            "type": "Literal",
+            "start": 4612,
+            "end": 4659,
+            "value": "High surrogates group 6 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4662,
+      "end": 4882,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4662,
+        "end": 4881,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4662,
+          "end": 4678,
+          "object": {
+            "type": "Identifier",
+            "start": 4662,
+            "end": 4668,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4669,
+            "end": 4678,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4679,
+            "end": 4714,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4679,
+              "end": 4692,
+              "object": {
+                "type": "Identifier",
+                "start": 4679,
+                "end": 4685,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4686,
+                "end": 4692,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4693,
+                "end": 4713,
+                "name": "highSurrogatesGroup7"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4717,
+            "end": 4831,
+            "value": "\\ud860\\ud861\\ud862\\ud863\\ud864\\ud865\\ud866\\ud867\\ud868\\ud869\\ud86a\\ud86b\\ud86c\\ud86d\\ud86e\\ud86f"
+          },
+          {
+            "type": "Literal",
+            "start": 4833,
+            "end": 4880,
+            "value": "High surrogates group 7 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4883,
+      "end": 5103,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4883,
+        "end": 5102,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4883,
+          "end": 4899,
+          "object": {
+            "type": "Identifier",
+            "start": 4883,
+            "end": 4889,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4890,
+            "end": 4899,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4900,
+            "end": 4935,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4900,
+              "end": 4913,
+              "object": {
+                "type": "Identifier",
+                "start": 4900,
+                "end": 4906,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4907,
+                "end": 4913,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 4914,
+                "end": 4934,
+                "name": "highSurrogatesGroup8"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4938,
+            "end": 5052,
+            "value": "\\ud870\\ud871\\ud872\\ud873\\ud874\\ud875\\ud876\\ud877\\ud878\\ud879\\ud87a\\ud87b\\ud87c\\ud87d\\ud87e\\ud87f"
+          },
+          {
+            "type": "Literal",
+            "start": 5054,
+            "end": 5101,
+            "value": "High surrogates group 8 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5104,
+      "end": 5324,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5104,
+        "end": 5323,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5104,
+          "end": 5120,
+          "object": {
+            "type": "Identifier",
+            "start": 5104,
+            "end": 5110,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5111,
+            "end": 5120,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5121,
+            "end": 5156,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5121,
+              "end": 5134,
+              "object": {
+                "type": "Identifier",
+                "start": 5121,
+                "end": 5127,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5128,
+                "end": 5134,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5135,
+                "end": 5155,
+                "name": "highSurrogatesGroup9"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5159,
+            "end": 5273,
+            "value": "\\ud880\\ud881\\ud882\\ud883\\ud884\\ud885\\ud886\\ud887\\ud888\\ud889\\ud88a\\ud88b\\ud88c\\ud88d\\ud88e\\ud88f"
+          },
+          {
+            "type": "Literal",
+            "start": 5275,
+            "end": 5322,
+            "value": "High surrogates group 9 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5325,
+      "end": 5546,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5325,
+        "end": 5545,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5325,
+          "end": 5341,
+          "object": {
+            "type": "Identifier",
+            "start": 5325,
+            "end": 5331,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5332,
+            "end": 5341,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5342,
+            "end": 5378,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5342,
+              "end": 5355,
+              "object": {
+                "type": "Identifier",
+                "start": 5342,
+                "end": 5348,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5349,
+                "end": 5355,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5356,
+                "end": 5377,
+                "name": "highSurrogatesGroup10"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5380,
+            "end": 5494,
+            "value": "\\ud890\\ud891\\ud892\\ud893\\ud894\\ud895\\ud896\\ud897\\ud898\\ud899\\ud89a\\ud89b\\ud89c\\ud89d\\ud89e\\ud89f"
+          },
+          {
+            "type": "Literal",
+            "start": 5496,
+            "end": 5544,
+            "value": "High surrogates group 10 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5547,
+      "end": 5768,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5547,
+        "end": 5767,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5547,
+          "end": 5563,
+          "object": {
+            "type": "Identifier",
+            "start": 5547,
+            "end": 5553,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5554,
+            "end": 5563,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5564,
+            "end": 5600,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5564,
+              "end": 5577,
+              "object": {
+                "type": "Identifier",
+                "start": 5564,
+                "end": 5570,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5571,
+                "end": 5577,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5578,
+                "end": 5599,
+                "name": "highSurrogatesGroup11"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5602,
+            "end": 5716,
+            "value": "\\ud8a0\\ud8a1\\ud8a2\\ud8a3\\ud8a4\\ud8a5\\ud8a6\\ud8a7\\ud8a8\\ud8a9\\ud8aa\\ud8ab\\ud8ac\\ud8ad\\ud8ae\\ud8af"
+          },
+          {
+            "type": "Literal",
+            "start": 5718,
+            "end": 5766,
+            "value": "High surrogates group 11 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5769,
+      "end": 5990,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5769,
+        "end": 5989,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5769,
+          "end": 5785,
+          "object": {
+            "type": "Identifier",
+            "start": 5769,
+            "end": 5775,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5776,
+            "end": 5785,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 5786,
+            "end": 5822,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 5786,
+              "end": 5799,
+              "object": {
+                "type": "Identifier",
+                "start": 5786,
+                "end": 5792,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 5793,
+                "end": 5799,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 5800,
+                "end": 5821,
+                "name": "highSurrogatesGroup12"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 5824,
+            "end": 5938,
+            "value": "\\ud8b0\\ud8b1\\ud8b2\\ud8b3\\ud8b4\\ud8b5\\ud8b6\\ud8b7\\ud8b8\\ud8b9\\ud8ba\\ud8bb\\ud8bc\\ud8bd\\ud8be\\ud8bf"
+          },
+          {
+            "type": "Literal",
+            "start": 5940,
+            "end": 5988,
+            "value": "High surrogates group 12 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5991,
+      "end": 6212,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5991,
+        "end": 6211,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5991,
+          "end": 6007,
+          "object": {
+            "type": "Identifier",
+            "start": 5991,
+            "end": 5997,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5998,
+            "end": 6007,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6008,
+            "end": 6044,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6008,
+              "end": 6021,
+              "object": {
+                "type": "Identifier",
+                "start": 6008,
+                "end": 6014,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6015,
+                "end": 6021,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6022,
+                "end": 6043,
+                "name": "highSurrogatesGroup13"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6046,
+            "end": 6160,
+            "value": "\\ud8c0\\ud8c1\\ud8c2\\ud8c3\\ud8c4\\ud8c5\\ud8c6\\ud8c7\\ud8c8\\ud8c9\\ud8ca\\ud8cb\\ud8cc\\ud8cd\\ud8ce\\ud8cf"
+          },
+          {
+            "type": "Literal",
+            "start": 6162,
+            "end": 6210,
+            "value": "High surrogates group 13 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6213,
+      "end": 6434,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6213,
+        "end": 6433,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6213,
+          "end": 6229,
+          "object": {
+            "type": "Identifier",
+            "start": 6213,
+            "end": 6219,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6220,
+            "end": 6229,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6230,
+            "end": 6266,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6230,
+              "end": 6243,
+              "object": {
+                "type": "Identifier",
+                "start": 6230,
+                "end": 6236,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6237,
+                "end": 6243,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6244,
+                "end": 6265,
+                "name": "highSurrogatesGroup14"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6268,
+            "end": 6382,
+            "value": "\\ud8d0\\ud8d1\\ud8d2\\ud8d3\\ud8d4\\ud8d5\\ud8d6\\ud8d7\\ud8d8\\ud8d9\\ud8da\\ud8db\\ud8dc\\ud8dd\\ud8de\\ud8df"
+          },
+          {
+            "type": "Literal",
+            "start": 6384,
+            "end": 6432,
+            "value": "High surrogates group 14 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6435,
+      "end": 6656,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6435,
+        "end": 6655,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6435,
+          "end": 6451,
+          "object": {
+            "type": "Identifier",
+            "start": 6435,
+            "end": 6441,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6442,
+            "end": 6451,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6452,
+            "end": 6488,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6452,
+              "end": 6465,
+              "object": {
+                "type": "Identifier",
+                "start": 6452,
+                "end": 6458,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6459,
+                "end": 6465,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6466,
+                "end": 6487,
+                "name": "highSurrogatesGroup15"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6490,
+            "end": 6604,
+            "value": "\\ud8e0\\ud8e1\\ud8e2\\ud8e3\\ud8e4\\ud8e5\\ud8e6\\ud8e7\\ud8e8\\ud8e9\\ud8ea\\ud8eb\\ud8ec\\ud8ed\\ud8ee\\ud8ef"
+          },
+          {
+            "type": "Literal",
+            "start": 6606,
+            "end": 6654,
+            "value": "High surrogates group 15 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6657,
+      "end": 6878,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6657,
+        "end": 6877,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6657,
+          "end": 6673,
+          "object": {
+            "type": "Identifier",
+            "start": 6657,
+            "end": 6663,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6664,
+            "end": 6673,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 6674,
+            "end": 6710,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 6674,
+              "end": 6687,
+              "object": {
+                "type": "Identifier",
+                "start": 6674,
+                "end": 6680,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 6681,
+                "end": 6687,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 6688,
+                "end": 6709,
+                "name": "highSurrogatesGroup16"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 6712,
+            "end": 6826,
+            "value": "\\ud8f0\\ud8f1\\ud8f2\\ud8f3\\ud8f4\\ud8f5\\ud8f6\\ud8f7\\ud8f8\\ud8f9\\ud8fa\\ud8fb\\ud8fc\\ud8fd\\ud8fe\\ud8ff"
+          },
+          {
+            "type": "Literal",
+            "start": 6828,
+            "end": 6876,
+            "value": "High surrogates group 16 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 6903,
+      "end": 7030,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 6909,
+          "end": 7029,
+          "id": {
+            "type": "Identifier",
+            "start": 6909,
+            "end": 6928,
+            "name": "lowSurrogatesGroup1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 6931,
+            "end": 7029,
+            "value": "\udc00\udc01\udc02\udc03\udc04\udc05\udc06\udc07\udc08\udc09\udc0a\udc0b\udc0c\udc0d\udc0e\udc0f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 7031,
+      "end": 7158,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 7037,
+          "end": 7157,
+          "id": {
+            "type": "Identifier",
+            "start": 7037,
+            "end": 7056,
+            "name": "lowSurrogatesGroup2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 7059,
+            "end": 7157,
+            "value": "\udc10\udc11\udc12\udc13\udc14\udc15\udc16\udc17\udc18\udc19\udc1a\udc1b\udc1c\udc1d\udc1e\udc1f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 7159,
+      "end": 7286,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 7165,
+          "end": 7285,
+          "id": {
+            "type": "Identifier",
+            "start": 7165,
+            "end": 7184,
+            "name": "lowSurrogatesGroup3"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 7187,
+            "end": 7285,
+            "value": "\udc20\udc21\udc22\udc23\udc24\udc25\udc26\udc27\udc28\udc29\udc2a\udc2b\udc2c\udc2d\udc2e\udc2f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 7287,
+      "end": 7414,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 7293,
+          "end": 7413,
+          "id": {
+            "type": "Identifier",
+            "start": 7293,
+            "end": 7312,
+            "name": "lowSurrogatesGroup4"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 7315,
+            "end": 7413,
+            "value": "\udc30\udc31\udc32\udc33\udc34\udc35\udc36\udc37\udc38\udc39\udc3a\udc3b\udc3c\udc3d\udc3e\udc3f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 7415,
+      "end": 7542,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 7421,
+          "end": 7541,
+          "id": {
+            "type": "Identifier",
+            "start": 7421,
+            "end": 7440,
+            "name": "lowSurrogatesGroup5"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 7443,
+            "end": 7541,
+            "value": "\udc40\udc41\udc42\udc43\udc44\udc45\udc46\udc47\udc48\udc49\udc4a\udc4b\udc4c\udc4d\udc4e\udc4f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 7543,
+      "end": 7670,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 7549,
+          "end": 7669,
+          "id": {
+            "type": "Identifier",
+            "start": 7549,
+            "end": 7568,
+            "name": "lowSurrogatesGroup6"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 7571,
+            "end": 7669,
+            "value": "\udc50\udc51\udc52\udc53\udc54\udc55\udc56\udc57\udc58\udc59\udc5a\udc5b\udc5c\udc5d\udc5e\udc5f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 7671,
+      "end": 7798,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 7677,
+          "end": 7797,
+          "id": {
+            "type": "Identifier",
+            "start": 7677,
+            "end": 7696,
+            "name": "lowSurrogatesGroup7"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 7699,
+            "end": 7797,
+            "value": "\udc60\udc61\udc62\udc63\udc64\udc65\udc66\udc67\udc68\udc69\udc6a\udc6b\udc6c\udc6d\udc6e\udc6f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 7799,
+      "end": 7926,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 7805,
+          "end": 7925,
+          "id": {
+            "type": "Identifier",
+            "start": 7805,
+            "end": 7824,
+            "name": "lowSurrogatesGroup8"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 7827,
+            "end": 7925,
+            "value": "\udc70\udc71\udc72\udc73\udc74\udc75\udc76\udc77\udc78\udc79\udc7a\udc7b\udc7c\udc7d\udc7e\udc7f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 7927,
+      "end": 8054,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 7933,
+          "end": 8053,
+          "id": {
+            "type": "Identifier",
+            "start": 7933,
+            "end": 7952,
+            "name": "lowSurrogatesGroup9"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 7955,
+            "end": 8053,
+            "value": "\udc80\udc81\udc82\udc83\udc84\udc85\udc86\udc87\udc88\udc89\udc8a\udc8b\udc8c\udc8d\udc8e\udc8f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 8055,
+      "end": 8183,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 8061,
+          "end": 8182,
+          "id": {
+            "type": "Identifier",
+            "start": 8061,
+            "end": 8081,
+            "name": "lowSurrogatesGroup10"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 8084,
+            "end": 8182,
+            "value": "\udc90\udc91\udc92\udc93\udc94\udc95\udc96\udc97\udc98\udc99\udc9a\udc9b\udc9c\udc9d\udc9e\udc9f"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 8184,
+      "end": 8312,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 8190,
+          "end": 8311,
+          "id": {
+            "type": "Identifier",
+            "start": 8190,
+            "end": 8210,
+            "name": "lowSurrogatesGroup11"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 8213,
+            "end": 8311,
+            "value": "\udca0\udca1\udca2\udca3\udca4\udca5\udca6\udca7\udca8\udca9\udcaa\udcab\udcac\udcad\udcae\udcaf"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 8313,
+      "end": 8441,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 8319,
+          "end": 8440,
+          "id": {
+            "type": "Identifier",
+            "start": 8319,
+            "end": 8339,
+            "name": "lowSurrogatesGroup12"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 8342,
+            "end": 8440,
+            "value": "\udcb0\udcb1\udcb2\udcb3\udcb4\udcb5\udcb6\udcb7\udcb8\udcb9\udcba\udcbb\udcbc\udcbd\udcbe\udcbf"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 8442,
+      "end": 8570,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 8448,
+          "end": 8569,
+          "id": {
+            "type": "Identifier",
+            "start": 8448,
+            "end": 8468,
+            "name": "lowSurrogatesGroup13"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 8471,
+            "end": 8569,
+            "value": "\udcc0\udcc1\udcc2\udcc3\udcc4\udcc5\udcc6\udcc7\udcc8\udcc9\udcca\udccb\udccc\udccd\udcce\udccf"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 8571,
+      "end": 8699,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 8577,
+          "end": 8698,
+          "id": {
+            "type": "Identifier",
+            "start": 8577,
+            "end": 8597,
+            "name": "lowSurrogatesGroup14"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 8600,
+            "end": 8698,
+            "value": "\udcd0\udcd1\udcd2\udcd3\udcd4\udcd5\udcd6\udcd7\udcd8\udcd9\udcda\udcdb\udcdc\udcdd\udcde\udcdf"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 8700,
+      "end": 8828,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 8706,
+          "end": 8827,
+          "id": {
+            "type": "Identifier",
+            "start": 8706,
+            "end": 8726,
+            "name": "lowSurrogatesGroup15"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 8729,
+            "end": 8827,
+            "value": "\udce0\udce1\udce2\udce3\udce4\udce5\udce6\udce7\udce8\udce9\udcea\udceb\udcec\udced\udcee\udcef"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 8829,
+      "end": 8957,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 8835,
+          "end": 8956,
+          "id": {
+            "type": "Identifier",
+            "start": 8835,
+            "end": 8855,
+            "name": "lowSurrogatesGroup16"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 8858,
+            "end": 8956,
+            "value": "\udcf0\udcf1\udcf2\udcf3\udcf4\udcf5\udcf6\udcf7\udcf8\udcf9\udcfa\udcfb\udcfc\udcfd\udcfe\udcff"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 8959,
+      "end": 9177,
+      "expression": {
+        "type": "CallExpression",
+        "start": 8959,
+        "end": 9176,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 8959,
+          "end": 8975,
+          "object": {
+            "type": "Identifier",
+            "start": 8959,
+            "end": 8965,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 8966,
+            "end": 8975,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 8976,
+            "end": 9010,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 8976,
+              "end": 8989,
+              "object": {
+                "type": "Identifier",
+                "start": 8976,
+                "end": 8982,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 8983,
+                "end": 8989,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 8990,
+                "end": 9009,
+                "name": "lowSurrogatesGroup1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9013,
+            "end": 9127,
+            "value": "\\udc00\\udc01\\udc02\\udc03\\udc04\\udc05\\udc06\\udc07\\udc08\\udc09\\udc0a\\udc0b\\udc0c\\udc0d\\udc0e\\udc0f"
+          },
+          {
+            "type": "Literal",
+            "start": 9129,
+            "end": 9175,
+            "value": "Low surrogates group 1 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9178,
+      "end": 9396,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9178,
+        "end": 9395,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9178,
+          "end": 9194,
+          "object": {
+            "type": "Identifier",
+            "start": 9178,
+            "end": 9184,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9185,
+            "end": 9194,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9195,
+            "end": 9229,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9195,
+              "end": 9208,
+              "object": {
+                "type": "Identifier",
+                "start": 9195,
+                "end": 9201,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9202,
+                "end": 9208,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9209,
+                "end": 9228,
+                "name": "lowSurrogatesGroup2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9232,
+            "end": 9346,
+            "value": "\\udc10\\udc11\\udc12\\udc13\\udc14\\udc15\\udc16\\udc17\\udc18\\udc19\\udc1a\\udc1b\\udc1c\\udc1d\\udc1e\\udc1f"
+          },
+          {
+            "type": "Literal",
+            "start": 9348,
+            "end": 9394,
+            "value": "Low surrogates group 2 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9397,
+      "end": 9615,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9397,
+        "end": 9614,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9397,
+          "end": 9413,
+          "object": {
+            "type": "Identifier",
+            "start": 9397,
+            "end": 9403,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9404,
+            "end": 9413,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9414,
+            "end": 9448,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9414,
+              "end": 9427,
+              "object": {
+                "type": "Identifier",
+                "start": 9414,
+                "end": 9420,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9421,
+                "end": 9427,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9428,
+                "end": 9447,
+                "name": "lowSurrogatesGroup3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9451,
+            "end": 9565,
+            "value": "\\udc20\\udc21\\udc22\\udc23\\udc24\\udc25\\udc26\\udc27\\udc28\\udc29\\udc2a\\udc2b\\udc2c\\udc2d\\udc2e\\udc2f"
+          },
+          {
+            "type": "Literal",
+            "start": 9567,
+            "end": 9613,
+            "value": "Low surrogates group 3 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9616,
+      "end": 9834,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9616,
+        "end": 9833,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9616,
+          "end": 9632,
+          "object": {
+            "type": "Identifier",
+            "start": 9616,
+            "end": 9622,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9623,
+            "end": 9632,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9633,
+            "end": 9667,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9633,
+              "end": 9646,
+              "object": {
+                "type": "Identifier",
+                "start": 9633,
+                "end": 9639,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9640,
+                "end": 9646,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9647,
+                "end": 9666,
+                "name": "lowSurrogatesGroup4"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9670,
+            "end": 9784,
+            "value": "\\udc30\\udc31\\udc32\\udc33\\udc34\\udc35\\udc36\\udc37\\udc38\\udc39\\udc3a\\udc3b\\udc3c\\udc3d\\udc3e\\udc3f"
+          },
+          {
+            "type": "Literal",
+            "start": 9786,
+            "end": 9832,
+            "value": "Low surrogates group 4 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 9835,
+      "end": 10053,
+      "expression": {
+        "type": "CallExpression",
+        "start": 9835,
+        "end": 10052,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 9835,
+          "end": 9851,
+          "object": {
+            "type": "Identifier",
+            "start": 9835,
+            "end": 9841,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 9842,
+            "end": 9851,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 9852,
+            "end": 9886,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 9852,
+              "end": 9865,
+              "object": {
+                "type": "Identifier",
+                "start": 9852,
+                "end": 9858,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 9859,
+                "end": 9865,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 9866,
+                "end": 9885,
+                "name": "lowSurrogatesGroup5"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 9889,
+            "end": 10003,
+            "value": "\\udc40\\udc41\\udc42\\udc43\\udc44\\udc45\\udc46\\udc47\\udc48\\udc49\\udc4a\\udc4b\\udc4c\\udc4d\\udc4e\\udc4f"
+          },
+          {
+            "type": "Literal",
+            "start": 10005,
+            "end": 10051,
+            "value": "Low surrogates group 5 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10054,
+      "end": 10272,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10054,
+        "end": 10271,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10054,
+          "end": 10070,
+          "object": {
+            "type": "Identifier",
+            "start": 10054,
+            "end": 10060,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10061,
+            "end": 10070,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10071,
+            "end": 10105,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10071,
+              "end": 10084,
+              "object": {
+                "type": "Identifier",
+                "start": 10071,
+                "end": 10077,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10078,
+                "end": 10084,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10085,
+                "end": 10104,
+                "name": "lowSurrogatesGroup6"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10108,
+            "end": 10222,
+            "value": "\\udc50\\udc51\\udc52\\udc53\\udc54\\udc55\\udc56\\udc57\\udc58\\udc59\\udc5a\\udc5b\\udc5c\\udc5d\\udc5e\\udc5f"
+          },
+          {
+            "type": "Literal",
+            "start": 10224,
+            "end": 10270,
+            "value": "Low surrogates group 6 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10273,
+      "end": 10491,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10273,
+        "end": 10490,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10273,
+          "end": 10289,
+          "object": {
+            "type": "Identifier",
+            "start": 10273,
+            "end": 10279,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10280,
+            "end": 10289,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10290,
+            "end": 10324,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10290,
+              "end": 10303,
+              "object": {
+                "type": "Identifier",
+                "start": 10290,
+                "end": 10296,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10297,
+                "end": 10303,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10304,
+                "end": 10323,
+                "name": "lowSurrogatesGroup7"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10327,
+            "end": 10441,
+            "value": "\\udc60\\udc61\\udc62\\udc63\\udc64\\udc65\\udc66\\udc67\\udc68\\udc69\\udc6a\\udc6b\\udc6c\\udc6d\\udc6e\\udc6f"
+          },
+          {
+            "type": "Literal",
+            "start": 10443,
+            "end": 10489,
+            "value": "Low surrogates group 7 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10492,
+      "end": 10710,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10492,
+        "end": 10709,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10492,
+          "end": 10508,
+          "object": {
+            "type": "Identifier",
+            "start": 10492,
+            "end": 10498,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10499,
+            "end": 10508,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10509,
+            "end": 10543,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10509,
+              "end": 10522,
+              "object": {
+                "type": "Identifier",
+                "start": 10509,
+                "end": 10515,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10516,
+                "end": 10522,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10523,
+                "end": 10542,
+                "name": "lowSurrogatesGroup8"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10546,
+            "end": 10660,
+            "value": "\\udc70\\udc71\\udc72\\udc73\\udc74\\udc75\\udc76\\udc77\\udc78\\udc79\\udc7a\\udc7b\\udc7c\\udc7d\\udc7e\\udc7f"
+          },
+          {
+            "type": "Literal",
+            "start": 10662,
+            "end": 10708,
+            "value": "Low surrogates group 8 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10711,
+      "end": 10929,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10711,
+        "end": 10928,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10711,
+          "end": 10727,
+          "object": {
+            "type": "Identifier",
+            "start": 10711,
+            "end": 10717,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10718,
+            "end": 10727,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10728,
+            "end": 10762,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10728,
+              "end": 10741,
+              "object": {
+                "type": "Identifier",
+                "start": 10728,
+                "end": 10734,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10735,
+                "end": 10741,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10742,
+                "end": 10761,
+                "name": "lowSurrogatesGroup9"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10765,
+            "end": 10879,
+            "value": "\\udc80\\udc81\\udc82\\udc83\\udc84\\udc85\\udc86\\udc87\\udc88\\udc89\\udc8a\\udc8b\\udc8c\\udc8d\\udc8e\\udc8f"
+          },
+          {
+            "type": "Literal",
+            "start": 10881,
+            "end": 10927,
+            "value": "Low surrogates group 9 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 10930,
+      "end": 11149,
+      "expression": {
+        "type": "CallExpression",
+        "start": 10930,
+        "end": 11148,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 10930,
+          "end": 10946,
+          "object": {
+            "type": "Identifier",
+            "start": 10930,
+            "end": 10936,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 10937,
+            "end": 10946,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 10947,
+            "end": 10982,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 10947,
+              "end": 10960,
+              "object": {
+                "type": "Identifier",
+                "start": 10947,
+                "end": 10953,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 10954,
+                "end": 10960,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 10961,
+                "end": 10981,
+                "name": "lowSurrogatesGroup10"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 10984,
+            "end": 11098,
+            "value": "\\udc90\\udc91\\udc92\\udc93\\udc94\\udc95\\udc96\\udc97\\udc98\\udc99\\udc9a\\udc9b\\udc9c\\udc9d\\udc9e\\udc9f"
+          },
+          {
+            "type": "Literal",
+            "start": 11100,
+            "end": 11147,
+            "value": "Low surrogates group 10 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11150,
+      "end": 11369,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11150,
+        "end": 11368,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11150,
+          "end": 11166,
+          "object": {
+            "type": "Identifier",
+            "start": 11150,
+            "end": 11156,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11157,
+            "end": 11166,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11167,
+            "end": 11202,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11167,
+              "end": 11180,
+              "object": {
+                "type": "Identifier",
+                "start": 11167,
+                "end": 11173,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11174,
+                "end": 11180,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11181,
+                "end": 11201,
+                "name": "lowSurrogatesGroup11"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11204,
+            "end": 11318,
+            "value": "\\udca0\\udca1\\udca2\\udca3\\udca4\\udca5\\udca6\\udca7\\udca8\\udca9\\udcaa\\udcab\\udcac\\udcad\\udcae\\udcaf"
+          },
+          {
+            "type": "Literal",
+            "start": 11320,
+            "end": 11367,
+            "value": "Low surrogates group 11 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11370,
+      "end": 11589,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11370,
+        "end": 11588,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11370,
+          "end": 11386,
+          "object": {
+            "type": "Identifier",
+            "start": 11370,
+            "end": 11376,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11377,
+            "end": 11386,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11387,
+            "end": 11422,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11387,
+              "end": 11400,
+              "object": {
+                "type": "Identifier",
+                "start": 11387,
+                "end": 11393,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11394,
+                "end": 11400,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11401,
+                "end": 11421,
+                "name": "lowSurrogatesGroup12"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11424,
+            "end": 11538,
+            "value": "\\udcb0\\udcb1\\udcb2\\udcb3\\udcb4\\udcb5\\udcb6\\udcb7\\udcb8\\udcb9\\udcba\\udcbb\\udcbc\\udcbd\\udcbe\\udcbf"
+          },
+          {
+            "type": "Literal",
+            "start": 11540,
+            "end": 11587,
+            "value": "Low surrogates group 12 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11590,
+      "end": 11809,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11590,
+        "end": 11808,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11590,
+          "end": 11606,
+          "object": {
+            "type": "Identifier",
+            "start": 11590,
+            "end": 11596,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11597,
+            "end": 11606,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11607,
+            "end": 11642,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11607,
+              "end": 11620,
+              "object": {
+                "type": "Identifier",
+                "start": 11607,
+                "end": 11613,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11614,
+                "end": 11620,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11621,
+                "end": 11641,
+                "name": "lowSurrogatesGroup13"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11644,
+            "end": 11758,
+            "value": "\\udcc0\\udcc1\\udcc2\\udcc3\\udcc4\\udcc5\\udcc6\\udcc7\\udcc8\\udcc9\\udcca\\udccb\\udccc\\udccd\\udcce\\udccf"
+          },
+          {
+            "type": "Literal",
+            "start": 11760,
+            "end": 11807,
+            "value": "Low surrogates group 13 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 11810,
+      "end": 12029,
+      "expression": {
+        "type": "CallExpression",
+        "start": 11810,
+        "end": 12028,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 11810,
+          "end": 11826,
+          "object": {
+            "type": "Identifier",
+            "start": 11810,
+            "end": 11816,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 11817,
+            "end": 11826,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 11827,
+            "end": 11862,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 11827,
+              "end": 11840,
+              "object": {
+                "type": "Identifier",
+                "start": 11827,
+                "end": 11833,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 11834,
+                "end": 11840,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 11841,
+                "end": 11861,
+                "name": "lowSurrogatesGroup14"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 11864,
+            "end": 11978,
+            "value": "\\udcd0\\udcd1\\udcd2\\udcd3\\udcd4\\udcd5\\udcd6\\udcd7\\udcd8\\udcd9\\udcda\\udcdb\\udcdc\\udcdd\\udcde\\udcdf"
+          },
+          {
+            "type": "Literal",
+            "start": 11980,
+            "end": 12027,
+            "value": "Low surrogates group 14 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 12030,
+      "end": 12249,
+      "expression": {
+        "type": "CallExpression",
+        "start": 12030,
+        "end": 12248,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 12030,
+          "end": 12046,
+          "object": {
+            "type": "Identifier",
+            "start": 12030,
+            "end": 12036,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 12037,
+            "end": 12046,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 12047,
+            "end": 12082,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 12047,
+              "end": 12060,
+              "object": {
+                "type": "Identifier",
+                "start": 12047,
+                "end": 12053,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 12054,
+                "end": 12060,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 12061,
+                "end": 12081,
+                "name": "lowSurrogatesGroup15"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 12084,
+            "end": 12198,
+            "value": "\\udce0\\udce1\\udce2\\udce3\\udce4\\udce5\\udce6\\udce7\\udce8\\udce9\\udcea\\udceb\\udcec\\udced\\udcee\\udcef"
+          },
+          {
+            "type": "Literal",
+            "start": 12200,
+            "end": 12247,
+            "value": "Low surrogates group 15 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 12250,
+      "end": 12469,
+      "expression": {
+        "type": "CallExpression",
+        "start": 12250,
+        "end": 12468,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 12250,
+          "end": 12266,
+          "object": {
+            "type": "Identifier",
+            "start": 12250,
+            "end": 12256,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 12257,
+            "end": 12266,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 12267,
+            "end": 12302,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 12267,
+              "end": 12280,
+              "object": {
+                "type": "Identifier",
+                "start": 12267,
+                "end": 12273,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 12274,
+                "end": 12280,
+                "name": "escape"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 12281,
+                "end": 12301,
+                "name": "lowSurrogatesGroup16"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 12304,
+            "end": 12418,
+            "value": "\\udcf0\\udcf1\\udcf2\\udcf3\\udcf4\\udcf5\\udcf6\\udcf7\\udcf8\\udcf9\\udcfa\\udcfb\\udcfc\\udcfd\\udcfe\\udcff"
+          },
+          {
+            "type": "Literal",
+            "start": 12420,
+            "end": 12467,
+            "value": "Low surrogates group 16 are correctly escaped"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

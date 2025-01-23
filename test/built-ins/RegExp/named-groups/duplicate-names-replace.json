@@ -1,0 +1,494 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 738,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 290,
+      "end": 358,
+      "expression": {
+        "type": "CallExpression",
+        "start": 290,
+        "end": 357,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 290,
+          "end": 306,
+          "object": {
+            "type": "Identifier",
+            "start": 290,
+            "end": 296,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 297,
+            "end": 306,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 307,
+            "end": 348,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 307,
+              "end": 319,
+              "object": {
+                "type": "Literal",
+                "start": 307,
+                "end": 311,
+                "value": "ab"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 312,
+                "end": 319,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 320,
+                "end": 337,
+                "value": null,
+                "regex": {
+                  "pattern": "(?<x>a)|(?<x>b)",
+                  "flags": ""
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 339,
+                "end": 347,
+                "value": "[$<x>]"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 350,
+            "end": 356,
+            "value": "[a]b"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 359,
+      "end": 427,
+      "expression": {
+        "type": "CallExpression",
+        "start": 359,
+        "end": 426,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 359,
+          "end": 375,
+          "object": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 365,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 375,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 376,
+            "end": 417,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 376,
+              "end": 388,
+              "object": {
+                "type": "Literal",
+                "start": 376,
+                "end": 380,
+                "value": "ba"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 381,
+                "end": 388,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 389,
+                "end": 406,
+                "value": null,
+                "regex": {
+                  "pattern": "(?<x>a)|(?<x>b)",
+                  "flags": ""
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 408,
+                "end": 416,
+                "value": "[$<x>]"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 419,
+            "end": 425,
+            "value": "[b]a"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 429,
+      "end": 510,
+      "expression": {
+        "type": "CallExpression",
+        "start": 429,
+        "end": 509,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 429,
+          "end": 445,
+          "object": {
+            "type": "Identifier",
+            "start": 429,
+            "end": 435,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 436,
+            "end": 445,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 446,
+            "end": 495,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 446,
+              "end": 458,
+              "object": {
+                "type": "Literal",
+                "start": 446,
+                "end": 450,
+                "value": "ab"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 451,
+                "end": 458,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 459,
+                "end": 476,
+                "value": null,
+                "regex": {
+                  "pattern": "(?<x>a)|(?<x>b)",
+                  "flags": ""
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 478,
+                "end": 494,
+                "value": "[$<x>][$1][$2]"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 497,
+            "end": 508,
+            "value": "[a][a][]b"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 511,
+      "end": 592,
+      "expression": {
+        "type": "CallExpression",
+        "start": 511,
+        "end": 591,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 511,
+          "end": 527,
+          "object": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 517,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 518,
+            "end": 527,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 528,
+            "end": 577,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 528,
+              "end": 540,
+              "object": {
+                "type": "Literal",
+                "start": 528,
+                "end": 532,
+                "value": "ba"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 533,
+                "end": 540,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 541,
+                "end": 558,
+                "value": null,
+                "regex": {
+                  "pattern": "(?<x>a)|(?<x>b)",
+                  "flags": ""
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 560,
+                "end": 576,
+                "value": "[$<x>][$1][$2]"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 579,
+            "end": 590,
+            "value": "[b][][b]a"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 594,
+      "end": 665,
+      "expression": {
+        "type": "CallExpression",
+        "start": 594,
+        "end": 664,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 594,
+          "end": 610,
+          "object": {
+            "type": "Identifier",
+            "start": 594,
+            "end": 600,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 601,
+            "end": 610,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 611,
+            "end": 653,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 611,
+              "end": 623,
+              "object": {
+                "type": "Literal",
+                "start": 611,
+                "end": 615,
+                "value": "ab"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 616,
+                "end": 623,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 624,
+                "end": 642,
+                "value": null,
+                "regex": {
+                  "pattern": "(?<x>a)|(?<x>b)",
+                  "flags": "g"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 644,
+                "end": 652,
+                "value": "[$<x>]"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 655,
+            "end": 663,
+            "value": "[a][b]"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 666,
+      "end": 737,
+      "expression": {
+        "type": "CallExpression",
+        "start": 666,
+        "end": 736,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 666,
+          "end": 682,
+          "object": {
+            "type": "Identifier",
+            "start": 666,
+            "end": 672,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 673,
+            "end": 682,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 683,
+            "end": 725,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 683,
+              "end": 695,
+              "object": {
+                "type": "Literal",
+                "start": 683,
+                "end": 687,
+                "value": "ba"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 688,
+                "end": 695,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 696,
+                "end": 714,
+                "value": null,
+                "regex": {
+                  "pattern": "(?<x>a)|(?<x>b)",
+                  "flags": "g"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 716,
+                "end": 724,
+                "value": "[$<x>]"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 727,
+            "end": 735,
+            "value": "[b][a]"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

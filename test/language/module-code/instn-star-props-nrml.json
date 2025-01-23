@@ -25,7 +25,8 @@
         "start": 1237,
         "end": 1275,
         "value": "./instn-star-props-nrml-1_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

@@ -77,7 +77,8 @@
         "start": 792,
         "end": 825,
         "value": "./eval-rqstd-order-1_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -89,7 +90,8 @@
         "start": 835,
         "end": 868,
         "value": "./eval-rqstd-order-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -113,7 +115,8 @@
         "start": 892,
         "end": 925,
         "value": "./eval-rqstd-order-3_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -137,7 +140,8 @@
         "start": 946,
         "end": 979,
         "value": "./eval-rqstd-order-4_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -150,7 +154,8 @@
         "start": 997,
         "end": 1030,
         "value": "./eval-rqstd-order-5_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -174,7 +179,8 @@
         "start": 1055,
         "end": 1088,
         "value": "./eval-rqstd-order-6_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -186,7 +192,8 @@
         "start": 1105,
         "end": 1138,
         "value": "./eval-rqstd-order-7_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -221,7 +228,8 @@
         "start": 1169,
         "end": 1202,
         "value": "./eval-rqstd-order-8_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -238,7 +246,8 @@
         "start": 1226,
         "end": 1259,
         "value": "./eval-rqstd-order-9_FIXTURE.js"
-      }
+      },
+      "attributes": []
     }
   ],
   "sourceType": "module"

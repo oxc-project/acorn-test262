@@ -1,37 +1,37 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 675,
+  "end": 636,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 522,
-      "end": 574,
+      "end": 635,
       "expression": {
         "type": "CallExpression",
         "start": 522,
-        "end": 573,
+        "end": 634,
         "callee": {
           "type": "Identifier",
           "start": 522,
-          "end": 541,
-          "name": "verifyNotEnumerable"
+          "end": 536,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 542,
-            "end": 558,
+            "start": 537,
+            "end": 553,
             "object": {
               "type": "Identifier",
-              "start": 542,
-              "end": 548,
+              "start": 537,
+              "end": 543,
               "name": "RegExp"
             },
             "property": {
               "type": "Identifier",
-              "start": 549,
-              "end": 558,
+              "start": 544,
+              "end": 553,
               "name": "prototype"
             },
             "computed": false,
@@ -39,136 +39,92 @@
           },
           {
             "type": "MemberExpression",
-            "start": 560,
-            "end": 572,
+            "start": 555,
+            "end": 567,
             "object": {
               "type": "Identifier",
-              "start": 560,
-              "end": 566,
+              "start": 555,
+              "end": 561,
               "name": "Symbol"
             },
             "property": {
               "type": "Identifier",
-              "start": 567,
-              "end": 572,
+              "start": 562,
+              "end": 567,
               "name": "match"
-            },
-            "computed": false,
-            "optional": false
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 575,
-      "end": 622,
-      "expression": {
-        "type": "CallExpression",
-        "start": 575,
-        "end": 621,
-        "callee": {
-          "type": "Identifier",
-          "start": 575,
-          "end": 589,
-          "name": "verifyWritable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 590,
-            "end": 606,
-            "object": {
-              "type": "Identifier",
-              "start": 590,
-              "end": 596,
-              "name": "RegExp"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 597,
-              "end": 606,
-              "name": "prototype"
             },
             "computed": false,
             "optional": false
           },
           {
-            "type": "MemberExpression",
-            "start": 608,
-            "end": 620,
-            "object": {
-              "type": "Identifier",
-              "start": 608,
-              "end": 614,
-              "name": "Symbol"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 615,
-              "end": 620,
-              "name": "match"
-            },
-            "computed": false,
-            "optional": false
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 623,
-      "end": 674,
-      "expression": {
-        "type": "CallExpression",
-        "start": 623,
-        "end": 673,
-        "callee": {
-          "type": "Identifier",
-          "start": 623,
-          "end": 641,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 642,
-            "end": 658,
-            "object": {
-              "type": "Identifier",
-              "start": 642,
-              "end": 648,
-              "name": "RegExp"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 649,
-              "end": 658,
-              "name": "prototype"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "MemberExpression",
-            "start": 660,
-            "end": 672,
-            "object": {
-              "type": "Identifier",
-              "start": 660,
-              "end": 666,
-              "name": "Symbol"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 667,
-              "end": 672,
-              "name": "match"
-            },
-            "computed": false,
-            "optional": false
+            "type": "ObjectExpression",
+            "start": 569,
+            "end": 633,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 573,
+                "end": 587,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 573,
+                  "end": 581,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 583,
+                  "end": 587,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 591,
+                "end": 608,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 591,
+                  "end": 601,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 603,
+                  "end": 608,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 612,
+                "end": 630,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 612,
+                  "end": 624,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 626,
+                  "end": 630,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

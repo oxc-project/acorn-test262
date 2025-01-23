@@ -25,7 +25,8 @@
         "start": 1262,
         "end": 1310,
         "value": "./get-nested-namespace-props-nrml-1_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

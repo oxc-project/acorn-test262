@@ -1,30 +1,30 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 349,
+  "end": 470,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 268,
-      "end": 348,
+      "start": 389,
+      "end": 469,
       "expression": {
         "type": "CallExpression",
-        "start": 268,
-        "end": 347,
+        "start": 389,
+        "end": 468,
         "callee": {
           "type": "MemberExpression",
-          "start": 268,
-          "end": 281,
+          "start": 389,
+          "end": 402,
           "object": {
             "type": "Identifier",
-            "start": 268,
-            "end": 274,
+            "start": 389,
+            "end": 395,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 275,
-            "end": 281,
+            "start": 396,
+            "end": 402,
             "name": "throws"
           },
           "computed": false,
@@ -33,14 +33,14 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 282,
-            "end": 296,
+            "start": 403,
+            "end": 417,
             "name": "ReferenceError"
           },
           {
             "type": "FunctionExpression",
-            "start": 298,
-            "end": 346,
+            "start": 419,
+            "end": 467,
             "id": null,
             "expression": false,
             "generator": false,
@@ -48,28 +48,28 @@
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 309,
-              "end": 346,
+              "start": 430,
+              "end": 467,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 313,
-                  "end": 344,
+                  "start": 434,
+                  "end": 465,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 313,
-                    "end": 343,
+                    "start": 434,
+                    "end": 464,
                     "callee": {
                       "type": "Identifier",
-                      "start": 313,
-                      "end": 317,
+                      "start": 434,
+                      "end": 438,
                       "name": "eval"
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 318,
-                        "end": 342,
+                        "start": 439,
+                        "end": 463,
                         "value": "var x = asdf ghjk"
                       }
                     ],

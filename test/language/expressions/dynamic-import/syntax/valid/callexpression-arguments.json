@@ -68,7 +68,8 @@
                         "start": 470,
                         "end": 490,
                         "value": "./empty_FIXTURE.js"
-                      }
+                      },
+                      "options": null
                     },
                     "arguments": [],
                     "optional": false
@@ -152,7 +153,8 @@
                         "start": 563,
                         "end": 583,
                         "value": "./empty_FIXTURE.js"
-                      }
+                      },
+                      "options": null
                     },
                     "arguments": [
                       {
@@ -243,7 +245,8 @@
                         "start": 672,
                         "end": 692,
                         "value": "./empty_FIXTURE.js"
-                      }
+                      },
+                      "options": null
                     },
                     "arguments": [
                       {
@@ -340,7 +343,8 @@
                         "start": 765,
                         "end": 785,
                         "value": "./empty_FIXTURE.js"
-                      }
+                      },
+                      "options": null
                     },
                     "arguments": [
                       {

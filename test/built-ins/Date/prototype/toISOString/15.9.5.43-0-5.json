@@ -1,17 +1,17 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 408,
+  "end": 409,
   "body": [
     {
       "type": "VariableDeclaration",
       "start": 282,
-      "end": 323,
+      "end": 324,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 286,
-          "end": 322,
+          "end": 323,
           "id": {
             "type": "Identifier",
             "start": 286,
@@ -21,32 +21,39 @@
           "init": {
             "type": "CallExpression",
             "start": 296,
-            "end": 322,
+            "end": 323,
             "callee": {
               "type": "MemberExpression",
               "start": 296,
-              "end": 320,
+              "end": 321,
               "object": {
                 "type": "ParenthesizedExpression",
                 "start": 296,
-                "end": 308,
+                "end": 309,
                 "expression": {
                   "type": "NewExpression",
                   "start": 297,
-                  "end": 307,
+                  "end": 308,
                   "callee": {
                     "type": "Identifier",
                     "start": 301,
                     "end": 305,
                     "name": "Date"
                   },
-                  "arguments": []
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 306,
+                      "end": 307,
+                      "value": 0
+                    }
+                  ]
                 }
               },
               "property": {
                 "type": "Identifier",
-                "start": 309,
-                "end": 320,
+                "start": 310,
+                "end": 321,
                 "name": "toISOString"
               },
               "computed": false,
@@ -61,26 +68,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 325,
-      "end": 407,
+      "start": 326,
+      "end": 408,
       "expression": {
         "type": "CallExpression",
-        "start": 325,
-        "end": 406,
+        "start": 326,
+        "end": 407,
         "callee": {
           "type": "MemberExpression",
-          "start": 325,
-          "end": 341,
+          "start": 326,
+          "end": 342,
           "object": {
             "type": "Identifier",
-            "start": 325,
-            "end": 331,
+            "start": 326,
+            "end": 332,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 332,
-            "end": 341,
+            "start": 333,
+            "end": 342,
             "name": "sameValue"
           },
           "computed": false,
@@ -89,32 +96,32 @@
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 342,
-            "end": 369,
+            "start": 343,
+            "end": 370,
             "object": {
               "type": "Identifier",
-              "start": 342,
-              "end": 349,
+              "start": 343,
+              "end": 350,
               "name": "dateStr"
             },
             "property": {
               "type": "BinaryExpression",
-              "start": 350,
-              "end": 368,
+              "start": 351,
+              "end": 369,
               "left": {
                 "type": "MemberExpression",
-                "start": 350,
-                "end": 364,
+                "start": 351,
+                "end": 365,
                 "object": {
                   "type": "Identifier",
-                  "start": 350,
-                  "end": 357,
+                  "start": 351,
+                  "end": 358,
                   "name": "dateStr"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 358,
-                  "end": 364,
+                  "start": 359,
+                  "end": 365,
                   "name": "length"
                 },
                 "computed": false,
@@ -123,8 +130,8 @@
               "operator": "-",
               "right": {
                 "type": "Literal",
-                "start": 367,
-                "end": 368,
+                "start": 368,
+                "end": 369,
                 "value": 1
               }
             },
@@ -133,14 +140,14 @@
           },
           {
             "type": "Literal",
-            "start": 371,
-            "end": 374,
+            "start": 372,
+            "end": 375,
             "value": "Z"
           },
           {
             "type": "Literal",
-            "start": 376,
-            "end": 405,
+            "start": 377,
+            "end": 406,
             "value": "dateStr[dateStr.length - 1]"
           }
         ],

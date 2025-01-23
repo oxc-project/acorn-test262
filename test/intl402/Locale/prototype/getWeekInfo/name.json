@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1244,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1094,
+      "end": 1243,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1094,
+        "end": 1242,
+        "callee": {
+          "type": "Identifier",
+          "start": 1094,
+          "end": 1108,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1109,
+            "end": 1142,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1109,
+              "end": 1130,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1109,
+                "end": 1120,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1109,
+                  "end": 1113,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1114,
+                  "end": 1120,
+                  "name": "Locale"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1121,
+                "end": 1130,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1131,
+              "end": 1142,
+              "name": "getWeekInfo"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1144,
+            "end": 1150,
+            "value": "name"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1152,
+            "end": 1241,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1156,
+                "end": 1176,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1156,
+                  "end": 1161,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1163,
+                  "end": 1176,
+                  "value": "getWeekInfo"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1180,
+                "end": 1195,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1180,
+                  "end": 1188,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1190,
+                  "end": 1195,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1199,
+                "end": 1216,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1199,
+                  "end": 1209,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1211,
+                  "end": 1216,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1220,
+                "end": 1238,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1220,
+                  "end": 1232,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1234,
+                  "end": 1238,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

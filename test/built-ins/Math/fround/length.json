@@ -1,205 +1,138 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1077,
+  "end": 1023,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 906,
-      "end": 946,
+      "end": 1022,
       "expression": {
         "type": "CallExpression",
         "start": 906,
-        "end": 945,
+        "end": 1021,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 906,
-          "end": 922,
-          "object": {
-            "type": "Identifier",
-            "start": 906,
-            "end": 912,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 913,
-            "end": 922,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 920,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 923,
-            "end": 941,
+            "start": 921,
+            "end": 932,
             "object": {
-              "type": "MemberExpression",
-              "start": 923,
-              "end": 934,
-              "object": {
-                "type": "Identifier",
-                "start": 923,
-                "end": 927,
-                "name": "Math"
+              "type": "Identifier",
+              "start": 921,
+              "end": 925,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 926,
+              "end": 932,
+              "name": "fround"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 934,
+            "end": 942,
+            "value": "length"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 944,
+            "end": 1020,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 948,
+                "end": 956,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 948,
+                  "end": 953,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 955,
+                  "end": 956,
+                  "value": 1
+                },
+                "kind": "init"
               },
-              "property": {
-                "type": "Identifier",
-                "start": 928,
-                "end": 934,
-                "name": "fround"
+              {
+                "type": "Property",
+                "start": 960,
+                "end": 975,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 960,
+                  "end": 968,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 970,
+                  "end": 975,
+                  "value": false
+                },
+                "kind": "init"
               },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 935,
-              "end": 941,
-              "name": "length"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 943,
-            "end": 944,
-            "value": 1
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 948,
-      "end": 991,
-      "expression": {
-        "type": "CallExpression",
-        "start": 948,
-        "end": 990,
-        "callee": {
-          "type": "Identifier",
-          "start": 948,
-          "end": 967,
-          "name": "verifyNotEnumerable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 968,
-            "end": 979,
-            "object": {
-              "type": "Identifier",
-              "start": 968,
-              "end": 972,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 973,
-              "end": 979,
-              "name": "fround"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 981,
-            "end": 989,
-            "value": "length"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 992,
-      "end": 1033,
-      "expression": {
-        "type": "CallExpression",
-        "start": 992,
-        "end": 1032,
-        "callee": {
-          "type": "Identifier",
-          "start": 992,
-          "end": 1009,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1010,
-            "end": 1021,
-            "object": {
-              "type": "Identifier",
-              "start": 1010,
-              "end": 1014,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 1015,
-              "end": 1021,
-              "name": "fround"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1023,
-            "end": 1031,
-            "value": "length"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 1034,
-      "end": 1076,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1034,
-        "end": 1075,
-        "callee": {
-          "type": "Identifier",
-          "start": 1034,
-          "end": 1052,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 1053,
-            "end": 1064,
-            "object": {
-              "type": "Identifier",
-              "start": 1053,
-              "end": 1057,
-              "name": "Math"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 1058,
-              "end": 1064,
-              "name": "fround"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 1066,
-            "end": 1074,
-            "value": "length"
+              {
+                "type": "Property",
+                "start": 979,
+                "end": 996,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 979,
+                  "end": 989,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 991,
+                  "end": 996,
+                  "value": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1000,
+                "end": 1018,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1000,
+                  "end": 1012,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1014,
+                  "end": 1018,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

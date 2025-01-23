@@ -1,17 +1,17 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 428,
+  "end": 429,
   "body": [
     {
       "type": "VariableDeclaration",
       "start": 251,
-      "end": 276,
+      "end": 277,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 255,
-          "end": 275,
+          "end": 276,
           "id": {
             "type": "Identifier",
             "start": 255,
@@ -21,14 +21,21 @@
           "init": {
             "type": "NewExpression",
             "start": 265,
-            "end": 275,
+            "end": 276,
             "callee": {
               "type": "Identifier",
               "start": 269,
               "end": 273,
               "name": "Date"
             },
-            "arguments": []
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 274,
+                "end": 275,
+                "value": 0
+              }
+            ]
           }
         }
       ],
@@ -36,12 +43,12 @@
     },
     {
       "type": "FunctionDeclaration",
-      "start": 278,
-      "end": 343,
+      "start": 279,
+      "end": 344,
       "id": {
         "type": "Identifier",
-        "start": 287,
-        "end": 297,
+        "start": 288,
+        "end": 298,
         "name": "callbackfn"
       },
       "expression": false,
@@ -50,46 +57,46 @@
       "params": [
         {
           "type": "Identifier",
-          "start": 298,
-          "end": 301,
+          "start": 299,
+          "end": 302,
           "name": "val"
         },
         {
           "type": "Identifier",
-          "start": 303,
-          "end": 306,
+          "start": 304,
+          "end": 307,
           "name": "idx"
         },
         {
           "type": "Identifier",
-          "start": 308,
-          "end": 311,
+          "start": 309,
+          "end": 312,
           "name": "obj"
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 313,
-        "end": 343,
+        "start": 314,
+        "end": 344,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 317,
-            "end": 341,
+            "start": 318,
+            "end": 342,
             "argument": {
               "type": "BinaryExpression",
-              "start": 324,
-              "end": 340,
+              "start": 325,
+              "end": 341,
               "left": {
                 "type": "ThisExpression",
-                "start": 324,
-                "end": 328
+                "start": 325,
+                "end": 329
               },
               "operator": "===",
               "right": {
                 "type": "Identifier",
-                "start": 333,
-                "end": 340,
+                "start": 334,
+                "end": 341,
                 "name": "objDate"
               }
             }
@@ -99,44 +106,44 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 345,
-      "end": 427,
+      "start": 346,
+      "end": 428,
       "expression": {
         "type": "CallExpression",
-        "start": 345,
-        "end": 426,
+        "start": 346,
+        "end": 427,
         "callee": {
           "type": "Identifier",
-          "start": 345,
-          "end": 351,
+          "start": 346,
+          "end": 352,
           "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 352,
-            "end": 382,
+            "start": 353,
+            "end": 383,
             "callee": {
               "type": "MemberExpression",
-              "start": 352,
-              "end": 361,
+              "start": 353,
+              "end": 362,
               "object": {
                 "type": "ArrayExpression",
-                "start": 352,
-                "end": 356,
+                "start": 353,
+                "end": 357,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 353,
-                    "end": 355,
+                    "start": 354,
+                    "end": 356,
                     "value": 11
                   }
                 ]
               },
               "property": {
                 "type": "Identifier",
-                "start": 357,
-                "end": 361,
+                "start": 358,
+                "end": 362,
                 "name": "some"
               },
               "computed": false,
@@ -145,14 +152,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 362,
-                "end": 372,
+                "start": 363,
+                "end": 373,
                 "name": "callbackfn"
               },
               {
                 "type": "Identifier",
-                "start": 374,
-                "end": 381,
+                "start": 375,
+                "end": 382,
                 "name": "objDate"
               }
             ],
@@ -160,8 +167,8 @@
           },
           {
             "type": "Literal",
-            "start": 384,
-            "end": 425,
+            "start": 385,
+            "end": 426,
             "value": "[11].some(callbackfn, objDate) !== true"
           }
         ],

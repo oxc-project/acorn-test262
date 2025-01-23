@@ -1,0 +1,4102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 13365,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 270,
+      "end": 12473,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 276,
+          "end": 12472,
+          "id": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 295,
+            "name": "timeZoneIdentifiers"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 298,
+            "end": 12472,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 328,
+                "end": 344,
+                "value": "Africa/Abidjan"
+              },
+              {
+                "type": "Literal",
+                "start": 348,
+                "end": 364,
+                "value": "Africa/Algiers"
+              },
+              {
+                "type": "Literal",
+                "start": 368,
+                "end": 383,
+                "value": "Africa/Bissau"
+              },
+              {
+                "type": "Literal",
+                "start": 387,
+                "end": 401,
+                "value": "Africa/Cairo"
+              },
+              {
+                "type": "Literal",
+                "start": 405,
+                "end": 424,
+                "value": "Africa/Casablanca"
+              },
+              {
+                "type": "Literal",
+                "start": 428,
+                "end": 442,
+                "value": "Africa/Ceuta"
+              },
+              {
+                "type": "Literal",
+                "start": 446,
+                "end": 463,
+                "value": "Africa/El_Aaiun"
+              },
+              {
+                "type": "Literal",
+                "start": 467,
+                "end": 488,
+                "value": "Africa/Johannesburg"
+              },
+              {
+                "type": "Literal",
+                "start": 492,
+                "end": 505,
+                "value": "Africa/Juba"
+              },
+              {
+                "type": "Literal",
+                "start": 509,
+                "end": 526,
+                "value": "Africa/Khartoum"
+              },
+              {
+                "type": "Literal",
+                "start": 530,
+                "end": 544,
+                "value": "Africa/Lagos"
+              },
+              {
+                "type": "Literal",
+                "start": 548,
+                "end": 563,
+                "value": "Africa/Maputo"
+              },
+              {
+                "type": "Literal",
+                "start": 567,
+                "end": 584,
+                "value": "Africa/Monrovia"
+              },
+              {
+                "type": "Literal",
+                "start": 588,
+                "end": 604,
+                "value": "Africa/Nairobi"
+              },
+              {
+                "type": "Literal",
+                "start": 608,
+                "end": 625,
+                "value": "Africa/Ndjamena"
+              },
+              {
+                "type": "Literal",
+                "start": 629,
+                "end": 646,
+                "value": "Africa/Sao_Tome"
+              },
+              {
+                "type": "Literal",
+                "start": 650,
+                "end": 666,
+                "value": "Africa/Tripoli"
+              },
+              {
+                "type": "Literal",
+                "start": 670,
+                "end": 684,
+                "value": "Africa/Tunis"
+              },
+              {
+                "type": "Literal",
+                "start": 688,
+                "end": 705,
+                "value": "Africa/Windhoek"
+              },
+              {
+                "type": "Literal",
+                "start": 709,
+                "end": 723,
+                "value": "America/Adak"
+              },
+              {
+                "type": "Literal",
+                "start": 727,
+                "end": 746,
+                "value": "America/Anchorage"
+              },
+              {
+                "type": "Literal",
+                "start": 750,
+                "end": 769,
+                "value": "America/Araguaina"
+              },
+              {
+                "type": "Literal",
+                "start": 773,
+                "end": 805,
+                "value": "America/Argentina/Buenos_Aires"
+              },
+              {
+                "type": "Literal",
+                "start": 809,
+                "end": 838,
+                "value": "America/Argentina/Catamarca"
+              },
+              {
+                "type": "Literal",
+                "start": 842,
+                "end": 869,
+                "value": "America/Argentina/Cordoba"
+              },
+              {
+                "type": "Literal",
+                "start": 873,
+                "end": 898,
+                "value": "America/Argentina/Jujuy"
+              },
+              {
+                "type": "Literal",
+                "start": 902,
+                "end": 930,
+                "value": "America/Argentina/La_Rioja"
+              },
+              {
+                "type": "Literal",
+                "start": 934,
+                "end": 961,
+                "value": "America/Argentina/Mendoza"
+              },
+              {
+                "type": "Literal",
+                "start": 965,
+                "end": 997,
+                "value": "America/Argentina/Rio_Gallegos"
+              },
+              {
+                "type": "Literal",
+                "start": 1001,
+                "end": 1026,
+                "value": "America/Argentina/Salta"
+              },
+              {
+                "type": "Literal",
+                "start": 1030,
+                "end": 1058,
+                "value": "America/Argentina/San_Juan"
+              },
+              {
+                "type": "Literal",
+                "start": 1062,
+                "end": 1090,
+                "value": "America/Argentina/San_Luis"
+              },
+              {
+                "type": "Literal",
+                "start": 1094,
+                "end": 1121,
+                "value": "America/Argentina/Tucuman"
+              },
+              {
+                "type": "Literal",
+                "start": 1125,
+                "end": 1152,
+                "value": "America/Argentina/Ushuaia"
+              },
+              {
+                "type": "Literal",
+                "start": 1156,
+                "end": 1174,
+                "value": "America/Asuncion"
+              },
+              {
+                "type": "Literal",
+                "start": 1178,
+                "end": 1193,
+                "value": "America/Bahia"
+              },
+              {
+                "type": "Literal",
+                "start": 1197,
+                "end": 1221,
+                "value": "America/Bahia_Banderas"
+              },
+              {
+                "type": "Literal",
+                "start": 1225,
+                "end": 1243,
+                "value": "America/Barbados"
+              },
+              {
+                "type": "Literal",
+                "start": 1247,
+                "end": 1262,
+                "value": "America/Belem"
+              },
+              {
+                "type": "Literal",
+                "start": 1266,
+                "end": 1282,
+                "value": "America/Belize"
+              },
+              {
+                "type": "Literal",
+                "start": 1286,
+                "end": 1305,
+                "value": "America/Boa_Vista"
+              },
+              {
+                "type": "Literal",
+                "start": 1309,
+                "end": 1325,
+                "value": "America/Bogota"
+              },
+              {
+                "type": "Literal",
+                "start": 1329,
+                "end": 1344,
+                "value": "America/Boise"
+              },
+              {
+                "type": "Literal",
+                "start": 1348,
+                "end": 1371,
+                "value": "America/Cambridge_Bay"
+              },
+              {
+                "type": "Literal",
+                "start": 1375,
+                "end": 1397,
+                "value": "America/Campo_Grande"
+              },
+              {
+                "type": "Literal",
+                "start": 1401,
+                "end": 1417,
+                "value": "America/Cancun"
+              },
+              {
+                "type": "Literal",
+                "start": 1421,
+                "end": 1438,
+                "value": "America/Caracas"
+              },
+              {
+                "type": "Literal",
+                "start": 1442,
+                "end": 1459,
+                "value": "America/Cayenne"
+              },
+              {
+                "type": "Literal",
+                "start": 1463,
+                "end": 1480,
+                "value": "America/Chicago"
+              },
+              {
+                "type": "Literal",
+                "start": 1484,
+                "end": 1503,
+                "value": "America/Chihuahua"
+              },
+              {
+                "type": "Literal",
+                "start": 1597,
+                "end": 1617,
+                "value": "America/Costa_Rica"
+              },
+              {
+                "type": "Literal",
+                "start": 1621,
+                "end": 1637,
+                "value": "America/Cuiaba"
+              },
+              {
+                "type": "Literal",
+                "start": 1641,
+                "end": 1663,
+                "value": "America/Danmarkshavn"
+              },
+              {
+                "type": "Literal",
+                "start": 1667,
+                "end": 1683,
+                "value": "America/Dawson"
+              },
+              {
+                "type": "Literal",
+                "start": 1687,
+                "end": 1709,
+                "value": "America/Dawson_Creek"
+              },
+              {
+                "type": "Literal",
+                "start": 1713,
+                "end": 1729,
+                "value": "America/Denver"
+              },
+              {
+                "type": "Literal",
+                "start": 1733,
+                "end": 1750,
+                "value": "America/Detroit"
+              },
+              {
+                "type": "Literal",
+                "start": 1754,
+                "end": 1772,
+                "value": "America/Edmonton"
+              },
+              {
+                "type": "Literal",
+                "start": 1776,
+                "end": 1794,
+                "value": "America/Eirunepe"
+              },
+              {
+                "type": "Literal",
+                "start": 1798,
+                "end": 1819,
+                "value": "America/El_Salvador"
+              },
+              {
+                "type": "Literal",
+                "start": 1823,
+                "end": 1844,
+                "value": "America/Fort_Nelson"
+              },
+              {
+                "type": "Literal",
+                "start": 1848,
+                "end": 1867,
+                "value": "America/Fortaleza"
+              },
+              {
+                "type": "Literal",
+                "start": 1871,
+                "end": 1890,
+                "value": "America/Glace_Bay"
+              },
+              {
+                "type": "Literal",
+                "start": 1894,
+                "end": 1913,
+                "value": "America/Goose_Bay"
+              },
+              {
+                "type": "Literal",
+                "start": 1917,
+                "end": 1937,
+                "value": "America/Grand_Turk"
+              },
+              {
+                "type": "Literal",
+                "start": 1941,
+                "end": 1960,
+                "value": "America/Guatemala"
+              },
+              {
+                "type": "Literal",
+                "start": 1964,
+                "end": 1983,
+                "value": "America/Guayaquil"
+              },
+              {
+                "type": "Literal",
+                "start": 1987,
+                "end": 2003,
+                "value": "America/Guyana"
+              },
+              {
+                "type": "Literal",
+                "start": 2007,
+                "end": 2024,
+                "value": "America/Halifax"
+              },
+              {
+                "type": "Literal",
+                "start": 2028,
+                "end": 2044,
+                "value": "America/Havana"
+              },
+              {
+                "type": "Literal",
+                "start": 2048,
+                "end": 2068,
+                "value": "America/Hermosillo"
+              },
+              {
+                "type": "Literal",
+                "start": 2072,
+                "end": 2102,
+                "value": "America/Indiana/Indianapolis"
+              },
+              {
+                "type": "Literal",
+                "start": 2106,
+                "end": 2128,
+                "value": "America/Indiana/Knox"
+              },
+              {
+                "type": "Literal",
+                "start": 2132,
+                "end": 2157,
+                "value": "America/Indiana/Marengo"
+              },
+              {
+                "type": "Literal",
+                "start": 2161,
+                "end": 2189,
+                "value": "America/Indiana/Petersburg"
+              },
+              {
+                "type": "Literal",
+                "start": 2193,
+                "end": 2220,
+                "value": "America/Indiana/Tell_City"
+              },
+              {
+                "type": "Literal",
+                "start": 2224,
+                "end": 2247,
+                "value": "America/Indiana/Vevay"
+              },
+              {
+                "type": "Literal",
+                "start": 2251,
+                "end": 2278,
+                "value": "America/Indiana/Vincennes"
+              },
+              {
+                "type": "Literal",
+                "start": 2282,
+                "end": 2307,
+                "value": "America/Indiana/Winamac"
+              },
+              {
+                "type": "Literal",
+                "start": 2311,
+                "end": 2327,
+                "value": "America/Inuvik"
+              },
+              {
+                "type": "Literal",
+                "start": 2331,
+                "end": 2348,
+                "value": "America/Iqaluit"
+              },
+              {
+                "type": "Literal",
+                "start": 2352,
+                "end": 2369,
+                "value": "America/Jamaica"
+              },
+              {
+                "type": "Literal",
+                "start": 2373,
+                "end": 2389,
+                "value": "America/Juneau"
+              },
+              {
+                "type": "Literal",
+                "start": 2393,
+                "end": 2422,
+                "value": "America/Kentucky/Louisville"
+              },
+              {
+                "type": "Literal",
+                "start": 2426,
+                "end": 2455,
+                "value": "America/Kentucky/Monticello"
+              },
+              {
+                "type": "Literal",
+                "start": 2459,
+                "end": 2475,
+                "value": "America/La_Paz"
+              },
+              {
+                "type": "Literal",
+                "start": 2479,
+                "end": 2493,
+                "value": "America/Lima"
+              },
+              {
+                "type": "Literal",
+                "start": 2497,
+                "end": 2518,
+                "value": "America/Los_Angeles"
+              },
+              {
+                "type": "Literal",
+                "start": 2522,
+                "end": 2538,
+                "value": "America/Maceio"
+              },
+              {
+                "type": "Literal",
+                "start": 2542,
+                "end": 2559,
+                "value": "America/Managua"
+              },
+              {
+                "type": "Literal",
+                "start": 2563,
+                "end": 2579,
+                "value": "America/Manaus"
+              },
+              {
+                "type": "Literal",
+                "start": 2583,
+                "end": 2603,
+                "value": "America/Martinique"
+              },
+              {
+                "type": "Literal",
+                "start": 2607,
+                "end": 2626,
+                "value": "America/Matamoros"
+              },
+              {
+                "type": "Literal",
+                "start": 2630,
+                "end": 2648,
+                "value": "America/Mazatlan"
+              },
+              {
+                "type": "Literal",
+                "start": 2652,
+                "end": 2671,
+                "value": "America/Menominee"
+              },
+              {
+                "type": "Literal",
+                "start": 2675,
+                "end": 2691,
+                "value": "America/Merida"
+              },
+              {
+                "type": "Literal",
+                "start": 2695,
+                "end": 2715,
+                "value": "America/Metlakatla"
+              },
+              {
+                "type": "Literal",
+                "start": 2719,
+                "end": 2740,
+                "value": "America/Mexico_City"
+              },
+              {
+                "type": "Literal",
+                "start": 2744,
+                "end": 2762,
+                "value": "America/Miquelon"
+              },
+              {
+                "type": "Literal",
+                "start": 2766,
+                "end": 2783,
+                "value": "America/Moncton"
+              },
+              {
+                "type": "Literal",
+                "start": 2787,
+                "end": 2806,
+                "value": "America/Monterrey"
+              },
+              {
+                "type": "Literal",
+                "start": 2810,
+                "end": 2830,
+                "value": "America/Montevideo"
+              },
+              {
+                "type": "Literal",
+                "start": 2834,
+                "end": 2852,
+                "value": "America/New_York"
+              },
+              {
+                "type": "Literal",
+                "start": 2856,
+                "end": 2870,
+                "value": "America/Nome"
+              },
+              {
+                "type": "Literal",
+                "start": 2874,
+                "end": 2891,
+                "value": "America/Noronha"
+              },
+              {
+                "type": "Literal",
+                "start": 2895,
+                "end": 2924,
+                "value": "America/North_Dakota/Beulah"
+              },
+              {
+                "type": "Literal",
+                "start": 2928,
+                "end": 2957,
+                "value": "America/North_Dakota/Center"
+              },
+              {
+                "type": "Literal",
+                "start": 2961,
+                "end": 2993,
+                "value": "America/North_Dakota/New_Salem"
+              },
+              {
+                "type": "Literal",
+                "start": 2997,
+                "end": 3011,
+                "value": "America/Nuuk"
+              },
+              {
+                "type": "Literal",
+                "start": 3015,
+                "end": 3032,
+                "value": "America/Ojinaga"
+              },
+              {
+                "type": "Literal",
+                "start": 3036,
+                "end": 3052,
+                "value": "America/Panama"
+              },
+              {
+                "type": "Literal",
+                "start": 3056,
+                "end": 3076,
+                "value": "America/Paramaribo"
+              },
+              {
+                "type": "Literal",
+                "start": 3080,
+                "end": 3097,
+                "value": "America/Phoenix"
+              },
+              {
+                "type": "Literal",
+                "start": 3101,
+                "end": 3125,
+                "value": "America/Port-au-Prince"
+              },
+              {
+                "type": "Literal",
+                "start": 3129,
+                "end": 3150,
+                "value": "America/Porto_Velho"
+              },
+              {
+                "type": "Literal",
+                "start": 3154,
+                "end": 3175,
+                "value": "America/Puerto_Rico"
+              },
+              {
+                "type": "Literal",
+                "start": 3179,
+                "end": 3201,
+                "value": "America/Punta_Arenas"
+              },
+              {
+                "type": "Literal",
+                "start": 3205,
+                "end": 3227,
+                "value": "America/Rankin_Inlet"
+              },
+              {
+                "type": "Literal",
+                "start": 3231,
+                "end": 3247,
+                "value": "America/Recife"
+              },
+              {
+                "type": "Literal",
+                "start": 3251,
+                "end": 3267,
+                "value": "America/Regina"
+              },
+              {
+                "type": "Literal",
+                "start": 3271,
+                "end": 3289,
+                "value": "America/Resolute"
+              },
+              {
+                "type": "Literal",
+                "start": 3293,
+                "end": 3313,
+                "value": "America/Rio_Branco"
+              },
+              {
+                "type": "Literal",
+                "start": 3317,
+                "end": 3335,
+                "value": "America/Santarem"
+              },
+              {
+                "type": "Literal",
+                "start": 3339,
+                "end": 3357,
+                "value": "America/Santiago"
+              },
+              {
+                "type": "Literal",
+                "start": 3361,
+                "end": 3384,
+                "value": "America/Santo_Domingo"
+              },
+              {
+                "type": "Literal",
+                "start": 3388,
+                "end": 3407,
+                "value": "America/Sao_Paulo"
+              },
+              {
+                "type": "Literal",
+                "start": 3411,
+                "end": 3433,
+                "value": "America/Scoresbysund"
+              },
+              {
+                "type": "Literal",
+                "start": 3437,
+                "end": 3452,
+                "value": "America/Sitka"
+              },
+              {
+                "type": "Literal",
+                "start": 3456,
+                "end": 3474,
+                "value": "America/St_Johns"
+              },
+              {
+                "type": "Literal",
+                "start": 3478,
+                "end": 3501,
+                "value": "America/Swift_Current"
+              },
+              {
+                "type": "Literal",
+                "start": 3505,
+                "end": 3526,
+                "value": "America/Tegucigalpa"
+              },
+              {
+                "type": "Literal",
+                "start": 3530,
+                "end": 3545,
+                "value": "America/Thule"
+              },
+              {
+                "type": "Literal",
+                "start": 3549,
+                "end": 3566,
+                "value": "America/Tijuana"
+              },
+              {
+                "type": "Literal",
+                "start": 3570,
+                "end": 3587,
+                "value": "America/Toronto"
+              },
+              {
+                "type": "Literal",
+                "start": 3591,
+                "end": 3610,
+                "value": "America/Vancouver"
+              },
+              {
+                "type": "Literal",
+                "start": 3614,
+                "end": 3634,
+                "value": "America/Whitehorse"
+              },
+              {
+                "type": "Literal",
+                "start": 3638,
+                "end": 3656,
+                "value": "America/Winnipeg"
+              },
+              {
+                "type": "Literal",
+                "start": 3660,
+                "end": 3677,
+                "value": "America/Yakutat"
+              },
+              {
+                "type": "Literal",
+                "start": 3681,
+                "end": 3702,
+                "value": "America/Yellowknife"
+              },
+              {
+                "type": "Literal",
+                "start": 3706,
+                "end": 3724,
+                "value": "Antarctica/Casey"
+              },
+              {
+                "type": "Literal",
+                "start": 3728,
+                "end": 3746,
+                "value": "Antarctica/Davis"
+              },
+              {
+                "type": "Literal",
+                "start": 3750,
+                "end": 3772,
+                "value": "Antarctica/Macquarie"
+              },
+              {
+                "type": "Literal",
+                "start": 3776,
+                "end": 3795,
+                "value": "Antarctica/Mawson"
+              },
+              {
+                "type": "Literal",
+                "start": 3799,
+                "end": 3818,
+                "value": "Antarctica/Palmer"
+              },
+              {
+                "type": "Literal",
+                "start": 3822,
+                "end": 3842,
+                "value": "Antarctica/Rothera"
+              },
+              {
+                "type": "Literal",
+                "start": 3846,
+                "end": 3864,
+                "value": "Antarctica/Troll"
+              },
+              {
+                "type": "Literal",
+                "start": 3868,
+                "end": 3881,
+                "value": "Asia/Almaty"
+              },
+              {
+                "type": "Literal",
+                "start": 3885,
+                "end": 3897,
+                "value": "Asia/Amman"
+              },
+              {
+                "type": "Literal",
+                "start": 3901,
+                "end": 3914,
+                "value": "Asia/Anadyr"
+              },
+              {
+                "type": "Literal",
+                "start": 3918,
+                "end": 3930,
+                "value": "Asia/Aqtau"
+              },
+              {
+                "type": "Literal",
+                "start": 3934,
+                "end": 3947,
+                "value": "Asia/Aqtobe"
+              },
+              {
+                "type": "Literal",
+                "start": 3951,
+                "end": 3966,
+                "value": "Asia/Ashgabat"
+              },
+              {
+                "type": "Literal",
+                "start": 3970,
+                "end": 3983,
+                "value": "Asia/Atyrau"
+              },
+              {
+                "type": "Literal",
+                "start": 3987,
+                "end": 4001,
+                "value": "Asia/Baghdad"
+              },
+              {
+                "type": "Literal",
+                "start": 4005,
+                "end": 4016,
+                "value": "Asia/Baku"
+              },
+              {
+                "type": "Literal",
+                "start": 4020,
+                "end": 4034,
+                "value": "Asia/Bangkok"
+              },
+              {
+                "type": "Literal",
+                "start": 4038,
+                "end": 4052,
+                "value": "Asia/Barnaul"
+              },
+              {
+                "type": "Literal",
+                "start": 4056,
+                "end": 4069,
+                "value": "Asia/Beirut"
+              },
+              {
+                "type": "Literal",
+                "start": 4073,
+                "end": 4087,
+                "value": "Asia/Bishkek"
+              },
+              {
+                "type": "Literal",
+                "start": 4091,
+                "end": 4103,
+                "value": "Asia/Chita"
+              },
+              {
+                "type": "Literal",
+                "start": 4107,
+                "end": 4124,
+                "value": "Asia/Choibalsan"
+              },
+              {
+                "type": "Literal",
+                "start": 4128,
+                "end": 4142,
+                "value": "Asia/Colombo"
+              },
+              {
+                "type": "Literal",
+                "start": 4146,
+                "end": 4161,
+                "value": "Asia/Damascus"
+              },
+              {
+                "type": "Literal",
+                "start": 4165,
+                "end": 4177,
+                "value": "Asia/Dhaka"
+              },
+              {
+                "type": "Literal",
+                "start": 4181,
+                "end": 4192,
+                "value": "Asia/Dili"
+              },
+              {
+                "type": "Literal",
+                "start": 4196,
+                "end": 4208,
+                "value": "Asia/Dubai"
+              },
+              {
+                "type": "Literal",
+                "start": 4212,
+                "end": 4227,
+                "value": "Asia/Dushanbe"
+              },
+              {
+                "type": "Literal",
+                "start": 4231,
+                "end": 4247,
+                "value": "Asia/Famagusta"
+              },
+              {
+                "type": "Literal",
+                "start": 4251,
+                "end": 4262,
+                "value": "Asia/Gaza"
+              },
+              {
+                "type": "Literal",
+                "start": 4266,
+                "end": 4279,
+                "value": "Asia/Hebron"
+              },
+              {
+                "type": "Literal",
+                "start": 4283,
+                "end": 4301,
+                "value": "Asia/Ho_Chi_Minh"
+              },
+              {
+                "type": "Literal",
+                "start": 4305,
+                "end": 4321,
+                "value": "Asia/Hong_Kong"
+              },
+              {
+                "type": "Literal",
+                "start": 4325,
+                "end": 4336,
+                "value": "Asia/Hovd"
+              },
+              {
+                "type": "Literal",
+                "start": 4340,
+                "end": 4354,
+                "value": "Asia/Irkutsk"
+              },
+              {
+                "type": "Literal",
+                "start": 4358,
+                "end": 4372,
+                "value": "Asia/Jakarta"
+              },
+              {
+                "type": "Literal",
+                "start": 4376,
+                "end": 4391,
+                "value": "Asia/Jayapura"
+              },
+              {
+                "type": "Literal",
+                "start": 4395,
+                "end": 4411,
+                "value": "Asia/Jerusalem"
+              },
+              {
+                "type": "Literal",
+                "start": 4415,
+                "end": 4427,
+                "value": "Asia/Kabul"
+              },
+              {
+                "type": "Literal",
+                "start": 4431,
+                "end": 4447,
+                "value": "Asia/Kamchatka"
+              },
+              {
+                "type": "Literal",
+                "start": 4451,
+                "end": 4465,
+                "value": "Asia/Karachi"
+              },
+              {
+                "type": "Literal",
+                "start": 4469,
+                "end": 4485,
+                "value": "Asia/Kathmandu"
+              },
+              {
+                "type": "Literal",
+                "start": 4489,
+                "end": 4504,
+                "value": "Asia/Khandyga"
+              },
+              {
+                "type": "Literal",
+                "start": 4508,
+                "end": 4522,
+                "value": "Asia/Kolkata"
+              },
+              {
+                "type": "Literal",
+                "start": 4526,
+                "end": 4544,
+                "value": "Asia/Krasnoyarsk"
+              },
+              {
+                "type": "Literal",
+                "start": 4548,
+                "end": 4562,
+                "value": "Asia/Kuching"
+              },
+              {
+                "type": "Literal",
+                "start": 4566,
+                "end": 4578,
+                "value": "Asia/Macau"
+              },
+              {
+                "type": "Literal",
+                "start": 4582,
+                "end": 4596,
+                "value": "Asia/Magadan"
+              },
+              {
+                "type": "Literal",
+                "start": 4600,
+                "end": 4615,
+                "value": "Asia/Makassar"
+              },
+              {
+                "type": "Literal",
+                "start": 4619,
+                "end": 4632,
+                "value": "Asia/Manila"
+              },
+              {
+                "type": "Literal",
+                "start": 4636,
+                "end": 4650,
+                "value": "Asia/Nicosia"
+              },
+              {
+                "type": "Literal",
+                "start": 4654,
+                "end": 4673,
+                "value": "Asia/Novokuznetsk"
+              },
+              {
+                "type": "Literal",
+                "start": 4677,
+                "end": 4695,
+                "value": "Asia/Novosibirsk"
+              },
+              {
+                "type": "Literal",
+                "start": 4699,
+                "end": 4710,
+                "value": "Asia/Omsk"
+              },
+              {
+                "type": "Literal",
+                "start": 4714,
+                "end": 4725,
+                "value": "Asia/Oral"
+              },
+              {
+                "type": "Literal",
+                "start": 4729,
+                "end": 4745,
+                "value": "Asia/Pontianak"
+              },
+              {
+                "type": "Literal",
+                "start": 4749,
+                "end": 4765,
+                "value": "Asia/Pyongyang"
+              },
+              {
+                "type": "Literal",
+                "start": 4769,
+                "end": 4781,
+                "value": "Asia/Qatar"
+              },
+              {
+                "type": "Literal",
+                "start": 4785,
+                "end": 4800,
+                "value": "Asia/Qostanay"
+              },
+              {
+                "type": "Literal",
+                "start": 4804,
+                "end": 4820,
+                "value": "Asia/Qyzylorda"
+              },
+              {
+                "type": "Literal",
+                "start": 4824,
+                "end": 4837,
+                "value": "Asia/Riyadh"
+              },
+              {
+                "type": "Literal",
+                "start": 4841,
+                "end": 4856,
+                "value": "Asia/Sakhalin"
+              },
+              {
+                "type": "Literal",
+                "start": 4860,
+                "end": 4876,
+                "value": "Asia/Samarkand"
+              },
+              {
+                "type": "Literal",
+                "start": 4880,
+                "end": 4892,
+                "value": "Asia/Seoul"
+              },
+              {
+                "type": "Literal",
+                "start": 4896,
+                "end": 4911,
+                "value": "Asia/Shanghai"
+              },
+              {
+                "type": "Literal",
+                "start": 4915,
+                "end": 4931,
+                "value": "Asia/Singapore"
+              },
+              {
+                "type": "Literal",
+                "start": 4935,
+                "end": 4955,
+                "value": "Asia/Srednekolymsk"
+              },
+              {
+                "type": "Literal",
+                "start": 4959,
+                "end": 4972,
+                "value": "Asia/Taipei"
+              },
+              {
+                "type": "Literal",
+                "start": 4976,
+                "end": 4991,
+                "value": "Asia/Tashkent"
+              },
+              {
+                "type": "Literal",
+                "start": 4995,
+                "end": 5009,
+                "value": "Asia/Tbilisi"
+              },
+              {
+                "type": "Literal",
+                "start": 5013,
+                "end": 5026,
+                "value": "Asia/Tehran"
+              },
+              {
+                "type": "Literal",
+                "start": 5030,
+                "end": 5044,
+                "value": "Asia/Thimphu"
+              },
+              {
+                "type": "Literal",
+                "start": 5048,
+                "end": 5060,
+                "value": "Asia/Tokyo"
+              },
+              {
+                "type": "Literal",
+                "start": 5064,
+                "end": 5076,
+                "value": "Asia/Tomsk"
+              },
+              {
+                "type": "Literal",
+                "start": 5080,
+                "end": 5098,
+                "value": "Asia/Ulaanbaatar"
+              },
+              {
+                "type": "Literal",
+                "start": 5102,
+                "end": 5115,
+                "value": "Asia/Urumqi"
+              },
+              {
+                "type": "Literal",
+                "start": 5119,
+                "end": 5134,
+                "value": "Asia/Ust-Nera"
+              },
+              {
+                "type": "Literal",
+                "start": 5138,
+                "end": 5156,
+                "value": "Asia/Vladivostok"
+              },
+              {
+                "type": "Literal",
+                "start": 5160,
+                "end": 5174,
+                "value": "Asia/Yakutsk"
+              },
+              {
+                "type": "Literal",
+                "start": 5178,
+                "end": 5191,
+                "value": "Asia/Yangon"
+              },
+              {
+                "type": "Literal",
+                "start": 5195,
+                "end": 5215,
+                "value": "Asia/Yekaterinburg"
+              },
+              {
+                "type": "Literal",
+                "start": 5219,
+                "end": 5233,
+                "value": "Asia/Yerevan"
+              },
+              {
+                "type": "Literal",
+                "start": 5237,
+                "end": 5254,
+                "value": "Atlantic/Azores"
+              },
+              {
+                "type": "Literal",
+                "start": 5258,
+                "end": 5276,
+                "value": "Atlantic/Bermuda"
+              },
+              {
+                "type": "Literal",
+                "start": 5280,
+                "end": 5297,
+                "value": "Atlantic/Canary"
+              },
+              {
+                "type": "Literal",
+                "start": 5301,
+                "end": 5322,
+                "value": "Atlantic/Cape_Verde"
+              },
+              {
+                "type": "Literal",
+                "start": 5326,
+                "end": 5342,
+                "value": "Atlantic/Faroe"
+              },
+              {
+                "type": "Literal",
+                "start": 5346,
+                "end": 5364,
+                "value": "Atlantic/Madeira"
+              },
+              {
+                "type": "Literal",
+                "start": 5368,
+                "end": 5392,
+                "value": "Atlantic/South_Georgia"
+              },
+              {
+                "type": "Literal",
+                "start": 5396,
+                "end": 5414,
+                "value": "Atlantic/Stanley"
+              },
+              {
+                "type": "Literal",
+                "start": 5418,
+                "end": 5438,
+                "value": "Australia/Adelaide"
+              },
+              {
+                "type": "Literal",
+                "start": 5442,
+                "end": 5462,
+                "value": "Australia/Brisbane"
+              },
+              {
+                "type": "Literal",
+                "start": 5466,
+                "end": 5489,
+                "value": "Australia/Broken_Hill"
+              },
+              {
+                "type": "Literal",
+                "start": 5493,
+                "end": 5511,
+                "value": "Australia/Darwin"
+              },
+              {
+                "type": "Literal",
+                "start": 5515,
+                "end": 5532,
+                "value": "Australia/Eucla"
+              },
+              {
+                "type": "Literal",
+                "start": 5536,
+                "end": 5554,
+                "value": "Australia/Hobart"
+              },
+              {
+                "type": "Literal",
+                "start": 5558,
+                "end": 5578,
+                "value": "Australia/Lindeman"
+              },
+              {
+                "type": "Literal",
+                "start": 5582,
+                "end": 5603,
+                "value": "Australia/Lord_Howe"
+              },
+              {
+                "type": "Literal",
+                "start": 5607,
+                "end": 5628,
+                "value": "Australia/Melbourne"
+              },
+              {
+                "type": "Literal",
+                "start": 5632,
+                "end": 5649,
+                "value": "Australia/Perth"
+              },
+              {
+                "type": "Literal",
+                "start": 5653,
+                "end": 5671,
+                "value": "Australia/Sydney"
+              },
+              {
+                "type": "Literal",
+                "start": 5675,
+                "end": 5680,
+                "value": "CET"
+              },
+              {
+                "type": "Literal",
+                "start": 5684,
+                "end": 5693,
+                "value": "CST6CDT"
+              },
+              {
+                "type": "Literal",
+                "start": 5697,
+                "end": 5702,
+                "value": "EET"
+              },
+              {
+                "type": "Literal",
+                "start": 5706,
+                "end": 5711,
+                "value": "EST"
+              },
+              {
+                "type": "Literal",
+                "start": 5715,
+                "end": 5724,
+                "value": "EST5EDT"
+              },
+              {
+                "type": "Literal",
+                "start": 5728,
+                "end": 5737,
+                "value": "Etc/GMT"
+              },
+              {
+                "type": "Literal",
+                "start": 5741,
+                "end": 5752,
+                "value": "Etc/GMT+1"
+              },
+              {
+                "type": "Literal",
+                "start": 5756,
+                "end": 5768,
+                "value": "Etc/GMT+10"
+              },
+              {
+                "type": "Literal",
+                "start": 5772,
+                "end": 5784,
+                "value": "Etc/GMT+11"
+              },
+              {
+                "type": "Literal",
+                "start": 5788,
+                "end": 5800,
+                "value": "Etc/GMT+12"
+              },
+              {
+                "type": "Literal",
+                "start": 5804,
+                "end": 5815,
+                "value": "Etc/GMT+2"
+              },
+              {
+                "type": "Literal",
+                "start": 5819,
+                "end": 5830,
+                "value": "Etc/GMT+3"
+              },
+              {
+                "type": "Literal",
+                "start": 5834,
+                "end": 5845,
+                "value": "Etc/GMT+4"
+              },
+              {
+                "type": "Literal",
+                "start": 5849,
+                "end": 5860,
+                "value": "Etc/GMT+5"
+              },
+              {
+                "type": "Literal",
+                "start": 5864,
+                "end": 5875,
+                "value": "Etc/GMT+6"
+              },
+              {
+                "type": "Literal",
+                "start": 5879,
+                "end": 5890,
+                "value": "Etc/GMT+7"
+              },
+              {
+                "type": "Literal",
+                "start": 5894,
+                "end": 5905,
+                "value": "Etc/GMT+8"
+              },
+              {
+                "type": "Literal",
+                "start": 5909,
+                "end": 5920,
+                "value": "Etc/GMT+9"
+              },
+              {
+                "type": "Literal",
+                "start": 5924,
+                "end": 5935,
+                "value": "Etc/GMT-1"
+              },
+              {
+                "type": "Literal",
+                "start": 5939,
+                "end": 5951,
+                "value": "Etc/GMT-10"
+              },
+              {
+                "type": "Literal",
+                "start": 5955,
+                "end": 5967,
+                "value": "Etc/GMT-11"
+              },
+              {
+                "type": "Literal",
+                "start": 5971,
+                "end": 5983,
+                "value": "Etc/GMT-12"
+              },
+              {
+                "type": "Literal",
+                "start": 5987,
+                "end": 5999,
+                "value": "Etc/GMT-13"
+              },
+              {
+                "type": "Literal",
+                "start": 6003,
+                "end": 6015,
+                "value": "Etc/GMT-14"
+              },
+              {
+                "type": "Literal",
+                "start": 6019,
+                "end": 6030,
+                "value": "Etc/GMT-2"
+              },
+              {
+                "type": "Literal",
+                "start": 6034,
+                "end": 6045,
+                "value": "Etc/GMT-3"
+              },
+              {
+                "type": "Literal",
+                "start": 6049,
+                "end": 6060,
+                "value": "Etc/GMT-4"
+              },
+              {
+                "type": "Literal",
+                "start": 6064,
+                "end": 6075,
+                "value": "Etc/GMT-5"
+              },
+              {
+                "type": "Literal",
+                "start": 6079,
+                "end": 6090,
+                "value": "Etc/GMT-6"
+              },
+              {
+                "type": "Literal",
+                "start": 6094,
+                "end": 6105,
+                "value": "Etc/GMT-7"
+              },
+              {
+                "type": "Literal",
+                "start": 6109,
+                "end": 6120,
+                "value": "Etc/GMT-8"
+              },
+              {
+                "type": "Literal",
+                "start": 6124,
+                "end": 6135,
+                "value": "Etc/GMT-9"
+              },
+              {
+                "type": "Literal",
+                "start": 6139,
+                "end": 6148,
+                "value": "Etc/UTC"
+              },
+              {
+                "type": "Literal",
+                "start": 6152,
+                "end": 6168,
+                "value": "Europe/Andorra"
+              },
+              {
+                "type": "Literal",
+                "start": 6172,
+                "end": 6190,
+                "value": "Europe/Astrakhan"
+              },
+              {
+                "type": "Literal",
+                "start": 6194,
+                "end": 6209,
+                "value": "Europe/Athens"
+              },
+              {
+                "type": "Literal",
+                "start": 6213,
+                "end": 6230,
+                "value": "Europe/Belgrade"
+              },
+              {
+                "type": "Literal",
+                "start": 6234,
+                "end": 6249,
+                "value": "Europe/Berlin"
+              },
+              {
+                "type": "Literal",
+                "start": 6253,
+                "end": 6270,
+                "value": "Europe/Brussels"
+              },
+              {
+                "type": "Literal",
+                "start": 6274,
+                "end": 6292,
+                "value": "Europe/Bucharest"
+              },
+              {
+                "type": "Literal",
+                "start": 6296,
+                "end": 6313,
+                "value": "Europe/Budapest"
+              },
+              {
+                "type": "Literal",
+                "start": 6317,
+                "end": 6334,
+                "value": "Europe/Chisinau"
+              },
+              {
+                "type": "Literal",
+                "start": 6338,
+                "end": 6353,
+                "value": "Europe/Dublin"
+              },
+              {
+                "type": "Literal",
+                "start": 6357,
+                "end": 6375,
+                "value": "Europe/Gibraltar"
+              },
+              {
+                "type": "Literal",
+                "start": 6379,
+                "end": 6396,
+                "value": "Europe/Helsinki"
+              },
+              {
+                "type": "Literal",
+                "start": 6400,
+                "end": 6417,
+                "value": "Europe/Istanbul"
+              },
+              {
+                "type": "Literal",
+                "start": 6421,
+                "end": 6441,
+                "value": "Europe/Kaliningrad"
+              },
+              {
+                "type": "Literal",
+                "start": 6445,
+                "end": 6459,
+                "value": "Europe/Kirov"
+              },
+              {
+                "type": "Literal",
+                "start": 6463,
+                "end": 6476,
+                "value": "Europe/Kyiv"
+              },
+              {
+                "type": "Literal",
+                "start": 6480,
+                "end": 6495,
+                "value": "Europe/Lisbon"
+              },
+              {
+                "type": "Literal",
+                "start": 6499,
+                "end": 6514,
+                "value": "Europe/London"
+              },
+              {
+                "type": "Literal",
+                "start": 6518,
+                "end": 6533,
+                "value": "Europe/Madrid"
+              },
+              {
+                "type": "Literal",
+                "start": 6537,
+                "end": 6551,
+                "value": "Europe/Malta"
+              },
+              {
+                "type": "Literal",
+                "start": 6555,
+                "end": 6569,
+                "value": "Europe/Minsk"
+              },
+              {
+                "type": "Literal",
+                "start": 6573,
+                "end": 6588,
+                "value": "Europe/Moscow"
+              },
+              {
+                "type": "Literal",
+                "start": 6592,
+                "end": 6606,
+                "value": "Europe/Paris"
+              },
+              {
+                "type": "Literal",
+                "start": 6610,
+                "end": 6625,
+                "value": "Europe/Prague"
+              },
+              {
+                "type": "Literal",
+                "start": 6629,
+                "end": 6642,
+                "value": "Europe/Riga"
+              },
+              {
+                "type": "Literal",
+                "start": 6646,
+                "end": 6659,
+                "value": "Europe/Rome"
+              },
+              {
+                "type": "Literal",
+                "start": 6663,
+                "end": 6678,
+                "value": "Europe/Samara"
+              },
+              {
+                "type": "Literal",
+                "start": 6682,
+                "end": 6698,
+                "value": "Europe/Saratov"
+              },
+              {
+                "type": "Literal",
+                "start": 6702,
+                "end": 6721,
+                "value": "Europe/Simferopol"
+              },
+              {
+                "type": "Literal",
+                "start": 6725,
+                "end": 6739,
+                "value": "Europe/Sofia"
+              },
+              {
+                "type": "Literal",
+                "start": 6743,
+                "end": 6759,
+                "value": "Europe/Tallinn"
+              },
+              {
+                "type": "Literal",
+                "start": 6763,
+                "end": 6778,
+                "value": "Europe/Tirane"
+              },
+              {
+                "type": "Literal",
+                "start": 6782,
+                "end": 6800,
+                "value": "Europe/Ulyanovsk"
+              },
+              {
+                "type": "Literal",
+                "start": 6804,
+                "end": 6819,
+                "value": "Europe/Vienna"
+              },
+              {
+                "type": "Literal",
+                "start": 6823,
+                "end": 6839,
+                "value": "Europe/Vilnius"
+              },
+              {
+                "type": "Literal",
+                "start": 6843,
+                "end": 6861,
+                "value": "Europe/Volgograd"
+              },
+              {
+                "type": "Literal",
+                "start": 6865,
+                "end": 6880,
+                "value": "Europe/Warsaw"
+              },
+              {
+                "type": "Literal",
+                "start": 6884,
+                "end": 6899,
+                "value": "Europe/Zurich"
+              },
+              {
+                "type": "Literal",
+                "start": 6903,
+                "end": 6908,
+                "value": "HST"
+              },
+              {
+                "type": "Literal",
+                "start": 6912,
+                "end": 6927,
+                "value": "Indian/Chagos"
+              },
+              {
+                "type": "Literal",
+                "start": 6931,
+                "end": 6948,
+                "value": "Indian/Maldives"
+              },
+              {
+                "type": "Literal",
+                "start": 6952,
+                "end": 6970,
+                "value": "Indian/Mauritius"
+              },
+              {
+                "type": "Literal",
+                "start": 6974,
+                "end": 6979,
+                "value": "MET"
+              },
+              {
+                "type": "Literal",
+                "start": 6983,
+                "end": 6988,
+                "value": "MST"
+              },
+              {
+                "type": "Literal",
+                "start": 6992,
+                "end": 7001,
+                "value": "MST7MDT"
+              },
+              {
+                "type": "Literal",
+                "start": 7005,
+                "end": 7014,
+                "value": "PST8PDT"
+              },
+              {
+                "type": "Literal",
+                "start": 7018,
+                "end": 7032,
+                "value": "Pacific/Apia"
+              },
+              {
+                "type": "Literal",
+                "start": 7036,
+                "end": 7054,
+                "value": "Pacific/Auckland"
+              },
+              {
+                "type": "Literal",
+                "start": 7058,
+                "end": 7080,
+                "value": "Pacific/Bougainville"
+              },
+              {
+                "type": "Literal",
+                "start": 7084,
+                "end": 7101,
+                "value": "Pacific/Chatham"
+              },
+              {
+                "type": "Literal",
+                "start": 7105,
+                "end": 7121,
+                "value": "Pacific/Easter"
+              },
+              {
+                "type": "Literal",
+                "start": 7125,
+                "end": 7140,
+                "value": "Pacific/Efate"
+              },
+              {
+                "type": "Literal",
+                "start": 7144,
+                "end": 7161,
+                "value": "Pacific/Fakaofo"
+              },
+              {
+                "type": "Literal",
+                "start": 7165,
+                "end": 7179,
+                "value": "Pacific/Fiji"
+              },
+              {
+                "type": "Literal",
+                "start": 7183,
+                "end": 7202,
+                "value": "Pacific/Galapagos"
+              },
+              {
+                "type": "Literal",
+                "start": 7206,
+                "end": 7223,
+                "value": "Pacific/Gambier"
+              },
+              {
+                "type": "Literal",
+                "start": 7227,
+                "end": 7248,
+                "value": "Pacific/Guadalcanal"
+              },
+              {
+                "type": "Literal",
+                "start": 7252,
+                "end": 7266,
+                "value": "Pacific/Guam"
+              },
+              {
+                "type": "Literal",
+                "start": 7270,
+                "end": 7288,
+                "value": "Pacific/Honolulu"
+              },
+              {
+                "type": "Literal",
+                "start": 7292,
+                "end": 7308,
+                "value": "Pacific/Kanton"
+              },
+              {
+                "type": "Literal",
+                "start": 7312,
+                "end": 7332,
+                "value": "Pacific/Kiritimati"
+              },
+              {
+                "type": "Literal",
+                "start": 7336,
+                "end": 7352,
+                "value": "Pacific/Kosrae"
+              },
+              {
+                "type": "Literal",
+                "start": 7356,
+                "end": 7375,
+                "value": "Pacific/Kwajalein"
+              },
+              {
+                "type": "Literal",
+                "start": 7379,
+                "end": 7398,
+                "value": "Pacific/Marquesas"
+              },
+              {
+                "type": "Literal",
+                "start": 7402,
+                "end": 7417,
+                "value": "Pacific/Nauru"
+              },
+              {
+                "type": "Literal",
+                "start": 7421,
+                "end": 7435,
+                "value": "Pacific/Niue"
+              },
+              {
+                "type": "Literal",
+                "start": 7439,
+                "end": 7456,
+                "value": "Pacific/Norfolk"
+              },
+              {
+                "type": "Literal",
+                "start": 7460,
+                "end": 7476,
+                "value": "Pacific/Noumea"
+              },
+              {
+                "type": "Literal",
+                "start": 7480,
+                "end": 7499,
+                "value": "Pacific/Pago_Pago"
+              },
+              {
+                "type": "Literal",
+                "start": 7503,
+                "end": 7518,
+                "value": "Pacific/Palau"
+              },
+              {
+                "type": "Literal",
+                "start": 7522,
+                "end": 7540,
+                "value": "Pacific/Pitcairn"
+              },
+              {
+                "type": "Literal",
+                "start": 7544,
+                "end": 7566,
+                "value": "Pacific/Port_Moresby"
+              },
+              {
+                "type": "Literal",
+                "start": 7570,
+                "end": 7589,
+                "value": "Pacific/Rarotonga"
+              },
+              {
+                "type": "Literal",
+                "start": 7593,
+                "end": 7609,
+                "value": "Pacific/Tahiti"
+              },
+              {
+                "type": "Literal",
+                "start": 7613,
+                "end": 7629,
+                "value": "Pacific/Tarawa"
+              },
+              {
+                "type": "Literal",
+                "start": 7633,
+                "end": 7652,
+                "value": "Pacific/Tongatapu"
+              },
+              {
+                "type": "Literal",
+                "start": 7656,
+                "end": 7661,
+                "value": "WET"
+              },
+              {
+                "type": "Literal",
+                "start": 7692,
+                "end": 7706,
+                "value": "Africa/Accra"
+              },
+              {
+                "type": "Literal",
+                "start": 7710,
+                "end": 7730,
+                "value": "Africa/Addis_Ababa"
+              },
+              {
+                "type": "Literal",
+                "start": 7734,
+                "end": 7749,
+                "value": "Africa/Asmara"
+              },
+              {
+                "type": "Literal",
+                "start": 7753,
+                "end": 7768,
+                "value": "Africa/Asmera"
+              },
+              {
+                "type": "Literal",
+                "start": 7772,
+                "end": 7787,
+                "value": "Africa/Bamako"
+              },
+              {
+                "type": "Literal",
+                "start": 7791,
+                "end": 7806,
+                "value": "Africa/Bangui"
+              },
+              {
+                "type": "Literal",
+                "start": 7810,
+                "end": 7825,
+                "value": "Africa/Banjul"
+              },
+              {
+                "type": "Literal",
+                "start": 7829,
+                "end": 7846,
+                "value": "Africa/Blantyre"
+              },
+              {
+                "type": "Literal",
+                "start": 7850,
+                "end": 7870,
+                "value": "Africa/Brazzaville"
+              },
+              {
+                "type": "Literal",
+                "start": 7874,
+                "end": 7892,
+                "value": "Africa/Bujumbura"
+              },
+              {
+                "type": "Literal",
+                "start": 7896,
+                "end": 7912,
+                "value": "Africa/Conakry"
+              },
+              {
+                "type": "Literal",
+                "start": 7916,
+                "end": 7930,
+                "value": "Africa/Dakar"
+              },
+              {
+                "type": "Literal",
+                "start": 7934,
+                "end": 7956,
+                "value": "Africa/Dar_es_Salaam"
+              },
+              {
+                "type": "Literal",
+                "start": 7960,
+                "end": 7977,
+                "value": "Africa/Djibouti"
+              },
+              {
+                "type": "Literal",
+                "start": 7981,
+                "end": 7996,
+                "value": "Africa/Douala"
+              },
+              {
+                "type": "Literal",
+                "start": 8000,
+                "end": 8017,
+                "value": "Africa/Freetown"
+              },
+              {
+                "type": "Literal",
+                "start": 8021,
+                "end": 8038,
+                "value": "Africa/Gaborone"
+              },
+              {
+                "type": "Literal",
+                "start": 8042,
+                "end": 8057,
+                "value": "Africa/Harare"
+              },
+              {
+                "type": "Literal",
+                "start": 8061,
+                "end": 8077,
+                "value": "Africa/Kampala"
+              },
+              {
+                "type": "Literal",
+                "start": 8081,
+                "end": 8096,
+                "value": "Africa/Kigali"
+              },
+              {
+                "type": "Literal",
+                "start": 8100,
+                "end": 8117,
+                "value": "Africa/Kinshasa"
+              },
+              {
+                "type": "Literal",
+                "start": 8121,
+                "end": 8140,
+                "value": "Africa/Libreville"
+              },
+              {
+                "type": "Literal",
+                "start": 8144,
+                "end": 8157,
+                "value": "Africa/Lome"
+              },
+              {
+                "type": "Literal",
+                "start": 8161,
+                "end": 8176,
+                "value": "Africa/Luanda"
+              },
+              {
+                "type": "Literal",
+                "start": 8180,
+                "end": 8199,
+                "value": "Africa/Lubumbashi"
+              },
+              {
+                "type": "Literal",
+                "start": 8203,
+                "end": 8218,
+                "value": "Africa/Lusaka"
+              },
+              {
+                "type": "Literal",
+                "start": 8222,
+                "end": 8237,
+                "value": "Africa/Malabo"
+              },
+              {
+                "type": "Literal",
+                "start": 8241,
+                "end": 8256,
+                "value": "Africa/Maseru"
+              },
+              {
+                "type": "Literal",
+                "start": 8260,
+                "end": 8276,
+                "value": "Africa/Mbabane"
+              },
+              {
+                "type": "Literal",
+                "start": 8280,
+                "end": 8298,
+                "value": "Africa/Mogadishu"
+              },
+              {
+                "type": "Literal",
+                "start": 8302,
+                "end": 8317,
+                "value": "Africa/Niamey"
+              },
+              {
+                "type": "Literal",
+                "start": 8321,
+                "end": 8340,
+                "value": "Africa/Nouakchott"
+              },
+              {
+                "type": "Literal",
+                "start": 8344,
+                "end": 8364,
+                "value": "Africa/Ouagadougou"
+              },
+              {
+                "type": "Literal",
+                "start": 8368,
+                "end": 8387,
+                "value": "Africa/Porto-Novo"
+              },
+              {
+                "type": "Literal",
+                "start": 8391,
+                "end": 8408,
+                "value": "Africa/Timbuktu"
+              },
+              {
+                "type": "Literal",
+                "start": 8412,
+                "end": 8430,
+                "value": "America/Anguilla"
+              },
+              {
+                "type": "Literal",
+                "start": 8434,
+                "end": 8451,
+                "value": "America/Antigua"
+              },
+              {
+                "type": "Literal",
+                "start": 8455,
+                "end": 8489,
+                "value": "America/Argentina/ComodRivadavia"
+              },
+              {
+                "type": "Literal",
+                "start": 8493,
+                "end": 8508,
+                "value": "America/Aruba"
+              },
+              {
+                "type": "Literal",
+                "start": 8512,
+                "end": 8530,
+                "value": "America/Atikokan"
+              },
+              {
+                "type": "Literal",
+                "start": 8534,
+                "end": 8548,
+                "value": "America/Atka"
+              },
+              {
+                "type": "Literal",
+                "start": 8552,
+                "end": 8574,
+                "value": "America/Blanc-Sablon"
+              },
+              {
+                "type": "Literal",
+                "start": 8578,
+                "end": 8600,
+                "value": "America/Buenos_Aires"
+              },
+              {
+                "type": "Literal",
+                "start": 8604,
+                "end": 8623,
+                "value": "America/Catamarca"
+              },
+              {
+                "type": "Literal",
+                "start": 8627,
+                "end": 8643,
+                "value": "America/Cayman"
+              },
+              {
+                "type": "Literal",
+                "start": 8647,
+                "end": 8670,
+                "value": "America/Coral_Harbour"
+              },
+              {
+                "type": "Literal",
+                "start": 8674,
+                "end": 8691,
+                "value": "America/Cordoba"
+              },
+              {
+                "type": "Literal",
+                "start": 8695,
+                "end": 8712,
+                "value": "America/Creston"
+              },
+              {
+                "type": "Literal",
+                "start": 8716,
+                "end": 8733,
+                "value": "America/Curacao"
+              },
+              {
+                "type": "Literal",
+                "start": 8737,
+                "end": 8755,
+                "value": "America/Dominica"
+              },
+              {
+                "type": "Literal",
+                "start": 8759,
+                "end": 8777,
+                "value": "America/Ensenada"
+              },
+              {
+                "type": "Literal",
+                "start": 8781,
+                "end": 8801,
+                "value": "America/Fort_Wayne"
+              },
+              {
+                "type": "Literal",
+                "start": 8805,
+                "end": 8822,
+                "value": "America/Godthab"
+              },
+              {
+                "type": "Literal",
+                "start": 8826,
+                "end": 8843,
+                "value": "America/Grenada"
+              },
+              {
+                "type": "Literal",
+                "start": 8847,
+                "end": 8867,
+                "value": "America/Guadeloupe"
+              },
+              {
+                "type": "Literal",
+                "start": 8871,
+                "end": 8893,
+                "value": "America/Indianapolis"
+              },
+              {
+                "type": "Literal",
+                "start": 8897,
+                "end": 8912,
+                "value": "America/Jujuy"
+              },
+              {
+                "type": "Literal",
+                "start": 8916,
+                "end": 8933,
+                "value": "America/Knox_IN"
+              },
+              {
+                "type": "Literal",
+                "start": 8937,
+                "end": 8957,
+                "value": "America/Kralendijk"
+              },
+              {
+                "type": "Literal",
+                "start": 8961,
+                "end": 8981,
+                "value": "America/Louisville"
+              },
+              {
+                "type": "Literal",
+                "start": 8985,
+                "end": 9008,
+                "value": "America/Lower_Princes"
+              },
+              {
+                "type": "Literal",
+                "start": 9012,
+                "end": 9029,
+                "value": "America/Marigot"
+              },
+              {
+                "type": "Literal",
+                "start": 9033,
+                "end": 9050,
+                "value": "America/Mendoza"
+              },
+              {
+                "type": "Literal",
+                "start": 9054,
+                "end": 9072,
+                "value": "America/Montreal"
+              },
+              {
+                "type": "Literal",
+                "start": 9076,
+                "end": 9096,
+                "value": "America/Montserrat"
+              },
+              {
+                "type": "Literal",
+                "start": 9100,
+                "end": 9116,
+                "value": "America/Nassau"
+              },
+              {
+                "type": "Literal",
+                "start": 9120,
+                "end": 9137,
+                "value": "America/Nipigon"
+              },
+              {
+                "type": "Literal",
+                "start": 9141,
+                "end": 9162,
+                "value": "America/Pangnirtung"
+              },
+              {
+                "type": "Literal",
+                "start": 9166,
+                "end": 9189,
+                "value": "America/Port_of_Spain"
+              },
+              {
+                "type": "Literal",
+                "start": 9193,
+                "end": 9213,
+                "value": "America/Porto_Acre"
+              },
+              {
+                "type": "Literal",
+                "start": 9217,
+                "end": 9238,
+                "value": "America/Rainy_River"
+              },
+              {
+                "type": "Literal",
+                "start": 9242,
+                "end": 9259,
+                "value": "America/Rosario"
+              },
+              {
+                "type": "Literal",
+                "start": 9263,
+                "end": 9285,
+                "value": "America/Santa_Isabel"
+              },
+              {
+                "type": "Literal",
+                "start": 9289,
+                "end": 9307,
+                "value": "America/Shiprock"
+              },
+              {
+                "type": "Literal",
+                "start": 9311,
+                "end": 9334,
+                "value": "America/St_Barthelemy"
+              },
+              {
+                "type": "Literal",
+                "start": 9338,
+                "end": 9356,
+                "value": "America/St_Kitts"
+              },
+              {
+                "type": "Literal",
+                "start": 9360,
+                "end": 9378,
+                "value": "America/St_Lucia"
+              },
+              {
+                "type": "Literal",
+                "start": 9382,
+                "end": 9401,
+                "value": "America/St_Thomas"
+              },
+              {
+                "type": "Literal",
+                "start": 9405,
+                "end": 9425,
+                "value": "America/St_Vincent"
+              },
+              {
+                "type": "Literal",
+                "start": 9429,
+                "end": 9450,
+                "value": "America/Thunder_Bay"
+              },
+              {
+                "type": "Literal",
+                "start": 9454,
+                "end": 9471,
+                "value": "America/Tortola"
+              },
+              {
+                "type": "Literal",
+                "start": 9475,
+                "end": 9491,
+                "value": "America/Virgin"
+              },
+              {
+                "type": "Literal",
+                "start": 9495,
+                "end": 9522,
+                "value": "Antarctica/DumontDUrville"
+              },
+              {
+                "type": "Literal",
+                "start": 9526,
+                "end": 9546,
+                "value": "Antarctica/McMurdo"
+              },
+              {
+                "type": "Literal",
+                "start": 9550,
+                "end": 9573,
+                "value": "Antarctica/South_Pole"
+              },
+              {
+                "type": "Literal",
+                "start": 9577,
+                "end": 9595,
+                "value": "Antarctica/Syowa"
+              },
+              {
+                "type": "Literal",
+                "start": 9599,
+                "end": 9618,
+                "value": "Antarctica/Vostok"
+              },
+              {
+                "type": "Literal",
+                "start": 9622,
+                "end": 9643,
+                "value": "Arctic/Longyearbyen"
+              },
+              {
+                "type": "Literal",
+                "start": 9647,
+                "end": 9658,
+                "value": "Asia/Aden"
+              },
+              {
+                "type": "Literal",
+                "start": 9662,
+                "end": 9678,
+                "value": "Asia/Ashkhabad"
+              },
+              {
+                "type": "Literal",
+                "start": 9682,
+                "end": 9696,
+                "value": "Asia/Bahrain"
+              },
+              {
+                "type": "Literal",
+                "start": 9700,
+                "end": 9713,
+                "value": "Asia/Brunei"
+              },
+              {
+                "type": "Literal",
+                "start": 9717,
+                "end": 9732,
+                "value": "Asia/Calcutta"
+              },
+              {
+                "type": "Literal",
+                "start": 9736,
+                "end": 9752,
+                "value": "Asia/Chongqing"
+              },
+              {
+                "type": "Literal",
+                "start": 9756,
+                "end": 9772,
+                "value": "Asia/Chungking"
+              },
+              {
+                "type": "Literal",
+                "start": 9776,
+                "end": 9788,
+                "value": "Asia/Dacca"
+              },
+              {
+                "type": "Literal",
+                "start": 9792,
+                "end": 9805,
+                "value": "Asia/Harbin"
+              },
+              {
+                "type": "Literal",
+                "start": 9809,
+                "end": 9824,
+                "value": "Asia/Istanbul"
+              },
+              {
+                "type": "Literal",
+                "start": 9828,
+                "end": 9842,
+                "value": "Asia/Kashgar"
+              },
+              {
+                "type": "Literal",
+                "start": 9846,
+                "end": 9861,
+                "value": "Asia/Katmandu"
+              },
+              {
+                "type": "Literal",
+                "start": 9865,
+                "end": 9884,
+                "value": "Asia/Kuala_Lumpur"
+              },
+              {
+                "type": "Literal",
+                "start": 9888,
+                "end": 9901,
+                "value": "Asia/Kuwait"
+              },
+              {
+                "type": "Literal",
+                "start": 9905,
+                "end": 9917,
+                "value": "Asia/Macao"
+              },
+              {
+                "type": "Literal",
+                "start": 9921,
+                "end": 9934,
+                "value": "Asia/Muscat"
+              },
+              {
+                "type": "Literal",
+                "start": 9938,
+                "end": 9955,
+                "value": "Asia/Phnom_Penh"
+              },
+              {
+                "type": "Literal",
+                "start": 9959,
+                "end": 9973,
+                "value": "Asia/Rangoon"
+              },
+              {
+                "type": "Literal",
+                "start": 9977,
+                "end": 9990,
+                "value": "Asia/Saigon"
+              },
+              {
+                "type": "Literal",
+                "start": 9994,
+                "end": 10009,
+                "value": "Asia/Tel_Aviv"
+              },
+              {
+                "type": "Literal",
+                "start": 10013,
+                "end": 10026,
+                "value": "Asia/Thimbu"
+              },
+              {
+                "type": "Literal",
+                "start": 10030,
+                "end": 10050,
+                "value": "Asia/Ujung_Pandang"
+              },
+              {
+                "type": "Literal",
+                "start": 10054,
+                "end": 10071,
+                "value": "Asia/Ulan_Bator"
+              },
+              {
+                "type": "Literal",
+                "start": 10075,
+                "end": 10091,
+                "value": "Asia/Vientiane"
+              },
+              {
+                "type": "Literal",
+                "start": 10095,
+                "end": 10112,
+                "value": "Atlantic/Faeroe"
+              },
+              {
+                "type": "Literal",
+                "start": 10116,
+                "end": 10136,
+                "value": "Atlantic/Jan_Mayen"
+              },
+              {
+                "type": "Literal",
+                "start": 10140,
+                "end": 10160,
+                "value": "Atlantic/Reykjavik"
+              },
+              {
+                "type": "Literal",
+                "start": 10164,
+                "end": 10184,
+                "value": "Atlantic/St_Helena"
+              },
+              {
+                "type": "Literal",
+                "start": 10188,
+                "end": 10203,
+                "value": "Australia/ACT"
+              },
+              {
+                "type": "Literal",
+                "start": 10207,
+                "end": 10227,
+                "value": "Australia/Canberra"
+              },
+              {
+                "type": "Literal",
+                "start": 10231,
+                "end": 10249,
+                "value": "Australia/Currie"
+              },
+              {
+                "type": "Literal",
+                "start": 10253,
+                "end": 10268,
+                "value": "Australia/LHI"
+              },
+              {
+                "type": "Literal",
+                "start": 10272,
+                "end": 10287,
+                "value": "Australia/NSW"
+              },
+              {
+                "type": "Literal",
+                "start": 10291,
+                "end": 10308,
+                "value": "Australia/North"
+              },
+              {
+                "type": "Literal",
+                "start": 10312,
+                "end": 10334,
+                "value": "Australia/Queensland"
+              },
+              {
+                "type": "Literal",
+                "start": 10338,
+                "end": 10355,
+                "value": "Australia/South"
+              },
+              {
+                "type": "Literal",
+                "start": 10359,
+                "end": 10379,
+                "value": "Australia/Tasmania"
+              },
+              {
+                "type": "Literal",
+                "start": 10383,
+                "end": 10403,
+                "value": "Australia/Victoria"
+              },
+              {
+                "type": "Literal",
+                "start": 10407,
+                "end": 10423,
+                "value": "Australia/West"
+              },
+              {
+                "type": "Literal",
+                "start": 10427,
+                "end": 10449,
+                "value": "Australia/Yancowinna"
+              },
+              {
+                "type": "Literal",
+                "start": 10453,
+                "end": 10466,
+                "value": "Brazil/Acre"
+              },
+              {
+                "type": "Literal",
+                "start": 10470,
+                "end": 10488,
+                "value": "Brazil/DeNoronha"
+              },
+              {
+                "type": "Literal",
+                "start": 10492,
+                "end": 10505,
+                "value": "Brazil/East"
+              },
+              {
+                "type": "Literal",
+                "start": 10509,
+                "end": 10522,
+                "value": "Brazil/West"
+              },
+              {
+                "type": "Literal",
+                "start": 10526,
+                "end": 10543,
+                "value": "Canada/Atlantic"
+              },
+              {
+                "type": "Literal",
+                "start": 10547,
+                "end": 10563,
+                "value": "Canada/Central"
+              },
+              {
+                "type": "Literal",
+                "start": 10567,
+                "end": 10583,
+                "value": "Canada/Eastern"
+              },
+              {
+                "type": "Literal",
+                "start": 10587,
+                "end": 10604,
+                "value": "Canada/Mountain"
+              },
+              {
+                "type": "Literal",
+                "start": 10608,
+                "end": 10629,
+                "value": "Canada/Newfoundland"
+              },
+              {
+                "type": "Literal",
+                "start": 10633,
+                "end": 10649,
+                "value": "Canada/Pacific"
+              },
+              {
+                "type": "Literal",
+                "start": 10653,
+                "end": 10674,
+                "value": "Canada/Saskatchewan"
+              },
+              {
+                "type": "Literal",
+                "start": 10678,
+                "end": 10692,
+                "value": "Canada/Yukon"
+              },
+              {
+                "type": "Literal",
+                "start": 10696,
+                "end": 10715,
+                "value": "Chile/Continental"
+              },
+              {
+                "type": "Literal",
+                "start": 10719,
+                "end": 10739,
+                "value": "Chile/EasterIsland"
+              },
+              {
+                "type": "Literal",
+                "start": 10743,
+                "end": 10749,
+                "value": "Cuba"
+              },
+              {
+                "type": "Literal",
+                "start": 10753,
+                "end": 10760,
+                "value": "Egypt"
+              },
+              {
+                "type": "Literal",
+                "start": 10764,
+                "end": 10770,
+                "value": "Eire"
+              },
+              {
+                "type": "Literal",
+                "start": 10774,
+                "end": 10785,
+                "value": "Etc/GMT+0"
+              },
+              {
+                "type": "Literal",
+                "start": 10789,
+                "end": 10800,
+                "value": "Etc/GMT-0"
+              },
+              {
+                "type": "Literal",
+                "start": 10804,
+                "end": 10814,
+                "value": "Etc/GMT0"
+              },
+              {
+                "type": "Literal",
+                "start": 10818,
+                "end": 10833,
+                "value": "Etc/Greenwich"
+              },
+              {
+                "type": "Literal",
+                "start": 10837,
+                "end": 10846,
+                "value": "Etc/UCT"
+              },
+              {
+                "type": "Literal",
+                "start": 10850,
+                "end": 10865,
+                "value": "Etc/Universal"
+              },
+              {
+                "type": "Literal",
+                "start": 10869,
+                "end": 10879,
+                "value": "Etc/Zulu"
+              },
+              {
+                "type": "Literal",
+                "start": 10883,
+                "end": 10901,
+                "value": "Europe/Amsterdam"
+              },
+              {
+                "type": "Literal",
+                "start": 10905,
+                "end": 10921,
+                "value": "Europe/Belfast"
+              },
+              {
+                "type": "Literal",
+                "start": 10925,
+                "end": 10944,
+                "value": "Europe/Bratislava"
+              },
+              {
+                "type": "Literal",
+                "start": 10948,
+                "end": 10965,
+                "value": "Europe/Busingen"
+              },
+              {
+                "type": "Literal",
+                "start": 10969,
+                "end": 10988,
+                "value": "Europe/Copenhagen"
+              },
+              {
+                "type": "Literal",
+                "start": 10992,
+                "end": 11009,
+                "value": "Europe/Guernsey"
+              },
+              {
+                "type": "Literal",
+                "start": 11013,
+                "end": 11033,
+                "value": "Europe/Isle_of_Man"
+              },
+              {
+                "type": "Literal",
+                "start": 11037,
+                "end": 11052,
+                "value": "Europe/Jersey"
+              },
+              {
+                "type": "Literal",
+                "start": 11056,
+                "end": 11069,
+                "value": "Europe/Kiev"
+              },
+              {
+                "type": "Literal",
+                "start": 11073,
+                "end": 11091,
+                "value": "Europe/Ljubljana"
+              },
+              {
+                "type": "Literal",
+                "start": 11095,
+                "end": 11114,
+                "value": "Europe/Luxembourg"
+              },
+              {
+                "type": "Literal",
+                "start": 11118,
+                "end": 11136,
+                "value": "Europe/Mariehamn"
+              },
+              {
+                "type": "Literal",
+                "start": 11140,
+                "end": 11155,
+                "value": "Europe/Monaco"
+              },
+              {
+                "type": "Literal",
+                "start": 11159,
+                "end": 11175,
+                "value": "Europe/Nicosia"
+              },
+              {
+                "type": "Literal",
+                "start": 11179,
+                "end": 11192,
+                "value": "Europe/Oslo"
+              },
+              {
+                "type": "Literal",
+                "start": 11196,
+                "end": 11214,
+                "value": "Europe/Podgorica"
+              },
+              {
+                "type": "Literal",
+                "start": 11218,
+                "end": 11237,
+                "value": "Europe/San_Marino"
+              },
+              {
+                "type": "Literal",
+                "start": 11241,
+                "end": 11258,
+                "value": "Europe/Sarajevo"
+              },
+              {
+                "type": "Literal",
+                "start": 11262,
+                "end": 11277,
+                "value": "Europe/Skopje"
+              },
+              {
+                "type": "Literal",
+                "start": 11281,
+                "end": 11299,
+                "value": "Europe/Stockholm"
+              },
+              {
+                "type": "Literal",
+                "start": 11303,
+                "end": 11320,
+                "value": "Europe/Tiraspol"
+              },
+              {
+                "type": "Literal",
+                "start": 11324,
+                "end": 11341,
+                "value": "Europe/Uzhgorod"
+              },
+              {
+                "type": "Literal",
+                "start": 11345,
+                "end": 11359,
+                "value": "Europe/Vaduz"
+              },
+              {
+                "type": "Literal",
+                "start": 11363,
+                "end": 11379,
+                "value": "Europe/Vatican"
+              },
+              {
+                "type": "Literal",
+                "start": 11383,
+                "end": 11398,
+                "value": "Europe/Zagreb"
+              },
+              {
+                "type": "Literal",
+                "start": 11402,
+                "end": 11421,
+                "value": "Europe/Zaporozhye"
+              },
+              {
+                "type": "Literal",
+                "start": 11425,
+                "end": 11429,
+                "value": "GB"
+              },
+              {
+                "type": "Literal",
+                "start": 11433,
+                "end": 11442,
+                "value": "GB-Eire"
+              },
+              {
+                "type": "Literal",
+                "start": 11446,
+                "end": 11451,
+                "value": "GMT"
+              },
+              {
+                "type": "Literal",
+                "start": 11455,
+                "end": 11462,
+                "value": "GMT+0"
+              },
+              {
+                "type": "Literal",
+                "start": 11466,
+                "end": 11473,
+                "value": "GMT-0"
+              },
+              {
+                "type": "Literal",
+                "start": 11477,
+                "end": 11483,
+                "value": "GMT0"
+              },
+              {
+                "type": "Literal",
+                "start": 11487,
+                "end": 11498,
+                "value": "Greenwich"
+              },
+              {
+                "type": "Literal",
+                "start": 11502,
+                "end": 11512,
+                "value": "Hongkong"
+              },
+              {
+                "type": "Literal",
+                "start": 11516,
+                "end": 11525,
+                "value": "Iceland"
+              },
+              {
+                "type": "Literal",
+                "start": 11529,
+                "end": 11550,
+                "value": "Indian/Antananarivo"
+              },
+              {
+                "type": "Literal",
+                "start": 11554,
+                "end": 11572,
+                "value": "Indian/Christmas"
+              },
+              {
+                "type": "Literal",
+                "start": 11576,
+                "end": 11590,
+                "value": "Indian/Cocos"
+              },
+              {
+                "type": "Literal",
+                "start": 11594,
+                "end": 11609,
+                "value": "Indian/Comoro"
+              },
+              {
+                "type": "Literal",
+                "start": 11613,
+                "end": 11631,
+                "value": "Indian/Kerguelen"
+              },
+              {
+                "type": "Literal",
+                "start": 11635,
+                "end": 11648,
+                "value": "Indian/Mahe"
+              },
+              {
+                "type": "Literal",
+                "start": 11652,
+                "end": 11668,
+                "value": "Indian/Mayotte"
+              },
+              {
+                "type": "Literal",
+                "start": 11672,
+                "end": 11688,
+                "value": "Indian/Reunion"
+              },
+              {
+                "type": "Literal",
+                "start": 11692,
+                "end": 11698,
+                "value": "Iran"
+              },
+              {
+                "type": "Literal",
+                "start": 11702,
+                "end": 11710,
+                "value": "Israel"
+              },
+              {
+                "type": "Literal",
+                "start": 11714,
+                "end": 11723,
+                "value": "Jamaica"
+              },
+              {
+                "type": "Literal",
+                "start": 11727,
+                "end": 11734,
+                "value": "Japan"
+              },
+              {
+                "type": "Literal",
+                "start": 11738,
+                "end": 11749,
+                "value": "Kwajalein"
+              },
+              {
+                "type": "Literal",
+                "start": 11753,
+                "end": 11760,
+                "value": "Libya"
+              },
+              {
+                "type": "Literal",
+                "start": 11764,
+                "end": 11782,
+                "value": "Mexico/BajaNorte"
+              },
+              {
+                "type": "Literal",
+                "start": 11786,
+                "end": 11802,
+                "value": "Mexico/BajaSur"
+              },
+              {
+                "type": "Literal",
+                "start": 11806,
+                "end": 11822,
+                "value": "Mexico/General"
+              },
+              {
+                "type": "Literal",
+                "start": 11826,
+                "end": 11830,
+                "value": "NZ"
+              },
+              {
+                "type": "Literal",
+                "start": 11834,
+                "end": 11843,
+                "value": "NZ-CHAT"
+              },
+              {
+                "type": "Literal",
+                "start": 11847,
+                "end": 11855,
+                "value": "Navajo"
+              },
+              {
+                "type": "Literal",
+                "start": 11859,
+                "end": 11864,
+                "value": "PRC"
+              },
+              {
+                "type": "Literal",
+                "start": 11868,
+                "end": 11883,
+                "value": "Pacific/Chuuk"
+              },
+              {
+                "type": "Literal",
+                "start": 11887,
+                "end": 11906,
+                "value": "Pacific/Enderbury"
+              },
+              {
+                "type": "Literal",
+                "start": 11910,
+                "end": 11928,
+                "value": "Pacific/Funafuti"
+              },
+              {
+                "type": "Literal",
+                "start": 11932,
+                "end": 11950,
+                "value": "Pacific/Johnston"
+              },
+              {
+                "type": "Literal",
+                "start": 11954,
+                "end": 11970,
+                "value": "Pacific/Majuro"
+              },
+              {
+                "type": "Literal",
+                "start": 11974,
+                "end": 11990,
+                "value": "Pacific/Midway"
+              },
+              {
+                "type": "Literal",
+                "start": 11994,
+                "end": 12011,
+                "value": "Pacific/Pohnpei"
+              },
+              {
+                "type": "Literal",
+                "start": 12015,
+                "end": 12031,
+                "value": "Pacific/Ponape"
+              },
+              {
+                "type": "Literal",
+                "start": 12035,
+                "end": 12051,
+                "value": "Pacific/Saipan"
+              },
+              {
+                "type": "Literal",
+                "start": 12055,
+                "end": 12070,
+                "value": "Pacific/Samoa"
+              },
+              {
+                "type": "Literal",
+                "start": 12074,
+                "end": 12088,
+                "value": "Pacific/Truk"
+              },
+              {
+                "type": "Literal",
+                "start": 12092,
+                "end": 12106,
+                "value": "Pacific/Wake"
+              },
+              {
+                "type": "Literal",
+                "start": 12110,
+                "end": 12126,
+                "value": "Pacific/Wallis"
+              },
+              {
+                "type": "Literal",
+                "start": 12130,
+                "end": 12143,
+                "value": "Pacific/Yap"
+              },
+              {
+                "type": "Literal",
+                "start": 12147,
+                "end": 12155,
+                "value": "Poland"
+              },
+              {
+                "type": "Literal",
+                "start": 12159,
+                "end": 12169,
+                "value": "Portugal"
+              },
+              {
+                "type": "Literal",
+                "start": 12173,
+                "end": 12178,
+                "value": "ROC"
+              },
+              {
+                "type": "Literal",
+                "start": 12182,
+                "end": 12187,
+                "value": "ROK"
+              },
+              {
+                "type": "Literal",
+                "start": 12191,
+                "end": 12202,
+                "value": "Singapore"
+              },
+              {
+                "type": "Literal",
+                "start": 12206,
+                "end": 12214,
+                "value": "Turkey"
+              },
+              {
+                "type": "Literal",
+                "start": 12218,
+                "end": 12223,
+                "value": "UCT"
+              },
+              {
+                "type": "Literal",
+                "start": 12227,
+                "end": 12238,
+                "value": "US/Alaska"
+              },
+              {
+                "type": "Literal",
+                "start": 12242,
+                "end": 12255,
+                "value": "US/Aleutian"
+              },
+              {
+                "type": "Literal",
+                "start": 12259,
+                "end": 12271,
+                "value": "US/Arizona"
+              },
+              {
+                "type": "Literal",
+                "start": 12275,
+                "end": 12287,
+                "value": "US/Central"
+              },
+              {
+                "type": "Literal",
+                "start": 12291,
+                "end": 12308,
+                "value": "US/East-Indiana"
+              },
+              {
+                "type": "Literal",
+                "start": 12312,
+                "end": 12324,
+                "value": "US/Eastern"
+              },
+              {
+                "type": "Literal",
+                "start": 12328,
+                "end": 12339,
+                "value": "US/Hawaii"
+              },
+              {
+                "type": "Literal",
+                "start": 12343,
+                "end": 12362,
+                "value": "US/Indiana-Starke"
+              },
+              {
+                "type": "Literal",
+                "start": 12366,
+                "end": 12379,
+                "value": "US/Michigan"
+              },
+              {
+                "type": "Literal",
+                "start": 12383,
+                "end": 12396,
+                "value": "US/Mountain"
+              },
+              {
+                "type": "Literal",
+                "start": 12400,
+                "end": 12412,
+                "value": "US/Pacific"
+              },
+              {
+                "type": "Literal",
+                "start": 12416,
+                "end": 12426,
+                "value": "US/Samoa"
+              },
+              {
+                "type": "Literal",
+                "start": 12430,
+                "end": 12435,
+                "value": "UTC"
+              },
+              {
+                "type": "Literal",
+                "start": 12439,
+                "end": 12450,
+                "value": "Universal"
+              },
+              {
+                "type": "Literal",
+                "start": 12454,
+                "end": 12460,
+                "value": "W-SU"
+              },
+              {
+                "type": "Literal",
+                "start": 12464,
+                "end": 12470,
+                "value": "Zulu"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 12934,
+      "end": 13024,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 12940,
+          "end": 13023,
+          "id": {
+            "type": "Identifier",
+            "start": 12940,
+            "end": 12943,
+            "name": "ids"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 12946,
+            "end": 13023,
+            "elements": [
+              {
+                "type": "SpreadElement",
+                "start": 12947,
+                "end": 13022,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 12950,
+                  "end": 13022,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 12954,
+                    "end": 12957,
+                    "name": "Set"
+                  },
+                  "arguments": [
+                    {
+                      "type": "ArrayExpression",
+                      "start": 12958,
+                      "end": 13021,
+                      "elements": [
+                        {
+                          "type": "SpreadElement",
+                          "start": 12959,
+                          "end": 12981,
+                          "argument": {
+                            "type": "Identifier",
+                            "start": 12962,
+                            "end": 12981,
+                            "name": "timeZoneIdentifiers"
+                          }
+                        },
+                        {
+                          "type": "SpreadElement",
+                          "start": 12983,
+                          "end": 13020,
+                          "argument": {
+                            "type": "CallExpression",
+                            "start": 12986,
+                            "end": 13020,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 12986,
+                              "end": 13008,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 12986,
+                                "end": 12990,
+                                "name": "Intl"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 12991,
+                                "end": 13008,
+                                "name": "supportedValuesOf"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "start": 13009,
+                                "end": 13019,
+                                "value": "timeZone"
+                              }
+                            ],
+                            "optional": false
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 13025,
+      "end": 13364,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 13030,
+        "end": 13038,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 13036,
+            "end": 13038,
+            "id": {
+              "type": "Identifier",
+              "start": 13036,
+              "end": 13038,
+              "name": "id"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 13042,
+        "end": 13045,
+        "name": "ids"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 13047,
+        "end": 13364,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 13051,
+            "end": 13082,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 13057,
+                "end": 13081,
+                "id": {
+                  "type": "Identifier",
+                  "start": 13057,
+                  "end": 13062,
+                  "name": "lower"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 13065,
+                  "end": 13081,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 13065,
+                    "end": 13079,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 13065,
+                      "end": 13067,
+                      "name": "id"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 13068,
+                      "end": 13079,
+                      "name": "toLowerCase"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 13085,
+            "end": 13116,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 13091,
+                "end": 13115,
+                "id": {
+                  "type": "Identifier",
+                  "start": 13091,
+                  "end": 13096,
+                  "name": "upper"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 13099,
+                  "end": 13115,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 13099,
+                    "end": 13113,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 13099,
+                      "end": 13101,
+                      "name": "id"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 13102,
+                      "end": 13113,
+                      "name": "toUpperCase"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ForOfStatement",
+            "start": 13119,
+            "end": 13362,
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "start": 13124,
+              "end": 13138,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 13130,
+                  "end": 13138,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 13130,
+                    "end": 13138,
+                    "name": "idToTest"
+                  },
+                  "init": null
+                }
+              ],
+              "kind": "const"
+            },
+            "right": {
+              "type": "ArrayExpression",
+              "start": 13142,
+              "end": 13160,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 13143,
+                  "end": 13145,
+                  "name": "id"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 13147,
+                  "end": 13152,
+                  "name": "lower"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 13154,
+                  "end": 13159,
+                  "name": "upper"
+                }
+              ]
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 13162,
+              "end": 13362,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 13168,
+                  "end": 13212,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 13174,
+                      "end": 13211,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 13174,
+                        "end": 13183,
+                        "name": "isoString"
+                      },
+                      "init": {
+                        "type": "TemplateLiteral",
+                        "start": 13186,
+                        "end": 13211,
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 13200,
+                            "end": 13208,
+                            "name": "idToTest"
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 13187,
+                            "end": 13198,
+                            "value": {
+                              "raw": "2020-01-01[",
+                              "cooked": "2020-01-01["
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 13209,
+                            "end": 13210,
+                            "value": {
+                              "raw": "]",
+                              "cooked": "]"
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 13217,
+                  "end": 13268,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 13223,
+                      "end": 13267,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 13223,
+                        "end": 13226,
+                        "name": "zdt"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 13229,
+                        "end": 13267,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 13229,
+                          "end": 13256,
+                          "object": {
+                            "type": "MemberExpression",
+                            "start": 13229,
+                            "end": 13251,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 13229,
+                              "end": 13237,
+                              "name": "Temporal"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 13238,
+                              "end": 13251,
+                              "name": "ZonedDateTime"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 13252,
+                            "end": 13256,
+                            "name": "from"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 13257,
+                            "end": 13266,
+                            "name": "isoString"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 13273,
+                  "end": 13358,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 13273,
+                    "end": 13357,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 13273,
+                      "end": 13289,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 13273,
+                        "end": 13279,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 13280,
+                        "end": 13289,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 13290,
+                        "end": 13304,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 13290,
+                          "end": 13293,
+                          "name": "zdt"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 13294,
+                          "end": 13304,
+                          "name": "timeZoneId"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 13306,
+                        "end": 13308,
+                        "name": "id"
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "start": 13310,
+                        "end": 13356,
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 13344,
+                            "end": 13353,
+                            "name": "isoString"
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 13311,
+                            "end": 13342,
+                            "value": {
+                              "raw": "Time zone created from string \"",
+                              "cooked": "Time zone created from string \""
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 13354,
+                            "end": 13355,
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

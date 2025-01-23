@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 972,
+  "end": 983,
   "body": [
     {
       "type": "FunctionDeclaration",
@@ -117,11 +117,11 @@
     {
       "type": "TryStatement",
       "start": 487,
-      "end": 971,
+      "end": 982,
       "block": {
         "type": "BlockStatement",
         "start": 491,
-        "end": 930,
+        "end": 941,
         "body": [
           {
             "type": "ExpressionStatement",
@@ -510,60 +510,78 @@
           {
             "type": "ExpressionStatement",
             "start": 856,
-            "end": 889,
+            "end": 939,
             "expression": {
               "type": "CallExpression",
               "start": 856,
-              "end": 888,
+              "end": 938,
               "callee": {
                 "type": "Identifier",
                 "start": 856,
-                "end": 875,
-                "name": "verifyNotEnumerable"
+                "end": 870,
+                "name": "verifyProperty"
               },
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 876,
+                  "start": 871,
+                  "end": 877,
+                  "name": "arrObj"
+                },
+                {
+                  "type": "Literal",
+                  "start": 879,
                   "end": 882,
-                  "name": "arrObj"
+                  "value": "0"
                 },
                 {
-                  "type": "Literal",
+                  "type": "ObjectExpression",
                   "start": 884,
-                  "end": 887,
-                  "value": "0"
-                }
-              ],
-              "optional": false
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 893,
-            "end": 928,
-            "expression": {
-              "type": "CallExpression",
-              "start": 893,
-              "end": 927,
-              "callee": {
-                "type": "Identifier",
-                "start": 893,
-                "end": 914,
-                "name": "verifyNotConfigurable"
-              },
-              "arguments": [
-                {
-                  "type": "Identifier",
-                  "start": 915,
-                  "end": 921,
-                  "name": "arrObj"
-                },
-                {
-                  "type": "Literal",
-                  "start": 923,
-                  "end": 926,
-                  "value": "0"
+                  "end": 937,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 890,
+                      "end": 907,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 890,
+                        "end": 900,
+                        "name": "enumerable"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 902,
+                        "end": 907,
+                        "value": false
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 913,
+                      "end": 932,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 913,
+                        "end": 925,
+                        "name": "configurable"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 927,
+                        "end": 932,
+                        "value": false
+                      },
+                      "kind": "init"
+                    }
+                  ]
                 }
               ],
               "optional": false
@@ -574,37 +592,37 @@
       "handler": null,
       "finalizer": {
         "type": "BlockStatement",
-        "start": 939,
-        "end": 971,
+        "start": 950,
+        "end": 982,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 943,
-            "end": 969,
+            "start": 954,
+            "end": 980,
             "expression": {
               "type": "UnaryExpression",
-              "start": 943,
-              "end": 968,
+              "start": 954,
+              "end": 979,
               "operator": "delete",
               "prefix": true,
               "argument": {
                 "type": "MemberExpression",
-                "start": 950,
-                "end": 968,
+                "start": 961,
+                "end": 979,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 950,
-                  "end": 965,
+                  "start": 961,
+                  "end": 976,
                   "object": {
                     "type": "Identifier",
-                    "start": 950,
-                    "end": 955,
+                    "start": 961,
+                    "end": 966,
                     "name": "Array"
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 956,
-                    "end": 965,
+                    "start": 967,
+                    "end": 976,
                     "name": "prototype"
                   },
                   "computed": false,
@@ -612,8 +630,8 @@
                 },
                 "property": {
                   "type": "Literal",
-                  "start": 966,
-                  "end": 967,
+                  "start": 977,
+                  "end": 978,
                   "value": 0
                 },
                 "computed": true,

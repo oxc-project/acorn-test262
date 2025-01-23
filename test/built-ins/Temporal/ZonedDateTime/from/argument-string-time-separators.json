@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 653,
+  "end": 644,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -89,11 +89,11 @@
     {
       "type": "ExpressionStatement",
       "start": 442,
-      "end": 652,
+      "end": 643,
       "expression": {
         "type": "CallExpression",
         "start": 442,
-        "end": 651,
+        "end": 642,
         "callee": {
           "type": "MemberExpression",
           "start": 442,
@@ -117,7 +117,7 @@
           {
             "type": "ArrowFunctionExpression",
             "start": 456,
-            "end": 650,
+            "end": 641,
             "id": null,
             "expression": false,
             "generator": false,
@@ -146,7 +146,7 @@
             "body": {
               "type": "BlockStatement",
               "start": 480,
-              "end": 650,
+              "end": 641,
               "body": [
                 {
                   "type": "VariableDeclaration",
@@ -216,11 +216,11 @@
                 {
                   "type": "ExpressionStatement",
                   "start": 536,
-                  "end": 648,
+                  "end": 639,
                   "expression": {
                     "type": "CallExpression",
                     "start": 536,
-                    "end": 647,
+                    "end": 638,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 536,
@@ -242,67 +242,47 @@
                     },
                     "arguments": [
                       {
-                        "type": "CallExpression",
+                        "type": "MemberExpression",
                         "start": 558,
-                        "end": 584,
-                        "callee": {
-                          "type": "MemberExpression",
+                        "end": 575,
+                        "object": {
+                          "type": "Identifier",
                           "start": 558,
-                          "end": 582,
-                          "object": {
-                            "type": "MemberExpression",
-                            "start": 558,
-                            "end": 573,
-                            "object": {
-                              "type": "Identifier",
-                              "start": 558,
-                              "end": 564,
-                              "name": "result"
-                            },
-                            "property": {
-                              "type": "Identifier",
-                              "start": 565,
-                              "end": 573,
-                              "name": "timeZone"
-                            },
-                            "computed": false,
-                            "optional": false
-                          },
-                          "property": {
-                            "type": "Identifier",
-                            "start": 574,
-                            "end": 582,
-                            "name": "toString"
-                          },
-                          "computed": false,
-                          "optional": false
+                          "end": 564,
+                          "name": "result"
                         },
-                        "arguments": [],
+                        "property": {
+                          "type": "Identifier",
+                          "start": 565,
+                          "end": 575,
+                          "name": "timeZoneId"
+                        },
+                        "computed": false,
                         "optional": false
                       },
                       {
                         "type": "Literal",
-                        "start": 590,
-                        "end": 595,
+                        "start": 581,
+                        "end": 586,
                         "value": "UTC"
                       },
                       {
                         "type": "TemplateLiteral",
-                        "start": 601,
-                        "end": 643,
+                        "start": 592,
+                        "end": 634,
                         "expressions": [
                           {
                             "type": "Identifier",
-                            "start": 629,
-                            "end": 640,
+                            "start": 620,
+                            "end": 631,
                             "name": "description"
                           }
                         ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
-                            "start": 602,
-                            "end": 627,
+                            "start": 593,
+                            "end": 618,
                             "value": {
                               "raw": "variant time separators (",
                               "cooked": "variant time separators ("
@@ -311,8 +291,8 @@
                           },
                           {
                             "type": "TemplateElement",
-                            "start": 641,
-                            "end": 642,
+                            "start": 632,
+                            "end": 633,
                             "value": {
                               "raw": ")",
                               "cooked": ")"

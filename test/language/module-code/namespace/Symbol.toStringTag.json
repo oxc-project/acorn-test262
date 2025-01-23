@@ -25,7 +25,8 @@
         "start": 525,
         "end": 550,
         "value": "./Symbol.toStringTag.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

@@ -114,7 +114,7 @@
                   "type": "Identifier",
                   "start": 899,
                   "end": 907,
-                  "name": "wrtiable"
+                  "name": "writable"
                 },
                 "value": {
                   "type": "Literal",

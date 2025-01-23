@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 938,
+  "end": 884,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -96,11 +96,11 @@
     {
       "type": "ExpressionStatement",
       "start": 811,
-      "end": 936,
+      "end": 882,
       "expression": {
         "type": "CallExpression",
         "start": 811,
-        "end": 935,
+        "end": 881,
         "callee": {
           "type": "MemberExpression",
           "start": 811,
@@ -204,12 +204,6 @@
                 }
               ]
             }
-          },
-          {
-            "type": "Literal",
-            "start": 882,
-            "end": 934,
-            "value": "`let m = new Map(); new m.keys()` throws TypeError"
           }
         ],
         "optional": false

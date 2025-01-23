@@ -25,7 +25,8 @@
         "start": 2644,
         "end": 2682,
         "value": "./module-import-unwrapped_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -72,7 +73,8 @@
         "start": 2705,
         "end": 2743,
         "value": "./module-import-unwrapped_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

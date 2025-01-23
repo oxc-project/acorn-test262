@@ -1,0 +1,197 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 856,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 691,
+      "end": 752,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 697,
+          "end": 751,
+          "id": {
+            "type": "Identifier",
+            "start": 697,
+            "end": 709,
+            "name": "minYearMonth"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 712,
+            "end": 751,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 716,
+              "end": 739,
+              "object": {
+                "type": "Identifier",
+                "start": 716,
+                "end": 724,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 725,
+                "end": 739,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 740,
+                "end": 747,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 741,
+                  "end": 747,
+                  "value": 271821
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 749,
+                "end": 750,
+                "value": 4
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 753,
+      "end": 791,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 759,
+          "end": 790,
+          "id": {
+            "type": "Identifier",
+            "start": 759,
+            "end": 764,
+            "name": "blank"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 767,
+            "end": 790,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 771,
+              "end": 788,
+              "object": {
+                "type": "Identifier",
+                "start": 771,
+                "end": 779,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 780,
+                "end": 788,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 793,
+      "end": 855,
+      "expression": {
+        "type": "CallExpression",
+        "start": 793,
+        "end": 854,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 793,
+          "end": 806,
+          "object": {
+            "type": "Identifier",
+            "start": 793,
+            "end": 799,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 800,
+            "end": 806,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 807,
+            "end": 817,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 819,
+            "end": 853,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 825,
+              "end": 853,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 825,
+                "end": 846,
+                "object": {
+                  "type": "Identifier",
+                  "start": 825,
+                  "end": 837,
+                  "name": "minYearMonth"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 838,
+                  "end": 846,
+                  "name": "subtract"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 847,
+                  "end": 852,
+                  "name": "blank"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

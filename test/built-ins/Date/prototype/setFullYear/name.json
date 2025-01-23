@@ -1,257 +1,151 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 982,
+  "end": 889,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 747,
-      "end": 812,
+      "end": 888,
       "expression": {
         "type": "CallExpression",
         "start": 747,
-        "end": 811,
+        "end": 887,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 747,
-          "end": 763,
-          "object": {
-            "type": "Identifier",
-            "start": 747,
-            "end": 753,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 754,
-            "end": 763,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 761,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 764,
-            "end": 795,
+            "start": 762,
+            "end": 788,
             "object": {
               "type": "MemberExpression",
-              "start": 764,
-              "end": 790,
+              "start": 762,
+              "end": 776,
               "object": {
-                "type": "MemberExpression",
-                "start": 764,
-                "end": 778,
-                "object": {
-                  "type": "Identifier",
-                  "start": 764,
-                  "end": 768,
-                  "name": "Date"
-                },
-                "property": {
-                  "type": "Identifier",
-                  "start": 769,
-                  "end": 778,
-                  "name": "prototype"
-                },
+                "type": "Identifier",
+                "start": 762,
+                "end": 766,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 767,
+                "end": 776,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 777,
+              "end": 788,
+              "name": "setFullYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 790,
+            "end": 796,
+            "value": "name"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 798,
+            "end": 886,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 802,
+                "end": 822,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
-                "optional": false
+                "key": {
+                  "type": "Identifier",
+                  "start": 802,
+                  "end": 807,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 809,
+                  "end": 822,
+                  "value": "setFullYear"
+                },
+                "kind": "init"
               },
-              "property": {
-                "type": "Identifier",
-                "start": 779,
-                "end": 790,
-                "name": "setFullYear"
+              {
+                "type": "Property",
+                "start": 826,
+                "end": 841,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 826,
+                  "end": 834,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 836,
+                  "end": 841,
+                  "value": false
+                },
+                "kind": "init"
               },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 791,
-              "end": 795,
-              "name": "name"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 797,
-            "end": 810,
-            "value": "setFullYear"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 814,
-      "end": 870,
-      "expression": {
-        "type": "CallExpression",
-        "start": 814,
-        "end": 869,
-        "callee": {
-          "type": "Identifier",
-          "start": 814,
-          "end": 833,
-          "name": "verifyNotEnumerable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 834,
-            "end": 860,
-            "object": {
-              "type": "MemberExpression",
-              "start": 834,
-              "end": 848,
-              "object": {
-                "type": "Identifier",
-                "start": 834,
-                "end": 838,
-                "name": "Date"
+              {
+                "type": "Property",
+                "start": 845,
+                "end": 862,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 845,
+                  "end": 855,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 857,
+                  "end": 862,
+                  "value": false
+                },
+                "kind": "init"
               },
-              "property": {
-                "type": "Identifier",
-                "start": 839,
-                "end": 848,
-                "name": "prototype"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 849,
-              "end": 860,
-              "name": "setFullYear"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 862,
-            "end": 868,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 871,
-      "end": 925,
-      "expression": {
-        "type": "CallExpression",
-        "start": 871,
-        "end": 924,
-        "callee": {
-          "type": "Identifier",
-          "start": 871,
-          "end": 888,
-          "name": "verifyNotWritable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 889,
-            "end": 915,
-            "object": {
-              "type": "MemberExpression",
-              "start": 889,
-              "end": 903,
-              "object": {
-                "type": "Identifier",
-                "start": 889,
-                "end": 893,
-                "name": "Date"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 894,
-                "end": 903,
-                "name": "prototype"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 904,
-              "end": 915,
-              "name": "setFullYear"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 917,
-            "end": 923,
-            "value": "name"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 926,
-      "end": 981,
-      "expression": {
-        "type": "CallExpression",
-        "start": 926,
-        "end": 980,
-        "callee": {
-          "type": "Identifier",
-          "start": 926,
-          "end": 944,
-          "name": "verifyConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 945,
-            "end": 971,
-            "object": {
-              "type": "MemberExpression",
-              "start": 945,
-              "end": 959,
-              "object": {
-                "type": "Identifier",
-                "start": 945,
-                "end": 949,
-                "name": "Date"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 950,
-                "end": 959,
-                "name": "prototype"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 960,
-              "end": 971,
-              "name": "setFullYear"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 973,
-            "end": 979,
-            "value": "name"
+              {
+                "type": "Property",
+                "start": 866,
+                "end": 884,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 866,
+                  "end": 878,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 880,
+                  "end": 884,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false

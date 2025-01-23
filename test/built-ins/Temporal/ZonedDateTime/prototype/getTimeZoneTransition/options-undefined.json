@@ -1,0 +1,220 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 532,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 349,
+      "end": 399,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 355,
+          "end": 398,
+          "id": {
+            "type": "Identifier",
+            "start": 355,
+            "end": 358,
+            "name": "zdt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 361,
+            "end": 398,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 365,
+              "end": 387,
+              "object": {
+                "type": "Identifier",
+                "start": 365,
+                "end": 373,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 374,
+                "end": 387,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 388,
+                "end": 390,
+                "value": "0n"
+              },
+              {
+                "type": "Literal",
+                "start": 392,
+                "end": 397,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 401,
+      "end": 461,
+      "expression": {
+        "type": "CallExpression",
+        "start": 401,
+        "end": 460,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 401,
+          "end": 414,
+          "object": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 407,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 408,
+            "end": 414,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 415,
+            "end": 424,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 426,
+            "end": 459,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 432,
+              "end": 459,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 432,
+                "end": 457,
+                "object": {
+                  "type": "Identifier",
+                  "start": 432,
+                  "end": 435,
+                  "name": "zdt"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 436,
+                  "end": 457,
+                  "name": "getTimeZoneTransition"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 462,
+      "end": 531,
+      "expression": {
+        "type": "CallExpression",
+        "start": 462,
+        "end": 530,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 462,
+          "end": 475,
+          "object": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 468,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 475,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 476,
+            "end": 485,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 487,
+            "end": 529,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 493,
+              "end": 529,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 493,
+                "end": 518,
+                "object": {
+                  "type": "Identifier",
+                  "start": 493,
+                  "end": 496,
+                  "name": "zdt"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 497,
+                  "end": 518,
+                  "name": "getTimeZoneTransition"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 519,
+                  "end": 528,
+                  "name": "undefined"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

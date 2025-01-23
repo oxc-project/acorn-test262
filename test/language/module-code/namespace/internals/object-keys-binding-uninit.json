@@ -25,7 +25,8 @@
         "start": 1016,
         "end": 1049,
         "value": "./object-keys-binding-uninit.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

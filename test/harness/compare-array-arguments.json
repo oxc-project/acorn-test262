@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1078,
+  "end": 1100,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -356,7 +356,7 @@
     {
       "type": "FunctionDeclaration",
       "start": 583,
-      "end": 1061,
+      "end": 1083,
       "id": {
         "type": "Identifier",
         "start": 592,
@@ -370,7 +370,7 @@
       "body": {
         "type": "BlockStatement",
         "start": 596,
-        "end": 1061,
+        "end": 1083,
         "body": [
           {
             "type": "ExpressionStatement",
@@ -463,11 +463,11 @@
           {
             "type": "ExpressionStatement",
             "start": 687,
-            "end": 871,
+            "end": 882,
             "expression": {
               "type": "CallExpression",
               "start": 687,
-              "end": 870,
+              "end": 881,
               "callee": {
                 "type": "Identifier",
                 "start": 687,
@@ -545,8 +545,8 @@
                 {
                   "type": "Literal",
                   "start": 790,
-                  "end": 869,
-                  "value": "Expected [0, a, undefined] and [] to have the same contents. arguments and []"
+                  "end": 880,
+                  "value": "Actual [0, a, undefined] and expected [] should have the same contents. arguments and []"
                 }
               ],
               "optional": false
@@ -554,23 +554,23 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 875,
-            "end": 1059,
+            "start": 886,
+            "end": 1081,
             "expression": {
               "type": "CallExpression",
-              "start": 875,
-              "end": 1058,
+              "start": 886,
+              "end": 1080,
               "callee": {
                 "type": "Identifier",
-                "start": 875,
-                "end": 904,
+                "start": 886,
+                "end": 915,
                 "name": "checkFormatOfAssertionMessage"
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 905,
-                  "end": 976,
+                  "start": 916,
+                  "end": 987,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -578,31 +578,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 911,
-                    "end": 976,
+                    "start": 922,
+                    "end": 987,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 917,
-                        "end": 972,
+                        "start": 928,
+                        "end": 983,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 917,
-                          "end": 971,
+                          "start": 928,
+                          "end": 982,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 917,
-                            "end": 936,
+                            "start": 928,
+                            "end": 947,
                             "object": {
                               "type": "Identifier",
-                              "start": 917,
-                              "end": 923,
+                              "start": 928,
+                              "end": 934,
                               "name": "assert"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 924,
-                              "end": 936,
+                              "start": 935,
+                              "end": 947,
                               "name": "compareArray"
                             },
                             "computed": false,
@@ -611,20 +611,20 @@
                           "arguments": [
                             {
                               "type": "ArrayExpression",
-                              "start": 937,
-                              "end": 939,
+                              "start": 948,
+                              "end": 950,
                               "elements": []
                             },
                             {
                               "type": "Identifier",
-                              "start": 941,
-                              "end": 950,
+                              "start": 952,
+                              "end": 961,
                               "name": "arguments"
                             },
                             {
                               "type": "Literal",
-                              "start": 952,
-                              "end": 970,
+                              "start": 963,
+                              "end": 981,
                               "value": "[] and arguments"
                             }
                           ],
@@ -636,9 +636,9 @@
                 },
                 {
                   "type": "Literal",
-                  "start": 978,
-                  "end": 1057,
-                  "value": "Expected [] and [0, a, undefined] to have the same contents. [] and arguments"
+                  "start": 989,
+                  "end": 1079,
+                  "value": "Actual [] and expected [0, a, undefined] should have the same contents. [] and arguments"
                 }
               ],
               "optional": false
@@ -649,27 +649,27 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 1063,
-      "end": 1077,
+      "start": 1085,
+      "end": 1099,
       "expression": {
         "type": "CallExpression",
-        "start": 1063,
-        "end": 1076,
+        "start": 1085,
+        "end": 1098,
         "callee": {
           "type": "Identifier",
-          "start": 1063,
-          "end": 1064,
+          "start": 1085,
+          "end": 1086,
           "name": "f"
         },
         "arguments": [
           {
             "type": "SpreadElement",
-            "start": 1065,
-            "end": 1075,
+            "start": 1087,
+            "end": 1097,
             "argument": {
               "type": "Identifier",
-              "start": 1068,
-              "end": 1075,
+              "start": 1090,
+              "end": 1097,
               "name": "fixture"
             }
           }

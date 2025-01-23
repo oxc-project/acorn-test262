@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 2009,
+  "end": 1998,
   "body": [
     {
       "type": "ExpressionStatement",
@@ -63,88 +63,98 @@
     {
       "type": "ExpressionStatement",
       "start": 1874,
-      "end": 1909,
+      "end": 1973,
       "expression": {
         "type": "CallExpression",
         "start": 1874,
-        "end": 1908,
+        "end": 1972,
         "callee": {
           "type": "Identifier",
           "start": 1874,
-          "end": 1890,
-          "name": "verifyEnumerable"
+          "end": 1888,
+          "name": "verifyProperty"
         },
         "arguments": [
           {
             "type": "ThisExpression",
-            "start": 1891,
-            "end": 1895
+            "start": 1889,
+            "end": 1893
           },
           {
             "type": "Literal",
-            "start": 1897,
-            "end": 1907,
+            "start": 1895,
+            "end": 1905,
             "value": "brandNew"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 1910,
-      "end": 1943,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1910,
-        "end": 1942,
-        "callee": {
-          "type": "Identifier",
-          "start": 1910,
-          "end": 1924,
-          "name": "verifyWritable"
-        },
-        "arguments": [
-          {
-            "type": "ThisExpression",
-            "start": 1925,
-            "end": 1929
           },
           {
-            "type": "Literal",
-            "start": 1931,
-            "end": 1941,
-            "value": "brandNew"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 1944,
-      "end": 1984,
-      "expression": {
-        "type": "CallExpression",
-        "start": 1944,
-        "end": 1983,
-        "callee": {
-          "type": "Identifier",
-          "start": 1944,
-          "end": 1965,
-          "name": "verifyNotConfigurable"
-        },
-        "arguments": [
-          {
-            "type": "ThisExpression",
-            "start": 1966,
-            "end": 1970
-          },
-          {
-            "type": "Literal",
-            "start": 1972,
-            "end": 1982,
-            "value": "brandNew"
+            "type": "ObjectExpression",
+            "start": 1907,
+            "end": 1971,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1911,
+                "end": 1925,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1911,
+                  "end": 1919,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1921,
+                  "end": 1925,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1929,
+                "end": 1945,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1929,
+                  "end": 1939,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1941,
+                  "end": 1945,
+                  "value": true
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1949,
+                "end": 1968,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1949,
+                  "end": 1961,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1963,
+                  "end": 1968,
+                  "value": false
+                },
+                "kind": "init"
+              }
+            ]
           }
         ],
         "optional": false
@@ -152,12 +162,12 @@
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1986,
-      "end": 2008,
+      "start": 1975,
+      "end": 1997,
       "id": {
         "type": "Identifier",
-        "start": 1995,
-        "end": 2003,
+        "start": 1984,
+        "end": 1992,
         "name": "brandNew"
       },
       "expression": false,
@@ -166,8 +176,8 @@
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 2006,
-        "end": 2008,
+        "start": 1995,
+        "end": 1997,
         "body": []
       }
     }

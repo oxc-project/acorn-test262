@@ -1,0 +1,553 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 836,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 277,
+      "end": 307,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 283,
+          "end": 306,
+          "id": {
+            "type": "Identifier",
+            "start": 283,
+            "end": 287,
+            "name": "text"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 290,
+            "end": 306,
+            "value": "𠮷a𠮷b𠮷"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 309,
+      "end": 397,
+      "id": {
+        "type": "Identifier",
+        "start": 318,
+        "end": 326,
+        "name": "doSearch"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 327,
+          "end": 332,
+          "name": "regex"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 334,
+        "end": 397,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 338,
+            "end": 395,
+            "argument": {
+              "type": "CallExpression",
+              "start": 345,
+              "end": 394,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 345,
+                "end": 381,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 345,
+                  "end": 376,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 345,
+                    "end": 361,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 345,
+                      "end": 351,
+                      "name": "RegExp"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 352,
+                      "end": 361,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "MemberExpression",
+                    "start": 362,
+                    "end": 375,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 362,
+                      "end": 368,
+                      "name": "Symbol"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 369,
+                      "end": 375,
+                      "name": "search"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "computed": true,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 377,
+                  "end": 381,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 382,
+                  "end": 387,
+                  "name": "regex"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 389,
+                  "end": 393,
+                  "name": "text"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 399,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 399,
+        "end": 464,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 399,
+          "end": 415,
+          "object": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 405,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 406,
+            "end": 415,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 416,
+            "end": 429,
+            "callee": {
+              "type": "Identifier",
+              "start": 416,
+              "end": 424,
+              "name": "doSearch"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 425,
+                "end": 428,
+                "value": {},
+                "regex": {
+                  "pattern": "a",
+                  "flags": ""
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 431,
+            "end": 432,
+            "value": 2
+          },
+          {
+            "type": "Literal",
+            "start": 434,
+            "end": 463,
+            "value": "Basic search without v flag"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 466,
+      "end": 524,
+      "expression": {
+        "type": "CallExpression",
+        "start": 466,
+        "end": 523,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 466,
+          "end": 482,
+          "object": {
+            "type": "Identifier",
+            "start": 466,
+            "end": 472,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 482,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 483,
+            "end": 497,
+            "callee": {
+              "type": "Identifier",
+              "start": 483,
+              "end": 491,
+              "name": "doSearch"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 492,
+                "end": 496,
+                "value": {},
+                "regex": {
+                  "pattern": "a",
+                  "flags": "v"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 499,
+            "end": 500,
+            "value": 2
+          },
+          {
+            "type": "Literal",
+            "start": 502,
+            "end": 522,
+            "value": "Search with v flag"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 525,
+      "end": 607,
+      "expression": {
+        "type": "CallExpression",
+        "start": 525,
+        "end": 606,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 525,
+          "end": 541,
+          "object": {
+            "type": "Identifier",
+            "start": 525,
+            "end": 531,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 532,
+            "end": 541,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 542,
+            "end": 558,
+            "callee": {
+              "type": "Identifier",
+              "start": 542,
+              "end": 550,
+              "name": "doSearch"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 551,
+                "end": 557,
+                "value": {},
+                "regex": {
+                  "pattern": "𠮷",
+                  "flags": ""
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 560,
+            "end": 561,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 563,
+            "end": 605,
+            "value": "Search for surrogate pair without v flag"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 608,
+      "end": 688,
+      "expression": {
+        "type": "CallExpression",
+        "start": 608,
+        "end": 687,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 608,
+          "end": 624,
+          "object": {
+            "type": "Identifier",
+            "start": 608,
+            "end": 614,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 624,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 625,
+            "end": 642,
+            "callee": {
+              "type": "Identifier",
+              "start": 625,
+              "end": 633,
+              "name": "doSearch"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 634,
+                "end": 641,
+                "value": {},
+                "regex": {
+                  "pattern": "𠮷",
+                  "flags": "v"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 644,
+            "end": 645,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 647,
+            "end": 686,
+            "value": "Search for surrogate pair with v flag"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 689,
+      "end": 778,
+      "expression": {
+        "type": "CallExpression",
+        "start": 689,
+        "end": 777,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 689,
+          "end": 705,
+          "object": {
+            "type": "Identifier",
+            "start": 689,
+            "end": 695,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 705,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 706,
+            "end": 733,
+            "callee": {
+              "type": "Identifier",
+              "start": 706,
+              "end": 714,
+              "name": "doSearch"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 715,
+                "end": 732,
+                "value": {},
+                "regex": {
+                  "pattern": "\\p{Script=Han}",
+                  "flags": "v"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 735,
+            "end": 736,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 738,
+            "end": 776,
+            "value": "Unicode property escapes with v flag"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 779,
+      "end": 835,
+      "expression": {
+        "type": "CallExpression",
+        "start": 779,
+        "end": 834,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 779,
+          "end": 795,
+          "object": {
+            "type": "Identifier",
+            "start": 779,
+            "end": 785,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 786,
+            "end": 795,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 796,
+            "end": 811,
+            "callee": {
+              "type": "Identifier",
+              "start": 796,
+              "end": 804,
+              "name": "doSearch"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 805,
+                "end": 810,
+                "value": {},
+                "regex": {
+                  "pattern": "b.",
+                  "flags": "v"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 813,
+            "end": 814,
+            "value": 5
+          },
+          {
+            "type": "Literal",
+            "start": 816,
+            "end": 833,
+            "value": "Dot with v flag"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

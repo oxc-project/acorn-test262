@@ -40,7 +40,8 @@
                       "start": 3981,
                       "end": 4009,
                       "value": "./own-keys-sort_FIXTURE.js"
-                    }
+                    },
+                    "options": null
                   },
                   "property": {
                     "type": "Identifier",

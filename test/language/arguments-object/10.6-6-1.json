@@ -1,12 +1,12 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 370,
+  "end": 366,
   "body": [
     {
       "type": "FunctionDeclaration",
       "start": 224,
-      "end": 357,
+      "end": 353,
       "id": {
         "type": "Identifier",
         "start": 233,
@@ -20,41 +20,41 @@
       "body": {
         "type": "BlockStatement",
         "start": 244,
-        "end": 357,
+        "end": 353,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 251,
-            "end": 314,
+            "start": 248,
+            "end": 311,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 255,
-                "end": 313,
+                "start": 252,
+                "end": 310,
                 "id": {
                   "type": "Identifier",
-                  "start": 255,
-                  "end": 259,
+                  "start": 252,
+                  "end": 256,
                   "name": "desc"
                 },
                 "init": {
                   "type": "CallExpression",
-                  "start": 262,
-                  "end": 313,
+                  "start": 259,
+                  "end": 310,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 262,
-                    "end": 293,
+                    "start": 259,
+                    "end": 290,
                     "object": {
                       "type": "Identifier",
-                      "start": 262,
-                      "end": 268,
+                      "start": 259,
+                      "end": 265,
                       "name": "Object"
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 269,
-                      "end": 293,
+                      "start": 266,
+                      "end": 290,
                       "name": "getOwnPropertyDescriptor"
                     },
                     "computed": false,
@@ -63,14 +63,14 @@
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 294,
-                      "end": 303,
+                      "start": 291,
+                      "end": 300,
                       "name": "arguments"
                     },
                     {
                       "type": "Literal",
-                      "start": 304,
-                      "end": 312,
+                      "start": 301,
+                      "end": 309,
                       "value": "length"
                     }
                   ],
@@ -82,26 +82,26 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 317,
-            "end": 354,
+            "start": 314,
+            "end": 351,
             "expression": {
               "type": "CallExpression",
-              "start": 317,
-              "end": 353,
+              "start": 314,
+              "end": 350,
               "callee": {
                 "type": "MemberExpression",
-                "start": 317,
-                "end": 336,
+                "start": 314,
+                "end": 333,
                 "object": {
                   "type": "Identifier",
-                  "start": 317,
-                  "end": 323,
+                  "start": 314,
+                  "end": 320,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 324,
-                  "end": 336,
+                  "start": 321,
+                  "end": 333,
                   "name": "notSameValue"
                 },
                 "computed": false,
@@ -110,14 +110,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 337,
-                  "end": 341,
+                  "start": 334,
+                  "end": 338,
                   "name": "desc"
                 },
                 {
                   "type": "Identifier",
-                  "start": 343,
-                  "end": 352,
+                  "start": 340,
+                  "end": 349,
                   "name": "undefined"
                 }
               ],
@@ -129,16 +129,16 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 358,
-      "end": 369,
+      "start": 354,
+      "end": 365,
       "expression": {
         "type": "CallExpression",
-        "start": 358,
-        "end": 368,
+        "start": 354,
+        "end": 364,
         "callee": {
           "type": "Identifier",
-          "start": 358,
-          "end": 366,
+          "start": 354,
+          "end": 362,
           "name": "testcase"
         },
         "arguments": [],

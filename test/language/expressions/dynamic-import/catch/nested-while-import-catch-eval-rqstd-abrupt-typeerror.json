@@ -97,7 +97,8 @@
                         "start": 1355,
                         "end": 1396,
                         "value": "./eval-rqstd-abrupt-err-type_FIXTURE.js"
-                      }
+                      },
+                      "options": null
                     },
                     "property": {
                       "type": "Identifier",

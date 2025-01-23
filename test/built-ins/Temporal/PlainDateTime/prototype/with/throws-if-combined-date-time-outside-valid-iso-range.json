@@ -1,0 +1,242 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 628,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 440,
+      "end": 519,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 444,
+          "end": 518,
+          "id": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 455,
+            "name": "minDateTime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 458,
+            "end": 518,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 462,
+              "end": 484,
+              "object": {
+                "type": "Identifier",
+                "start": 462,
+                "end": 470,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 471,
+                "end": 484,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 485,
+                "end": 492,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 486,
+                  "end": 492,
+                  "value": 271821
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 494,
+                "end": 495,
+                "value": 4
+              },
+              {
+                "type": "Literal",
+                "start": 497,
+                "end": 499,
+                "value": 19
+              },
+              {
+                "type": "Literal",
+                "start": 501,
+                "end": 502,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 504,
+                "end": 505,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 507,
+                "end": 508,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 510,
+                "end": 511,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 513,
+                "end": 514,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 516,
+                "end": 517,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 520,
+      "end": 558,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 524,
+          "end": 557,
+          "id": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 539,
+            "name": "zeroNanoseconds"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 542,
+            "end": 557,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 543,
+                "end": 556,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 543,
+                  "end": 553,
+                  "name": "nanosecond"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 555,
+                  "end": 556,
+                  "value": 0
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 560,
+      "end": 627,
+      "expression": {
+        "type": "CallExpression",
+        "start": 560,
+        "end": 626,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 560,
+          "end": 573,
+          "object": {
+            "type": "Identifier",
+            "start": 560,
+            "end": 566,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 573,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 574,
+            "end": 584,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 586,
+            "end": 625,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 592,
+              "end": 625,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 592,
+                "end": 608,
+                "object": {
+                  "type": "Identifier",
+                  "start": 592,
+                  "end": 603,
+                  "name": "minDateTime"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 604,
+                  "end": 608,
+                  "name": "with"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 609,
+                  "end": 624,
+                  "name": "zeroNanoseconds"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

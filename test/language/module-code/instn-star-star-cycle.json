@@ -25,7 +25,8 @@
         "start": 2147,
         "end": 2185,
         "value": "./instn-star-star-cycle-2_FIXTURE.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

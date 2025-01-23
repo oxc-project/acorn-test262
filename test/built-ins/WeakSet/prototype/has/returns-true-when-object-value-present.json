@@ -1,0 +1,173 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 550,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 464,
+      "end": 477,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 468,
+          "end": 476,
+          "id": {
+            "type": "Identifier",
+            "start": 468,
+            "end": 471,
+            "name": "foo"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 474,
+            "end": 476,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 478,
+      "end": 500,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 482,
+          "end": 499,
+          "id": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 483,
+            "name": "s"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 486,
+            "end": 499,
+            "callee": {
+              "type": "Identifier",
+              "start": 490,
+              "end": 497,
+              "name": "WeakSet"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 502,
+      "end": 513,
+      "expression": {
+        "type": "CallExpression",
+        "start": 502,
+        "end": 512,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 502,
+          "end": 507,
+          "object": {
+            "type": "Identifier",
+            "start": 502,
+            "end": 503,
+            "name": "s"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 504,
+            "end": 507,
+            "name": "add"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 508,
+            "end": 511,
+            "name": "foo"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 514,
+      "end": 549,
+      "expression": {
+        "type": "CallExpression",
+        "start": 514,
+        "end": 548,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 514,
+          "end": 530,
+          "object": {
+            "type": "Identifier",
+            "start": 514,
+            "end": 520,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 530,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 531,
+            "end": 541,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 531,
+              "end": 536,
+              "object": {
+                "type": "Identifier",
+                "start": 531,
+                "end": 532,
+                "name": "s"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 533,
+                "end": 536,
+                "name": "has"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 537,
+                "end": 540,
+                "name": "foo"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 543,
+            "end": 547,
+            "value": true
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

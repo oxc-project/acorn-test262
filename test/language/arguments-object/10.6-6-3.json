@@ -24,23 +24,23 @@
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 303,
-            "end": 328,
+            "start": 301,
+            "end": 326,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 307,
-                "end": 327,
+                "start": 305,
+                "end": 325,
                 "id": {
                   "type": "Identifier",
-                  "start": 307,
-                  "end": 316,
+                  "start": 305,
+                  "end": 314,
                   "name": "arguments"
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 318,
-                  "end": 327,
+                  "start": 316,
+                  "end": 325,
                   "name": "undefined"
                 }
               }
@@ -49,20 +49,20 @@
           },
           {
             "type": "ExpressionStatement",
-            "start": 330,
-            "end": 389,
+            "start": 331,
+            "end": 390,
             "expression": {
               "type": "CallExpression",
-              "start": 330,
-              "end": 388,
+              "start": 331,
+              "end": 389,
               "callee": {
                 "type": "ParenthesizedExpression",
-                "start": 330,
-                "end": 386,
+                "start": 331,
+                "end": 387,
                 "expression": {
                   "type": "FunctionExpression",
-                  "start": 331,
-                  "end": 385,
+                  "start": 332,
+                  "end": 386,
                   "id": null,
                   "expression": false,
                   "generator": false,
@@ -70,31 +70,31 @@
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 343,
-                    "end": 385,
+                    "start": 344,
+                    "end": 386,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 345,
-                        "end": 383,
+                        "start": 346,
+                        "end": 384,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 345,
-                          "end": 382,
+                          "start": 346,
+                          "end": 383,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 345,
-                            "end": 361,
+                            "start": 346,
+                            "end": 362,
                             "object": {
                               "type": "Identifier",
-                              "start": 345,
-                              "end": 351,
+                              "start": 346,
+                              "end": 352,
                               "name": "assert"
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 352,
-                              "end": 361,
+                              "start": 353,
+                              "end": 362,
                               "name": "sameValue"
                             },
                             "computed": false,
@@ -103,18 +103,18 @@
                           "arguments": [
                             {
                               "type": "MemberExpression",
-                              "start": 362,
-                              "end": 378,
+                              "start": 363,
+                              "end": 379,
                               "object": {
                                 "type": "Identifier",
-                                "start": 362,
-                                "end": 371,
+                                "start": 363,
+                                "end": 372,
                                 "name": "arguments"
                               },
                               "property": {
                                 "type": "Identifier",
-                                "start": 372,
-                                "end": 378,
+                                "start": 373,
+                                "end": 379,
                                 "name": "length"
                               },
                               "computed": false,
@@ -122,8 +122,8 @@
                             },
                             {
                               "type": "Literal",
-                              "start": 380,
-                              "end": 381,
+                              "start": 381,
+                              "end": 382,
                               "value": 0
                             }
                           ],

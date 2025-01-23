@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 382,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 233,
+      "end": 295,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 239,
+          "end": 294,
+          "id": {
+            "type": "Identifier",
+            "start": 239,
+            "end": 245,
+            "name": "result"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 248,
+            "end": 294,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 252,
+              "end": 270,
+              "object": {
+                "type": "Identifier",
+                "start": 252,
+                "end": 260,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 261,
+                "end": 270,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 271,
+                "end": 275,
+                "value": 2024
+              },
+              {
+                "type": "Literal",
+                "start": 277,
+                "end": 278,
+                "value": 7
+              },
+              {
+                "type": "Literal",
+                "start": 280,
+                "end": 281,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 283,
+                "end": 293,
+                "value": "islamicc"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 296,
+      "end": 381,
+      "expression": {
+        "type": "CallExpression",
+        "start": 296,
+        "end": 380,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 296,
+          "end": 312,
+          "object": {
+            "type": "Identifier",
+            "start": 296,
+            "end": 302,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 303,
+            "end": 312,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 313,
+            "end": 330,
+            "object": {
+              "type": "Identifier",
+              "start": 313,
+              "end": 319,
+              "name": "result"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 320,
+              "end": 330,
+              "name": "calendarId"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 332,
+            "end": 347,
+            "value": "islamic-civil"
+          },
+          {
+            "type": "Literal",
+            "start": 349,
+            "end": 379,
+            "value": "calendar ID is canonicalized"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

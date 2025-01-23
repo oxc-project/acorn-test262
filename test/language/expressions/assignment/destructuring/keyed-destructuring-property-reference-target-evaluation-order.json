@@ -787,15 +787,15 @@
               },
               {
                 "type": "Literal",
-                "start": 1911,
-                "end": 1932,
-                "value": "target-key-tostring"
+                "start": 1915,
+                "end": 1920,
+                "value": "get"
               },
               {
                 "type": "Literal",
-                "start": 1938,
+                "start": 1922,
                 "end": 1943,
-                "value": "get"
+                "value": "target-key-tostring"
               },
               {
                 "type": "Literal",

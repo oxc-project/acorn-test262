@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 671,
+  "end": 658,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -57,12 +57,12 @@
     {
       "type": "VariableDeclaration",
       "start": 341,
-      "end": 412,
+      "end": 399,
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 347,
-          "end": 411,
+          "end": 398,
           "id": {
             "type": "Identifier",
             "start": 347,
@@ -72,8 +72,8 @@
           "init": {
             "type": "Literal",
             "start": 353,
-            "end": 411,
-            "value": "1970-01-01T00:02:00.000000000+00:02[+00:01:30.987654321]"
+            "end": 398,
+            "value": "1970-01-01T00:02:00.000000000+00:02[+01:30]"
           }
         }
       ],
@@ -81,26 +81,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 414,
-      "end": 541,
+      "start": 401,
+      "end": 528,
       "expression": {
         "type": "CallExpression",
-        "start": 414,
-        "end": 540,
+        "start": 401,
+        "end": 527,
         "callee": {
           "type": "MemberExpression",
-          "start": 414,
-          "end": 430,
+          "start": 401,
+          "end": 417,
           "object": {
             "type": "Identifier",
-            "start": 414,
-            "end": 420,
+            "start": 401,
+            "end": 407,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 421,
-            "end": 430,
+            "start": 408,
+            "end": 417,
             "name": "sameValue"
           },
           "computed": false,
@@ -109,26 +109,26 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 431,
-            "end": 467,
+            "start": 418,
+            "end": 454,
             "callee": {
               "type": "MemberExpression",
-              "start": 431,
-              "end": 455,
+              "start": 418,
+              "end": 442,
               "object": {
                 "type": "MemberExpression",
-                "start": 431,
-                "end": 447,
+                "start": 418,
+                "end": 434,
                 "object": {
                   "type": "Identifier",
-                  "start": 431,
-                  "end": 439,
+                  "start": 418,
+                  "end": 426,
                   "name": "Temporal"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 440,
-                  "end": 447,
+                  "start": 427,
+                  "end": 434,
                   "name": "Instant"
                 },
                 "computed": false,
@@ -136,8 +136,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 448,
-                "end": 455,
+                "start": 435,
+                "end": 442,
                 "name": "compare"
               },
               "computed": false,
@@ -146,14 +146,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 456,
-                "end": 459,
+                "start": 443,
+                "end": 446,
                 "name": "str"
               },
               {
                 "type": "Identifier",
-                "start": 461,
-                "end": 466,
+                "start": 448,
+                "end": 453,
                 "name": "epoch"
               }
             ],
@@ -161,14 +161,14 @@
           },
           {
             "type": "Literal",
-            "start": 469,
-            "end": 470,
+            "start": 456,
+            "end": 457,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 472,
-            "end": 539,
+            "start": 459,
+            "end": 526,
             "value": "UTC offset determined from offset part of string (first argument)"
           }
         ],
@@ -177,26 +177,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 542,
-      "end": 670,
+      "start": 529,
+      "end": 657,
       "expression": {
         "type": "CallExpression",
-        "start": 542,
-        "end": 669,
+        "start": 529,
+        "end": 656,
         "callee": {
           "type": "MemberExpression",
-          "start": 542,
-          "end": 558,
+          "start": 529,
+          "end": 545,
           "object": {
             "type": "Identifier",
-            "start": 542,
-            "end": 548,
+            "start": 529,
+            "end": 535,
             "name": "assert"
           },
           "property": {
             "type": "Identifier",
-            "start": 549,
-            "end": 558,
+            "start": 536,
+            "end": 545,
             "name": "sameValue"
           },
           "computed": false,
@@ -205,26 +205,26 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 559,
-            "end": 595,
+            "start": 546,
+            "end": 582,
             "callee": {
               "type": "MemberExpression",
-              "start": 559,
-              "end": 583,
+              "start": 546,
+              "end": 570,
               "object": {
                 "type": "MemberExpression",
-                "start": 559,
-                "end": 575,
+                "start": 546,
+                "end": 562,
                 "object": {
                   "type": "Identifier",
-                  "start": 559,
-                  "end": 567,
+                  "start": 546,
+                  "end": 554,
                   "name": "Temporal"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 568,
-                  "end": 575,
+                  "start": 555,
+                  "end": 562,
                   "name": "Instant"
                 },
                 "computed": false,
@@ -232,8 +232,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 576,
-                "end": 583,
+                "start": 563,
+                "end": 570,
                 "name": "compare"
               },
               "computed": false,
@@ -242,14 +242,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 584,
-                "end": 589,
+                "start": 571,
+                "end": 576,
                 "name": "epoch"
               },
               {
                 "type": "Identifier",
-                "start": 591,
-                "end": 594,
+                "start": 578,
+                "end": 581,
                 "name": "str"
               }
             ],
@@ -257,14 +257,14 @@
           },
           {
             "type": "Literal",
-            "start": 597,
-            "end": 598,
+            "start": 584,
+            "end": 585,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 600,
-            "end": 668,
+            "start": 587,
+            "end": 655,
             "value": "UTC offset determined from offset part of string (second argument)"
           }
         ],

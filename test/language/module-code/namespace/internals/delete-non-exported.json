@@ -25,7 +25,8 @@
         "start": 581,
         "end": 607,
         "value": "./delete-non-exported.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",

@@ -211,7 +211,8 @@
                           "start": 928,
                           "end": 956,
                           "value": "./eval-self-once-module.js"
-                        }
+                        },
+                        "options": null
                       },
                       {
                         "type": "ImportExpression",
@@ -222,7 +223,8 @@
                           "start": 968,
                           "end": 996,
                           "value": "./eval-self-once-module.js"
-                        }
+                        },
+                        "options": null
                       }
                     ]
                   }
@@ -270,7 +272,8 @@
                             "start": 1072,
                             "end": 1100,
                             "value": "./eval-self-once-module.js"
-                          }
+                          },
+                          "options": null
                         }
                       }
                     },
@@ -291,7 +294,8 @@
                             "start": 1118,
                             "end": 1146,
                             "value": "./eval-self-once-module.js"
-                          }
+                          },
+                          "options": null
                         }
                       }
                     },

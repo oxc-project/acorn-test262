@@ -1,0 +1,438 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1058,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 594,
+      "end": 631,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 598,
+          "end": 630,
+          "id": {
+            "type": "Identifier",
+            "start": 598,
+            "end": 604,
+            "name": "target"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 607,
+            "end": 630,
+            "callee": {
+              "type": "Identifier",
+              "start": 607,
+              "end": 613,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 614,
+                "end": 629,
+                "value": "a description"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 632,
+      "end": 661,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 636,
+          "end": 660,
+          "id": {
+            "type": "Identifier",
+            "start": 636,
+            "end": 638,
+            "name": "wr"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 641,
+            "end": 660,
+            "callee": {
+              "type": "Identifier",
+              "start": 645,
+              "end": 652,
+              "name": "WeakRef"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 653,
+                "end": 659,
+                "name": "target"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 663,
+      "end": 741,
+      "expression": {
+        "type": "CallExpression",
+        "start": 663,
+        "end": 740,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 663,
+          "end": 679,
+          "object": {
+            "type": "Identifier",
+            "start": 663,
+            "end": 669,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 670,
+            "end": 679,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 680,
+            "end": 701,
+            "left": {
+              "type": "Identifier",
+              "start": 680,
+              "end": 682,
+              "name": "wr"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 694,
+              "end": 701,
+              "name": "WeakRef"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 703,
+            "end": 707,
+            "value": true
+          },
+          {
+            "type": "Literal",
+            "start": 709,
+            "end": 739,
+            "value": "object is instanceof WeakRef"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 742,
+      "end": 839,
+      "expression": {
+        "type": "CallExpression",
+        "start": 742,
+        "end": 838,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 742,
+          "end": 758,
+          "object": {
+            "type": "Identifier",
+            "start": 742,
+            "end": 748,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 749,
+            "end": 758,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 759,
+            "end": 784,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 759,
+              "end": 780,
+              "object": {
+                "type": "Identifier",
+                "start": 759,
+                "end": 765,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 766,
+                "end": 780,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 781,
+                "end": 783,
+                "name": "wr"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 786,
+            "end": 803,
+            "object": {
+              "type": "Identifier",
+              "start": 786,
+              "end": 793,
+              "name": "WeakRef"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 794,
+              "end": 803,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 805,
+            "end": 837,
+            "value": "prototype is WeakRef.prototype"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 841,
+      "end": 878,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 841,
+        "end": 877,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 841,
+          "end": 843,
+          "name": "wr"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 846,
+          "end": 877,
+          "callee": {
+            "type": "Identifier",
+            "start": 850,
+            "end": 857,
+            "name": "WeakRef"
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 858,
+              "end": 876,
+              "object": {
+                "type": "Identifier",
+                "start": 858,
+                "end": 864,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 865,
+                "end": 876,
+                "name": "hasInstance"
+              },
+              "computed": false,
+              "optional": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 880,
+      "end": 958,
+      "expression": {
+        "type": "CallExpression",
+        "start": 880,
+        "end": 957,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 880,
+          "end": 896,
+          "object": {
+            "type": "Identifier",
+            "start": 880,
+            "end": 886,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 887,
+            "end": 896,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 897,
+            "end": 918,
+            "left": {
+              "type": "Identifier",
+              "start": 897,
+              "end": 899,
+              "name": "wr"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 911,
+              "end": 918,
+              "name": "WeakRef"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 920,
+            "end": 924,
+            "value": true
+          },
+          {
+            "type": "Literal",
+            "start": 926,
+            "end": 956,
+            "value": "object is instanceof WeakRef"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 959,
+      "end": 1056,
+      "expression": {
+        "type": "CallExpression",
+        "start": 959,
+        "end": 1055,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 959,
+          "end": 975,
+          "object": {
+            "type": "Identifier",
+            "start": 959,
+            "end": 965,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 966,
+            "end": 975,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 976,
+            "end": 1001,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 976,
+              "end": 997,
+              "object": {
+                "type": "Identifier",
+                "start": 976,
+                "end": 982,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 983,
+                "end": 997,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 998,
+                "end": 1000,
+                "name": "wr"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1003,
+            "end": 1020,
+            "object": {
+              "type": "Identifier",
+              "start": 1003,
+              "end": 1010,
+              "name": "WeakRef"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1011,
+              "end": 1020,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1022,
+            "end": 1054,
+            "value": "prototype is WeakRef.prototype"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

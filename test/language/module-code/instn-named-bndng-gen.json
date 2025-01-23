@@ -295,7 +295,8 @@
         "start": 2207,
         "end": 2235,
         "value": "./instn-named-bndng-gen.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",

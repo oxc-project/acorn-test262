@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 758,
+  "end": 866,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -273,88 +273,95 @@
     {
       "type": "ExpressionStatement",
       "start": 585,
-      "end": 671,
+      "end": 727,
       "expression": {
         "type": "CallExpression",
         "start": 585,
-        "end": 670,
+        "end": 726,
         "callee": {
-          "type": "MemberExpression",
+          "type": "Identifier",
           "start": 585,
-          "end": 601,
-          "object": {
-            "type": "Identifier",
-            "start": 585,
-            "end": 591,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 592,
-            "end": 601,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "end": 591,
+          "name": "assert"
         },
         "arguments": [
           {
-            "type": "CallExpression",
-            "start": 605,
-            "end": 661,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 605,
-              "end": 631,
-              "object": {
+            "type": "UnaryExpression",
+            "start": 595,
+            "end": 662,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 596,
+              "end": 662,
+              "callee": {
                 "type": "MemberExpression",
-                "start": 605,
-                "end": 626,
+                "start": 596,
+                "end": 632,
                 "object": {
-                  "type": "Identifier",
-                  "start": 605,
-                  "end": 611,
-                  "name": "Object"
+                  "type": "MemberExpression",
+                  "start": 596,
+                  "end": 627,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 596,
+                    "end": 612,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 596,
+                      "end": 602,
+                      "name": "Object"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 603,
+                      "end": 612,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 613,
+                    "end": 627,
+                    "name": "hasOwnProperty"
+                  },
+                  "computed": false,
+                  "optional": false
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 612,
-                  "end": 626,
-                  "name": "hasOwnProperty"
+                  "start": 628,
+                  "end": 632,
+                  "name": "call"
                 },
                 "computed": false,
                 "optional": false
               },
-              "property": {
-                "type": "Identifier",
-                "start": 627,
-                "end": 631,
-                "name": "call"
-              },
-              "computed": false,
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 633,
+                  "end": 636,
+                  "name": "obj"
+                },
+                {
+                  "type": "Literal",
+                  "start": 638,
+                  "end": 661,
+                  "value": "propNameViaIdentifier"
+                }
+              ],
               "optional": false
-            },
-            "arguments": [
-              {
-                "type": "Identifier",
-                "start": 632,
-                "end": 635,
-                "name": "obj"
-              },
-              {
-                "type": "Literal",
-                "start": 637,
-                "end": 660,
-                "value": "propNameViaIdentifier"
-              }
-            ],
-            "optional": false
+            }
           },
           {
             "type": "Literal",
-            "start": 663,
-            "end": 668,
-            "value": false
+            "start": 666,
+            "end": 724,
+            "value": "The property name is not taken from the 'yield' variable"
           }
         ],
         "optional": false
@@ -362,54 +369,54 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 672,
-      "end": 757,
+      "start": 728,
+      "end": 865,
       "expression": {
         "type": "CallExpression",
-        "start": 672,
-        "end": 756,
+        "start": 728,
+        "end": 864,
         "callee": {
-          "type": "MemberExpression",
-          "start": 672,
-          "end": 688,
-          "object": {
-            "type": "Identifier",
-            "start": 672,
-            "end": 678,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 679,
-            "end": 688,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
+          "type": "Identifier",
+          "start": 728,
+          "end": 734,
+          "name": "assert"
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 692,
-            "end": 748,
+            "start": 738,
+            "end": 804,
             "callee": {
               "type": "MemberExpression",
-              "start": 692,
-              "end": 718,
+              "start": 738,
+              "end": 774,
               "object": {
                 "type": "MemberExpression",
-                "start": 692,
-                "end": 713,
+                "start": 738,
+                "end": 769,
                 "object": {
-                  "type": "Identifier",
-                  "start": 692,
-                  "end": 698,
-                  "name": "Object"
+                  "type": "MemberExpression",
+                  "start": 738,
+                  "end": 754,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 738,
+                    "end": 744,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 745,
+                    "end": 754,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 699,
-                  "end": 713,
+                  "start": 755,
+                  "end": 769,
                   "name": "hasOwnProperty"
                 },
                 "computed": false,
@@ -417,8 +424,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 714,
-                "end": 718,
+                "start": 770,
+                "end": 774,
                 "name": "call"
               },
               "computed": false,
@@ -427,14 +434,14 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 719,
-                "end": 722,
+                "start": 775,
+                "end": 778,
                 "name": "obj"
               },
               {
                 "type": "Literal",
-                "start": 724,
-                "end": 747,
+                "start": 780,
+                "end": 803,
                 "value": "propNameViaExpression"
               }
             ],
@@ -442,9 +449,9 @@
           },
           {
             "type": "Literal",
-            "start": 750,
-            "end": 754,
-            "value": true
+            "start": 808,
+            "end": 862,
+            "value": "The property name is taken from the yield expression"
           }
         ],
         "optional": false

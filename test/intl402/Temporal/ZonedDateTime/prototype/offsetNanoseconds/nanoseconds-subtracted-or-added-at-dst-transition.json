@@ -1,0 +1,519 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1375,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 829,
+      "end": 925,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 833,
+          "end": 924,
+          "id": {
+            "type": "Identifier",
+            "start": 833,
+            "end": 834,
+            "name": "p"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 837,
+            "end": 924,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 837,
+              "end": 901,
+              "object": {
+                "type": "CallExpression",
+                "start": 837,
+                "end": 882,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 837,
+                  "end": 858,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 837,
+                    "end": 853,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 837,
+                      "end": 845,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 846,
+                      "end": 853,
+                      "name": "Instant"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 854,
+                    "end": 858,
+                    "name": "from"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 859,
+                    "end": 881,
+                    "value": "1965-04-25T09:00:00Z"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 883,
+                "end": 901,
+                "name": "toZonedDateTimeISO"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 902,
+                "end": 923,
+                "value": "America/Los_Angeles"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 927,
+      "end": 963,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 933,
+          "end": 962,
+          "id": {
+            "type": "Identifier",
+            "start": 933,
+            "end": 942,
+            "name": "nsPerHour"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 945,
+            "end": 962,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 945,
+              "end": 952,
+              "left": {
+                "type": "Literal",
+                "start": 945,
+                "end": 947,
+                "value": 60
+              },
+              "operator": "*",
+              "right": {
+                "type": "Literal",
+                "start": 950,
+                "end": 952,
+                "value": 60
+              }
+            },
+            "operator": "*",
+            "right": {
+              "type": "BinaryExpression",
+              "start": 955,
+              "end": 962,
+              "left": {
+                "type": "Literal",
+                "start": 955,
+                "end": 959,
+                "value": 1000
+              },
+              "operator": "**",
+              "right": {
+                "type": "Literal",
+                "start": 961,
+                "end": 962,
+                "value": 3
+              }
+            }
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 965,
+      "end": 1071,
+      "expression": {
+        "type": "CallExpression",
+        "start": 965,
+        "end": 1070,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 965,
+          "end": 981,
+          "object": {
+            "type": "Identifier",
+            "start": 965,
+            "end": 971,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 972,
+            "end": 981,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 982,
+            "end": 1001,
+            "object": {
+              "type": "Identifier",
+              "start": 982,
+              "end": 983,
+              "name": "p"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 984,
+              "end": 1001,
+              "name": "offsetNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 1020,
+            "end": 1034,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 1020,
+              "end": 1022,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 1021,
+                "end": 1022,
+                "value": 7
+              }
+            },
+            "operator": "*",
+            "right": {
+              "type": "Identifier",
+              "start": 1025,
+              "end": 1034,
+              "name": "nsPerHour"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1053,
+            "end": 1069,
+            "value": "DST transition"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1073,
+      "end": 1222,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1073,
+        "end": 1221,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1073,
+          "end": 1089,
+          "object": {
+            "type": "Identifier",
+            "start": 1073,
+            "end": 1079,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1080,
+            "end": 1089,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1090,
+            "end": 1132,
+            "object": {
+              "type": "CallExpression",
+              "start": 1090,
+              "end": 1114,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1090,
+                "end": 1095,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1090,
+                  "end": 1091,
+                  "name": "p"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1092,
+                  "end": 1095,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 1096,
+                  "end": 1113,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 1097,
+                      "end": 1112,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1097,
+                        "end": 1108,
+                        "name": "nanoseconds"
+                      },
+                      "value": {
+                        "type": "UnaryExpression",
+                        "start": 1110,
+                        "end": 1112,
+                        "operator": "+",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 1111,
+                          "end": 1112,
+                          "value": 1
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1115,
+              "end": 1132,
+              "name": "offsetNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 1151,
+            "end": 1165,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 1151,
+              "end": 1153,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 1152,
+                "end": 1153,
+                "value": 7
+              }
+            },
+            "operator": "*",
+            "right": {
+              "type": "Identifier",
+              "start": 1156,
+              "end": 1165,
+              "name": "nsPerHour"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1184,
+            "end": 1220,
+            "value": "DST transition plus one nanosecond"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1224,
+      "end": 1374,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1224,
+        "end": 1373,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1224,
+          "end": 1240,
+          "object": {
+            "type": "Identifier",
+            "start": 1224,
+            "end": 1230,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1231,
+            "end": 1240,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1241,
+            "end": 1283,
+            "object": {
+              "type": "CallExpression",
+              "start": 1241,
+              "end": 1265,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1241,
+                "end": 1246,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1241,
+                  "end": 1242,
+                  "name": "p"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1243,
+                  "end": 1246,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 1247,
+                  "end": 1264,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 1248,
+                      "end": 1263,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1248,
+                        "end": 1259,
+                        "name": "nanoseconds"
+                      },
+                      "value": {
+                        "type": "UnaryExpression",
+                        "start": 1261,
+                        "end": 1263,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 1262,
+                          "end": 1263,
+                          "value": 1
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1266,
+              "end": 1283,
+              "name": "offsetNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 1302,
+            "end": 1316,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 1302,
+              "end": 1304,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 1303,
+                "end": 1304,
+                "value": 8
+              }
+            },
+            "operator": "*",
+            "right": {
+              "type": "Identifier",
+              "start": 1307,
+              "end": 1316,
+              "name": "nsPerHour"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1335,
+            "end": 1372,
+            "value": "DST transition minus one nanosecond"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

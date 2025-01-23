@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 342,
+  "end": 344,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 243,
-      "end": 341,
+      "end": 343,
       "expression": {
         "type": "CallExpression",
         "start": 243,
-        "end": 340,
+        "end": 342,
         "callee": {
           "type": "MemberExpression",
           "start": 243,
@@ -34,7 +34,7 @@
           {
             "type": "CallExpression",
             "start": 260,
-            "end": 285,
+            "end": 286,
             "callee": {
               "type": "MemberExpression",
               "start": 260,
@@ -58,29 +58,36 @@
               {
                 "type": "NewExpression",
                 "start": 274,
-                "end": 284,
+                "end": 285,
                 "callee": {
                   "type": "Identifier",
                   "start": 278,
                   "end": 282,
                   "name": "Date"
                 },
-                "arguments": []
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 283,
+                    "end": 284,
+                    "value": 0
+                  }
+                ]
               }
             ],
             "optional": false
           },
           {
             "type": "Literal",
-            "start": 287,
-            "end": 292,
+            "start": 288,
+            "end": 293,
             "value": false
           },
           {
             "type": "Literal",
-            "start": 294,
-            "end": 339,
-            "value": "Array.isArray(new Date()) must return false"
+            "start": 295,
+            "end": 341,
+            "value": "Array.isArray(new Date(0)) must return false"
           }
         ],
         "optional": false

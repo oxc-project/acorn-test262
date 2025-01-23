@@ -1,0 +1,220 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 833,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 568,
+      "end": 645,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 572,
+          "end": 644,
+          "id": {
+            "type": "Identifier",
+            "start": 572,
+            "end": 581,
+            "name": "wontThrow"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 584,
+            "end": 644,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 588,
+              "end": 605,
+              "object": {
+                "type": "Identifier",
+                "start": 588,
+                "end": 592,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 593,
+                "end": 605,
+                "name": "NumberFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 606,
+                "end": 615,
+                "name": "undefined"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 617,
+                "end": 643,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 618,
+                    "end": 642,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 618,
+                      "end": 639,
+                      "name": "minimumFractionDigits"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 641,
+                      "end": 642,
+                      "value": 0
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 647,
+      "end": 832,
+      "expression": {
+        "type": "CallExpression",
+        "start": 647,
+        "end": 831,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 647,
+          "end": 660,
+          "object": {
+            "type": "Identifier",
+            "start": 647,
+            "end": 653,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 654,
+            "end": 660,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 661,
+            "end": 671,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 673,
+            "end": 766,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 685,
+              "end": 766,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 695,
+                  "end": 764,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 702,
+                    "end": 763,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 706,
+                      "end": 723,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 706,
+                        "end": 710,
+                        "name": "Intl"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 711,
+                        "end": 723,
+                        "name": "NumberFormat"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 724,
+                        "end": 733,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 735,
+                        "end": 762,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 736,
+                            "end": 761,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 736,
+                              "end": 757,
+                              "name": "minimumFractionDigits"
+                            },
+                            "value": {
+                              "type": "UnaryExpression",
+                              "start": 759,
+                              "end": 761,
+                              "operator": "-",
+                              "prefix": true,
+                              "argument": {
+                                "type": "Literal",
+                                "start": 760,
+                                "end": 761,
+                                "value": 1
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 768,
+            "end": 830,
+            "value": "Throws RangeError when minimumFractionDigits is less than 0."
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

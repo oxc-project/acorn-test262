@@ -40,7 +40,8 @@
                   "start": 1399,
                   "end": 1439,
                   "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js"
-                }
+                },
+                "options": null
               }
             }
           }

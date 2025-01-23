@@ -13,7 +13,8 @@
         "start": 959,
         "end": 980,
         "value": "./eval-self-once.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -25,7 +26,8 @@
         "start": 989,
         "end": 1010,
         "value": "./eval-self-once.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -49,7 +51,8 @@
         "start": 1033,
         "end": 1054,
         "value": "./eval-self-once.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -73,7 +76,8 @@
         "start": 1074,
         "end": 1095,
         "value": "./eval-self-once.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -86,7 +90,8 @@
         "start": 1112,
         "end": 1133,
         "value": "./eval-self-once.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -110,7 +115,8 @@
         "start": 1157,
         "end": 1178,
         "value": "./eval-self-once.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -122,7 +128,8 @@
         "start": 1194,
         "end": 1215,
         "value": "./eval-self-once.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -139,7 +146,8 @@
         "start": 1238,
         "end": 1259,
         "value": "./eval-self-once.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -174,7 +182,8 @@
         "start": 1288,
         "end": 1309,
         "value": "./eval-self-once.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

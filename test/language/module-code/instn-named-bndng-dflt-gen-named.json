@@ -178,7 +178,8 @@
         "start": 2051,
         "end": 2090,
         "value": "./instn-named-bndng-dflt-gen-named.js"
-      }
+      },
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

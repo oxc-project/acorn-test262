@@ -1,0 +1,646 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3295,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 2691,
+      "end": 2716,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2695,
+          "end": 2715,
+          "id": {
+            "type": "Identifier",
+            "start": 2695,
+            "end": 2698,
+            "name": "re1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2701,
+            "end": 2715,
+            "value": null,
+            "regex": {
+              "pattern": "(?i:\\P{Lu})",
+              "flags": "u"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2717,
+      "end": 2780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2717,
+        "end": 2779,
+        "callee": {
+          "type": "Identifier",
+          "start": 2717,
+          "end": 2723,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2724,
+            "end": 2737,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2724,
+              "end": 2732,
+              "object": {
+                "type": "Identifier",
+                "start": 2724,
+                "end": 2727,
+                "name": "re1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2728,
+                "end": 2732,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2733,
+                "end": 2736,
+                "value": "A"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2739,
+            "end": 2778,
+            "value": "\\P{Lu} should match A (ignores case)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2781,
+      "end": 2829,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2781,
+        "end": 2828,
+        "callee": {
+          "type": "Identifier",
+          "start": 2781,
+          "end": 2787,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2788,
+            "end": 2801,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2788,
+              "end": 2796,
+              "object": {
+                "type": "Identifier",
+                "start": 2788,
+                "end": 2791,
+                "name": "re1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2792,
+                "end": 2796,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2797,
+                "end": 2800,
+                "value": "a"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2803,
+            "end": 2827,
+            "value": "\\P{Lu} should match a"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2830,
+      "end": 2893,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2830,
+        "end": 2892,
+        "callee": {
+          "type": "Identifier",
+          "start": 2830,
+          "end": 2836,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2837,
+            "end": 2850,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2837,
+              "end": 2845,
+              "object": {
+                "type": "Identifier",
+                "start": 2837,
+                "end": 2840,
+                "name": "re1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2841,
+                "end": 2845,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2846,
+                "end": 2849,
+                "value": "Z"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2852,
+            "end": 2891,
+            "value": "\\P{Lu} should match Z (ignores case)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2894,
+      "end": 2942,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2894,
+        "end": 2941,
+        "callee": {
+          "type": "Identifier",
+          "start": 2894,
+          "end": 2900,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2901,
+            "end": 2914,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2901,
+              "end": 2909,
+              "object": {
+                "type": "Identifier",
+                "start": 2901,
+                "end": 2904,
+                "name": "re1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2905,
+                "end": 2909,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2910,
+                "end": 2913,
+                "value": "z"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2916,
+            "end": 2940,
+            "value": "\\P{Lu} should match z"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2943,
+      "end": 2991,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2943,
+        "end": 2990,
+        "callee": {
+          "type": "Identifier",
+          "start": 2943,
+          "end": 2949,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2950,
+            "end": 2963,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2950,
+              "end": 2958,
+              "object": {
+                "type": "Identifier",
+                "start": 2950,
+                "end": 2953,
+                "name": "re1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2954,
+                "end": 2958,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2959,
+                "end": 2962,
+                "value": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2965,
+            "end": 2989,
+            "value": "\\P{Lu} should match 0"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2993,
+      "end": 3019,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2997,
+          "end": 3018,
+          "id": {
+            "type": "Identifier",
+            "start": 2997,
+            "end": 3000,
+            "name": "re2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 3003,
+            "end": 3018,
+            "value": null,
+            "regex": {
+              "pattern": "(?i-:\\P{Lu})",
+              "flags": "u"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3020,
+      "end": 3083,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3020,
+        "end": 3082,
+        "callee": {
+          "type": "Identifier",
+          "start": 3020,
+          "end": 3026,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3027,
+            "end": 3040,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3027,
+              "end": 3035,
+              "object": {
+                "type": "Identifier",
+                "start": 3027,
+                "end": 3030,
+                "name": "re2"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3031,
+                "end": 3035,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3036,
+                "end": 3039,
+                "value": "A"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3042,
+            "end": 3081,
+            "value": "\\P{Lu} should match A (ignores case)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3084,
+      "end": 3132,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3084,
+        "end": 3131,
+        "callee": {
+          "type": "Identifier",
+          "start": 3084,
+          "end": 3090,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3091,
+            "end": 3104,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3091,
+              "end": 3099,
+              "object": {
+                "type": "Identifier",
+                "start": 3091,
+                "end": 3094,
+                "name": "re2"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3095,
+                "end": 3099,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3100,
+                "end": 3103,
+                "value": "a"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3106,
+            "end": 3130,
+            "value": "\\P{Lu} should match a"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3133,
+      "end": 3196,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3133,
+        "end": 3195,
+        "callee": {
+          "type": "Identifier",
+          "start": 3133,
+          "end": 3139,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3140,
+            "end": 3153,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3140,
+              "end": 3148,
+              "object": {
+                "type": "Identifier",
+                "start": 3140,
+                "end": 3143,
+                "name": "re2"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3144,
+                "end": 3148,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3149,
+                "end": 3152,
+                "value": "Z"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3155,
+            "end": 3194,
+            "value": "\\P{Lu} should match Z (ignores case)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3197,
+      "end": 3245,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3197,
+        "end": 3244,
+        "callee": {
+          "type": "Identifier",
+          "start": 3197,
+          "end": 3203,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3204,
+            "end": 3217,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3204,
+              "end": 3212,
+              "object": {
+                "type": "Identifier",
+                "start": 3204,
+                "end": 3207,
+                "name": "re2"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3208,
+                "end": 3212,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3213,
+                "end": 3216,
+                "value": "z"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3219,
+            "end": 3243,
+            "value": "\\P{Lu} should match z"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3246,
+      "end": 3294,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3246,
+        "end": 3293,
+        "callee": {
+          "type": "Identifier",
+          "start": 3246,
+          "end": 3252,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3253,
+            "end": 3266,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3253,
+              "end": 3261,
+              "object": {
+                "type": "Identifier",
+                "start": 3253,
+                "end": 3256,
+                "name": "re2"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3257,
+                "end": 3261,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3262,
+                "end": 3265,
+                "value": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3268,
+            "end": 3292,
+            "value": "\\P{Lu} should match 0"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

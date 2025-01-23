@@ -1,16 +1,16 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1177,
+  "end": 1133,
   "body": [
     {
       "type": "ExpressionStatement",
       "start": 753,
-      "end": 1176,
+      "end": 1132,
       "expression": {
         "type": "CallExpression",
         "start": 753,
-        "end": 1175,
+        "end": 1131,
         "callee": {
           "type": "Identifier",
           "start": 753,
@@ -21,7 +21,7 @@
           {
             "type": "FunctionExpression",
             "start": 790,
-            "end": 1174,
+            "end": 1130,
             "id": null,
             "expression": false,
             "generator": false,
@@ -37,7 +37,7 @@
             "body": {
               "type": "BlockStatement",
               "start": 803,
-              "end": 1174,
+              "end": 1130,
               "body": [
                 {
                   "type": "VariableDeclaration",
@@ -180,11 +180,11 @@
                 {
                   "type": "ExpressionStatement",
                   "start": 946,
-                  "end": 1060,
+                  "end": 1016,
                   "expression": {
                     "type": "CallExpression",
                     "start": 946,
-                    "end": 1059,
+                    "end": 1015,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 946,
@@ -263,12 +263,6 @@
                             }
                           ]
                         }
-                      },
-                      {
-                        "type": "Literal",
-                        "start": 1016,
-                        "end": 1058,
-                        "value": "`sample.test262 = 1` throws Test262Error"
                       }
                     ],
                     "optional": false
@@ -276,26 +270,26 @@
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1064,
-                  "end": 1172,
+                  "start": 1020,
+                  "end": 1128,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1064,
-                    "end": 1171,
+                    "start": 1020,
+                    "end": 1127,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1064,
-                      "end": 1080,
+                      "start": 1020,
+                      "end": 1036,
                       "object": {
                         "type": "Identifier",
-                        "start": 1064,
-                        "end": 1070,
+                        "start": 1020,
+                        "end": 1026,
                         "name": "assert"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1071,
-                        "end": 1080,
+                        "start": 1027,
+                        "end": 1036,
                         "name": "sameValue"
                       },
                       "computed": false,
@@ -304,18 +298,18 @@
                     "arguments": [
                       {
                         "type": "MemberExpression",
-                        "start": 1081,
-                        "end": 1095,
+                        "start": 1037,
+                        "end": 1051,
                         "object": {
                           "type": "Identifier",
-                          "start": 1081,
-                          "end": 1087,
+                          "start": 1037,
+                          "end": 1043,
                           "name": "sample"
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 1088,
-                          "end": 1095,
+                          "start": 1044,
+                          "end": 1051,
                           "name": "test262"
                         },
                         "computed": false,
@@ -323,14 +317,14 @@
                       },
                       {
                         "type": "Identifier",
-                        "start": 1097,
-                        "end": 1106,
+                        "start": 1053,
+                        "end": 1062,
                         "name": "undefined"
                       },
                       {
                         "type": "Literal",
-                        "start": 1108,
-                        "end": 1170,
+                        "start": 1064,
+                        "end": 1126,
                         "value": "The value of sample.test262 is expected to equal `undefined`"
                       }
                     ],
