@@ -1,5 +1,4 @@
 import { Parser } from "acorn";
-import { importAssertions } from "acorn-import-assertions";
 import fs from "fs";
 import path from "path";
 import YAML from "yaml";
@@ -14,7 +13,7 @@ async function* walk(dir) {
 }
 
 for await (const p of walk("./test262/test")) {
-  if (p.includes("_FIXTURE")) {
+  if (p.includes("_FIXTURE") || p.includes("staging")) {
     continue;
   }
 
@@ -23,7 +22,6 @@ for await (const p of walk("./test262/test")) {
   const end = code.indexOf("---*/");
   const yaml = code.substring(start + 5, end);
   const preamble = YAML.parse(yaml);
-  const module = preamble.flags?.includes("module");
 
   const negative =
     preamble.negative?.phase === "parse" &&
@@ -33,6 +31,7 @@ for await (const p of walk("./test262/test")) {
     continue;
   }
 
+  const module = preamble.flags?.includes("module");
   const writePath = path.parse(path.join("./", p.replace(/^test262\//, "")));
   const writeFile = writePath.dir + "/" + writePath.name + ".json";
 
@@ -43,11 +42,13 @@ for await (const p of walk("./test262/test")) {
   }
 
   try {
-    let astJson = Parser.extend(importAssertions).parse(code, {
+    let astJson = Parser.parse(code, {
       ecmaVersion: "latest",
-      preserveParens: true,
       sourceType: module ? "module" : "script",
+      preserveParens: true,
       allowHashBang: true,
+      allowReturnOutsideFunction: true,
+      allowAwaitOutsideFunction: true,
     });
 
     const bigIntSerializer = (_key, value) => {
