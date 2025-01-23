@@ -1,1 +1,2 @@
-node_modules
+/test262
+/node_modules
