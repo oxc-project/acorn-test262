@@ -10,10 +10,9 @@
     "start": "node ./index.mjs"
   },
   "devDependencies": {
-    "acorn": "^8.7.1",
-    "acorn-import-assertions": "^1.8.0",
+    "acorn": "8.14.0",
     "degit": "^2.8.4",
-    "traverse": "^0.6.6",
+    "traverse": "^0.6.11",
     "yaml": "^1.10.2"
   }
 }
