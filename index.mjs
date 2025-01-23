@@ -21,7 +21,13 @@ for await (const p of walk("./test262/test")) {
   const start = code.indexOf("/*---");
   const end = code.indexOf("---*/");
   const yaml = code.substring(start + 5, end);
-  const preamble = YAML.parse(yaml);
+  let preamble;
+
+  try {
+    preamble = YAML.parse(yaml);
+  } catch(err) {
+    continue
+  }
 
   const negative =
     preamble.negative?.phase === "parse" &&
